@@ -1,0 +1,32 @@
+﻿{
+    "durum":  "05 Başlıyor - Görsel Kodlama Aşaması",
+    "proje":  "Jaguar-ltd",
+    "adimlar":  [
+                    {
+                        "gorev":  "Gereksiz dosyalarÄ± \u0027arsiv\u0027 klasÃ¶rÃ¼ne taÅŸÄ±",
+                        "id":  1,
+                        "tamamlandi":  true
+                    },
+                    {
+                        "gorev":  "Astro klasÃ¶r yapÄ±sÄ±nÄ± ana dizine sabitle",
+                        "id":  2,
+                        "tamamlandi":  true
+                    },
+                    {
+                        "gorev":  "KUSURSUZ_MASTER.json\u0027Ä± src/data/machines.json yap",
+                        "id":  3,
+                        "tamamlandi":  true
+                    },
+                    {
+                        "gorev":  "Duplicate klasÃ¶rleri (better-binary vb.) temizle",
+                        "id":  4,
+                        "tamamlandi":  true
+                    },
+                    {
+                        "gorev":  "Astro ana sayfa kodlamasÄ±nÄ± baÅŸlat",
+                        "id":  5,
+                        "tamamlandi":  false
+                    }
+                ],
+    "baslangic":  "2026-03-18"
+}

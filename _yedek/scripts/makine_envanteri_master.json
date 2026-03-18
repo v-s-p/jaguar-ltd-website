@@ -1,0 +1,2427 @@
+{
+  "pvc": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/pvc/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-3500/",
+        "slug": "vce-3500"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-4000/",
+        "slug": "vce-4000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wgm-202/",
+        "slug": "wgm-202"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mca-801/",
+        "slug": "mca-801"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-201-sd/",
+        "slug": "sm-201-sd"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pim-6508-se/",
+        "slug": "pim-6508-se"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gas-301/",
+        "slug": "gas-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cnc-611/",
+        "slug": "cnc-611"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mkn-serisi-150-300-301/",
+        "slug": "mkn-serisi-150-300-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rs-1000/",
+        "slug": "rs-1000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pwb-4100/",
+        "slug": "pwb-4100"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sdt-275/",
+        "slug": "sdt-275"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cnc-609/",
+        "slug": "cnc-609"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ryk-420-w-radyal-kesme-makinesi/",
+        "slug": "ryk-420-w-radyal-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/tk-503-pvc-tek-kose-kaynak-makinesi/",
+        "slug": "tk-503-pvc-tek-kose-kaynak-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/nsm-352-nsm-353-kanat-isleme-merkezi/",
+        "slug": "nsm-352-nsm-353-kanat-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pc-4000-profil-tasima-arabasi/",
+        "slug": "pc-4000-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-402-s-cift-kafa-kesme-makinesi/",
+        "slug": "kd-402-s-cift-kafa-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rt-1000-montaj-masasi/",
+        "slug": "rt-1000-montaj-masasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wb-4000-montaj-masasi/",
+        "slug": "wb-4000-montaj-masasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gpt-1000-cam-pencere-tasima-arabasi/",
+        "slug": "gpt-1000-cam-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-1000-pencere-tasima-arabasi/",
+        "slug": "pt-1000-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-2000-pencere-tasima-arabasi-cift-yonlu/",
+        "slug": "pt-2000-pencere-tasima-arabasi-cift-yonlu"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hp-1000-yatay-profil-tasima-arabasi/",
+        "slug": "hp-1000-yatay-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-1000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-1000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-2000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-2000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gt-1000-conta-tasima-arabasi/",
+        "slug": "gt-1000-conta-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/was-1000-pencere-montaj-istasyonu/",
+        "slug": "was-1000-pencere-montaj-istasyonu"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi/",
+        "slug": "km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-212-portatif-orta-kayit-alistirma-makinesi/",
+        "slug": "km-212-portatif-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-226-s-otomatik-kopya-freze-makinesi/",
+        "slug": "fr-226-s-otomatik-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-223-fr-223s-portatif-kopya-freze-makinesi/",
+        "slug": "fr-223-fr-223s-portatif-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-222-portatif-kopya-freze-makinesi/",
+        "slug": "fr-222-portatif-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/st-264-pvc-su-tahliye-makinesi/",
+        "slug": "st-264-pvc-su-tahliye-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/crm-201-s-kopya-freze-uclu-kol-yeri-ve-su-tahliye-makinesi/",
+        "slug": "crm-201-s-kopya-freze-uclu-kol-yeri-ve-su-tahliye-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi/",
+        "slug": "mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ccl-1661-pvc-kaynak-ve-kose-temizleme-makinesi/",
+        "slug": "ccl-1661-pvc-kaynak-ve-kose-temizleme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pim-6509-pvc-profil-isleme-merkezi/",
+        "slug": "pim-6509-pvc-profil-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-201-tek-kafa-destek-saci-vidalama-makinesi/",
+        "slug": "sm-201-tek-kafa-destek-saci-vidalama-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-206-tam-otomatik-cift-kafa-destek-saci-vidalama-makinesi/",
+        "slug": "sm-206-tam-otomatik-cift-kafa-destek-saci-vidalama-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ca-603-pvc-kose-temizleme-makinesi-4-6-bicakli/",
+        "slug": "ca-603-pvc-kose-temizleme-makinesi-4-6-bicakli"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ca-601-yari-otomatik-pvc-tek-kose-temizleme-makinesi/",
+        "slug": "ca-601-yari-otomatik-pvc-tek-kose-temizleme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dk-540-dort-kose-pvc-kaynak-makinesi/",
+        "slug": "dk-540-dort-kose-pvc-kaynak-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/tk-505-pvc-tek-kose-kaynak-makinesi/",
+        "slug": "tk-505-pvc-tek-kose-kaynak-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dk-502-pvc-cift-kose-kaynak-makinesi/",
+        "slug": "dk-502-pvc-cift-kose-kaynak-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/skn-300-450-600-otomatik-dayamali-dijital-konveyor/",
+        "slug": "skn-300-450-600-otomatik-dayamali-dijital-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor/",
+        "slug": "dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi/",
+        "slug": "hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-m-dereceli-kesme-makinesi/",
+        "slug": "kd-350-m-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-d-dereceli-kesme-makinesi/",
+        "slug": "kd-350-d-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-p-dereceli-kesme-makinesi/",
+        "slug": "kd-350-p-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ky-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "ky-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "kd-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-421-psd-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-421-psd-cift-kafa-kesme-makinesi-tam-otomatik"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-421-pbs-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-421-pbs-cift-kafa-kesme-makinesi-tam-otomatik"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ck-412-pvc-cita-kesme-makinesi/",
+        "slug": "ck-412-pvc-cita-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sdt-280-yari-otomatik-coklu-destek-saci-ve-profil-kesme-makinesi/",
+        "slug": "sdt-280-yari-otomatik-coklu-destek-saci-ve-profil-kesme-makinesi"
+      }
+    ]
+  },
+  "aluminyum": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/aluminyum/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-4000/",
+        "slug": "vce-4000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-1570/",
+        "slug": "vce-1570"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-7420/",
+        "slug": "aim-7420"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-4420/",
+        "slug": "aim-4420"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-130-cnc-cnc-otomatik-kose-presi/",
+        "slug": "kp-130-cnc-cnc-otomatik-kose-presi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gas-301/",
+        "slug": "gas-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cpm-4150-s/",
+        "slug": "cpm-4150-s"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mkn-serisi-150-300-301/",
+        "slug": "mkn-serisi-150-300-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rs-1000/",
+        "slug": "rs-1000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pwb-4100/",
+        "slug": "pwb-4100"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-3410-aluminyum-profil-isleme-merkezi/",
+        "slug": "aim-3410-aluminyum-profil-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cdc-600-bilesik-acili-otomatik-cift-kafa-kesme-makinesi/",
+        "slug": "cdc-600-bilesik-acili-otomatik-cift-kafa-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/alm-6510-aluminyum-profil-isleme-ve-kesme-merkezi/",
+        "slug": "alm-6510-aluminyum-profil-isleme-ve-kesme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pc-4000-profil-tasima-arabasi/",
+        "slug": "pc-4000-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-180-hidrolik-aluminyum-kose-birlestirme-presi/",
+        "slug": "kp-180-hidrolik-aluminyum-kose-birlestirme-presi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pye-101-pye-102-pye-103-pye-104-manuel-panc-pres/",
+        "slug": "pye-101-pye-102-pye-103-pye-104-manuel-panc-pres"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rt-1000-montaj-masasi/",
+        "slug": "rt-1000-montaj-masasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wb-4000-montaj-masasi/",
+        "slug": "wb-4000-montaj-masasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gpt-1000-cam-pencere-tasima-arabasi/",
+        "slug": "gpt-1000-cam-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-1000-pencere-tasima-arabasi/",
+        "slug": "pt-1000-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-2000-pencere-tasima-arabasi-cift-yonlu/",
+        "slug": "pt-2000-pencere-tasima-arabasi-cift-yonlu"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hp-1000-yatay-profil-tasima-arabasi/",
+        "slug": "hp-1000-yatay-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-1000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-1000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-2000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-2000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gt-1000-conta-tasima-arabasi/",
+        "slug": "gt-1000-conta-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/was-1000-pencere-montaj-istasyonu/",
+        "slug": "was-1000-pencere-montaj-istasyonu"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-110-pnomatik-aluminyum-kose-birlestirme-presi/",
+        "slug": "kp-110-pnomatik-aluminyum-kose-birlestirme-presi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi/",
+        "slug": "km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-212-portatif-orta-kayit-alistirma-makinesi/",
+        "slug": "km-212-portatif-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-211-manuel-orta-kayit-alistirma-makinesi/",
+        "slug": "km-211-manuel-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-223-fr-223s-portatif-kopya-freze-makinesi/",
+        "slug": "fr-223-fr-223s-portatif-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-221-s-pnomatik-kopya-freze-makinesi/",
+        "slug": "fr-221-s-pnomatik-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/crm-250-s-3-motorlu-kopya-freze/",
+        "slug": "crm-250-s-3-motorlu-kopya-freze"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi/",
+        "slug": "mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ncr-300-4-eksen-nc-kontrollu-freze-makinesi/",
+        "slug": "ncr-300-4-eksen-nc-kontrollu-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cpm-6161-cift-istasyonlu-kompozit-panel-isleme-merkezi/",
+        "slug": "cpm-6161-cift-istasyonlu-kompozit-panel-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-7510-aluminyum-profil-isleme-merkezi/",
+        "slug": "aim-7510-aluminyum-profil-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/skn-300-450-600-otomatik-dayamali-dijital-konveyor/",
+        "slug": "skn-300-450-600-otomatik-dayamali-dijital-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor/",
+        "slug": "dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi/",
+        "slug": "hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-p-dereceli-kesme-makinesi/",
+        "slug": "kd-400-p-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-d-dereceli-kesme-makinesi/",
+        "slug": "kd-400-d-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-m-dereceli-kesme-makinesi/",
+        "slug": "kd-400-m-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ky-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "ky-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "kd-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-550-skh-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-550-skh-cift-kafa-kesme-makinesi-tam-otomatik"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-550-pb-tam-otomatik-cift-kafa-kesme-makineleri/",
+        "slug": "dc-550-pb-tam-otomatik-cift-kafa-kesme-makineleri"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mk-420-mk-420ps-mk-450-manuel-alttan-cikma-kesme-makinesi/",
+        "slug": "mk-420-mk-420ps-mk-450-manuel-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ryk-420-radyal-kesme-makinesi/",
+        "slug": "ryk-420-radyal-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vk-420-v-kesme-90-kertme-makinesi/",
+        "slug": "vk-420-v-kesme-90-kertme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/snm-560-srv-servo-kontrollu-aluminyum-cephe-kertme-makinesi/",
+        "slug": "snm-560-srv-servo-kontrollu-aluminyum-cephe-kertme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/snm-560-m-aluminyum-cephe-kertme-makinesi-manuel/",
+        "slug": "snm-560-m-aluminyum-cephe-kertme-makinesi-manuel"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sk-500-d-otomatik-kesme-ve-delik-delme-makinesi/",
+        "slug": "sk-500-d-otomatik-kesme-ve-delik-delme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sk-500-otomatik-kesme-makinesi/",
+        "slug": "sk-500-otomatik-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/scm-420-l4-scm-420-l7-servo-kontrollu-seri-kesim-makinesi/",
+        "slug": "scm-420-l4-scm-420-l7-servo-kontrollu-seri-kesim-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-700-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-700-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-550-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-550-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-420-s-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-420-s-alttan-cikma-kesme-makinesi"
+      }
+    ]
+  },
+  "isleme-merkezleri": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/isleme-merkezleri/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-7420/",
+        "slug": "aim-7420"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-4420/",
+        "slug": "aim-4420"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cpm-4150-s/",
+        "slug": "cpm-4150-s"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-3410-aluminyum-profil-isleme-merkezi/",
+        "slug": "aim-3410-aluminyum-profil-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/alm-6510-aluminyum-profil-isleme-ve-kesme-merkezi/",
+        "slug": "alm-6510-aluminyum-profil-isleme-ve-kesme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cpm-6161-cift-istasyonlu-kompozit-panel-isleme-merkezi/",
+        "slug": "cpm-6161-cift-istasyonlu-kompozit-panel-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-7510-aluminyum-profil-isleme-merkezi/",
+        "slug": "aim-7510-aluminyum-profil-isleme-merkezi"
+      }
+    ]
+  },
+  "profil-isleme-kesim-merkezi": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/profil-isleme-kesim-merkezi/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-7420/",
+        "slug": "aim-7420"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-4420/",
+        "slug": "aim-4420"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-3410-aluminyum-profil-isleme-merkezi/",
+        "slug": "aim-3410-aluminyum-profil-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/alm-6510-aluminyum-profil-isleme-ve-kesme-merkezi/",
+        "slug": "alm-6510-aluminyum-profil-isleme-ve-kesme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/aim-7510-aluminyum-profil-isleme-merkezi/",
+        "slug": "aim-7510-aluminyum-profil-isleme-merkezi"
+      }
+    ]
+  },
+  "panel-isleme-merkezi": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/panel-isleme-merkezi/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cpm-4150-s/",
+        "slug": "cpm-4150-s"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cpm-6161-cift-istasyonlu-kompozit-panel-isleme-merkezi/",
+        "slug": "cpm-6161-cift-istasyonlu-kompozit-panel-isleme-merkezi"
+      }
+    ]
+  },
+  "kesim-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kesim-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cdc-600-bilesik-acili-otomatik-cift-kafa-kesme-makinesi/",
+        "slug": "cdc-600-bilesik-acili-otomatik-cift-kafa-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-p-dereceli-kesme-makinesi/",
+        "slug": "kd-400-p-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-d-dereceli-kesme-makinesi/",
+        "slug": "kd-400-d-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-m-dereceli-kesme-makinesi/",
+        "slug": "kd-400-m-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ky-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "ky-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "kd-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-550-skh-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-550-skh-cift-kafa-kesme-makinesi-tam-otomatik"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-550-pb-tam-otomatik-cift-kafa-kesme-makineleri/",
+        "slug": "dc-550-pb-tam-otomatik-cift-kafa-kesme-makineleri"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mk-420-mk-420ps-mk-450-manuel-alttan-cikma-kesme-makinesi/",
+        "slug": "mk-420-mk-420ps-mk-450-manuel-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ryk-420-radyal-kesme-makinesi/",
+        "slug": "ryk-420-radyal-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vk-420-v-kesme-90-kertme-makinesi/",
+        "slug": "vk-420-v-kesme-90-kertme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sk-500-d-otomatik-kesme-ve-delik-delme-makinesi/",
+        "slug": "sk-500-d-otomatik-kesme-ve-delik-delme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sk-500-otomatik-kesme-makinesi/",
+        "slug": "sk-500-otomatik-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/scm-420-l4-scm-420-l7-servo-kontrollu-seri-kesim-makinesi/",
+        "slug": "scm-420-l4-scm-420-l7-servo-kontrollu-seri-kesim-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-700-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-700-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-550-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-550-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-420-s-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-420-s-alttan-cikma-kesme-makinesi"
+      }
+    ]
+  },
+  "cift-kafa-kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/cift-kafa-kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cdc-600-bilesik-acili-otomatik-cift-kafa-kesme-makinesi/",
+        "slug": "cdc-600-bilesik-acili-otomatik-cift-kafa-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-550-skh-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-550-skh-cift-kafa-kesme-makinesi-tam-otomatik"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-550-pb-tam-otomatik-cift-kafa-kesme-makineleri/",
+        "slug": "dc-550-pb-tam-otomatik-cift-kafa-kesme-makineleri"
+      }
+    ]
+  },
+  "radyal-kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/radyal-kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ryk-420-radyal-kesme-makinesi/",
+        "slug": "ryk-420-radyal-kesme-makinesi"
+      }
+    ]
+  },
+  "tek-kafa-kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/tek-kafa-kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-p-dereceli-kesme-makinesi/",
+        "slug": "kd-400-p-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-d-dereceli-kesme-makinesi/",
+        "slug": "kd-400-d-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-400-m-dereceli-kesme-makinesi/",
+        "slug": "kd-400-m-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mk-420-mk-420ps-mk-450-manuel-alttan-cikma-kesme-makinesi/",
+        "slug": "mk-420-mk-420ps-mk-450-manuel-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-700-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-700-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-550-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-550-alttan-cikma-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ack-420-s-alttan-cikma-kesme-makinesi/",
+        "slug": "ack-420-s-alttan-cikma-kesme-makinesi"
+      }
+    ]
+  },
+  "dilimleme-kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/dilimleme-kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sk-500-d-otomatik-kesme-ve-delik-delme-makinesi/",
+        "slug": "sk-500-d-otomatik-kesme-ve-delik-delme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sk-500-otomatik-kesme-makinesi/",
+        "slug": "sk-500-otomatik-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/scm-420-l4-scm-420-l7-servo-kontrollu-seri-kesim-makinesi/",
+        "slug": "scm-420-l4-scm-420-l7-servo-kontrollu-seri-kesim-makinesi"
+      }
+    ]
+  },
+  "v-kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/v-kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vk-420-v-kesme-90-kertme-makinesi/",
+        "slug": "vk-420-v-kesme-90-kertme-makinesi"
+      }
+    ]
+  },
+  "portatif-kesim-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/portatif-kesim-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ky-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "ky-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "kd-305-portatif-dereceli-kesme-makinesi"
+      }
+    ]
+  },
+  "freze-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/freze-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-223-fr-223s-portatif-kopya-freze-makinesi/",
+        "slug": "fr-223-fr-223s-portatif-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-221-s-pnomatik-kopya-freze-makinesi/",
+        "slug": "fr-221-s-pnomatik-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/crm-250-s-3-motorlu-kopya-freze/",
+        "slug": "crm-250-s-3-motorlu-kopya-freze"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ncr-300-4-eksen-nc-kontrollu-freze-makinesi/",
+        "slug": "ncr-300-4-eksen-nc-kontrollu-freze-makinesi"
+      }
+    ]
+  },
+  "numeric-kontrollu-nc-freze": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/numeric-kontrollu-nc-freze/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ncr-300-4-eksen-nc-kontrollu-freze-makinesi/",
+        "slug": "ncr-300-4-eksen-nc-kontrollu-freze-makinesi"
+      }
+    ]
+  },
+  "kopya-freze": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kopya-freze/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-221-s-pnomatik-kopya-freze-makinesi/",
+        "slug": "fr-221-s-pnomatik-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/crm-250-s-3-motorlu-kopya-freze/",
+        "slug": "crm-250-s-3-motorlu-kopya-freze"
+      }
+    ]
+  },
+  "portatif-kopya-freze": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/portatif-kopya-freze/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-223-fr-223s-portatif-kopya-freze-makinesi/",
+        "slug": "fr-223-fr-223s-portatif-kopya-freze-makinesi"
+      }
+    ]
+  },
+  "kose-pres": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kose-pres/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-130-cnc-cnc-otomatik-kose-presi/",
+        "slug": "kp-130-cnc-cnc-otomatik-kose-presi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-180-hidrolik-aluminyum-kose-birlestirme-presi/",
+        "slug": "kp-180-hidrolik-aluminyum-kose-birlestirme-presi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-110-pnomatik-aluminyum-kose-birlestirme-presi/",
+        "slug": "kp-110-pnomatik-aluminyum-kose-birlestirme-presi"
+      }
+    ]
+  },
+  "cnc-otomatik-kose-presi": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/cnc-otomatik-kose-presi/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-130-cnc-cnc-otomatik-kose-presi/",
+        "slug": "kp-130-cnc-cnc-otomatik-kose-presi"
+      }
+    ]
+  },
+  "hidrolik-kose-presi": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/hidrolik-kose-presi/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-180-hidrolik-aluminyum-kose-birlestirme-presi/",
+        "slug": "kp-180-hidrolik-aluminyum-kose-birlestirme-presi"
+      }
+    ]
+  },
+  "pnomatik-kose-presi": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/pnomatik-kose-presi/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kp-110-pnomatik-aluminyum-kose-birlestirme-presi/",
+        "slug": "kp-110-pnomatik-aluminyum-kose-birlestirme-presi"
+      }
+    ]
+  },
+  "kertme-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kertme-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi/",
+        "slug": "km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-212-portatif-orta-kayit-alistirma-makinesi/",
+        "slug": "km-212-portatif-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-211-manuel-orta-kayit-alistirma-makinesi/",
+        "slug": "km-211-manuel-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi/",
+        "slug": "mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/snm-560-srv-servo-kontrollu-aluminyum-cephe-kertme-makinesi/",
+        "slug": "snm-560-srv-servo-kontrollu-aluminyum-cephe-kertme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/snm-560-m-aluminyum-cephe-kertme-makinesi-manuel/",
+        "slug": "snm-560-m-aluminyum-cephe-kertme-makinesi-manuel"
+      }
+    ]
+  },
+  "orta-kayit-kertme": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/orta-kayit-kertme/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi/",
+        "slug": "km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-211-manuel-orta-kayit-alistirma-makinesi/",
+        "slug": "km-211-manuel-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi/",
+        "slug": "mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi"
+      }
+    ]
+  },
+  "portatif-orta-kayit-kertme": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/portatif-orta-kayit-kertme/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-212-portatif-orta-kayit-alistirma-makinesi/",
+        "slug": "km-212-portatif-orta-kayit-alistirma-makinesi"
+      }
+    ]
+  },
+  "cephe-kertme": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/cephe-kertme/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/snm-560-srv-servo-kontrollu-aluminyum-cephe-kertme-makinesi/",
+        "slug": "snm-560-srv-servo-kontrollu-aluminyum-cephe-kertme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/snm-560-m-aluminyum-cephe-kertme-makinesi-manuel/",
+        "slug": "snm-560-m-aluminyum-cephe-kertme-makinesi-manuel"
+      }
+    ]
+  },
+  "pres-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/pres-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pye-101-pye-102-pye-103-pye-104-manuel-panc-pres/",
+        "slug": "pye-101-pye-102-pye-103-pye-104-manuel-panc-pres"
+      }
+    ]
+  },
+  "manuel-panc-pres": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/manuel-panc-pres/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pye-101-pye-102-pye-103-pye-104-manuel-panc-pres/",
+        "slug": "pye-101-pye-102-pye-103-pye-104-manuel-panc-pres"
+      }
+    ]
+  },
+  "tasima": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/tasima/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rs-1000/",
+        "slug": "rs-1000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pc-4000-profil-tasima-arabasi/",
+        "slug": "pc-4000-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gpt-1000-cam-pencere-tasima-arabasi/",
+        "slug": "gpt-1000-cam-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-1000-pencere-tasima-arabasi/",
+        "slug": "pt-1000-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-2000-pencere-tasima-arabasi-cift-yonlu/",
+        "slug": "pt-2000-pencere-tasima-arabasi-cift-yonlu"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hp-1000-yatay-profil-tasima-arabasi/",
+        "slug": "hp-1000-yatay-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-1000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-1000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-2000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-2000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gt-1000-conta-tasima-arabasi/",
+        "slug": "gt-1000-conta-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/was-1000-pencere-montaj-istasyonu/",
+        "slug": "was-1000-pencere-montaj-istasyonu"
+      }
+    ]
+  },
+  "arabalar": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/arabalar/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rs-1000/",
+        "slug": "rs-1000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pc-4000-profil-tasima-arabasi/",
+        "slug": "pc-4000-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gpt-1000-cam-pencere-tasima-arabasi/",
+        "slug": "gpt-1000-cam-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-1000-pencere-tasima-arabasi/",
+        "slug": "pt-1000-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-2000-pencere-tasima-arabasi-cift-yonlu/",
+        "slug": "pt-2000-pencere-tasima-arabasi-cift-yonlu"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hp-1000-yatay-profil-tasima-arabasi/",
+        "slug": "hp-1000-yatay-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-1000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-1000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-2000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-2000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gt-1000-conta-tasima-arabasi/",
+        "slug": "gt-1000-conta-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/was-1000-pencere-montaj-istasyonu/",
+        "slug": "was-1000-pencere-montaj-istasyonu"
+      }
+    ]
+  },
+  "aktarma": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/aktarma/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mkn-serisi-150-300-301/",
+        "slug": "mkn-serisi-150-300-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/skn-300-450-600-otomatik-dayamali-dijital-konveyor/",
+        "slug": "skn-300-450-600-otomatik-dayamali-dijital-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor/",
+        "slug": "dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi/",
+        "slug": "hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi"
+      }
+    ]
+  },
+  "konveyorler-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/konveyorler-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mkn-serisi-150-300-301/",
+        "slug": "mkn-serisi-150-300-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/skn-300-450-600-otomatik-dayamali-dijital-konveyor/",
+        "slug": "skn-300-450-600-otomatik-dayamali-dijital-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor/",
+        "slug": "dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi/",
+        "slug": "hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi"
+      }
+    ]
+  },
+  "talas-toplama": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/talas-toplama/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-4000/",
+        "slug": "vce-4000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-1570/",
+        "slug": "vce-1570"
+      }
+    ]
+  },
+  "vakumlu-talas-toplama": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/vakumlu-talas-toplama/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-4000/",
+        "slug": "vce-4000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-1570/",
+        "slug": "vce-1570"
+      }
+    ]
+  },
+  "montaj": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/montaj/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gas-301/",
+        "slug": "gas-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pwb-4100/",
+        "slug": "pwb-4100"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rt-1000-montaj-masasi/",
+        "slug": "rt-1000-montaj-masasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wb-4000-montaj-masasi/",
+        "slug": "wb-4000-montaj-masasi"
+      }
+    ]
+  },
+  "montaj-masalari": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/montaj-masalari/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gas-301/",
+        "slug": "gas-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pwb-4100/",
+        "slug": "pwb-4100"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rt-1000-montaj-masasi/",
+        "slug": "rt-1000-montaj-masasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wb-4000-montaj-masasi/",
+        "slug": "wb-4000-montaj-masasi"
+      }
+    ]
+  },
+  "isleme-merkezi": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/isleme-merkezi/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pim-6508-se/",
+        "slug": "pim-6508-se"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ccl-1661-pvc-kaynak-ve-kose-temizleme-makinesi/",
+        "slug": "ccl-1661-pvc-kaynak-ve-kose-temizleme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pim-6509-pvc-profil-isleme-merkezi/",
+        "slug": "pim-6509-pvc-profil-isleme-merkezi"
+      }
+    ]
+  },
+  "dort-kafa-kaynak-capak-alma-hatti-2023": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/dort-kafa-kaynak-capak-alma-hatti-2023/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ccl-1661-pvc-kaynak-ve-kose-temizleme-makinesi/",
+        "slug": "ccl-1661-pvc-kaynak-ve-kose-temizleme-makinesi"
+      }
+    ]
+  },
+  "profil-kesim-isleme-merkezi-2023": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/profil-kesim-isleme-merkezi-2023/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pim-6508-se/",
+        "slug": "pim-6508-se"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pim-6509-pvc-profil-isleme-merkezi/",
+        "slug": "pim-6509-pvc-profil-isleme-merkezi"
+      }
+    ]
+  },
+  "capak-alma": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/capak-alma/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wgm-202/",
+        "slug": "wgm-202"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cnc-611/",
+        "slug": "cnc-611"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cnc-609/",
+        "slug": "cnc-609"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ca-603-pvc-kose-temizleme-makinesi-4-6-bicakli/",
+        "slug": "ca-603-pvc-kose-temizleme-makinesi-4-6-bicakli"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ca-601-yari-otomatik-pvc-tek-kose-temizleme-makinesi/",
+        "slug": "ca-601-yari-otomatik-pvc-tek-kose-temizleme-makinesi"
+      }
+    ]
+  },
+  "cnc-capak-alma": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/cnc-capak-alma/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cnc-611/",
+        "slug": "cnc-611"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/cnc-609/",
+        "slug": "cnc-609"
+      }
+    ]
+  },
+  "manuel-capak-alma": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/manuel-capak-alma/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ca-603-pvc-kose-temizleme-makinesi-4-6-bicakli/",
+        "slug": "ca-603-pvc-kose-temizleme-makinesi-4-6-bicakli"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ca-601-yari-otomatik-pvc-tek-kose-temizleme-makinesi/",
+        "slug": "ca-601-yari-otomatik-pvc-tek-kose-temizleme-makinesi"
+      }
+    ]
+  },
+  "conta-capak-alma": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/conta-capak-alma/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wgm-202/",
+        "slug": "wgm-202"
+      }
+    ]
+  },
+  "kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sdt-275/",
+        "slug": "sdt-275"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ryk-420-w-radyal-kesme-makinesi/",
+        "slug": "ryk-420-w-radyal-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-402-s-cift-kafa-kesme-makinesi/",
+        "slug": "kd-402-s-cift-kafa-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-m-dereceli-kesme-makinesi/",
+        "slug": "kd-350-m-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-d-dereceli-kesme-makinesi/",
+        "slug": "kd-350-d-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-p-dereceli-kesme-makinesi/",
+        "slug": "kd-350-p-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ky-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "ky-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "kd-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-421-psd-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-421-psd-cift-kafa-kesme-makinesi-tam-otomatik"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-421-pbs-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-421-pbs-cift-kafa-kesme-makinesi-tam-otomatik"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ck-412-pvc-cita-kesme-makinesi/",
+        "slug": "ck-412-pvc-cita-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sdt-280-yari-otomatik-coklu-destek-saci-ve-profil-kesme-makinesi/",
+        "slug": "sdt-280-yari-otomatik-coklu-destek-saci-ve-profil-kesme-makinesi"
+      }
+    ]
+  },
+  "cift-kafa-kesim-mak-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/cift-kafa-kesim-mak-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-402-s-cift-kafa-kesme-makinesi/",
+        "slug": "kd-402-s-cift-kafa-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-421-psd-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-421-psd-cift-kafa-kesme-makinesi-tam-otomatik"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dc-421-pbs-cift-kafa-kesme-makinesi-tam-otomatik/",
+        "slug": "dc-421-pbs-cift-kafa-kesme-makinesi-tam-otomatik"
+      }
+    ]
+  },
+  "cita-kesme": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/cita-kesme/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ck-412-pvc-cita-kesme-makinesi/",
+        "slug": "ck-412-pvc-cita-kesme-makinesi"
+      }
+    ]
+  },
+  "destek-saci-serit-testere-kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/destek-saci-serit-testere-kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sdt-280-yari-otomatik-coklu-destek-saci-ve-profil-kesme-makinesi/",
+        "slug": "sdt-280-yari-otomatik-coklu-destek-saci-ve-profil-kesme-makinesi"
+      }
+    ]
+  },
+  "destek-saci-daire-testere-kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/destek-saci-daire-testere-kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sdt-275/",
+        "slug": "sdt-275"
+      }
+    ]
+  },
+  "tek-kafa-kesim-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/tek-kafa-kesim-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-m-dereceli-kesme-makinesi/",
+        "slug": "kd-350-m-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-d-dereceli-kesme-makinesi/",
+        "slug": "kd-350-d-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-350-p-dereceli-kesme-makinesi/",
+        "slug": "kd-350-p-dereceli-kesme-makinesi"
+      }
+    ]
+  },
+  "portatif-kesim": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/portatif-kesim/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/ky-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "ky-305-portatif-dereceli-kesme-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/kd-305-portatif-dereceli-kesme-makinesi/",
+        "slug": "kd-305-portatif-dereceli-kesme-makinesi"
+      }
+    ]
+  },
+  "freze-3": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/freze-3/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-226-s-otomatik-kopya-freze-makinesi/",
+        "slug": "fr-226-s-otomatik-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-223-fr-223s-portatif-kopya-freze-makinesi/",
+        "slug": "fr-223-fr-223s-portatif-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-222-portatif-kopya-freze-makinesi/",
+        "slug": "fr-222-portatif-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/st-264-pvc-su-tahliye-makinesi/",
+        "slug": "st-264-pvc-su-tahliye-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/crm-201-s-kopya-freze-uclu-kol-yeri-ve-su-tahliye-makinesi/",
+        "slug": "crm-201-s-kopya-freze-uclu-kol-yeri-ve-su-tahliye-makinesi"
+      }
+    ]
+  },
+  "kopya-freze-3": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kopya-freze-3/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-226-s-otomatik-kopya-freze-makinesi/",
+        "slug": "fr-226-s-otomatik-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/st-264-pvc-su-tahliye-makinesi/",
+        "slug": "st-264-pvc-su-tahliye-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/crm-201-s-kopya-freze-uclu-kol-yeri-ve-su-tahliye-makinesi/",
+        "slug": "crm-201-s-kopya-freze-uclu-kol-yeri-ve-su-tahliye-makinesi"
+      }
+    ]
+  },
+  "portatif-kopya-freze-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/portatif-kopya-freze-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-223-fr-223s-portatif-kopya-freze-makinesi/",
+        "slug": "fr-223-fr-223s-portatif-kopya-freze-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/fr-222-portatif-kopya-freze-makinesi/",
+        "slug": "fr-222-portatif-kopya-freze-makinesi"
+      }
+    ]
+  },
+  "kertme-3": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kertme-3/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi/",
+        "slug": "km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-212-portatif-orta-kayit-alistirma-makinesi/",
+        "slug": "km-212-portatif-orta-kayit-alistirma-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi/",
+        "slug": "mem-128-yari-otomatik-coklu-orta-kayit-alistirma-makinesi"
+      }
+    ]
+  },
+  "orta-kayit-kertme-mak": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/orta-kayit-kertme-mak/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi/",
+        "slug": "km-215-s-yari-otomatik-orta-kayit-alistirma-makinesi"
+      }
+    ]
+  },
+  "portatif-orta-kayit-kertme-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/portatif-orta-kayit-kertme-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/km-212-portatif-orta-kayit-alistirma-makinesi/",
+        "slug": "km-212-portatif-orta-kayit-alistirma-makinesi"
+      }
+    ]
+  },
+  "vidalama": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/vidalama/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mca-801/",
+        "slug": "mca-801"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-201-sd/",
+        "slug": "sm-201-sd"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-201-tek-kafa-destek-saci-vidalama-makinesi/",
+        "slug": "sm-201-tek-kafa-destek-saci-vidalama-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-206-tam-otomatik-cift-kafa-destek-saci-vidalama-makinesi/",
+        "slug": "sm-206-tam-otomatik-cift-kafa-destek-saci-vidalama-makinesi"
+      }
+    ]
+  },
+  "cift-kafa-destek-saci-vidalama": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/cift-kafa-destek-saci-vidalama/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-206-tam-otomatik-cift-kafa-destek-saci-vidalama-makinesi/",
+        "slug": "sm-206-tam-otomatik-cift-kafa-destek-saci-vidalama-makinesi"
+      }
+    ]
+  },
+  "tek-kafa-destek-saci-vidalama": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/tek-kafa-destek-saci-vidalama/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-201-sd/",
+        "slug": "sm-201-sd"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/sm-201-tek-kafa-destek-saci-vidalama-makinesi/",
+        "slug": "sm-201-tek-kafa-destek-saci-vidalama-makinesi"
+      }
+    ]
+  },
+  "orta-kayit-aksesuar-montaj-mak": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/orta-kayit-aksesuar-montaj-mak/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mca-801/",
+        "slug": "mca-801"
+      }
+    ]
+  },
+  "kaynak": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kaynak/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/tk-503-pvc-tek-kose-kaynak-makinesi/",
+        "slug": "tk-503-pvc-tek-kose-kaynak-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dk-540-dort-kose-pvc-kaynak-makinesi/",
+        "slug": "dk-540-dort-kose-pvc-kaynak-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/tk-505-pvc-tek-kose-kaynak-makinesi/",
+        "slug": "tk-505-pvc-tek-kose-kaynak-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dk-502-pvc-cift-kose-kaynak-makinesi/",
+        "slug": "dk-502-pvc-cift-kose-kaynak-makinesi"
+      }
+    ]
+  },
+  "tek-kafa-kaynak": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/tek-kafa-kaynak/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/tk-503-pvc-tek-kose-kaynak-makinesi/",
+        "slug": "tk-503-pvc-tek-kose-kaynak-makinesi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/tk-505-pvc-tek-kose-kaynak-makinesi/",
+        "slug": "tk-505-pvc-tek-kose-kaynak-makinesi"
+      }
+    ]
+  },
+  "cift-kafa-kaynak": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/cift-kafa-kaynak/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dk-502-pvc-cift-kose-kaynak-makinesi/",
+        "slug": "dk-502-pvc-cift-kose-kaynak-makinesi"
+      }
+    ]
+  },
+  "dort-kafa-kaynak": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/dort-kafa-kaynak/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dk-540-dort-kose-pvc-kaynak-makinesi/",
+        "slug": "dk-540-dort-kose-pvc-kaynak-makinesi"
+      }
+    ]
+  },
+  "tasima-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/tasima-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rs-1000/",
+        "slug": "rs-1000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pc-4000-profil-tasima-arabasi/",
+        "slug": "pc-4000-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gpt-1000-cam-pencere-tasima-arabasi/",
+        "slug": "gpt-1000-cam-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-1000-pencere-tasima-arabasi/",
+        "slug": "pt-1000-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-2000-pencere-tasima-arabasi-cift-yonlu/",
+        "slug": "pt-2000-pencere-tasima-arabasi-cift-yonlu"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hp-1000-yatay-profil-tasima-arabasi/",
+        "slug": "hp-1000-yatay-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-1000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-1000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-2000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-2000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gt-1000-conta-tasima-arabasi/",
+        "slug": "gt-1000-conta-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/was-1000-pencere-montaj-istasyonu/",
+        "slug": "was-1000-pencere-montaj-istasyonu"
+      }
+    ]
+  },
+  "arabalar-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/arabalar-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rs-1000/",
+        "slug": "rs-1000"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pc-4000-profil-tasima-arabasi/",
+        "slug": "pc-4000-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gpt-1000-cam-pencere-tasima-arabasi/",
+        "slug": "gpt-1000-cam-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-1000-pencere-tasima-arabasi/",
+        "slug": "pt-1000-pencere-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pt-2000-pencere-tasima-arabasi-cift-yonlu/",
+        "slug": "pt-2000-pencere-tasima-arabasi-cift-yonlu"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hp-1000-yatay-profil-tasima-arabasi/",
+        "slug": "hp-1000-yatay-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-1000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-1000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vp-2000-dikey-profil-tasima-arabasi/",
+        "slug": "vp-2000-dikey-profil-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gt-1000-conta-tasima-arabasi/",
+        "slug": "gt-1000-conta-tasima-arabasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/was-1000-pencere-montaj-istasyonu/",
+        "slug": "was-1000-pencere-montaj-istasyonu"
+      }
+    ]
+  },
+  "talas-toplama-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/talas-toplama-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-3500/",
+        "slug": "vce-3500"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-4000/",
+        "slug": "vce-4000"
+      }
+    ]
+  },
+  "vakumlu-talas-toplama-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/vakumlu-talas-toplama-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-3500/",
+        "slug": "vce-3500"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/vce-4000/",
+        "slug": "vce-4000"
+      }
+    ]
+  },
+  "aktarma-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/aktarma-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mkn-serisi-150-300-301/",
+        "slug": "mkn-serisi-150-300-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/skn-300-450-600-otomatik-dayamali-dijital-konveyor/",
+        "slug": "skn-300-450-600-otomatik-dayamali-dijital-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor/",
+        "slug": "dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi/",
+        "slug": "hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi"
+      }
+    ]
+  },
+  "konveyorler-3": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/konveyorler-3/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/mkn-serisi-150-300-301/",
+        "slug": "mkn-serisi-150-300-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/skn-300-450-600-otomatik-dayamali-dijital-konveyor/",
+        "slug": "skn-300-450-600-otomatik-dayamali-dijital-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor/",
+        "slug": "dkn-300-450-600-302-452-602-digital-olcu-okuyuculu-manuel-konveyor"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi/",
+        "slug": "hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi"
+      }
+    ]
+  },
+  "montaj-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/montaj-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gas-301/",
+        "slug": "gas-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pwb-4100/",
+        "slug": "pwb-4100"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/nsm-352-nsm-353-kanat-isleme-merkezi/",
+        "slug": "nsm-352-nsm-353-kanat-isleme-merkezi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rt-1000-montaj-masasi/",
+        "slug": "rt-1000-montaj-masasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wb-4000-montaj-masasi/",
+        "slug": "wb-4000-montaj-masasi"
+      }
+    ]
+  },
+  "kanat-toplama-masalari-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/kanat-toplama-masalari-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/nsm-352-nsm-353-kanat-isleme-merkezi/",
+        "slug": "nsm-352-nsm-353-kanat-isleme-merkezi"
+      }
+    ]
+  },
+  "montaj-masalari-2": {
+    "url": "https://www.yilmazmachine.com.tr/urun_kategori/montaj-masalari-2/",
+    "makineler": [
+      {
+        "isim": "Ürünler",
+        "url": "https://www.yilmazmachine.com.tr/urunler/",
+        "slug": "urunler"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/gas-301/",
+        "slug": "gas-301"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/pwb-4100/",
+        "slug": "pwb-4100"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/rt-1000-montaj-masasi/",
+        "slug": "rt-1000-montaj-masasi"
+      },
+      {
+        "isim": "DETAYLI BİLGİ",
+        "url": "https://www.yilmazmachine.com.tr/urunler/wb-4000-montaj-masasi/",
+        "slug": "wb-4000-montaj-masasi"
+      }
+    ]
+  }
+}

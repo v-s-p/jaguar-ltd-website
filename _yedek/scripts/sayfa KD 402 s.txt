@@ -1,0 +1,1789 @@
+<body class="wp-singular urunler-template-default single single-urunler postid-8972 wp-theme-yilmazmachine">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe  src="https://www.googletagmanager.com/ns.html?id=GTM-NLFTMCM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="search_contain">
+    <form class="form-inline" role="search" method="get" id="searchform" action="https://www.yilmazmachine.com.tr/">
+      <input class="form-control searchInput" type="text" value="" id="s" name="s" placeholder="Arama Yapın" aria-label="Search">
+      <a class="nav-link btnClose" href="#close">X</a>
+    </form>
+  </div>
+
+
+<div class="top-nav  d-none d-md-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+      <ul class="top-menu">
+                              <li class="sub-menu-link sub-menu-link-140"><a onclick="toogleSubMenu(140)" href="javascript:void(0)">KURUMSAL <i class="fas fa-angle-down"></i></a></li>
+                  
+                              <li class="sub-menu-link sub-menu-link-1147"><a onclick="toogleSubMenu(1147)" href="javascript:void(0)">BAYİLİK <i class="fas fa-angle-down"></i></a></li>
+                  
+                              <li class="sub-menu-link sub-menu-link-150"><a onclick="toogleSubMenu(150)" href="javascript:void(0)">MEDYA <i class="fas fa-angle-down"></i></a></li>
+                  
+                              <li class="sub-menu-link sub-menu-link-154"><a onclick="toogleSubMenu(154)" href="javascript:void(0)">İNSAN KAYNAKLARI <i class="fas fa-angle-down"></i></a></li>
+                  
+                              <li><a data-id="155" href="https://www.yilmazmachine.com.tr/iletisim/">İLETİŞİM</a></li>
+                  
+                	
+    <li class="lang-selector"><a href="javascript:void(0)" class="btn-lang-selector" onclick="toggleMenuLang()"><span class="current-lang">tr </span> <i class="fas fa-angle-down"></i></a></li>
+      </ul>
+  </div>
+  </div>
+  </div>
+</div>
+<div class="sub-nav sub-nav-140 d-none d-md-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="top-menu">
+                      <li><a data-id="146" href="https://www.yilmazmachine.com.tr/misyon-ve-vizyonumuz/">Misyon ve Vizyon</a></li>
+                      <li><a data-id="145" href="https://www.yilmazmachine.com.tr/tarihce/">Tarihçe</a></li>
+                      <li><a data-id="144" href="https://www.yilmazmachine.com.tr/kalite-politikamiz/">Kalite Politikamız</a></li>
+                      <li><a data-id="17401" href="https://www.yilmazmachine.com.tr/cevre-politikamiz/">Çevre Politikamız</a></li>
+                      <li><a data-id="143" href="https://www.yilmazmachine.com.tr/kalite-belgeleri/">Kalite Belgeleri</a></li>
+                      <li><a data-id="77114" href="https://www.yilmazmachine.com.tr/aday-tedarikci-basvuru-formu/">Tedarikçi Yönetimi</a></li>
+                      <li><a data-id="141" href="https://www.yilmazmachine.com.tr/toolquaz/">ToolQuaz, Endüstriyel Daire Testere</a></li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sub-nav sub-nav-1147 d-none d-md-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="top-menu">
+                      <li><a data-id="148" href="https://www.yilmazmachine.com.tr/bayiler/">Bayi Listesi</a></li>
+                      <li><a data-id="1146" href="https://www.yilmazmachine.com.tr/bayilik-talebi-olustur/">Bayilik Talebi</a></li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sub-nav sub-nav-150 d-none d-md-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="top-menu">
+                      <li><a data-id="151" href="https://www.yilmazmachine.com.tr/medya/kataloglar/">Katalog &amp; Broşür</a></li>
+                      <li><a data-id="153" href="https://www.yilmazmachine.com.tr/medya/yilmaz-line/">Yılmaz Line</a></li>
+                      <li><a data-id="152" href="https://www.yilmazmachine.com.tr/medya/videolar/">Videolar</a></li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sub-nav sub-nav-154 d-none d-md-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="top-menu">
+                      <li><a data-id="43112" href="https://www.yilmazmachine.com.tr/acik-pozisyonlar/">Açık Pozisyonlar</a></li>
+                      <li><a data-id="156" href="https://www.yilmazmachine.com.tr/insan-kaynaklari-politikamiz/">İnsan Kaynakları Politikamız</a></li>
+                      <li><a data-id="157" href="https://www.yilmazmachine.com.tr/temel-isg-ve-diger-egitimler/">Temel İSG ve Diğer Eğitimler</a></li>
+                  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+	
+<div class="lang-nav d-none d-md-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="top-menu">
+          <li><a href="javascript:void(0)" onclick="changeLang('tr')">Türkçe</a></li>
+          <li><a href="javascript:void(0)" onclick="changeLang('en')">English</a></li>
+          <li><a href="javascript:void(0)" onclick="changeLang('ru')">Pусский</a></li>
+        
+        
+          <li><a href="javascript:void(0)" onclick="changeLang('fr')">Français</a></li>
+          <li><a href="javascript:void(0)" onclick="changeLang('es')">Español</a></li>
+         <li><a href="javascript:void(0)" onclick="changeLang('pt-pt')">Português</a></li>
+         <li><a href="javascript:void(0)" onclick="changeLang('sr')">Szerb</a></li> 
+               
+          <li><a href="javascript:void(0)" onclick="changeLang('it')">Italiano</a></li>
+          <!--   <li><a href="javascript:void(0)" onclick="changeLang('de')">Deutsche</a></li> 
+   -->
+      <li><a href="javascript:void(0)" onclick="changeLang('ar')">عربي</a></li>    
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="sticky-top">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg px-0 py-3">
+
+          <h1 class="navbar-brand order-lg-0 order-0 mb-0 text-hide logo d-flex align-items-center">
+            <a href="https://www.yilmazmachine.com.tr" class="text-hide"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2023/04/18155046/logo.svg" alt="YILMAZ MACHINE" class="img-fluid logoMobile entered lazyloaded" data-lazy-src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2023/04/18155046/logo.svg" data-ll-status="loaded"><noscript><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2023/04/18155046/logo.svg" loading="lazy" alt="YILMAZ MACHINE" class="img-fluid logoMobile"></noscript>YILMAZ MACHINE</a>
+          </h1>
+
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto align-items-lg-center ">
+                            <li class="nav-item h-100 mainmenu-item dropdown">
+								<a class="nav-link dropdown-toggle d-flex h-100 align-items-center" href="https://www.yilmazmachine.com.tr/urunler" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									ÜRÜNLER								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+																		<a class="dropdown-item mainmenu-subitem text-left" href="https://www.yilmazmachine.com.tr/urun_kategori/pvc/" target="">PVC</a>
+																		<a class="dropdown-item mainmenu-subitem text-left" href="https://www.yilmazmachine.com.tr/urun_kategori/aluminyum/" target="">ALÜMİNYUM</a>
+																	</div>
+							</li>
+
+						   							<li class="nav-item h-100">
+								<a class="nav-link  d-flex h-100 align-items-center" href="https://www.yilmazmachine.com.tr/satis-sonrasi-destek/kurulum-talebi/" target="">SATIŞ SONRASI DESTEK</a>
+							</li>
+              							<li class="nav-item h-100">
+								<a class="nav-link  d-flex h-100 align-items-center" href="https://www.yilmazmachine.com.tr/etkinlikler/fuarlar/" target="">ETKİNLİKLER</a>
+							</li>
+              							<li class="nav-item h-100">
+								<a class="nav-link  d-flex h-100 align-items-center" href="https://www.yilmazmachine.com.tr/blog/" target="">BLOG</a>
+							</li>
+                 
+               
+                           
+            <li class="nav-item h-100 d-none d-lg-block">
+            <button class="btn border-0 button_search"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</li>
+     
+            </ul>
+
+            <ul class="navbar-nav ml-auto align-items-lg-center d-lg-none">
+                          <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									KURUMSAL								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/misyon-ve-vizyonumuz/" target="">Misyon ve Vizyon</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/tarihce/" target="">Tarihçe</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/kalite-politikamiz/" target="">Kalite Politikamız</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/cevre-politikamiz/" target="">Çevre Politikamız</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/kalite-belgeleri/" target="">Kalite Belgeleri</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/aday-tedarikci-basvuru-formu/" target="">Tedarikçi Yönetimi</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/toolquaz/" target="">ToolQuaz, Endüstriyel Daire Testere</a>
+																	</div>
+							</li>
+
+						                 <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									BAYİLİK								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/bayiler/" target="">Bayi Listesi</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/bayilik-talebi-olustur/" target="">Bayilik Talebi</a>
+																	</div>
+							</li>
+
+						                 <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									MEDYA								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/medya/kataloglar/" target="">Katalog &amp; Broşür</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/medya/yilmaz-line/" target="">Yılmaz Line</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/medya/videolar/" target="">Videolar</a>
+																	</div>
+							</li>
+
+						                 <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									İNSAN KAYNAKLARI								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/acik-pozisyonlar/" target="">Açık Pozisyonlar</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/insan-kaynaklari-politikamiz/" target="">İnsan Kaynakları Politikamız</a>
+																		<a class="dropdown-item" href="https://www.yilmazmachine.com.tr/temel-isg-ve-diger-egitimler/" target="">Temel İSG ve Diğer Eğitimler</a>
+																	</div>
+							</li>
+
+						   							<li class="nav-item">
+								<a class="nav-link" href="https://www.yilmazmachine.com.tr/iletisim/" target="">İLETİŞİM</a>
+							</li>
+						      
+           
+            </ul>
+            <form class="search-form d-block d-lg-none " action="https://www.yilmazmachine.com.tr/" method="get">
+              <input type="text" class="form-control" placeholder="Arama Yapın" name="s" value="">
+               <button class="btn border-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+            
+            	
+            <ul class="lang-menu d-md-none">
+            <li><a href="javascript:void(0)" onclick="changeLang('tr')">Türkçe</a></li>
+          <li><a href="javascript:void(0)" onclick="changeLang('en')">English</a></li>
+          <li><a href="javascript:void(0)" onclick="changeLang('ru')">Pусский</a></li>
+         
+        
+          <li><a href="javascript:void(0)" onclick="changeLang('fr')">Français</a></li>
+          <li><a href="javascript:void(0)" onclick="changeLang('es')">Español</a></li>
+      <li><a href="javascript:void(0)" onclick="changeLang('pt-pt')">Português</a></li>
+      <li><a href="javascript:void(0)" onclick="changeLang('sr')">Szerb</a></li>   
+                  
+          <li><a href="javascript:void(0)" onclick="changeLang('it')">Italiano</a></li>
+             <li><a href="javascript:void(0)" onclick="changeLang('ar')">عربي</a></li>
+            </ul>
+                      </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="basket drop-shadow-2" style="display:none;">
+<a href="javascript:void(0);" onclick="toggleBasket()" class="btn-close"><i class="fas fa-angle-right"></i></a>
+  <div class="basket-header">
+    <h2>SEPETİM <span class="basket-bag"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/svg/bag.svg"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/svg/bag.svg" /></noscript><span class="basket-count">0</span></span></h2>
+    <div class="basket-list">
+     
+    </div>
+    <div class="basket-footer d-flex justify-content-between">
+    <button class="btn-yilmaz bg-dark" onclick="clearBasket()"><i class="fas fa-trash-alt"></i></button>
+      <button class="btn-yilmaz bg-dark" onclick="checkout()">Sipariş Ver</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalBasket" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">TEKLİF FORMU</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+      <form novalidate="" class="formidable-form needs-validation" id="form-19popup"><div class="form-row field-row mb-3"> <div class="col-sm-6 mb-3 px-3 name_wrapper"><label>Adınız / Soyadınız*</label><br><input type="text" class="form-control " name="field_154" value="" required="" autocomplete="name"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 email_wrapper"><label>E-posta*</label><br><input type="email" class="form-control " name="field_155" value="" required="" autocomplete="email"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 country_wrapper"><label>Ülke*</label><br><select class="form-control custom-select" name="field_156" required="" autocomplete="country"><option></option><option>AFGANİSTAN</option><option>ALMANYA</option><option>AMERİKA</option><option>ANDORRA</option><option>ANGOLA</option><option>ANTİGUA VE BARBUDA</option><option>ARJANTİN</option><option>ARNAVUTLUK</option><option>AVUSTRALYA</option><option>AVUSTURYA</option><option>AZERBAYCAN</option><option>BAHAMALAR</option><option>BAHREYN</option><option>BANGLADEŞ</option><option>BARBADOS</option><option>BELARUS</option><option>BELÇİKA</option><option>BELİZE</option><option>BENİN</option><option>BİRLEŞİK ARAP EMİRLİKLERİ</option><option>BOLİVYA</option><option>BOSNA HERSEK</option><option>BOTSVANA</option><option>BREZİLYA</option><option>BRUNEİ  DARUSSELAM</option><option>BULGARİSTAN</option><option>BURKİNA FASO</option><option>BURUNDİ</option><option>BUTAN</option><option>ÇAD</option><option>ÇEK CUMHURİYETİ</option><option>CEZAYİR</option><option>CİBUTİ</option><option>ÇİN</option><option>DAĞISTAN</option><option>DANİMARKA</option><option>DEMOKRATİK  KONGO</option><option>DOĞU TİMOR</option><option>DOMİNİK CUMHURİYETİ</option><option>DOMİNİKA</option><option>EKVATOR</option><option>EKVATOR GİNESİ</option><option>EL SALVADOR</option><option>ENDONEZYA</option><option>ERİTRE</option><option>ERMENİSTAN</option><option>ESTONYA</option><option>ETİYOPYA</option><option>FAS</option><option>FİJİ</option><option>FİLDİŞİ SAHİLİ</option><option>FİLİPİNLER</option><option>FİLİSTİN</option><option>FİNLANDİYA</option><option>FRANSA</option><option>GABON</option><option>GAMBİYA</option><option>GANA</option><option>GİNE</option><option>GİNE-BİSSAU</option><option>GRENADA</option><option>GUADELOUPE</option><option>GUATEMALA</option><option>GÜNEY AFRİKA</option><option>GÜNEY KIBRIS</option><option>GÜNEY KORE</option><option>GÜNEY SUDAN</option><option>GÜRCİSTAN</option><option>GUYANA</option><option>HAİTİ</option><option>HİNDİSTAN</option><option>HIRVATİSTAN</option><option>HOLLANDA</option><option>HONDURAS</option><option>İNGİLTERE</option><option>IRAK</option><option>İRAN</option><option>İRLANDA</option><option>İSPANYA</option><option>İSRAİL</option><option>İSVEÇ</option><option>İSVİÇRE</option><option>İTALYA</option><option>İZLANDA</option><option>JAMAİKA</option><option>JAPONYA</option><option>KAMBOÇYA</option><option>KAMERUN</option><option>KANADA</option><option>KARADAĞ</option><option>KATAR</option><option>KAZAKİSTAN</option><option>KENYA</option><option>KIRGIZİSTAN</option><option>KİRİBATİ</option><option>KOLOMBİYA</option><option>KOMOR</option><option>KONGO</option><option>KOSOVA</option><option>KOSTA RİKA</option><option>KÜBA</option><option>KUVEYT</option><option>KUZEY KIBRIS TÜRK CUMHURİYETİ</option><option>KUZEY KORE</option><option>KUZEY MAKEDONYA CUMHURİYETİ</option><option>LAOS</option><option>LESOTO</option><option>LETONYA</option><option>LİBERYA</option><option>LİBYA</option><option>LİHTENŞTAYN</option><option>LİTVANYA</option><option>LÜBNAN</option><option>LÜKSEMBURG</option><option>MACARİSTAN</option><option>MACAU</option><option>MADAGASKAR</option><option>MAKEDONYA</option><option>MALAVİ</option><option>MALDİVLER</option><option>MALEZYA</option><option>MALİ</option><option>MALTA</option><option>MARŞAL ADALARI</option><option>MAURİTİUS</option><option>MEKSİKA</option><option>MİKRONEZYA</option><option>MISIR</option><option>MOĞOLİSTAN</option><option>MOLDOVA</option><option>MONAKO</option><option>MORİTANYA</option><option>MOZAMBİK</option><option>MYANMAR</option><option>NAMİBYA</option><option>NAURU</option><option>NEPAL</option><option>NİJER</option><option>NİJERYA</option><option>NİKARAGUA</option><option>NORVEÇ</option><option>ORTA AFRİKA</option><option>ÖZBEKİSTAN</option><option>PAKİSTAN</option><option>PALAU</option><option>PANAMA</option><option>PAPUA YENİ GİNE</option><option>PARAGUAY</option><option>PERU</option><option>PİTCAİRN ADALARI</option><option>POLONYA</option><option>PORTEKİZ</option><option>PORTO RİKO</option><option>ROMANYA</option><option>RUANDA</option><option>RUSYA</option><option>SAİNT KİTTS VE NEVİS</option><option>SAİNT LUCİA</option><option>SAINT MARTIN</option><option>SAİNT VİNCENT VE GRENADİNLER</option><option>SAMOA</option><option>SAN MARİNO</option><option>SAO TOME VE PRİNCİPE</option><option>SENEGAL</option><option>SEYŞELLER</option><option>SİERRA LEONE</option><option>ŞİLİ</option><option>SİNGAPUR</option><option>SINT MAARTEN</option><option>SIRBİSTAN</option><option>SLOVAKYA</option><option>SLOVENYA</option><option>SOLOMON ADALARI</option><option>SOMALİ</option><option>SRİ LANKA</option><option>SUDAN</option><option>SURİNAM</option><option>SURİYE</option><option>SUUDİ ARABİSTAN</option><option>SVAZİLAND</option><option>TACİKİSTAN</option><option>TANZANYA</option><option>TAYLAND</option><option>TAYVAN</option><option>TOGO</option><option>TONGA</option><option>TRİNİDAD VE TOBAGO</option><option>TUNUS</option><option>TÜRKİYE</option><option>TÜRKMENİSTAN</option><option>TUVALU</option><option>UGANDA</option><option>UKRAYNA</option><option>UMMAN</option><option>ÜRDÜN</option><option>URUGUAY</option><option>VANUATU</option><option>VATİKAN</option><option>VENEZUELA</option><option>VİETNAM</option><option>YEMEN</option><option>YENİ ZELANDA</option><option>YEŞİL BURUN</option><option>YUNANİSTAN</option><option>ZAMBİYA</option><option>ZİMBABVE</option></select> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 city_wrapper"><label>Şehir*</label><br><input type="text" class="form-control " name="field_157" value="" required="" autocomplete="city"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 phone_wrapper"><label>Telefonunuz*</label><br><input type="text" class="form-control " name="field_159" value="" required="" autocomplete="phone"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 company_wrapper"><label>Firma Adı*</label><br><input type="text" class="form-control " name="field_158" value="" required="" autocomplete="company"> <div class="invalid-feedback">Zorunlu Alan</div></div> <input type="hidden" class="form-control basket_items" name="field_160" value="" autocomplete="machine"> </div><input type="hidden" name="field_162" value="tr"><div class="form-row field-row 69b8b6fbe109b">
+                <div class="col-auto mb-4 px-3">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" name="field_164" value="checked" id="19_terms69b8b6fbe109b">
+                    <label class="custom-control-label" style="display:block;" for="19_terms69b8b6fbe109b">
+                      Kampanya ve promosyonlardan haberdar olmak istiyorum
+                    </label>
+                  </div>
+                </div>
+              </div><div class="form-row field-row">
+              <div class="col-auto mb-0 px-3">
+                <div class="custom-control custom-checkbox">
+                  <input class="custom-control-input" type="checkbox" value="1" id="19_terms269b8b6fbe109e" required="">
+                  <label class="custom-control-label" style="display:block;" for="19_terms269b8b6fbe109e">
+                    E-posta hizmetlerinin yürütülmesi amacıyla verilerimin yurt içi ve yurt dışı yerleşik iş ortaklarına aktarılmasına izin veriyorum.
+                  </label>
+                </div>
+              </div>
+            </div> <div class="form-row px-3 my-3">
+          <div class="form-message">
+
+        </div>
+      </div><input type="hidden" name="form_id" id="form_id" value="19">
+    <div class="form-row field-row mb-3 px-3">
+                <div class="form-group">
+                  <button type="submit" class="btn btn-submit"><span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                  <span class="sr-only">Loading...</span>GÖNDER</button>
+                </div>
+              </div><input type="hidden" name="recaptcha_token" value=""><input type="hidden" name="recaptcha_action" value="submit_formidable"><input type="hidden" name="ajax_nonce" value="8b81f162e2"></form>                </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal11Sight" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">VİDEO GÖRÜŞME BAŞLAT</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+
+<form novalidate="" class="formidable-form needs-validation" id="form-11sight">
+<div class="form-row field-row mb-3">
+   <div class="col-sm-6 mb-3 px-3 name_wrapper">
+      <label>Adınız / Soyadınız *</label><br>
+      <input type="text" class="form-control " name="field_173" required="" autocomplete="name"> 
+   </div>
+ 
+   <div class="col-sm-6 mb-3 px-3 name_wrapper">
+      <label>Firma *</label><br>
+      <input type="text" class="form-control " name="field_178" required="" autocomplete="corporate"> 
+   </div>
+ 
+   </div>
+   <div class="form-row field-row mb-3">
+
+   <div class="col-sm-6 mb-3 px-3 email_wrapper">
+      <label>E-posta *</label><br><input type="email" class="form-control " name="field_174" required="" autocomplete="email"> 
+  
+   </div>
+   <div class="col-sm-6 mb-3 px-3 phone_wrapper">
+      <label>Telefonunuz *</label><br><input type="text" class="form-control " name="field_175" required="" autocomplete="phone"> 
+      </div>
+   </div>
+   <div class="form-row field-row mb-3">
+   <div class="col-sm-6 mb-3 px-3 country_wrapper">
+      <label>Ülke *</label><br>
+      <select class="form-control custom-select" name="field_176" required="" autocomplete="country">
+                    <option></option>
+                      <option>AFGANİSTAN</option>
+                      <option>ALMANYA</option>
+                      <option>AMERİKA</option>
+                      <option>ANDORRA</option>
+                      <option>ANGOLA</option>
+                      <option>ANTİGUA VE BARBUDA</option>
+                      <option>ARJANTİN</option>
+                      <option>ARNAVUTLUK</option>
+                      <option>AVUSTRALYA</option>
+                      <option>AVUSTURYA</option>
+                      <option>AZERBAYCAN</option>
+                      <option>BAHAMALAR</option>
+                      <option>BAHREYN</option>
+                      <option>BANGLADEŞ</option>
+                      <option>BARBADOS</option>
+                      <option>BELARUS</option>
+                      <option>BELÇİKA</option>
+                      <option>BELİZE</option>
+                      <option>BENİN</option>
+                      <option>BİRLEŞİK ARAP EMİRLİKLERİ</option>
+                      <option>BOLİVYA</option>
+                      <option>BOSNA HERSEK</option>
+                      <option>BOTSVANA</option>
+                      <option>BREZİLYA</option>
+                      <option>BRUNEİ  DARUSSELAM</option>
+                      <option>BULGARİSTAN</option>
+                      <option>BURKİNA FASO</option>
+                      <option>BURUNDİ</option>
+                      <option>BUTAN</option>
+                      <option>ÇAD</option>
+                      <option>ÇEK CUMHURİYETİ</option>
+                      <option>CEZAYİR</option>
+                      <option>CİBUTİ</option>
+                      <option>ÇİN</option>
+                      <option>DAĞISTAN</option>
+                      <option>DANİMARKA</option>
+                      <option>DEMOKRATİK  KONGO</option>
+                      <option>DOĞU TİMOR</option>
+                      <option>DOMİNİK CUMHURİYETİ</option>
+                      <option>DOMİNİKA</option>
+                      <option>EKVATOR</option>
+                      <option>EKVATOR GİNESİ</option>
+                      <option>EL SALVADOR</option>
+                      <option>ENDONEZYA</option>
+                      <option>ERİTRE</option>
+                      <option>ERMENİSTAN</option>
+                      <option>ESTONYA</option>
+                      <option>ETİYOPYA</option>
+                      <option>FAS</option>
+                      <option>FİJİ</option>
+                      <option>FİLDİŞİ SAHİLİ</option>
+                      <option>FİLİPİNLER</option>
+                      <option>FİLİSTİN</option>
+                      <option>FİNLANDİYA</option>
+                      <option>FRANSA</option>
+                      <option>GABON</option>
+                      <option>GAMBİYA</option>
+                      <option>GANA</option>
+                      <option>GİNE</option>
+                      <option>GİNE-BİSSAU</option>
+                      <option>GRENADA</option>
+                      <option>GUADELOUPE</option>
+                      <option>GUATEMALA</option>
+                      <option>GÜNEY AFRİKA</option>
+                      <option>GÜNEY KIBRIS</option>
+                      <option>GÜNEY KORE</option>
+                      <option>GÜNEY SUDAN</option>
+                      <option>GÜRCİSTAN</option>
+                      <option>GUYANA</option>
+                      <option>HAİTİ</option>
+                      <option>HİNDİSTAN</option>
+                      <option>HIRVATİSTAN</option>
+                      <option>HOLLANDA</option>
+                      <option>HONDURAS</option>
+                      <option>İNGİLTERE</option>
+                      <option>IRAK</option>
+                      <option>İRAN</option>
+                      <option>İRLANDA</option>
+                      <option>İSPANYA</option>
+                      <option>İSRAİL</option>
+                      <option>İSVEÇ</option>
+                      <option>İSVİÇRE</option>
+                      <option>İTALYA</option>
+                      <option>İZLANDA</option>
+                      <option>JAMAİKA</option>
+                      <option>JAPONYA</option>
+                      <option>KAMBOÇYA</option>
+                      <option>KAMERUN</option>
+                      <option>KANADA</option>
+                      <option>KARADAĞ</option>
+                      <option>KATAR</option>
+                      <option>KAZAKİSTAN</option>
+                      <option>KENYA</option>
+                      <option>KIRGIZİSTAN</option>
+                      <option>KİRİBATİ</option>
+                      <option>KOLOMBİYA</option>
+                      <option>KOMOR</option>
+                      <option>KONGO</option>
+                      <option>KOSOVA</option>
+                      <option>KOSTA RİKA</option>
+                      <option>KÜBA</option>
+                      <option>KUVEYT</option>
+                      <option>KUZEY KIBRIS TÜRK CUMHURİYETİ</option>
+                      <option>KUZEY KORE</option>
+                      <option>KUZEY MAKEDONYA CUMHURİYETİ</option>
+                      <option>LAOS</option>
+                      <option>LESOTO</option>
+                      <option>LETONYA</option>
+                      <option>LİBERYA</option>
+                      <option>LİBYA</option>
+                      <option>LİHTENŞTAYN</option>
+                      <option>LİTVANYA</option>
+                      <option>LÜBNAN</option>
+                      <option>LÜKSEMBURG</option>
+                      <option>MACARİSTAN</option>
+                      <option>MACAU</option>
+                      <option>MADAGASKAR</option>
+                      <option>MAKEDONYA</option>
+                      <option>MALAVİ</option>
+                      <option>MALDİVLER</option>
+                      <option>MALEZYA</option>
+                      <option>MALİ</option>
+                      <option>MALTA</option>
+                      <option>MARŞAL ADALARI</option>
+                      <option>MAURİTİUS</option>
+                      <option>MEKSİKA</option>
+                      <option>MİKRONEZYA</option>
+                      <option>MISIR</option>
+                      <option>MOĞOLİSTAN</option>
+                      <option>MOLDOVA</option>
+                      <option>MONAKO</option>
+                      <option>MORİTANYA</option>
+                      <option>MOZAMBİK</option>
+                      <option>MYANMAR</option>
+                      <option>NAMİBYA</option>
+                      <option>NAURU</option>
+                      <option>NEPAL</option>
+                      <option>NİJER</option>
+                      <option>NİJERYA</option>
+                      <option>NİKARAGUA</option>
+                      <option>NORVEÇ</option>
+                      <option>ORTA AFRİKA</option>
+                      <option>ÖZBEKİSTAN</option>
+                      <option>PAKİSTAN</option>
+                      <option>PALAU</option>
+                      <option>PANAMA</option>
+                      <option>PAPUA YENİ GİNE</option>
+                      <option>PARAGUAY</option>
+                      <option>PERU</option>
+                      <option>PİTCAİRN ADALARI</option>
+                      <option>POLONYA</option>
+                      <option>PORTEKİZ</option>
+                      <option>PORTO RİKO</option>
+                      <option>ROMANYA</option>
+                      <option>RUANDA</option>
+                      <option>RUSYA</option>
+                      <option>SAİNT KİTTS VE NEVİS</option>
+                      <option>SAİNT LUCİA</option>
+                      <option>SAINT MARTIN</option>
+                      <option>SAİNT VİNCENT VE GRENADİNLER</option>
+                      <option>SAMOA</option>
+                      <option>SAN MARİNO</option>
+                      <option>SAO TOME VE PRİNCİPE</option>
+                      <option>SENEGAL</option>
+                      <option>SEYŞELLER</option>
+                      <option>SİERRA LEONE</option>
+                      <option>ŞİLİ</option>
+                      <option>SİNGAPUR</option>
+                      <option>SINT MAARTEN</option>
+                      <option>SIRBİSTAN</option>
+                      <option>SLOVAKYA</option>
+                      <option>SLOVENYA</option>
+                      <option>SOLOMON ADALARI</option>
+                      <option>SOMALİ</option>
+                      <option>SRİ LANKA</option>
+                      <option>SUDAN</option>
+                      <option>SURİNAM</option>
+                      <option>SURİYE</option>
+                      <option>SUUDİ ARABİSTAN</option>
+                      <option>SVAZİLAND</option>
+                      <option>TACİKİSTAN</option>
+                      <option>TANZANYA</option>
+                      <option>TAYLAND</option>
+                      <option>TAYVAN</option>
+                      <option>TOGO</option>
+                      <option>TONGA</option>
+                      <option>TRİNİDAD VE TOBAGO</option>
+                      <option>TUNUS</option>
+                      <option>TÜRKİYE</option>
+                      <option>TÜRKMENİSTAN</option>
+                      <option>TUVALU</option>
+                      <option>UGANDA</option>
+                      <option>UKRAYNA</option>
+                      <option>UMMAN</option>
+                      <option>ÜRDÜN</option>
+                      <option>URUGUAY</option>
+                      <option>VANUATU</option>
+                      <option>VATİKAN</option>
+                      <option>VENEZUELA</option>
+                      <option>VİETNAM</option>
+                      <option>YEMEN</option>
+                      <option>YENİ ZELANDA</option>
+                      <option>YEŞİL BURUN</option>
+                      <option>YUNANİSTAN</option>
+                      <option>ZAMBİYA</option>
+                      <option>ZİMBABVE</option>
+                            </select>
+   </div>
+   <div class="col-sm-6 mb-3 px-3 company_wrapper">
+      <label>Arama Nedeni? *</label><br><input type="text" class="form-control " name="field_177" required=""> 
+     
+   </div>
+</div>
+<div class="form-row field-row 647475d54ad98">
+                <div class="col-auto mb-4 px-3">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" name="field_180" value="checked" id="15_terms647475d54ad9822">
+                    <label class="custom-control-label" style="display:block;" for="15_terms647475d54ad9822">
+                    Kampanya ve promosyonlardan haberdar olmak istiyorum                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row mb-3 field-row">
+              <div class="col-auto mb-0 px-3">
+                <div class="custom-control custom-checkbox">
+                  <input class="custom-control-input" type="checkbox" value="1" id="15_terms2647475d54ad9a" required="">
+                  <label class="custom-control-label" style="display:block;" for="15_terms2647475d54ad9a">
+                  E-posta hizmetlerinin yürütülmesi amacıyla verilerimin yurt içi ve yurt dışı yerleşik iş ortaklarına aktarılmasına izin veriyorum.                  </label>
+                </div>
+              </div>
+            </div>
+
+                  <div class="form-row field-row mb-3">
+                    <div class="col-sm-12 px-3 form-message">
+                    </div>
+                  </div>
+                  <div class="form-row field-row mb-3">
+                  <div class="col-sm-6 mb-3 px-3 company_wrapper">
+                    <button type="submit" class="btn btn-submit"><span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                    <span class="sr-only">Loading...</span>GÖNDER</button>
+                  </div>
+                  </div>
+                  <input type="hidden" name="form_id" id="form_id" value="20">
+                  <input type="hidden" name="field_181" id="formLang" value="tr">
+                  <input name="11sightButton" type="hidden" value="kPRNGK9L_TPzmpsruqnHlrfG-bFj5j9tQOKNh7EGVLwvVDWmXI">
+                </form>
+                </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+<section class="page-title grey py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+		        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+		    	<li class="breadcrumb-item"><a href="https://www.yilmazmachine.com.tr">Anasayfa</a></li>
+           <li class="breadcrumb-item"><a href="https://www.yilmazmachine.com.tr/urunler/">Ürünler</a></li>            <li class="breadcrumb-item active" aria-current="page">KD 402 S – Çift Kafa Kesme Makinesi</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<style></style>
+
+<style></style>
+
+<section class="sub-menu mb-lg-5 mb-4 default-8972">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center p-0">
+        <ul class="nav nav-tabs" id="product-tab" role="tablist">
+          <li role="presentation">
+            <a class=" active" id="product-info" data-toggle="tab" href="#info" role="tab" aria-controls="product-info" aria-selected="true" data-rocket-lazy-bg-4697e01f-55cf-4fcf-a8f1-96d43a41d6a7="loaded">Ürün Bilgisi</a>
+          </li>
+                             <li role="presentation " class="bg-green">
+            <a class="" id="product-request" data-toggle="tab" href="#request" role="tab" aria-controls="product-request" aria-selected="false">Teklif Al</a>
+          </li>
+
+                  </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="product-detail py-lg-5 my-lg-4 py-4">
+  <div class="container-fluid">
+    <div class="row">
+        <div class="tab-content w-100" id="myTabContent">
+          <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="product-info">
+            <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="section-title mb-3">ÜRÜN BİLGİSİ</h2>
+              </div>
+                            <div class="col-md-6">
+                <div class="product-images">
+                <div class="owl-carousel carousel-product owl-loaded owl-drag" id="product-carousel">
+                                          
+                                          
+                                          
+                                          
+                                          
+                                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2212px, 0px, 0px); transition: 0.25s; width: 3501px; padding-left: 12px; padding-right: 12px;"><div class="owl-item cloned" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115558/TCAT01000002311-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115558/TCAT01000002311-3-500x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div><div class="owl-item cloned" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115600/TCAT01000002301-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi" data-lazy-src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115600/TCAT01000002301-3-500x290.jpg"><noscript><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115600/TCAT01000002301-3-500x290.jpg" class="w-100" alt="KD 402 S &#8211; Çift Kafa Kesme Makinesi" /></noscript></a></div><div class="owl-item cloned" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115601/TCAT01000002291-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img fetchpriority="high" src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115601/TCAT01000002291-3-500x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div><div class="owl-item" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115556/TCAT01000002271.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115556/TCAT01000002271-500x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div><div class="owl-item" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115557/TCAT01000002321-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115557/TCAT01000002321-3-406x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div><div class="owl-item" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115558/TCAT01000002311-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115558/TCAT01000002311-3-500x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div><div class="owl-item" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115600/TCAT01000002301-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115600/TCAT01000002301-3-500x290.jpg" class="w-100 entered lazyloaded" alt="KD 402 S – Çift Kafa Kesme Makinesi" data-lazy-src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115600/TCAT01000002301-3-500x290.jpg" data-ll-status="loaded"><noscript><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115600/TCAT01000002301-3-500x290.jpg" class="w-100" alt="KD 402 S &#8211; Çift Kafa Kesme Makinesi" /></noscript></a></div><div class="owl-item active" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115601/TCAT01000002291-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img fetchpriority="high" src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115601/TCAT01000002291-3-500x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div><div class="owl-item cloned" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115556/TCAT01000002271.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115556/TCAT01000002271-500x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div><div class="owl-item cloned" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115557/TCAT01000002321-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115557/TCAT01000002321-3-406x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div><div class="owl-item cloned" style="width: 286.087px; margin-right: 30px;"><a href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115558/TCAT01000002311-3.jpg" data-fancybox="gallery" title="KD 402 S – Çift Kafa Kesme Makinesi"><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/07/25115558/TCAT01000002311-3-500x290.jpg" class="w-100" alt="KD 402 S – Çift Kafa Kesme Makinesi"></a></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="btn-prev" data-rocket-lazy-bg-1d0ced0c-054e-4517-8345-7e6608b1c583="loaded"></i></button><button type="button" role="presentation" class="owl-next"><i class="btn-next" data-rocket-lazy-bg-5de07aeb-e814-410d-b0f6-ea653a7f1c29="loaded"></i></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+                </div>
+              </div>
+                                  <div class="col-md-6">
+                <div class="product-info-text d-flex flex-column align-items-start">
+
+                <p>KD 402 S geniş ebatlı PVC ve alüminyum profilleri, düz veya açılı olarak, çift kafa Ø 400 mm testere ile kesmek amacı ile tasarlanmış kesme makinesidir.</p>
+
+                
+                                  <div class="product-details text-green">
+                      <h3>KATALOG</h3>
+                      <ul class="pdf-list">
+                                                  <li><a target="_blank" href="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24151601/KD-402-S-1.pdf"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/svg/pdf-file-green.svg"> Katalog Sayfası</a></li>
+                                              </ul>
+                    </div>
+                      
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="container-fluid product-details py-lg-5 my-lg-5 my-5">
+              <div class="row bg-color py-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <h3>STANDART AKSESUARLAR</h3>
+                     <ul>
+<li>2x Ø 400 mm testere</li>
+<li>Profil destek ünitesi</li>
+<li>3 x pnömatik yatay mengene</li>
+<li>2 x pnömatik dikey mengene</li>
+<li>Kesim boyunu gösteren dijital ekran</li>
+<li>Püskürtmeli testere soğutma sistemi</li>
+<li>Hava tabancası</li>
+</ul>
+                    </div>
+                    <div class="col-md-4">
+                      <h3>OPSİYONEL AKSESUARLAR</h3>
+                      <ul>
+<li>VCE 1570 talaş emme sistemi, redüksiyon &amp; aksesuarları</li>
+<li>Kesme kafalarında iki kademeli hız kontrol sistemi (patentli)</li>
+<li>Yedek testere Ø 400 mm</li>
+</ul>
+                    </div>
+                    <div class="col-md-4">
+                                        <h3>GENEL ÖZELLİKLER</h3>
+                     <ul>
+<li>Çift el kumanda uygulaması</li>
+<li>PVC, alüminyum ve ahşap malzemeleri kesmek amacı ile 2 testereli kesme ünitesi</li>
+<li>0°-15°-22.5°-30°-45°''lik açılarda içeri ve dışarı susta ile kesim</li>
+<li>45° sol – 45° sağ ara derecelerde hassas kesim</li>
+<li>Sol kesme unitesi sabit olup sağ kesme ünitesi pozisyona manuel olarak kaydırılarak kesme yapılır</li>
+<li>Hidro-pnömatik kontrollü testere hareketi</li>
+<li>Kesme kafalarının manuel olarak pozisyonlanması</li>
+<li>Yatay mengeneler için açma /kapama butonu</li>
+<li>Mengene profil sıkma ayarları için basınç kontrol valfleri</li>
+<li>Pnömatik kafa sabitleme özelliği</li>
+<li>Dijital ekran ile profil kesim boyunun optimum olarak ayarlanması</li>
+<li>Maksimum kesme boyu 3455 mm ve minimum kesme boyu 530 mm</li>
+<li>Testere motoru gücü: 2 ad. x 2.2 kW</li>
+</ul>
+                                          </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+<div class="container-fluid product-details my-5 ">
+              <div class="row bg-waves py-5" data-rocket-lazy-bg-7ec0d191-1556-46b8-82cd-97bcc6bba179="loaded">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h2 class="section-title">TEKNİK ÖZELLİKLER TABLOSU</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                     <div class="tech-specs d-flex w-100">
+
+                                                  <div class="col custom-col table-row-elektrik">
+                            <div class="icon-row"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/elektrik.svg" class="img-fluid entered lazyloaded" style="max-width:127px;" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/elektrik.svg" data-ll-status="loaded"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/elektrik.svg" class="img-fluid" style="max-width:127px;" /></noscript></div>
+                            <div class="text-row">4440 W / 400V AC 3P  PE</div>
+                        </div>
+                          
+                        <div class="col custom-col table-row-matkap_donus_hizi">
+                            <div class="icon-row"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/freze.svg" class="img-fluid entered lazyloaded" style="max-width:127px;" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/freze.svg" data-ll-status="loaded"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/freze.svg" class="img-fluid" style="max-width:127px;" /></noscript></div>
+                            <div class="text-row">2.900 RPM</div>
+                        </div>
+
+                      
+                         
+                        <div class="col custom-col table-row-donus_hizi">
+                            <div class="icon-row"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/testere-donus.svg" class="img-fluid entered lazyloaded" style="max-width:127px;" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/testere-donus.svg" data-ll-status="loaded"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/testere-donus.svg" class="img-fluid" style="max-width:127px;" /></noscript></div>
+                            <div class="text-row">2900 RPM</div>
+                        </div>
+
+                      
+                         
+                        <div class="col custom-col table-row-cap">
+                            <div class="icon-row"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/testere-cap.svg" class="img-fluid entered lazyloaded" style="max-width:127px;" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/testere-cap.svg" data-ll-status="loaded"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/testere-cap.svg" class="img-fluid" style="max-width:127px;" /></noscript></div>
+                            <div class="text-row">D: Ø400 mm<br>
+d: Ø30-32 mm</div>
+                        </div>
+
+                      
+                         
+                        <div class="col custom-col table-row-debi">
+                            <div class="icon-row"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/basinc.svg" class="img-fluid entered lazyloaded" style="max-width:127px;" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/basinc.svg" data-ll-status="loaded"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/basinc.svg" class="img-fluid" style="max-width:127px;" /></noscript></div>
+                            <div class="text-row">46 Lt/min</div>
+                        </div>
+
+                      
+                         
+                        <div class="col custom-col table-row-basinc">
+                            <div class="icon-row"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/basinc.svg" class="img-fluid entered lazyloaded" style="max-width:127px;" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/basinc.svg" data-ll-status="loaded"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/basinc.svg" class="img-fluid" style="max-width:127px;" /></noscript></div>
+                            <div class="text-row">6-8 BAR</div>
+                        </div>
+
+                      
+                         
+                        <div class="col custom-col table-row-boyutlar">
+                            <div class="icon-row"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/boyutlar.svg" class="img-fluid entered lazyloaded" style="max-width:127px;" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/boyutlar.svg" data-ll-status="loaded"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/boyutlar.svg" class="img-fluid" style="max-width:127px;" /></noscript></div>
+                            <div class="text-row">129x556x144</div>
+                        </div>
+
+                      
+                                                  <div class="col custom-col table-row-urun_agirligi">
+                            <div class="icon-row"><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/agirlik.svg" class="img-fluid entered lazyloaded" style="max-width:127px;" data-lazy-src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/agirlik.svg" data-ll-status="loaded"><noscript><img src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/img/picto/agirlik.svg" class="img-fluid" style="max-width:127px;" /></noscript></div>
+                            <div class="text-row">593 Kg / 482 Kg</div>
+                        </div>
+                                                  
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                                                </div>
+          <div class="tab-pane fade" id="accs" role="tabpanel" aria-labelledby="product-accs">
+            <div class="container">
+              <div class="row mb-5">
+                <div class="col-12 my-4">
+                  <h2 class="section-title">OPSİYONEL AKSESUARLAR</h2>
+                </div>
+                              </div>
+                            <div class="row">
+                <div class="col-12">
+                <a href="" target="_blank">
+                            <img src="" class="w-100">
+                        </a>
+                </div>
+              </div>
+                    </div>
+          </div>
+          <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="product-faq">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="accordion" id="accordionExample">
+
+
+          
+
+                  </div>
+
+                </div>
+                <div class="col-12 my-5 pt-3">
+                  <h2 class="section-title">ARADIĞINIZI BULAMADINIZ MI?</h2>
+                  <button class="btn-grey" data-toggle="modal" data-target="#modalFAQ">Sorunuzu Bize Gönderin!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="request" role="tabpanel" aria-labelledby="product-request">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 mb-4">
+                  <h2 class="section-title">TEKLİF AL</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+
+               <form novalidate="" class="formidable-form needs-validation" id="form-15single-product"><div class="form-row field-row mb-3"> <div class="col-sm-6 mb-3 px-3 name_wrapper"><label>Adınız / Soyadınız*</label><br><input type="text" class="form-control " name="field_18" value="" required="" autocomplete="name"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 email_wrapper"><label>E-posta*</label><br><input type="email" class="form-control " name="field_19" value="" required="" autocomplete="email"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 country2_wrapper"><label>Ülke*</label><br><select class="form-control custom-select" name="field_31" required="" autocomplete="country2"><option></option><option>AFGANİSTAN</option><option>ALMANYA</option><option>AMERİKA</option><option>ANDORRA</option><option>ANGOLA</option><option>ANTİGUA VE BARBUDA</option><option>ARJANTİN</option><option>ARNAVUTLUK</option><option>AVUSTRALYA</option><option>AVUSTURYA</option><option>AZERBAYCAN</option><option>BAHAMALAR</option><option>BAHREYN</option><option>BANGLADEŞ</option><option>BARBADOS</option><option>BELARUS</option><option>BELÇİKA</option><option>BELİZE</option><option>BENİN</option><option>BİRLEŞİK ARAP EMİRLİKLERİ</option><option>BOLİVYA</option><option>BOSNA HERSEK</option><option>BOTSVANA</option><option>BREZİLYA</option><option>BRUNEİ  DARUSSELAM</option><option>BULGARİSTAN</option><option>BURKİNA FASO</option><option>BURUNDİ</option><option>BUTAN</option><option>ÇAD</option><option>ÇEK CUMHURİYETİ</option><option>CEZAYİR</option><option>CİBUTİ</option><option>ÇİN</option><option>DAĞISTAN</option><option>DANİMARKA</option><option>DEMOKRATİK  KONGO</option><option>DOĞU TİMOR</option><option>DOMİNİK CUMHURİYETİ</option><option>DOMİNİKA</option><option>EKVATOR</option><option>EKVATOR GİNESİ</option><option>EL SALVADOR</option><option>ENDONEZYA</option><option>ERİTRE</option><option>ERMENİSTAN</option><option>ESTONYA</option><option>ETİYOPYA</option><option>FAS</option><option>FİJİ</option><option>FİLDİŞİ SAHİLİ</option><option>FİLİPİNLER</option><option>FİLİSTİN</option><option>FİNLANDİYA</option><option>FRANSA</option><option>GABON</option><option>GAMBİYA</option><option>GANA</option><option>GİNE</option><option>GİNE-BİSSAU</option><option>GRENADA</option><option>GUADELOUPE</option><option>GUATEMALA</option><option>GÜNEY AFRİKA</option><option>GÜNEY KIBRIS</option><option>GÜNEY KORE</option><option>GÜNEY SUDAN</option><option>GÜRCİSTAN</option><option>GUYANA</option><option>HAİTİ</option><option>HİNDİSTAN</option><option>HIRVATİSTAN</option><option>HOLLANDA</option><option>HONDURAS</option><option>İNGİLTERE</option><option>IRAK</option><option>İRAN</option><option>İRLANDA</option><option>İSPANYA</option><option>İSRAİL</option><option>İSVEÇ</option><option>İSVİÇRE</option><option>İTALYA</option><option>İZLANDA</option><option>JAMAİKA</option><option>JAPONYA</option><option>KAMBOÇYA</option><option>KAMERUN</option><option>KANADA</option><option>KARADAĞ</option><option>KATAR</option><option>KAZAKİSTAN</option><option>KENYA</option><option>KIRGIZİSTAN</option><option>KİRİBATİ</option><option>KOLOMBİYA</option><option>KOMOR</option><option>KONGO</option><option>KOSOVA</option><option>KOSTA RİKA</option><option>KÜBA</option><option>KUVEYT</option><option>KUZEY KIBRIS TÜRK CUMHURİYETİ</option><option>KUZEY KORE</option><option>KUZEY MAKEDONYA CUMHURİYETİ</option><option>LAOS</option><option>LESOTO</option><option>LETONYA</option><option>LİBERYA</option><option>LİBYA</option><option>LİHTENŞTAYN</option><option>LİTVANYA</option><option>LÜBNAN</option><option>LÜKSEMBURG</option><option>MACARİSTAN</option><option>MACAU</option><option>MADAGASKAR</option><option>MAKEDONYA</option><option>MALAVİ</option><option>MALDİVLER</option><option>MALEZYA</option><option>MALİ</option><option>MALTA</option><option>MARŞAL ADALARI</option><option>MAURİTİUS</option><option>MEKSİKA</option><option>MİKRONEZYA</option><option>MISIR</option><option>MOĞOLİSTAN</option><option>MOLDOVA</option><option>MONAKO</option><option>MORİTANYA</option><option>MOZAMBİK</option><option>MYANMAR</option><option>NAMİBYA</option><option>NAURU</option><option>NEPAL</option><option>NİJER</option><option>NİJERYA</option><option>NİKARAGUA</option><option>NORVEÇ</option><option>ORTA AFRİKA</option><option>ÖZBEKİSTAN</option><option>PAKİSTAN</option><option>PALAU</option><option>PANAMA</option><option>PAPUA YENİ GİNE</option><option>PARAGUAY</option><option>PERU</option><option>PİTCAİRN ADALARI</option><option>POLONYA</option><option>PORTEKİZ</option><option>PORTO RİKO</option><option>ROMANYA</option><option>RUANDA</option><option>RUSYA</option><option>SAİNT KİTTS VE NEVİS</option><option>SAİNT LUCİA</option><option>SAINT MARTIN</option><option>SAİNT VİNCENT VE GRENADİNLER</option><option>SAMOA</option><option>SAN MARİNO</option><option>SAO TOME VE PRİNCİPE</option><option>SENEGAL</option><option>SEYŞELLER</option><option>SİERRA LEONE</option><option>ŞİLİ</option><option>SİNGAPUR</option><option>SINT MAARTEN</option><option>SIRBİSTAN</option><option>SLOVAKYA</option><option>SLOVENYA</option><option>SOLOMON ADALARI</option><option>SOMALİ</option><option>SRİ LANKA</option><option>SUDAN</option><option>SURİNAM</option><option>SURİYE</option><option>SUUDİ ARABİSTAN</option><option>SVAZİLAND</option><option>TACİKİSTAN</option><option>TANZANYA</option><option>TAYLAND</option><option>TAYVAN</option><option>TOGO</option><option>TONGA</option><option>TRİNİDAD VE TOBAGO</option><option>TUNUS</option><option>TÜRKİYE</option><option>TÜRKMENİSTAN</option><option>TUVALU</option><option>UGANDA</option><option>UKRAYNA</option><option>UMMAN</option><option>ÜRDÜN</option><option>URUGUAY</option><option>VANUATU</option><option>VATİKAN</option><option>VENEZUELA</option><option>VİETNAM</option><option>YEMEN</option><option>YENİ ZELANDA</option><option>YEŞİL BURUN</option><option>YUNANİSTAN</option><option>ZAMBİYA</option><option>ZİMBABVE</option></select> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 city_wrapper"><label>Şehir*</label><br><input type="text" class="form-control " name="field_21" value="" required="" autocomplete="city"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 phone_wrapper"><label>Telefonunuz*</label><br><input type="text" class="form-control " name="field_23" value="" required="" autocomplete="phone"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 company_wrapper"><label>Firma Adı*</label><br><input type="text" class="form-control " name="field_22" value="" required="" autocomplete="company"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 machine_wrapper"><label>Teklif İstediğiniz Makine</label><br><input type="text" class="form-control " name="field_empty" value="KD 402 S – Çift Kafa Kesme Makinesi" disabled="" autocomplete="machine"> <div class="invalid-feedback"></div></div> <input type="hidden" class="form-control " name="field_24" value="KD 402 S – Çift Kafa Kesme Makinesi" autocomplete="">  <div class="col-sm-6 mb-3 px-3 accs_wrapper"><label>Opsiyonel Aksesuarlar</label><br> <div class="invalid-feedback"></div></div></div><input type="hidden" name="field_26" value="tr"><div class="form-row field-row 69b8b6fbf052f">
+                <div class="col-auto mb-4 px-3">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" name="field_135" value="checked" id="15_terms69b8b6fbf052f">
+                    <label class="custom-control-label" style="display:block;" for="15_terms69b8b6fbf052f">
+                      Kampanya ve promosyonlardan haberdar olmak istiyorum
+                    </label>
+                  </div>
+                </div>
+              </div><div class="form-row field-row">
+              <div class="col-auto mb-0 px-3">
+                <div class="custom-control custom-checkbox">
+                  <input class="custom-control-input" type="checkbox" value="1" id="15_terms269b8b6fbf0532" required="">
+                  <label class="custom-control-label" style="display:block;" for="15_terms269b8b6fbf0532">
+                    E-posta hizmetlerinin yürütülmesi amacıyla verilerimin yurt içi ve yurt dışı yerleşik iş ortaklarına aktarılmasına izin veriyorum.
+                  </label>
+                </div>
+              </div>
+            </div> <div class="form-row px-3 my-3">
+          <div class="form-message">
+
+        </div>
+      </div><input type="hidden" name="form_id" id="form_id" value="15">
+    <div class="form-row field-row mb-3 px-3">
+                <div class="form-group">
+                  <button type="submit" class="btn btn-submit"><span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                  <span class="sr-only">Loading...</span>GÖNDER</button>
+                </div>
+              </div><input type="hidden" name="recaptcha_token" value=""><input type="hidden" name="recaptcha_action" value="submit_formidable"><input type="hidden" name="ajax_nonce" value="8b81f162e2"></form>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="adv" role="tabpanel" aria-labelledby="product-request">
+
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+            
+                          <div class="col-12">
+
+
+
+<form novalidate="" class="formidable-form needs-validation" id="form-11sight-product">
+<div class="form-row field-row mb-3">
+   <div class="col-sm-6 mb-3 px-3 name_wrapper">
+      <label>Adınız / Soyadınız *</label><br>
+      <input type="text" class="form-control " name="field_173" required="" autocomplete="name">
+   </div>
+
+   <div class="col-sm-6 mb-3 px-3 name_wrapper">
+      <label>Firma *</label><br>
+      <input type="text" class="form-control " name="field_178" required="" autocomplete="corporate">
+   </div>
+
+   </div>
+   <div class="form-row field-row mb-3">
+
+   <div class="col-sm-6 mb-3 px-3 email_wrapper">
+      <label>E-posta *</label><br><input type="email" class="form-control " name="field_174" required="" autocomplete="email">
+
+   </div>
+   <div class="col-sm-6 mb-3 px-3 phone_wrapper">
+      <label>Telefonunuz *</label><br><input type="text" class="form-control " name="field_175" required="" autocomplete="phone">
+      </div>
+   </div>
+   <div class="form-row field-row mb-3">
+   <div class="col-sm-6 mb-3 px-3 country_wrapper">
+      <label>Ülke *</label><br>
+      <select class="form-control custom-select" name="field_176" required="">
+                    <option></option>
+                      <option>AFGANİSTAN</option>
+                      <option>ALMANYA</option>
+                      <option>AMERİKA</option>
+                      <option>ANDORRA</option>
+                      <option>ANGOLA</option>
+                      <option>ANTİGUA VE BARBUDA</option>
+                      <option>ARJANTİN</option>
+                      <option>ARNAVUTLUK</option>
+                      <option>AVUSTRALYA</option>
+                      <option>AVUSTURYA</option>
+                      <option>AZERBAYCAN</option>
+                      <option>BAHAMALAR</option>
+                      <option>BAHREYN</option>
+                      <option>BANGLADEŞ</option>
+                      <option>BARBADOS</option>
+                      <option>BELARUS</option>
+                      <option>BELÇİKA</option>
+                      <option>BELİZE</option>
+                      <option>BENİN</option>
+                      <option>BİRLEŞİK ARAP EMİRLİKLERİ</option>
+                      <option>BOLİVYA</option>
+                      <option>BOSNA HERSEK</option>
+                      <option>BOTSVANA</option>
+                      <option>BREZİLYA</option>
+                      <option>BRUNEİ  DARUSSELAM</option>
+                      <option>BULGARİSTAN</option>
+                      <option>BURKİNA FASO</option>
+                      <option>BURUNDİ</option>
+                      <option>BUTAN</option>
+                      <option>ÇAD</option>
+                      <option>ÇEK CUMHURİYETİ</option>
+                      <option>CEZAYİR</option>
+                      <option>CİBUTİ</option>
+                      <option>ÇİN</option>
+                      <option>DAĞISTAN</option>
+                      <option>DANİMARKA</option>
+                      <option>DEMOKRATİK  KONGO</option>
+                      <option>DOĞU TİMOR</option>
+                      <option>DOMİNİK CUMHURİYETİ</option>
+                      <option>DOMİNİKA</option>
+                      <option>EKVATOR</option>
+                      <option>EKVATOR GİNESİ</option>
+                      <option>EL SALVADOR</option>
+                      <option>ENDONEZYA</option>
+                      <option>ERİTRE</option>
+                      <option>ERMENİSTAN</option>
+                      <option>ESTONYA</option>
+                      <option>ETİYOPYA</option>
+                      <option>FAS</option>
+                      <option>FİJİ</option>
+                      <option>FİLDİŞİ SAHİLİ</option>
+                      <option>FİLİPİNLER</option>
+                      <option>FİLİSTİN</option>
+                      <option>FİNLANDİYA</option>
+                      <option>FRANSA</option>
+                      <option>GABON</option>
+                      <option>GAMBİYA</option>
+                      <option>GANA</option>
+                      <option>GİNE</option>
+                      <option>GİNE-BİSSAU</option>
+                      <option>GRENADA</option>
+                      <option>GUADELOUPE</option>
+                      <option>GUATEMALA</option>
+                      <option>GÜNEY AFRİKA</option>
+                      <option>GÜNEY KIBRIS</option>
+                      <option>GÜNEY KORE</option>
+                      <option>GÜNEY SUDAN</option>
+                      <option>GÜRCİSTAN</option>
+                      <option>GUYANA</option>
+                      <option>HAİTİ</option>
+                      <option>HİNDİSTAN</option>
+                      <option>HIRVATİSTAN</option>
+                      <option>HOLLANDA</option>
+                      <option>HONDURAS</option>
+                      <option>İNGİLTERE</option>
+                      <option>IRAK</option>
+                      <option>İRAN</option>
+                      <option>İRLANDA</option>
+                      <option>İSPANYA</option>
+                      <option>İSRAİL</option>
+                      <option>İSVEÇ</option>
+                      <option>İSVİÇRE</option>
+                      <option>İTALYA</option>
+                      <option>İZLANDA</option>
+                      <option>JAMAİKA</option>
+                      <option>JAPONYA</option>
+                      <option>KAMBOÇYA</option>
+                      <option>KAMERUN</option>
+                      <option>KANADA</option>
+                      <option>KARADAĞ</option>
+                      <option>KATAR</option>
+                      <option>KAZAKİSTAN</option>
+                      <option>KENYA</option>
+                      <option>KIRGIZİSTAN</option>
+                      <option>KİRİBATİ</option>
+                      <option>KOLOMBİYA</option>
+                      <option>KOMOR</option>
+                      <option>KONGO</option>
+                      <option>KOSOVA</option>
+                      <option>KOSTA RİKA</option>
+                      <option>KÜBA</option>
+                      <option>KUVEYT</option>
+                      <option>KUZEY KIBRIS TÜRK CUMHURİYETİ</option>
+                      <option>KUZEY KORE</option>
+                      <option>KUZEY MAKEDONYA CUMHURİYETİ</option>
+                      <option>LAOS</option>
+                      <option>LESOTO</option>
+                      <option>LETONYA</option>
+                      <option>LİBERYA</option>
+                      <option>LİBYA</option>
+                      <option>LİHTENŞTAYN</option>
+                      <option>LİTVANYA</option>
+                      <option>LÜBNAN</option>
+                      <option>LÜKSEMBURG</option>
+                      <option>MACARİSTAN</option>
+                      <option>MACAU</option>
+                      <option>MADAGASKAR</option>
+                      <option>MAKEDONYA</option>
+                      <option>MALAVİ</option>
+                      <option>MALDİVLER</option>
+                      <option>MALEZYA</option>
+                      <option>MALİ</option>
+                      <option>MALTA</option>
+                      <option>MARŞAL ADALARI</option>
+                      <option>MAURİTİUS</option>
+                      <option>MEKSİKA</option>
+                      <option>MİKRONEZYA</option>
+                      <option>MISIR</option>
+                      <option>MOĞOLİSTAN</option>
+                      <option>MOLDOVA</option>
+                      <option>MONAKO</option>
+                      <option>MORİTANYA</option>
+                      <option>MOZAMBİK</option>
+                      <option>MYANMAR</option>
+                      <option>NAMİBYA</option>
+                      <option>NAURU</option>
+                      <option>NEPAL</option>
+                      <option>NİJER</option>
+                      <option>NİJERYA</option>
+                      <option>NİKARAGUA</option>
+                      <option>NORVEÇ</option>
+                      <option>ORTA AFRİKA</option>
+                      <option>ÖZBEKİSTAN</option>
+                      <option>PAKİSTAN</option>
+                      <option>PALAU</option>
+                      <option>PANAMA</option>
+                      <option>PAPUA YENİ GİNE</option>
+                      <option>PARAGUAY</option>
+                      <option>PERU</option>
+                      <option>PİTCAİRN ADALARI</option>
+                      <option>POLONYA</option>
+                      <option>PORTEKİZ</option>
+                      <option>PORTO RİKO</option>
+                      <option>ROMANYA</option>
+                      <option>RUANDA</option>
+                      <option>RUSYA</option>
+                      <option>SAİNT KİTTS VE NEVİS</option>
+                      <option>SAİNT LUCİA</option>
+                      <option>SAINT MARTIN</option>
+                      <option>SAİNT VİNCENT VE GRENADİNLER</option>
+                      <option>SAMOA</option>
+                      <option>SAN MARİNO</option>
+                      <option>SAO TOME VE PRİNCİPE</option>
+                      <option>SENEGAL</option>
+                      <option>SEYŞELLER</option>
+                      <option>SİERRA LEONE</option>
+                      <option>ŞİLİ</option>
+                      <option>SİNGAPUR</option>
+                      <option>SINT MAARTEN</option>
+                      <option>SIRBİSTAN</option>
+                      <option>SLOVAKYA</option>
+                      <option>SLOVENYA</option>
+                      <option>SOLOMON ADALARI</option>
+                      <option>SOMALİ</option>
+                      <option>SRİ LANKA</option>
+                      <option>SUDAN</option>
+                      <option>SURİNAM</option>
+                      <option>SURİYE</option>
+                      <option>SUUDİ ARABİSTAN</option>
+                      <option>SVAZİLAND</option>
+                      <option>TACİKİSTAN</option>
+                      <option>TANZANYA</option>
+                      <option>TAYLAND</option>
+                      <option>TAYVAN</option>
+                      <option>TOGO</option>
+                      <option>TONGA</option>
+                      <option>TRİNİDAD VE TOBAGO</option>
+                      <option>TUNUS</option>
+                      <option>TÜRKİYE</option>
+                      <option>TÜRKMENİSTAN</option>
+                      <option>TUVALU</option>
+                      <option>UGANDA</option>
+                      <option>UKRAYNA</option>
+                      <option>UMMAN</option>
+                      <option>ÜRDÜN</option>
+                      <option>URUGUAY</option>
+                      <option>VANUATU</option>
+                      <option>VATİKAN</option>
+                      <option>VENEZUELA</option>
+                      <option>VİETNAM</option>
+                      <option>YEMEN</option>
+                      <option>YENİ ZELANDA</option>
+                      <option>YEŞİL BURUN</option>
+                      <option>YUNANİSTAN</option>
+                      <option>ZAMBİYA</option>
+                      <option>ZİMBABVE</option>
+                            </select>
+   </div>
+
+</div>
+<div class="form-row field-row 647475d54ad98">
+                <div class="col-auto mb-4 px-3">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" name="field_180" value="checked" id="15_terms647475d54ad982233">
+                    <label class="custom-control-label" style="display:block;" for="15_terms647475d54ad982233">
+                    Kampanya ve promosyonlardan haberdar olmak istiyorum                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row mb-3 field-row">
+              <div class="col-auto mb-0 px-3">
+                <div class="custom-control custom-checkbox">
+                  <input class="custom-control-input" type="checkbox" value="1" id="15_terms2647475d54ad9a33" required="">
+                  <label class="custom-control-label" style="display:block;" for="15_terms2647475d54ad9a33">
+                  E-posta hizmetlerinin yürütülmesi amacıyla verilerimin yurt içi ve yurt dışı yerleşik iş ortaklarına aktarılmasına izin veriyorum.                  </label>
+                </div>
+              </div>
+            </div>
+
+<div class="form-row field-row mb-3">
+   <div class="col-sm-12 px-3 form-message">
+   </div>
+</div>
+<div class="form-row field-row mb-3">
+<div class="col-sm-6 mb-3 px-3 company_wrapper">
+<button type="submit" class="btn btn-submit"><span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                  <span class="sr-only">Loading...</span>GÖNDER</button>
+                  </div>
+                  </div>
+                  <input type="hidden" class="" name="field_177" value="KD 402 S – Çift Kafa Kesme Makinesi">
+                  <input type="hidden" name="form_id" id="form_id" value="20">
+                  <input type="hidden" name="field_181" id="formLang" value="tr">
+                  <input name="11sightButton" type="hidden" value="kPRNGK9L_TPzmpsruqnHlrfG-bFj5j9tQOKNh7EGVLwvVDWmXI">
+                </form>
+                        </div>
+
+                                                  </div>
+                                    </div>
+              </div>
+        </div>
+
+        </div>
+
+
+
+    </div>
+  
+</section>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalFAQ" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">SORUNUZU BİZE GÖNDERİN!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+      <form novalidate="" class="formidable-form needs-validation" id="form-8"><div class="form-row field-row mb-3"> <div class="col-sm-6 mb-3 px-3 name_wrapper"><label>Adınız / Soyadınız*</label><br><input type="text" class="form-control " name="field_32" value="" required="" autocomplete="name"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 email_wrapper"><label>E-posta*</label><br><input type="email" class="form-control " name="field_34" value="" required="" autocomplete="email"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 country2_wrapper"><label>Ülke*</label><br><select class="form-control custom-select" name="field_36" required="" autocomplete="country2"><option></option><option>AFGANİSTAN</option><option>ALMANYA</option><option>AMERİKA</option><option>ANDORRA</option><option>ANGOLA</option><option>ANTİGUA VE BARBUDA</option><option>ARJANTİN</option><option>ARNAVUTLUK</option><option>AVUSTRALYA</option><option>AVUSTURYA</option><option>AZERBAYCAN</option><option>BAHAMALAR</option><option>BAHREYN</option><option>BANGLADEŞ</option><option>BARBADOS</option><option>BELARUS</option><option>BELÇİKA</option><option>BELİZE</option><option>BENİN</option><option>BİRLEŞİK ARAP EMİRLİKLERİ</option><option>BOLİVYA</option><option>BOSNA HERSEK</option><option>BOTSVANA</option><option>BREZİLYA</option><option>BRUNEİ  DARUSSELAM</option><option>BULGARİSTAN</option><option>BURKİNA FASO</option><option>BURUNDİ</option><option>BUTAN</option><option>ÇAD</option><option>ÇEK CUMHURİYETİ</option><option>CEZAYİR</option><option>CİBUTİ</option><option>ÇİN</option><option>DAĞISTAN</option><option>DANİMARKA</option><option>DEMOKRATİK  KONGO</option><option>DOĞU TİMOR</option><option>DOMİNİK CUMHURİYETİ</option><option>DOMİNİKA</option><option>EKVATOR</option><option>EKVATOR GİNESİ</option><option>EL SALVADOR</option><option>ENDONEZYA</option><option>ERİTRE</option><option>ERMENİSTAN</option><option>ESTONYA</option><option>ETİYOPYA</option><option>FAS</option><option>FİJİ</option><option>FİLDİŞİ SAHİLİ</option><option>FİLİPİNLER</option><option>FİLİSTİN</option><option>FİNLANDİYA</option><option>FRANSA</option><option>GABON</option><option>GAMBİYA</option><option>GANA</option><option>GİNE</option><option>GİNE-BİSSAU</option><option>GRENADA</option><option>GUADELOUPE</option><option>GUATEMALA</option><option>GÜNEY AFRİKA</option><option>GÜNEY KIBRIS</option><option>GÜNEY KORE</option><option>GÜNEY SUDAN</option><option>GÜRCİSTAN</option><option>GUYANA</option><option>HAİTİ</option><option>HİNDİSTAN</option><option>HIRVATİSTAN</option><option>HOLLANDA</option><option>HONDURAS</option><option>İNGİLTERE</option><option>IRAK</option><option>İRAN</option><option>İRLANDA</option><option>İSPANYA</option><option>İSRAİL</option><option>İSVEÇ</option><option>İSVİÇRE</option><option>İTALYA</option><option>İZLANDA</option><option>JAMAİKA</option><option>JAPONYA</option><option>KAMBOÇYA</option><option>KAMERUN</option><option>KANADA</option><option>KARADAĞ</option><option>KATAR</option><option>KAZAKİSTAN</option><option>KENYA</option><option>KIRGIZİSTAN</option><option>KİRİBATİ</option><option>KOLOMBİYA</option><option>KOMOR</option><option>KONGO</option><option>KOSOVA</option><option>KOSTA RİKA</option><option>KÜBA</option><option>KUVEYT</option><option>KUZEY KIBRIS TÜRK CUMHURİYETİ</option><option>KUZEY KORE</option><option>KUZEY MAKEDONYA CUMHURİYETİ</option><option>LAOS</option><option>LESOTO</option><option>LETONYA</option><option>LİBERYA</option><option>LİBYA</option><option>LİHTENŞTAYN</option><option>LİTVANYA</option><option>LÜBNAN</option><option>LÜKSEMBURG</option><option>MACARİSTAN</option><option>MACAU</option><option>MADAGASKAR</option><option>MAKEDONYA</option><option>MALAVİ</option><option>MALDİVLER</option><option>MALEZYA</option><option>MALİ</option><option>MALTA</option><option>MARŞAL ADALARI</option><option>MAURİTİUS</option><option>MEKSİKA</option><option>MİKRONEZYA</option><option>MISIR</option><option>MOĞOLİSTAN</option><option>MOLDOVA</option><option>MONAKO</option><option>MORİTANYA</option><option>MOZAMBİK</option><option>MYANMAR</option><option>NAMİBYA</option><option>NAURU</option><option>NEPAL</option><option>NİJER</option><option>NİJERYA</option><option>NİKARAGUA</option><option>NORVEÇ</option><option>ORTA AFRİKA</option><option>ÖZBEKİSTAN</option><option>PAKİSTAN</option><option>PALAU</option><option>PANAMA</option><option>PAPUA YENİ GİNE</option><option>PARAGUAY</option><option>PERU</option><option>PİTCAİRN ADALARI</option><option>POLONYA</option><option>PORTEKİZ</option><option>PORTO RİKO</option><option>ROMANYA</option><option>RUANDA</option><option>RUSYA</option><option>SAİNT KİTTS VE NEVİS</option><option>SAİNT LUCİA</option><option>SAINT MARTIN</option><option>SAİNT VİNCENT VE GRENADİNLER</option><option>SAMOA</option><option>SAN MARİNO</option><option>SAO TOME VE PRİNCİPE</option><option>SENEGAL</option><option>SEYŞELLER</option><option>SİERRA LEONE</option><option>ŞİLİ</option><option>SİNGAPUR</option><option>SINT MAARTEN</option><option>SIRBİSTAN</option><option>SLOVAKYA</option><option>SLOVENYA</option><option>SOLOMON ADALARI</option><option>SOMALİ</option><option>SRİ LANKA</option><option>SUDAN</option><option>SURİNAM</option><option>SURİYE</option><option>SUUDİ ARABİSTAN</option><option>SVAZİLAND</option><option>TACİKİSTAN</option><option>TANZANYA</option><option>TAYLAND</option><option>TAYVAN</option><option>TOGO</option><option>TONGA</option><option>TRİNİDAD VE TOBAGO</option><option>TUNUS</option><option>TÜRKİYE</option><option>TÜRKMENİSTAN</option><option>TUVALU</option><option>UGANDA</option><option>UKRAYNA</option><option>UMMAN</option><option>ÜRDÜN</option><option>URUGUAY</option><option>VANUATU</option><option>VATİKAN</option><option>VENEZUELA</option><option>VİETNAM</option><option>YEMEN</option><option>YENİ ZELANDA</option><option>YEŞİL BURUN</option><option>YUNANİSTAN</option><option>ZAMBİYA</option><option>ZİMBABVE</option></select> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 city_wrapper"><label>Şehir</label><br><input type="text" class="form-control " name="field_37" value="" autocomplete="city"> <div class="invalid-feedback"></div></div> <div class="col-sm-6 mb-3 px-3 phone_wrapper"><label>Telefonunuz*</label><br><input type="text" class="form-control " name="field_33" value="" required="" autocomplete="phone"> <div class="invalid-feedback">Zorunlu Alan</div></div> <div class="col-sm-6 mb-3 px-3 company_wrapper"><label>Firma Adı veya Ünvanı</label><br><input type="text" class="form-control " name="field_35" value="" autocomplete="company"> <div class="invalid-feedback"></div></div> <input type="hidden" class="form-control " name="field_39" value="KD 402 S – Çift Kafa Kesme Makinesi" autocomplete="machine">  <div class="col-sm-12 mb-3 px-3 question_wrapper"><label>Sorunuz*</label><br><textarea rows="3" class="form-control " name="field_40" required=""></textarea> <div class="invalid-feedback">Zorunlu Alan</div></div></div><input type="hidden" name="field_140" value="tr"><div class="form-row field-row 69b8b6fbf07a6">
+                <div class="col-auto mb-4 px-3">
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" name="field_141" value="checked" id="8_terms69b8b6fbf07a6">
+                    <label class="custom-control-label" style="display:block;" for="8_terms69b8b6fbf07a6">
+                      Kampanya ve promosyonlardan haberdar olmak istiyorum
+                    </label>
+                  </div>
+                </div>
+              </div><div class="form-row field-row">
+              <div class="col-auto mb-0 px-3">
+                <div class="custom-control custom-checkbox">
+                  <input class="custom-control-input" type="checkbox" value="1" id="8_terms269b8b6fbf07a9" required="">
+                  <label class="custom-control-label" style="display:block;" for="8_terms269b8b6fbf07a9">
+                    E-posta hizmetlerinin yürütülmesi amacıyla verilerimin yurt içi ve yurt dışı yerleşik iş ortaklarına aktarılmasına izin veriyorum.
+                  </label>
+                </div>
+              </div>
+            </div> <div class="form-row px-3 my-3">
+          <div class="form-message">
+
+        </div>
+      </div><input type="hidden" name="form_id" id="form_id" value="8">
+    <div class="form-row field-row mb-3 px-3">
+                <div class="form-group">
+                  <button type="submit" class="btn btn-submit"><span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                  <span class="sr-only">Loading...</span>GÖNDER</button>
+                </div>
+              </div><input type="hidden" name="recaptcha_token" value=""><input type="hidden" name="recaptcha_action" value="submit_formidable"><input type="hidden" name="ajax_nonce" value="8b81f162e2"></form>
+     <!--   <form class="sss_form">
+          <div class="form-row mb-3">
+            <div class="col-sm-6 mb-3 px-3">
+              <label>Firma Adı</label>
+              <input type="text" class="form-control company" name="company" placeholder="">
+            </div>
+            <div class="col-sm-6 mb-3 px-3">
+              <label>E-posta</label>
+              <input type="text" class="form-control email" name="email" placeholder="">
+            </div>
+            <div class="col-sm-6 mb-3 px-3">
+              <label>Ülke</label>
+              <select class="form-control" name="lastname" >
+              
+
+                        <option value="Afghanistan">Afghanistan</option>
+											  <option value="Åland Islands">Åland Islands</option>
+											  <option value="Albania">Albania</option>
+											  <option value="Algeria">Algeria</option>
+											  <option value="American Samoa">American Samoa</option>
+											  <option value="Andorra">Andorra</option>
+											  <option value="Angola">Angola</option>
+											  <option value="Anguilla">Anguilla</option>
+											  <option value="Antarctica">Antarctica</option>
+											  <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+											  <option value="Argentina">Argentina</option>
+											  <option value="Armenia">Armenia</option>
+											  <option value="Aruba">Aruba</option>
+											  <option value="Australia">Australia</option>
+											  <option value="Austria">Austria</option>
+											  <option value="Azerbaijan">Azerbaijan</option>
+											  <option value="Bahamas">Bahamas</option>
+											  <option value="Bahrain">Bahrain</option>
+											  <option value="Bangladesh">Bangladesh</option>
+											  <option value="Barbados">Barbados</option>
+											  <option value="Belarus">Belarus</option>
+											  <option value="Belgium">Belgium</option>
+											  <option value="Belize">Belize</option>
+											  <option value="Benin">Benin</option>
+											  <option value="Bermuda">Bermuda</option>
+											  <option value="Bhutan">Bhutan</option>
+											  <option value="Bolivia">Bolivia</option>
+											  <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+											  <option value="Botswana">Botswana</option>
+											  <option value="Bouvet Island">Bouvet Island</option>
+											  <option value="Brazil">Brazil</option>
+											  <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+											  <option value="Brunei Darussalam">Brunei Darussalam</option>
+											  <option value="Bulgaria">Bulgaria</option>
+											  <option value="Burkina Faso">Burkina Faso</option>
+											  <option value="Burundi">Burundi</option>
+											  <option value="Cambodia">Cambodia</option>
+											  <option value="Cameroon">Cameroon</option>
+											  <option value="Canada">Canada</option>
+											  <option value="Cape Verde">Cape Verde</option>
+											  <option value="Cayman Islands">Cayman Islands</option>
+											  <option value="Central African Republic">Central African Republic</option>
+											  <option value="Chad">Chad</option>
+											  <option value="Chile">Chile</option>
+											  <option value="China">China</option>
+											  <option value="Christmas Island">Christmas Island</option>
+											  <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+											  <option value="Colombia">Colombia</option>
+											  <option value="Comoros">Comoros</option>
+											  <option value="Congo">Congo</option>
+											  <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+											  <option value="Cook Islands">Cook Islands</option>
+											  <option value="Costa Rica">Costa Rica</option>
+											  <option value="Cote D'ivoire">Cote D'ivoire</option>
+											  <option value="Croatia">Croatia</option>
+											  <option value="Cuba">Cuba</option>
+											  <option value="Cyprus">Cyprus</option>
+											  <option value="Czech Republic">Czech Republic</option>
+											  <option value="Denmark">Denmark</option>
+											  <option value="Djibouti">Djibouti</option>
+											  <option value="Dominica">Dominica</option>
+											  <option value="Dominican Republic">Dominican Republic</option>
+											  <option value="Ecuador">Ecuador</option>
+											  <option value="Egypt">Egypt</option>
+											  <option value="El Salvador">El Salvador</option>
+											  <option value="Equatorial Guinea">Equatorial Guinea</option>
+											  <option value="Eritrea">Eritrea</option>
+											  <option value="Estonia">Estonia</option>
+											  <option value="Ethiopia">Ethiopia</option>
+											  <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+											  <option value="Faroe Islands">Faroe Islands</option>
+											  <option value="Fiji">Fiji</option>
+											  <option value="Finland">Finland</option>
+											  <option value="France">France</option>
+											  <option value="French Guiana">French Guiana</option>
+											  <option value="French Polynesia">French Polynesia</option>
+											  <option value="French Southern Territories">French Southern Territories</option>
+											  <option value="Gabon">Gabon</option>
+											  <option value="Gambia">Gambia</option>
+											  <option value="Georgia">Georgia</option>
+											  <option value="Germany">Germany</option>
+											  <option value="Ghana">Ghana</option>
+											  <option value="Gibraltar">Gibraltar</option>
+											  <option value="Greece">Greece</option>
+											  <option value="Greenland">Greenland</option>
+											  <option value="Grenada">Grenada</option>
+											  <option value="Guadeloupe">Guadeloupe</option>
+											  <option value="Guam">Guam</option>
+											  <option value="Guatemala">Guatemala</option>
+											  <option value="Guernsey">Guernsey</option>
+											  <option value="Guinea">Guinea</option>
+											  <option value="Guinea-bissau">Guinea-bissau</option>
+											  <option value="Guyana">Guyana</option>
+											  <option value="Haiti">Haiti</option>
+											  <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+											  <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+											  <option value="Honduras">Honduras</option>
+											  <option value="Hong Kong">Hong Kong</option>
+											  <option value="Hungary">Hungary</option>
+											  <option value="Iceland">Iceland</option>
+											  <option value="India">India</option>
+											  <option value="Indonesia">Indonesia</option>
+											  <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+											  <option value="Iraq">Iraq</option>
+											  <option value="Ireland">Ireland</option>
+											  <option value="Isle of Man">Isle of Man</option>
+											  <option value="Israel">Israel</option>
+											  <option value="Italy">Italy</option>
+											  <option value="Jamaica">Jamaica</option>
+											  <option value="Japan">Japan</option>
+											  <option value="Jersey">Jersey</option>
+											  <option value="Jordan">Jordan</option>
+											  <option value="Kazakhstan">Kazakhstan</option>
+											  <option value="Kenya">Kenya</option>
+											  <option value="Kiribati">Kiribati</option>
+											  <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+											  <option value="Korea, Republic of">Korea, Republic of</option>
+											  <option value="Kuwait">Kuwait</option>
+											  <option value="Kyrgyzstan">Kyrgyzstan</option>
+											  <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+											  <option value="Latvia">Latvia</option>
+											  <option value="Lebanon">Lebanon</option>
+											  <option value="Lesotho">Lesotho</option>
+											  <option value="Liberia">Liberia</option>
+											  <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+											  <option value="Liechtenstein">Liechtenstein</option>
+											  <option value="Lithuania">Lithuania</option>
+											  <option value="Luxembourg">Luxembourg</option>
+											  <option value="Macao">Macao</option>
+											  <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+											  <option value="Madagascar">Madagascar</option>
+											  <option value="Malawi">Malawi</option>
+											  <option value="Malaysia">Malaysia</option>
+											  <option value="Maldives">Maldives</option>
+											  <option value="Mali">Mali</option>
+											  <option value="Malta">Malta</option>
+											  <option value="Marshall Islands">Marshall Islands</option>
+											  <option value="Martinique">Martinique</option>
+											  <option value="Mauritania">Mauritania</option>
+											  <option value="Mauritius">Mauritius</option>
+											  <option value="Mayotte">Mayotte</option>
+											  <option value="Mexico">Mexico</option>
+											  <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+											  <option value="Moldova, Republic of">Moldova, Republic of</option>
+											  <option value="Monaco">Monaco</option>
+											  <option value="Mongolia">Mongolia</option>
+											  <option value="Montenegro">Montenegro</option>
+											  <option value="Montserrat">Montserrat</option>
+											  <option value="Morocco">Morocco</option>
+											  <option value="Mozambique">Mozambique</option>
+											  <option value="Myanmar">Myanmar</option>
+											  <option value="Namibia">Namibia</option>
+											  <option value="Nauru">Nauru</option>
+											  <option value="Nepal">Nepal</option>
+											  <option value="Netherlands">Netherlands</option>
+											  <option value="Netherlands Antilles">Netherlands Antilles</option>
+											  <option value="New Caledonia">New Caledonia</option>
+											  <option value="New Zealand">New Zealand</option>
+											  <option value="Nicaragua">Nicaragua</option>
+											  <option value="Niger">Niger</option>
+											  <option value="Nigeria">Nigeria</option>
+											  <option value="Niue">Niue</option>
+											  <option value="Norfolk Island">Norfolk Island</option>
+											  <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+											  <option value="Norway">Norway</option>
+											  <option value="Oman">Oman</option>
+											  <option value="Pakistan">Pakistan</option>
+											  <option value="Palau">Palau</option>
+											  <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+											  <option value="Panama">Panama</option>
+											  <option value="Papua New Guinea">Papua New Guinea</option>
+											  <option value="Paraguay">Paraguay</option>
+											  <option value="Peru">Peru</option>
+											  <option value="Philippines">Philippines</option>
+											  <option value="Pitcairn">Pitcairn</option>
+											  <option value="Poland">Poland</option>
+											  <option value="Portugal">Portugal</option>
+											  <option value="Puerto Rico">Puerto Rico</option>
+											  <option value="Qatar">Qatar</option>
+											  <option value="Reunion">Reunion</option>
+											  <option value="Romania">Romania</option>
+											  <option value="Russian Federation">Russian Federation</option>
+											  <option value="Rwanda">Rwanda</option>
+											  <option value="Saint Helena">Saint Helena</option>
+											  <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+											  <option value="Saint Lucia">Saint Lucia</option>
+											  <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+											  <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+											  <option value="Samoa">Samoa</option>
+											  <option value="San Marino">San Marino</option>
+											  <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+											  <option value="Saudi Arabia">Saudi Arabia</option>
+											  <option value="Senegal">Senegal</option>
+											  <option value="Serbia">Serbia</option>
+											  <option value="Seychelles">Seychelles</option>
+											  <option value="Sierra Leone">Sierra Leone</option>
+											  <option value="Singapore">Singapore</option>
+											  <option value="Slovakia">Slovakia</option>
+											  <option value="Slovenia">Slovenia</option>
+											  <option value="Solomon Islands">Solomon Islands</option>
+											  <option value="Somalia">Somalia</option>
+											  <option value="South Africa">South Africa</option>
+											  <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+											  <option value="Spain">Spain</option>
+											  <option value="Sri Lanka">Sri Lanka</option>
+											  <option value="Sudan">Sudan</option>
+											  <option value="Suriname">Suriname</option>
+											  <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+											  <option value="Swaziland">Swaziland</option>
+											  <option value="Sweden">Sweden</option>
+											  <option value="Switzerland">Switzerland</option>
+											  <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+											  <option value="Taiwan, Province of China">Taiwan, Province of China</option>
+											  <option value="Tajikistan">Tajikistan</option>
+											  <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+											  <option value="Thailand">Thailand</option>
+											  <option value="Timor-leste">Timor-leste</option>
+											  <option value="Togo">Togo</option>
+											  <option value="Tokelau">Tokelau</option>
+											  <option value="Tonga">Tonga</option>
+											  <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+											  <option value="Tunisia">Tunisia</option>
+											  <option value="Turkey">Turkey</option>
+											  <option value="Turkmenistan">Turkmenistan</option>
+											  <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+											  <option value="Tuvalu">Tuvalu</option>
+											  <option value="Uganda">Uganda</option>
+											  <option value="Ukraine">Ukraine</option>
+											  <option value="United Arab Emirates">United Arab Emirates</option>
+											  <option value="United Kingdom">United Kingdom</option>
+											  <option value="United States">United States</option>
+											  <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+											  <option value="Uruguay">Uruguay</option>
+											  <option value="Uzbekistan">Uzbekistan</option>
+											  <option value="Vanuatu">Vanuatu</option>
+											  <option value="Venezuela">Venezuela</option>
+											  <option value="Viet Nam">Viet Nam</option>
+											  <option value="Virgin Islands, British">Virgin Islands, British</option>
+											  <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+											  <option value="Wallis and Futuna">Wallis and Futuna</option>
+											  <option value="Western Sahara">Western Sahara</option>
+											  <option value="Yemen">Yemen</option>
+											  <option value="Zambia">Zambia</option>
+											  <option value="Zimbabwe">Zimbabwe</option>
+              </select>
+            </div>
+            <div class="col-sm-6 mb-3 px-3">
+              <label>Şehir</label>
+              <input type="text" class="form-control city" name="city" placeholder="">
+            </div>
+            <div class="col-sm-12 mb-3 px-3">
+              <label>Sorunuz</label>
+              <textarea class="form-control message" name="message" rows="4"></textarea>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-sm-12 mb-0 px-3" style="clear:both">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="1" id="form_terms2">
+                <label class="form-check-label" for="form_terms2">
+                  Kampanyalardan haberdar olmak için elektronik ileti almak istiyorum. Kişisel Verilerimin İşlenmesine izin veriyorum ve Aydınlatma Bildirisini okudum.
+                </label>
+              </div>
+
+            </div>
+          </div>
+          <div class="form-row mb-3">
+            <div class="form-group col-sm-12 px-3" style="clear:both">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="1" id="form_ok2">
+                <label class="form-check-label" for="form_ok2">
+                  Okudum, Anladım.
+                </label>
+              </div>
+
+            </div>
+          </div>
+          <div class="form-row mb-3">
+                        <div class="form_message">
+
+                      </div>
+                    </div>
+          <div class="form-row mb-3 px-3">
+            <div class="form-group" >
+              <button type="button" onclick="submitSSSForm('sss_form')" class="btn btn-submit">GÖNDER</button>
+            </div>
+          </div>
+        </form>-->
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<style></style>
+
+
+
+<div class="modal fade" id="appModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">KVKK</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <div class="modal-content-wrapper" style="border:none;">
+                   
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+            <button type="button" class="btn btn-primary btn-ok" onclick="checkByScroll()" disabled="">Onaylıyorum</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<section class="newsletter my-2 my-md-5 pt-lg-5 pb-3">
+<div class="container">
+  <div class="row pt-5">
+  <div class="col-12 col-lg-6">
+    <h3>E-Bültenimize kayıt olun!</h3>
+  </div>
+  <div class="col-12 col-lg-6">
+    <form class="newsletter-form">
+      <div class="form-group">
+        <input type="text" class="newsletter-email" name="email" placeholder="E-posta adresinizi giriniz">
+        <button type="button" onclick="submitNewsletterForm()">GÖNDER</button>
+      </div>
+      <div class="form-group" style="clear:both">
+        <div class="custom-control custom-checkbox">
+          <input class="custom-control-input" type="checkbox" value="1" id="news_terms">
+          <label class="custom-control-label" for="news_terms">
+          Kampanya ve promosyonlardan haberdar olmak istiyorum ve e-posta hizmetlerinin yürütülmesi amacıyla verilerimin yurt içi ve yurt dışı yerleşik iş ortaklarına aktarılmasına izin veriyorum.           
+          </label>
+        </div>
+
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</section>
+
+<footer>
+  <div class="container py-md-5 py-4">
+    <div class="row">
+      <div class="col-5 col-md-4 col-xl-2 mb-3 mb-xl-0">
+                <h4>HAKKIMIZDA</h4>
+        <ul>
+                    <li><a href="https://www.yilmazmachine.com.tr/misyon-ve-vizyonumuz/"><i class="fas fa-chevron-right"></i> Misyon ve Vizyon</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/tarihce/"><i class="fas fa-chevron-right"></i> Tarihçe</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/kalite-politikamiz/"><i class="fas fa-chevron-right"></i> Kalite Politikamız</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/cevre-politikamiz/"><i class="fas fa-chevron-right"></i> Çevre Politikamız</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/kalite-belgeleri/"><i class="fas fa-chevron-right"></i> Kalite Belgeleri</a></li>
+                  </ul>
+      </div>
+      <div class="col-7 col-md-4 col-xl-2 mb-3 mb-xl-0">
+              <h4>ÜRÜNLER</h4>
+        <ul>
+                  <li><a href="https://www.yilmazmachine.com.tr/urun_kategori/aluminyum/"><i class="fas fa-chevron-right"></i> Alüminyum</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/urun_kategori/pvc/"><i class="fas fa-chevron-right"></i> PVC</a></li>
+                  </ul>
+      </div>
+      <div class="col-5 col-md-4 col-xl-2  mb-3 mb-xl-0">
+              <h4>HIZLI MENÜ</h4>
+        <ul>
+                  <li><a href="https://www.yilmazmachine.com.tr/etkinlikler/webinarlar/"><i class="fas fa-chevron-right"></i> Etkinlikler</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/medya/kataloglar/"><i class="fas fa-chevron-right"></i> Katalog &amp; Broşür</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/medya/yilmaz-line/"><i class="fas fa-chevron-right"></i> Yılmaz Line</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/medya/videolar/"><i class="fas fa-chevron-right"></i> Videolar</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/blog/"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                    <li><a href="https://www.yilmazmachine.com.tr/iletisim/"><i class="fas fa-chevron-right"></i> İletişim</a></li>
+                  </ul>
+      </div>
+      <div class="col-7 col-md-6 col-xl-4 mb-3 mb-xl-0">
+               <h4>İLETİŞİM</h4>
+        <ul class="mail-list">
+                  <li><span>Bilgi</span><a href="mailto:info@yilmazmachine.com.tr">info@yilmazmachine.com.tr</a></li>
+                  <li><span>Satış</span><a href="mailto:satis@yilmazmachine.com.tr">satis@yilmazmachine.com.tr</a></li>
+                  <li><span>Teknik Servis</span><a href="mailto:teknikservis@yilmazmachine.com.tr">teknikservis@yilmazmachine.com.tr</a></li>
+                  <li><span>İnsan Kaynakları</span><a href="mailto:ik@yilmazmachine.com.tr">ik@yilmazmachine.com.tr</a></li>
+                </ul>
+      </div>
+      <div class="col-12 col-md-6 col-xl-2 col-social mb-3 mb-xl-0">
+
+           
+        <h4>BİZİ TAKİP EDİN</h4>
+        <p>
+          </p><ul class="social-links">
+                  <li class="Linked In"><a href="https://www.linkedin.com/company/3636643" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></li>
+                      <li class="Youtube"><a href="https://www.youtube.com/channel/UCFyDHxoQaJH88_Jx8V7mk8w" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"></path></svg></a></li>
+                      <li class="Instagram"><a href="https://www.instagram.com/yilmazmachine/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a></li>
+                      <li class="Facebook"><a href="https://www.facebook.com/yilmazmachine" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path></svg></a></li>
+                      <li class="Amazon"><a href="https://www.amazon.com.tr/sp?ie=UTF8&amp;seller=A37LBNH4PKTZO0&amp;asin=B08W599GB6&amp;ref_=dp_merchant_link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M257.2 162.7c-48.7 1.8-169.5 15.5-169.5 117.5 0 109.5 138.3 114 183.5 43.2 6.5 10.2 35.4 37.5 45.3 46.8l56.8-56S341 288.9 341 261.4V114.3C341 89 316.5 32 228.7 32 140.7 32 94 87 94 136.3l73.5 6.8c16.3-49.5 54.2-49.5 54.2-49.5 40.7-.1 35.5 29.8 35.5 69.1zm0 86.8c0 80-84.2 68-84.2 17.2 0-47.2 50.5-56.7 84.2-57.8v40.6zm136 163.5c-7.7 10-70 67-174.5 67S34.2 408.5 9.7 379c-6.8-7.7 1-11.3 5.5-8.3C88.5 415.2 203 488.5 387.7 401c7.5-3.7 13.3 2 5.5 12zm39.8 2.2c-6.5 15.8-16 26.8-21.2 31-5.5 4.5-9.5 2.7-6.5-3.8s19.3-46.5 12.7-55c-6.5-8.3-37-4.3-48-3.2-10.8 1-13 2-14-.3-2.3-5.7 21.7-15.5 37.5-17.5 15.7-1.8 41-.8 46 5.7 3.7 5.1 0 27.1-6.5 43.1z"></path></svg></a></li>
+                        </ul>
+        <p></p>
+        <a class="button-pos" target="_blank" href="https://yilmaz.tahsilat.com.tr/"><i class="far fa-credit-card"></i> Online Ödeme</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row footer-bottom">
+      <div class="container py-md-5 py-4">
+        <div class="row">
+          <div class="col-12 col-md-6 text-center text-md-left copyright">
+            Yılmaz Machine © 2026 Tüm Hakları Saklıdır          </div>
+          <div class="col-12 col-md-6 text-center text-md-right">
+                        <a href="https://www.yilmazmachine.com.tr/gizlilik-politikasi/">Gizlilik Politikası</a>
+                        <a href="https://www.yilmazmachine.com.tr/kisisel-verilerin-islenmesine-iliskin-aydinlatma-metni/">KVKK</a>
+                        <a href="https://www.yilmazmachine.com.tr/kisisel-verilerinin-islenmesine-iliskin-kamera-kayitlari-aydinlatma-metni/">Kamera Aydınlatma Metni</a>
+                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<script>window.RECAPTCHA_V3_SITE_KEY = "6LfumjQsAAAAAL5Gw0ZmzYUiyJDB5MUrCxc9cL5i";</script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/yilmazmachine/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://www.yilmazmachine.com.tr","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-extra">
+/* <![CDATA[ */
+var rocket_lazyload_css_data = {"threshold":"300"};
+//# sourceURL=rocket_lazyload_css-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-after">
+/* <![CDATA[ */
+!function o(n,c,a){function u(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(s)return s(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return u(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var s="function"==typeof require&&require,e=0;e<a.length;e++)u(a[e]);return u}({1:[function(e,t,r){"use strict";{const c="undefined"==typeof rocket_pairs?[]:rocket_pairs,a=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var o=rocket_lazyload_css_data.threshold||300;const u=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&c.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,a.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{u.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:o+"px"});function n(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&c.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(u.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}n(),function(){const r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}}()(document.querySelector("body"),n)}},{}]},{},[1]);
+//# sourceURL=rocket_lazyload_css-js-after
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="https://www.yilmazmachine.com.tr/wp-content/cache/min/1/ajax/libs/jquery/3.3.1/jquery.min.js?ver=1773709812" id="jquery-custom-js"></script>
+<script data-minify="1" type="text/javascript" src="https://www.yilmazmachine.com.tr/wp-content/cache/min/1/ajax/libs/popper.js/1.14.7/umd/popper.min.js?ver=1773709812" id="script-popper-js"></script>
+<script data-minify="1" type="text/javascript" src="https://www.yilmazmachine.com.tr/wp-content/cache/min/1/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js?ver=1773709812" id="script-bootstrap-js"></script>
+<script data-minify="1" type="text/javascript" src="https://www.yilmazmachine.com.tr/wp-content/cache/min/1/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js?ver=1773709812" id="script-owl-js"></script>
+<script data-minify="1" type="text/javascript" src="https://www.yilmazmachine.com.tr/wp-content/cache/min/1/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js?ver=1773709812" id="script-fancy-js"></script>
+<script type="text/javascript" src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/js/chosen.jquery.min.js?ver=6.9.1" id="script-magic-search-js"></script>
+<script type="text/javascript" src="https://www.yilmazmachine.com.tr/wp-content/themes/yilmazmachine/assets/js/jquery.uploadifive.min.js?ver=6.9.1" id="script-uploadify-js"></script>
+<script data-minify="1" type="text/javascript" src="https://www.yilmazmachine.com.tr/wp-content/cache/min/1/wp-content/themes/yilmazmachine/assets/js/main.js?ver=1773709812" id="script-custom-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LfumjQsAAAAAL5Gw0ZmzYUiyJDB5MUrCxc9cL5i" id="google-recaptcha-v3-js"></script>
+<script type="text/javascript" id="yasr-window-var-js-extra">
+/* <![CDATA[ */
+var yasrWindowVar = {"siteUrl":"https://www.yilmazmachine.com.tr","adminUrl":"https://www.yilmazmachine.com.tr/wp-admin/","ajaxurl":"https://www.yilmazmachine.com.tr/wp-admin/admin-ajax.php","visitorStatsEnabled":"yes","ajaxEnabled":"no","loaderHtml":"\u003Cdiv id=\"yasr-loader\" style=\"display: inline-block\"\u003E\u00a0 \u003Cimg src=\"https://www.yilmazmachine.com.tr/wp-content/plugins/yet-another-stars-rating/includes/img/loader.gif\" \r\n                 title=\"yasr-loader\" alt=\"yasr-loader\" height=\"16\" width=\"16\"\u003E\u003C/div\u003E","loaderUrl":"https://www.yilmazmachine.com.tr/wp-content/plugins/yet-another-stars-rating/includes/img/loader.gif","isUserLoggedIn":"false","isRtl":"false","starSingleForm":"\"y\\u0131ld\\u0131z\"","starsPluralForm":"\"y\\u0131ld\\u0131z\"","textAfterVr":"\"[Total: %total_count%  Average: %average%]\"","textRating":"\"Rating\"","textLoadRanking":"\"Loading, please wait\"","textVvStats":"\"5 y\\u0131ld\\u0131z \\u00fczerinden\"","textOrderBy":"\"Order by\"","textMostRated":"\"Most Rated\"","textHighestRated":"\"Highest Rated\"","textLeftColumnHeader":"\"Post\""};
+//# sourceURL=yasr-window-var-js-extra
+/* ]]> */
+</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="https://www.yilmazmachine.com.tr/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+
+<div class="modal fade" id="ukrModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <div class="modal-content-wrapper" style="border:none;">
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="w-100 img-fluid" data-lazy-src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/04/15131313/yilmazmachine-popup-ukr.png"><noscript><img src="https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/04/15131313/yilmazmachine-popup-ukr.png" class="w-100 img-fluid" /></noscript>
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <script>
+  if (activeLang === 'ru' || activeLang === 'en') {
+    var data = {
+      'action': 'check_geoip_ukr',
+    };
+
+    jQuery.ajax({
+      type: "POST",
+      url: ajaxurl,
+      data: data,
+      dataType: 'json',
+      success: function (data) {
+        console.log('Country Code: '+data.country);
+        if (data.status === 'ok' && data.country === 'UA') {
+
+          if (!localStorage.getItem("popup_ukr")) {
+            $('#ukrModal').modal('show'); 
+
+          
+            const expiresAt = new Date();
+            expiresAt.setDate(expiresAt.getDate() + 90);
+            localStorage.setItem("popup_ukr", expiresAt.toISOString());
+          } else {
+          
+            const expireDate = new Date(localStorage.getItem("popup_ukr"));
+            if (new Date() > expireDate) {
+              localStorage.removeItem("popup_ukr");
+            }
+          }
+
+        }
+      }
+    });
+  }
+  </script>
+
+<!-- Start of ChatBot (www.chatbot.com) code -->
+<script>
+  window.__ow = window.__ow || {};
+  window.__ow.organizationId = "f119232e-ce5d-4176-9461-b4b9de68dcf5";
+  window.__ow.template_id = "00702db6-160e-488c-aab9-663f445538db";
+  window.__ow.integration_name = "manual_settings";
+  window.__ow.product_name = "chatbot";  
+  ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[OpenWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.openwidget.com/openwidget.js",t.head.appendChild(n)}};!n.__ow.asyncInit&&e.init(),n.OpenWidget=n.OpenWidget||e}(window,document,[].slice))
+</script>
+<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
+<!-- End of ChatBot code -->
+
+
+
+
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-5tbarvmvezqf" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfumjQsAAAAAL5Gw0ZmzYUiyJDB5MUrCxc9cL5i&amp;co=aHR0cHM6Ly93d3cueWlsbWF6bWFjaGluZS5jb20udHI6NDQz&amp;hl=tr&amp;v=QvLuXwupqtKCyjBw2xIzFLIf&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=bwp58zy1syux"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div><deepl-input-controller translate="no"><template shadowrootmode="open"><link rel="stylesheet" href="chrome-extension://cofdbpoegempjloogbagkncekinflcnj/build/content.css"><div dir="ltr" style="visibility: initial !important;"><div class="dl-input-translation-container svelte-95aucy"><div></div></div></div></template></deepl-input-controller><div id="chat-widget-container" style="opacity: 1; visibility: visible; z-index: 2147483639; position: fixed; bottom: 0px; width: 84px; height: 84px; max-width: 100%; max-height: calc(100% + 0px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 0px; transition: none;"><iframe allow="clipboard-read; clipboard-write; autoplay;" src="https://cdn.openwidget.com/widget/openwidget.html?embedded=1&amp;widget_version=3&amp;organization_id=f119232e-ce5d-4176-9461-b4b9de68dcf5&amp;use_parent_storage=1&amp;x-region=" id="chat-widget" name="chat-widget" title="OpenWidget widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: light; position: absolute; inset: 0px; transition: none !important; display: none; visibility: hidden;"></iframe><iframe id="chat-widget-minimized" name="chat-widget-minimized" title="OpenWidget widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: light; display: block;"></iframe><div aria-live="polite" id="lc-aria-announcer-polite" tabindex="-1" style="height: 1px; width: 1px; margin: -1px; overflow: hidden; white-space: nowrap; border: 0px; padding: 0px; position: absolute;"></div><div aria-live="assertive" id="lc-aria-announcer-assertive" tabindex="-1" style="height: 1px; width: 1px; margin: -1px; overflow: hidden; white-space: nowrap; border: 0px; padding: 0px; position: absolute;"></div></div></body>

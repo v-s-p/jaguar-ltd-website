@@ -1,0 +1,134 @@
+---
+// src/pages/[slug].astro
+import machines from '../data/machines.json';
+
+export function getStaticPaths() {
+  return machines.map(m => ({
+    params: { slug: m.slug },
+    props: { machine: m },
+  }));
+}
+
+const { machine } = Astro.props;
+const diller = Object.keys(machine.diller);
+const anaResim = machine.diller.tr?.resimler?.[0] || "https://via.placeholder.com/600x400?text=Resim+Yok";
+
+// ZEKİ İKON SEÇİCİ (GELİŞTİRİLMİŞ V2): Türkçe karakter ve yazım farklılıklarını affetmez!
+function ikonBul(anahtar) {
+    const k = anahtar.toLowerCase();
+    
+    if (k.includes('testere') || k.includes('saw') || k.includes('cap') || k.includes('çap')) return '⚙️';
+    if (k.includes('motor') || k.includes('güç') || k.includes('guc') || k.includes('power') || k.includes('elektrik') || k.includes('volt')) return '🔌';
+    if (k.includes('ağırlık') || k.includes('agirlik') || k.includes('agirligi') || k.includes('weight')) return '⚖️';
+    if (k.includes('hava') || k.includes('air') || k.includes('basınç') || k.includes('basinc') || k.includes('debi')) return '💨';
+    if (k.includes('hız') || k.includes('hiz') || k.includes('speed') || k.includes('devir') || k.includes('rpm')) return '🔄';
+    if (k.includes('ölçü') || k.includes('olcu') || k.includes('boyut') || k.includes('dimension')) return '📐';
+    
+    return '📌'; 
+}
+---
+
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{machine.slug.toUpperCase()} | Jaguar Ltd</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #0f172a; color: #f1f5f9; padding: 2rem; max-width: 1000px; margin: 0 auto; }
+        .header { text-align: center; border-bottom: 2px solid #334155; padding-bottom: 1rem; margin-bottom: 2rem; }
+        .lang-bar { display: flex; gap: 10px; justify-content: center; margin-bottom: 2rem; flex-wrap: wrap; }
+        .lang-btn { background: #1e293b; color: #38bdf8; border: 1px solid #38bdf8; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.2s; }
+        .lang-btn:hover, .lang-btn.active { background: #38bdf8; color: #0f172a; }
+        .content-box { background: #1e293b; padding: 2rem; border-radius: 12px; border: 1px solid #334155; }
+        .img-container { text-align: center; margin-bottom: 1.5rem; }
+        img { max-width: 100%; max-height: 400px; border-radius: 8px; background: #fff; padding: 10px; }
+        
+        .piktogram-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 15px; margin-top: 1rem; }
+        .pikto-card { background: #0f172a; padding: 15px; border-radius: 8px; font-size: 0.9rem; border: 1px solid #334155; display: flex; align-items: center; gap: 15px; transition: 0.2s; }
+        .pikto-card:hover { border-color: #38bdf8; transform: translateY(-2px); }
+        .pikto-icon { font-size: 2rem; background: #1e293b; padding: 10px; border-radius: 8px; }
+        .pikto-text strong { color: #38bdf8; display: block; margin-bottom: 5px; font-size: 0.8rem; text-transform: uppercase; }
+        
+        .ozellik-listesi { margin-top: 2rem; }
+        .ozellik-baslik { color: #38bdf8; border-bottom: 1px solid #334155; padding-bottom: 0.5rem; margin-bottom: 1rem; text-transform: uppercase; }
+        .ozellik-maddeler { color: #cbd5e1; line-height: 1.6; padding-left: 1.2rem; }
+        .ozellik-maddeler li { margin-bottom: 0.4rem; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>{machine.slug.toUpperCase()}</h1>
+        <p style="color: #94a3b8;">9 Dil Test Paneli</p>
+    </div>
+
+    <div class="lang-bar">
+        {diller.map(dil => (
+            <button class="lang-btn" data-lang={dil} onclick={`degistir('${dil}')`}>
+                {dil.toUpperCase()}
+            </button>
+        ))}
+    </div>
+
+    {Object.entries(machine.diller).map(([dil, data]) => (
+        <div id={`icerik-${dil}`} class="icerik-alani" style={dil === 'tr' ? 'display:block;' : 'display:none;'}>
+            <div class="content-box">
+                <div class="img-container">
+                    <img src={data.resimler?.[0] || anaResim} alt={data.isim} />
+                </div>
+                <h2>{data.isim || "İsim Çekilemedi"}</h2>
+                <p style="color: #cbd5e1; line-height: 1.6; margin-bottom: 2rem;">{data.aciklama || "Açıklama bulunmuyor."}</p>
+                
+                {/* 1. BÖLÜM: STANDART VE OPSİYONEL AKSESUARLAR / ÖZELLİKLER */}
+                {data.ozellik_gruplari && Object.keys(data.ozellik_gruplari).length > 0 && (
+                    <div class="ozellik-listesi">
+                        {Object.entries(data.ozellik_gruplari).map(([baslik, maddeler]) => (
+                            /* İŞTE ZIRH BURADA: Eğer maddeler dizisi varsa VE içi boş değilse ekrana bas! */
+                            /* @ts-ignore */
+                            maddeler && maddeler.length > 0 && (
+                                <div style="margin-bottom: 2rem;">
+                                    <h4 class="ozellik-baslik">{baslik}</h4>
+                                    <ul class="ozellik-maddeler">
+                                        {/* @ts-ignore */}
+                                        {maddeler.map(madde => (
+                                            <li>{madde}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )
+                        ))}
+                    </div>
+                )}
+
+                {/* 2. BÖLÜM: YENİ NESİL PİKTOGRAM VİTRİNİ */}
+                {data.piktogramlar && Object.keys(data.piktogramlar).length > 0 && (
+                    <div style="margin-top: 2rem; border-top: 1px dashed #334155; padding-top: 1rem;">
+                        <h4 class="ozellik-baslik" style="border:none;">Teknik Özellikler</h4>
+                        <div class="piktogram-grid">
+                            {Object.entries(data.piktogramlar).map(([anahtar, deger]) => (
+                                <div class="pikto-card">
+                                    <div class="pikto-icon">{ikonBul(anahtar)}</div>
+                                    <div class="pikto-text">
+                                        <strong>{anahtar}</strong>
+                                        <span>{deger}</span>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+            </div>
+        </div>
+    ))}
+
+    <script is:inline>
+        function degistir(secilenDil) {
+            document.querySelectorAll('.icerik-alani').forEach(el => el.style.display = 'none');
+            document.getElementById('icerik-' + secilenDil).style.display = 'block';
+            
+            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`.lang-btn[data-lang="${secilenDil}"]`).classList.add('active');
+        }
+        document.querySelector('.lang-btn[data-lang="tr"]')?.classList.add('active');
+    </script>
+</body>
+</html>

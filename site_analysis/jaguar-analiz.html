@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaguar Ltd - Анализ и План за Модернизация</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            width: 100%;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            border-top: 5px solid #3498db;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .card.alert {
+            border-top-color: #e74c3c;
+        }
+        .card.success {
+            border-top-color: #2ecc71;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+            color: #555;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+        .card:hover .details {
+            max-height: 200px;
+            margin-top: 15px;
+        }
+        .icon {
+            font-size: 1.5em;
+        }
+        .footer-note {
+            margin-top: 40px;
+            text-align: center;
+            color: #95a5a6;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Jaguar Ltd: Цифрова Модернизация</h1>
+    <p class="subtitle">Резюме на техническия одит и стратегическия план (Март 2026)</p>
+
+    <div class="container">
+        <div class="card alert">
+            <h3>1. Критични Проблеми (GDPR) <span class="icon">⚠️</span></h3>
+            <div class="details">
+                <strong>Спешно:</strong> Липсва банер за съгласие за бисквитки (Cookies), страница за Политика за поверителност и Общи условия. Това е <b>законово изискване</b> в ЕС и България и трябва да се реши незабавно.
+            </div>
+        </div>
+
+        <div class="card alert">
+            <h3>2. Мобилна Производителност <span class="icon">📱</span></h3>
+            <div class="details">
+                Текущ резултат за мобилни устройства: <b>49/100 (Слабо)</b>. Времето за зареждане е 8.1 секунди (много над приемливите 2.5 сек). Големите изображения забавят сайта и отблъскват клиентите.
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>3. Решението: Нов Стек <span class="icon">🚀</span></h3>
+            <div class="details">
+                Изграждане на нов сайт с <b>Next.js или Astro</b> (вместо остарелия WordPress). Това гарантира светкавична скорост (95+ резултат), висока сигурност срещу хакери и перфектно SEO оптимизиране.
+            </div>
+        </div>
+
+        <div class="card success">
+            <h3>4. План, Време и Бюджет <span class="icon">⏳</span></h3>
+            <div class="details">
+                <b>Време:</b> 8-12 седмици за пълно персонализирано изграждане и миграция на всички 70+ машини.<br>
+                <b>Бюджет за хостинг:</b> Спада от традиционните такси до почти <b>$0-$20 на месец</b> благодарение на модерната архитектура.
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-note">
+        * Задръжте мишката върху картите (или докоснете на мобилен), за да видите детайлите. Подготвено въз основа на доклада на Perplexity Computer.
+    </div>
+
+</body>
+</html>
