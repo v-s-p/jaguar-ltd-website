@@ -1,0 +1,168 @@
+---
+// src/pages/machines/[slug].astro - ADIM 2: Kusursuz Detay Sayfası
+import Header from '../../components/Header.astro';
+import machinesData from '../../data/machines.json';
+
+// Veriyi sağlama alıp sayfaları dinamik oluşturuyoruz
+export async function getStaticPaths() {
+  const machines = Array.isArray(machinesData) ? machinesData : (machinesData.machines || []);
+  return machines.map((machine) => ({
+    params: { slug: machine.slug },
+    props: { machine },
+  }));
+}
+
+const { machine } = Astro.props;
+const tr = machine.diller?.tr || {};
+
+// PİKTOGRAM (İKON) EŞLEŞTİRME SÖZLÜĞÜ (Senin ACK 420 vitrinine göre uyarlandı)
+const emojiSozlugu = {
+  "testere": "🔪", 
+  "motor": "⚙️", 
+  "motor_gucu": "⚡",
+  "guc": "⚡",
+  "hiz": "🚀",
+  "donus_hizi": "🔄",
+  "devir": "🔄",
+  "cap": "📏",
+  "olcu": "📐",
+  "boyut": "📐",
+  "basinc": "💨",
+  "hava": "💨",
+  "agirlik": "⚖️",
+  "urun_agirligi": "⚖️",
+  "elektrik": "🔌",
+  "volt": "🔌"
+};
+
+// Piktogram objesini [anahtar, değer] listesine çeviriyoruz ki döngüye sokabilelim
+const piktoVerisi = tr.piktogramlar || machine.piktogramlar || {};
+const piktoListesi = Object.entries(piktoVerisi);
+
+// Standart, Opsiyonel, Genel Özellikler Grupları
+const ozellikGruplari = tr.ozellik_gruplari || {};
+---
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{tr.isim || machine.slug} | Jaguar - Yılmaz Makine</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #0a0a0a; color: #eee; margin: 0; }
+        .container { max-width: 1200px; margin: 3rem auto; padding: 0 20px; }
+        
+        .back-btn { 
+            color: #ffcc00; text-decoration: none; display: inline-block; 
+            margin-bottom: 25px; font-weight: bold; border: 1px solid #ffcc00; 
+            padding: 8px 15px; border-radius: 5px; transition: 0.3s;
+        }
+        .back-btn:hover { background: #ffcc00; color: #000; }
+        
+        .header-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 50px; margin-bottom: 3rem; }
+        .image-box img { width: 100%; border-radius: 15px; border: 3px solid #333; }
+        .info-box h1 { color: #ffcc00; font-size: 2.8rem; margin: 0 0 10px 0; }
+        .info-box .desc { font-size: 1.1rem; color: #ccc; line-height: 1.6; }
+        
+        /* Piktogramlar Tasarımı */
+        .piktogram-container { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 2rem; }
+        .pikto-card { 
+            background: #1a1a1a; border: 1px solid #333; padding: 12px 18px; 
+            border-radius: 8px; display: flex; align-items: center; gap: 12px; 
+        }
+        .pikto-card span { color: #ffcc00; font-weight: bold; font-size: 1.1rem;}
+        
+        /* Özellik Grupları (Aksesuarlar vs.) */
+        .features-section { margin-top: 3rem; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; }
+        .feature-group { background: #151515; border: 1px solid #222; border-radius: 10px; padding: 25px; }
+        .feature-group h3 { color: #ffcc00; border-bottom: 1px solid #333; padding-bottom: 12px; margin-top: 0; }
+        .feature-list { list-style-type: none; padding: 0; margin: 0; }
+        .feature-list li { padding: 10px 0; border-bottom: 1px dashed #2a2a2a; color: #ddd; display: flex; gap: 10px; }
+        .feature-list li::before { content: "✓"; color: #ffcc00; font-weight: bold; }
+        .feature-list li:last-child { border-bottom: none; }
+        
+        @media (max-width: 768px) {
+            .header-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <Header />
+    
+    <main class="container">
+        <a href="/" class="back-btn">← Envantere Dön</a>
+        
+        <div class="header-grid">
+            <div class="image-box">
+                {/* DOĞRU RESİM YOLU: index.astro ile birebir aynı */}
+                <img 
+                    src={`/images/${machine.slug}.webp`} 
+                    alt={tr.isim}
+                    onerror="this.onerror=null; this.src='/images/no-image.webp';"
+                />
+            </div>
+            
+            <div class="info-box">
+                <h1>{tr.isim || machine.slug.toUpperCase()}</h1>
+                <p class="desc">{tr.aciklama}</p>
+                
+                {/* PİKTOGRAMLAR ZEKASI */}
+                {piktoListesi.length > 0 && (
+                    <div class="piktogram-container">
+                        {piktoListesi.map(([key, value]) => {
+                            const temizAnahtar = key.toLowerCase();
+                            // Anahtarda geçen kelimeye göre emojiyi seç, bulamazsa pin koy
+                            let emoji = "📌";
+                            for (const [kelime, emj] of Object.entries(emojiSozlugu)) {
+                                if (temizAnahtar.includes(kelime)) {
+                                    emoji = emj; break;
+                                }
+                            }
+                            return (
+                                <div class="pikto-card">
+                                    <div style="font-size: 1.8rem;">{emoji}</div>
+                                    <div>
+                                        <div style="font-size: 0.75rem; color: #888; text-transform: uppercase;">
+                                            {key.replace(/_/g, ' ')}
+                                        </div>
+                                        <span>{value}</span>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                )}
+            </div>
+        </div>
+
+        {/* ÖZELLİK GRUPLARI ZEKASI (Kutuları sadece doluysa çizer) */}
+        {Object.keys(ozellikGruplari).length > 0 && (
+            <div class="features-section">
+                <h2 style="color: #fff; margin-bottom: 2rem; border-left: 5px solid #ffcc00; padding-left: 15px;">
+                    Teknik Detaylar ve Aksesuarlar
+                </h2>
+                <div class="feature-grid">
+                    {Object.entries(ozellikGruplari).map(([grupAdi, maddeler]) => {
+                        // Rasyonel kontrol: Bu grup bir liste mi ve içinde eleman var mı?
+                        if (Array.isArray(maddeler) && maddeler.length > 0) {
+                            return (
+                                <div class="feature-group">
+                                    <h3>{grupAdi}</h3>
+                                    <ul class="feature-list">
+                                        {maddeler.map(madde => (
+                                            <li>{madde}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            );
+                        }
+                        return null;
+                    })}
+                </div>
+            </div>
+        )}
+    </main>
+</body>
+</html>

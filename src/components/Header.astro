@@ -1,0 +1,73 @@
+---
+// Header.astro - Global Navigasyon ve Arama Çubuğu
+---
+<header class="global-header">
+  <div class="nav-container">
+    <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" alt="Yılmaz Makine" onerror="this.src='https://via.placeholder.com/150x50?text=YILMAZ+LOGOTYPE'"/>
+      </a>
+    </div>
+
+    <div class="search-area">
+      <input 
+        type="text" 
+        id="globalSearch" 
+        placeholder="Makine modeli veya türü ara... (V8, Wire, Spring...)" 
+      />
+    </div>
+
+    <div class="nav-links">
+      <a href="/">Ana Sayfa</a>
+      <select id="langSwitcher">
+        <option value="tr">TR</option>
+        <option value="en">EN</option>
+        <option value="bg">BG</option>
+        <option value="ru">RU</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<style>
+  .global-header {
+    background: #111;
+    color: #fff;
+    padding: 1rem 0;
+    border-bottom: 3px solid #ffcc00; /* Yılmaz Makine Kurumsal Sarısı */
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .logo img {
+    height: 40px;
+  }
+  .search-area input {
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #333;
+    background: #222;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+  }
+  .search-area input:focus {
+    border-color: #ffcc00;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.3);
+  }
+  .nav-links select {
+    background: #222;
+    color: white;
+    border: 1px solid #444;
+    padding: 5px;
+  }
+</style>
