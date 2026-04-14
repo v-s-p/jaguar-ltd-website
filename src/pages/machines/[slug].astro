@@ -1,168 +1,142 @@
 ---
-// src/pages/machines/[slug].astro - ADIM 2: Kusursuz Detay Sayfası
-import Header from '../../components/Header.astro';
-import machinesData from '../../data/machines.json';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import machines from '../../data/machines.json';
 
-// Veriyi sağlama alıp sayfaları dinamik oluşturuyoruz
+// 1. Astro'ya hangi URL'lerin (slug) üretileceğini söylüyoruz
 export async function getStaticPaths() {
-  const machines = Array.isArray(machinesData) ? machinesData : (machinesData.machines || []);
-  return machines.map((machine) => ({
+  return machines.map((machine: any) => ({
     params: { slug: machine.slug },
-    props: { machine },
+    props: { machine }, // Veriyi sayfaya aktarıyoruz
   }));
 }
 
+// 2. Sayfaya gelen veriyi alıyoruz (Şimdilik tr dilini varsayılan yapıyoruz)
 const { machine } = Astro.props;
 const tr = machine.diller?.tr || {};
 
-// PİKTOGRAM (İKON) EŞLEŞTİRME SÖZLÜĞÜ (Senin ACK 420 vitrinine göre uyarlandı)
-const emojiSozlugu = {
-  "testere": "🔪", 
-  "motor": "⚙️", 
-  "motor_gucu": "⚡",
-  "guc": "⚡",
-  "hiz": "🚀",
-  "donus_hizi": "🔄",
-  "devir": "🔄",
-  "cap": "📏",
-  "olcu": "📐",
-  "boyut": "📐",
-  "basinc": "💨",
-  "hava": "💨",
-  "agirlik": "⚖️",
-  "urun_agirligi": "⚖️",
-  "elektrik": "🔌",
-  "volt": "🔌"
-};
+const isim = tr.isim || machine.slug?.toUpperCase() || "Ürün Bilgisi";
+const aciklama = tr.aciklama || '';
+const resimler = tr.resimler || [];
+const anaResim = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 
-// Piktogram objesini [anahtar, değer] listesine çeviriyoruz ki döngüye sokabilelim
-const piktoVerisi = tr.piktogramlar || machine.piktogramlar || {};
-const piktoListesi = Object.entries(piktoVerisi);
-
-// Standart, Opsiyonel, Genel Özellikler Grupları
+// JSON'daki asıl veri alanlarını çekiyoruz
 const ozellikGruplari = tr.ozellik_gruplari || {};
+const piktogramlar = tr.piktogramlar || {};
+
+// Yeni eklenecek Medya ve Doküman alanları
+const katalog = tr.katalog || null;
+const video = tr.video || null;
+const galeri = resimler.length > 1 ? resimler.slice(1) : []; // İlk resim dışındaki diğer resimler
 ---
 
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{tr.isim || machine.slug} | Jaguar - Yılmaz Makine</title>
-    <style>
-        body { font-family: 'Segoe UI', sans-serif; background: #0a0a0a; color: #eee; margin: 0; }
-        .container { max-width: 1200px; margin: 3rem auto; padding: 0 20px; }
-        
-        .back-btn { 
-            color: #ffcc00; text-decoration: none; display: inline-block; 
-            margin-bottom: 25px; font-weight: bold; border: 1px solid #ffcc00; 
-            padding: 8px 15px; border-radius: 5px; transition: 0.3s;
-        }
-        .back-btn:hover { background: #ffcc00; color: #000; }
-        
-        .header-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 50px; margin-bottom: 3rem; }
-        .image-box img { width: 100%; border-radius: 15px; border: 3px solid #333; }
-        .info-box h1 { color: #ffcc00; font-size: 2.8rem; margin: 0 0 10px 0; }
-        .info-box .desc { font-size: 1.1rem; color: #ccc; line-height: 1.6; }
-        
-        /* Piktogramlar Tasarımı */
-        .piktogram-container { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 2rem; }
-        .pikto-card { 
-            background: #1a1a1a; border: 1px solid #333; padding: 12px 18px; 
-            border-radius: 8px; display: flex; align-items: center; gap: 12px; 
-        }
-        .pikto-card span { color: #ffcc00; font-weight: bold; font-size: 1.1rem;}
-        
-        /* Özellik Grupları (Aksesuarlar vs.) */
-        .features-section { margin-top: 3rem; }
-        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; }
-        .feature-group { background: #151515; border: 1px solid #222; border-radius: 10px; padding: 25px; }
-        .feature-group h3 { color: #ffcc00; border-bottom: 1px solid #333; padding-bottom: 12px; margin-top: 0; }
-        .feature-list { list-style-type: none; padding: 0; margin: 0; }
-        .feature-list li { padding: 10px 0; border-bottom: 1px dashed #2a2a2a; color: #ddd; display: flex; gap: 10px; }
-        .feature-list li::before { content: "✓"; color: #ffcc00; font-weight: bold; }
-        .feature-list li:last-child { border-bottom: none; }
-        
-        @media (max-width: 768px) {
-            .header-grid { grid-template-columns: 1fr; }
-        }
-    </style>
-</head>
-<body>
-    <Header />
-    
-    <main class="container">
-        <a href="/" class="back-btn">← Envantere Dön</a>
-        
-        <div class="header-grid">
-            <div class="image-box">
-                {/* DOĞRU RESİM YOLU: index.astro ile birebir aynı */}
-                <img 
-                    src={`/images/${machine.slug}.webp`} 
-                    alt={tr.isim}
-                    onerror="this.onerror=null; this.src='/images/no-image.webp';"
-                />
-            </div>
-            
-            <div class="info-box">
-                <h1>{tr.isim || machine.slug.toUpperCase()}</h1>
-                <p class="desc">{tr.aciklama}</p>
-                
-                {/* PİKTOGRAMLAR ZEKASI */}
-                {piktoListesi.length > 0 && (
-                    <div class="piktogram-container">
-                        {piktoListesi.map(([key, value]) => {
-                            const temizAnahtar = key.toLowerCase();
-                            // Anahtarda geçen kelimeye göre emojiyi seç, bulamazsa pin koy
-                            let emoji = "📌";
-                            for (const [kelime, emj] of Object.entries(emojiSozlugu)) {
-                                if (temizAnahtar.includes(kelime)) {
-                                    emoji = emj; break;
-                                }
-                            }
-                            return (
-                                <div class="pikto-card">
-                                    <div style="font-size: 1.8rem;">{emoji}</div>
-                                    <div>
-                                        <div style="font-size: 0.75rem; color: #888; text-transform: uppercase;">
-                                            {key.replace(/_/g, ' ')}
-                                        </div>
-                                        <span>{value}</span>
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
-                )}
-            </div>
-        </div>
+<BaseLayout title={`${isim} | Jaguar LTD`}>
+  <div class="bg-gray-50 py-12 min-h-screen">
+    <div class="container mx-auto px-4 max-w-7xl">
+      
+      <!-- Geri Dönüş Linki -->
+      <div class="mb-8">
+        <a href="/" class="text-brand-light hover:text-brand-accent font-bold transition-colors duration-200 flex items-center">
+          <span class="mr-2 text-xl">&larr;</span> Tüm Makinelere Dön
+        </a>
+      </div>
 
-        {/* ÖZELLİK GRUPLARI ZEKASI (Kutuları sadece doluysa çizer) */}
-        {Object.keys(ozellikGruplari).length > 0 && (
-            <div class="features-section">
-                <h2 style="color: #fff; margin-bottom: 2rem; border-left: 5px solid #ffcc00; padding-left: 15px;">
-                    Teknik Detaylar ve Aksesuarlar
-                </h2>
-                <div class="feature-grid">
-                    {Object.entries(ozellikGruplari).map(([grupAdi, maddeler]) => {
-                        // Rasyonel kontrol: Bu grup bir liste mi ve içinde eleman var mı?
-                        if (Array.isArray(maddeler) && maddeler.length > 0) {
-                            return (
-                                <div class="feature-group">
-                                    <h3>{grupAdi}</h3>
-                                    <ul class="feature-list">
-                                        {maddeler.map(madde => (
-                                            <li>{madde}</li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            );
-                        }
-                        return null;
-                    })}
+      <!-- Detay Kartı Ana Container -->
+      <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
+          
+          <!-- Görsel Alanı (Sol Taraf) -->
+          <div class="p-12 flex items-center justify-center bg-white border-b lg:border-b-0 lg:border-r border-gray-100">
+            <img src={anaResim} alt={isim} class="w-full h-auto max-h-[500px] object-contain hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.src='/placeholder.png';" />
+          </div>
+
+          <!-- Açıklama ve Piktogramlar (Sağ Taraf) -->
+          <div class="p-10 lg:p-14 flex flex-col justify-start bg-brand-gray">
+            <h1 class="text-3xl lg:text-4xl font-extrabold text-brand-dark mb-4 tracking-tight leading-tight">{isim}</h1>
+            <p class="text-base text-gray-600 leading-relaxed mb-8">{aciklama}</p>
+
+            <!-- Teknik Piktogramlar Grid -->
+            {Object.keys(piktogramlar).length > 0 && (
+              <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {Object.entries(piktogramlar).map(([key, val]) => (
+                  <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow">
+                    <span class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">
+                      {key.replace(/_/g, ' ')}
+                    </span>
+                    <span class="block text-sm font-semibold text-brand-dark whitespace-pre-line">
+                      {val}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <!-- Katalog / Kullanım Kılavuzu Butonu -->
+            {katalog && (
+              <div class="mt-8">
+                <a href={katalog} target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-bold rounded-xl shadow-sm text-brand-dark bg-brand-accent hover:bg-brand-dark hover:text-brand-accent transition-all duration-300">
+                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                  Katalog / Kullanım Kılavuzu
+                </a>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <!-- Özellik Grupları Listeleri (Alt Kısım) -->
+      {Object.keys(ozellikGruplari).length > 0 && (
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {Object.entries(ozellikGruplari).map(([baslik, maddeler]: [string, any]) => (
+            maddeler && maddeler.length > 0 && (
+              <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 hover:border-brand-accent transition-colors duration-300">
+                <h3 class="text-xl font-extrabold text-brand-dark mb-6 border-b border-gray-100 pb-3">{baslik}</h3>
+                <ul class="space-y-3">
+                  {maddeler.map((madde: string) => (
+                    <li class="flex items-start text-gray-700">
+                      <span class="text-brand-accent mr-3 mt-1 font-bold text-lg leading-none">✓</span>
+                      <span class="text-sm leading-relaxed">{madde}</span>
+                    </li>
+                  ))}
+                </ul>
                 </div>
-            </div>
-        )}
-    </main>
-</body>
-</html>
+              )
+          ))}
+        </div>
+      )}
+
+      <!-- Video ve Ek Resimler Galerisi (Medya Alanı) -->
+      {(video || galeri.length > 0) && (
+        <div class="mt-12 bg-white p-8 lg:p-12 rounded-2xl shadow-sm border border-gray-100">
+          <h3 class="text-2xl font-extrabold text-brand-dark mb-8 border-b-2 border-brand-accent inline-block pb-2">Medya ve Galeri</h3>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            
+            <!-- Video Alanı -->
+            {video && (
+              <div class="flex flex-col">
+                <span class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">Tanıtım Videosu</span>
+                <div class="aspect-video w-full rounded-xl shadow-md overflow-hidden bg-gray-100">
+                  <iframe src={video} class="w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            )}
+
+            <!-- Galeri Alanı -->
+            {galeri.length > 0 && (
+              <div class={`flex flex-col ${!video ? 'lg:col-span-2' : ''}`}>
+                <span class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">Görseller</span>
+                <div class={`grid gap-4 ${!video ? 'grid-cols-2 sm:grid-cols-4 lg:grid-cols-5' : 'grid-cols-2 sm:grid-cols-3'}`}>
+                  {galeri.map((resim: string) => (
+                    <a href={resim} target="_blank" rel="noopener noreferrer" class="block aspect-square overflow-hidden rounded-xl border border-gray-200 hover:border-brand-accent hover:shadow-md transition-all duration-300 bg-white p-2">
+                      <img src={resim} alt={`${isim} detay görseli`} class="w-full h-full object-contain hover:scale-110 transition-transform duration-500" loading="lazy" />
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+    </div>
+  </div>
+</BaseLayout>

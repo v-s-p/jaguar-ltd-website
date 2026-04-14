@@ -1,0 +1,40 @@
+wing: jaguar_ltd
+rooms:
+- name: arsiv
+  description: Files from arsiv/
+  keywords:
+  - arsiv
+  - arsiv
+- name: public
+  description: Files from public/
+  keywords:
+  - public
+  - public
+- name: resimler
+  description: Files from resimler/
+  keywords:
+  - resimler
+  - resimler
+- name: scripts
+  description: Files from scripts/
+  keywords:
+  - scripts
+  - scripts
+- name: site_analysis
+  description: Files from site_analysis/
+  keywords:
+  - site_analysis
+  - site_analysis
+- name: src
+  description: Files from src/
+  keywords:
+  - src
+  - src
+- name: frontend
+  description: Files from components/
+  keywords:
+  - frontend
+  - components
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []

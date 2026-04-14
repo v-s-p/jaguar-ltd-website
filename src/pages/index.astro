@@ -1,83 +1,43 @@
 ---
-// src/pages/index.astro - ADIM 1: Kusursuz Liste ve Resimler
-import Header from '../components/Header.astro';
-import machinesData from '../data/machines.json';
-
-const allMachines = Array.isArray(machinesData) ? machinesData : (machinesData.machines || []);
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import machines from '../data/machines.json'; // Orijinal JSON verisini okumaya devam ediyoruz
 ---
 
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaguar / Yılmaz Makine Global</title>
-    <style>
-        body { font-family: 'Segoe UI', sans-serif; background: #0a0a0a; color: #eee; margin: 0; }
-        .container { max-width: 1300px; margin: 2rem auto; padding: 0 20px; }
-        .machine-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; }
-        .machine-card { background: #151515; border: 1px solid #333; border-radius: 15px; overflow: hidden; text-decoration: none; color: inherit; transition: 0.3s; display: flex; flex-direction: column; }
-        .machine-card:hover { border-color: #ffcc00; transform: translateY(-5px); }
-        .machine-card img { width: 100%; height: 220px; object-fit: cover; border-bottom: 3px solid #ffcc00; }
-        .card-content { padding: 1.5rem; flex-grow: 1;}
-        .card-content h3 { margin: 0 0 10px 0; color: #ffcc00; font-size: 1.2rem; }
-        .card-content p { font-size: 0.9rem; color: #bbb; line-height: 1.4; margin: 0; }
-        #noResults { display: none; text-align: center; padding: 3rem; color: #ffcc00; font-size: 1.2rem; }
-    </style>
-</head>
-<body>
-    <Header />
-    <main class="container">
-        <h1 style="border-left: 6px solid #ffcc00; padding-left: 20px; margin-bottom: 2rem;">
-            Makine Envanteri
-        </h1>
-        <div id="noResults">Aranan kriterde makine bulunamadı.</div>
-        
-        <div class="machine-grid" id="machineGrid">
-            {allMachines.map((m) => {
-                // VERİ YOLLARI TAM İSABET AYARLANDI
-                const tr = m.diller?.tr || {};
-                const title = tr.isim || m.slug.toUpperCase() || "İsimsiz Makine";
-                const desc = tr.aciklama || "";
-                
-                return (
-                    <a href={`/machines/${m.slug}`} class="machine-card" data-search={title.toLowerCase()}>
-                        {/* RESİM YOLU DÜZELTİLDİ: Doğrudan /images/ klasörüne bakıyor */}
-                        <img 
-                            src={`/images/${m.slug}.webp`} 
-                            alt={title} 
-                            onerror="this.onerror=null; this.src='/images/no-image.webp';" 
-                        />
-                        <div class="card-content">
-                            <h3>{title}</h3>
-                            <p>{desc.length > 100 ? desc.substring(0, 100) + "..." : desc}</p>
-                        </div>
-                    </a>
-                );
-            })}
-        </div>
-    </main>
+<BaseLayout title="Makine Envanteri | Jaguar LTD">
+  <section class="container mx-auto px-4 py-12 max-w-7xl">
+    
+    <div class="mb-12 border-b-4 border-brand-dark inline-block pb-2">
+      <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">Global Envanter</h1>
+    </div>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-16">
+      {machines && machines.map((m: any) => {
+        const tr = m.diller?.tr || {};
+        const makineIsmi = tr.isim || m.slug?.toUpperCase() || "BİLİNMEYEN MAKİNE";
+        const resimYolu = (tr.resimler && tr.resimler.length > 0) ? tr.resimler[0] : '/placeholder.png';
+        const aciklama = tr.aciklama || '';
 
-    <script is:inline>
-        document.addEventListener('DOMContentLoaded', () => {
-            const search = document.getElementById('globalSearch');
-            const cards = document.querySelectorAll('.machine-card');
-            const noRes = document.getElementById('noResults');
-            
-            if (search) {
-                search.addEventListener('input', (e) => {
-                    const term = e.target.value.toLowerCase().trim();
-                    let count = 0;
-                    cards.forEach(c => {
-                        const t = c.getAttribute('data-search') || "";
-                        const visible = t.includes(term);
-                        c.style.display = visible ? 'flex' : 'none';
-                        if (visible) count++;
-                    });
-                    noRes.style.display = (count === 0 && term !== "") ? 'block' : 'none';
-                });
-            }
-        });
-    </script>
-</body>
-</html>
+        return (
+          <a href={`/machines/${m.slug}`} class="block group h-full cursor-pointer">
+            <div class="bg-brand-gray border border-gray-200 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col h-full overflow-hidden transform group-hover:-translate-y-2">
+              
+              <div class="h-64 p-10 flex items-center justify-center bg-white relative">
+                <img src={resimYolu} alt={makineIsmi} class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" onerror="this.onerror=null; this.src='/placeholder.png';" />
+              </div>
+              
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl text-brand-light font-extrabold mb-3 leading-snug">{makineIsmi}</h3>
+                <p class="text-sm text-gray-600 line-clamp-3 mb-6 leading-relaxed">{aciklama}</p>
+                
+                <div class="mt-auto flex justify-end items-center text-sm font-extrabold text-brand-light tracking-wide">
+                  DETAYLI BİLGİ <span class="ml-2 text-xl font-normal transition-transform duration-200 group-hover:translate-x-1 group-hover:text-brand-accent">〉</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+</BaseLayout>

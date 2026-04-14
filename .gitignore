@@ -6,6 +6,13 @@ dist/
 # dependencies
 node_modules/
 
+
+# ЛОКАЛНИ АРХИВИ И БОКЛУЦИ (Тези си остават само на твоя компютър)
+_yedek/
+arsiv/
+site_analysis/
+*.log
+
 # logs
 npm-debug.log*
 yarn-debug.log*
