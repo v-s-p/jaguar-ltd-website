@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /c/Users/Kenan/claude-projects/dactyl-keyboards-rp2040/firmware/sherbet-gamer-pad)",
+      "Bash(mkdir -p /c/Users/Kenan/claude-projects/dactyl-keyboards-rp2040/docs)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(gh pr:*)",
+      "Bash(mkdir -p /c/Users/Kenan/claude-projects/dactyl-keyboards-rp2040/firmware/picosplit-coder/keymaps/default)",
+      "Bash(mkdir -p /c/Users/Kenan/claude-projects/dactyl-keyboards-rp2040/firmware/picosplit-coder/via)",
+      "Bash(gh run:*)"
+    ]
+  }
+}

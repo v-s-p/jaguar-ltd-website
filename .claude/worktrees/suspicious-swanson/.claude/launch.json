@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "flighttrack-web",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd /d C:\\Users\\Kenan\\Desktop\\FlightTrack-main && npx expo start --web --port 8083"],
+      "port": 8083
+    }
+  ]
+}

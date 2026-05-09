@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: s8-professor-backend
+    runtime: node
+    rootDir: .
+    buildCommand: npm install && npm run build:backend
+    startCommand: npm run start:backend
+    autoDeploy: true
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: USER_REPOSITORY_PROVIDER
+        value: supabase

@@ -1,0 +1,22 @@
+# Environment variables - ASLA GitHub'a gönderme!
+.env
+.env.local
+.env.production
+
+# Build output
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Supabase temp files
+supabase/.temp/

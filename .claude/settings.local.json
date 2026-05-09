@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "PowerShell(head -30)",
+      "PowerShell(Test-Path \"C:\\\\Users\\\\Kenan\\\\Desktop\\\\AI\\\\S8 Professor\" && \\(Get-ChildItem \"C:\\\\Users\\\\Kenan\\\\Desktop\\\\AI\\\\S8 Professor\"\\).Count)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Kenan\\\\Desktop\\\\AI\\\\S8 Professor\" -Force | ForEach-Object { \"$\\($_.Attributes\\)`t$\\($_.Name\\)\" } | Sort-Object)",
+      "Bash(git -C \"C:/Users/Kenan/Desktop/AI/S8 Professor\" status)",
+      "Bash(git -C \"C:/Users/Kenan/Desktop/AI/S8 Professor\" log --oneline -5)",
+      "Bash(git -C \"C:/Users/Kenan/Desktop/AI/S8 Professor\" add DEVLOG.md)",
+      "Bash(git -C 'C:/Users/Kenan/Desktop/AI/S8 Professor' commit -m ' *)",
+      "Bash(git -C \"C:/Users/Kenan/Desktop/AI/S8 Professor\" push)",
+      "Bash(git commit *)",
+      "Bash(Get-ChildItem \"C:\\\\Users\\\\Kenan\\\\Desktop\\\\AI\\\\Jaguar-ltd\\\\_KARPATHY_VAULT\\\\_meta\\\\\" -ErrorAction SilentlyContinue | Select-Object Name)",
+      "Bash(git status *)"
+    ]
+  }
+}

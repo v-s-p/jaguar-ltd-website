@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "S8 Professor",
+    "slug": "s8-professor",
+    "scheme": "s8professor",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.s8.professor"
+    },
+    "android": {
+      "package": "com.s8.professor"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "ndkVersion": "29.0.14206865"
+          }
+        }
+      ]
+    ]
+  }
+}

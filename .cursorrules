@@ -1,0 +1,2 @@
+KURAL 1: Kullanıcıdan hangi görevi alırsan al, kod yazmaya veya dosya değiştirmeye BAŞLAMADAN ÖNCE KESİNLİKLE JAGUAR_DEV_LOG.md ve CLAUDE_MASTER.md dosyalarını oku. Projenin güncel durumunu buradan öğren.
+KURAL 2: İşlemini bitirdiğinde JAGUAR_DEV_LOG.md dosyasını son yaptığın işlemle kesinlikle güncelle.

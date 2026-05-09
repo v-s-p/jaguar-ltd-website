@@ -1,0 +1,14 @@
+name: s8-professor-monorepo
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Repository policy workflow placeholder"

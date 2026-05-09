@@ -1,0 +1,39 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_PASSWORD_RESET_REDIRECT_URL": "s8professor://reset-password",
+        "EXPO_PUBLIC_REVENUECAT_ENTITLEMENT_ID": "premium"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_PASSWORD_RESET_REDIRECT_URL": "s8professor://reset-password",
+        "EXPO_PUBLIC_REVENUECAT_ENTITLEMENT_ID": "premium"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_PASSWORD_RESET_REDIRECT_URL": "s8professor://reset-password",
+        "EXPO_PUBLIC_REVENUECAT_ENTITLEMENT_ID": "premium"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

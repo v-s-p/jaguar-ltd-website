@@ -1,0 +1,16 @@
+{
+  "name": "s8-professor-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:mobile": "npm run start -w @s8/mobile",
+    "dev:backend": "npm run dev -w @s8/backend",
+    "build:backend": "npm run build -w @s8/backend",
+    "start:backend": "npm run start -w @s8/backend",
+    "typecheck:mobile": "npm run typecheck -w @s8/mobile"
+  }
+}
