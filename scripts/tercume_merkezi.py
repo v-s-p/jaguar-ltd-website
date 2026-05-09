@@ -9,7 +9,7 @@ from pathlib import Path
 # SSL Uyarılarını Kapat
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-MAX_PER_RUN = 150  # Full run: gocmaksan (~44) + machines (~74) = ~118 eksik BG
+MAX_PER_RUN = 10  # Rutin cron default (quota koruması için)
 
 # AYARLAR (GitHub Güvenliği İçin .env Dosyasından Okuma)
 env_path = Path('.env')
