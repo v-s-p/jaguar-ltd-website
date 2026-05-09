@@ -300,6 +300,13 @@
         "images": [
           "/images/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "BCZ 600",
+        "description": "",
+        "images": [
+          "/images/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -868,6 +875,13 @@
         "images": [
           "/images/gocmaksan/gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "H 45S",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане посредством хидравлично предаване на мощност.",
+        "images": [
+          "/images/gocmaksan/gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -911,6 +925,13 @@
       "en": {
         "name": "H 55",
         "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "H 55",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане посредством хидравлично предаване на мощност.",
         "images": [
           "/images/gocmaksan/gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
