@@ -12,8 +12,10 @@ export const siteMetadata = {
   languages: ["en", "tr", "ru", "es", "ro", "bg", "bcs"],
   branding: {
     company: "Jaguar LTD",
-    partner: "YILMAZ Machine",
-    since: 2002,
     country: "България",
+    partners: [
+      { name: "YILMAZ Machine", since: 2002, role: "distributor" },
+      { name: "Göçmaksan",      since: 2009, role: "distributor" }
+    ]
   }
 };
