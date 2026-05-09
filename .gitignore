@@ -29,3 +29,12 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+translation_status.json
