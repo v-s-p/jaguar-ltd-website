@@ -1,0 +1,151 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import gocmaksanMachines from '../../data/gocmaksan.json';
+
+const catName = 'Gocmaksan';
+const catLabel = 'Göçmaksan';
+
+const subcategoryMap = [
+  {id: "Bending Machines", label: "BENDING"},
+  {id: "Cutting Machines", label: "CUTTING"},
+  {id: "Combined Machines", label: "COMBINED"},
+  {id: "Light Construction", label: "LIGHT CONSTRUCTION"},
+  {id: "Steel Factory Solutions", label: "STEEL FACTORY"},
+  {id: "Hand Tools", label: "HAND TOOLS"}
+];
+
+// categories array olarak geliyor
+const filteredMachines = gocmaksanMachines.map((m: any) => {
+  let subcats: string[] = [];
+  if (Array.isArray(m.categories)) subcats = m.categories;
+  else if (m.categories) subcats = [m.categories];
+  else if (Array.isArray(m.category)) subcats = m.category;
+  else if (m.category) subcats = [m.category];
+  
+  return { ...m, finalSubcats: subcats.join("||") };
+});
+---
+
+<BaseLayout title={`${catLabel} Машини | Jaguar LTD`}>
+  <section class="container mx-auto px-4 py-12 max-w-7xl">
+    
+    <div class="mb-10">
+      <h1 class="text-4xl font-black text-gray-900 tracking-tight uppercase">{catLabel}</h1>
+      <p class="text-gray-400 font-bold text-sm mt-1 uppercase tracking-widest">
+        Машини за строителна арматура &mdash; {filteredMachines.length} модела
+      </p>
+    </div>
+
+    <!-- Filtre Butonlari -->
+    <div class="flex flex-wrap gap-2 mb-10" id="filter-container">
+      <button
+        class="filter-btn active font-black px-5 py-2 rounded-full shadow-sm text-xs uppercase tracking-wider"
+        style="background:#f59e0b; color:white;"
+        data-filter="all">
+        Всички
+      </button>
+      {subcategoryMap.map((sub) => (
+        <button
+          class="filter-btn bg-white text-gray-500 border border-gray-200 font-bold px-4 py-2 rounded-full shadow-sm hover:shadow-md transition-all text-xs uppercase tracking-wider"
+          data-filter={sub.id}>
+          {sub.label}
+        </button>
+      ))}
+    </div>
+    
+    {filteredMachines.length > 0 ? (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="machines-grid">
+        {filteredMachines.map((m: any) => {
+          const en = m.diller?.en || {};
+          const bg = m.diller?.bg || {};
+          const activeLang = bg.name ? bg : en;
+          
+          const makineIsmi = activeLang.name || m.slug?.toUpperCase() || "—";
+          const resimYolu = (activeLang.images && activeLang.images.length > 0) ? activeLang.images[0] : '/placeholder.png';
+          const aciklama = activeLang.description || '';
+
+          return (
+            <a href={`/machines/${m.slug}`} class="machine-card block group h-full" data-subcategories={m.finalSubcats}>
+              <div class="bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full overflow-hidden group-hover:-translate-y-1">
+                <div class="h-56 p-8 flex items-center justify-center bg-gray-50">
+                  <img
+                    src={resimYolu}
+                    alt={makineIsmi}
+                    class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+                    onerror="this.onerror=null; this.src='/placeholder.png';"
+                  />
+                </div>
+                <div class="p-5 flex flex-col flex-grow border-t border-gray-50">
+                  <h3 class="text-base text-gray-900 font-black mb-2 leading-snug uppercase">{makineIsmi}</h3>
+                  {m.subcategory && (
+                    <div class="text-[9px] font-bold text-[#f59e0b] mb-2 uppercase tracking-tighter opacity-70">
+                      {Array.isArray(m.subcategory) ? m.subcategory.join(' / ') : m.subcategory}
+                    </div>
+                  )}
+                  <p class="text-xs text-gray-400 line-clamp-2 mb-4 leading-relaxed">{aciklama}</p>
+                  <div class="mt-auto flex justify-end items-center text-xs font-black tracking-widest uppercase" style="color:#f59e0b">
+                    Детайли <span class="ml-1 transition-transform duration-200 group-hover:translate-x-1">&#8594;</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    ) : (
+      <div class="py-20 text-center text-lg font-bold text-gray-400">
+        Няма намерени машини в тази категория.
+      </div>
+    )}
+    
+    <div id="empty-state" class="hidden py-20 text-center text-lg font-bold text-gray-400">
+      Няма намерени машини в тази подкатегория.
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.filter-btn');
+      const cards   = document.querySelectorAll('.machine-card');
+      const empty   = document.getElementById('empty-state');
+
+      const applyFilter = (val: string) => {
+        buttons.forEach(b => {
+          const active = b.getAttribute('data-filter') === val;
+          (b as HTMLElement).style.background = active ? '#f59e0b' : '';
+          (b as HTMLElement).style.color      = active ? 'white'   : '';
+          b.classList.toggle('border-transparent', active);
+          b.classList.toggle('text-gray-500',  !active);
+          b.classList.toggle('border-gray-200',!active);
+          b.classList.toggle('bg-white',       !active);
+        });
+
+        let visible = 0;
+        cards.forEach(card => {
+          const subcats = card.getAttribute('data-subcategories') || '';
+          const subcatsArr = subcats.split('||');
+          const show = val === 'all' || subcatsArr.includes(val);
+          (card as HTMLElement).style.display = show ? 'block' : 'none';
+          if (show) visible++;
+        });
+
+        if (empty) empty.style.display = visible === 0 ? 'block' : 'none';
+      };
+
+      // URL parameters processing
+      const params = new URLSearchParams(window.location.search);
+      const init   = params.get('filter') || 'all';
+      applyFilter(init);
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const f = btn.getAttribute('data-filter') || 'all';
+          const url = new URL(window.location.href);
+          f === 'all' ? url.searchParams.delete('filter') : url.searchParams.set('filter', f);
+          window.history.pushState({}, '', url);
+          applyFilter(f);
+        });
+      });
+    });
+  </script>
+</BaseLayout>

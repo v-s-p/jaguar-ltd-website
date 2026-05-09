@@ -1,0 +1,103 @@
+[
+  {
+    "slug": "gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi",
+    "brand": "gocmaksan",
+    "category": "Bending Machines",
+    "subcategory": "Standard",
+    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e7206f8f48daf5cf01b_gms-B-serisi-bukme-makinalari.pdf",
+    "diller": {
+      "en": {
+        "name": "B 50",
+        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "images": [
+          "/images/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
+        ],
+        "specs": {
+          "Featured Features": [
+            "Bending to the right and left",
+            "Mechanical and electrical automation",
+            "Bending at any desired angle",
+            "Planetary gearbox",
+            "Save up to 9 different bending programs",
+            "Optional digital display"
+          ],
+          "Technical Data": [
+            "W-L-H cm: 86 x 119 x 89",
+            "Voltage V: 380",
+            "Engine Power kW: 5,5",
+            "Weight kg: 457"
+          ],
+          "Capacities": [
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 45 x 1",
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 30 x 2",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 45 x 1",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 30 x 2",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 36 x  1",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 28 x 2"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "slug": "gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi",
+    "brand": "gocmaksan",
+    "category": "Bending Machines",
+    "subcategory": "Portable",
+    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/69d374467d64075a06bc2aea_gms%20katalog_2026%20TR_ENG.pdf",
+    "diller": {
+      "en": {
+        "name": "MG 20B",
+        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.png"
+        ],
+        "specs": {
+          "Featured Features": [
+            "Easy transportation",
+            "Fixed center pin",
+            "220 V & 380 V voltage options",
+            "Digital control panel option",
+            "Stirrup bending ability",
+            "Programmable bending function"
+          ],
+          "Technical Data": [
+            "W-L-H cm: 49 x 60 x 32",
+            "Voltage V: 380-220",
+            "Engine Power kW: 1,5",
+            "Weight kg: 95"
+          ],
+          "Capacities": [
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø20 x 1",
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø16 x 2",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø18 x 1",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø12 x 3",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø16 x 1",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø10 x 4"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "slug": "gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi",
+    "brand": "gocmaksan",
+    "category": "Bending Machines",
+    "subcategory": "Stirrup",
+    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a375203bf8aad1d014a4b0_sls-12-gms-automatic-stirrup-benders.pdf",
+    "diller": {
+      "en": {
+        "name": "SLS 12",
+        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "images": [
+          "/images/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi-1.webp"
+        ],
+        "specs": {
+          "Featured Features": [],
+          "Technical Data": [],
+          "Capacities": []
+        }
+      }
+    }
+  }
+]

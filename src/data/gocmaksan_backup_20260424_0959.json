@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi",
+    "brand": "gocmaksan",
+    "category": "Cutting Machines",
+    "subcategory": "Standard",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
+    "related_products": [
+      "H 36S",
+      "H 55",
+      "H 38S",
+      "H 45S"
+    ],
+    "diller": {
+      "en": {
+        "name": "H 26",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ],
+        "specs": {
+          "Featured Features": [
+            "Hydraulic System",
+            "Adjustable blade support",
+            "Low maintenance costs",
+            "Long-lasting use",
+            "Reinforced steel body",
+            "Quiet, safe and environmentally friendly"
+          ],
+          "Technical Data": [
+            "W - L - H cm: 54x100x78",
+            "Voltage V: 380",
+            "Engine Power kW: 2,2",
+            "Weight kg: 95",
+            "Hid. Oil. Cap. lt: 7"
+          ],
+          "Capacities": [
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø26 x 1",
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø16 x 2",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø22 x 1",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø12 x 2",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø20 x 1",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø10 x 2"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "slug": "gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi",
+    "brand": "gocmaksan",
+    "category": "Bending Machines",
+    "subcategory": "Standard",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi.pdf",
+    "related_products": [],
+    "diller": {
+      "en": {
+        "name": "HB 12x6",
+        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "images": [
+          "/images/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi-1.webp"
+        ],
+        "specs": {
+          "Featured Features": [],
+          "Technical Data": [],
+          "Capacities": []
+        }
+      }
+    }
+  },
+  {
+    "slug": "gms-matrix-55-gocmaksan-demir-demir-kesme-hatti",
+    "brand": "gocmaksan",
+    "category": "Cutting Machines",
+    "subcategory": "Standard",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti.pdf",
+    "related_products": [],
+    "diller": {
+      "en": {
+        "name": "MATRIX 55",
+        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "images": [
+          "/images/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti-1.webp"
+        ],
+        "specs": {
+          "Featured Features": [],
+          "Technical Data": [],
+          "Capacities": []
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,3 @@
+  const subcat = m.brand === 'gocmaksan'
+    ? (m.category || '')
+    : (m.subcategory || m.category || '');

@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi",
+    "brand": "gocmaksan",
+    "category": "Cutting Machines",
+    "subcategory": "Portable",
+    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36db6669070e362933876_gms-portatif-kesme-bukme.pdf",
+    "diller": {
+      "en": {
+        "name": "Power 24",
+        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi-1.webp"
+        ],
+        "specs": {
+          "Featured Features": [
+            "Ease of transportation",
+            "Practical Use",
+            "hydraulics",
+            "220V & 380V option",
+            "Quick Maintenance & Spare Parts"
+          ],
+          "Technical Data": [
+            "W - L - H cm: 53x79x73",
+            "Voltage V: 380 / 220",
+            "Engine Power kW: 2,2",
+            "Weight kg: 90",
+            "Hid. Oil. Cape kg: 7"
+          ],
+          "Capacities": [
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 24 x 1",
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 12 x 4",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 20 x 1",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 10 x 3",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 16 x 1",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø 8 x 4"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "slug": "gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi",
+    "brand": "gocmaksan",
+    "category": "Cutting Machines",
+    "subcategory": "Standard",
+    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36cbcd044563fa49a7f24_gms-M-serisi-kesme-makinalari.pdf",
+    "diller": {
+      "en": {
+        "name": "SH 60",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ],
+        "specs": {
+          "Featured Features": [
+            "Double acting hydraulic system",
+            "High cutting performance",
+            "Ability to control manually and automatically",
+            "Ability to control with hand and foot",
+            "Low Energy Consumption",
+            "Durable steel body"
+          ],
+          "Technical Data": [
+            "W - L - H cm: 70x172x114",
+            "Voltage V: 380",
+            "Engine Power kW: 11",
+            "Weight kg: 960",
+            "Hid. Oil. Cap. lt: 90"
+          ],
+          "Capacities": [
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø60 x 1",
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø42 x 2",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø55 x 1",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø30 x 3",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø45 x 1",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø26 x 3"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "slug": "gms-sl-36-gocmaksan-etriye-bukme-makinasi",
+    "brand": "gocmaksan",
+    "category": "Bending Machines",
+    "subcategory": "Stirrup",
+    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e0f4ca58f735318af5e_gms-etriye-bukme-makinalari.pdf",
+    "diller": {
+      "en": {
+        "name": "SL 36",
+        "description": "GMS stirrup bending machines, developed with advanced engineering, combine speed, precision, durability, and safety.",
+        "images": [
+          "/images/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi-1.webp"
+        ],
+        "specs": {
+          "Featured Features": [
+            "Automatic repeat without changing angle",
+            "Fixed hub",
+            "Easy fixing",
+            "Powerful and fast reducer speed",
+            "International Patented Daisy Pattern Belly",
+            "To be able to make a twisting program"
+          ],
+          "Technical Data": [
+            "W - L - H cm: 78 x 87 x 89",
+            "Voltage V: 380",
+            "Engine Power kW: 3",
+            "Weight kg: 340"
+          ],
+          "Capacities": [
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø36 x 1",
+            "45 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø20 x 2",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø32 x 1",
+            "65 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø16 x 2",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø24 x 1",
+            "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece -> Ø12 x 2"
+          ]
+        }
+      }
+    }
+  }
+]

@@ -55,16 +55,8 @@
           ],
           "TEKNIK_TABLO": {}
         },
-        "technical_data": {
-          "Motor Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "2900 RPM",
-          "Blade Diameter": "Ø:420- d:Ø30/32 mm",
-          "Air Consumption": "130 L/min.",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "113x426x131",
-          "Weight": "250 Kg / 205 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23140250/ACK-420-S-1.pdf"
+        "technical_data": null,
+        "catalog": null
       }
     }
   },
@@ -118,18 +110,7 @@
             "Double acting clamps for operator safety"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "4.0 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "1.950 RPM",
-          "Blade Speed": "1950 RPM",
-          "Blade Diameter": "Ø700/Ø38 mm",
-          "Air Consumption": "180 L/min.",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "152x459x160",
-          "Weight": "560 Kg / 500 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23153958/ACK-700-1.pdf"
+        }
       }
     }
   },
@@ -194,18 +175,7 @@
             "Hand held controller allows you to prove the job before running at speed (optional)"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "11,5 kW / 25A / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "3.000 RPM",
-          "Blade Speed": "24.000 RPM",
-          "Blade Diameter": "D: Ø180 mmd: Ø30 mm",
-          "Air Consumption": "250 L/min.",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "241x516x285",
-          "Weight": "1.850 Kg / 1.430 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2022/12/23154213/AIM-3410.pdf"
+        }
       }
     }
   },
@@ -264,18 +234,7 @@
             "LED lighting in the cabinet"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "18 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "3.000 RPM",
-          "Blade Speed": "20.000 RPM",
-          "Blade Diameter": "D: Ø180 mmd: Ø30-32 mm",
-          "Air Consumption": "250 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "180x590x275",
-          "Weight": "3.050 Kg / 2.850 Kg"
-        },
-        "catalog": null
+        }
       }
     }
   },
@@ -345,18 +304,7 @@
             "LED lighting in the cabinet"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "18 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "3.000 RPM",
-          "Blade Speed": "20.000 RPM",
-          "Blade Diameter": "D:Ø180 x d:Ø30 mm",
-          "Air Consumption": "250 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "180x885x275",
-          "Weight": "3810.0"
-        },
-        "catalog": null
+        }
       }
     }
   },
@@ -424,18 +372,7 @@
             "LED interior lighting with very low energy consumption in the cabin"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "29 kW 58A / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "3.000 RPM",
-          "Blade Speed": "12.000 RPM",
-          "Blade Diameter": "D: Ø550 mmd: Ø30 mm",
-          "Air Consumption": "250 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "200x1.172x231",
-          "Weight": "4.106 Kg / 3.650 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2022/12/23155138/ALM-6510-1.pdf"
+        }
       }
     }
   },
@@ -480,17 +417,7 @@
             "Stops automatically after stripping and cleaning operation"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "1200 W / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "---",
-          "Blade Diameter": "Dmax:Ø215 mmd:Ø32 mm",
-          "Air Consumption": "36 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "137.5x240.5x125.5",
-          "Weight": "210 Kg / 176 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23155219/CA-601.pdf"
+        }
       }
     }
   },
@@ -534,17 +461,7 @@
             "4 different cutter set can be mounted on both block"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2400 W / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "3000 RPM",
-          "Blade Diameter": "Dmax: Ø210 mm d: Ø32 mm",
-          "Air Consumption": "48 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "152.5x240.5x129.5",
-          "Weight": "273 Kg / 237 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23155448/CA-603.pdf"
+        }
       }
     }
   },
@@ -608,18 +525,7 @@
             "Max square dimension that SA 261 machine can be rotated is 2200 x 2200 mm. The squares that are having larger dimensions are rotated manually during the welding operation"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "12 kW / 400V AC 3P PE 50/60 Hz.",
-          "Matkap Donus Hizi": "6000 RPM",
-          "Blade Speed": "18.000 RPM",
-          "Blade Diameter": "D:Ø250- d:30/32 mm",
-          "Air Consumption": "150 L/min.",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "2472x11725x207",
-          "Weight": "3931 / 3776 kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/27102021/CCL-1661.pdf"
+        }
       }
     }
   },
@@ -681,18 +587,7 @@
             "Saw blade motor power: 2 pcs. x 4 kW"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "12,5 kW / 25A / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "2.300 RPM",
-          "Blade Speed": "2300 RPM",
-          "Blade Diameter": "D: Ø600 mmd: Ø30 mm",
-          "Air Consumption": "60 L/min.",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "251x156x116",
-          "Weight": "2.350 Kg / 2.350 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2022/12/23155726/CDC-600-1.pdf"
+        }
       }
     }
   },
@@ -749,17 +644,7 @@
             "Processing capacity with 240-250 window frames in 8 hours for CNC 611"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "3 Kw / 400V AC 3P PE 50/60 Hz.",
-          "Blade Speed": "18.000 RPM",
-          "Blade Diameter": "6.000 RPM D:Ø250- d:30/32 mm",
-          "Air Consumption": "180 L/min",
-          "Air Pressure": "6-8 Bar",
-          "Dimensions": "231x240x177",
-          "Weight": "790.0"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2024/06/23160154/CNC-609-611.pdf"
+        }
       }
     }
   },
@@ -816,17 +701,7 @@
             "Processing capacity with 240-250 window frames in 8 hours for CNC 611"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "3.85 kW / 400V AC 3P PE 50/60 Hz.",
-          "Blade Speed": "18.000 RPM",
-          "Blade Diameter": "6.000 RPM D:Ø250- d:30/32 mm",
-          "Air Consumption": "180 L/min.",
-          "Air Pressure": "6-8 BAR",
-          "Dimensions": "231x240x177",
-          "Weight": "700.0"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2024/06/23160154/CNC-609-611.pdf"
+        }
       }
     }
   },
@@ -879,17 +754,7 @@
             "Equipped with whole cutter bits"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW / 230V AC 1P+N+PE / 50/60Hz.",
-          "Blade Speed": "Ø5xL60 / 5xL80900 RPM",
-          "Blade Diameter": "Ø5xL60 / Ø5xL80",
-          "Air Consumption": "24 L/min.",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "70.5x254x156.5",
-          "Weight": "170 Kg / 130 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/23165052/CRM-201-S.pdf"
+        }
       }
     }
   },
@@ -937,17 +802,7 @@
             "Max. clamping capacity W:200 mm H:150 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "3.3 kW  / 230V AC 1P+N+PE / 50/60Hz.",
-          "Blade Speed": "2x Ø10xL100 / Ø5xL10012.000 RPM",
-          "Blade Diameter": "Ø10xL100 / 2 xØ5xL100",
-          "Air Consumption": "24 L/min.",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "126x290x187",
-          "Weight": "373 Kg / 328 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/23170048/CRM-250-S.pdf"
+        }
       }
     }
   },
@@ -1001,18 +856,7 @@
             "The power of sawing motors: 2 pcs. X 2.2 kW"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "5 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "2.900 RPM",
-          "Blade Speed": "2900 RPM",
-          "Blade Diameter": "D: Ø420 mmd: Ø30-32 mm",
-          "Air Consumption": "160 L/min",
-          "Air Pressure": "---",
-          "Dimensions": "145x451x167",
-          "Weight": "949 Kg / 830 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23170853/DC-421-PSD-1.pdf"
+        }
       }
     }
   },
@@ -1075,18 +919,7 @@
             "Facility to transfer the cutting list at ''mdb'' and ''csv'' formats via USB and network."
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "6.9 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "2.400 RPM",
-          "Blade Speed": "2400 RPM",
-          "Blade Diameter": "D: Ø550 mmd: Ø30-32 mm",
-          "Air Consumption": "200 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "185x509x172",
-          "Weight": "1.444 Kg / 1.280 Kg"
-        },
-        "catalog": "https://www.yilmazmachine.com.tr/wp-content/uploads/2021/04/Barcode-Explanation.pdf"
+        }
       }
     }
   },
@@ -1156,18 +989,7 @@
             "The power of sawing motors: 2 pcs. X 3 kW"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "8.5 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "2.400 RPM",
-          "Blade Speed": "2400 RPM",
-          "Blade Diameter": "D: Ø550 mmd: Ø30-32 mm",
-          "Air Consumption": "160 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "185x509x172",
-          "Weight": "1.420 Kg / 1.202 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24094514/DC-550-SK-SKH-1.pdf"
+        }
       }
     }
   },
@@ -1214,18 +1036,7 @@
             "For safety reasons, the clamp pistons operate with low pressure control system"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "3.0 kW / 230V AC 1P+N+PE / 50/60Hz.",
-          "Profil": "Hmax: 180 mmHmin: 30 mmWmax: 140 mmWmin: 30 mm?: 30° - 180°",
-          "Blade Speed": "---",
-          "Blade Diameter": "---",
-          "Air Consumption": "180 L/min",
-          "Air Pressure": "6-8 BAR",
-          "Dimensions": "410x170x80",
-          "Weight": "700 Kg / 611 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24101509/DK-502.pdf"
+        }
       }
     }
   },
@@ -1273,14 +1084,7 @@
             "Parameters are set easily by means of 8'' LCD colour touch screen"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Profil": "Hmax: 180 mmHmin: 30 mmWmax: 130 mmWmin: 30 mm",
-          "Blade Speed": "---",
-          "Air Consumption": "55 L/min",
-          "Weight": "1.690 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24101633/DK-540.pdf"
+        }
       }
     }
   },
@@ -1312,17 +1116,7 @@
             "Possibility of working with tree different offset"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "--- /  ---",
-          "Blade Speed": "---",
-          "Blade Diameter": "---",
-          "Air Consumption": "---",
-          "Air Pressure": "---",
-          "Dimensions": "51x312x30 cm",
-          "Weight": "124 Kg / 81 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24103931/DKN-302-602.pdf"
+        }
       }
     }
   },
@@ -1360,15 +1154,7 @@
             "Equipped with Ø 5 router bit"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "1200 W / 230V AC 1P+N+PE / 50/60Hz.",
-          "Blade Speed": "ø5xL60 mm27.000 RPM",
-          "Blade Diameter": "ø5xL60 mm",
-          "Dimensions": "68x48.5x42",
-          "Weight": "30 Kg / 28 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/21173757/FR-222-1.pdf"
+        }
       }
     }
   },
@@ -1413,16 +1199,7 @@
             "Equipped with Ø 5 router bit"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "750 W / 230V AC 1P+N+PE / 50Hz.",
-          "Freze Alani": "x=270 mmy=110 mmz=110 mm",
-          "Blade Speed": "Ø5xL60 mm14.000 RPM",
-          "Blade Diameter": "Ø5xL60 mm",
-          "Dimensions": "59x52x64.5",
-          "Weight": "48 Kg / 46 Kg"
-        },
-        "catalog": null
+        }
       }
     }
   },
@@ -1467,17 +1244,7 @@
             "Equipped with the cutter tools"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2 x 750 Watt / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "14.000 / 900 RPM",
-          "Blade Diameter": "Ø5xL80 mm",
-          "Air Consumption": "5 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "85x56x147",
-          "Weight": "107.0"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24105159/FR-226-S.pdf"
+        }
       }
     }
   },
@@ -1512,16 +1279,7 @@
             "Loading capacity: 450 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "--- /  --",
-          "Blade Speed": "--",
-          "Blade Diameter": "--",
-          "Air Pressure": "6 bar",
-          "Dimensions": "900x3050x2400",
-          "Weight": "615 / 610"
-        },
-        "catalog": null
+        }
       }
     }
   },
@@ -1554,12 +1312,7 @@
             "Loading capacity: 300 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "990x1500x1300",
-          "Weight": "110 / 80"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24111537/GPT-1000-PT-1000.pdf"
+        }
       }
     }
   },
@@ -1591,11 +1344,7 @@
             "Loading capacity: 300 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Weight": "0.0"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24112516/GT-1000-RT-1000.pdf"
+        }
       }
     }
   },
@@ -1627,12 +1376,7 @@
             "Loading capacity (heavy duty): 500 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "990x1600x1600",
-          "Weight": "95 / 60"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24114124/HP-1000-VP-1000.pdf"
+        }
       }
     }
   },
@@ -1670,15 +1414,7 @@
             "Strong spring system and protective shield"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "750 W / 230V AC 1P+N+PE / 50Hz.",
-          "Blade Speed": "3000 RPM",
-          "Blade Diameter": "D: Ø300 mmd: Ø30/32mm",
-          "Dimensions": "70x84x61",
-          "Weight": "26 Kg /  29 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24120042/KD-305-KY-305.pdf"
+        }
       }
     }
   },
@@ -1725,17 +1461,7 @@
             "Strong spring system and protective shield"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "2900 RPM",
-          "Blade Diameter": "D: Ø350 mmd: Ø30-32 mm",
-          "Air Consumption": "---",
-          "Air Pressure": "---",
-          "Dimensions": "72x76x157",
-          "Weight": "123 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24143522/KD-350-D-350-PS.pdf"
+        }
       }
     }
   },
@@ -1776,15 +1502,7 @@
             "Strong spring system and protective shield"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "2900 RPM",
-          "Blade Diameter": "D: Ø350 mmd: Ø30/32 mm",
-          "Dimensions": "82x76x78.5",
-          "Weight": "86 Kg / 71 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24150234/KD-350-M-1.pdf"
+        }
       }
     }
   },
@@ -1835,15 +1553,7 @@
             "Strong spring system and protective shield"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "2900 RPM",
-          "Blade Diameter": "D: Ø400 mmd: Ø30/32 mm",
-          "Dimensions": "86x76x160",
-          "Weight": "137 Kg / 123 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24150554/KD-400-D-PS.pdf"
+        }
       }
     }
   },
@@ -1880,15 +1590,7 @@
             "Strong spring system and protective shield"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "2900 RPM",
-          "Blade Diameter": "D: Ø400 mmd: Ø30/32 mm",
-          "Dimensions": "86x76x83",
-          "Weight": "88 Kg / 71 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24151432/KD-400-M-1.pdf"
+        }
       }
     }
   },
@@ -1930,17 +1632,7 @@
             "Maximum cutter diameter (D x d): Ø170 x Ø30 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "1200 W / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "3000 RPM",
-          "Blade Diameter": "DMax: Ø170 mmd: Ø30 mm",
-          "Air Consumption": "14 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "44x74x116",
-          "Weight": "66 Kg / 61 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24152128/KM-211-S.pdf"
+        }
       }
     }
   },
@@ -1977,15 +1669,7 @@
             "Maximum cutter diameter (D x d): Ø 120 x d Ø 30 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "800 W / 230V AC 1P+N+PE / 50Hz.",
-          "Blade Speed": "3000 RPM",
-          "Blade Diameter": "DMax: Ø120 mmd: Ø30mm",
-          "Dimensions": "57x51x42",
-          "Weight": "26.0 / 26 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24152334/KM-212.pdf"
+        }
       }
     }
   },
@@ -2035,16 +1719,7 @@
             "Maximum cutter diameter (D x d): Ø160 x Ø30 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "1200 W / 2A / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "3000 RPM",
-          "Blade Diameter": "Dmax: Ø160mmd: Ø30mm",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "42x83.5x120",
-          "Weight": "120 Kg / 95 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24152457/KM-215-S.pdf"
+        }
       }
     }
   },
@@ -2088,16 +1763,7 @@
             "The minimum inner frame size that can be assembled is 200 x 200 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Profil": "Hmax:120 mmWmax: 150 mm",
-          "Kose Pres": "3500 kg x 2",
-          "Air Consumption": "25 Lt/min",
-          "Air Pressure": "7-10 Bar",
-          "Dimensions": "123x195x131",
-          "Weight": "350 Kg / 320 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24152911/KP-110.pdf"
+        }
       }
     }
   },
@@ -2147,13 +1813,7 @@
             "Maximum profile clamping height H 140 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "150 W 2 Amp / 220-230V 50 Hz",
-          "Dimensions": "160X234X160",
-          "Weight": "630 / 580"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2024/12/24153217/KP-130-CNC.pdf"
+        }
       }
     }
   },
@@ -2209,9 +1869,7 @@
             "Minimum window inner dimension that can be crimped : 200 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {},
-        "catalog": null
+        }
       }
     }
   },
@@ -2249,15 +1907,7 @@
             "Strong spring system and protective shield"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "750 W / 230V AC 1P+N+PE / 50Hz.",
-          "Blade Speed": "3000 RPM",
-          "Blade Diameter": "D: Ø300 mmd: Ø30/32mm",
-          "Dimensions": "70x84x61",
-          "Weight": "29 Kg / 26 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24120042/KD-305-KY-305.pdf"
+        }
       }
     }
   },
@@ -2308,9 +1958,7 @@
             "Recommended reinforcement sheet thickness max. 2.5 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {},
-        "catalog": null
+        }
       }
     }
   },
@@ -2364,17 +2012,7 @@
             "It has the ability of lateral and longitudinal cutting operations"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW / 4A / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "---",
-          "Blade Diameter": "D: Ø420 mmd: Ø30/32 mm",
-          "Air Consumption": "---",
-          "Air Pressure": "---",
-          "Dimensions": "725x86.5x135",
-          "Weight": "142 Kg / 113 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24153638/MK-420-420-PS-450.pdf"
+        }
       }
     }
   },
@@ -2407,17 +2045,7 @@
             "Easy assembly on sawing and copy router machine without conveyor"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "--- /  ---",
-          "Blade Speed": "---",
-          "Blade Diameter": "---",
-          "Air Consumption": "---",
-          "Air Pressure": "---",
-          "Dimensions": "27X304X9",
-          "Weight": "19 Kg / 18 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24153949/MKN-150-151-300-301-302.pdf"
+        }
       }
     }
   },
@@ -2455,9 +2083,7 @@
             "See the Technical Table"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {},
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/06/24155715/NSM-352-353.pdf"
+        }
       }
     }
   },
@@ -2489,12 +2115,7 @@
             "Loading capacity: 1000 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "855x4000x1000",
-          "Weight": "244 / 201.5"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24161725/PC-4000-PT-2000.pdf"
+        }
       }
     }
   },
@@ -2560,9 +2181,7 @@
             "LED interior lighting"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {},
-        "catalog": null
+        }
       }
     }
   },
@@ -2593,12 +2212,7 @@
             "Loading capacity (heavy duty): 500 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "990x1500x1580",
-          "Weight": "79 / 50"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24111537/GPT-1000-PT-1000.pdf"
+        }
       }
     }
   },
@@ -2628,12 +2242,7 @@
             "Loading capacity: 500 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "1740x1540x1950",
-          "Weight": "180 / 140"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24161725/PC-4000-PT-2000.pdf"
+        }
       }
     }
   },
@@ -2670,12 +2279,7 @@
             "Loading capacity: 500 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Air Pressure": "6-8 bar",
-          "Weight": "260 kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24173956/WB-4000-PWB-4100.pdf"
+        }
       }
     }
   },
@@ -2711,12 +2315,7 @@
             "Height of die from blank:100 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "22x25x59",
-          "Weight": "7.5 Kg / 8 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24162825/PYE-101-102-103-104.pdf"
+        }
       }
     }
   },
@@ -2749,11 +2348,7 @@
             "Weight: 7kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Weight": "0.0"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2024/06/24163027/RS-1000.pdf"
+        }
       }
     }
   },
@@ -2789,12 +2384,7 @@
             "Weight (Brut/Net): 55 – 45 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "1400x700x1400",
-          "Weight": "55 / 45"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24112516/GT-1000-RT-1000.pdf"
+        }
       }
     }
   },
@@ -2841,17 +2431,7 @@
             "Tilting range from 90° to 45° left"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW /4.7A / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "---",
-          "Blade Diameter": "D: Ø420 mmd: Ø30/32 mm",
-          "Air Consumption": "24 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "184x76x159",
-          "Weight": "255 Kg / 202 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24163229/RYK-420-S-1.pdf"
+        }
       }
     }
   },
@@ -2897,17 +2477,7 @@
             "Tilting range from 90° to 45° left"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW /4.7A / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "---",
-          "Blade Diameter": "D: Ø420 mmd: Ø30/32 mm",
-          "Air Consumption": "24 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "184x76x159",
-          "Weight": "255 Kg / 202 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2022/12/24163421/RYK-420-W-1.pdf"
+        }
       }
     }
   },
@@ -2967,17 +2537,7 @@
             "7″ HMI colored touch screen monitor"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "---",
-          "Blade Diameter": "D: Ø420 mmd: Ø30/32 mm",
-          "Air Consumption": "130 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "113x825x136",
-          "Weight": "450 Kg / 385 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24164342/SCM-420-L4-L7-1.pdf"
+        }
       }
     }
   },
@@ -3012,13 +2572,7 @@
             "Cutting capacity: 70 x 70 mm square profile"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Blade Diameter": "Dmax:Ø275d:Ø32 mm",
-          "Dimensions": "90x80x120",
-          "Weight": "258 Kg / 225 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2024/06/24164608/SDT-275.pdf"
+        }
       }
     }
   },
@@ -3061,12 +2615,7 @@
             "Chip brush that cleans the band saw during the cutting operation"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "200x411x160",
-          "Weight": "1.000 Kg / 900 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24164750/SDT-280.pdf"
+        }
       }
     }
   },
@@ -3123,18 +2672,7 @@
             "Windows based industrial PC and 7″ LCD color touch screen"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "5.0 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "2.500 RPM",
-          "Blade Speed": "---",
-          "Blade Diameter": "D: Ø500 mmd: Ø30-32 mm",
-          "Air Consumption": "150 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "134x472x138",
-          "Weight": "600 Kg / 540 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24165243/SK-500-1.pdf"
+        }
       }
     }
   },
@@ -3194,17 +2732,7 @@
             "Min. cutting length 5 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "5.5 kW  / 400V AC 3P+PE / 50/60 Hz.",
-          "Blade Speed": "---",
-          "Blade Diameter": "2500 RPM D:Ø500 x d:Ø30-32 mm",
-          "Air Consumption": "150 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "134x472x200",
-          "Weight": "527.0"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24165148/SK-500-D.pdf"
+        }
       }
     }
   },
@@ -3243,17 +2771,7 @@
             "Digital measuring apparatus with 3.0 m of measurement capacity is standard"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "300 W / 230V AC 1P+N+PE / 50/60Hz.",
-          "Blade Speed": "---",
-          "Blade Diameter": "---",
-          "Air Consumption": "---",
-          "Air Pressure": "---",
-          "Dimensions": "W:54cm. L:305cm. H:50cm",
-          "Weight": "193 Kg / 130 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24165527/SKN-300-600.pdf"
+        }
       }
     }
   },
@@ -3301,12 +2819,7 @@
             "Recommended reinforcement sheet thickness max. 3.0 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Profil": "Hmin:40mmHmax:160mmWmin:40mmWmax:165 mm",
-          "Weight": "132 Kg / 100 Kg"
-        },
-        "catalog": null
+        }
       }
     }
   },
@@ -3346,12 +2859,7 @@
             "Recommended reinforcement sheet thickness max. 3.0 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "62x230x172",
-          "Weight": "132 Kg / 100 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24165715/SM-201.pdf"
+        }
       }
     }
   },
@@ -3400,12 +2908,7 @@
             "Mechanical structure suitable for screwing thin profiles"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "150x522x190",
-          "Weight": "475 Kg / 415 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24165908/SM-206.pdf"
+        }
       }
     }
   },
@@ -3447,17 +2950,7 @@
             "Maximum profile dimension: H115 x W100 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "230V AC 1P+N+PE / 50Hz.",
-          "Blade Speed": "ø5xL80 / ø5xL6018.000 RPM",
-          "Blade Diameter": "ø5xL80 / ø5xL60",
-          "Air Consumption": "19 L/min",
-          "Air Pressure": "6-8 BAR",
-          "Dimensions": "73x61x130",
-          "Weight": "116 Kg / 78 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24172506/ST-264.pdf"
+        }
       }
     }
   },
@@ -3499,17 +2992,7 @@
             "Portable machine stand"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "1.5 kW / 230V AC 1P+N+PE / 50/60Hz.",
-          "Blade Speed": "--",
-          "Blade Diameter": "--",
-          "Air Consumption": "20 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "60x191.5x140",
-          "Weight": "128 Kg / 113 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/11/24172748/TK-503.pdf"
+        }
       }
     }
   },
@@ -3549,17 +3032,7 @@
             "Saving of time thanks to the practical mold change feature"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "1.5 kW / 230V AC 1P+N+PE / 50/60Hz.",
-          "Blade Speed": "----",
-          "Blade Diameter": "----",
-          "Air Consumption": "20 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "74.5x194.5x155.5",
-          "Weight": "158 Kg / 126 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24173000/TK-505.pdf"
+        }
       }
     }
   },
@@ -3598,9 +3071,7 @@
             "Thanks to the air filter cleaning system, there is no need to disassemble the filter unit"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {},
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2024/10/24173129/VCE-1570.pdf"
+        }
       }
     }
   },
@@ -3633,9 +3104,7 @@
             "High working performance with heavy duty cycle"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {},
-        "catalog": null
+        }
       }
     }
   },
@@ -3688,9 +3157,7 @@
             "Minimum window inner dimension that can be crimped : 200 x 200 mm"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {},
-        "catalog": null
+        }
       }
     }
   },
@@ -3741,18 +3208,7 @@
             "Saw blade spray cooling system"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Motor Power": "4.4 kW / 400V AC 3P+PE / 50/60 Hz.",
-          "Matkap Donus Hizi": "2.900 RPM",
-          "Blade Speed": "2.900RPM",
-          "Blade Diameter": "D: Ø420 mmd: Ø30-32 mm",
-          "Air Consumption": "50 L/min",
-          "Air Pressure": "6-8 bar",
-          "Dimensions": "109x229x172",
-          "Weight": "412 Kg / 362 Kg"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24173527/VK-420.pdf"
+        }
       }
     }
   },
@@ -3785,12 +3241,7 @@
             "Loading capacity: 500 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "990x1500x1500",
-          "Weight": "74 / 60"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24114124/HP-1000-VP-1000.pdf"
+        }
       }
     }
   },
@@ -3826,12 +3277,7 @@
             "Loading capacity: 600 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "1980x1500x1500",
-          "Weight": "160 / 120"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24173723/VP-2000-WAS-1000.pdf"
+        }
       }
     }
   },
@@ -3862,12 +3308,7 @@
             "Carrying and mounting surface: 5.1 m²"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Dimensions": "650x3000x1700",
-          "Weight": "119 / 81"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24173723/VP-2000-WAS-1000.pdf"
+        }
       }
     }
   },
@@ -3903,11 +3344,7 @@
             "Loading capacity: 350 kg"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {
-          "Weight": "113.0"
-        },
-        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24173956/WB-4000-PWB-4100.pdf"
+        }
       }
     }
   },
@@ -3953,9 +3390,7 @@
             "7” touch screen panel"
           ],
           "TEKNIK_TABLO": {}
-        },
-        "technical_data": {},
-        "catalog": null
+        }
       }
     }
   }
