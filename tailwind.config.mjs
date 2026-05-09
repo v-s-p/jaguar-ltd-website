@@ -5,10 +5,12 @@ export default {
     extend: {
       colors: {
         brand: {
-          dark: '#001a4d',    // Koyu lacivert
-          light: '#0b162c',   // Daha koyu ton
-          accent: '#ffcc00',  // Orijinal sitedeki sarı vurgu
-          gray: '#f8f9fa',    // Kart arka planları için açık gri
+          dark: '#004d54',      // Koyu turkuaz (header/footer bg)
+          light: '#003a40',     // Daha koyu ton
+          accent: '#00A8B5',    // Ana turkuaz vurgu
+          hover: '#008c96',     // Hover durumu
+          gray: '#f8f9fa',      // Kart arka planları
+          warm: '#f0fafa',      // Açık turkuaz arka plan
         }
       },
       fontFamily: {

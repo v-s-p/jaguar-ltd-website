@@ -4,5 +4,17 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  vite: {
+    server: {
+      fs: {
+        // Junction ile .BUILD_CACHE'e bagli node_modules'e izin ver
+        allow: [
+          'C:/Users/Kenan/Desktop/AI/Jaguar-ltd',
+          'C:/YAZILIM_KASASI/.BUILD_CACHE/Jaguar-ltd/node_modules',
+          'C:/Users/Kenan/Desktop/.BUILD_CACHE/Jaguar-ltd/node_modules',
+        ]
+      }
+    }
+  }
 });
