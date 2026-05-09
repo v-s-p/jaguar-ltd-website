@@ -53,3 +53,8 @@ Her doğrulanan madde:
 
 **Not:** Bu liste Claude Code ile repo taranarak kapatılabilir. Her madde 
 ortalama 1-2 dosya okumayla cevaplanır.
+## Connections
+
+- [[INDEX]] — Bu wiki'nin ana indeksi
+- [[01-Architecture-Overview]] — Sistem üst bakış
+- [[10-Open-Issues]] — Açık iş listesi
