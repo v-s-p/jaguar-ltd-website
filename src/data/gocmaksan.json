@@ -978,6 +978,13 @@
         "images": [
           "/images/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "HB 12x3",
+        "description": "Предлага капацитет за спирално огъване до Ø50 мм диаметър при високоякостни стомани. Възможно е също огъване на плоски стоманени профили (100x10, 80x20, 60x15).",
+        "images": [
+          "/images/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1012,6 +1019,13 @@
         "images": [
           "/images/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "HB 12x6",
+        "description": "Предлага капацитет за спирално огъване до Ø50 мм диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
+        "images": [
+          "/images/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1040,6 +1054,13 @@
     "diller": {
       "en": {
         "name": "Lever",
+        "description": "",
+        "images": [
+          "/images/gocmaksan/gms-kalip-sokmeler-gocmaksan-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "Лост",
         "description": "",
         "images": [
           "/images/gocmaksan/gms-kalip-sokmeler-gocmaksan-1.webp"
@@ -1452,6 +1473,13 @@
         "images": [
           "/images/gocmaksan/gms-mg-26-junior-portatif-bukme-makinasi-1.png"
         ]
+      },
+      "bg": {
+        "name": "MG 26 Джуниър",
+        "description": "Със своя лек и ергономичен дизайн, предлага максимална ефективност на строителни обекти.",
+        "images": [
+          "/images/gocmaksan/gms-mg-26-junior-portatif-bukme-makinasi-1.png"
+        ]
       }
     },
     "specs": {
@@ -1491,6 +1519,13 @@
       "en": {
         "name": "MH 8C",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "images": [
+          "/images/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "MH 8C",
+        "description": "Осигурява капацитет за спирално огъване до Ø50 мм диаметър на високоякостни стомани. Възможно е също огъване на шини (плоска стомана) с размери (100x10, 80x20, 60x15).",
         "images": [
           "/images/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi-1.webp"
         ]
@@ -1563,6 +1598,13 @@
         "images": [
           "/images/gocmaksan/gms-perdah-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "Моторна пердашка",
+        "description": "",
+        "images": [
+          "/images/gocmaksan/gms-perdah-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1590,6 +1632,13 @@
       "en": {
         "name": "Power 24",
         "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "Power 24",
+        "description": "Със своя лек и ергономичен дизайн, тя предлага максимална ефективност на строителни обекти.",
         "images": [
           "/images/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi-1.webp"
         ]
@@ -1638,6 +1687,13 @@
         "images": [
           "/images/gocmaksan/gms-rl-2000-gocmaksan-cift-tamburlu-silindir-1.webp"
         ]
+      },
+      "bg": {
+        "name": "RL 2000",
+        "description": "",
+        "images": [
+          "/images/gocmaksan/gms-rl-2000-gocmaksan-cift-tamburlu-silindir-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1667,6 +1723,13 @@
       "en": {
         "name": "SH 45",
         "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "SH 45",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощност.",
         "images": [
           "/images/gocmaksan/gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
@@ -1710,6 +1773,13 @@
       "en": {
         "name": "SH 60",
         "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "SH 60",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощност.",
         "images": [
           "/images/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
@@ -1805,6 +1875,13 @@
         "images": [
           "/images/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "SL 36",
+        "description": "GMS огъващи машини за стремена, разработени с авангардно инженерство, съчетават скорост, прецизност, издръжливост и безопасност.",
+        "images": [
+          "/images/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1847,6 +1924,13 @@
         "images": [
           "/images/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "SLS 12",
+        "description": "Предлага капацитет за спирално огъване до Ø50 мм диаметър на високоякостни стомани. Възможно е също огъване на плоска стомана (100x10, 80x20, 60x15).",
+        "images": [
+          "/images/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1879,6 +1963,13 @@
       "en": {
         "name": "SX 26",
         "description": "GMS spiral rebar bending machines quickly and accurately realize all kinds of coil, spiral, circle and semicircle bending with mechanical power transmission system.",
+        "images": [
+          "/images/gocmaksan/gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "SX 26",
+        "description": "GMS спирални машини за огъване на арматура бързо и точно изпълняват всички видове огъване на рулони, спирали, кръгове и полукръгове посредством механична система за предаване на мощност.",
         "images": [
           "/images/gocmaksan/gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
         ]
@@ -1924,6 +2015,13 @@
         "images": [
           "/images/gocmaksan/gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "SX 36",
+        "description": "Спирални машини за огъване на арматура GMS бързо и прецизно изпълняват всички видове огъване на намотки, спирали, кръгове и полукръгове със система за механично предаване на мощността.",
+        "images": [
+          "/images/gocmaksan/gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1966,6 +2064,13 @@
         "images": [
           "/images/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "SX 40",
+        "description": "GMS спирални машини за огъване на арматура бързо и точно изпълняват всички видове огъвания на навивки, спирали, кръгове и полукръгове, посредством система за механично предаване на мощност.",
+        "images": [
+          "/images/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -2004,6 +2109,13 @@
       "en": {
         "name": "SYNCLONE 45S",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "images": [
+          "/images/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "SYNCLONE 45S",
+        "description": "Предлага капацитет за спирално огъване до Ø50 мм диаметър на високоякостни стомани. Възможно е също огъване на плоска стомана (100x10, 80x20, 60x15).",
         "images": [
           "/images/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti-1.webp"
         ]
