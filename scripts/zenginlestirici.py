@@ -1,247 +1,235 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-╔══════════════════════════════════════════════════════════════╗
-║  JAGUAR LTD — VERİ ZENGİNLEŞTİRİCİ v1.0                  ║
-║  KUSURSUZ_MASTER.json → machines.json                       ║
-║  Mevcut veriyi kategori + lokal resim yolu ile zenginleştirir║
-╚══════════════════════════════════════════════════════════════╝
+JAGUAR LTD - KATEGORI ZENGINLESTIRICI v3.1
+Tek ve cift kategorili dogru dagilim.
 
-Sıfırdan indirmez! Mevcut KUSURSUZ_MASTER.json'u okur,
-kategorileri ekler, resim yollarını lokal dosyalara eşler,
-ve machines.json'a yazar.
-
-Kullanım:
-  python zenginlestirici.py                # CDN resimleri kullan
-  python zenginlestirici.py --lokal        # Lokal resim yollarını kullan
+Kullanim:
+  python zenginlestirici.py
+  python zenginlestirici.py --dry
 """
 
-import json
-import os
-import re
-import sys
+import sys, io
+if sys.platform == "win32":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
+import json, re, shutil
 from pathlib import Path
 from datetime import datetime
 
-# ═══════════════════════════════════════════════════
-# YAPILANDIRMA
-# ═══════════════════════════════════════════════════
-
-SCRIPT_DIR = Path(__file__).parent
+SCRIPT_DIR   = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
+JSON_PATH    = PROJECT_ROOT / "src" / "data" / "machines.json"
+YEDEK_PATH   = PROJECT_ROOT / "src" / "data" / f"machines_zengin_yedek_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
-KAYNAK = PROJECT_ROOT / "_yedek" / "scripts" / "makine_verileri_KUSURSUZ_MASTER.json"
-HEDEF  = PROJECT_ROOT / "src" / "data" / "machines.json"
-YEDEK  = PROJECT_ROOT / "src" / "data" / f"machines_backup_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
-IMG_DIR = PROJECT_ROOT / "public" / "images" / "machines"
-
-# Model kodu → (ana_kategori, alt_kategori) eşleştirmesi
-KATEGORI_HARITASI = {
-    # ─── ALÜMİNYUM ───
-    "AIM":  ("Alüminyum", "İŞLEME MERKEZLERİ"),
-    "ALM":  ("Alüminyum", "İŞLEME MERKEZLERİ"),
-    "CPM":  ("Alüminyum", "İŞLEME MERKEZLERİ"),
-
-    "KD":   ("Alüminyum", "KESİM"),
-    "DC":   ("Alüminyum", "KESİM"),
-    "ACK":  ("Alüminyum", "KESİM"),
-    "SK":   ("Alüminyum", "KESİM"),
-    "MK":   ("Alüminyum", "KESİM"),
-    "RYK":  ("Alüminyum", "KESİM"),
-    "KY":   ("Alüminyum", "KESİM"),
-    "VK":   ("Alüminyum", "KESİM"),
-    "SCM":  ("Alüminyum", "KESİM"),
-    "CDC":  ("Alüminyum", "KESİM"),
-    "SDT":  ("Alüminyum", "KESİM"),
-
-    "FR":   ("Alüminyum", "FREZE"),
-    "NCR":  ("Alüminyum", "FREZE"),
-    "CRM":  ("Alüminyum", "FREZE"),
-
-    "KP":   ("Alüminyum", "KÖŞE PRES"),
-
-    "MEM":  ("Alüminyum", "KERTME"),
-    "KM":   ("Alüminyum", "KERTME"),
-    "SNM":  ("Alüminyum", "KERTME"),
-
-    "PYE":  ("Alüminyum", "PRES"),
-
-    "PT":   ("Alüminyum", "TAŞIMA"),
-    "HP":   ("Alüminyum", "TAŞIMA"),
-    "VP":   ("Alüminyum", "TAŞIMA"),
-    "GPT":  ("Alüminyum", "TAŞIMA"),
-    "GT":   ("Alüminyum", "TAŞIMA"),
-    "PC":   ("Alüminyum", "TAŞIMA"),
-
-    "DKN":  ("Alüminyum", "AKTARMA"),
-    "SKN":  ("Alüminyum", "AKTARMA"),
-    "MKN":  ("Alüminyum", "AKTARMA"),
-    "HDL":  ("Alüminyum", "AKTARMA"),
-
-    "VCE":  ("Alüminyum", "TALAŞ TOPLAMA"),
-    "GAS":  ("Alüminyum", "TALAŞ TOPLAMA"),
-
-    "WAS":  ("Alüminyum", "MONTAJ"),
-    "WB":   ("Alüminyum", "MONTAJ"),
-    "PWB":  ("Alüminyum", "MONTAJ"),
-    "RT":   ("Alüminyum", "MONTAJ"),
-    "RS":   ("Alüminyum", "MONTAJ"),
-
-    # ─── PVC ───
-    "PIM":  ("PVC", "İŞLEME MERKEZİ"),
-    "CCL":  ("PVC", "İŞLEME MERKEZİ"),
-    "PCC":  ("PVC", "İŞLEME MERKEZİ"),
-    "NSM":  ("PVC", "İŞLEME MERKEZİ"),
-
-    "TK":   ("PVC", "KAYNAK"),
-    "DK":   ("PVC", "KAYNAK"),
-
-    "CA":   ("PVC", "ÇAPAK ALMA"),
-    "MCA":  ("PVC", "ÇAPAK ALMA"),
-    "WGM":  ("PVC", "ÇAPAK ALMA"),
-
-    "SM":   ("PVC", "VİDALAMA"),
-
-    "CK":   ("PVC", "KESİM"),
-    "ST":   ("PVC", "FREZE"),
+# ===================================================
+# SADECE ALUMINYUM
+# Isleme merkezleri ve aluminyuma ozel makineler
+# ===================================================
+SADECE_ALU = {
+    "AIM": "ISLEME MERKEZLERI",
+    "ALM": "ISLEME MERKEZLERI",
+    "CPM": "ISLEME MERKEZLERI",  # Kompozit panel
+    "KP":  "KOSE PRES",
+    "PYE": "PRES",
+    "SNM": "KERTME",             # Aluminyum cephe kertme
 }
 
-# Bazı slug'lar için özel/override kategori atamaları
-OZEL_ATAMALAR = {
-    "cnc-609":  ("PVC", "İŞLEME MERKEZİ"),
-    "cnc-611":  ("PVC", "İŞLEME MERKEZİ"),
-    "vce-1570": ("PVC", "TALAŞ TOPLAMA"),
-    "vce-3500": ("PVC", "TALAŞ TOPLAMA"),
-    "vce-4000": ("PVC", "TALAŞ TOPLAMA"),
-    "rs-1000":  ("Alüminyum", "MONTAJ"),
-    "sdt-275":  ("Alüminyum", "KESİM"),
-    "gas-301":  ("PVC", "TALAŞ TOPLAMA"),
+# ===================================================
+# SADECE PVC
+# ===================================================
+SADECE_PVC = {
+    "PIM": "ISLEME MERKEZI",
+    "CCL": "ISLEME MERKEZI",
+    "PCC": "ISLEME MERKEZI",
+    "CNC": "ISLEME MERKEZI",
+    "TK":  "KAYNAK",
+    "DK":  "KAYNAK",
+    "CA":  "CAPAK ALMA",
+    "MCA": "CAPAK ALMA",
+    "WGM": "CAPAK ALMA",
+    "SM":  "VIDALAMA",
+    "CK":  "KESIM",              # PVC cita kesme
+    "ST":  "FREZE",              # PVC su tahliye
 }
 
+# ===================================================
+# HER IKI KATEGORI - ALU + PVC
+# Yilmaz sitesinde her iki listede de gorunenler
+# ===================================================
+CIFT_ALT = {
+    # Kesim - hem alu hem pvc profil keser
+    "KD":  "KESIM",
+    "DC":  "KESIM",
+    "ACK": "KESIM",
+    "MK":  "KESIM",
+    "RYK": "KESIM",
+    "KY":  "KESIM",
+    "VK":  "KESIM",
+    "CDC": "KESIM",
+    "SCM": "KESIM",
+    "SK":  "KESIM",
+    "SDT": "KESIM",
+    # Freze / Router
+    "FR":  "FREZE",
+    "CRM": "FREZE",
+    "NCR": "FREZE",
+    # Kertme / End Milling
+    "KM":  "KERTME",
+    "MEM": "KERTME",
+    # Tasima / Trolley
+    "PT":  "TASIMA",
+    "HP":  "TASIMA",
+    "VP":  "TASIMA",
+    "GPT": "TASIMA",
+    "GT":  "TASIMA",
+    "PC":  "TASIMA",
+    # Aktarma / Konveyor
+    "DKN": "AKTARMA",
+    "SKN": "AKTARMA",
+    "MKN": "AKTARMA",
+    "HDL": "AKTARMA",
+    # Talas Toplama
+    "VCE": "TALAS TOPLAMA",
+    "GAS": "TALAS TOPLAMA",
+    # Montaj / Assembly
+    "WAS": "MONTAJ",
+    "WB":  "MONTAJ",
+    "PWB": "MONTAJ",
+    "RT":  "MONTAJ",
+    "RS":  "MONTAJ",
+    "NSM": "MONTAJ",
+}
 
-# ═══════════════════════════════════════════════════
-# FONKSİYONLAR
-# ═══════════════════════════════════════════════════
+# Slug bazli ozel atamalar (prefix yetersiz kalinca)
+OZEL = {
+    "vce-1570":  (["PVC"], "TALAS TOPLAMA"),  # Kucuk vakum - sadece PVC
+    "gas-301":   (["PVC"], "TALAS TOPLAMA"),  # Kucuk vakum - sadece PVC
+    "cnc-609":   (["PVC"], "ISLEME MERKEZI"),
+    "cnc-611":   (["PVC"], "ISLEME MERKEZI"),
+    "pim-6508-se": (["PVC"], "ISLEME MERKEZI"),
+    "cpm-4150-s":  (["Aluminyum"], "ISLEME MERKEZLERI"),
+    "cpm-6161-double-station-composite-panel-processing-machine":
+                   (["Aluminyum"], "ISLEME MERKEZLERI"),
+    "sdt-275":   (["Aluminyum", "PVC"], "KESIM"),
+    "rs-1000":   (["Aluminyum", "PVC"], "MONTAJ"),
+}
 
-def model_prefix_cek(slug_or_name):
-    """Slug veya isimden model prefix çıkar."""
-    text = slug_or_name.upper().replace("-", " ")
-    match = re.match(r'^([A-Z]+)', text)
-    return match.group(1) if match else ""
+def model_prefix(slug):
+    match = re.match(r'^([a-zA-Z]+)', slug)
+    return match.group(1).upper() if match else ""
 
-def kategori_belirle(slug, isim):
-    """Slug ve isimden ana kategori + alt kategori belirle."""
-    # Önce özel atamalar
-    if slug in OZEL_ATAMALAR:
-        ana, alt = OZEL_ATAMALAR[slug]
-        return [ana], [alt]
+def kategori_belirle(slug):
+    slug_lower = slug.lower()
 
-    # Model kodundan dene
-    prefix = model_prefix_cek(slug)
-    if prefix in KATEGORI_HARITASI:
-        ana, alt = KATEGORI_HARITASI[prefix]
-        return [ana], [alt]
+    # 1. Tam slug ozel atama
+    if slug_lower in OZEL:
+        cats, alt = OZEL[slug_lower]
+        return cats, [alt]
 
-    # İsimden ipucu
-    isim_lower = isim.lower()
-    if "pvc" in isim_lower:
-        return ["PVC"], ["DİĞER"]
-    elif "alüm" in isim_lower or "aluminum" in isim_lower:
-        return ["Alüminyum"], ["DİĞER"]
+    # 2. Slug baslangici ozel atama
+    for k, (cats, alt) in OZEL.items():
+        if slug_lower.startswith(k + "-") or slug_lower == k:
+            return cats, [alt]
 
-    return ["Alüminyum"], ["DİĞER"]
+    prefix = model_prefix(slug)
 
-def lokal_resimleri_bul(slug):
-    """Slug'a göre lokal resim dosyalarını listele."""
-    if not IMG_DIR.exists():
-        return []
+    # 3. Sadece Aluminyum
+    if prefix in SADECE_ALU:
+        return ["Aluminyum"], [SADECE_ALU[prefix]]
 
-    resimler = []
-    for f in sorted(IMG_DIR.iterdir()):
-        if f.is_file() and f.name.startswith(slug):
-            resimler.append(f"/images/machines/{f.name}")
-    return resimler
+    # 4. Sadece PVC
+    if prefix in SADECE_PVC:
+        return ["PVC"], [SADECE_PVC[prefix]]
 
+    # 5. Her iki kategori
+    if prefix in CIFT_ALT:
+        return ["Aluminyum", "PVC"], [CIFT_ALT[prefix]]
+
+    # 6. Slug icerigine gore
+    if 'pvc' in slug_lower:
+        return ["PVC"], ["DIGER"]
+
+    return ["Aluminyum"], ["DIGER"]
 
 def main():
+    dry_run = "--dry" in sys.argv
+
     print()
-    print("╔══════════════════════════════════════════════════════════════╗")
-    print("║  🔧 JAGUAR LTD — VERİ ZENGİNLEŞTİRİCİ                    ║")
-    print("║     KUSURSUZ_MASTER → machines.json                        ║")
-    print("╚══════════════════════════════════════════════════════════════╝")
+    print("=" * 60)
+    print("  KATEGORI ZENGINLESTIRICI v3.1")
+    print("  Tek + Cift kategori dagilimi")
+    print("=" * 60)
     print()
 
-    lokal_mod = "--lokal" in sys.argv
+    if not JSON_PATH.exists():
+        print(f"  [X] Bulunamadi: {JSON_PATH}")
+        return
 
-    # 1. Kaynak dosyayı oku
-    if not KAYNAK.exists():
-        print(f"  ❌ Kaynak bulunamadı: {KAYNAK}")
-        sys.exit(1)
-
-    with open(KAYNAK, 'r', encoding='utf-8') as f:
+    with open(JSON_PATH, 'r', encoding='utf-8') as f:
         makineler = json.load(f)
 
-    print(f"  📖 {len(makineler)} makine okundu: {KAYNAK.name}")
+    print(f"  [i] {len(makineler)} makine okundu")
 
-    # 2. Her makineyi zenginleştir
-    zengin_makineler = []
+    if not dry_run:
+        shutil.copy2(JSON_PATH, YEDEK_PATH)
+        print(f"  [i] Yedeklendi -> {YEDEK_PATH.name}")
+
     kategori_sayac = {}
+    diger_listesi = []
+    sadece_alu = sadece_pvc = cift = 0
 
     for m in makineler:
-        slug = m["slug"]
-        tr = m.get("diller", {}).get("tr", {})
-        isim = tr.get("isim", slug.upper())
+        slug = m.get("slug", "")
+        kategoriler, alt_kategoriler = kategori_belirle(slug)
 
-        # Kategorileri ekle
-        kategoriler, alt_kategoriler = kategori_belirle(slug, isim)
-        m["kategoriler"] = kategoriler
+        m["kategoriler"]     = kategoriler
         m["alt_kategoriler"] = alt_kategoriler
 
-        # Resim yollarını güncelle
-        if lokal_mod:
-            lokal_resimler = lokal_resimleri_bul(slug)
-            if lokal_resimler:
-                # Her dil için lokal resimleri ata
-                for dil_kodu, dil_verisi in m.get("diller", {}).items():
-                    dil_verisi["resimler"] = lokal_resimler
+        if "DIGER" in alt_kategoriler:
+            diger_listesi.append(slug)
 
-        # Sayaç
-        for ak in alt_kategoriler:
-            key = f"{kategoriler[0]} → {ak}"
-            kategori_sayac[key] = kategori_sayac.get(key, 0) + 1
+        if len(kategoriler) == 2:
+            cift += 1
+        elif "Aluminyum" in kategoriler:
+            sadece_alu += 1
+        else:
+            sadece_pvc += 1
 
-        zengin_makineler.append(m)
+        key = f"[{'+'.join(k[0] for k in kategoriler)}] {alt_kategoriler[0]}"
+        kategori_sayac[key] = kategori_sayac.get(key, 0) + 1
 
-    # 3. Slug'a göre sırala
-    zengin_makineler.sort(key=lambda m: m["slug"])
+    if not dry_run:
+        with open(JSON_PATH, 'w', encoding='utf-8') as f:
+            json.dump(makineler, f, ensure_ascii=False, indent=2)
 
-    # 4. Yedekle
-    if HEDEF.exists():
-        import shutil
-        shutil.copy2(HEDEF, YEDEK)
-        print(f"  💾 Yedeklendi → {YEDEK.name}")
-
-    # 5. Yaz
-    HEDEF.parent.mkdir(parents=True, exist_ok=True)
-    with open(HEDEF, 'w', encoding='utf-8') as f:
-        json.dump(zengin_makineler, f, ensure_ascii=False, indent=2)
-
-    # 6. Rapor
-    print(f"\n  ✅ {len(zengin_makineler)} makine → {HEDEF.name}")
-    resim_modu = "LOKAL" if lokal_mod else "CDN"
-    print(f"  🖼️  Resim modu: {resim_modu}")
-
-    print(f"\n  📋 Kategori Dağılımı:")
-    for kat, sayi in sorted(kategori_sayac.items(), key=lambda x: -x[1]):
-        bar = "█" * min(sayi, 30)
-        print(f"     {kat:.<35} {sayi:>3} {bar}")
-
-    alu = sum(1 for m in zengin_makineler if "Alüminyum" in m["kategoriler"])
-    pvc = sum(1 for m in zengin_makineler if "PVC" in m["kategoriler"])
-    print(f"\n  📊 Alüminyum: {alu} | PVC: {pvc} | Toplam: {len(zengin_makineler)}")
-    print(f"\n  💡 Sonraki adım: npx astro dev")
     print()
+    print("=" * 60)
+    print(f"  Sadece Aluminyum : {sadece_alu}")
+    print(f"  Sadece PVC       : {sadece_pvc}")
+    print(f"  Her Ikisi        : {cift}")
+    print(f"  Toplam           : {len(makineler)}")
+    print(f"  DIGER kalan      : {len(diger_listesi)}")
 
+    if diger_listesi:
+        print()
+        print("  DIGER KALANLAR:")
+        for s in diger_listesi:
+            print(f"    {s}")
+
+    print()
+    print("  Kategori dagilimi:")
+    for kat, sayi in sorted(kategori_sayac.items(), key=lambda x: -x[1]):
+        bar = "#" * min(sayi, 25)
+        print(f"    {kat:<40} {sayi:>3}  {bar}")
+
+    if dry_run:
+        print("\n  [DRY RUN] - Dosya degistirilmedi")
+    else:
+        print(f"\n  [+] machines.json guncellendi")
+        print("  Sonraki adim: npx astro dev")
+    print()
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,363 @@
+[
+  {
+    "slug": "ack-420-s-up-cutting-saw-machine",
+    "brand": "yilmaz",
+    "categories": [
+      "Aluminium",
+      "PVC"
+    ],
+    "subcategory": "Cutting",
+    "diller": {
+      "en": {
+        "name": "ACK 420 S",
+        "description": "ACK 420 S is designed for the strait or angular cutting operations of the large size of profiles made of PVC and aluminium materials by means of Ø 420 mm of saw blade.",
+        "images": [
+          "/images/machines/ack-420-s-up-cutting-saw-machine-4.png",
+          "/images/machines/ack-420-s-up-cutting-saw-machine-5.png",
+          "/images/machines/ack-420-s-up-cutting-saw-machine-6.png",
+          "/images/machines/ack-420-s-up-cutting-saw-machine-7.png",
+          "/images/machines/ack-420-s-up-cutting-saw-machine-8.png",
+          "/images/machines/ack-420-s-up-cutting-saw-machine-9.png",
+          "/images/machines/ack-420-s-up-cutting-saw-machine-10.png",
+          "/images/machines/ack-420-s-up-cutting-saw-machine-11.png"
+        ],
+        "specs": {
+          "STANDART AKSESUARLAR": [
+            "Equipped with saw blade Ø 420 mm",
+            "Manuel MKN 300 length stop (3m)",
+            "2 x pneumatic vertical clamps",
+            "Spray saw blade lubrication system",
+            "Air gun",
+            "2 x in-feed & out-feed tunnels for operator safety",
+            "Swarf manifold-Top",
+            "Safety PLC in the electrical cabinet for the emergency stop, top & bottom covers locking switch, air pressure, saw blade home position and phase monitoring. (ACK 420 CE)",
+            "Swarf Manifold Bottom (ACK 420 CE)"
+          ],
+          "OPSIYONEL AKSESUARLAR": [
+            "Laser marker indicating the cutting line",
+            "Spare saw blade Ø 420 mm",
+            "VCE 1570 chip vacuum extractor",
+            "DKN 302 length stop",
+            "DKN 602 length stop",
+            "SKN 300 length stop",
+            "SKN 600 length stop",
+            "Swarf Manifold-Bottom"
+          ],
+          "GENEL OZELLIKLER": [
+            "Two-hand safety operation",
+            "Location points at 75°,60°,45°,30°,22.5°,15°,0° both left and right",
+            "Pivoting range from -75° left to +75° right infinitely adjustable",
+            "Hydro-pneumatic saw feed",
+            "Adjustable back fence for most effective use of the saw blade",
+            "Adjustable saw blade feeding speed",
+            "Manually opening safety guard",
+            "Interior LED lighting"
+          ],
+          "TEKNIK_TABLO": {}
+        },
+        "technical_data": {
+          "Motor Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
+          "Blade Speed": "2900 RPM",
+          "Blade Diameter": "Ø:420- d:Ø30/32 mm",
+          "Air Consumption": "130 L/min.",
+          "Air Pressure": "6-8 bar",
+          "Dimensions": "113x426x131",
+          "Weight": "250 Kg / 205 Kg"
+        },
+        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23140250/ACK-420-S-1.pdf"
+      }
+    }
+  },
+  {
+    "slug": "ack-700-up-cutting-saw-machine",
+    "brand": "yilmaz",
+    "categories": [
+      "Aluminium",
+      "PVC"
+    ],
+    "subcategory": "Cutting",
+    "diller": {
+      "en": {
+        "name": "ACK 700",
+        "description": "ACK 700 is designed for the strait or angular cutting operations of the large size of profiles made of PVC and aluminium materials by means of Ø 700 mm of saw blade.",
+        "images": [
+          "/images/machines/ack-700-up-cutting-saw-machine-2.jpg",
+          "/images/machines/ack-700-up-cutting-saw-machine-5.jpg"
+        ],
+        "specs": {
+          "STANDART AKSESUARLAR": [
+            "Equipped with saw blade Ø 700 mm and 4 Kw motor",
+            "Spray saw blade lubrication system",
+            "MKN 301 roller conveyor (3 m)",
+            "2 x vertical and 2 x horizontal clamps",
+            "Air gun",
+            "2 x in-feed & out-feed tunnels for operator safety",
+            "Swarf Manifold-Top and Bottom",
+            "Safety PLC in the electrical cabinet for the emergency stop, top & bottom covers locking switch, air pressure, saw blade home position and phase monitoring."
+          ],
+          "OPSIYONEL AKSESUARLAR": [
+            "Laser marker indicating the cutting line",
+            "Spare saw blade, Ø 700 mm",
+            "VCE 1570 chip vacuum extractor",
+            "DKN 302 length stop",
+            "DKN 602 length stop",
+            "SKN 300 length stop",
+            "SKN 600 length stop",
+            "HDL 400 length stop",
+            "HDL 700 length stop"
+          ],
+          "GENEL OZELLIKLER": [
+            "Two-hand run safety operation",
+            "Location points at 75°,60°,45°,30°,22.5°,15°,0° both left and right",
+            "Pivoting range from -75° left to +75° right infinitely adjustable",
+            "Hydro-pneumatic saw feed",
+            "Adjustable saw blade feeding speed",
+            "Interior LED lighting",
+            "Pneumatically opening safety guard",
+            "Safety locking switches on top guard and front doors",
+            "Double acting clamps for operator safety"
+          ],
+          "TEKNIK_TABLO": {}
+        },
+        "technical_data": {
+          "Motor Power": "4.0 kW / 400V AC 3P+PE / 50/60 Hz.",
+          "Matkap Donus Hizi": "1.950 RPM",
+          "Blade Speed": "1950 RPM",
+          "Blade Diameter": "Ø700/Ø38 mm",
+          "Air Consumption": "180 L/min.",
+          "Air Pressure": "6-8 bar",
+          "Dimensions": "152x459x160",
+          "Weight": "560 Kg / 500 Kg"
+        },
+        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23153958/ACK-700-1.pdf"
+      }
+    }
+  },
+  {
+    "slug": "aim-3410-aluminium-profile-machining-center",
+    "brand": "yilmaz",
+    "categories": [
+      "Aluminium"
+    ],
+    "subcategory": "Machining Centers",
+    "diller": {
+      "en": {
+        "name": "AIM 3410",
+        "description": "AIM 3410 and AIM 3410 CBC are CNC controlled 4-axis machine designed specifically for machining all types of aluminium & PVC profiles available on the market. With the 4th. axis feature, it can perform the machining operations on 3 surfaces of profiles.\r\nQuick tool changing is provided by the movable and in-line type magazine unite with 8 pcs of tool capacity. The tool magazine is mounted on the movable machining head in order to minimize the tool change time.\r\nThe machine provides a flexible processing opportunity especially in facade applications with its 180 mm diameter saw.\r\nThe machine has automatic clamp recognition and positioning feature.\r\nThe movable cabin of the machine is equipped with a door having a transparent polycarbonate window to facilitate the monitoring of the workpiece processing by the operator. Thus, the safe operation of the operator is ensured.",
+        "images": [
+          "/images/machines/aim-3410-aluminium-profile-machining-center-4.jpg",
+          "/images/machines/aim-3410-aluminium-profile-machining-center-5.jpg",
+          "/images/machines/aim-3410-aluminium-profile-machining-center-6.jpg",
+          "/images/machines/aim-3410-aluminium-profile-machining-center-7.jpg",
+          "/images/machines/aim-3410-aluminium-profile-machining-center-8.jpg",
+          "/images/machines/aim-3410-aluminium-profile-machining-center-9.jpg",
+          "/images/machines/aim-3410-aluminium-profile-machining-center-10.jpg"
+        ],
+        "specs": {
+          "STANDART AKSESUARLAR": [
+            "AIMCAM software program for CNC programming",
+            "Keyboard & mouse set for programming",
+            "Safety fence around the machine",
+            "4 x profile clamps",
+            "1 x pneumatic rest on the left side",
+            "Chip pan in the machine frame"
+          ],
+          "OPSIYONEL AKSESUARLAR": [
+            "Cutter tools, tool holders, collets and apparatus set 6 pc cutters (2 pc. Ø5, 1 pc. Ø6, 1 pc. Ø8, 1 pc. Ø10, 1 pc. Ø12) -8 pc. HSK F63 Tool holders -6 pc. collets (3 pc. Ø5-6, 1 pc, Ø7-8, 1 pc. Ø9-10, 1 pc. Ø11-12) -4 pc. mould height",
+            "Second reference profile rest on the right side of the machine",
+            "Automatic tool length measurement device",
+            "Special saw blade kit",
+            "Hand-held controller",
+            "AIM 3410 Additional Clamping unit",
+            "Barcode reader",
+            "Airconditioning system for electrical cabinet",
+            "Cabinetized machine with AIM 3410 CBN model"
+          ],
+          "GENEL OZELLIKLER": [
+            "Automation system providing CNC motion at 4-axis",
+            "Tool magazine unit with the capacity of 7 pcs. of cutter tools and 1 pc. saw blade with 180 mm diameter",
+            "Automatic clamp recognition and positioning feature",
+            "PLC controlled spray tool cooling unit",
+            "4 pcs. of automatic clamps to catch the workpieces firmly.",
+            "1 x pneumatic rest used for resetting the workpiece in X direction (second is optional)",
+            "Cartridge lubrication system for X, Y and Z axis",
+            "Special CAM program developed by Yilmaz engineering team",
+            "Operator safety barrier",
+            "15’’ colour touch screen",
+            "Program import via USB flash memory stick",
+            "Standard ISO ‘G’ code programming language",
+            "Technical support capability via remote connection by computer",
+            "Multi-language support",
+            "Special sound insulation cabinet around the machining center",
+            "Solid steel construction of the body and dynamic performance gantry",
+            "LED lighting in the cabinet",
+            "Hand held controller allows you to prove the job before running at speed (optional)"
+          ],
+          "TEKNIK_TABLO": {}
+        },
+        "technical_data": {
+          "Motor Power": "11,5 kW / 25A / 400V AC 3P+PE / 50/60 Hz.",
+          "Matkap Donus Hizi": "3.000 RPM",
+          "Blade Speed": "24.000 RPM",
+          "Blade Diameter": "D: Ø180 mmd: Ø30 mm",
+          "Air Consumption": "250 L/min.",
+          "Air Pressure": "6-8 bar",
+          "Dimensions": "241x516x285",
+          "Weight": "1.850 Kg / 1.430 Kg"
+        },
+        "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2022/12/23154213/AIM-3410.pdf"
+      }
+    }
+  },
+  {
+    "slug": "aim-4420",
+    "brand": "yilmaz",
+    "categories": [
+      "Aluminium"
+    ],
+    "subcategory": "Machining Centers",
+    "diller": {
+      "en": {
+        "name": "AIM 4420",
+        "description": "",
+        "images": [
+          "/images/machines/aim-4420-1.jpg",
+          "/images/machines/aim-4420-4.jpg"
+        ],
+        "specs": {
+          "STANDART AKSESUARLAR": [
+            "CAMPROX software program for CNC programming",
+            "Keyboard & mouse set for programming",
+            "Safety fence around the machine",
+            "4 x pneumatic profile clamps",
+            "2 x pneumatic rests",
+            "Chip pan in the machine frame"
+          ],
+          "OPSIYONEL AKSESUARLAR": [
+            "Cutter tools, tool holders and collets set",
+            "CAD-EXTRACT software program for working on IGES files",
+            "Automatic tool length measurement device",
+            "Chip removal conveyor belt",
+            "Special saw blade kit",
+            "Hand-held controller",
+            "2 x additional clamps",
+            "Barcode reader"
+          ],
+          "GENEL OZELLIKLER": [
+            "It is designed to make operations on three surfaces of the profiles such as hole, slot, corner relieve, saw cutting, tapping, flow drilling etc.",
+            "With its dual station operation feature, it can process two workpieces with one program without interruption. (AIM 7420 or AIM 7420T models)",
+            "Automation system providing CNC motion at 4-axis",
+            "11 set magazine unit including cutter sets and saw blade with 180 mm diameter",
+            "Flow drilling and rigid tapping feature from M4 to M10 with encoder spindle (AIM 4720T model)",
+            "Automatic clamp recognition and positioning fature is available",
+            "Special sound insulation cabinet around the machining unit",
+            "PLC controlled 2-output tool cooling unit",
+            "4 pc of automatic clamps for AIM 4420 and 8 pc. for AIM 7420 are used to catch the workpieces. (the number of clamps can be increased optionally)",
+            "2 x pneumatic rests used for resetting the workpiece in X direction",
+            "21’’ colour touch screen",
+            "Program import via USB flash memory stick",
+            "Technical support via remote connection capability (via computer)",
+            "Standard ISO ‘G’ code programming language",
+            "Optimum operational safety guaranteed by 3-zone field scanner system",
+            "Cartridge lubrication system for X, Y and Z axes",
+            "Multi-language support",
+            "LED lighting in the cabinet"
+          ],
+          "TEKNIK_TABLO": {}
+        },
+        "technical_data": {
+          "Motor Power": "18 kW / 400V AC 3P+PE / 50/60 Hz.",
+          "Matkap Donus Hizi": "3.000 RPM",
+          "Blade Speed": "20.000 RPM",
+          "Blade Diameter": "D: Ø180 mmd: Ø30-32 mm",
+          "Air Consumption": "250 L/min",
+          "Air Pressure": "6-8 bar",
+          "Dimensions": "180x590x275",
+          "Weight": "3.050 Kg / 2.850 Kg"
+        },
+        "catalog": null
+      }
+    }
+  },
+  {
+    "slug": "aim-7420",
+    "brand": "yilmaz",
+    "categories": [
+      "Aluminium"
+    ],
+    "subcategory": "Machining Centers",
+    "diller": {
+      "en": {
+        "name": "AIM 7420",
+        "description": "",
+        "images": [
+          "/images/machines/aim-7420-1.jpg",
+          "/images/machines/aim-7420-2.jpg",
+          "/images/machines/aim-7420-3.jpg",
+          "/images/machines/aim-7420-4.jpg",
+          "/images/machines/aim-7420-5.jpg",
+          "/images/machines/aim-7420-6.jpg",
+          "/images/machines/aim-7420-7.jpg",
+          "/images/machines/aim-7420-8.jpg",
+          "/images/machines/aim-7420-9.jpg",
+          "/images/machines/aim-7420-10.jpg",
+          "/images/machines/aim-7420-11.jpg"
+        ],
+        "specs": {
+          "STANDART AKSESUARLAR": [
+            "CAMPROX software program for CNC programming",
+            "Keyboard & mouse set for programming",
+            "Safety fence around the machine",
+            "8 x pneumatic profile clamps",
+            "2 x pneumatic rests",
+            "Chip pan in the machine frame"
+          ],
+          "OPSIYONEL AKSESUARLAR": [
+            "Cutter tools, tool holders and collets set",
+            "CAD-EXTRACT software program for working on IGES files",
+            "Automatic tool length measurement device",
+            "Chip removal conveyor belt",
+            "Oil mist blower",
+            "Special saw blade kit",
+            "Hand-held controller",
+            "Adjustable clamp pressure system",
+            "4 x additional clamps",
+            "Barcode reader"
+          ],
+          "GENEL OZELLIKLER": [
+            "It is designed to make operations on three surfaces of the profiles such as hole, slot, corner relieve, saw cutting, tapping, flow drilling etc.",
+            "With its dual station operation feature, it can process two workpieces with one program without interruption. (AIM 7420 or AIM 7420T models)",
+            "Automation system providing CNC motion at 4-axis",
+            "11 set magazine unit including cutter sets and saw blade with 180 mm diameter",
+            "Flow drilling and rigid tapping feature from M4 to M10 with encoder spindle (AIM 7420T model)",
+            "Automatic clamp recognition and positioning fature is available",
+            "Special sound insulation cabinet around the machining unit",
+            "PLC controlled 2-output tool cooling unit",
+            "4 pc of automatic clamps for AIM 4420 and 8 pc. for AIM 7420 are used to catch the workpieces. (the number of clamps can be increased optionally)",
+            "2 x pneumatic rests used for resetting the workpiece in X direction",
+            "21’’ colour touch screen",
+            "Program import via USB flash memory stick",
+            "Technical support via remote connection capability (via computer)",
+            "Standard ISO ‘G’ code programming language",
+            "Optimum operational safety guaranteed by 3-zone field scanner system",
+            "Cartridge lubrication system for X, Y and Z axes",
+            "Multi-language support",
+            "LED lighting in the cabinet"
+          ],
+          "TEKNIK_TABLO": {}
+        },
+        "technical_data": {
+          "Motor Power": "18 kW / 400V AC 3P+PE / 50/60 Hz.",
+          "Matkap Donus Hizi": "3.000 RPM",
+          "Blade Speed": "20.000 RPM",
+          "Blade Diameter": "D:Ø180 x d:Ø30 mm",
+          "Air Consumption": "250 L/min",
+          "Air Pressure": "6-8 bar",
+          "Dimensions": "180x885x275",
+          "Weight": "3810.0"
+        },
+        "catalog": null
+      }
+    }
+  }
+]
