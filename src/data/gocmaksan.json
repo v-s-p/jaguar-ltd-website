@@ -57,6 +57,13 @@
         "images": [
           "/images/gocmaksan/gms-ayarli-kosebentler-gocmaksan-1.webp"
         ]
+      },
+      "bg": {
+        "name": "Регулируема ъглова планка",
+        "description": "Индустриален компонент, предназначен за прецизно позициониране и фиксиране на детайли под различен ъгъл по време на механична обработка или монтаж, осигуряващ висока стабилност и гъвкавост при настройка на работните процеси.",
+        "images": [
+          "/images/gocmaksan/gms-ayarli-kosebentler-gocmaksan-1.webp"
+        ]
       }
     },
     "specs": {
@@ -327,6 +334,13 @@
         "images": [
           "/images/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "BS 36",
+        "description": "Произведени с половинвековен опит от GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Те добавят здравина към всеки проект чрез технология за прецизно огъване.",
+        "images": [
+          "/images/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -361,6 +375,13 @@
       "en": {
         "name": "BS 45",
         "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "images": [
+          "/images/gocmaksan/gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "BS 45",
+        "description": "Произведени с половинвековен опит от GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните площадки. Те придават здравина на всеки проект чрез технологията за прецизно огъване.",
         "images": [
           "/images/gocmaksan/gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu-1.webp"
         ]
@@ -401,6 +422,13 @@
         "images": [
           "/images/gocmaksan/gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "BS 50",
+        "description": "Произведени с половинвековен опит от GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Те придават здравина на всеки проект чрез технология за прецизно огъване.",
+        "images": [
+          "/images/gocmaksan/gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -438,6 +466,13 @@
         "images": [
           "/images/gocmaksan/gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "BS 60",
+        "description": "Произведени с половин век опит от GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните площадки. Те внасят здравина във всеки проект чрез технологията за прецизно огъване.",
+        "images": [
+          "/images/gocmaksan/gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -472,6 +507,13 @@
       "en": {
         "name": "BT 24x5",
         "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "BT 24x5",
+        "description": "Със своя лек и ергономичен дизайн, тя предлага максимална ефективност на строителните обекти.",
         "images": [
           "/images/gocmaksan/gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.webp"
         ]
@@ -519,6 +561,13 @@
         "images": [
           "/images/gocmaksan/gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "BT 26",
+        "description": "Със своя лек и ергономичен дизайн, тя осигурява максимална ефективност на строителните обекти.",
+        "images": [
+          "/images/gocmaksan/gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -559,6 +608,13 @@
         "images": [
           "/images/gocmaksan/gms-demirci-anahtarlari-gocmaksan-1.webp"
         ]
+      },
+      "bg": {
+        "name": "Шпонки от конструкционна стомана",
+        "description": "Високоякостни машинни компоненти, изработени от прецизно обработена конструкционна стомана, предназначени за осигуряване на надеждни съединения и предаване на въртящ момент в тежки индустриални системи.",
+        "images": [
+          "/images/gocmaksan/gms-demirci-anahtarlari-gocmaksan-1.webp"
+        ]
       }
     },
     "specs": {
@@ -581,6 +637,13 @@
       "en": {
         "name": "Hand Scissors",
         "description": "",
+        "images": [
+          "/images/gocmaksan/gms-el-makaslari-gocmaksan-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "Ръчна ножица",
+        "description": "Ръчен инструмент за прецизно рязане на ламарина и метални листове, проектиран за лесна употреба и висока ефективност при металообработващи процеси.",
         "images": [
           "/images/gocmaksan/gms-el-makaslari-gocmaksan-1.webp"
         ]
@@ -646,6 +709,13 @@
         "images": [
           "/images/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "H 26",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност при рязане чрез хидравлично предаване на мощност.",
+        "images": [
+          "/images/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -692,6 +762,13 @@
         "images": [
           "/images/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi-1.png"
         ]
+      },
+      "bg": {
+        "name": "H 36S",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност при рязане чрез хидравлично предаване на мощност.",
+        "images": [
+          "/images/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi-1.png"
+        ]
       }
     },
     "specs": {
@@ -735,6 +812,13 @@
       "en": {
         "name": "H 38S",
         "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "H 38S",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност при рязане посредством хидравлично предаване на мощност.",
         "images": [
           "/images/gocmaksan/gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
@@ -969,6 +1053,13 @@
         "images": [
           "/images/gocmaksan/gms-kompaktor-1.webp"
         ]
+      },
+      "bg": {
+        "name": "Компактор",
+        "description": "Високоефективна индустриална машина, проектирана за пресоване и уплътняване на метални стружки и производствени отпадъци под високо налягане, осигуряваща значително намаляване на обема и оптимизация на процесите по съхранение, транспортиране и рециклиране.",
+        "images": [
+          "/images/gocmaksan/gms-kompaktor-1.webp"
+        ]
       }
     },
     "specs": {
@@ -999,6 +1090,13 @@
       "en": {
         "name": "M 36",
         "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "M 36",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност при рязане чрез хидравлично предаване на мощност.",
         "images": [
           "/images/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
@@ -1046,6 +1144,13 @@
         "images": [
           "/images/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
+      },
+      "bg": {
+        "name": "M 45",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност при рязане чрез хидравлично предаване на мощност.",
+        "images": [
+          "/images/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1087,6 +1192,13 @@
       "en": {
         "name": "M 55",
         "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "M 55",
+        "description": "Осигурява мощна, стабилна и непрекъсната производителност при рязане чрез хидравлична трансмисия на мощност.",
         "images": [
           "/images/gocmaksan/gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
         ]
@@ -1133,6 +1245,13 @@
         "images": [
           "/images/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti-1.webp"
         ]
+      },
+      "bg": {
+        "name": "MATRIX 55",
+        "description": "Осигурява капацитет за спирално огъване до диаметър Ø50 mm при високоякостни стомани. Възможно е и огъване на шини (100x10, 80x20, 60x15).",
+        "images": [
+          "/images/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti-1.webp"
+        ]
       }
     },
     "specs": {
@@ -1164,6 +1283,13 @@
       "en": {
         "name": "MATIX 55S",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "images": [
+          "/images/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "MATIX 55S",
+        "description": "Предлага капацитет за спирално огъване до диаметър Ø50 mm при високоякостни стомани. Възможно е също огъване на плоска стомана (100x10, 80x20, 60x15).",
         "images": [
           "/images/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti-1.webp"
         ]
@@ -1200,6 +1326,13 @@
       "en": {
         "name": "MAX 40",
         "description": "Combining iron cutting and bending in one machine saves time and space on your construction site.",
+        "images": [
+          "https://cdn.prod.website-files.com/68778501607ca5288753b49e/689c46789a3eb9a943567121_max40_gms_kombine_demir_kesme_bukme_makinasi.webp"
+        ]
+      },
+      "bg": {
+        "name": "MAX 40",
+        "description": "Комбинирането на рязане и огъване на арматура в една машина спестява време и пространство на строителната площадка.",
         "images": [
           "https://cdn.prod.website-files.com/68778501607ca5288753b49e/689c46789a3eb9a943567121_max40_gms_kombine_demir_kesme_bukme_makinasi.webp"
         ]
@@ -1244,6 +1377,13 @@
       "en": {
         "name": "MG 20B",
         "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.png"
+        ]
+      },
+      "bg": {
+        "name": "MG 20B",
+        "description": "Благодарение на своя олекотен и ергономичен дизайн, тя осигурява максимална ефективност на строителните обекти.",
         "images": [
           "/images/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.png"
         ]
@@ -1362,6 +1502,13 @@
       "en": {
         "name": "Low Stool ScIssors",
         "description": "",
+        "images": [
+          "/images/gocmaksan/gms-oturak-makaslari-gocmaksan-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "Ножица за ниски столчета",
+        "description": "Високоефективна индустриална машина, проектирана за прецизно рязане и оформяне на метални компоненти за ниски столчета, гарантираща максимална точност и дълготрайност при интензивна експлоатация.",
         "images": [
           "/images/gocmaksan/gms-oturak-makaslari-gocmaksan-1.webp"
         ]
@@ -1585,6 +1732,13 @@
       "en": {
         "name": "SL 30",
         "description": "GMS stirrup bending machines, developed with advanced engineering, combine speed, precision, durability, and safety.",
+        "images": [
+          "/images/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi-1.webp"
+        ]
+      },
+      "bg": {
+        "name": "SL 30",
+        "description": "Машините за огъване на бигли GMS, проектирани с помощта на съвременни инженерни решения, съчетават в себе си скорост, прецизност, издръжливост и безопасност.",
         "images": [
           "/images/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi-1.webp"
         ]
