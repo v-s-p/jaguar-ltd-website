@@ -1,0 +1,56 @@
+name: Translate Bulgarian (Manual)
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: translate-bg
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    name: Run BG translation
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run translation script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/tercume_merkezi.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push translations
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git add src/data/machines.json src/data/gocmaksan.json
+          git commit -m "i18n(bg): translate batch $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Nothing to translate
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "All Bulgarian translations are already complete — nothing to commit."
