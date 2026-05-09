@@ -1,0 +1,35 @@
+---
+import { languages } from '../i18n/ui';
+import { getLangFromUrl, getRelativeLocaleUrl } from '../i18n/utils';
+
+const currentLang = getLangFromUrl(Astro.url);
+
+// Extract the path without the language prefix
+// Astro.url.pathname format: /en/about or /about
+let currentPath = Astro.url.pathname;
+const langsJoined = Object.keys(languages).join('|');
+const regex = new RegExp(`^\\/(${langsJoined})(\\/|$)`);
+currentPath = currentPath.replace(regex, '/');
+if (currentPath === '') currentPath = '/';
+---
+
+<div class="relative group inline-block z-50">
+  <button class="flex items-center gap-1 text-sm font-bold uppercase hover:text-brand-accent transition-colors">
+    <span>{currentLang}</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+  <div class="absolute right-0 mt-3 w-40 bg-white rounded-xl shadow-[0_10px_40px_rgb(0,0,0,0.1)] border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 overflow-hidden">
+    <div class="p-1">
+      {Object.entries(languages).map(([lang, label]) => (
+        <a 
+          href={getRelativeLocaleUrl(lang, currentPath)} 
+          class={`flex items-center px-4 py-2.5 text-sm rounded-lg transition-colors ${lang === currentLang ? 'font-bold text-brand-accent bg-blue-50' : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'}`}
+        >
+          {label}
+        </a>
+      ))}
+    </div>
+  </div>
+</div>

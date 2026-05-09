@@ -5,17 +5,15 @@ export const siteMetadata = {
   siteUrl: "https://www.jaguar-ltd.com",
   contact: {
     email: "jaguar@jaguar-ltd.com",
-    phone: "+359 (0) 887 973 739"
+    phone: "+359 (0) 887 973 739",
+    address: "гр. Шумен, България",
+    warehouse: "гр. Пловдив"
   },
-  // Dil versiyonları (ileride kullanılacak)
-  languages: ["bg", "tr", "en", "ru", "fr", "es", "pt", "sr", "it", "ar"],
+  languages: ["en", "tr", "ru", "es", "ro", "bg", "bcs"],
   branding: {
     company: "Jaguar LTD",
     partner: "YILMAZ Machine",
     since: 2002,
     country: "България",
-    logoSvgWhite: "/images/yilmaz-logo-white.svg",
-    logoSvgColor: "/images/yilmaz-logo-color.svg",
-    logoPng: "/images/yilmaz-logo.png",
   }
 };

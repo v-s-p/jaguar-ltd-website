@@ -1,0 +1,17 @@
+---
+import Component from "../../../components/pages/MachinePage.astro";
+import { getLanguagePaths } from "../../../i18n/utils";
+import { getStaticPaths as getComponentPaths } from "../../../components/pages/MachinePage.astro";
+
+export async function getStaticPaths() {
+  const componentPaths = await getComponentPaths();
+  const langs = getLanguagePaths();
+  return langs.flatMap(l => 
+    componentPaths.map(p => ({ 
+      params: { lang: l.params.lang, slug: p.params.slug }, 
+      props: p.props 
+    }))
+  );
+}
+---
+<Component {...Astro.props} />

@@ -1,30 +1,44 @@
 ---
-// Header.astro - Global Navigasyon ve Arama Çubuğu
+// Navbar.astro
 ---
-<header class="global-header">
-  <div class="nav-container">
-    <div class="logo">
-      <a href="/">
-        <img src="/images/logo.png" alt="Yılmaz Makine" onerror="this.src='https://via.placeholder.com/150x50?text=YILMAZ+LOGOTYPE'"/>
-      </a>
-    </div>
+<header class="bg-[#00A8B5] text-white sticky top-0 z-50 shadow-lg border-b-2 border-[#008c96]">
+  <div class="container mx-auto px-4 max-w-7xl">
+    <div class="flex justify-between items-center h-20">
+      
+      <div class="flex items-center gap-5">
+        <a href="/about" class="flex items-center group" title="За Нас (Jaguar LTD)">
+          <img src="/images/logo.png" alt="Jaguar Ltd Logo" class="h-10 md:h-12 w-auto transition-transform group-hover:scale-105"/>
+        </a>
+        <div class="hidden sm:flex items-center gap-5 border-l border-white/20 pl-5">
+          <a href="/kategori/pvc" class="flex items-center group" title="Yılmaz Machine">
+            <img src="/images/yilmaz_logo.svg" alt="Yılmaz Machine" class="h-5 md:h-6 w-auto brightness-0 invert opacity-80 transition-all group-hover:opacity-100 group-hover:scale-105"/>
+          </a>
+          <a href="/kategori/gocmaksan" class="flex items-center group" title="Göçmaksan">
+            <img src="/images/gocmaksan_logo.svg" alt="Göçmaksan" class="h-4 md:h-5 w-auto brightness-0 invert opacity-80 transition-all group-hover:opacity-100 group-hover:scale-105"/>
+          </a>
+        </div>
+      </div>
+      
+      <nav class="hidden md:flex space-x-8 items-center font-black text-sm tracking-widest uppercase">
+        <a href="/" class="hover:text-black transition-colors">Ana Sayfa</a>
+        <a href="/about" class="hover:text-black transition-colors">ЗА НАС</a>
+        
+        <div class="relative group py-6">
+          <button class="hover:text-black transition-colors flex items-center focus:outline-none font-black uppercase">
+            МАШИНИ
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
+          
+          <div class="absolute left-0 top-full bg-white text-[#00A8B5] w-64 shadow-2xl rounded-b-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-[#00A8B5] p-4">
+            <a href="/kategori/aluminyum" class="block py-2 font-bold hover:pl-2 transition-all border-b border-gray-100 uppercase">Алуминий</a>
+            <a href="/kategori/pvc" class="block py-2 font-bold hover:pl-2 transition-all border-b border-gray-100 uppercase">PVC</a>
+            <a href="/kategori/gocmaksan" class="block py-2 font-bold hover:pl-2 transition-all uppercase text-[#f59e0b]">Göçmaksan</a>
+          </div>
+        </div>
 
-    <div class="search-area">
-      <input 
-        type="text" 
-        id="globalSearch" 
-        placeholder="Makine modeli veya türü ara... (V8, Wire, Spring...)" 
-      />
-    </div>
+        <a href="/contact" class="hover:text-black transition-colors">КОНТАКТИ</a>
+      </nav>
 
-    <div class="nav-links">
-      <a href="/">Ana Sayfa</a>
-      <select id="langSwitcher">
-        <option value="tr">TR</option>
-        <option value="en">EN</option>
-        <option value="bg">BG</option>
-        <option value="ru">RU</option>
-      </select>
     </div>
   </div>
 </header>

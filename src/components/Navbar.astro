@@ -1,72 +1,125 @@
 ---
-import { siteMetadata } from '../data/siteMetadata';
----
+import LanguagePicker from './LanguagePicker.astro';
+import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../i18n/utils';
 
-<header class="bg-brand-dark text-white sticky top-0 z-50 shadow-md">
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const l = (path) => getRelativeLocaleUrl(lang, path);
+---
+<header class="bg-brand-accent text-white sticky top-0 z-50 shadow-lg border-b-4 border-brand-hover">
   <div class="container mx-auto px-4 max-w-7xl">
-    <div class="flex justify-between items-center h-20">
+    <div class="flex justify-between items-center h-24">
       
       <!-- Logo -->
-      <a href="/" class="text-2xl font-extrabold tracking-wider text-brand-accent flex items-center gap-2 transition-transform hover:scale-105">
-        <span class="bg-brand-accent text-brand-dark px-2 py-1 rounded text-xl">J</span>AGUAR LTD
-      </a>
+      <div class="flex items-center gap-6">
+        <a href={l("/about")} class="flex items-center group" title={t('nav.about')}>
+          <img src="/images/logo.png" alt="Jaguar Ltd Logo" class="h-10 md:h-12 w-auto transition-transform group-hover:scale-105"/>
+        </a>
+        <div class="hidden sm:flex items-center gap-5 border-l border-white/20 pl-5">
+          <a href={l("/kategori/pvc")} class="flex items-center group" title="Yılmaz Machine">
+            <img src="/images/yilmaz_logo.svg" alt="Yılmaz Machine" class="h-5 md:h-6 w-auto brightness-0 invert opacity-80 transition-all group-hover:opacity-100 group-hover:scale-105"/>
+          </a>
+          <a href={l("/kategori/gocmaksan")} class="flex items-center group" title="Göçmaksan">
+            <img src="/images/gocmaksan_logo.svg" alt="Göçmaksan" class="h-4 md:h-5 w-auto brightness-0 invert opacity-80 transition-all group-hover:opacity-100 group-hover:scale-105"/>
+          </a>
+        </div>
+      </div>
       
-      <!-- Menü -->
-      <nav class="hidden md:flex space-x-8 items-center font-bold text-sm tracking-wide">
-        <a href="/" class="hover:text-brand-accent transition-colors">ANA SAYFA</a>
+      <!-- Desktop Menü -->
+      <nav class="hidden lg:flex space-x-8 items-center font-black text-sm tracking-widest uppercase">
+        <a href={l("/")} class="hover:text-black transition-colors border-b-2 border-transparent hover:border-black pb-1">{t('nav.home')}</a>
+        <a href={l("/about")} class="hover:text-black transition-colors border-b-2 border-transparent hover:border-black pb-1">{t('nav.about')}</a>
         
-        <!-- Kategoriler Dropdown -->
+        <!-- Машини Dropdown -->
         <div class="relative group py-6">
-          <button class="hover:text-brand-accent transition-colors flex items-center focus:outline-none">
-            MAKİNELERİMİZ
+          <button class="hover:text-black transition-colors flex items-center focus:outline-none uppercase font-black">
+            {t('nav.machines')}
             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path></svg>
           </button>
-          <!-- Mega Menü İçeriği -->
-          <div class="absolute top-full left-1/2 -translate-x-1/2 w-[700px] bg-white text-gray-800 shadow-2xl rounded-b-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-brand-accent overflow-hidden transform origin-top group-hover:scale-y-100 scale-y-0 flex p-8 gap-12 cursor-default">
+          <div class="absolute left-1/2 -translate-x-1/2 top-full bg-white text-gray-800 w-[700px] shadow-2xl rounded-b-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border-t-4 border-brand-accent overflow-hidden p-6 flex gap-8">
             
-            <!-- Alüminyum Sütunu -->
+            <!-- Alüminyum -->
             <div class="flex-1">
-              <a href="/kategori/aluminyum" class="text-xl font-extrabold text-brand-dark mb-4 block border-b-2 border-gray-100 pb-2 hover:text-brand-accent transition-colors">ALÜMİNYUM</a>
-              <ul class="space-y-2.5">
-                <li><a href="/kategori/aluminyum?filter=İŞLEME MERKEZLERİ" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">İşleme Merkezleri</a></li>
-                <li><a href="/kategori/aluminyum?filter=KESİM" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Kesim</a></li>
-                <li><a href="/kategori/aluminyum?filter=FREZE" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Freze</a></li>
-                <li><a href="/kategori/aluminyum?filter=KÖŞE PRES" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Köşe Pres</a></li>
-                <li><a href="/kategori/aluminyum?filter=KERTME" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Kertme</a></li>
-                <li><a href="/kategori/aluminyum?filter=PRES" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Pres</a></li>
-                <li><a href="/kategori/aluminyum?filter=TAŞIMA" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Taşıma</a></li>
-                <li><a href="/kategori/aluminyum?filter=AKTARMA" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Aktarma</a></li>
-                <li><a href="/kategori/aluminyum?filter=TALAŞ TOPLAMA" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Talaş Toplama</a></li>
-                <li><a href="/kategori/aluminyum?filter=MONTAJ" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Montaj</a></li>
+              <a href={l("/kategori/aluminyum")} class="text-lg font-black text-brand-accent mb-3 block border-b border-gray-100 pb-2 hover:text-brand-hover transition-colors">{t('cat.al')}</a>
+              <ul class="space-y-2">
+                <li><a href={l("/kategori/aluminyum?filter=Machining%20Centers")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.centers')}</a></li>
+                <li><a href={l("/kategori/aluminyum?filter=Cutting")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.cutting')}</a></li>
+                <li><a href={l("/kategori/aluminyum?filter=Routing%20%26%20Milling")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.milling')}</a></li>
+                <li><a href={l("/kategori/aluminyum?filter=Corner%20Crimping")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.crimping')}</a></li>
+                <li><a href={l("/kategori/aluminyum?filter=End%20Milling")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.endmilling')}</a></li>
               </ul>
             </div>
 
-            <!-- PVC Sütunu -->
+            <!-- PVC -->
             <div class="flex-1">
-              <a href="/kategori/pvc" class="text-xl font-extrabold text-brand-dark mb-4 block border-b-2 border-gray-100 pb-2 hover:text-brand-accent transition-colors">PVC</a>
-              <ul class="space-y-2.5">
-                <li><a href="/kategori/pvc?filter=İŞLEME MERKEZİ" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">İşleme Merkezi</a></li>
-                <li><a href="/kategori/pvc?filter=ÇAPAK ALMA" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Çapak Alma</a></li>
-                <li><a href="/kategori/pvc?filter=KESİM" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Kesim</a></li>
-                <li><a href="/kategori/pvc?filter=FREZE" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Freze</a></li>
-                <li><a href="/kategori/pvc?filter=KERTME" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Kertme</a></li>
-                <li><a href="/kategori/pvc?filter=VİDALAMA" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Vidalama</a></li>
-                <li><a href="/kategori/pvc?filter=KAYNAK" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Kaynak</a></li>
-                <li><a href="/kategori/pvc?filter=TAŞIMA" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Taşıma</a></li>
-                <li><a href="/kategori/pvc?filter=TALAŞ TOPLAMA" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Talaş Toplama</a></li>
-                <li><a href="/kategori/pvc?filter=AKTARMA" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Aktarma</a></li>
-                <li><a href="/kategori/pvc?filter=MONTAJ" class="text-sm font-semibold text-gray-600 hover:text-brand-accent hover:pl-2 transition-all block">Montaj</a></li>
+              <a href={l("/kategori/pvc")} class="text-lg font-black text-brand-accent mb-3 block border-b border-gray-100 pb-2 hover:text-brand-hover transition-colors">{t('cat.pvc')}</a>
+              <ul class="space-y-2">
+                <li><a href={l("/kategori/pvc?filter=Machining%20Centers")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.centers')}</a></li>
+                <li><a href={l("/kategori/pvc?filter=Welding")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.welding')}</a></li>
+                <li><a href={l("/kategori/pvc?filter=Corner%20Cleaning")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.cleaning')}</a></li>
+                <li><a href={l("/kategori/pvc?filter=Cutting")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.cutting')}</a></li>
+                <li><a href={l("/kategori/pvc?filter=Screwdriving")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.screwdriving')}</a></li>
               </ul>
             </div>
-            
+
+            <!-- Göçmaksan -->
+            <div class="flex-1">
+              <a href={l("/kategori/gocmaksan")} class="text-lg font-black text-brand-accent mb-3 block border-b border-gray-100 pb-2 hover:text-brand-hover transition-colors">{t('cat.rebar')}</a>
+              <ul class="space-y-2">
+                <li><a href={l("/kategori/gocmaksan?filter=Bending%20Machines")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.bending')}</a></li>
+                <li><a href={l("/kategori/gocmaksan?filter=Cutting%20Machines")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.cutting')}</a></li>
+                <li><a href={l("/kategori/gocmaksan?filter=Combined%20Machines")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.combined')}</a></li>
+                <li><a href={l("/kategori/gocmaksan?filter=Steel%20Factory%20Solutions")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.factory')}</a></li>
+                <li><a href={l("/kategori/gocmaksan?filter=Light%20Construction")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.light')}</a></li>
+                <li><a href={l("/kategori/gocmaksan?filter=Hand%20Tools")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.handtools')}</a></li>
+              </ul>
+            </div>
           </div>
         </div>
+
+        <a href={l("/gdpr")} class="hover:text-black transition-colors border-b-2 border-transparent hover:border-black pb-1">{t('nav.cookie')}</a>
+        <a href={l("/contact")} class="hover:text-black transition-colors border-b-2 border-transparent hover:border-black pb-1">{t('nav.contact')}</a>
+        
+        <LanguagePicker />
       </nav>
 
-      <!-- İletişim Butonu -->
-      <div class="hidden md:block">
-        <a href="mailto:info@jaguar-ltd.com" class="bg-brand-accent text-brand-dark px-6 py-2.5 rounded-full font-extrabold hover:bg-white transition-colors shadow-sm">Bize Ulaşın</a>
+      <!-- Hamburger (Mobil) -->
+      <button id="mobile-toggle" class="lg:hidden p-2 rounded-lg hover:bg-brand-hover transition-colors" aria-label="Меню">
+        <svg id="hamburger-icon" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        <svg id="close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobil Menü -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-brand-hover border-t border-white/20">
+    <div class="container mx-auto px-4 py-6 space-y-4">
+      <div class="pb-4 border-b border-white/10 flex justify-between items-center">
+        <span class="font-bold text-white/50 text-xs">MENU</span>
+        <LanguagePicker />
       </div>
+      <a href={l("/")} class="block font-black text-sm uppercase tracking-widest py-2 border-b border-white/10 hover:text-black transition-colors">{t('nav.home')}</a>
+      <a href={l("/about")} class="block font-black text-sm uppercase tracking-widest py-2 border-b border-white/10 hover:text-black transition-colors">{t('nav.about')}</a>
+      <div class="py-2 border-b border-white/10">
+        <span class="block font-black text-sm uppercase tracking-widest text-white/60 mb-2">{t('nav.machines')}</span>
+        <a href={l("/kategori/aluminyum")} class="block pl-4 py-1.5 font-bold text-sm hover:text-black transition-colors">› {t('cat.al')}</a>
+        <a href={l("/kategori/pvc")} class="block pl-4 py-1.5 font-bold text-sm hover:text-black transition-colors">› {t('cat.pvc')}</a>
+        <a href={l("/kategori/gocmaksan")} class="block pl-4 py-1.5 font-bold text-sm hover:text-black transition-colors">› {t('cat.rebar')}</a>
+      </div>
+      <a href={l("/contact")} class="block font-black text-sm uppercase tracking-widest py-2 hover:text-black transition-colors">{t('nav.contact')}</a>
     </div>
   </div>
 </header>
+
+<script>
+  const toggle = document.getElementById('mobile-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const hamburger = document.getElementById('hamburger-icon');
+  const closeIcon = document.getElementById('close-icon');
+
+  toggle?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+    hamburger?.classList.toggle('hidden');
+    closeIcon?.classList.toggle('hidden');
+  });
+</script>

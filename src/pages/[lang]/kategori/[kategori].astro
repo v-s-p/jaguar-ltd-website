@@ -1,0 +1,17 @@
+---
+import Component from "../../../components/pages/KategoriPage.astro";
+import { getLanguagePaths } from "../../../i18n/utils";
+import { getStaticPaths as getComponentPaths } from "../../../components/pages/KategoriPage.astro";
+
+export async function getStaticPaths() {
+  const componentPaths = await getComponentPaths();
+  const langs = getLanguagePaths();
+  return langs.flatMap(l => 
+    componentPaths.map(p => ({ 
+      params: { lang: l.params.lang, kategori: p.params.kategori }, 
+      props: p.props 
+    }))
+  );
+}
+---
+<Component {...Astro.props} />

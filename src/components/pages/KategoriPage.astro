@@ -1,0 +1,213 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
+
+export async function getStaticPaths() {
+  const yilmaz = (await import('../../data/machines.json')).default;
+  const gocmaksan = (await import('../../data/gocmaksan.json')).default;
+  const allMachines = [...yilmaz, ...gocmaksan];
+  return [
+    { params: { kategori: 'aluminyum' }, props: { catName: 'Aluminium', brand: 'yilmaz',    allMachines } },
+    { params: { kategori: 'pvc' },       props: { catName: 'PVC',        brand: 'yilmaz',    allMachines } },
+    { params: { kategori: 'gocmaksan' }, props: { catName: 'Gocmaksan',  brand: 'gocmaksan', allMachines } },
+  ];
+}
+
+const { catName, brand, allMachines } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const l = (path: string) => getRelativeLocaleUrl(lang, path);
+
+const accentColor = brand === 'gocmaksan' ? '#f59e0b' : '#00A8B5';
+
+const catKeyMap: Record<string, string> = {
+  "Aluminium": "cat.al",
+  "PVC": "cat.pvc",
+  "Gocmaksan": "cat.rebar"
+};
+const displayCatName = t(catKeyMap[catName] as any) || catName;
+
+// Alt kategori çeviri anahtarları (JSON'daki İngilizce ID'leri i18n anahtarlarına eşler)
+const subTranslationKeys: Record<string, string> = {
+  // Yılmaz (JSON'daki değerler)
+  "Machining Centers": "cat.sub.centers",
+  "Cutting": "cat.sub.cutting",
+  "Routing & Milling": "cat.sub.milling",
+  "Corner Crimping": "cat.sub.crimping",
+  "End Milling": "cat.sub.endmilling",
+  "Welding": "cat.sub.welding",
+  "Corner Cleaning": "cat.sub.cleaning",
+  "Screwdriving": "cat.sub.screwdriving",
+  "Press": "cat.sub.press",
+  "Handling": "cat.sub.handling",
+  "Conveyor": "cat.sub.conveyor",
+  "Vacuum": "cat.sub.vacuum",
+  "Assembly": "cat.sub.assembly",
+  // Göçmaksan (JSON'daki değerler)
+  "Bending Machines": "cat.sub.bending",
+  "Cutting Machines": "cat.sub.cutting",
+  "Combined Machines": "cat.sub.combined",
+  "Steel Factory Solutions": "cat.sub.factory",
+  "Light Construction": "cat.sub.light",
+  "Hand Tools": "cat.sub.handtools"
+};
+
+const subcategoryMap: Record<string, string[]> = {
+  "Aluminium": [
+    "Machining Centers", "Cutting", "Routing & Milling", "Corner Crimping", "End Milling"
+  ],
+  "PVC": [
+    "Machining Centers", "Welding", "Corner Cleaning", "Cutting", "Screwdriving"
+  ],
+  "Gocmaksan": [
+    "Bending Machines", "Cutting Machines", "Combined Machines",
+    "Steel Factory Solutions", "Light Construction", "Hand Tools"
+  ]
+};
+const allowedSubcats = subcategoryMap[catName] || [];
+
+const filteredMachines = allMachines.filter((m: any) => {
+  if (brand === 'gocmaksan') return m.brand === 'gocmaksan';
+  const cats: string[] = m.categories || [];
+  return cats.some((c: string) => c.toLowerCase() === catName.toLowerCase());
+}).map((m: any) => {
+  const subcat = m.brand === 'gocmaksan'
+    ? (m.category || '')
+    : (m.subcategory || '');
+  return { ...m, finalSubcats: subcat };
+});
+---
+
+<BaseLayout title={`${displayCatName} | Jaguar LTD`}>
+  <section class="container mx-auto px-4 py-12 max-w-7xl">
+    
+    <div class="mb-12 border-b-4 inline-block pb-2" style={`border-color: ${accentColor}`}>
+      <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">{displayCatName} {t('nav.machines')}</h1>
+    </div>
+
+    <!-- Filtreleme Butonları -->
+    <div class="flex flex-wrap gap-3 mb-10" id="filter-container">
+      <button 
+        class="filter-btn font-bold px-4 py-2 rounded-full text-sm border transition-all duration-200"
+        style={`background: ${accentColor}; color: ${accentColor === '#f59e0b' ? '#1a1a1a' : 'white'}; border-color: ${accentColor};`}
+        data-filter="all">
+        {t('btn.viewall')}
+      </button>
+      {allowedSubcats.map((sub: string) => (
+        <button 
+          class="filter-btn bg-white text-gray-500 border border-gray-200 font-semibold px-4 py-2 rounded-full text-sm hover:border-brand-accent hover:text-brand-accent transition-all duration-200"
+          data-filter={sub}>
+          {t(subTranslationKeys[sub] as any) || sub}
+        </button>
+      ))}
+    </div>
+    
+    {filteredMachines.length > 0 ? (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-16" id="machines-grid">
+        {filteredMachines.map((m: any) => {
+          const en = m.diller?.en || {};
+          const makineIsmi = en.name || en.isim || m.slug;
+          const resimYolu = en.images?.[0] || en.resimler?.[0] || '/placeholder.png';
+          const aciklama = en.description || en.aciklama || '';
+
+          return (
+            <a href={l(`/machines/${m.slug}`)} class="machine-card block group h-full cursor-pointer" data-subcategories={m.finalSubcats}>
+              <div class="bg-brand-gray border border-gray-200 rounded-xl shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col h-full overflow-hidden transform group-hover:-translate-y-2">
+                <div class="h-64 p-10 flex items-center justify-center bg-white relative">
+                  <img src={resimYolu} alt={makineIsmi} class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" onerror="this.onerror=null; this.src='/placeholder.png';" />
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                  <h3 class="text-xl text-brand-light font-extrabold mb-3 leading-snug">{makineIsmi}</h3>
+                  {m.subcategory && (
+                    <div class="text-[10px] font-bold text-brand-accent mb-2 uppercase tracking-widest opacity-80">
+                      {Array.isArray(m.subcategory) ? m.subcategory.join(' • ') : m.subcategory}
+                    </div>
+                  )}
+                  <p class="text-sm text-gray-600 line-clamp-3 mb-6 leading-relaxed">{aciklama}</p>
+                  <div class="mt-auto flex justify-end items-center text-sm font-extrabold text-brand-light tracking-wide">
+                    {t('btn.viewall')} <span class="ml-2 text-xl font-normal transition-transform duration-200 group-hover:translate-x-1 group-hover:text-brand-accent">〉</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    ) : (
+      <div class="py-20 text-center text-xl font-semibold text-gray-500">Bu kategoriye ait makine bulunamadı.</div>
+    )}
+    
+    <!-- Boş Durum (Filtre sonucu makine kalmazsa) -->
+    <div id="empty-state" class="hidden py-20 text-center text-xl font-semibold text-gray-500">Bu alt kategoriye ait makine bulunmamaktadır.</div>
+  </section>
+
+  <style define:vars={{ accentColor }}>
+    .filter-btn:hover {
+      border-color: var(--accentColor) !important;
+      color: var(--accentColor) !important;
+    }
+  </style>
+
+  <!-- Dinamik Filtreleme Scripti -->
+  <script define:vars={{ accentColor }}>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.machine-card');
+      const emptyState = document.getElementById('empty-state');
+
+      const applyFilter = (filterValue) => {
+        buttons.forEach(b => {
+          const isActive = b.getAttribute('data-filter') === filterValue;
+          if (isActive) {
+            b.style.background = accentColor;
+            b.style.color = (accentColor === '#f59e0b') ? '#1a1a1a' : 'white';
+            b.style.borderColor = accentColor;
+            b.classList.add('font-bold');
+            b.classList.remove('font-semibold', 'bg-white', 'text-gray-500', 'border-gray-200');
+          } else {
+            b.style.background = 'white';
+            b.style.color = '#6b7280';
+            b.style.borderColor = '#e5e7eb';
+            b.classList.remove('font-bold');
+            b.classList.add('font-semibold');
+          }
+        });
+
+        let visibleCount = 0;
+        cards.forEach(card => {
+          const subcats = card.getAttribute('data-subcategories') || "";
+          if (filterValue === 'all' || subcats.includes(filterValue)) {
+            card.style.display = 'block';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        if(emptyState) emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+      };
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialFilter = urlParams.get('filter');
+      
+      let validFilter = 'all';
+      if (initialFilter) {
+        buttons.forEach(b => { if (b.getAttribute('data-filter') === initialFilter) validFilter = initialFilter; });
+      }
+      applyFilter(validFilter);
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const filter = e.currentTarget.getAttribute('data-filter');
+          const url = new URL(window.location.href);
+          if(filter === 'all') url.searchParams.delete('filter');
+          else url.searchParams.set('filter', filter);
+          window.history.pushState({}, '', url);
+          
+          applyFilter(filter);
+        });
+      });
+    });
+  </script>
+</BaseLayout>

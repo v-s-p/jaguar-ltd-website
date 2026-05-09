@@ -1,0 +1,181 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import yilmazMachines from '../../data/machines.json';
+import gocmaksanMachines from '../../data/gocmaksan.json';
+import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
+
+const allMachines = [...yilmazMachines, ...gocmaksanMachines];
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const l = (path) => getRelativeLocaleUrl(lang, path);
+
+// Hero: model kodu ile ara (slug degisse de bulur)
+const heroModeller = ["aim-7420", "ccl-1661", "cdc-600", "dk-540", "gms-sls-12"];
+const heroMakineler = heroModeller
+  .map(kod => allMachines.find((m: any) => m.slug.startsWith(kod)))
+  .filter(Boolean);
+---
+
+<BaseLayout title={`Jaguar LTD | YILMAZ ${t('nav.title.home')}`}>
+  
+  <!-- Hero Slider -->
+  <section class="relative h-[300px] md:h-[450px] overflow-hidden bg-gray-50 border-b border-gray-200">
+    {heroMakineler.length > 0 ? (
+      <>
+        <div id="hero-slider" class="h-full flex transition-transform duration-1000 ease-in-out">
+          {heroMakineler.map((m: any) => {
+            const defaultLocale = m.diller?.bg || {};
+            const activeLang = m.diller?.[lang] || m.diller?.en || defaultLocale;
+            
+            const isim = activeLang.name || activeLang.isim || m.slug;
+            let resimYolu = '/placeholder.png';
+            if (activeLang.images && activeLang.images.length > 0) resimYolu = activeLang.images[0];
+            else if (activeLang.resimler && activeLang.resimler.length > 0) resimYolu = activeLang.resimler[0];
+
+            return (
+            <a href={l(`/machines/${m.slug}`)} class="min-w-full h-full relative flex items-center justify-center p-8 md:p-16 group cursor-pointer">
+              <img
+                src={resimYolu}
+                class="max-h-full max-w-full object-contain drop-shadow-2xl transition-transform duration-500 group-hover:scale-105"
+                alt={isim}
+                onerror="this.onerror=null; this.src='/placeholder.png';"
+              />
+              <div class="absolute bottom-6 left-8 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-xl shadow-sm">
+                <p class="text-xs font-black text-gray-900 uppercase">{isim}</p>
+              </div>
+            </a>
+            );
+          })}
+        </div>
+        <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-3 z-20">
+          {heroMakineler.map((_: any, i: number) => (
+            <button class="slider-dot w-3 h-3 rounded-full bg-gray-300 border border-gray-400 transition-all cursor-pointer" data-index={i}></button>
+          ))}
+        </div>
+      </>
+    ) : (
+      <!-- Hero makineler yuklenirken placeholder -->
+      <div class="h-full flex items-center justify-center">
+        <p class="text-gray-400 font-bold uppercase tracking-widest text-sm">YILMAZ Machine</p>
+      </div>
+    )}
+  </section>
+
+  <!-- Marka Vitrini -->
+  <section class="bg-white py-10 border-b border-gray-100">
+    <div class="container mx-auto px-4 max-w-7xl">
+      <div class="flex flex-col md:flex-row justify-center items-center gap-12 lg:gap-24">
+        
+        <a href={l("/kategori/aluminyum")} class="text-center group cursor-pointer block">
+          <div class="h-16 flex items-center justify-center mb-2">
+            <img src="/images/yilmaz_logo.svg" class="h-10 w-auto grayscale group-hover:grayscale-0 transition-all duration-500" alt="Yilmaz Machine" onerror="this.style.display='none'" />
+          </div>
+          <h4 class="font-black text-xs uppercase tracking-widest" style="color:#00A8B5">{t('hero.partner')}</h4>
+          <p class="text-[9px] text-gray-400 font-bold uppercase tracking-widest">{t('hero.partner.since')}</p>
+        </a>
+
+        <div class="h-12 w-px bg-gray-200 hidden md:block"></div>
+
+        <a href={l("/kategori/gocmaksan")} class="text-center group cursor-pointer block">
+          <div class="h-16 flex items-center justify-center mb-2">
+            <img src="/images/gocmaksan_logo.svg" class="h-10 w-auto grayscale group-hover:grayscale-0 transition-all duration-500" alt="Gocmaksan" onerror="this.style.display='none'" />
+          </div>
+          <h4 class="font-black text-xs uppercase tracking-widest" style="color:#00A8B5">{t('hero.distributor')}</h4>
+          <p class="text-[9px] text-gray-400 font-bold uppercase tracking-widest">{t('hero.distributor.since')}</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kategori Kartlari -->
+  <section class="container mx-auto px-4 py-16 max-w-7xl">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Aluminum -->
+      <a href={l("/kategori/aluminyum")} class="group bg-white rounded-3xl h-72 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 flex flex-col justify-between p-8 transition-all hover:-translate-y-2 hover:shadow-2xl">
+        <div>
+          <h3 class="text-gray-900 text-3xl font-black leading-tight uppercase relative inline-block">
+            {t('cat.al')}
+            <div class="absolute -bottom-2 left-0 w-12 h-1 bg-[#00A8B5] transition-all group-hover:w-full"></div>
+          </h3>
+          <p class="text-gray-500 text-sm font-bold mt-4 uppercase tracking-wider">{t('cat.al.desc')}</p>
+        </div>
+        <div class="flex justify-between items-end">
+          <span class="inline-block text-[10px] font-black text-white px-5 py-2.5 rounded-full uppercase tracking-wider shadow-md transition-all group-hover:scale-105" style="background:#00A8B5">{t('btn.viewall')} &#8594;</span>
+          <img src="/images/yilmaz_logo.svg" class="h-8 w-auto opacity-20 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300" alt="Yılmaz" onerror="this.style.display='none'"/>
+        </div>
+      </a>
+
+      <!-- PVC -->
+      <a href={l("/kategori/pvc")} class="group bg-white rounded-3xl h-72 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 flex flex-col justify-between p-8 transition-all hover:-translate-y-2 hover:shadow-2xl">
+        <div>
+          <h3 class="text-gray-900 text-3xl font-black leading-tight uppercase relative inline-block">
+            {t('cat.pvc')}
+            <div class="absolute -bottom-2 left-0 w-12 h-1 bg-[#00A8B5] transition-all group-hover:w-full"></div>
+          </h3>
+          <p class="text-gray-500 text-sm font-bold mt-4 uppercase tracking-wider">{t('cat.pvc.desc')}</p>
+        </div>
+        <div class="flex justify-between items-end">
+          <span class="inline-block text-[10px] font-black text-white px-5 py-2.5 rounded-full uppercase tracking-wider shadow-md transition-all group-hover:scale-105" style="background:#00A8B5">{t('btn.viewall')} &#8594;</span>
+          <img src="/images/yilmaz_logo.svg" class="h-8 w-auto opacity-20 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300" alt="Yılmaz" onerror="this.style.display='none'"/>
+        </div>
+      </a>
+
+      <!-- Rebar / Gocmaksan -->
+      <a href={l("/kategori/gocmaksan")} class="group bg-white rounded-3xl h-72 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 flex flex-col justify-between p-8 transition-all hover:-translate-y-2 hover:shadow-2xl">
+        <div>
+          <h3 class="text-gray-900 text-3xl font-black leading-tight uppercase relative inline-block">
+            {t('cat.rebar')}
+            <div class="absolute -bottom-2 left-0 w-12 h-1 bg-[#00A8B5] transition-all group-hover:w-full"></div>
+          </h3>
+          <p class="text-gray-500 text-sm font-bold mt-4 uppercase tracking-wider">{t('cat.rebar.desc')}</p>
+        </div>
+        <div class="flex justify-between items-end">
+          <span class="inline-block text-[10px] font-black text-white px-5 py-2.5 rounded-full uppercase tracking-wider shadow-md transition-all group-hover:scale-105" style="background:#00A8B5">{t('btn.viewall')} &#8594;</span>
+          <img src="/images/gocmaksan_logo.svg" class="h-6 w-auto opacity-20 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-300" alt="Göçmaksan" onerror="this.style.display='none'"/>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="mt-12 text-center">
+      <p class="text-gray-400 text-xs font-bold uppercase tracking-widest">{allMachines.length} {t('nav.machines')}</p>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<script>
+  const slider = document.querySelector('#hero-slider') as HTMLElement | null;
+  const dots   = document.querySelectorAll('.slider-dot');
+  let current  = 0;
+  const total  = dots.length;
+
+  if (slider && total > 0) {
+    function updateSlider() {
+      slider!.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((dot, i) => {
+        (dot as HTMLElement).style.background = i === current ? '#00A8B5' : '';
+        dot.classList.toggle('scale-125', i === current);
+        dot.classList.toggle('bg-gray-300', i !== current);
+      });
+    }
+
+    function nextSlide() {
+      current = (current + 1) % total;
+      updateSlider();
+    }
+
+    updateSlider();
+    let timer = setInterval(nextSlide, 5000);
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', (e) => {
+        clearInterval(timer);
+        current = parseInt((e.target as HTMLElement).getAttribute('data-index') || '0');
+        updateSlider();
+        timer = setInterval(nextSlide, 5000);
+      });
+    });
+  }
+</script>
