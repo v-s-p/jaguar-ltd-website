@@ -35,7 +35,7 @@ MAKINE: {makine_adi}
 ACIKLAMA: {aciklama}
 """
     try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={API_KEY}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
         payload = {
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.1}
@@ -65,6 +65,8 @@ def dosya_isl_yap(json_adi):
         makineler = json.load(f)
 
     degisiklik = False
+    neksik = 0
+    basarili = 0
     hedef_diller = ["bg"] # Şimdilik sadece Bulgarca eksikleri tamamlıyoruz
 
     for m in makineler:
@@ -85,30 +87,36 @@ def dosya_isl_yap(json_adi):
             
             # Açıklaması veya ismi hiç yoksa çevir
             if not isim_var_mi or (not d_obj.get("description") and not d_obj.get("aciklama") and ref["aciklama"]):
+                neksik += 1
                 print(f"   🔄 Bulgarca çeviriye gönderildi: {ref['isim']} (Gemini düşünürken lütfen bekleyin...)")
                 y_isim, y_aciklama = cevir(ref["isim"], ref["aciklama"], d)
-                
+                time.sleep(5.0)  # always sleep after API call regardless of success/fail
+
                 if y_isim:
+                    basarili += 1
                     # Tüm şemayı uluslararası formata (name/description) uygun tut
                     m["diller"][d] = {
                         "name": y_isim,
                         "description": y_aciklama,
                         "images": ref.get("images", [])
                     }
-                    
+
                     # Eğer spesifikasyonlar (specs) varsa onları da taşı
                     if "en" in m["diller"] and "specs" in m["diller"]["en"]:
                         m["diller"][d]["specs"] = m["diller"]["en"]["specs"]
-                        
+
                     degisiklik = True
-                    time.sleep(4.5)
+                else:
+                    print(f"   ⚠️  API hatası — {ref['isim']} atlandı")
 
     if degisiklik:
         with open(yol, 'w', encoding='utf-8') as f:
             json.dump(makineler, f, ensure_ascii=False, indent=2)
-        print(f"✅ {json_adi} başarıyla güncellendi! Çeviriler eklendi.")
+        print(f"✅ {json_adi} güncellendi: {basarili}/{neksik} yeni BG çevirisi eklendi.")
+    elif neksik == 0:
+        print(f"🟢 {json_adi}: tüm makinelerin Bulgarcaları zaten mevcut.")
     else:
-        print(f"🟢 {json_adi} dosyasındaki tüm makinelerin Bulgarcaları mevcut.")
+        print(f"⚠️  {json_adi}: {neksik} eksik BG vardı, {basarili} çevrildi, {neksik - basarili} BASARISIZ — API hatasi kontrol edilmeli.")
 
 if __name__ == "__main__":
     if not API_KEY or API_KEY == "BURAYA_GEMINI_API_KEY_GELECEK":
