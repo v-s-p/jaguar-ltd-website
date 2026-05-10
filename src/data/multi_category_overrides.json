@@ -1,1 +1,6 @@
-{}
+{
+  "_comment": "Manuel domain bilgisi override'ı. Site listing'inde tek kategoride görünen ama gerçekte multi olan makineler. site_taxonomy_sync.py bu dosyayı okur, scrape sonucunu burada belirtilen ile EZER.",
+  "aim-7420": ["Aluminium", "PVC"],
+  "aim-4420": ["Aluminium", "PVC"],
+  "aim-3410-aluminium-profile-machining-center": ["Aluminium", "PVC"]
+}

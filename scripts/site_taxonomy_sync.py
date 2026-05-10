@@ -444,6 +444,16 @@ def merge_yilmaz(machines: list, site_tax: dict, overrides: dict) -> dict:
         slug = m["slug"]
 
         if slug in overrides:
+            # Apply domain-knowledge categories (overrides scrape result)
+            old_cats = set(m.get("categories") or [])
+            override_cats = sorted(overrides[slug])
+            if set(override_cats) != old_cats:
+                changes["added_multi_cat"].append({
+                    "slug": slug,
+                    "old": sorted(old_cats),
+                    "new": override_cats,
+                })
+                m["categories"] = override_cats
             changes["overridden"].append(slug)
             continue
 
