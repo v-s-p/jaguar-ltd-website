@@ -566,7 +566,8 @@
           "urun_agirligi": "250 Kg / 205 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Single Head Cutting"
   },
   {
     "slug": "ack-700-up-cutting-saw-machine",
@@ -631,7 +632,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23153958/ACK-700-1.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Single Head Cutting"
   },
   {
     "slug": "aim-3410-aluminium-profile-machining-center",
@@ -707,7 +709,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2022/12/23154213/AIM-3410.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Profile Machining And Cutting Center"
   },
   {
     "slug": "aim-4420",
@@ -1282,7 +1285,8 @@
           "urun_agirligi": "3.050 Kg / 2.850 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Profile Machining And Cutting Center"
   },
   {
     "slug": "aim-7420",
@@ -1931,7 +1935,8 @@
           "urun_agirligi": "3810.0"
         }
       }
-    }
+    },
+    "sub_subcategory": "Profile Machining And Cutting Center"
   },
   {
     "slug": "alm-6510-aluminyum-profil-isleme-ve-kesme-merkezi",
@@ -2560,7 +2565,8 @@
           "urun_agirligi": "4.106 Kg / 3.650 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Profile Machining And Cutting Center"
   },
   {
     "slug": "ca-601-semi-automatic-pvc-single-corner-cleaning-machine",
@@ -2615,7 +2621,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/23155219/CA-601.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Manual Corner Cleaning Machine"
   },
   {
     "slug": "ca-603-pvc-corner-cleaning-machine-4-6-cutters",
@@ -3049,7 +3056,8 @@
           "urun_agirligi": "273 Kg / 237 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Manual Corner Cleaning Machine"
   },
   {
     "slug": "ccl-1661-pvc-corner-cleaning-machine",
@@ -3694,7 +3702,8 @@
           "urun_agirligi": "3931 / 3776 kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Four Head Corner Welding Cleaning Line"
   },
   {
     "slug": "cdc-600-compound-angle-double-head-saw-cutting-machine",
@@ -3767,7 +3776,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2022/12/23155726/CDC-600-1.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Double Head Cutting"
   },
   {
     "slug": "cnc-609",
@@ -4303,7 +4313,8 @@
           "urun_agirligi": "790.0"
         }
       }
-    }
+    },
+    "sub_subcategory": "CNC Corner Cleaning Machine"
   },
   {
     "slug": "cnc-611",
@@ -4829,7 +4840,8 @@
           "urun_agirligi": "700.0"
         }
       }
-    }
+    },
+    "sub_subcategory": "CNC Corner Cleaning Machine"
   },
   {
     "slug": "crm-201-s-template-copy-router-machine-with-triple-hole-water-slot-drilling",
@@ -5343,7 +5355,8 @@
           "urun_agirligi": "170 Kg / 130 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Template Copy Router Machine"
   },
   {
     "slug": "crm-250-s-template-copy-router-machine",
@@ -5808,7 +5821,8 @@
           "urun_agirligi": "373 Kg / 328 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Template Copy Router"
   },
   {
     "slug": "dc-421-psd-double-head-mitre-saw-machine-full-automatic",
@@ -6297,7 +6311,8 @@
           "urun_agirligi": "949 Kg / 830 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Double Head Cutting"
   },
   {
     "slug": "dc-550-pb-double-head-mitre-saw-machines",
@@ -6908,7 +6923,8 @@
           "urun_agirligi": "1.444 Kg / 1.280 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Double Head Cutting"
   },
   {
     "slug": "dc-550-skh-double-head-mitre-saw-machine-full-automatic",
@@ -7347,7 +7363,8 @@
           "urun_agirligi": "1.420 Kg / 1.202 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Double Head Cutting"
   },
   {
     "slug": "dk-502-double-corner-pvc-welding-machine",
@@ -7405,7 +7422,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24101509/DK-502.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Double Corner Welding"
   },
   {
     "slug": "dk-540-four-corner-pvc-welding-machine",
@@ -7460,7 +7478,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24101633/DK-540.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Four Corner Welding"
   },
   {
     "slug": "dkn-300-450-600-302-452-602-roller-conveyor-with-manual-stop-display-unit",
@@ -7765,7 +7784,8 @@
           "urun_agirligi": "124 Kg / 81 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Conveyors"
   },
   {
     "slug": "fr-222-portable-template-copy-router",
@@ -7811,7 +7831,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/21173757/FR-222-1.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Portable Copy Router"
   },
   {
     "slug": "fr-223-fr-223s-portable-template-copy-router",
@@ -8225,7 +8246,8 @@
           "urun_agirligi": "48 Kg / 46 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Portable Copy Router"
   },
   {
     "slug": "fr-226-s-automatic-copy-router-machine",
@@ -8660,12 +8682,14 @@
           "urun_agirligi": "107.0"
         }
       }
-    }
+    },
+    "sub_subcategory": "Template Copy Router Machine"
   },
   {
     "slug": "gas-301",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
     "subcategory": "Swarf Extraction",
@@ -8951,7 +8975,8 @@
           "urun_agirligi": "615 / 610"
         }
       }
-    }
+    },
+    "sub_subcategory": "Work Bench"
   },
   {
     "slug": "gpt-1000-glass-window-trolley",
@@ -8989,7 +9014,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24111537/GPT-1000-PT-1000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "gt-1000-gasket-trolley",
@@ -9025,7 +9051,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24112516/GT-1000-RT-1000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "hp-1000-horizontal-profile-troley",
@@ -9062,7 +9089,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24114124/HP-1000-VP-1000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "kd-305-portable-miter-saw-machine",
@@ -9108,7 +9136,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24120042/KD-305-KY-305.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Portable Cutting"
   },
   {
     "slug": "kd-350-d-miter-saw-machine",
@@ -9558,7 +9587,8 @@
           "urun_agirligi": "123 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Single Head Cutting"
   },
   {
     "slug": "kd-350-m-miter-saw-machine",
@@ -9929,7 +9959,8 @@
           "urun_agirligi": "86 Kg / 71 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Single Head Cutting"
   },
   {
     "slug": "kd-400-d-miter-saw-machine",
@@ -10398,7 +10429,8 @@
           "urun_agirligi": "137 Kg / 123 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Single Head Cutting"
   },
   {
     "slug": "kd-400-m-mitre-saw-machine",
@@ -10733,7 +10765,8 @@
           "urun_agirligi": "88 Kg / 71 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Single Head Cutting"
   },
   {
     "slug": "km-211-manual-end-milling-machine",
@@ -10785,7 +10818,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24152128/KM-211-S.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Semi Automatic End Milling"
   },
   {
     "slug": "km-212-portable-end-milling-machine",
@@ -10830,7 +10864,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24152334/KM-212.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Portable End Milling"
   },
   {
     "slug": "km-215-s-semi-automatic-end-milling-machine",
@@ -11295,7 +11330,8 @@
           "urun_agirligi": "120 Kg / 95 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Semi Automatic End Milling"
   },
   {
     "slug": "kp-110-pneumatic-aluminum-corner-crimping-machine",
@@ -11348,7 +11384,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/24152911/KP-110.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Pneumatic Corner Crimping"
   },
   {
     "slug": "kp-130-cnc-cnc-automatic-corner-crimping-machine",
@@ -11512,7 +11549,8 @@
           "urun_agirligi": "630 / 580"
         }
       }
-    }
+    },
+    "sub_subcategory": "CNC Automatic Corner Crimping"
   },
   {
     "slug": "kp-180-hydraulic-aluminium-corner-crimping-machine",
@@ -11570,7 +11608,8 @@
         "technical_data": {},
         "catalog": null
       }
-    }
+    },
+    "sub_subcategory": "Hydraulic Corner Crimping"
   },
   {
     "slug": "ky-305-portable-miter-saw-machine",
@@ -11616,7 +11655,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24120042/KD-305-KY-305.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Portable Cutting"
   },
   {
     "slug": "mca-801",
@@ -11995,7 +12035,8 @@
         },
         "piktogramlar": {}
       }
-    }
+    },
+    "sub_subcategory": "Mullion Connector Assembly"
   },
   {
     "slug": "mk-420-mk-420ps-mk-450-manual-up-cutting-saw-machine",
@@ -12513,7 +12554,8 @@
           "urun_agirligi": "142 Kg / 113 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Single Head Cutting"
   },
   {
     "slug": "mkn-serisi-150-300-301",
@@ -12798,7 +12840,8 @@
           "urun_agirligi": "19 Kg / 18 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Conveyors"
   },
   {
     "slug": "nsm-352-nsm-353-kanat-isleme-merkezi",
@@ -13046,7 +13089,8 @@
         },
         "piktogramlar": {}
       }
-    }
+    },
+    "sub_subcategory": "Sash Assembly Station"
   },
   {
     "slug": "pc-4000-profile-carry-cart",
@@ -13083,7 +13127,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24161725/PC-4000-PT-2000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "pim-6508-se",
@@ -13507,7 +13552,8 @@
         },
         "piktogramlar": {}
       }
-    }
+    },
+    "sub_subcategory": "Profile Cutting Machining Center"
   },
   {
     "slug": "pt-1000-product-transportation-troley",
@@ -13543,7 +13589,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24111537/GPT-1000-PT-1000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "pt-2000-product-transportation-trolley-two-sided",
@@ -13578,7 +13625,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24161725/PC-4000-PT-2000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "pwb-4100",
@@ -13851,7 +13899,8 @@
           "urun_agirligi": "260 kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Work Bench"
   },
   {
     "slug": "pye-101-pye-102-pye-103-pye-104-manual-punch-press",
@@ -14150,7 +14199,8 @@
           "urun_agirligi": "7.5 Kg / 8 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Manual Punch Press"
   },
   {
     "slug": "rs-1000",
@@ -14395,7 +14445,8 @@
           "urun_agirligi": "0.0"
         }
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "rt-1000-rotating-table",
@@ -14436,7 +14487,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24112516/GT-1000-RT-1000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Work Bench"
   },
   {
     "slug": "ryk-420-radial-saw-machine",
@@ -14493,7 +14545,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24163229/RYK-420-S-1.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Radial Cutting"
   },
   {
     "slug": "ryk-420-w-radial-saw-machine",
@@ -14889,7 +14942,8 @@
           "urun_agirligi": "255 Kg / 202 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Radial Cutting"
   },
   {
     "slug": "scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine",
@@ -15468,7 +15522,8 @@
           "urun_agirligi": "450 Kg / 385 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Slicing Machine"
   },
   {
     "slug": "sdt-275",
@@ -15753,7 +15808,8 @@
           "urun_agirligi": "258 Kg / 225 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Reinforcement Sheet Circular Saw"
   },
   {
     "slug": "sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine",
@@ -15801,7 +15857,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24164750/SDT-280.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Reinforcement Sheet Band Saw"
   },
   {
     "slug": "sk-500-automatic-sawing-machine",
@@ -15869,7 +15926,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24165243/SK-500-1.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Slicing Machine"
   },
   {
     "slug": "sk-500-d-automatic-sawing-and-drilling-machine",
@@ -16454,7 +16512,8 @@
           "urun_agirligi": "527.0"
         }
       }
-    }
+    },
+    "sub_subcategory": "Slicing Machine"
   },
   {
     "slug": "skn-300-450-600-digital-roller-conveyor-with-automatic-length-stop",
@@ -16828,7 +16887,8 @@
           "urun_agirligi": "193 Kg / 130 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Conveyors"
   },
   {
     "slug": "sm-201-sd",
@@ -17208,7 +17268,8 @@
           "urun_agirligi": "132 Kg / 100 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Single Head Screwdriving"
   },
   {
     "slug": "sm-201-single-head-reinforcement-stell-screwdriver",
@@ -17253,7 +17314,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24165715/SM-201.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Single Head Screwdriving"
   },
   {
     "slug": "sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver",
@@ -17307,7 +17369,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24165908/SM-206.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Double Head Screwdriving"
   },
   {
     "slug": "st-264-pvc-automatic-water-slot-machine",
@@ -17720,7 +17783,8 @@
           "urun_agirligi": "116 Kg / 78 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Template Copy Router Machine"
   },
   {
     "slug": "tk-503-pvc-tek-kose-kaynak-makinesi",
@@ -18124,7 +18188,8 @@
           "urun_agirligi": "128 Kg / 113 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "Single Corner Welding"
   },
   {
     "slug": "tk-505-single-corner-pvc-welding-machine",
@@ -18174,12 +18239,14 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/03/24173000/TK-505.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Single Corner Welding"
   },
   {
     "slug": "vce-1570",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
     "subcategory": "Swarf Extraction",
@@ -18463,7 +18530,8 @@
         },
         "piktogramlar": {}
       }
-    }
+    },
+    "sub_subcategory": "Vacuum Swarf Extractor"
   },
   {
     "slug": "vce-3500",
@@ -18638,7 +18706,8 @@
         },
         "piktogramlar": {}
       }
-    }
+    },
+    "sub_subcategory": "Vacuum Swarf Extractor"
   },
   {
     "slug": "vce-4000",
@@ -18905,7 +18974,8 @@
         },
         "piktogramlar": {}
       }
-    }
+    },
+    "sub_subcategory": "Vacuum Swarf Extractor"
   },
   {
     "slug": "vk-420-v-cutting-90-end-notching-machine",
@@ -19426,7 +19496,8 @@
           "urun_agirligi": "412 Kg / 362 Kg"
         }
       }
-    }
+    },
+    "sub_subcategory": "V Cutting"
   },
   {
     "slug": "vp-1000-vertica-profile-troley",
@@ -19464,7 +19535,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24114124/HP-1000-VP-1000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "vp-2000-vertica-profile-troley",
@@ -19505,7 +19577,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24173723/VP-2000-WAS-1000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "was-1000-window-assembly-station",
@@ -19541,7 +19614,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24173723/VP-2000-WAS-1000.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Trolley"
   },
   {
     "slug": "wb-4000-work-bench",
@@ -19581,7 +19655,8 @@
         },
         "catalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/05/24173956/WB-4000-PWB-4100.pdf"
       }
-    }
+    },
+    "sub_subcategory": "Work Bench"
   },
   {
     "slug": "wgm-202",
@@ -19865,6 +19940,7 @@
         },
         "piktogramlar": {}
       }
-    }
+    },
+    "sub_subcategory": "Window Gasket Milling Machine"
   }
 ]

@@ -37,7 +37,8 @@
         "Modular and portable design",
         "Robust chassis and high durability with a weight of 1140 kg"
       ]
-    }
+    },
+    "category": "Steel Factory"
   },
   {
     "slug": "gms-ayarli-kosebentler-gocmaksan",
@@ -69,7 +70,8 @@
     "specs": {
       "TEKNIK_TABLO": {},
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Hand Tools"
   },
   {
     "slug": "gms-b-26-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -120,7 +122,8 @@
         "Save up to 9 different bending programs",
         "Optional digital display"
       ]
-    }
+    },
+    "category": "Bending Machines"
   },
   {
     "slug": "gms-b-36-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -171,7 +174,8 @@
         "Save up to 9 different bending programs",
         "Optional digital display"
       ]
-    }
+    },
+    "category": "Bending Machines"
   },
   {
     "slug": "gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -222,7 +226,8 @@
         "Save up to 9 different bending programs",
         "Optional digital display"
       ]
-    }
+    },
+    "category": "Bending Machines"
   },
   {
     "slug": "gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -273,7 +278,8 @@
         "Save up to 9 different bending programs",
         "Optional digital display"
       ]
-    }
+    },
+    "category": "Bending Machines"
   },
   {
     "slug": "gms-bcz-600-gocmaksan-tugla-kesme-makinasi",
@@ -317,7 +323,8 @@
         "Easy to carry with foldable feet",
         "Saves labor and materials"
       ]
-    }
+    },
+    "category": "Light Construction"
   },
   {
     "slug": "gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -361,7 +368,8 @@
         "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece": "Ø 16 x 2"
       },
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Bending Machines"
   },
   {
     "slug": "gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu",
@@ -405,7 +413,8 @@
         "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece": "Ø 20 x 2"
       },
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Bending Machines"
   },
   {
     "slug": "gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -449,7 +458,8 @@
         "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece": "Ø 28 x 2"
       },
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Bending Machines"
   },
   {
     "slug": "gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -493,7 +503,8 @@
         "85 kg/mm 2 ‍ Rebar Diameter (Ø) x Piece": "Ø 30 x 2"
       },
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Bending Machines"
   },
   {
     "slug": "gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi",
@@ -544,7 +555,8 @@
         "Stirrup bending ability",
         "Programmable bending function"
       ]
-    }
+    },
+    "category": "Portable Bending"
   },
   {
     "slug": "gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi",
@@ -595,7 +607,8 @@
         "Stirrup bending ability",
         "Programmable bending function"
       ]
-    }
+    },
+    "category": "Portable Bending"
   },
   {
     "slug": "gms-demirci-anahtarlari-gocmaksan",
@@ -627,7 +640,8 @@
     "specs": {
       "TEKNIK_TABLO": {},
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Hand Tools"
   },
   {
     "slug": "gms-el-makaslari-gocmaksan",
@@ -659,7 +673,8 @@
     "specs": {
       "TEKNIK_TABLO": {},
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Hand Tools"
   },
   {
     "slug": "gms-etriye-kollari-gocmaksan",
@@ -691,7 +706,8 @@
     "specs": {
       "TEKNIK_TABLO": {},
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Hand Tools"
   },
   {
     "slug": "gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -744,7 +760,8 @@
         "Reinforced steel body",
         "Quiet, safe and environmentally friendly"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -797,7 +814,8 @@
         "Güçlendirilmiş çelik gövde",
         "Sessiz, güvenli ve çevre dostu"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -850,7 +868,8 @@
         "Reinforced steel body",
         "Quiet, safe and environmentally friendly"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -903,7 +922,8 @@
         "Reinforced steel body",
         "Quiet, safe and environmentally friendly"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -956,7 +976,8 @@
         "Reinforced steel body",
         "Quiet, safe and environmentally friendly"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi",
@@ -997,7 +1018,8 @@
         "3 Different Angle Settings Simultaneously",
         "380 V"
       ]
-    }
+    },
+    "category": "Steel Factory"
   },
   {
     "slug": "gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi",
@@ -1038,7 +1060,8 @@
         "3 Different Angle Settings Simultaneously",
         "380 V"
       ]
-    }
+    },
+    "category": "Steel Factory"
   },
   {
     "slug": "gms-kalip-sokmeler-gocmaksan",
@@ -1070,7 +1093,8 @@
     "specs": {
       "TEKNIK_TABLO": {},
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Hand Tools"
   },
   {
     "slug": "gms-kompaktor",
@@ -1112,7 +1136,8 @@
         "Foldable handle, easy to carry",
         "Comfortable and safe use"
       ]
-    }
+    },
+    "category": "Light Construction"
   },
   {
     "slug": "gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1163,7 +1188,8 @@
         "Low Energy Consumption",
         "Mobile and portable design"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1214,7 +1240,8 @@
         "Low Energy Consumption",
         "Mobile and portable design"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1265,7 +1292,8 @@
         "Low Energy Consumption",
         "Mobile and portable design"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-matrix-55-gocmaksan-demir-demir-kesme-hatti",
@@ -1306,7 +1334,8 @@
         "Strong chassis and durable construction",
         "Intelligent software integration and CE certified security"
       ]
-    }
+    },
+    "category": "Steel Factory"
   },
   {
     "slug": "gms-matrix-55s-gocmaksan-demir-kesme-hatti",
@@ -1347,7 +1376,8 @@
         "Adjustable Collection Hoppers",
         "Intelligent software integration and CE certified security"
       ]
-    }
+    },
+    "category": "Steel Factory"
   },
   {
     "slug": "gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi",
@@ -1449,7 +1479,8 @@
         "Stirrup bending ability",
         "Programmable bending function"
       ]
-    }
+    },
+    "category": "Portable Bending"
   },
   {
     "slug": "gms-mg-26-junior-portatif-bukme-makinasi",
@@ -1500,7 +1531,8 @@
         "Stirrup bending ability",
         "To be able to make a twisting program"
       ]
-    }
+    },
+    "category": "Portable Bending"
   },
   {
     "slug": "gms-mh-8c-gocmaksan-hasir-kesme-makinasi",
@@ -1541,7 +1573,8 @@
         "380 V",
         "User-friendly and Ergonomic Design"
       ]
-    }
+    },
+    "category": "Steel Factory"
   },
   {
     "slug": "gms-oturak-makaslari-gocmaksan",
@@ -1573,7 +1606,8 @@
     "specs": {
       "TEKNIK_TABLO": {},
       "GENEL OZELLIKLER": []
-    }
+    },
+    "category": "Hand Tools"
   },
   {
     "slug": "gms-perdah-makinasi",
@@ -1615,7 +1649,8 @@
         "Ergonomic and safe design",
         "Quick operation with easy blade adjustment"
       ]
-    }
+    },
+    "category": "Light Construction"
   },
   {
     "slug": "gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi",
@@ -1662,7 +1697,8 @@
         "220V & 380V option",
         "Quick Maintenance & Spare Parts"
       ]
-    }
+    },
+    "category": "Portable Cutting"
   },
   {
     "slug": "gms-rl-2000-gocmaksan-cift-tamburlu-silindir",
@@ -1704,7 +1740,8 @@
         "Hydrostatic driving system",
         "Compact, portable construction"
       ]
-    }
+    },
+    "category": "Light Construction"
   },
   {
     "slug": "gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1754,7 +1791,8 @@
         "Low Energy Consumption",
         "Durable steel body"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1804,7 +1842,8 @@
         "Low Energy Consumption",
         "Durable steel body"
       ]
-    }
+    },
+    "category": "Cutting Machines"
   },
   {
     "slug": "gms-sl-30-gocmaksan-etriye-bukme-makinasi",
@@ -1853,7 +1892,8 @@
         "International Patented Daisy Pattern Center Hole",
         "To be able to make a twisting program"
       ]
-    }
+    },
+    "category": "Stirrup Bending"
   },
   {
     "slug": "gms-sl-36-gocmaksan-etriye-bukme-makinasi",
@@ -1902,7 +1942,8 @@
         "International Patented Daisy Pattern Belly",
         "To be able to make a twisting program"
       ]
-    }
+    },
+    "category": "Stirrup Bending"
   },
   {
     "slug": "gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi",
@@ -1943,7 +1984,8 @@
         "Robot opzione",
         "Maximum Production med Double Coil Iron"
       ]
-    }
+    },
+    "category": "Steel Factory"
   },
   {
     "slug": "gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi",
@@ -1992,7 +2034,8 @@
         "Suitable for Bore Pile and Tunnel Construction",
         "Precise and Fast Twisting Performance"
       ]
-    }
+    },
+    "category": "Spiral Bending"
   },
   {
     "slug": "gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi",
@@ -2041,7 +2084,8 @@
         "Suitable for Bore Pile and Tunnel Construction",
         "Precise and Fast Twisting Performance"
       ]
-    }
+    },
+    "category": "Spiral Bending"
   },
   {
     "slug": "gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi",
@@ -2090,7 +2134,8 @@
         "Suitable for Bore Pile and Tunnel Construction",
         "Precise and Fast Twisting Performance"
       ]
-    }
+    },
+    "category": "Spiral Bending"
   },
   {
     "slug": "gms-synclone-45s-gocmaksan-demir-bukme-hatti",
@@ -2131,6 +2176,7 @@
         "Fixed and Movable Bending Handles",
         "Automatic Positioning and Speed Adjustment"
       ]
-    }
+    },
+    "category": "Steel Factory"
   }
 ]
