@@ -1,0 +1,45 @@
+name: Taxonomy Sync (monthly)
+
+on:
+  schedule:
+    - cron: '0 4 1 * *'   # Her ayın 1'inde, 04:00 UTC
+  workflow_dispatch:         # Manuel tetikleme
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run taxonomy sync (write mode)
+        run: TAXONOMY_WRITE=1 python scripts/site_taxonomy_sync.py
+        # Script interaktif DUR noktaları içeriyor — CI'da EOF alır, otomatik geçer
+
+      - name: Create PR if changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(taxonomy): monthly sync from manufacturer sites"
+          title: "[Auto] Taxonomy sync — ${{ github.run_id }}"
+          body: |
+            ## Otomatik Taxonomy Sync
+
+            Üretici sitelerinden çekilen kategori verisi ile machines.json ve gocmaksan.json güncellendi.
+
+            **Kontrol edilecekler:**
+            - [ ] Multi-cat eklenen makineler doğru mu?
+            - [ ] sub_subcategory değerleri mantıklı mı?
+            - [ ] Override'a alınması gereken makine var mı? (`src/data/multi_category_overrides.json`)
+
+            > **ÖNEMLİ:** Bu PR merge edilmeden önce mutlaka gözden geçirin.
+            > Hatalı taxonomy → kategori sayfalarında yanlış filtreleme.
+          branch: taxonomy-sync-${{ github.run_number }}
+          delete-branch: true

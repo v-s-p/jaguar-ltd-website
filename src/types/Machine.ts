@@ -10,8 +10,11 @@ export interface Machine {
   name?: string;
   slug?: string;
   brand?: string;
-  categories?: string[];
-  subcategory: string[];
+  categories?: string[];       // multi-list: ["Aluminium", "PVC"]
+  primary_category?: string;   // display badge (ALUMINIUM / PVC)
+  subcategory?: string;        // level-2: "Machining Centers", "Cutting", ...
+  sub_subcategory?: string;    // level-3: "Double Head Cutting", "Radial Cutting", ...
+  diller?: Record<string, any>;
   specs?: MachineSpecs;
-  [key: string]: any; // Allow other properties as needed
+  [key: string]: any;          // forward-compat for extra fields
 }
