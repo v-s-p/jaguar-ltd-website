@@ -38,3 +38,8 @@ __pycache__/
 venv/
 .pytest_cache/
 translation_status.json
+src/data/bg_*
+src/data/*_needed*.json
+src/data/*_done.json
+src/data/*_missing*.json
+src/data/*_extract*.json
