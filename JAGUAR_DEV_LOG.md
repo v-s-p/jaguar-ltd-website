@@ -1,3 +1,26 @@
+## [2026-05-14] — BG translations completed, Gocmaksan enriched, production stabilized
+
+**Duration:** ~1h
+**Branch:** main
+
+### Done
+- BG translation tamamlandi: Yilmaz 74 makine + Gocmaksan 47 makine verisi yerlestirildi.
+- Gocmaksan site scrape tamamlandi; `features`, `teknikTablo`, ve `pdf_catalog` alanlari veri dosyalarina tasindi.
+- i18n lookup dinamik `diller[lang]` yapisina cekildi ve image fallback akisi duzeltildi.
+- Full audit tamamlandi ve 6 fix uygulandi.
+- `jaguar.ataerk.com` production'a alindi; build ve dev server dogrulamasi yapildi.
+
+### Blockers
+- None
+
+### Next
+1. Kaynakta bos kalan BG isim ve aciklamalari tamamla.
+2. `/kategori/gocmaksan` route conflict warning'ini temizle.
+3. Production sonrasi hizli smoke test ve dil bazli sayfa kontrolu yap.
+
+### Commit
+`docs: log BG translation completion and production launch`
+
 - [2026-04-26 12:48:00] | Antigravity | Log dosyasının oluşturulması | Kullanıcı talimatı (ADIM 1) | Mimari düzeltme adımına geçildi.
 - [2026-04-26 12:49:00] | Antigravity | Dil Dizisi Senkronizasyonu | src/data/siteMetadata.ts içindeki hatalı 10 dil, master plana uygun olarak 7 dil ("en", "tr", "ru", "es", "ro", "bg", "bcs") ile sınırlandırıldı. (ADIM 2) | Otonom çeviri betiği yazımına geçildi.
 - [2026-04-26 12:50:00] | Antigravity | Stateful Otonom Çeviri Betiği Oluşturuldu | scripts/auto_translator.py yazıldı. translation_status.json ile hafıza (checkpoint), API limitlerinde graceful shutdown ve resume (kaldığı yerden devam) özellikleri eklendi. (ADIM 3) | Anayasa kurallarına geçildi.
