@@ -21,14 +21,16 @@ const l = (path: string) => getRelativeLocaleUrl(lang, path);
 
 const activeLang = machine.diller?.[lang] || machine.diller?.en || machine.diller?.tr || {};
 
-const isim        = activeLang.name        || activeLang.isim        || machine.slug;
+const isim        = activeLang.name        || activeLang.isim        || machine.slug.replace(/-/g, ' ').toUpperCase();
 const aciklama    = activeLang.description || activeLang.aciklama    || '';
 const resimler    = (activeLang.images?.length ? activeLang.images : null) || activeLang.resimler || machine.diller?.en?.images || machine.diller?.en?.resimler || [];
 const anaResim    = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
 
-const ozellikGruplari = activeLang.specs || activeLang.ozellik_gruplari || {};
-const teknikTablo     = activeLang.technical_data || {};
+const rootSpecs       = (machine.specs || {}) as Record<string, any>;
+const teknikTablo     = activeLang.technical_data || rootSpecs['TEKNIK_TABLO'] || {};
+const rootOzellikler  = Object.fromEntries(Object.entries(rootSpecs).filter(([k, v]) => k !== 'TEKNIK_TABLO' && Array.isArray(v)));
+const ozellikGruplari = activeLang.specs || activeLang.ozellik_gruplari || (Object.keys(rootOzellikler).length ? rootOzellikler : {});
 const piktogramlar    = activeLang.piktogramlar      || activeLang.specifications || {};
 const katalog         = activeLang.catalog || activeLang.katalog || null;
 const video           = activeLang.video   || null;

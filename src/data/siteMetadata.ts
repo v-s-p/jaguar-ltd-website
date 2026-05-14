@@ -9,7 +9,7 @@ export const siteMetadata = {
     address: "гр. Шумен, България",
     warehouse: "гр. Пловдив"
   },
-  languages: ["en", "tr", "ru", "es", "ro", "bg", "bcs"],
+  languages: ["bg", "en", "ru"],
   branding: {
     company: "Jaguar LTD",
     country: "България",
