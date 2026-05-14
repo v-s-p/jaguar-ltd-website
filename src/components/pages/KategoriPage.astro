@@ -47,8 +47,7 @@ const subTranslationKeys: Record<string, string> = {
   // Göçmaksan (JSON'daki değerler)
   "Bending Machines": "cat.sub.bending",
   "Cutting Machines": "cat.sub.cutting",
-  "Combined Machines": "cat.sub.combined",
-  "Steel Factory Solutions": "cat.sub.factory",
+  "Steel Factory": "cat.sub.factory",
   "Light Construction": "cat.sub.light",
   "Hand Tools": "cat.sub.handtools"
 };
@@ -61,8 +60,8 @@ const subcategoryMap: Record<string, string[]> = {
     "Machining Centers", "Welding", "Corner Cleaning", "Cutting", "Screwdriving"
   ],
   "Gocmaksan": [
-    "Bending Machines", "Cutting Machines", "Combined Machines",
-    "Steel Factory Solutions", "Light Construction", "Hand Tools"
+    "Bending Machines", "Cutting Machines", "Steel Factory",
+    "Light Construction", "Hand Tools"
   ]
 };
 const allowedSubcats = subcategoryMap[catName] || [];

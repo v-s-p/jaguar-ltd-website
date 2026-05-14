@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { siteMetadata } from '../../data/siteMetadata';
 ---
 
 <BaseLayout title="Политика за поверителност | Jaguar LTD">
@@ -42,7 +43,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
       <div>
         <h2 class="text-xl font-black text-gray-900">4. Вашите права (GDPR)</h2>
-        <p>В съответствие с Регламент (ЕС) 2016/679 (GDPR) имате право на достъп, коригиране, изтриване и ограничаване обработването на вашите лични данни. За упражняване на тези права се свържете с нас на: <a href="mailto:jaguar@jaguar-ltd.com" class="text-brand-accent font-bold hover:underline">jaguar@jaguar-ltd.com</a></p>
+        <p>В съответствие с Регламент (ЕС) 2016/679 (GDPR) имате право на достъп, коригиране, изтриване и ограничаване обработването на вашите лични данни. За упражняване на тези права се свържете с нас на: <a href={`mailto:${siteMetadata.contact.email}`} class="text-brand-accent font-bold hover:underline">{siteMetadata.contact.email}</a></p>
       </div>
 
       <div class="bg-brand-warm p-6 rounded-xl border border-brand-accent/20">
