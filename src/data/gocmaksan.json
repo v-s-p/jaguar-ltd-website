@@ -63,14 +63,14 @@
     "diller": {
       "en": {
         "name": "Adjustable Angle Bracket",
-        "description": "",
+        "description": "The Adjustable Angle Bracket is a practical hand tool for reinforcement and general jobsite bending applications. Designed for hand tool workflows, it supports bar diameters from Ø8 to Ø26 for reliable daily use.",
         "images": [
           "/images/gocmaksan/gms-ayarli-kosebentler-gocmaksan-1.webp"
         ]
       },
       "bg": {
         "name": "Регулируема ъглова конзола",
-        "description": "",
+        "description": "BCZ 600 is a light-construction cutting machine designed for precise, fast brick and masonry cutting on site. Its dual aqueous and anhydrous operating modes, foldable feet, and material-saving performance make it a practical choice for contractors.",
         "specs": {
           "ТЕХНИЧЕСКИ ДАННИ": {},
           "ОБЩИ ХАРАКТЕРИСТИКИ": [
@@ -354,14 +354,14 @@
     "diller": {
       "en": {
         "name": "BCZ 600",
-        "description": "",
+        "description": "Construction Steel Keys are professional hand tools developed for efficient rebar handling and adjustment on site. With a working capacity of Ø8 to Ø36, they provide a simple and durable solution for daily steel fabrication tasks.",
         "images": [
           "/images/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi-1.webp"
         ]
       },
       "bg": {
         "name": "BCZ 600",
-        "description": "",
+        "description": "Hand Scissors are compact hand tools for quick, controlled cutting tasks in reinforcement work. With a capacity range of Ø8 to Ø16, they offer dependable performance for everyday workshop and site use.",
         "specs": {
           "ТЕХНИЧЕСКИ ДАННИ": {
             "Мощност @3600": "7.5",
@@ -793,14 +793,14 @@
     "diller": {
       "en": {
         "name": "ConstructIon Steel Keys",
-        "description": "",
+        "description": "The Manual Bender is a practical hand tool for forming rebar and stirrups with consistent control. With a bending capacity of Ø8 to Ø16, it is well suited for daily fabrication and on-site adjustment work.",
         "images": [
           "/images/gocmaksan/gms-demirci-anahtarlari-gocmaksan-1.webp"
         ]
       },
       "bg": {
         "name": "Ключове за арматура",
-        "description": "",
+        "description": "Lever is a robust hand tool designed to support formwork removal and general site operations. Its simple, durable construction makes it a dependable choice for demanding day-to-day construction use.",
         "specs": {
           "ТЕХНИЧЕСКИ ДАННИ": {},
           "ОБЩИ ХАРАКТЕРИСТИКИ": [
@@ -829,14 +829,14 @@
     "diller": {
       "en": {
         "name": "Hand Scissors",
-        "description": "",
+        "description": "Compactor is a light-construction machine engineered for effective floor compaction and consistent surface preparation. It combines a durable compression table, a foldable handle, and safe, ergonomic operation for efficient jobsite use.",
         "images": [
           "/images/gocmaksan/gms-el-makaslari-gocmaksan-1.webp"
         ]
       },
       "bg": {
         "name": "Ръчни ножици",
-        "description": "",
+        "description": "Low Stool Scissors are durable hand tools built for practical cutting operations in reinforcement work. With a capacity of Ø8 to Ø32, they provide stable performance for daily site and workshop applications.",
         "specs": {
           "ТЕХНИЧЕСКИ ДАННИ": {},
           "ОБЩИ ХАРАКТЕРИСТИКИ": [
@@ -865,14 +865,14 @@
     "diller": {
       "en": {
         "name": "Manual Bender",
-        "description": "",
+        "description": "Power Trowel is a light-construction finishing machine designed to deliver excellent results on concrete surfaces. Its ergonomic, low-fuel-consumption design and easy blade adjustment support fast, efficient operation on site.",
         "images": [
           "/images/gocmaksan/gms-etriye-kollari-gocmaksan-1.webp"
         ]
       },
       "bg": {
         "name": "Ръчна огъвачка за стремена",
-        "description": "",
+        "description": "RL 2000 is a light-construction double-drum roller designed to deliver maximum efficiency in compaction work. With its powerful motor, hydrostatic drive system, and compact portable construction, it offers easy and ergonomic operation on site.",
         "specs": {
           "ТЕХНИЧЕСКИ ДАННИ": {},
           "ОБЩИ ХАРАКТЕРИСТИКИ": [
@@ -1326,7 +1326,7 @@
     "diller": {
       "en": {
         "name": "Lever",
-        "description": "",
+        "description": "Lever is a robust hand tool designed to support formwork removal and general site operations. Its simple, durable construction makes it a dependable choice for demanding day-to-day construction use.",
         "images": [
           "/images/gocmaksan/gms-kalip-sokmeler-gocmaksan-1.webp"
         ]
@@ -1365,7 +1365,7 @@
     "diller": {
       "en": {
         "name": "Compactor",
-        "description": "",
+        "description": "Compactor is a light-construction machine engineered for effective floor compaction and consistent surface preparation. It combines a durable compression table, a foldable handle, and safe, ergonomic operation for efficient jobsite use.",
         "images": [
           "/images/gocmaksan/gms-kompaktor-1.webp"
         ]
@@ -2012,7 +2012,7 @@
     "diller": {
       "en": {
         "name": "Low Stool ScIssors",
-        "description": "",
+        "description": "Low Stool Scissors are durable hand tools built for practical cutting operations in reinforcement work. With a capacity of Ø8 to Ø32, they provide stable performance for daily site and workshop applications.",
         "images": [
           "/images/gocmaksan/gms-oturak-makaslari-gocmaksan-1.webp"
         ]
@@ -2053,7 +2053,7 @@
     "diller": {
       "en": {
         "name": "Power Trowel",
-        "description": "",
+        "description": "Power Trowel is a light-construction finishing machine designed to deliver excellent results on concrete surfaces. Its ergonomic, low-fuel-consumption design and easy blade adjustment support fast, efficient operation on site.",
         "images": [
           "/images/gocmaksan/gms-perdah-makinasi-1.webp"
         ]
@@ -2239,7 +2239,7 @@
     "diller": {
       "en": {
         "name": "RL 2000",
-        "description": "",
+        "description": "RL 2000 is a light-construction double-drum roller designed to deliver maximum efficiency in compaction work. With its powerful motor, hydrostatic drive system, and compact portable construction, it offers easy and ergonomic operation on site.",
         "images": [
           "/images/gocmaksan/gms-rl-2000-gocmaksan-cift-tamburlu-silindir-1.webp"
         ]

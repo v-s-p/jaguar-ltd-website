@@ -3446,7 +3446,7 @@
         }
       },
       "en": {
-        "isim": "CCL 1661 PVC KAYNAK VE KOSE TEMIZLEME MAKINESI",
+        "isim": "CCL 1661 PVC Corner Cleaning Machine",
         "aciklama": "CNC controlled four corner PVC welding and cleaning line that provides movement in 2 and 4 axes. After welding process at DK 540, the frame goes to the Cooling Unit (SA 251) automatically. Then the Robot Unit (SA 261) automatically takes the frames from the Cooling Unit (SA 251) where the cleaning process starts and carries it by turning to the CNC 609 or 611 Cleaning Machine",
         "katalog": "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2021/04/27102021/CCL-1661.pdf",
         "resimler": [
