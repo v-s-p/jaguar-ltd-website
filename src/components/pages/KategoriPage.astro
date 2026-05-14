@@ -106,9 +106,9 @@ const filteredMachines = allMachines.filter((m: any) => {
     {filteredMachines.length > 0 ? (
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-16" id="machines-grid">
         {filteredMachines.map((m: any) => {
-          const en = m.diller?.en || {};
+          const en = m.diller?.[lang] || m.diller?.en || {};
           const makineIsmi = en.name || en.isim || m.slug;
-          const resimYolu = en.images?.[0] || en.resimler?.[0] || '/placeholder.png';
+          const resimYolu = en.images?.[0] || en.resimler?.[0] || m.diller?.en?.images?.[0] || '/placeholder.png';
           const aciklama = en.description || en.aciklama || '';
 
           return (

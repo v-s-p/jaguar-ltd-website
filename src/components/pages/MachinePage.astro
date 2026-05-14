@@ -19,11 +19,11 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const l = (path: string) => getRelativeLocaleUrl(lang, path);
 
-const activeLang = machine.diller?.en || machine.diller?.tr || {};
+const activeLang = machine.diller?.[lang] || machine.diller?.en || machine.diller?.tr || {};
 
 const isim        = activeLang.name        || activeLang.isim        || machine.slug;
 const aciklama    = activeLang.description || activeLang.aciklama    || '';
-const resimler    = activeLang.images      || activeLang.resimler    || [];
+const resimler    = (activeLang.images?.length ? activeLang.images : null) || activeLang.resimler || machine.diller?.en?.images || machine.diller?.en?.resimler || [];
 const anaResim    = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
 
