@@ -1,0 +1,1 @@
+MIGRATE YAPILACAK — bu dosya yerine migrasyon scripti calistir

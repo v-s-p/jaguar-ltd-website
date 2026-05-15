@@ -1,0 +1,2 @@
+SKIP_URL_MATCH	vce-3500	https://www.yilmazmachine.com.tr/en/product-category/vacuum-swarf-extractor-en-2/
+SKIP_URL_MATCH	vce-4000	https://www.yilmazmachine.com.tr/en/product-category/vacuum-swarf-extractor-en-2/

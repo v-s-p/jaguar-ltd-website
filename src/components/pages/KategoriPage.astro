@@ -1,9 +1,9 @@
----
+﻿---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
 
 export async function getStaticPaths() {
-  const yilmaz = (await import('../../data/machines.json')).default;
+  const yilmaz = (await import('../../data/yilmaz.json')).default;
   const gocmaksan = (await import('../../data/gocmaksan.json')).default;
   const allMachines = [...yilmaz, ...gocmaksan];
   return [
