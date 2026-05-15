@@ -1,4 +1,4 @@
-﻿---
+---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
 
@@ -32,11 +32,8 @@ const resimler    = activeLang.images      || activeLang.resimler    || [];
 const anaResim    = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
 
-const ozellikGruplari = activeLang.specs || activeLang.ozellik_gruplari || {};
-const _BAD = (s: string) => /svg|PRODUCT INFO|×|%3E/i.test(s);
-const teknikTablo     = Object.fromEntries(
-  Object.entries(activeLang.technical_data || {}).filter(([k, v]) => !_BAD(k) && !_BAD(String(v)))
-);
+const ozellikGruplari = activeLang.specs || (machine as any).specs || activeLang.ozellik_gruplari || {};
+const teknikTablo     = activeLang.technical_data || {};
 const piktogramlar    = activeLang.piktogramlar      || activeLang.specifications || {};
 const katalog         = activeLang.catalog || activeLang.katalog || null;
 const video           = activeLang.video   || null;
@@ -81,7 +78,7 @@ const video           = activeLang.video   || null;
                 </span>
                 {machine.type && (
                   <span class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest">
-                    {' • '}{machine.type}
+                    {machine.type}
                   </span>
                 )}
               </div>
