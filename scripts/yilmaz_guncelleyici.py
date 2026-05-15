@@ -402,6 +402,11 @@ def download_image(session, img_url, en_slug, index):
             return web_path
     return img_url
 
+_KIRLI_RE = re.compile(r'svg|PRODUCT\s+INFO|×|%3E', re.IGNORECASE)
+
+def _kirli_td(key, val):
+    return bool(_KIRLI_RE.search(key) or _KIRLI_RE.search(str(val)))
+
 # ===================================================
 # SAYFA PARSE
 # ===================================================
@@ -508,14 +513,14 @@ def parse_page(session, en_slug, urls, download_images):
             if len(cells) >= 2:
                 key = cells[0].get_text(strip=True)
                 val = cells[1].get_text(strip=True)
-                if key and val and len(key) < 50:
+                if key and val and len(key) < 50 and not _kirli_td(key, val):
                     teknik_tablo[key] = val
     for div in soup.find_all('div', class_=re.compile(r'technical|spec|data|table', re.I)):
         items_d = div.find_all(['dt', 'dd', 'li', 'span'])
         for i in range(0, len(items_d)-1, 2):
             key = items_d[i].get_text(strip=True)
             val = items_d[i+1].get_text(strip=True) if i+1 < len(items_d) else ''
-            if key and val and len(key) < 50 and len(val) < 100:
+            if key and val and len(key) < 50 and len(val) < 100 and not _kirli_td(key, val):
                 teknik_tablo[key] = val
     for container in soup.find_all('div'):
         img_t = container.find('img')
