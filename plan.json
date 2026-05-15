@@ -1,4 +1,4 @@
-﻿{
+{
     "durum":  "05 Başlıyor - Görsel Kodlama Aşaması",
     "proje":  "Jaguar-ltd",
     "adimlar":  [
@@ -13,7 +13,7 @@
                         "tamamlandi":  true
                     },
                     {
-                        "gorev":  "KUSURSUZ_MASTER.json\u0027Ä± src/data/machines.json yap",
+                        "gorev":  "KUSURSUZ_MASTER.json\u0027Ä± src/data/yilmaz.json yap",
                         "id":  3,
                         "tamamlandi":  true
                     },

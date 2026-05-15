@@ -15,7 +15,7 @@ ile graph'a bağlı. Kod taraması yerine wiki sorgusu → token tasarrufu.
 | # | Node | Tip | Tek satır |
 |---|---|---|---|
 | 01 | [[Architecture-Overview]] | architecture | Astro 5 + 7 dil + 121 makine, statik B2B katalog |
-| 02 | [[Data-Layer]] | data | machines.json (74) + gocmaksan.json (47) + Machine.ts |
+| 02 | [[Data-Layer]] | data | yilmaz.json (74) + gocmaksan.json (47) + Machine.ts |
 | 03 | [[i18n-System]] | component | 7 dil sözlüğü, dil algılama, fallback zinciri |
 | 04 | [[Page-Components]] | component | HomePage / KategoriPage / MachinePage |
 | 05 | [[Routing-and-URLs]] | architecture | Dil prefix'li dinamik path üretimi |

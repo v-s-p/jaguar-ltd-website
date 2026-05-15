@@ -19,7 +19,7 @@ statik olarak render eder: Yılmaz (74) ve Göçmaksan (47).
 - **Default dil:** `bg` (Bulgarca, root path)
 - **Component yaklaşımı:** Sayfalar `src/components/pages/` altında, 
   her dil prefix'i aynı bileşeni render eder
-- **Veri kaynakları:** İki ayrı JSON (`machines.json` + `gocmaksan.json`), 
+- **Veri kaynakları:** İki ayrı JSON (`yilmaz.json` + `gocmaksan.json`), 
   ortak type ile (`src/types/Machine.ts`)
 - **Build cache:** Symlink ile `C:\YAZILIM_KASASI\.BUILD_CACHE\Jaguar-ltd\`
 

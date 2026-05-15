@@ -18,8 +18,8 @@ JSON anahtarına uygun çıktı üreten Python betikleri.
   anahtar (DEV_LOG kaynaklı)
 - **Görsel filtreleme:** Blacklist sistemi → `logo`, `toolquaz`, `uvaga`, 
   `banner` gibi yardımcı görseller atılır
-- **Çıktı dosyaları:** `src/data/machines.json` + `src/data/gocmaksan.json`
-- **Görsel konumu:** `public/images/machines/` (Yılmaz), 
+- **Çıktı dosyaları:** `src/data/yilmaz.json` + `src/data/gocmaksan.json`
+- **Görsel konumu:** `public/images/yilmaz/` (Yılmaz), 
   `public/images/gocmaksan/` (Göçmaksan)
 - **`radar2.py` rolü:** ✅ Doğrulandı — yilmazmachine.com.tr'nin tek bir 
   ürün sayfasını (`/urunler/aim-7420/`) çekip h2-h4, ul/ol ve p tag 
@@ -46,7 +46,7 @@ JSON anahtarına uygun çıktı üreten Python betikleri.
 - `scripts/migrate_v2.py` — v1→v2 migration
 - `scripts/enrich_machines.py` — Makine veri zenginleştirme
 - `scripts/blacklist/` — Filtrelenen görsel dosyaları (klasör mevcut)
-- `public/images/machines/` — Yılmaz görselleri
+- `public/images/yilmaz/` — Yılmaz görselleri
 - `public/images/gocmaksan/` — Göçmaksan görselleri
 
 ## Open Questions

@@ -12,7 +12,7 @@ geçişinin gerekçesi ve yapılan kararlar.
 
 ## Key Facts
 
-- **Sorun:** `machines.json` Türkçe alan isimleri (`isim`, `aciklama`, 
+- **Sorun:** `yilmaz.json` Türkçe alan isimleri (`isim`, `aciklama`, 
   `resimler`, `kategoriler`, `alt_kategoriler`) ile eski formattaydı; 
   `gocmaksan.json` zaten yeni formatta İngilizce
 - **Karışıklık:** `KategoriPage` ve `MachinePage` iki farklı yapıyı 

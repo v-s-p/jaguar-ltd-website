@@ -18,7 +18,7 @@ Astro'nun statik derleme gücünü verimli kullanmak için sayfalar bileşenlere
 Header ve Footer alanlarına kullanıcının dil değiştirebileceği şık bir dropdown eklendi. Seçilen dile göre site anında (yeniden yüklenerek) ilgili dile bürünür.
 
 ### 4. Makine Verileri Entegrasyonu
-`machines.json` ve `gocmaksan.json` verileri artık aktif dile göre filtreleniyor:
+`yilmaz.json` ve `gocmaksan.json` verileri artık aktif dile göre filtreleniyor:
 - Eğer makinenin seçilen dilde (örneğin Rusça) bir çevirisi varsa o gösterilir.
 - Çeviri yoksa otomatik olarak İngilizce'ye veya orijinal Bulgarca veriye geri döner (Fallback).
 

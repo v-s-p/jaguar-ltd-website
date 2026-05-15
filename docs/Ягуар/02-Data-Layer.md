@@ -12,7 +12,7 @@ TypeScript tipini tanımlar. Format v2'ye migrate edilmiş hâli.
 
 ## Key Facts
 
-- **machines.json** — 74 Yılmaz makinesi (alüminyum + PVC işleme)
+- **yilmaz.json** — 74 Yılmaz makinesi (alüminyum + PVC işleme)
 - **gocmaksan.json** — 47 Göçmaksan makinesi (büküm, makaslar)
 - **Type tanımı:** `src/types/Machine.ts` — `subcategory: string[]`, `specs?: MachineSpecs`
 - **MachineSpecs 4 anahtarı:** `"STANDART AKSESUARLAR"?: string[]`, 
@@ -38,7 +38,7 @@ TypeScript tipini tanımlar. Format v2'ye migrate edilmiş hâli.
 
 ## Source Files
 
-- `src/data/machines.json` — Yılmaz veri seti (74 kayıt)
+- `src/data/yilmaz.json` — Yılmaz veri seti (74 kayıt)
 - `src/data/gocmaksan.json` — Göçmaksan veri seti (47 kayıt)
 - `src/types/Machine.ts` — Ortak TypeScript interface
 

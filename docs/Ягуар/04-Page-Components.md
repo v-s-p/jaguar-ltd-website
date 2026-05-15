@@ -21,7 +21,7 @@ kod tekrarı olmadan render edilir.
   (Aluminium / PVC / Gocmaksan)
 - **MachinePage sorumluluğu:** Tek makinenin detay sayfası
 - **Veri import:** `getStaticPaths` içinde async import 
-  (`await import('../../data/machines.json')`)
+  (`await import('../../data/yilmaz.json')`)
 - **Veri okuma deseni:** `machine.diller?.en || machine.diller?.tr || {}` 
   (fallback zinciri)
 - **Marka koşullu mantık:** `brand === 'gocmaksan'` durumunda farklı alan 
