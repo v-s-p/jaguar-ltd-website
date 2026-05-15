@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 YILMAZ MAKINE - JAGUAR LTD ENVANTER GUNCELLEYICI v4.2
-Sitemap-tabanli, resim indirmeli, EN slug bazli + BLACKLIST (Hafizada Temizlik)
+Type-sayfasi tabanli, EN slug bazli + BLACKLIST (Hafizada Temizlik)
 """
 
 import sys, io, hashlib
@@ -12,8 +12,7 @@ if sys.platform == "win32":
 
 import requests
 from bs4 import BeautifulSoup
-import xml.etree.ElementTree as ET
-import json, re, time, shutil, gzip
+import json, re, time, shutil
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
 from datetime import datetime
@@ -22,18 +21,119 @@ from datetime import datetime
 # KONFIG & YOLLAR
 # ===================================================
 BASE     = "https://www.yilmazmachine.com.tr"
-SITEMAPS = [f"{BASE}/urunler-sitemap{i}.xml" for i in range(1, 6)]
 
 SCRIPT_DIR    = Path(__file__).parent
 PROJECT_ROOT  = SCRIPT_DIR.parent
 JSON_OUTPUT   = PROJECT_ROOT / "src" / "data" / "machines.json"
 JSON_BACKUP   = PROJECT_ROOT / "src" / "data" / f"machines_backup_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
+ERROR_OUTPUT  = PROJECT_ROOT / "src" / "data" / "machines_errors.txt"
 IMG_DIR       = PROJECT_ROOT / "public" / "images" / "machines"
 BLACKLIST_DIR = SCRIPT_DIR / "blacklist"
 
 DELAY     = 1.5
 MAX_RETRY = 3
 BAD_HASHES = set()
+
+SKIP_URLS = [
+    "https://www.yilmazmachine.com.tr/en/product-category/vacuum-swarf-extractor-en-2/",
+]
+
+KATEGORI_AGACI = {
+    "Aluminium": {
+        "Processing Centers": [
+            ("Profile Machining and Cutting Center", "https://www.yilmazmachine.com.tr/en/product-category/profile-machining-and-cutting-center/"),
+            ("Sheet Plate Machining Center", "https://www.yilmazmachine.com.tr/en/product-category/sheet-plate-machining-center/"),
+        ],
+        "Saw Cutting": [
+            ("Double Head Cutting", "https://www.yilmazmachine.com.tr/en/product-category/double-head-cutting/"),
+            ("Radial Cutting", "https://www.yilmazmachine.com.tr/en/product-category/radial-cutting-2/"),
+            ("Single Head Cutting", "https://www.yilmazmachine.com.tr/en/product-category/single-head-cutting/"),
+            ("Slicing Machine", "https://www.yilmazmachine.com.tr/en/product-category/slicing-machine/"),
+            ("V Cutting", "https://www.yilmazmachine.com.tr/en/product-category/v-cutting/"),
+            ("Portable Cutting", "https://www.yilmazmachine.com.tr/en/product-category/portable-cutting/"),
+        ],
+        "Milling": [
+            ("Numerical Controlled NC Router", "https://www.yilmazmachine.com.tr/en/product-category/numerical-controlled-nc-router/"),
+            ("Portable Copy Router", "https://www.yilmazmachine.com.tr/en/product-category/portable-copy-router-en-2/"),
+            ("Template Copy Router", "https://www.yilmazmachine.com.tr/en/product-category/template-copy-router/"),
+        ],
+        "Corner Crimping": [
+            ("CNC Automatic Corner Crimping", "https://www.yilmazmachine.com.tr/en/product-category/cnc-automatic-corner-crimping/"),
+            ("Hydraulic Corner Crimping", "https://www.yilmazmachine.com.tr/en/product-category/hydrolic-corner-crimping/"),
+            ("Pneumatic Corner Crimping", "https://www.yilmazmachine.com.tr/en/product-category/pneumatic-corner-crimping/"),
+        ],
+        "End Milling": [
+            ("Semi Automatic End Milling", "https://www.yilmazmachine.com.tr/en/product-category/semi-automatic-end-milling/"),
+            ("Portable End Milling", "https://www.yilmazmachine.com.tr/en/product-category/portable-end-milling/"),
+            ("Facade Notching Saw", "https://www.yilmazmachine.com.tr/en/product-category/facade-notching-saw/"),
+        ],
+        "Pressing": [
+            ("Manual Punch Press", "https://www.yilmazmachine.com.tr/en/product-category/manual-punch-press/"),
+        ],
+        "Transferring": [
+            ("Trolley", "https://www.yilmazmachine.com.tr/en/product-category/trolley/"),
+        ],
+        "Conveying": [
+            ("Conveyors", "https://www.yilmazmachine.com.tr/en/product-category/conveyors/"),
+        ],
+        "Swarf Extraction": [
+            ("Vacuum Swarf Extractor", "https://www.yilmazmachine.com.tr/en/product-category/vacuum-swarf-extractor-en/"),
+        ],
+        "Assembling": [
+            ("Sash Assembly Station", "https://www.yilmazmachine.com.tr/en/product-category/sash-assembly-station/"),
+            ("Work Bench", "https://www.yilmazmachine.com.tr/en/product-category/work-beanch/"),
+        ],
+    },
+    "PVC": {
+        "Processing Center": [
+            ("Four Head Corner Welding & Cleaning Line", "https://www.yilmazmachine.com.tr/en/product-category/four-head-corner-welding-cleaning-line/"),
+            ("Profile Cutting & Machining Center", "https://www.yilmazmachine.com.tr/en/product-category/profile-cutting-machining-center/"),
+        ],
+        "Cleaning": [
+            ("CNC Corner Cleaning Machine", "https://www.yilmazmachine.com.tr/en/product-category/cnc-corner-cleaning-machine/"),
+            ("Manual Corner Cleaning Machine", "https://www.yilmazmachine.com.tr/en/product-category/manual-corner-cleaning-machine/"),
+            ("Window Gasket Milling Machine", "https://www.yilmazmachine.com.tr/en/product-category/window-gasket-milling-machine/"),
+        ],
+        "Cutting": [
+            ("Double Head Cutting", "https://www.yilmazmachine.com.tr/en/product-category/double-head-cutting-2/"),
+            ("Glazing Bead Cutting", "https://www.yilmazmachine.com.tr/en/product-category/glazing-bead-cutting/"),
+            ("Reinforcement Sheet Band Saw", "https://www.yilmazmachine.com.tr/en/product-category/reinforcement-sheet-band-saw/"),
+            ("Reinforcement Sheet Circular Saw", "https://www.yilmazmachine.com.tr/en/product-category/reinforcement-sheet-circular-saw/"),
+            ("Single Head Cutting", "https://www.yilmazmachine.com.tr/en/product-category/single-head-cutting-2/"),
+            ("Portable Cutting", "https://www.yilmazmachine.com.tr/en/product-category/portable-cutting-2/"),
+        ],
+        "Milling": [
+            ("Template Copy Router", "https://www.yilmazmachine.com.tr/en/product-category/template-copy-router-machine/"),
+            ("Portable Copy Router", "https://www.yilmazmachine.com.tr/en/product-category/portable-copy-router-en/"),
+        ],
+        "End Milling": [
+            ("End Milling Machine", "https://www.yilmazmachine.com.tr/en/product-category/end-milling-machine-2/"),
+            ("Portable End Milling", "https://www.yilmazmachine.com.tr/en/product-category/portable-end-milling-en/"),
+        ],
+        "Screwdriving": [
+            ("Double Head Reinforcement Steel Screwdriver", "https://www.yilmazmachine.com.tr/en/product-category/double-head-reinforcement-stell-screwdriver-en/"),
+            ("Single Head Reinforcement Steel Screwdriver", "https://www.yilmazmachine.com.tr/en/product-category/single-head-reinforcement-stell-screwdriver-en/"),
+            ("Automatic Mullion Connector Assembly Machine", "https://www.yilmazmachine.com.tr/en/product-category/automatic-mullion-connector-assembly-machine/"),
+        ],
+        "Welding": [
+            ("Double Corner Welding", "https://www.yilmazmachine.com.tr/en/product-category/double-corner-welding/"),
+            ("Four Corner Welding", "https://www.yilmazmachine.com.tr/en/product-category/four-corner-welding/"),
+            ("Single Corner Welding", "https://www.yilmazmachine.com.tr/en/product-category/single-corner-welding/"),
+        ],
+        "Transferring": [
+            ("Trolley", "https://www.yilmazmachine.com.tr/en/product-category/trolley-en/"),
+        ],
+        "Swarf Extraction": [
+            ("Vacuum Swarf Extractor", "https://www.yilmazmachine.com.tr/en/product-category/vacuum-swarf-extractor-en-2/"),
+        ],
+        "Conveying": [
+            ("Conveyors", "https://www.yilmazmachine.com.tr/en/product-category/conveyors-en/"),
+        ],
+        "Assembling": [
+            ("Sash Assembly Station", "https://www.yilmazmachine.com.tr/en/product-category/sash-assembly-station-en/"),
+        ],
+    }
+}
 
 # ===================================================
 # KATEGORI HARITASI
@@ -108,19 +208,37 @@ def kategori_belirle(slug):
     if 'pvc' in slug_l: return ["PVC"], ["DIGER"]
     return ["Aluminyum"], ["DIGER"]
 
-def parse_xml_safe(content_bytes):
-    if content_bytes[:2] == b'\x1f\x8b':
-        try: content_bytes = gzip.decompress(content_bytes)
-        except Exception: pass
-    content_bytes = content_bytes.lstrip(b'\xef\xbb\xbf')
-    try: return ET.fromstring(content_bytes)
-    except ET.ParseError: pass
-    try:
-        text = content_bytes.decode('utf-8', errors='replace').lstrip('\ufeff')
-        return ET.fromstring(text.encode('utf-8'))
-    except ET.ParseError: pass
-    text = content_bytes.decode('latin-1', errors='replace')
-    return ET.fromstring(text.encode('utf-8'))
+def slug_to_title(slug):
+    return slug.replace('-', ' ').strip().title()
+
+def breadcrumb_subcategory_bul(soup):
+    breadcrumb_seciciler = [
+        attrs for attrs in (
+            {"class": re.compile(r'breadcrumb', re.I)},
+            {"id": re.compile(r'breadcrumb', re.I)},
+            {"aria-label": re.compile(r'breadcrumb', re.I)},
+        )
+    ]
+    alanlar = []
+    for secici in breadcrumb_seciciler:
+        alanlar.extend(soup.find_all(['nav', 'div', 'ul', 'ol'], secici))
+
+    aday_sluglar = []
+    if alanlar:
+        for alan in alanlar:
+            for a in alan.find_all('a', href=True):
+                eslesme = re.search(r'/en/product-category/([^/]+)/?$', a['href'])
+                if eslesme:
+                    aday_sluglar.append(eslesme.group(1))
+    else:
+        for a in soup.find_all('a', href=True):
+            eslesme = re.search(r'/en/product-category/([^/]+)/?$', a['href'])
+            if eslesme:
+                aday_sluglar.append(eslesme.group(1))
+
+    if not aday_sluglar:
+        return None
+    return slug_to_title(aday_sluglar[-1])
 
 def load_blacklist():
     if not BLACKLIST_DIR.exists(): return
@@ -159,34 +277,98 @@ def safe_get(session, url, retries=MAX_RETRY):
     return None
 
 # ===================================================
-# SITEMAP - URL KESFI
+# TYPE SAYFALARI - URL KESFI
 # ===================================================
-NS_URL  = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
-NS_HTML = "{http://www.w3.org/1999/xhtml}"
+def urun_slug_bul(href):
+    if not href:
+        return None
+    full_url = urljoin(BASE, href)
+    path = urlparse(full_url).path.rstrip("/")
+    m = re.match(r"^/en/products/([^/]+)$", path)
+    return m.group(1) if m else None
 
-def sitemap_urls(session):
-    makineler = {}
-    for sitemap_url in SITEMAPS:
-        time.sleep(0.3)
-        r = safe_get(session, sitemap_url)
-        if not r: continue
-        try: root = parse_xml_safe(r.content)
-        except Exception: continue
-        for url_elem in root.findall(f"{NS_URL}url"):
-            loc_elem = url_elem.find(f"{NS_URL}loc")
-            if loc_elem is None: continue
-            loc = loc_elem.text or ""
-            if "/en/products/" not in loc: continue
-            en_slug = loc.rstrip("/").split("/")[-1]
-            if not en_slug or en_slug == "products": continue
-            tr_url = ""
-            for link in url_elem.findall(f"{NS_HTML}link"):
-                if link.get("hreflang") == "tr":
-                    tr_url = link.get("href", "")
-                    break
-            if en_slug not in makineler:
-                makineler[en_slug] = {"en_url": loc, "tr_url": tr_url}
-    return makineler
+def type_sayfasindan_sluglari_cek(session, page_url):
+    resp = safe_get(session, page_url)
+    if resp is None:
+        return None
+    soup = BeautifulSoup(resp.content, "html.parser")
+    sluglar = []
+    gorulen = set()
+    for a in soup.find_all("a", href=True):
+        slug = urun_slug_bul(a["href"])
+        if slug and slug not in gorulen:
+            gorulen.add(slug)
+            sluglar.append(slug)
+    return sluglar
+
+def skip_sluglarini_topla(session):
+    skip_sluglar = set()
+    hata_satirlari = []
+    for skip_url in SKIP_URLS:
+        sluglar = type_sayfasindan_sluglari_cek(session, skip_url)
+        if sluglar is None:
+            hata_satirlari.append(f"SKIP_PAGE_FETCH_ERROR\t{skip_url}")
+            continue
+        for slug in sluglar:
+            skip_sluglar.add(slug)
+            hata_satirlari.append(f"SKIP_URL_MATCH\t{slug}\t{skip_url}")
+    return skip_sluglar, hata_satirlari
+
+def type_agacini_tara(session):
+    skip_sluglar, hata_satirlari = skip_sluglarini_topla(session)
+    slug_haritasi = {}
+    type_istatistikleri = []
+
+    for category, subcats in KATEGORI_AGACI.items():
+        for subcategory, type_list in subcats.items():
+            for type_name, type_url in type_list:
+                time.sleep(0.3)
+                sluglar = type_sayfasindan_sluglari_cek(session, type_url)
+                if sluglar is None:
+                    hata_satirlari.append(f"TYPE_PAGE_FETCH_ERROR\t{type_url}")
+                    type_istatistikleri.append({
+                        "category": category,
+                        "subcategory": subcategory,
+                        "type": type_name,
+                        "url": type_url,
+                        "count": 0,
+                    })
+                    continue
+
+                kalan_sayisi = 0
+                for slug in sluglar:
+                    if slug in skip_sluglar:
+                        continue
+                    kalan_sayisi += 1
+                    kayit = slug_haritasi.get(slug)
+                    if kayit is None:
+                        slug_haritasi[slug] = {
+                            "en_url": f"{BASE}/en/products/{slug}/",
+                            "tr_url": "",
+                            "category": category,
+                            "categories": [category],
+                            "subcategory": subcategory,
+                            "type": type_name,
+                            "type_url": type_url,
+                        }
+                        continue
+
+                    if category not in kayit["categories"]:
+                        kayit["categories"].append(category)
+                    kayit["category"] = category
+                    kayit["subcategory"] = subcategory
+                    kayit["type"] = type_name
+                    kayit["type_url"] = type_url
+
+                type_istatistikleri.append({
+                    "category": category,
+                    "subcategory": subcategory,
+                    "type": type_name,
+                    "url": type_url,
+                    "count": kalan_sayisi,
+                })
+
+    return slug_haritasi, type_istatistikleri, hata_satirlari
 
 # ===================================================
 # RESIM INDIRME (HAFIZADA TEMIZLIK)
@@ -279,6 +461,9 @@ def parse_page(session, en_slug, urls, download_images):
 
     cdn_resimler = sorted(cdn_resimler)
 
+    # `--images` yoksa klasore dokunmadan mevcut yerel gorselleri kullan.
+    yerel_resimler = _mevcut_resim_bul(en_slug)
+
     # === YENI: Dinamik Indeksleme (Copleri atla, sayiyi koru) ===
     resimler = []
     if download_images and cdn_resimler:
@@ -289,22 +474,22 @@ def parse_page(session, en_slug, urls, download_images):
                 resimler.append(lokal)
                 gecerli_index += 1 # Sadece gercek resimlerde indexi artir
             time.sleep(0.2)
+    elif yerel_resimler:
+        resimler = yerel_resimler
     elif cdn_resimler:
         resimler = list(cdn_resimler)
-    else:
-        resimler = _mevcut_resim_bul(en_slug)
 
     specs = {
-        "STANDART AKSESUARLAR": [],
-        "OPSIYONEL AKSESUARLAR": [],
-        "GENEL OZELLIKLER": [],
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [],
     }
     kw_map = {
-        "STANDART": "STANDART AKSESUARLAR", "STANDARD": "STANDART AKSESUARLAR",
-        "OPTIONAL": "OPSIYONEL AKSESUARLAR", "OPSIYONEL": "OPSIYONEL AKSESUARLAR",
-        "GENERAL": "GENEL OZELLIKLER", "GENEL": "GENEL OZELLIKLER",
-        "TECHNICAL": "GENEL OZELLIKLER", "TEKNIK": "GENEL OZELLIKLER",
-        "FEATURES": "GENEL OZELLIKLER", "SPECIFICATIONS": "GENEL OZELLIKLER",
+        "STANDART": "STANDARD ACCESSORIES", "STANDARD": "STANDARD ACCESSORIES",
+        "OPTIONAL": "OPTIONAL ACCESSORIES", "OPSIYONEL": "OPTIONAL ACCESSORIES",
+        "GENERAL": "GENERAL FEATURES", "GENEL": "GENERAL FEATURES",
+        "TECHNICAL": "GENERAL FEATURES", "TEKNIK": "GENERAL FEATURES",
+        "FEATURES": "GENERAL FEATURES", "SPECIFICATIONS": "GENERAL FEATURES",
     }
     for hx in soup.find_all(['h2','h3','h4']):
         baslik = hx.get_text(strip=True).upper()
@@ -357,9 +542,10 @@ def parse_page(session, en_slug, urls, download_images):
                 katalog_url = urljoin(BASE, href) if href.startswith('/') else href
                 break
 
+    breadcrumb_alt_en = breadcrumb_subcategory_bul(soup)
     kategoriler_tr, alt_kategoriler_tr = kategori_belirle(en_slug)
     kategoriler_en = [KAT_EN.get(k, k) for k in kategoriler_tr]
-    alt_en = ALT_EN.get(alt_kategoriler_tr[0], alt_kategoriler_tr[0]) if alt_kategoriler_tr else "Other"
+    alt_en = breadcrumb_alt_en or (ALT_EN.get(alt_kategoriler_tr[0], alt_kategoriler_tr[0]) if alt_kategoriler_tr else "Other")
 
     return {
         "slug": en_slug,
@@ -398,57 +584,71 @@ def _mevcut_resim_bul(en_slug):
 def main():
     print("\n" + "=" * 64)
     print("  YILMAZ MAKINE GUNCELLEYICI v4.2")
-    print("  Sitemap | EN resim isimleri | BLACKLIST KORUMASI")
+    print("  Type sayfalari | EN resim isimleri | BLACKLIST KORUMASI")
     print("=" * 64 + "\n")
 
     load_blacklist() # === YENI: Baslarken karalisteyi yukle ===
 
-    test_mode       = "--test"    in sys.argv
-    download_images = "--images"  in sys.argv
-    skip_existing   = "--skip"    in sys.argv
-
-    mevcut_sluglar = set()
-    if skip_existing and JSON_OUTPUT.exists():
-        with open(JSON_OUTPUT, 'r', encoding='utf-8') as f:
-            mevcut_sluglar = {m["slug"] for m in json.load(f)}
+    test_mode = "--test" in sys.argv
+    download_images = "--images" in sys.argv
 
     session = build_session()
-    tum_urls = sitemap_urls(session)
+    tum_urls, type_istatistikleri, hata_satirlari = type_agacini_tara(session)
 
     if not tum_urls:
-        log("Hic URL bulunamadi!", "ERR")
+        log("Hic urun bulunamadi!", "ERR")
         sys.exit(1)
 
-    if skip_existing: tum_urls = {k: v for k, v in tum_urls.items() if k not in mevcut_sluglar}
-
     items = list(tum_urls.items())
-    if test_mode: items = items[:3]
+    if test_mode: items = items[:5]
 
     log(f"=== {len(items)} MAKINE ISLENIYOR ===", "SCAN")
     makineler, hatali = [], 0
+    standart_dolu = 0
 
     for i, (en_slug, urls) in enumerate(items, 1):
         log(f"[{i}/{len(items)}] {en_slug}")
         time.sleep(DELAY)
         m = parse_page(session, en_slug, urls, download_images)
-        if m: makineler.append(m)
-        else: hatali += 1
-
-    if skip_existing and mevcut_sluglar and JSON_OUTPUT.exists():
-        with open(JSON_OUTPUT, 'r', encoding='utf-8') as f:
-            eski = json.load(f)
-        yeni_s = {m["slug"] for m in makineler}
-        makineler = [m for m in eski if m["slug"] not in yeni_s] + makineler
+        if m:
+            m["category"] = urls["category"]
+            m["categories"] = urls["categories"]
+            m["subcategory"] = urls["subcategory"]
+            m["type"] = urls["type"]
+            m["diller"]["en"].pop("catalog", None)
+            if m["diller"]["en"]["specs"]["STANDARD ACCESSORIES"]:
+                standart_dolu += 1
+            makineler.append(m)
+        else:
+            hatali += 1
+            hata_satirlari.append(f"DETAIL_PARSE_ERROR\t{en_slug}\t{urls['en_url']}")
 
     makineler.sort(key=lambda m: m["slug"])
 
     if JSON_OUTPUT.exists(): shutil.copy2(JSON_OUTPUT, JSON_BACKUP)
 
     JSON_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(ERROR_OUTPUT, 'w', encoding='utf-8') as f:
+        if hata_satirlari:
+            f.write("\n".join(hata_satirlari) + "\n")
+        else:
+            f.write("OK\n")
+
+    JSON_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with open(JSON_OUTPUT, 'w', encoding='utf-8') as f:
         json.dump(makineler, f, ensure_ascii=False, indent=2)
 
-    print(f"\n  TAMAMLANDI. Toplam: {len(makineler)} | Hatali: {hatali}\n")
+    print(f"\n  TAMAMLANDI. Toplam: {len(makineler)} | Hatali: {hatali}")
+    print(f"  STANDARD ACCESSORIES dolu: {standart_dolu}\n")
+    print("  TYPE URL OZETI:")
+    for row in type_istatistikleri:
+        print(f"    - {row['category']} | {row['subcategory']} | {row['type']} | {row['count']} | {row['url']}")
+    if hata_satirlari:
+        print("  HATA / ATLANAN KAYITLAR:")
+        for line in hata_satirlari:
+            print(f"    - {line}")
+    else:
+        print("  HATA / ATLANAN KAYITLAR: yok\n")
 
 if __name__ == "__main__":
     main()

@@ -3,9 +3,10 @@
     "slug": "ack-420-s-up-cutting-saw-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "ACK 420 S - Up-Cutting Saw Machine",
@@ -64,19 +65,19 @@
         "technical_data": {
           "ACK 420 S – Up-Cutting Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Single Head Cutting"
+    }
   },
   {
     "slug": "ack-550-up-cutting-saw-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "ACK 550 - Up-Cutting Saw Machine",
@@ -132,19 +133,19 @@
         "technical_data": {
           "ACK 550 – Up-Cutting Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Single Head Cutting"
+    }
   },
   {
     "slug": "ack-700-up-cutting-saw-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "ACK 700 - Up-Cutting Saw Machine",
@@ -190,11 +191,10 @@
         "technical_data": {
           "ACK 700 – Up-Cutting Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Single Head Cutting"
+    }
   },
   {
     "slug": "aim-3410-aluminium-profile-machining-center",
@@ -202,7 +202,7 @@
     "categories": [
       "Aluminium"
     ],
-    "subcategory": "Processing Centers",
+    "subcategory": "Machining Centers",
     "diller": {
       "en": {
         "name": "AIM 3410 - Aluminium Profile Machining Center",
@@ -266,11 +266,10 @@
         "technical_data": {
           "AIM 3410 – Aluminium Profile Machining Center": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Profile Machining and Cutting Center"
+    }
   },
   {
     "slug": "aim-4420",
@@ -278,7 +277,7 @@
     "categories": [
       "Aluminium"
     ],
-    "subcategory": "Processing Centers",
+    "subcategory": "Machining Centers",
     "diller": {
       "en": {
         "name": "AIM 4420",
@@ -330,11 +329,10 @@
         "technical_data": {
           "AIM 4420": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Profile Machining and Cutting Center"
+    }
   },
   {
     "slug": "aim-7420",
@@ -342,7 +340,7 @@
     "categories": [
       "Aluminium"
     ],
-    "subcategory": "Processing Centers",
+    "subcategory": "Machining Centers",
     "diller": {
       "en": {
         "name": "AIM 7420",
@@ -405,84 +403,10 @@
         "technical_data": {
           "AIM 7420": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "Aluminium",
-    "type": "Profile Machining and Cutting Center"
-  },
-  {
-    "slug": "aim-7510-aluminium-profile-processing-centers",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "Processing Centers",
-    "diller": {
-      "en": {
-        "name": "AIM 7510 - Aluminium Profile Processing Centers",
-        "description": "",
-        "images": [
-          "/images/machines/aim-7510-aluminyum-profil-isleme-merkezi-1.png",
-          "/images/machines/aim-7510-aluminyum-profil-isleme-merkezi-2.jpg",
-          "/images/machines/aim-7510-aluminyum-profil-isleme-merkezi-3.jpg",
-          "/images/machines/aim-7510-aluminyum-profil-isleme-merkezi-4.jpg",
-          "/images/machines/aim-7510-aluminyum-profil-isleme-merkezi-5.jpg",
-          "/images/machines/aim-7510-aluminyum-profil-isleme-merkezi-6.jpg",
-          "/images/machines/aim-7510-aluminyum-profil-isleme-merkezi-7.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "CAMPROX software program for CNC programming",
-            "Safety fence around the machine",
-            "8 x pneumatic profile clamps",
-            "2 x pneumatic rests",
-            "Chip pan in the machine frame"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Cutter tools, tool holders and collets set 6 pc cutters (2 pc. Ø5, 1 pc. Ø6, 1 pc. Ø8, 1 pc. Ø10, 1 pc. Ø12) – 12 pc. HSK F63 Tool holders – 6 pc. Collets ( 3 pc. Ø5-6, 1 pc. Ø7-8, 1 pc. Ø9-10, 1 pc. Ø11-12) – 12 pc. mold height",
-            "CAD-EXTRACT software program for working on IGES files",
-            "Special saw blade kit",
-            "Oil mist blower",
-            "Barcode reader",
-            "Barcode printer",
-            "Air conditioning system set",
-            "Adustable Clamp Pressure System",
-            "Individual Clamp Control Set (for 8 pcs. of clamps)",
-            "HSK F63 Gauge",
-            "ASİMETO Dial Gauge",
-            "Dial Gauge Mounting Apparatus",
-            "Chip conveyor belt in the machine frame"
-          ],
-          "GENERAL FEATURES": [
-            "CNC automation system providing motion control at 5-axis",
-            "Uninterrupted machining property by means of the tandem mode to prevent waste of time",
-            "Ability of effective CAM programming by means of user-friendly CAM PROX program",
-            "2 x separate magazine unit for 12 standard tools and 1 for saw blade with Ø350 mm",
-            "Solid steel construction of the body and dynamic performance gantry",
-            "Automatic clamp recognition and clamp positioning are available",
-            "Tapping feature from M5 to M8 for open holes and 1-4 mm of material thickness)(optional)",
-            "Special sound insulation cabinet around the machining center",
-            "High precision HSD spindle and internationally recognized components",
-            "CNC controlled spray tool lubrication system",
-            "8x automatic clamps used for grabbing the work piece firmly",
-            "2x pneumatic rests used for resetting the work piece in X direction",
-            "Hand held controller allows you to prove the job before running at speed",
-            "Optimum operational safety guaranteed by 3-zone field scanner system",
-            "10’’ colour touch screen",
-            "Program import via USB flash memory stick",
-            "Standard ISO ‘G’ code programming language and multi-language support",
-            "Automatic central guide lubrication system and LED lighting in the cabinet"
-          ]
         },
-        "technical_data": {
-          "AIM 7510 – Aluminium Profile Processing Centers": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Profile Machining and Cutting Center"
+    }
   },
   {
     "slug": "ca-601-semi-automatic-pvc-single-corner-cleaning-machine",
@@ -490,7 +414,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Cleaning",
+    "subcategory": "Corner Cleaning",
     "diller": {
       "en": {
         "name": "CA 601 - Semi-automatic PVC Single Corner Cleaning Machine",
@@ -534,11 +458,10 @@
         "technical_data": {
           "CA 601 – Semi-automatic PVC Single Corner Cleaning Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Manual Corner Cleaning Machine"
+    }
   },
   {
     "slug": "ca-603-pvc-corner-cleaning-machine-4-6-cutters",
@@ -546,7 +469,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Cleaning",
+    "subcategory": "Corner Cleaning",
     "diller": {
       "en": {
         "name": "CA 603 - PVC Corner Cleaning Machine (4 - 6 cutters)",
@@ -584,11 +507,10 @@
         "technical_data": {
           "CA 603 – PVC Corner Cleaning Machine (4 – 6 cutters)": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Manual Corner Cleaning Machine"
+    }
   },
   {
     "slug": "ccl-1661-pvc-corner-cleaning-machine",
@@ -596,7 +518,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Processing Center",
+    "subcategory": "Machining Centers",
     "diller": {
       "en": {
         "name": "CCL 1661 - PVC Welding & Corner Cleaning Line",
@@ -654,131 +576,10 @@
         "technical_data": {
           "CCL 1661 – PVC Welding & Corner Cleaning Line": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Four Head Corner Welding & Cleaning Line"
-  },
-  {
-    "slug": "cdc-600-compound-angle-double-head-saw-cutting-machine",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "Saw Cutting",
-    "diller": {
-      "en": {
-        "name": "CDC 600 - Compound Angle Double Head Saw Cutting Machine",
-        "description": "CDC 600 is a fully automatic machine designed to cut large size of PVC and aluminium profiles, straight or at an angle with a double-head Ø 600 mm saw. \nIt offers optimum cutting capacity in different cutting variations thanks to the large diameter saw and the pivoting & tilting mechanism cutting from underneath. Left cutting unit is fixed and mobile right cutting unit goes to measure automatically. It provides a great advantage to the user by making cuts at special angles without making calculations in cutting to point to point operations.",
-        "images": [
-          "/images/machines/cdc-600-bilesik-acili-otomatik-cift-kafa-kesme-makinesi-1.png",
-          "/images/machines/cdc-600-compound-angle-double-head-saw-cutting-machine-4.png"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Equipped with 2x Ø 600 mm saw blades",
-            "Barcode printer",
-            "Profile support conveyor",
-            "2 x pneumatic pop-up supports",
-            "Spray saw blade cooling system",
-            "4 x pneumatic vertical clamps",
-            "2 x pneumatic horizontal clamps",
-            "Keyboard & mouse set"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Machine with the length of 7 m",
-            "VCE 1570 Vacuum chip extraction system",
-            "Chip conveyor belt (5m)",
-            "Chip conveyor belt (7m)",
-            "Profile loading ramp (H:180 mm)",
-            "RS 1000 Profile support foot",
-            "Spare saw blade Ø 600 mm"
-          ],
-          "GENERAL FEATURES": [
-            "Two-hand safety operation",
-            "Possibility of cutting at different angles with 2 x Ø600 mm diameter saws",
-            "Automatic servo control hardware for all angle and linear movements",
-            "Automatic precise angle adjustment at all angles",
-            "Pivoting of heads from 22,5° inwards and 140° outwards",
-            "Tilting of both saws to 45° inward",
-            "Compound cuts (45° x 45°) pivoting and tilting on both heads",
-            "Saw movement controlled by electrical cylinder",
-            "Profile support conveyor",
-            "2 x pneumatic profile pop-up supports",
-            "Profile lifting system to prevent the profile surface from being scratched",
-            "Windows based industrial PC and 15” colored touch screen control unit",
-            "Facility to transfer the cutting lists in 'mdb' and 'csv' formats via USB memory and network",
-            "Provide technical support via remote connection",
-            "Short length cuts by automatic slicing feature",
-            "User-friendly graphical software",
-            "Arrow cutting feature for mullion profiles",
-            "Retractable workpiece stop for short-cut (up to 200 mm) feature at movable head",
-            "Barcode printer",
-            "Saw blade motor power: 2 pcs. x 4 kW"
-          ]
         },
-        "technical_data": {
-          "CDC 600 – Compound Angle Double Head Saw Cutting Machine": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Double Head Cutting"
-  },
-  {
-    "slug": "ck-412-pvc-glazing-bead-saw",
-    "brand": "yilmaz",
-    "categories": [
-      "PVC"
-    ],
-    "subcategory": "Cutting",
-    "diller": {
-      "en": {
-        "name": "CK 412 - PVC Glazing Bead Saw",
-        "description": "CK 412 is an automatically operating cutting machine designed for 45 ° cutting of PVC glazing bead profiles.",
-        "images": [
-          "/images/machines/ck-412-pvc-cita-kesme-makinesi-1.png",
-          "/images/machines/ck-412-pvc-cita-kesme-makinesi-2.png",
-          "/images/machines/ck-412-pvc-cita-kesme-makinesi-3.png",
-          "/images/machines/ck-412-pvc-cita-kesme-makinesi-4.png"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "2x Ø 200 and 2x Ø 103 mm saw blades",
-            "KN 152 roller conveyor for in-feeding with manual measuring unit",
-            "Air gun"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Electrical foot pedal and regulator & monometer for the vertical clamps",
-            "SKN 301 length stop together with 1.55/2.955 m of digital measuring unit",
-            "MKN 300 length stop",
-            "SKN 300 length stop",
-            "SKN 600 length stop",
-            "Digital measuring rod 1.55/2.955 m (for SKN 300 & SKN 600 application)",
-            "Spare saw blade, Ø200 mm",
-            "Spare saw blade, Ø103 mm",
-            "Moulds for special glazing beads",
-            "KN 152 roller conveyor for out-feeding"
-          ],
-          "GENERAL FEATURES": [
-            "Adjustable saw blade feeding speed",
-            "Pneumatic saw feed by pushing button",
-            "Equipped with 2x pneumatic vertical clamps",
-            "Automatic return to start point of the process",
-            "Twin blade design",
-            "Ability to cut 8 different glazing bead profiles without a mould by using mechanical memory"
-          ]
-        },
-        "technical_data": {
-          "CK 412 – PVC Glazing Bead Saw": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Glazing Bead Cutting"
+    }
   },
   {
     "slug": "cnc-609",
@@ -786,7 +587,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Cleaning",
+    "subcategory": "Machining Centers",
     "diller": {
       "en": {
         "name": "CNC 609",
@@ -836,11 +637,10 @@
         "technical_data": {
           "CNC 609": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "CNC Corner Cleaning Machine"
+    }
   },
   {
     "slug": "cnc-611",
@@ -848,7 +648,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Cleaning",
+    "subcategory": "Machining Centers",
     "diller": {
       "en": {
         "name": "CNC 611",
@@ -898,141 +698,19 @@
         "technical_data": {
           "CNC 611": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "CNC Corner Cleaning Machine"
-  },
-  {
-    "slug": "cpm-4150-s",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "Processing Centers",
-    "diller": {
-      "en": {
-        "name": "CPM 4150 S",
-        "description": "CPM 4150 is a CNC controlled machine which is specifically designed to machine any kind of composite panels, aluminium panels up to 4 mm of thickness, PVC panels, vs. commercially available. The machine is able to process the joint grooves on composite panels that are required for bending, drilling any type of holes, dimensioning the panels according to required sizes, etc.",
-        "images": [
-          "/images/machines/cpm-4150-s-1.webp",
-          "/images/machines/cpm-4150-s-2.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "External chip removal system",
-            "Air gun",
-            "Compensation system that adjusts the Z axis tool position",
-            "Spray tool cooling system",
-            "Safety fence around the machine"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Special CAM programs via basic model of AlphaCAM software",
-            "Spare cutters",
-            "Spare ISO 30 tool holders",
-            "Spare collets"
-          ],
-          "GENERAL FEATURES": [
-            "Equipped with the automatic vacuum system concentrating the suction on the machining area",
-            "3 axis CNC automation system",
-            "Solid steel construction of the body and dynamic performance gantry",
-            "Application of special cutting operations with minimum scrap by YILMAZ CAM software",
-            "Z axis heat compensation system that adjusts the Z position of the cutter bit automatically considering to elongation on the spindle because of the thermal changes. (Patented)",
-            "High precision HSD spindle and internationally recognized components",
-            "Minimum tool change time with 6 station of tool magazine unit fixed on the gantry",
-            "4 pcs. of pneumatic pop-up stops enable you to locate the work plate accurately",
-            "Specially designed work table and powerful vacuum system to hold down the small pieces firmly",
-            "Air cushioning system to move the big size of the plate on the table easily",
-            "Integrated tool length sensor ensures precise tool length measurements in Z axis",
-            "Optimum dust extraction performance with specially designed vortex head and vacuum extractor",
-            "Multi language support (Turkish and English)",
-            "PLC controlled tool cooling system",
-            "Specially designed control panel with colour display for CNC control",
-            "Hand held controller allow you to prove the job before running at speed",
-            "Easy program transfer with USB memory stick",
-            "Low maintenance cost with automatic central lubrication system",
-            "Operator safety barrier"
-          ]
         },
-        "technical_data": {
-          "CPM 4150 S": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Sheet Plate Machining Center"
-  },
-  {
-    "slug": "cpm-6161-double-station-composite-panel-processing-machine",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "Processing Centers",
-    "diller": {
-      "en": {
-        "name": "CPM 6161 - Double Station Composite Panel Processing Machine",
-        "description": "3-axis CNC controlled CPM 6161 machine featured with double station table (2 pc. x 3200 mm) is ideal for machining any kind of aluminium composite panel, aluminium sheets up to 4 mm of thickness, flexy panels, laminate plates etc. commercially available. The machine is equipped with a series of valves that turn on/off automatically in order to concentrate the suction on the machining area. The machine is able to process joint grooves on the composite panels that are required for bending, drilling holes, opening the slots, interpolated milling operations such as writing & drawing, cutting the panels according to required sizes, etc. Enjoy the profits of perfect CPM 6161 machine that provides user-friendly software and mechanical features.",
-        "images": [
-          "/images/machines/cpm-6161-cift-istasyonlu-kompozit-panel-isleme-merkezi-1.jpg",
-          "/images/machines/cpm-6161-cift-istasyonlu-kompozit-panel-isleme-merkezi-2.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "External chip removal system",
-            "2 x Air gun",
-            "Compensation system that adjusts the Z axis tool position",
-            "Spray tool cooling system",
-            "Safety fence around the machine"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Special CAM programs via basic model of Alpha CAM software",
-            "Spare cutters",
-            "Spare ISO 30 tool holders",
-            "Spare collets"
-          ],
-          "GENERAL FEATURES": [
-            "Equipped with the automatic vacuum system concentrating the suction on the required area",
-            "Minimal waste of time with the feature of uninterrupted operation with double station table",
-            "CNC automation system providing movement in 3 axes",
-            "With a processing area of 1600 x 6650 mm or 2 pc. of 1600 x 3200 mm",
-            "Application of special cutting operations with minimum scrap by YILMAZ CAM software",
-            "High precision HSD spindle and internationally recognized components",
-            "Z axis heat compensation system that adjusts the Z position of the cutter bit automatically considering to elongation on the spindle because of the thermal changes. (Patented)",
-            "Solid steel construction of the body and dynamic performance gantry",
-            "Minimum tool change time with 6 station automatic tool changer fixed on the gantry",
-            "Vortex chip removal head & extractor that cleans all the chips from the work plate",
-            "Pneumatic pop-up stops enable you to locate the work plate accurately",
-            "Air cushioning system to move the big size of the plate on the table easily",
-            "Specially designed work table and powerful vacuum system to hold down the small pieces firmly",
-            "Integrated tool length sensor ensures precise tool length measurements",
-            "Optimum operational safety guaranteed by 3-zone field scanner system",
-            "Multi language support (Turkish and English)",
-            "PLC controlled tool cooling system",
-            "Control panel with color display for CNC control",
-            "Hand held controller allow you to prove the job before running at speed",
-            "Easy program transfer with USB memory stick",
-            "Low maintenance cost with automatic central lubrication system"
-          ]
-        },
-        "technical_data": {
-          "CPM 6161 – Double Station Composite Panel Processing Machine": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
-      }
-    },
-    "category": "Aluminium",
-    "type": "Sheet Plate Machining Center"
+    }
   },
   {
     "slug": "crm-201-s-template-copy-router-machine-with-triple-hole-water-slot-drilling",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
-    "subcategory": "Milling",
+    "subcategory": "Routing & Milling",
     "diller": {
       "en": {
         "name": "CRM 201 S - Template Copy Router Machine with Triple Hole & Water Slot Drilling",
@@ -1079,19 +757,19 @@
         "technical_data": {
           "CRM 201 S – Template Copy Router Machine with Triple Hole & Water Slot Drilling": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Template Copy Router"
+    }
   },
   {
     "slug": "crm-250-s-template-copy-router-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Milling",
+    "subcategory": "Routing & Milling",
     "diller": {
       "en": {
         "name": "CRM 250 S - Template Copy Router Machine",
@@ -1132,77 +810,16 @@
         "technical_data": {
           "CRM 250 S – Template Copy Router Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "Aluminium",
-    "type": "Template Copy Router"
-  },
-  {
-    "slug": "dc-421-pbs-double-head-mitre-saw-machine-full-automatic",
-    "brand": "yilmaz",
-    "categories": [
-      "PVC"
-    ],
-    "subcategory": "Cutting",
-    "diller": {
-      "en": {
-        "name": "DC 421 PBS - Double Head Mitre Saw Machine (Full Automatic)",
-        "description": "DC 421 PBS is a fully automatic sawing machine that is designed for the strait or angular cutting operations of large size of profiles made of PVC and aluminium materials by means of double head sawing units equipped with Ø 420 mm of saw blades",
-        "images": [
-          "/images/machines/dc-421-pbs-cift-kafa-kesme-makinesi-tam-otomatik-1.jpg",
-          "/images/machines/dc-421-psd-cift-kafa-kesme-makinesi-tam-otomatik-1.png",
-          "/images/machines/dc-421-psd-double-head-mitre-saw-machine-full-automatic-4.png"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "2 x Ø 420 mm of saw blade",
-            "Roller conveyor & 2 x pneumatic profile supports",
-            "Spray saw blade lubrication system",
-            "4 x pneumatic horizontal clamps",
-            "Air gun",
-            "2 x pneumatic vertical clamps",
-            "Barcode printer"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "DKN 70 short cut system (digital)",
-            "DKN 71 short cut system (with ruler)",
-            "VCE 1570 chip vacuum extractor",
-            "Spare saw blade Ø 420",
-            "Mould heights for special profiles",
-            "DKN 80 arrow cut system for mullion profiles",
-            "RS 1000 Profile support foot",
-            "Machine with the length of 5 m",
-            "Machine with the length of 6 m"
-          ],
-          "GENERAL FEATURES": [
-            "Two-hand safety operation",
-            "Tilting automatically to 90° and 45° inwards for both angles. Manual adjustment of other intermediate angles from 90° to 45° inwards",
-            "Automatic slicing feature at 90° and 45°inward",
-            "Hydro-pneumatic saw blade feed",
-            "Cutting accuracy +/- 0.2 mm",
-            "Solid steel construction of the body",
-            "Automatically closing safety guards",
-            "Windows based industrial PC and 15’’ LCD touch screen colour monitor",
-            "Facility to transfer the cutting list in ‘mdb’ and ‘csv’ format via USB and network",
-            "Obtains profile cutting dimensions and angles from the cut list while working in automatic mode",
-            "Technical support via remote connection capability",
-            "The power of sawing motors: 2 pcs. X 2.2 kW"
-          ]
         },
-        "technical_data": {
-          "DC 421 PBS – Double Head Mitre Saw Machine (Full Automatic)": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Double Head Cutting"
+    }
   },
   {
     "slug": "dc-421-psd-double-head-mitre-saw-machine-full-automatic",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
     "subcategory": "Cutting",
@@ -1253,19 +870,19 @@
         "technical_data": {
           "DC 421 PSD – Double Head Mitre Saw Machine (Full Automatic)": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Double Head Cutting"
+    }
   },
   {
     "slug": "dc-550-pb-double-head-mitre-saw-machines",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "DC 550 PB - Double Head Mitre Saw Machines",
@@ -1326,19 +943,19 @@
         "technical_data": {
           "DC 550 PB –  Double Head Mitre Saw Machines": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Double Head Cutting"
+    }
   },
   {
     "slug": "dc-550-skh-double-head-mitre-saw-machine-full-automatic",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "DC 550 SKH - Double Head Mitre Saw Machine (Full Automatic)",
@@ -1421,11 +1038,10 @@
         "technical_data": {
           "DC 550 SKH – Double Head Mitre Saw Machine (Full Automatic)": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Double Head Cutting"
+    }
   },
   {
     "slug": "dk-502-double-corner-pvc-welding-machine",
@@ -1478,11 +1094,10 @@
         "technical_data": {
           "DK 502 – Double Corner PVC Welding Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Double Corner Welding"
+    }
   },
   {
     "slug": "dk-540-four-corner-pvc-welding-machine",
@@ -1532,11 +1147,10 @@
         "technical_data": {
           "DK 540 – Four Corner PVC Welding Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Four Corner Welding"
+    }
   },
   {
     "slug": "dkn-300-450-600-302-452-602-roller-conveyor-with-manual-stop-display-unit",
@@ -1545,7 +1159,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Conveying",
+    "subcategory": "Conveyors",
     "diller": {
       "en": {
         "name": "DKN 302-602 - Roller Conveyor with Manual Stop & Display Unit",
@@ -1570,19 +1184,19 @@
         "technical_data": {
           "DKN 302-602 – Roller Conveyor with Manual Stop & Display Unit": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Conveyors"
+    }
   },
   {
     "slug": "fr-221-s-pneumatic-template-copy-router",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Milling",
+    "subcategory": "Routing & Milling",
     "diller": {
       "en": {
         "name": "FR 221 S -Pneumatic Template Copy Router",
@@ -1619,11 +1233,10 @@
         "technical_data": {
           "FR 221 S -Pneumatic Template Copy Router": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Template Copy Router"
+    }
   },
   {
     "slug": "fr-222-portable-template-copy-router",
@@ -1632,7 +1245,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Milling",
+    "subcategory": "Routing & Milling",
     "diller": {
       "en": {
         "name": "FR 222 - Portable Template Copy Router",
@@ -1663,75 +1276,19 @@
         "technical_data": {
           "FR 222 – Portable Template Copy Router": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Portable Copy Router"
-  },
-  {
-    "slug": "fr-223-fr-223s-portable-template-copy-router",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium",
-      "PVC"
-    ],
-    "subcategory": "Milling",
-    "diller": {
-      "en": {
-        "name": "FR 223 - FR 223S Portable Template Copy Router",
-        "description": "It is used for the processing of slots for locks, drilling handles, hinges, espagnolette and barrel holes and opening water drain slot on PVC and aluminum profiles up to 3 mm of thickness.",
-        "images": [
-          "/images/machines/fr-223-fr-223s-portable-template-copy-router-4.jpg",
-          "/images/machines/fr-223-fr-223s-portatif-kopya-freze-makinesi-1.jpg",
-          "/images/machines/fr-223-fr-223s-portatif-kopya-freze-makinesi-2.jpg",
-          "/images/machines/fr-223-fr-223s-portatif-kopya-freze-makinesi-3.jpg",
-          "/images/machines/fr-223-fr-223s-portatif-kopya-freze-makinesi-4.jpg",
-          "/images/machines/fr-223-fr-223s-portatif-kopya-freze-makinesi-5.jpg",
-          "/images/machines/fr-223-fr-223s-portatif-kopya-freze-makinesi-6.jpg",
-          "/images/machines/fr-223-fr-223s-portatif-kopya-freze-makinesi-7.png"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Ø5X L60 mm router bit",
-            "2x left and right profile stops",
-            "2x manual horizontal clamps",
-            "Copy template"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Elektrically working spray cooling systems (FR 223 S)",
-            "MS machine stand kit",
-            "Spare Ø5xL60 mm router bit",
-            "Special copy template",
-            "MKN 150 roller conveyor"
-          ],
-          "GENERAL FEATURES": [
-            "Opening locks, drilling handles, hinges, espagnolette and barrel holes etc. on PVC and aluminum profiles",
-            "Ergonomic handle for ease of operation",
-            "Cast aluminum structure",
-            "Corrosion proof bearing shaft",
-            "Machining capacity: Z:270, Y:110, Z:110 mm",
-            "Clamping capacity: W:140",
-            "Chrome electroplated copy template",
-            "Two pcs. of tracer pins",
-            "Equipped with Ø 5 router bit"
-          ]
         },
-        "technical_data": {
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Portable Copy Router"
+    }
   },
   {
     "slug": "fr-226-s-automatic-copy-router-machine",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
-    "subcategory": "Milling",
+    "subcategory": "Routing & Milling",
     "diller": {
       "en": {
         "name": "FR 226 S - Automatic Copy Router Machine",
@@ -1769,51 +1326,10 @@
         "technical_data": {
           "FR 226 S – Automatic Copy Router Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Template Copy Router"
-  },
-  {
-    "slug": "gas-301",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "Assembling",
-    "diller": {
-      "en": {
-        "name": "GAS 301",
-        "description": "",
-        "images": [
-          "/images/machines/gas-301-1.webp",
-          "/images/machines/gas-301-3.webp",
-          "/images/machines/gas-301-4.webp"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [],
-          "OPTIONAL ACCESSORIES": [],
-          "GENERAL FEATURES": [
-            "It is designed for the fast installation of glass on the windows and doors",
-            "Glazed joinery transferring to package on rollers",
-            "Parallel block clamps allow you to set an appropriate balance",
-            "Raising the workpiece 500 mm up for easier installation",
-            "Max./Min. Frame Mounting Dimensions with clamps: Wmax.2375, Wmin: 300 mm / Hmax.3000, Hmin.300 mm",
-            "Max./Min. Frame Mounting Dimensions without clamps: Wmax.2700, Wmin.300 mm / Hmax.3000, Hmin.300 mm",
-            "The angle of upper surface of the table is at 70° in order to carry out the mounting of the glasses easy",
-            "Width (W) x Length (L) x Height (H): 900 x 3050 x 2400 mm",
-            "Loading capacity: 450 kg"
-          ]
         },
-        "technical_data": {
-          "GAS 301": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Work Bench"
+    }
   },
   {
     "slug": "gpt-1000-glass-window-trolley",
@@ -1822,7 +1338,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Transport & Storage",
     "diller": {
       "en": {
         "name": "GPT 1000 - Glass & Window Trolley",
@@ -1848,11 +1364,10 @@
         "technical_data": {
           "GPT 1000 – Glass & Window Trolley": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "gt-1000-gasket-trolley",
@@ -1861,7 +1376,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Transport & Storage",
     "diller": {
       "en": {
         "name": "GT 1000 - Gasket Trolley",
@@ -1886,62 +1401,10 @@
         "technical_data": {
           "GT 1000 – Gasket Trolley": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Trolley"
-  },
-  {
-    "slug": "hdl-400-hdl-700-servo-controlled-automatic-length-stops",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium",
-      "PVC"
-    ],
-    "subcategory": "Conveying",
-    "diller": {
-      "en": {
-        "name": "HDL 400-700 - Servo Controlled Automatic Length Stops",
-        "description": "It is a servo-controlled length stops which helps to cut the profiles precisely in the required measurements. It easily attaches to your existing saw, drill, punch unites or more. Free your operator from tape measures and manual works.",
-        "images": [
-          "/images/machines/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi-1.png",
-          "/images/machines/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi-2.png",
-          "/images/machines/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi-3.png",
-          "/images/machines/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi-4.png",
-          "/images/machines/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi-5.png",
-          "/images/machines/hdl-400-hdl-700-servo-kontrollu-otomatik-profil-dayama-sistemi-6.png"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [],
-          "OPTIONAL ACCESSORIES": [
-            "Barcode printer",
-            "Extendible digital measuring rod, (1.55/2.955 m)"
-          ],
-          "GENERAL FEATURES": [
-            "Turkish, English, Spanish, Russian and  French",
-            "Metric and imperial",
-            "Store up to 50 different lengths",
-            "Manual or automatic operation features",
-            "Easy cutting lists transfer in CSV format with USB or ethernet connection with FTP server",
-            "7’’ HMI colored touch screen monitor",
-            "Preparing cutting lists manually",
-            "Making changes on the cutting lists by the screen",
-            "Technical support with remote access connection via laptop",
-            "Thank to the demount structure, it needs the min. stocking area",
-            "Rack and pinion drive mechanism and rigid steel of construction body provide a repeatable cutting accuracy of +/- .008” (0.2 mm) providing superior pushing force for heaviest jobs",
-            "Adapts to handsaw, double or single miter saws, drills, ironworkers, chop saws and more",
-            "Pieces are cut in the order according to the measurement data that is sent from the digital measuring rod (1.5 m –  3.0 m) (optional)"
-          ]
         },
-        "technical_data": {
-          "HDL 400-700 – Servo Controlled Automatic Length Stops": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Conveyors"
+    }
   },
   {
     "slug": "hp-1000-horizontal-profile-troley",
@@ -1950,7 +1413,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Transport & Storage",
     "diller": {
       "en": {
         "name": "HP 1000 - Horizontal Profile Troley",
@@ -1975,11 +1438,10 @@
         "technical_data": {
           "HP 1000 – Horizontal Profile Troley": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "kd-305-portable-miter-saw-machine",
@@ -2019,16 +1481,16 @@
         "technical_data": {
           "KD 305 -Portable Miter Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Portable Cutting"
+    }
   },
   {
     "slug": "kd-350-d-miter-saw-machine",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
     "subcategory": "Cutting",
@@ -2076,16 +1538,16 @@
         "technical_data": {
           "KD 350 D – Miter Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Single Head Cutting"
+    }
   },
   {
     "slug": "kd-350-m-miter-saw-machine",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
     "subcategory": "Cutting",
@@ -2126,67 +1588,19 @@
         "technical_data": {
           "KD 350 M – Miter Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Single Head Cutting"
-  },
-  {
-    "slug": "kd-350-p-miter-saw-machine",
-    "brand": "yilmaz",
-    "categories": [
-      "PVC"
-    ],
-    "subcategory": "Cutting",
-    "diller": {
-      "en": {
-        "name": "KD 350 PS - Miter Saw Machine",
-        "description": "KD 350D and KD 350PS Miter saw cutting machines are designed for straight and angular cutting of PVC, aluminium and wooden profiles",
-        "images": [
-          "/images/machines/kd-350-p-dereceli-kesme-makinesi-1.png"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Ø 350 mm saw blade",
-            "2 x manual horizontal clamps (KD 350 D)",
-            "2 x pneumatic horizontal clamps (KD 350 PS)",
-            "Air gun (KD 350 PS)",
-            "Saw blade cooling system (KD 350 PS)"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Additional saw blade, Ø 350 mm",
-            "2 x pneumatic vertical clamps (KD 350 PS)",
-            "MKN 300 length stop-right (3m)",
-            "MKN 300 length stop-left (3m)",
-            "DKN 302 length stop-right (3m)",
-            "DKN 602 length stop-left (6m)",
-            "Spare saw blade, Ø 350 mm"
-          ],
-          "GENERAL FEATURES": [
-            "Location points at 45°-30°-22.5°-15°-0° both left and right",
-            "Pivoting range from 45° left to 45° right infinitely adjustable",
-            "Aluminium construction of body and machine stand made of steel sheet",
-            "Robust mechanical construction enables the ease of adjustment for the requested cutting angles",
-            "Strong spring system and protective shield"
-          ]
         },
-        "technical_data": {
-          "KD 350 PS – Miter Saw Machine": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Single Head Cutting"
+    }
   },
   {
     "slug": "kd-400-d-miter-saw-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "KD 400 D - Miter Saw Machine",
@@ -2236,19 +1650,19 @@
         "technical_data": {
           "KD 400 D – Miter Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Single Head Cutting"
+    }
   },
   {
     "slug": "kd-400-m-mitre-saw-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "KD 400 M - Mitre Saw Machine",
@@ -2278,122 +1692,17 @@
         "technical_data": {
           "KD 400 M – Mitre Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "Aluminium",
-    "type": "Single Head Cutting"
-  },
-  {
-    "slug": "kd-400-p-miter-saw-machine",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "Saw Cutting",
-    "diller": {
-      "en": {
-        "name": "KD 400 PS - Miter Saw Machine",
-        "description": "KD 400 PS Miter saw cutting machines are designed for straight and angular cutting of PVC, aluminium and wooden profiles.",
-        "images": [
-          "/images/machines/kd-400-p-dereceli-kesme-makinesi-1.png"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Ø 400 mm saw blade",
-            "2 x manual horizontal clamps (KD 400 D)",
-            "2 x pneumatic horizontal clamps (KD 400 PS)",
-            "Air gun (KD 400 PS)",
-            "Spray saw blade lubrication system (KD 400 PS)"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "2 x pneumatic vertical clamps (KD 400 PS)",
-            "MKN 300 length stop-right (3m)",
-            "MKN 300 length stop-left (3m)",
-            "DKN 302 length stop-right (3m)",
-            "DKN 602 length stop-left (6m)",
-            "Spare saw blade, Ø 400 mm"
-          ],
-          "GENERAL FEATURES": [
-            "Location points at 45°-30°-22.5°-15°-0° both left and right",
-            "Pivoting range from 45° left to 45° right infinitely adjustable",
-            "Aluminium construction of the body and machine stand made of steel sheet",
-            "Robust mechanical construction enables the ease of adjustment for the requested cutting angles",
-            "Strong spring system and protective shield"
-          ]
         },
-        "technical_data": {
-          "KD 400 PS – Miter Saw Machine": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Single Head Cutting"
-  },
-  {
-    "slug": "kd-402-s-double-mitre-saw-machine",
-    "brand": "yilmaz",
-    "categories": [
-      "PVC"
-    ],
-    "subcategory": "Cutting",
-    "diller": {
-      "en": {
-        "name": "KD 402 S-Double Mitre Saw machine",
-        "description": "KD 402 S is designed for the flat or angular cutting operations of large size of profiles made of PVC, aluminium and wooden materials by means of double head sawing units equipped with Ø 400 mm of saw blades.",
-        "images": [
-          "/images/machines/kd-402-s-cift-kafa-kesme-makinesi-1.jpg",
-          "/images/machines/kd-402-s-cift-kafa-kesme-makinesi-2.jpg",
-          "/images/machines/kd-402-s-cift-kafa-kesme-makinesi-3.jpg",
-          "/images/machines/kd-402-s-cift-kafa-kesme-makinesi-4.jpg",
-          "/images/machines/kd-402-s-cift-kafa-kesme-makinesi-5.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Equipped with 2 x Ø 400 mm of saw blades",
-            "Profile support mechanism",
-            "3 x pneumatic horizontal clamps",
-            "2 x pneumatic vertical clamps",
-            "Digital display indicating the cutting length",
-            "Pneumatic spray mist lubrication system",
-            "Air gun"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "VCE 1570 Chip vacuum extractor, reduction & accessories",
-            "Two-step head speed control system (patented)",
-            "Spare saw blade Ø 400 mm"
-          ],
-          "GENERAL FEATURES": [
-            "Two-hand safety operation",
-            "Semi-automatic miter saw with two circular saws designed for flat or angled cutting of PVC, aluminium and wooden materials",
-            "Location points at 0°, 15°, 22.5°, 30° and 45 both left and right",
-            "Pivoting range +45°- 45° inwards and outwards infinitely adjustable",
-            "The left cutting unit is fixed and the right cutting unit is moved manually to its position",
-            "Hydro-pneumatic saw feed",
-            "Manual positioning of sawing heads",
-            "On/off switch for horizontal clamp",
-            "Pressure control valves on the clamps for the adjustment of the profile fixing",
-            "Pneumatic head fixing feature",
-            "The distance between the cutting heads can be adjusted accurately by a digital display",
-            "Max cut length: 3455 mm ,Min cut length: 530 mm",
-            "Power of sawing motors: 2 pcs. x 2.2 kW"
-          ]
-        },
-        "technical_data": {
-          "KD 402 S-Double Mitre Saw machine": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Double Head Cutting"
+    }
   },
   {
     "slug": "km-211-manual-end-milling-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
     "subcategory": "End Milling",
     "diller": {
@@ -2431,11 +1740,10 @@
         "technical_data": {
           "KM 211 S – Manual End Milling Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Semi Automatic End Milling"
+    }
   },
   {
     "slug": "km-212-portable-end-milling-machine",
@@ -2474,11 +1782,10 @@
         "technical_data": {
           "KM 212 – Portable End Milling Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Portable End Milling"
+    }
   },
   {
     "slug": "km-215-s-semi-automatic-end-milling-machine",
@@ -2530,11 +1837,10 @@
         "technical_data": {
           "KM 215 S – Semi-Automatic End Milling Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "End Milling Machine"
+    }
   },
   {
     "slug": "kp-110-pneumatic-aluminum-corner-crimping-machine",
@@ -2580,11 +1886,10 @@
         "technical_data": {
           "KP 110 – Pneumatic Aluminum Corner Crimping Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Pneumatic Corner Crimping"
+    }
   },
   {
     "slug": "kp-130-cnc-cnc-automatic-corner-crimping-machine",
@@ -2639,11 +1944,10 @@
         "technical_data": {
           "KP 130 CNC – CNC Automatic Corner Crimping Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "CNC Automatic Corner Crimping"
+    }
   },
   {
     "slug": "kp-180-hydraulic-aluminium-corner-crimping-machine",
@@ -2709,11 +2013,10 @@
         "technical_data": {
           "KP 180 – Hydraulic Aluminium Corner Crimping Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Hydraulic Corner Crimping"
+    }
   },
   {
     "slug": "ky-305-portable-miter-saw-machine",
@@ -2753,11 +2056,10 @@
         "technical_data": {
           "KY 305 – Portable Miter Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Portable Cutting"
+    }
   },
   {
     "slug": "mca-801",
@@ -2765,7 +2067,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Screwdriving",
+    "subcategory": "Corner Cleaning",
     "diller": {
       "en": {
         "name": "MCA 801",
@@ -2809,19 +2111,19 @@
         "technical_data": {
           "MCA 801": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Automatic Mullion Connector Assembly Machine"
+    }
   },
   {
     "slug": "mk-420-mk-420ps-mk-450-manual-up-cutting-saw-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "MK 420 - MK 420PS - MK 450 - Manual Up-Cutting Saw Machine",
@@ -2875,11 +2177,10 @@
         "technical_data": {
           "MK 420 – MK 420PS – MK 450 –  Manual Up-Cutting Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Single Head Cutting"
+    }
   },
   {
     "slug": "mkn-serisi-150-300-301",
@@ -2888,7 +2189,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Conveying",
+    "subcategory": "Conveyors",
     "diller": {
       "en": {
         "name": "MKN Serisi ( 150-300-301)",
@@ -2913,84 +2214,19 @@
         "technical_data": {
           "MKN Serisi ( 150-300-301)": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Conveyors"
-  },
-  {
-    "slug": "ncr-300-4-axis-nc-controlled-router-machine",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "Milling",
-    "diller": {
-      "en": {
-        "name": "NCR 300 - 4 axis NC Controlled Router Machine",
-        "description": "The new concept in numerical controlled (NC) copy routers, this single head copy router has the ability to program X, Y, Z and C coordinates with 4 axis servo - controlled motors. It is used for the processing of slots for locks, drilling handles, hinges, espagnolette holes and opening water drain slot on PVC and aluminium profiles, this means no more template.",
-        "images": [
-          "/images/machines/ncr-300-4-eksen-nc-kontrollu-freze-makinesi-1.jpg",
-          "/images/machines/ncr-300-4-eksen-nc-kontrollu-freze-makinesi-2.jpg",
-          "/images/machines/ncr-300-4-eksen-nc-kontrollu-freze-makinesi-3.jpg",
-          "/images/machines/ncr-300-4-eksen-nc-kontrollu-freze-makinesi-4.jpg",
-          "/images/machines/ncr-300-4-eksen-nc-kontrollu-freze-makinesi-5.jpg",
-          "/images/machines/ncr-300-4-eksen-nc-kontrollu-freze-makinesi-6.jpg",
-          "/images/machines/ncr-300-4-eksen-nc-kontrollu-freze-makinesi-7.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Equipped with Ø8 x L120 mm cutter bit",
-            "2 x horizontal and 2 x vertical pneumatic clamps",
-            "Spray tool lubrication system",
-            "Multiple left and right profile stops",
-            "Service spanners (22 mm)",
-            "Collet wrench",
-            "LED lighting equipment",
-            "Extending parts for clamps",
-            "Profile centring apparatus",
-            "Air gun"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Machine having windows based industrial PC and 15’’ LCD touch screen colour monitor",
-            "Barcode reader",
-            "Spare Ø8xL120 carbide, double lip cutter bits",
-            "Spare Ø8xL120 carbide, single lip cutter bits",
-            "Spare Ø8xL63 carbide, single lip cutter bits",
-            "Spare ER16 collets for Ø8 mm of cutter bits"
-          ],
-          "GENERAL FEATURES": [
-            "Designed for the daily operations on PVC, aluminium and low alloy materials to machine four surfaces of them at the same time",
-            "Equipped with servo-controlled table mechanism to stop the turning table and machining the profiles in angles among the 0°/90°/180/270°",
-            "Machinability of profiles up to 2750 mm of length by multi pop-up length stops",
-            "Machining capacity: X: 300 mm, Y: 120 mm, Z: 115 mm",
-            "Profile clamping width (Wmax. / Wmin): 120 X 30 mm",
-            "Profile clamping height (Hmax. / Hmin.): 115 X 30 mm",
-            "Profile clamping length: (Lmax. / L min.): 2750 X 400 mm",
-            "Electronic and pneumatic braking system for detaining falls of head and table",
-            "ER 16 tool collet",
-            "2.2 kW, 3P, 400V Spindle (12.000 RPM)",
-            "PLC control system",
-            "7’’ touch screen colour monitor"
-          ]
         },
-        "technical_data": {
-          "NCR 300 – 4 axis NC Controlled Router Machine": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Numerical Controlled NC Router"
+    }
   },
   {
     "slug": "nsm-352-nsm-353-kanat-isleme-merkezi",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
-    "subcategory": "Assembling",
+    "subcategory": "Assembly",
     "diller": {
       "en": {
         "name": "NSM 352-NSM 353 -Sash Assembly Station",
@@ -3020,11 +2256,10 @@
         "technical_data": {
           "NSM 352-NSM 353 -Sash Assembly Station": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Sash Assembly Station"
+    }
   },
   {
     "slug": "pc-4000-profile-carry-cart",
@@ -3033,7 +2268,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Transport & Storage",
     "diller": {
       "en": {
         "name": "PC 4000 -Profile Carry Cart",
@@ -3058,11 +2293,10 @@
         "technical_data": {
           "PC 4000 -Profile Carry Cart": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "pim-6508-se",
@@ -3070,7 +2304,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Processing Center",
+    "subcategory": "Machining Centers",
     "diller": {
       "en": {
         "name": "PIM 6508 SE",
@@ -3129,11 +2363,10 @@
         "technical_data": {
           "PIM 6508 SE": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Profile Cutting & Machining Center"
+    }
   },
   {
     "slug": "pim-6509-pvc-profile-processing-center",
@@ -3141,7 +2374,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Processing Center",
+    "subcategory": "Machining Centers",
     "diller": {
       "en": {
         "name": "PIM 6509 - PVC Profile Processing Center",
@@ -3191,11 +2424,10 @@
         "technical_data": {
           "PIM 6509 – PVC Profile Processing Center": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Profile Cutting & Machining Center"
+    }
   },
   {
     "slug": "pt-1000-product-transportation-troley",
@@ -3204,7 +2436,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Transport & Storage",
     "diller": {
       "en": {
         "name": "PT 1000 - Product Transportation Troley",
@@ -3228,11 +2460,10 @@
         "technical_data": {
           "PT 1000 – Product Transportation Troley": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "pt-2000-product-transportation-trolley-two-sided",
@@ -3241,7 +2472,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Transport & Storage",
     "diller": {
       "en": {
         "name": "PT 2000 - Product Transportation Trolley Two Sided",
@@ -3264,19 +2495,19 @@
         "technical_data": {
           "PT 2000 – Product Transportation Trolley Two Sided": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "pwb-4100",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Assembling",
+    "subcategory": "Assembly",
     "diller": {
       "en": {
         "name": "PWB 4100",
@@ -3305,11 +2536,10 @@
         "technical_data": {
           "PWB 4100": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Work Bench"
+    }
   },
   {
     "slug": "pye-101-pye-102-pye-103-pye-104-manual-punch-press",
@@ -3317,7 +2547,7 @@
     "categories": [
       "Aluminium"
     ],
-    "subcategory": "Pressing",
+    "subcategory": "Punch Press",
     "diller": {
       "en": {
         "name": "PYE 101 PYE 102 PYE 103 PYE 104 - Manual Punch Press",
@@ -3352,11 +2582,10 @@
         "technical_data": {
           "PYE 101 PYE 102 PYE 103 PYE 104 – Manual Punch Press": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Manual Punch Press"
+    }
   },
   {
     "slug": "rs-1000",
@@ -3365,7 +2594,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Assembly",
     "diller": {
       "en": {
         "name": "RS 1000",
@@ -3390,19 +2619,19 @@
         "technical_data": {
           "RS 1000": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "rt-1000-rotating-table",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Assembling",
+    "subcategory": "Assembly",
     "diller": {
       "en": {
         "name": "RT 1000 - ROTATING TABLE",
@@ -3431,19 +2660,19 @@
         "technical_data": {
           "RT 1000 – ROTATING TABLE": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Work Bench"
+    }
   },
   {
     "slug": "ryk-420-radial-saw-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "RYK 420 S - Radial Saw Machine",
@@ -3485,19 +2714,19 @@
         "technical_data": {
           "RYK 420 S – Radial Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Radial Cutting"
+    }
   },
   {
     "slug": "ryk-420-w-radial-saw-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "RYK 420 W - Radial Saw Machine",
@@ -3536,19 +2765,19 @@
         "technical_data": {
           "RYK 420 W – Radial Saw Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Radial Cutting"
+    }
   },
   {
     "slug": "scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "SCM 420 L4-SCM 420 L7 - Servo Controlled Serial Cutting Machine",
@@ -3607,16 +2836,16 @@
         "technical_data": {
           "SCM 420 L4-SCM 420 L7 – Servo Controlled Serial Cutting Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Slicing Machine"
+    }
   },
   {
     "slug": "sdt-275",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
     "subcategory": "Cutting",
@@ -3646,16 +2875,16 @@
         "technical_data": {
           "SDT 275": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Reinforcement Sheet Circular Saw"
+    }
   },
   {
     "slug": "sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine",
     "brand": "yilmaz",
     "categories": [
+      "Aluminium",
       "PVC"
     ],
     "subcategory": "Cutting",
@@ -3700,19 +2929,19 @@
         "technical_data": {
           "SDT 280 – Semi-Automatic Multi Reinforcement and Profile Cutting Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Reinforcement Sheet Band Saw"
+    }
   },
   {
     "slug": "sk-500-automatic-sawing-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "SK 500 - Automatic Sawing Machine",
@@ -3765,19 +2994,19 @@
         "technical_data": {
           "SK 500 – Automatic Sawing Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Slicing Machine"
+    }
   },
   {
     "slug": "sk-500-d-automatic-sawing-and-drilling-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "SK 500 D - Automatic Sawing and Drilling Machine",
@@ -3830,11 +3059,10 @@
         "technical_data": {
           "SK 500 D – Automatic Sawing and Drilling Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Slicing Machine"
+    }
   },
   {
     "slug": "skn-300-450-600-digital-roller-conveyor-with-automatic-length-stop",
@@ -3843,7 +3071,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Conveying",
+    "subcategory": "Conveyors",
     "diller": {
       "en": {
         "name": "SKN 300-301-600 - Digital Roller Conveyor with Automatic Length Stop",
@@ -3876,64 +3104,10 @@
         "technical_data": {
           "SKN 300-301-600 – Digital Roller Conveyor with Automatic Length Stop": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Conveyors"
-  },
-  {
-    "slug": "sm-201-sd",
-    "brand": "yilmaz",
-    "categories": [
-      "PVC"
-    ],
-    "subcategory": "Screwdriving",
-    "diller": {
-      "en": {
-        "name": "SM 201 SD",
-        "description": "Used for screwing of reinforcement steel and drilling montage drills on the PVC door and window profiles fast and precisely\nThe PVC profile with the reinforcement steel inserted is manually driven into the screwing unit table and the screwing and drilling processes are started with the pedal respectively. Profile forward movement is done manually until the screwing and drilling processes are completed",
-        "images": [
-          "/images/machines/sm-201-sd-1.jpg",
-          "/images/machines/sm-201-sd-2.jpg",
-          "/images/machines/sm-201-sd-3.jpg",
-          "/images/machines/sm-201-sd-4.jpg",
-          "/images/machines/sm-201-sd-5.jpg",
-          "/images/machines/sm-201-sd-6.jpg",
-          "/images/machines/sm-201-sd-7.jpg",
-          "/images/machines/sm-201-sd-8.jpg",
-          "/images/machines/sm-201-sd-9.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Profile support arms on the left and right sides"
-          ],
-          "OPTIONAL ACCESSORIES": [],
-          "GENERAL FEATURES": [
-            "Ability of reinforcement steel screwing and opening montage drills on the PVC profiles",
-            "Foot pedal operation for both screwing and drilling processes",
-            "Automatic screw feeding unit",
-            "Screwing force and point are adjustable for various kinds of profiles and their models",
-            "Long-lasting use and easy change of the bit",
-            "Automatic stop after finishing screwing",
-            "Safety key to prevent misuse",
-            "Special, adjustment key for the height of screw",
-            "Fixes the material firmly by automatic clamps to prevent movement during screwing",
-            "Adjustable resting distance for the supported type of profiles",
-            "Profile support arms on the left and right sides",
-            "Mechanical sensor on the head guarantees an optimum screwing process",
-            "Screw feed speed approx. 1.7 sec./pc.",
-            "Recommended reinforcement sheet thickness max. 3.0 mm"
-          ]
         },
-        "technical_data": {
-          "SM 201 SD": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Single Head Reinforcement Steel Screwdriver"
+    }
   },
   {
     "slug": "sm-201-single-head-reinforcement-stell-screwdriver",
@@ -3985,11 +3159,10 @@
         "technical_data": {
           "SM 201 – Single Head Reinforcement Stell Screwdriver": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Single Head Reinforcement Steel Screwdriver"
+    }
   },
   {
     "slug": "sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver",
@@ -4045,116 +3218,10 @@
         "technical_data": {
           "SM 206 – Fully Automatic Double Head Reinforcement Steel Screwdriver": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Double Head Reinforcement Steel Screwdriver"
-  },
-  {
-    "slug": "snm-560-m-aluminium-facade-notching-machine-manual",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "End Milling",
-    "diller": {
-      "en": {
-        "name": "SNM 560 M - Aluminium Facade Notching Machine Manual",
-        "description": "SNM 560 M and SNM 560 SRV Saw Notching Machines are designed and constructed for variable notching possibilities on the sash, frame, mullion and transom profile combinations for curtain-walls, winter gardens, skylights, and special design processing with the special angles at the profile and surface. The workpiece remains fixed on the working table and only the hydro-pneumatic sawing unit having 2 saw blades slides on the linear guides automatically to perform the notching operation.",
-        "images": [
-          "/images/machines/snm-560-m-aluminyum-cephe-kertme-makinesi-manuel-1.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Equipped with 1 x Ø 500 and 1 x Ø 550 mm saw blades",
-            "2 x spray saw blade lubrication system",
-            "3 x digital screens indicating the both saw blade angle and table miter angle",
-            "1 x numerical display indicating the depth position of the profile",
-            "2 x pneumatic horizontal clamps",
-            "2 x pneumatic vertical clamps",
-            "Swarf pan"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Laser marker indicating the vertical line of the profile",
-            "Profile support arm RS 1000",
-            "Spare saw blade, Ø 500 mm",
-            "Spare saw blade, Ø 550 mm"
-          ],
-          "GENERAL FEATURES": [
-            "1 x saw unit lower (vertical) with Ø 550 mm dia. and 1 x saw unit upper (horizontal) with Ø 500 mm dia.",
-            "Semi-Automatic sawing unit with adjustable feeding speed by hydro-check cylinder",
-            "Angle adjustment of the sawing units and miter adjustment of the profile table by hand wheel with digital displays",
-            "Height adjustment of the profile support table by hand wheel with band ruler",
-            "Depth stop adjustment by hand wheel by numerical display",
-            "4 x pneumatic clamps that allow the profile to be credibly attached at any angle",
-            "Cast iron and steel construction of the body that is strong and lasting",
-            "Pneumatically operated safety cover",
-            "Two-hand safety module",
-            "Very easy saw wear adjustment",
-            "Interior LED lighting"
-          ]
         },
-        "technical_data": {
-          "SNM 560 M – Aluminium Facade Notching Machine Manual": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Facade Notching Saw"
-  },
-  {
-    "slug": "snm-560-srv-servo-controlled-aluminium-facade-notching-machine",
-    "brand": "yilmaz",
-    "categories": [
-      "Aluminium"
-    ],
-    "subcategory": "End Milling",
-    "diller": {
-      "en": {
-        "name": "SNM 560 SRV - Servo Controlled Aluminium Facade Notching Machine",
-        "description": "SNM 560 M and SNM 560 SRV Saw Notching Machines are designed and constructed for variable notching possibilities on the sash, frame, mullion and transom profile combinations for curtain-walls, winter gardens, skylights, and special design processing with the special angles at the profile and surface. The workpiece remains fixed on the working table and only the hydro-pneumatic sawing unit having 2 saw blades slides on the linear guides automatically to perform the notching operation",
-        "images": [
-          "/images/machines/snm-560-m-aluminyum-cephe-kertme-makinesi-manuel-1.jpg",
-          "/images/machines/snm-560-srv-servo-kontrollu-aluminyum-cephe-kertme-makinesi-1.png"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "Equipped with 1 x Ø 500 and 1 x Ø 550 mm saw blades",
-            "2 x spray saw blade lubrication system",
-            "2 x pneumatic horizontal clamps",
-            "2 x pneumatic vertical clamps",
-            "Swarf pan"
-          ],
-          "OPTIONAL ACCESSORIES": [
-            "Laser marker indicating the vertical line of the profile",
-            "Profile support arm RS 1000",
-            "Spare saw blade, Ø 500 mm",
-            "Spare saw blade, Ø 550 mm"
-          ],
-          "GENERAL FEATURES": [
-            "1 x saw unit lower (vertical) with Ø 550 mm dia. and 1 x saw unit upper (horizontal) with Ø 500 mm dia.",
-            "Semi-Automatic sawing unit with adjustable feeding speed by hydro-check cylinder",
-            "The input of the values is made via the keyboard",
-            "Equipped with 4 x axis servo controlled motors for automatic adjustment of the horizontal and vertical saw blades for angle cutting as well as notching height and depth of the profile",
-            "Miter adjustment of the profile by manual with digital screen",
-            "4 x pneumatic clamps that allow the profile to be credibly attached at any angle",
-            "Cast iron and steel construction of the body that is strong and lasting",
-            "Pneumatically operated safety cover",
-            "Two-hand safety module",
-            "Very easy saw wear adjustment",
-            "Interior LED lighting"
-          ]
-        },
-        "technical_data": {
-          "SNM 560 SRV – Servo Controlled Aluminium Facade Notching Machine": "PRODUCT INFO",
-          "svg%3E": "×"
-        }
-      }
-    },
-    "category": "Aluminium",
-    "type": "Facade Notching Saw"
+    }
   },
   {
     "slug": "st-264-pvc-automatic-water-slot-machine",
@@ -4162,7 +3229,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Milling",
+    "subcategory": "Routing & Milling",
     "diller": {
       "en": {
         "name": "ST 264 - PVC Automatic Water Slot Machine",
@@ -4199,11 +3266,10 @@
         "technical_data": {
           "ST 264 – PVC Automatic Water Slot Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Template Copy Router"
+    }
   },
   {
     "slug": "tk-503-pvc-tek-kose-kaynak-makinesi",
@@ -4246,11 +3312,10 @@
         "technical_data": {
           "TK 503 – Single Corner PVC Welding Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Single Corner Welding"
+    }
   },
   {
     "slug": "tk-505-single-corner-pvc-welding-machine",
@@ -4292,17 +3357,16 @@
         "technical_data": {
           "TK 505 – Single Corner PVC Welding Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Single Corner Welding"
+    }
   },
   {
     "slug": "vce-1570",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "PVC"
     ],
     "subcategory": "Swarf Extraction",
     "diller": {
@@ -4336,19 +3400,119 @@
         "technical_data": {
           "VCE 1570": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Vacuum Swarf Extractor"
+    }
+  },
+  {
+    "slug": "vce-3500",
+    "brand": "yilmaz",
+    "categories": [
+      "Aluminium",
+      "PVC"
+    ],
+    "subcategory": "Swarf Extraction",
+    "diller": {
+      "en": {
+        "name": "VCE 3500",
+        "description": "VCE 3500 is an industrial product that enables the PVC shavings arise from the cutting process in cutting machines to be collected in the storage unit by vacuuming from the working environment.",
+        "images": [
+          "/images/machines/vce-3500-1.jpg",
+          "/images/machines/vce-3500-2.jpg",
+          "/images/machines/vce-3500-3.jpg",
+          "/images/machines/vce-3500-4.jpg",
+          "/images/machines/vce-3500-5.jpg",
+          "/images/machines/vce-3500-6.jpg"
+        ],
+        "specs": {
+          "STANDARD ACCESSORIES": [
+            "2 pc. x 5m x Ø120 mm flexible hose & 4 pc. x clips"
+          ],
+          "OPTIONAL ACCESSORIES": [],
+          "GENERAL FEATURES": [
+            "High working performance with heavy duty cycle",
+            "Structure completely made in steel and painted with powder coating",
+            "Robust and ergonomic handle",
+            "Centrifugal fan system",
+            "It is also used to clean the metal chips inside the machines and at working environment",
+            "It is ideal for aluminium and PVC machining and cutting centres",
+            "Quick release chips container"
+          ]
+        },
+        "technical_data": {
+          "VCE 3500": "PRODUCT INFO",
+          "svg%3E": "×"
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
+      }
+    }
+  },
+  {
+    "slug": "vce-4000",
+    "brand": "yilmaz",
+    "categories": [
+      "Aluminium",
+      "PVC"
+    ],
+    "subcategory": "Swarf Extraction",
+    "diller": {
+      "en": {
+        "name": "VCE 4000",
+        "description": "KP 180 machine is designed and constructed for the hydraulically crimping and correct assembly of aluminium profiles. The machine works according to the hydraulic crimping system.",
+        "images": [
+          "/images/machines/vce-4000-1.jpg",
+          "/images/machines/vce-4000-2.jpg",
+          "/images/machines/vce-4000-3.jpg",
+          "/images/machines/vce-4000-4.jpg",
+          "/images/machines/vce-4000-5.jpg",
+          "/images/machines/vce-4000-6.jpg"
+        ],
+        "specs": {
+          "STANDARD ACCESSORIES": [
+            "1 set of 3 mm, 1 set of 5 mm and 1 set of 7 mm crimping knives",
+            "2 x pneumatic vertical clamp",
+            "2 x profil support arms",
+            "2 x allen key (4 and 5 mm)"
+          ],
+          "OPTIONAL ACCESSORIES": [
+            "Adjustable multi knife set",
+            "Safety guard (H:180 mm)",
+            "Special crimping knives"
+          ],
+          "GENERAL FEATURES": [
+            "It is designed through the hydrauliccally crimping system",
+            "Steel construction of the machine table that is strong and lasting",
+            "Practically adjustment of the knives according to the shape and height of the profiles",
+            "Practically adjustment of the cylinder feed and profile stops by means of the milimetric ruler",
+            "The machine is equiped with the pneumatic (for clamps) and hydraulic (for crimping) foot pedals for the operation control during the machining cycle",
+            "Pressing is done by hydraulic crimping heads that move in synchronous with each other",
+            "Double-acting 90° of bracing clamp for inner corner returns to the home position under the table after crimping",
+            "Powerfull hydraulic pump with 2 x 5 tons capacity",
+            "Protection plates made of polyamide material to prevent being scrathes on the profile surface",
+            "Positioning of the cylinders closer to the workpiece to shorten the cycle time thanks to the ‘return’ push button",
+            "Maximum clamping capacity :  H:185 x W:150 mm",
+            "Maximum crimping height : H:180 mm",
+            "Maximum profile clamping height H 185 mm",
+            "Minimum window inner dimension that can be crimped : 200 x 200 mm"
+          ]
+        },
+        "technical_data": {
+          "VCE 4000": "PRODUCT INFO",
+          "svg%3E": "×"
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
+      }
+    }
   },
   {
     "slug": "vk-420-v-cutting-90-end-notching-machine",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Saw Cutting",
+    "subcategory": "Cutting",
     "diller": {
       "en": {
         "name": "VK 420 - V Cutting & 90° End Notching Machine",
@@ -4400,11 +3564,10 @@
         "technical_data": {
           "VK 420 – V Cutting & 90° End Notching Machine": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "V Cutting"
+    }
   },
   {
     "slug": "vp-1000-vertica-profile-troley",
@@ -4413,7 +3576,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Transport & Storage",
     "diller": {
       "en": {
         "name": "VP 1000 - Vertica Profile Troley",
@@ -4439,11 +3602,10 @@
         "technical_data": {
           "VP 1000 – Vertica Profile Troley": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "vp-2000-vertica-profile-troley",
@@ -4452,7 +3614,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Transport & Storage",
     "diller": {
       "en": {
         "name": "VP 2000 - Vertica Profile Troley",
@@ -4484,11 +3646,10 @@
         "technical_data": {
           "VP 2000 – Vertica Profile Troley": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "was-1000-window-assembly-station",
@@ -4497,7 +3658,7 @@
       "Aluminium",
       "PVC"
     ],
-    "subcategory": "Transferring",
+    "subcategory": "Assembly",
     "diller": {
       "en": {
         "name": "WAS 1000 - Window Assembly Station",
@@ -4521,19 +3682,19 @@
         "technical_data": {
           "WAS 1000 – Window Assembly Station": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "PVC",
-    "type": "Trolley"
+    }
   },
   {
     "slug": "wb-4000-work-bench",
     "brand": "yilmaz",
     "categories": [
-      "Aluminium"
+      "Aluminium",
+      "PVC"
     ],
-    "subcategory": "Assembling",
+    "subcategory": "Assembly",
     "diller": {
       "en": {
         "name": "WB 4000 - Work Bench",
@@ -4562,11 +3723,10 @@
         "technical_data": {
           "WB 4000 – Work Bench": "PRODUCT INFO",
           "svg%3E": "×"
-        }
+        },
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
-    },
-    "category": "Aluminium",
-    "type": "Work Bench"
+    }
   },
   {
     "slug": "wgm-202",
@@ -4574,7 +3734,7 @@
     "categories": [
       "PVC"
     ],
-    "subcategory": "Cleaning",
+    "subcategory": "Corner Cleaning",
     "diller": {
       "en": {
         "name": "WGM 202",
@@ -4613,85 +3773,8 @@
         "technical_data": {
           "WGM 202": "PRODUCT INFO",
           "svg%3E": "×"
-        }
-      }
-    },
-    "category": "PVC",
-    "type": "Window Gasket Milling Machine"
-  },
-  {
-    "slug": "vce-3500",
-    "brand": "yilmaz",
-    "category": "PVC",
-    "categories": [
-      "PVC"
-    ],
-    "subcategory": "Swarf Extraction",
-    "type": "Vacuum Swarf Extractor",
-    "diller": {
-      "en": {
-        "name": "VCE 3500",
-        "description": "VCE 3500 is an industrial product that enables the PVC shavings arise from the cutting process in cutting machines to be collected in the storage unit by vacuuming from the working environment.",
-        "images": [
-          "/images/machines/vce-3500-1.jpg",
-          "/images/machines/vce-3500-2.jpg",
-          "/images/machines/vce-3500-3.jpg",
-          "/images/machines/vce-3500-4.jpg",
-          "/images/machines/vce-3500-5.jpg",
-          "/images/machines/vce-3500-6.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "2 pc. x 5m x Ø120 mm flexible hose & 4 pc. x clips"
-          ],
-          "OPTIONAL ACCESSORIES": [],
-          "GENERAL FEATURES": [
-            "High working performance with heavy duty cycle"
-          ]
         },
-        "technical_data": {}
-      }
-    }
-  },
-  {
-    "slug": "vce-4000",
-    "brand": "yilmaz",
-    "category": "Aluminium",
-    "categories": [
-      "Aluminium",
-      "PVC"
-    ],
-    "subcategory": "Swarf Extraction",
-    "type": "Vacuum Swarf Extractor",
-    "diller": {
-      "en": {
-        "name": "VCE 4000",
-        "description": "VCE 4000 is an industrial product that enables the aluminium and plastic shavings arise from the cutting process in cutting machines to be collected in the storage unit by vacuuming from the working environment.",
-        "images": [
-          "/images/machines/vce-4000-1.jpg",
-          "/images/machines/vce-4000-2.jpg",
-          "/images/machines/vce-4000-3.jpg",
-          "/images/machines/vce-4000-4.jpg",
-          "/images/machines/vce-4000-5.jpg",
-          "/images/machines/vce-4000-6.jpg"
-        ],
-        "specs": {
-          "STANDARD ACCESSORIES": [
-            "3 pc. x 5m x Ø120 mm flexible hose & 6 pc. x clips"
-          ],
-          "OPTIONAL ACCESSORIES": [],
-          "GENERAL FEATURES": [
-            "High working performance with heavy duty cycle",
-            "Structure completely made in steel and painted with powder coating",
-            "Robust and ergonomic handle",
-            "Centrifugal fan system",
-            "It is also used to clean the metal chips inside the machines and at working environment",
-            "It is ideal for aluminium and PVC machining and cutting centres",
-            "Quick release chips container",
-            "Easily transported to the chip storage area thanks to the wheeled chip collection"
-          ]
-        },
-        "technical_data": {}
+        "catalog": "https://www.yilmazmachine.com.tr/en/media/catalogs/"
       }
     }
   }

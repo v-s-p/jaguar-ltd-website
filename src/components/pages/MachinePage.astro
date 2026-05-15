@@ -18,19 +18,22 @@ const { machine } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const l = (path: string) => getRelativeLocaleUrl(lang, path);
+const backUrl = machine.brand === 'gocmaksan'
+  ? l('/kategori/gocmaksan')
+  : machine.categories?.includes('Aluminium')
+    ? l('/kategori/aluminyum')
+    : l('/kategori/pvc');
 
-const activeLang = machine.diller?.[lang] || machine.diller?.en || machine.diller?.tr || {};
+const activeLang = machine.diller?.en || machine.diller?.tr || {};
 
-const isim        = activeLang.name        || activeLang.isim        || machine.slug.replace(/-/g, ' ').toUpperCase();
+const isim        = activeLang.name        || activeLang.isim        || machine.slug;
 const aciklama    = activeLang.description || activeLang.aciklama    || '';
-const resimler    = (activeLang.images?.length ? activeLang.images : null) || activeLang.resimler || machine.diller?.en?.images || machine.diller?.en?.resimler || [];
+const resimler    = activeLang.images      || activeLang.resimler    || [];
 const anaResim    = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
 
-const rootSpecs       = (machine.specs || {}) as Record<string, any>;
-const teknikTablo     = activeLang.technical_data || rootSpecs['TEKNIK_TABLO'] || {};
-const rootOzellikler  = Object.fromEntries(Object.entries(rootSpecs).filter(([k, v]) => k !== 'TEKNIK_TABLO' && Array.isArray(v)));
-const ozellikGruplari = activeLang.specs || activeLang.ozellik_gruplari || (Object.keys(rootOzellikler).length ? rootOzellikler : {});
+const ozellikGruplari = activeLang.specs || activeLang.ozellik_gruplari || {};
+const teknikTablo     = activeLang.technical_data || {};
 const piktogramlar    = activeLang.piktogramlar      || activeLang.specifications || {};
 const katalog         = activeLang.catalog || activeLang.katalog || null;
 const video           = activeLang.video   || null;
@@ -46,7 +49,7 @@ const video           = activeLang.video   || null;
 
       <!-- Geri Don -->
       <div class="mb-8">
-        <a href={l("/")} class="text-brand-light hover:text-brand-accent font-bold transition-colors flex items-center">
+        <a href={backUrl} class="text-brand-light hover:text-brand-accent font-bold transition-colors flex items-center">
           <span class="mr-2 text-xl">&larr;</span> {t('nav.machines')}
         </a>
       </div>
@@ -73,6 +76,11 @@ const video           = activeLang.video   || null;
                 <span class="text-xs font-bold uppercase tracking-wider px-2 py-1 rounded border border-gray-200 text-gray-500">
                   {Array.isArray(machine.subcategory) ? machine.subcategory.join(' • ') : machine.subcategory}
                 </span>
+                {machine.type && (
+                  <span class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest">
+                    {machine.type}
+                  </span>
+                )}
               </div>
             )}
             <p class="text-base text-gray-600 leading-relaxed mb-8">{aciklama}</p>
