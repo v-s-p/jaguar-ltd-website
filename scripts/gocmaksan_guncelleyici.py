@@ -52,6 +52,7 @@ def vlog(msg):
 
 def build_session():
     s = requests.Session()
+    s.trust_env = False
     s.headers.update({
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
@@ -192,6 +193,131 @@ def download_pdf(session, pdf_url, slug):
         return web_path
     return pdf_url 
 
+def clean_text(text):
+    text = text.replace('\u200d', ' ').replace('\xa0', ' ')
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
+
+def normalize_heading_text(text):
+    return clean_text(text).casefold()
+
+def find_heading(soup, title):
+    hedef = normalize_heading_text(title)
+    for tag in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5']):
+        if normalize_heading_text(tag.get_text(" ", strip=True)) == hedef:
+            return tag
+    return None
+
+def iter_section_nodes(start_heading, stop_titles):
+    stop_set = {normalize_heading_text(title) for title in stop_titles}
+    for node in start_heading.find_all_next():
+        if node == start_heading:
+            continue
+        if node.name in ['h1', 'h2', 'h3', 'h4', 'h5']:
+            title = normalize_heading_text(node.get_text(" ", strip=True))
+            if title in stop_set:
+                break
+        yield node
+
+def extract_featured_features(soup):
+    feat_div = soup.find('div', class_='ne-kan-zellikler')
+    items = []
+    if feat_div:
+        items = [clean_text(li.get_text(" ", strip=True)) for li in feat_div.find_all('li')]
+    else:
+        heading = find_heading(soup, "Featured Features")
+        if heading:
+            for node in iter_section_nodes(heading, ["Technical Data", "Capacities", "Other Products"]):
+                if node.name == 'li':
+                    text = clean_text(node.get_text(" ", strip=True))
+                    if text:
+                        items.append(text)
+    temiz = []
+    seen = set()
+    for item in items:
+        if item and item not in seen:
+            temiz.append(item)
+            seen.add(item)
+    return temiz
+
+def extract_technical_data(soup):
+    data = {}
+    tech_div = soup.find('div', class_='teknik-veriler-wrapper')
+    if tech_div:
+        for item in tech_div.find_all('div', class_='teknik-veri-div'):
+            val = item.find('div', class_='teknik-veri-metin')
+            key = item.find(['h4', 'h5', 'h3'], class_='teknik-veri-ba-l-k')
+            if val and key:
+                k_text = clean_text(key.get_text(" ", strip=True)).replace("mm 2", "mm2")
+                v_text = clean_text(val.get_text(" ", strip=True))
+                if re.fullmatch(r'\d+,\d+', v_text):
+                    v_text = v_text.replace(',', '.')
+                data[k_text] = v_text
+        return data
+
+    heading = find_heading(soup, "Technical Data")
+    if not heading:
+        return data
+
+    pending_value = None
+    for node in iter_section_nodes(heading, ["Capacities", "Other Products"]):
+        if getattr(node, 'name', None) == 'h4':
+            key = clean_text(node.get_text(" ", strip=True)).replace("mm 2", "mm2")
+            if key and pending_value:
+                data[key] = pending_value
+                pending_value = None
+        elif getattr(node, 'name', None) in ['p', 'div'] and not list(node.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])):
+            text = clean_text(node.get_text(" ", strip=True))
+            if text and len(text) < 60:
+                pending_value = text.replace(',', '.') if re.fullmatch(r'\d+,\d+', text) else text
+    return data
+
+def normalize_capacity_piece(text):
+    return re.sub(r'\s*x\s*', 'x', clean_text(text))
+
+def normalize_capacity_label(text):
+    text = clean_text(text).replace("mm 2", "mm2")
+    text = re.sub(r'\s*Rebar Diameter\s*\(Ø\)\s*x\s*Piece', '', text, flags=re.I)
+    return clean_text(text)
+
+def extract_capacities(soup):
+    capacities = []
+    cap_div = soup.find('div', class_='kapasite-wrapper')
+    if cap_div:
+        for item in cap_div.find_all('div', class_='kapasite-h-cre'):
+            baslik = item.find('h4', class_='kapasite-baslik')
+            rich_text = item.find('div', class_='kapasite-rich-text')
+            if baslik and rich_text:
+                k_text = normalize_capacity_label(baslik.get_text(" ", strip=True))
+                v_texts = []
+                for p in rich_text.find_all(['p', 'div']):
+                    text = normalize_capacity_piece(p.get_text(" ", strip=True))
+                    if text and "rebar diameter" not in text.casefold():
+                        v_texts.append(text)
+                if v_texts:
+                    capacities.append(f"{k_text}: {', '.join(v_texts)}")
+        return capacities
+
+    heading = find_heading(soup, "Capacities")
+    if not heading:
+        return capacities
+
+    current_label = None
+    values = []
+    for node in iter_section_nodes(heading, ["Other Products"]):
+        if getattr(node, 'name', None) == 'h4':
+            if current_label and values:
+                capacities.append(f"{current_label}: {', '.join(values)}")
+            current_label = normalize_capacity_label(node.get_text(" ", strip=True))
+            values = []
+        elif getattr(node, 'name', None) in ['p', 'div'] and not list(node.find_all(['h1', 'h2', 'h3', 'h4', 'h5'])):
+            text = normalize_capacity_piece(node.get_text(" ", strip=True))
+            if text and "rebar diameter" not in text.casefold():
+                values.append(text)
+    if current_label and values:
+        capacities.append(f"{current_label}: {', '.join(values)}")
+    return capacities
+
 def parse_product(session, href, download_images):
     full_url = BASE + href
     slug = href.rstrip('/').split('/')[-1]
@@ -277,63 +403,11 @@ def parse_product(session, href, download_images):
     # ==========================================
     # OZELLIKLER (TABLO) SNIPER
     # ==========================================
-    raw_specs = { "Featured Features": [], "Technical Data": [], "Capacities": [] }
-    
-    feat_div = soup.find('div', class_='ne-kan-zellikler')
-    if feat_div: raw_specs["Featured Features"] = [li.get_text(strip=True) for li in feat_div.find_all('li')]
-
-    tech_div = soup.find('div', class_='teknik-veriler-wrapper')
-    if tech_div:
-        for item in tech_div.find_all('div', class_='teknik-veri-div'):
-            val = item.find('div', class_='teknik-veri-metin')
-            key = item.find(['h4', 'h5', 'h3'], class_='teknik-veri-ba-l-k')
-            if val and key:
-                v_text = val.get_text(strip=True)
-                k_text = key.get_text(separator=" ", strip=True).replace('\n', ' ')
-                raw_specs["Technical Data"].append(f"{k_text}: {v_text}")
-
-    cap_div = soup.find('div', class_='kapasite-wrapper')
-    if cap_div:
-        for item in cap_div.find_all('div', class_='kapasite-h-cre'):
-            baslik = item.find('h4', class_='kapasite-baslik')
-            rich_text = item.find('div', class_='kapasite-rich-text')
-            if baslik and rich_text:
-                k_text = baslik.get_text(separator=" ", strip=True).replace('\n', ' ')
-                v_texts = [p.get_text(strip=True) for p in rich_text.find_all('p')]
-                for v in v_texts: raw_specs["Capacities"].append(f"{k_text} -> {v}")
-
-    # ==========================================
-    # B PLANI: YENI TASARIM / WEBFLOW BLOKLARI (HB 12x3, Steel Factory)
-    # ==========================================
-    if not raw_specs["Featured Features"] and not raw_specs["Technical Data"]:
-        # Ozel tasarimli sayfalarda layout bloklari arasi gizli text
-        for flex_div in soup.find_all('div', class_=re.compile(r'flex-block-\d+')):
-            text_div = flex_div.find('div', class_=re.compile(r'text-block-\d+'))
-            if text_div:
-                t = text_div.get_text(strip=True)
-                if 3 < len(t) < 80 and t not in raw_specs["Featured Features"] and not t.lower().startswith("cookie"):
-                    raw_specs["Featured Features"].append(t)
-
     specs = {
-        "STANDART AKSESUARLAR": [],
-        "OPSIYONEL AKSESUARLAR": [],
-        "GENEL OZELLIKLER": raw_specs["Featured Features"],
-        "TEKNIK_TABLO": {}
+        "FEATURED FEATURES": extract_featured_features(soup),
+        "TECHNICAL DATA": extract_technical_data(soup),
+        "CAPACITIES": extract_capacities(soup),
     }
-    
-    for item in raw_specs["Technical Data"]:
-        parts = item.split(':', 1)
-        if len(parts) == 2:
-            specs["TEKNIK_TABLO"][parts[0].strip()] = parts[1].strip()
-        else:
-            specs["TEKNIK_TABLO"][item] = "Yes"
-            
-    for item in raw_specs["Capacities"]:
-        parts = item.split('->', 1)
-        if len(parts) == 2:
-            specs["TEKNIK_TABLO"][parts[0].strip()] = parts[1].strip()
-        else:
-            specs["TEKNIK_TABLO"][item] = "Yes"
 
     return {
         "slug":        slug,

@@ -3,51 +3,29 @@
     "slug": "gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi",
     "brand": "gocmaksan",
     "categories": [
-      "Bending Machines",
-      "Steel Factory Solutions"
+      "Steel Factory Solutions",
+      "Bending Machines"
     ],
     "subcategory": [
       "Spiral",
       "Steel Factory"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a37576333734dd2c09a24a_axis-50-s-gms-spiral-bengin-machine.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi.pdf",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "Axis 50S",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
+          "/images/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "Axis 50S",
-        "description": "Предлага капацитет за спирално огъване до Ø50 mm диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Капацитет за спирално огъване до 50 mm диаметър",
-            "Висока производителност с мощни двигатели за огъване (5.5 kW), барабан (3 kW) и опора (1.5 kW)",
-            "Маса с регулируема опора с отварящ-затварящ конвейер",
-            "Опора за усукване на плоска стомана (100x10, 80x20, 60x15 mm)",
-            "Модулен и преносим дизайн",
-            "Здраво шаси и висока издръжливост с тегло от 1140 kg"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": [
-        "Spiral bending capacity up to 50 mm diameter",
-        "High performance with powerful bending, drum, and support motorsHigh performance with powerful bending (5.5 kw), drum (3 kw) and support (1.5 kw) motors",
-        "Table with adjustable support with opening-closing conveyor",
-        "Flat steel twist support (100x10, 80x20, 60x15 mm)",
-        "Modular and portable design",
-        "Robust chassis and high durability with a weight of 1140 kg"
-      ]
-    },
-    "category": "Steel Factory"
+    }
   },
   {
     "slug": "gms-ayarli-kosebentler-gocmaksan",
@@ -60,30 +38,20 @@
     ],
     "pdf_catalog": "",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "Adjustable Angle Bracket",
-        "description": "The Adjustable Angle Bracket is a practical hand tool for reinforcement and general jobsite bending applications. Designed for hand tool workflows, it supports bar diameters from Ø8 to Ø26 for reliable daily use.",
+        "description": "",
         "images": [
-          "/images/gocmaksan/gms-ayarli-kosebentler-gocmaksan-1.webp"
+          "/images/gocmaksan/gms-ayarli-kosebentler-gocmaksan_1.webp"
         ]
-      },
-      "bg": {
-        "name": "Регулируема ъглова конзола",
-        "description": "BCZ 600 is a light-construction cutting machine designed for precise, fast brick and masonry cutting on site. Its dual aqueous and anhydrous operating modes, foldable feet, and material-saving performance make it a practical choice for contractors.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Капацитет: Ø8 - Ø26"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": "Capacity: Ø 8 - Ø 26"
-    },
-    "category": "Hand Tools"
+    }
   },
   {
     "slug": "gms-b-26-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -94,58 +62,42 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e7206f8f48daf5cf01b_gms-B-serisi-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-b-26-gocmaksan-insaat-demiri-bukme-makinasi.pdf",
     "related_products": [
       "B 50",
       "B 45x1",
       "B 36"
     ],
-    "diller": {
-      "en": {
-        "name": "B 26",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
-        "images": [
-          "/images/gocmaksan/gms-b-26-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "B 26",
-        "description": "Произведени с половинвековния опит на GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Добавят здравина към всеки проект с прецизна технология за огъване.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "72 x 77 x 87",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "2,2",
-            "Тегло kg": "175"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Огъване наляво и надясно",
-            "Механична и електрическа автоматизация",
-            "Огъване под всеки желан ъгъл",
-            "Планетарна скоростна кутия",
-            "Запазване на до 9 различни програми за огъване",
-            "Опционален цифров дисплей"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "72 x 77 x 87",
-        "Voltage V": "380",
-        "Engine Power kW": "2,2",
-        "Weight kg": "175"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Bending to the right and left",
         "Mechanical and electrical automation",
         "Bending at any desired angle",
         "Planetary gearbox",
         "Save up to 9 different bending programs",
         "Optional digital display"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "72 x 77 x 87",
+        "Voltage V": "380",
+        "Engine Power kW": "2.2",
+        "Weight kg": "175"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 26x1, Ø 16x2",
+        "65 kg/mm2: Ø 24x1, Ø 14x3",
+        "85 kg/mm2: Ø 20x1, Ø 12x5"
       ]
     },
-    "category": "Bending Machines"
+    "diller": {
+      "en": {
+        "name": "B 26",
+        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "images": [
+          "/images/gocmaksan/gms-b-26-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-b-36-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -156,58 +108,42 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e7206f8f48daf5cf01b_gms-B-serisi-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-b-36-gocmaksan-insaat-demiri-bukme-makinasi.pdf",
     "related_products": [
       "B 26",
       "B 50",
       "B 45x1"
     ],
-    "diller": {
-      "en": {
-        "name": "B 36",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
-        "images": [
-          "/images/gocmaksan/gms-b-36-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "B 36",
-        "description": "Произведени с половинвековния опит на GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Добавят здравина към всеки проект с прецизна технология за огъване.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "78 x 87 x 89",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "3",
-            "Тегло kg": "285"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Огъване наляво и надясно",
-            "Механична и електрическа автоматизация",
-            "Огъване под всеки желан ъгъл",
-            "Планетарна скоростна кутия",
-            "Запазване на до 9 различни програми за огъване",
-            "Опционален цифров дисплей"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "78 x 87 x 89",
-        "Voltage V": "380",
-        "Engine Power kW": "3",
-        "Weight kg": "285"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Bending to the right and left",
         "Mechanical and electrical automation",
         "Bending at any desired angle",
         "Planetary gearbox",
         "Save up to 9 different bending programs",
         "Optional digital display"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "78 x 87 x 89",
+        "Voltage V": "380",
+        "Engine Power kW": "3",
+        "Weight kg": "285"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 36x1, Ø 22x2",
+        "65 kg/mm2: Ø 32x1, Ø 20x2",
+        "85 kg/mm2: Ø 28x1, Ø 16x2"
       ]
     },
-    "category": "Bending Machines"
+    "diller": {
+      "en": {
+        "name": "B 36",
+        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "images": [
+          "/images/gocmaksan/gms-b-36-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -218,58 +154,42 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e7206f8f48daf5cf01b_gms-B-serisi-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi.pdf",
     "related_products": [
       "B 26",
       "B 50",
       "B 36"
     ],
-    "diller": {
-      "en": {
-        "name": "B 45x1",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
-        "images": [
-          "/images/gocmaksan/gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "B 45x1",
-        "description": "Произведени с половинвековния опит на GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Добавят здравина към всеки проект с прецизна технология за огъване.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "83 x 111 x 89",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "4",
-            "Тегло kg": "390"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Огъване наляво и надясно",
-            "Механична и електрическа автоматизация",
-            "Огъване под всеки желан ъгъл",
-            "Планетарна скоростна кутия",
-            "Запазване на до 9 различни програми за огъване",
-            "Опционален цифров дисплей"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "83 x 111 x 89",
-        "Voltage V": "380",
-        "Engine Power kW": "4",
-        "Weight kg": "390"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Bending to the right and left",
         "Mechanical and electrical automation",
         "Bending at any desired angle",
         "Planetary gearbox",
         "Save up to 9 different bending programs",
         "Optional digital display"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "83 x 111 x 89",
+        "Voltage V": "380",
+        "Engine Power kW": "4",
+        "Weight kg": "390"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 45x1, Ø 30x2",
+        "65 kg/mm2: Ø 40x1, Ø 26x2",
+        "85 kg/mm2: Ø 32x1, Ø 20x2"
       ]
     },
-    "category": "Bending Machines"
+    "diller": {
+      "en": {
+        "name": "B 45x1",
+        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "images": [
+          "/images/gocmaksan/gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -280,188 +200,80 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e7206f8f48daf5cf01b_gms-B-serisi-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi.pdf",
     "related_products": [
       "B 26",
       "B 45x1",
       "B 36"
     ],
-    "diller": {
-      "en": {
-        "name": "B 50",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
-        "images": [
-          "/images/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "B 50",
-        "description": "Произведени с половинвековния опит на GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Добавят здравина към всеки проект с прецизна технология за огъване.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "86 x 119 x 89",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "5,5",
-            "Тегло kg": "457"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Огъване наляво и надясно",
-            "Механична и електрическа автоматизация",
-            "Огъване под всеки желан ъгъл",
-            "Планетарна скоростна кутия",
-            "Запазване на до 9 различни програми за огъване",
-            "Опционален цифров дисплей"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "86 x 119 x 89",
-        "Voltage V": "380",
-        "Engine Power kW": "5,5",
-        "Weight kg": "457"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Bending to the right and left",
         "Mechanical and electrical automation",
         "Bending at any desired angle",
         "Planetary gearbox",
         "Save up to 9 different bending programs",
         "Optional digital display"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "86 x 119 x 89",
+        "Voltage V": "380",
+        "Engine Power kW": "5.5",
+        "Weight kg": "457"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 45x1, Ø 30x2",
+        "65 kg/mm2: Ø 45x1, Ø 30x2",
+        "85 kg/mm2: Ø 36x1, Ø 28x2"
       ]
     },
-    "category": "Bending Machines"
+    "diller": {
+      "en": {
+        "name": "B 50",
+        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "images": [
+          "/images/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-bcz-600-gocmaksan-tugla-kesme-makinasi",
     "brand": "gocmaksan",
     "categories": [
-      "Cutting Machines",
-      "Light Construction"
+      "Light Construction",
+      "Cutting Machines"
     ],
     "subcategory": [
       "Standard",
       "Light Construction"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36d74e33db1b6c64b2dd5_gms-tugla-kesme-makinasi.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi.pdf",
     "related_products": [
       "Compactor",
       "Power Trowel",
       "BCZ 600",
       "RL 2000"
     ],
-    "diller": {
-      "en": {
-        "name": "BCZ 600",
-        "description": "The BCZ 600 is a compact brick and block cutting machine designed for light construction applications. It delivers precise cuts for standard and lightweight construction materials.",
-        "images": [
-          "/images/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "BCZ 600",
-        "description": "Hand Scissors are compact hand tools for quick, controlled cutting tasks in reinforcement work. With a capacity range of Ø8 to Ø16, they offer dependable performance for everyday workshop and site use.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Мощност @3600": "7.5",
-            "Обем на цилиндъра (cm³)": "30",
-            "Обороти (rpm)": "3600",
-            "Разход на гориво (l/h)": "16",
-            "Акумулатор (V)": "12",
-            "Капацитет за гориво (l)": "90",
-            "Капацитет на маслото (l)": "130",
-            "Диаметър на барабана (mm)": "400",
-            "Ширина на барабана (mm)": "600",
-            "Резервоар за вода (l)": "25",
-            "Капацитет на резервоара за хидравлично масло (l)": "50",
-            "Центробежна сила (Предна - Задна) (kN)": "20",
-            "Статично линейно натоварване (kg/cm)": "5.6",
-            "Площ на уплътняване (m²/h)": "2700",
-            "Скорост (Напред – Назад) (km/h)": "4.5",
-            "Преодоляване на наклон (%)": "1.7",
-            "Размери (Ш x Д x В) (cm)": "Weight (kg)",
-            "Размер на триона (“Z” Брой зъби на триона) (mm)": "605",
-            "Тегло (kg)": "50 x 99 x 85",
-            "Мощност на двигателя (kW)": "71 x 130 x 125",
-            "Обороти на двигателя (rpm)": "Dimensions (Closed Arm) (WxLxH) (cm)",
-            "Работно напрежение (V)": "71x240x101",
-            "Честота на двигателя (Hz)": "85 x 157 x 153",
-            "Диаметър (mm)": "Ø600 x 4.4 x 30 Z:30&72",
-            "Диаметър на диска (mm)": "180",
-            "Количество дискове": "3",
-            "Ъгъл на наклона на диска": "1450",
-            "Тегло на плочата (kg)": "50",
-            "Размери (Затворено рамо) (Ш x Д x В)": "Honda GX 200",
-            "Размери (Отворено рамо) (Ш x Д x В)": "7.5 HP Бензин",
-            "Двигател": "4",
-            "Мощност @3600 rpm": "50 x 70",
-            "Обем на валяка (cm³)": "100",
-            "Тава (Ширина x Дължина) (cm)": "196",
-            "Центробежна сила (kN)": "3.6",
-            "Честота на вибрациите (Hz)": "0.6",
-            "Двигател ": "50 x 157 x 95",
-            "Разход на гориво  (l/h)": "30"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Прецизно и бързо рязане",
-            "Режим на работа с и без вода (мокро/сухо)",
-            "Лесно пренасяне със сгъваеми крака",
-            "Спестява труд и материали"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "Power @3600": "7.5",
-        "Cylinder Volume (cm3)": "30",
-        "Rotation (rpm)": "3600",
-        "Fuel Consumption (lt/sa)": "16",
-        "Battery (V)": "12",
-        "Fuel Capacity (lt)": "90",
-        "Oil Capacity (lt)": "130",
-        "Drum Diameter (mm)": "400",
-        "Drum Width (mm)": "600",
-        "Water Tank (lt)": "25",
-        "Hidrolik Yağ Tankı Kapasitesi(lt)": "50",
-        "Vibration Frequency(Hz)": "60",
-        "Centrifugal Force (Front - Back)  (kN)": "20",
-        "Static Linear Load (kg/cm)": "5.6",
-        "Compaction Area (m2/sa)": "2700",
-        "Speed (Forward – Reverse) (km/sa)": "4.5",
-        "Gradeability (%)": "1.7",
-        "Dimensions (W x H x H) (cm)": "Weight (kg)",
-        "Saw Size (“Z” Number of Saw Teeth) (mm)3": "605",
-        "Weight (kg)": "50 x 99 x 85",
-        "Engine Power (kW)": "71 x 130 x 125",
-        "Engine Speed(rpm)": "Dimensions (Closed Arm) (WxLxH) (cm)",
-        "Operating Voltage  (V)": "71x240x101",
-        "Motor Frequency (Hz)": "85 x 157 x 153",
-        "Power Diameter (mm)": "Ø600 x 4.4 x 30 Z:30&72",
-        "Blade Diameter (mm)": "180",
-        "Blade Qty": "3",
-        "Blade Pitch Angle": "1450",
-        "Plate Weight (kg)": "50",
-        "Dimensions (Closed Arm) (W x L x H)": "Honda GX 200",
-        "Dimensions (Open Arm) (W x L x H)": "7.5 HP Benzin",
-        "Motor": "4",
-        "Power @3600 rpm": "50 x 70",
-        "Roller Volume (cm³)": "100",
-        "Tray (Width x Length) (cm)": "196",
-        "Centrifugal Force (kN)": "3.6",
-        "Vibration Freguency (Hz)": "0.6",
-        "Engine": "50 x 157 x 95",
-        "Fuel Consumption (l/sa)": "30"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Precise and fast cutting",
         "Dual mode (aqueous/anhydrous) use",
         "Easy to carry with foldable feet",
         "Saves labor and materials"
-      ]
+      ],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
     },
-    "category": "Light Construction"
+    "diller": {
+      "en": {
+        "name": "BCZ 600",
+        "description": "",
+        "images": [
+          "/images/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -478,38 +290,29 @@
       "BS 60",
       "BS 50"
     ],
-    "diller": {
-      "en": {
-        "name": "BS 36",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
-        "images": [
-          "/images/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "BS 36",
-        "description": "Произведени с половинвековния опит на GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Добавят здравина към всеки проект с прецизна технология за огъване.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "83 x 111 x 89",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "3",
-            "Тегло kg": "350"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": []
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {
         "W-L-H cm": "83 x 111 x 89",
         "Voltage V": "380",
         "Engine Power kW": "3",
         "Weight kg": "350"
       },
-      "GENEL OZELLIKLER": []
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 36x1, Ø 22x2",
+        "65 kg/mm2: Ø 32x1, Ø 20x2",
+        "85 kg/mm2: Ø 28x1, Ø 16x2"
+      ]
     },
-    "category": "Bending Machines"
+    "diller": {
+      "en": {
+        "name": "BS 36",
+        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "images": [
+          "/images/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu",
@@ -526,38 +329,29 @@
       "BS 60",
       "BS 50"
     ],
-    "diller": {
-      "en": {
-        "name": "BS 45",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
-        "images": [
-          "/images/gocmaksan/gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "BS 45",
-        "description": "Произведени с половинвековния опит на GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Добавят здравина към всеки проект с прецизна технология за огъване.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "83 x 122 x 89",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "4",
-            "Тегло kg": "462"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": []
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {
         "W-L-H cm": "83 x 122 x 89",
         "Voltage V": "380",
         "Engine Power kW": "4",
         "Weight kg": "462"
       },
-      "GENEL OZELLIKLER": []
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 45x1, Ø 30x2",
+        "65 kg/mm2: Ø 40x1, Ø 26x2",
+        "85 kg/mm2: Ø 30x1, Ø 20x2"
+      ]
     },
-    "category": "Bending Machines"
+    "diller": {
+      "en": {
+        "name": "BS 45",
+        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "images": [
+          "/images/gocmaksan/gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -574,38 +368,29 @@
       "BS 36",
       "BS 60"
     ],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "88 x 141 x 89",
+        "Voltage V": "380",
+        "Engine Power kW": "5.5",
+        "Weight kg": "700"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 50x1, Ø 32x2",
+        "65 kg/mm2: Ø 45x1, Ø 30x2",
+        "85 kg/mm2: Ø 36x1, Ø 28x2"
+      ]
+    },
     "diller": {
       "en": {
         "name": "BS 50",
         "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
         "images": [
-          "/images/gocmaksan/gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
+          "/images/gocmaksan/gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "BS 50",
-        "description": "Произведени с половинвековния опит на GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Добавят здравина към всеки проект с прецизна технология за огъване.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "88 x 141 x 89",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "5,5",
-            "Тегло kg": "700"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": []
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "88 x 141 x 89",
-        "Voltage V": "380",
-        "Engine Power kW": "5,5",
-        "Weight kg": "700"
-      },
-      "GENEL OZELLIKLER": []
-    },
-    "category": "Bending Machines"
+    }
   },
   {
     "slug": "gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi",
@@ -622,38 +407,29 @@
       "BS 36",
       "BS 50"
     ],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "98 x 154 x 91",
+        "Voltage V": "380",
+        "Engine Power kW": "7.5",
+        "Weight kg": "850"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 60x1, Ø 40x2",
+        "65 kg/mm2: Ø 55x1, Ø 34x2",
+        "85 kg/mm2: Ø 50x1, Ø 30x2"
+      ]
+    },
     "diller": {
       "en": {
         "name": "BS 60",
         "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
         "images": [
-          "/images/gocmaksan/gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi-1.webp"
+          "/images/gocmaksan/gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "BS 60",
-        "description": "Произведени с половинвековния опит на GMS, машините за огъване на арматура предлагат максимална ефективност и издръжливост на строителните обекти. Добавят здравина към всеки проект с прецизна технология за огъване.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "98 x 154 x 91",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "7,5",
-            "Тегло kg": "850"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": []
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "98 x 154 x 91",
-        "Voltage V": "380",
-        "Engine Power kW": "7,5",
-        "Weight kg": "850"
-      },
-      "GENEL OZELLIKLER": []
-    },
-    "category": "Bending Machines"
+    }
   },
   {
     "slug": "gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi",
@@ -664,58 +440,42 @@
     "subcategory": [
       "Portable"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/69d374467d64075a06bc2aea_gms%20katalog_2026%20TR_ENG.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi.pdf",
     "related_products": [
       "MG 26 Junior",
       "BT 26",
       "MG 20B"
     ],
-    "diller": {
-      "en": {
-        "name": "BT 24x5",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
-        "images": [
-          "/images/gocmaksan/gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "BT 24x5",
-        "description": "Със своя лек и ергономичен дизайн, тя предлага максимална ефективност на строителните обекти.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "63 x 70 x 62",
-            "Напрежение V": "380-220",
-            "Мощност на двигателя kW": "1,5",
-            "Тегло kg": "130"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Лесно транспортиране",
-            "Фиксиран централен щифт",
-            "Опции за напрежение 220 V и 380 V",
-            "Опция за цифров контролен панел",
-            "Възможност за огъване на стремена",
-            "Програмируема функция за огъване"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "63 x 70 x 62",
-        "Voltage V": "380-220",
-        "Engine Power kW": "1,5",
-        "Weight kg": "130"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Easy transportation",
         "Fixed center pin",
         "220 V & 380 V voltage options",
         "Digital control panel option",
         "Stirrup bending ability",
         "Programmable bending function"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "63 x 70 x 62",
+        "Voltage V": "380-220",
+        "Engine Power kW": "1.5",
+        "Weight kg": "130"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø24x1, Ø16x2",
+        "65 kg/mm2: Ø22x1, Ø14x2",
+        "85 kg/mm2: Ø20x1, Ø12x3"
       ]
     },
-    "category": "Portable Bending"
+    "diller": {
+      "en": {
+        "name": "BT 24x5",
+        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi",
@@ -726,58 +486,42 @@
     "subcategory": [
       "Portable"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/69d374467d64075a06bc2aea_gms%20katalog_2026%20TR_ENG.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi.pdf",
     "related_products": [
       "MG 26 Junior",
       "MG 20B",
       "BT 24x5"
     ],
-    "diller": {
-      "en": {
-        "name": "BT 26",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
-        "images": [
-          "/images/gocmaksan/gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "BT 26",
-        "description": "Със своя лек и ергономичен дизайн, тя предлага максимална ефективност на строителните обекти.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "63 x 70 x 62",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "2.2",
-            "Тегло kg": "150"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Лесно транспортиране",
-            "Фиксиран централен щифт",
-            "Опции за напрежение 220 V и 380 V",
-            "Опция за цифров контролен панел",
-            "Възможност за огъване на стремена",
-            "Програмируема функция за огъване"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "63 x 70 x 62",
-        "Voltage V": "380",
-        "Engine Power kW": "2.2",
-        "Weight kg": "150"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Ease of transportation",
         "Fixed center pin",
         "220V & 380V voltageopties",
         "Digital control panel option",
         "Stirrup bending ability",
         "Programmable bending function"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "63 x 70 x 62",
+        "Voltage V": "380",
+        "Engine Power kW": "2.2",
+        "Weight kg": "150"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø26x1, Ø16x2",
+        "65 kg/mm2: Ø22x1, Ø14x3",
+        "85 kg/mm2: Ø20x1, Ø12x3"
       ]
     },
-    "category": "Portable Bending"
+    "diller": {
+      "en": {
+        "name": "BT 26",
+        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-demirci-anahtarlari-gocmaksan",
@@ -790,30 +534,20 @@
     ],
     "pdf_catalog": "",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "ConstructIon Steel Keys",
-        "description": "The Manual Bender is a practical hand tool for forming rebar and stirrups with consistent control. With a bending capacity of Ø8 to Ø16, it is well suited for daily fabrication and on-site adjustment work.",
+        "description": "",
         "images": [
-          "/images/gocmaksan/gms-demirci-anahtarlari-gocmaksan-1.webp"
+          "/images/gocmaksan/gms-demirci-anahtarlari-gocmaksan_1.webp"
         ]
-      },
-      "bg": {
-        "name": "Ключове за арматура",
-        "description": "Lever is a robust hand tool designed to support formwork removal and general site operations. Its simple, durable construction makes it a dependable choice for demanding day-to-day construction use.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Капацитет: Ø8 — Ø36"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": "Capacity: Ø8 — Ø36"
-    },
-    "category": "Hand Tools"
+    }
   },
   {
     "slug": "gms-el-makaslari-gocmaksan",
@@ -826,30 +560,20 @@
     ],
     "pdf_catalog": "",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "Hand Scissors",
-        "description": "Compactor is a light-construction machine engineered for effective floor compaction and consistent surface preparation. It combines a durable compression table, a foldable handle, and safe, ergonomic operation for efficient jobsite use.",
+        "description": "",
         "images": [
-          "/images/gocmaksan/gms-el-makaslari-gocmaksan-1.webp"
+          "/images/gocmaksan/gms-el-makaslari-gocmaksan_1.webp"
         ]
-      },
-      "bg": {
-        "name": "Ръчни ножици",
-        "description": "Low Stool Scissors are durable hand tools built for practical cutting operations in reinforcement work. With a capacity of Ø8 to Ø32, they provide stable performance for daily site and workshop applications.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Капацитет: Ø8 – Ø16"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": "Capacity: Ø8 – Ø16"
-    },
-    "category": "Hand Tools"
+    }
   },
   {
     "slug": "gms-etriye-kollari-gocmaksan",
@@ -862,30 +586,20 @@
     ],
     "pdf_catalog": "",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "Manual Bender",
-        "description": "Power Trowel is a light-construction finishing machine designed to deliver excellent results on concrete surfaces. Its ergonomic, low-fuel-consumption design and easy blade adjustment support fast, efficient operation on site.",
+        "description": "",
         "images": [
-          "/images/gocmaksan/gms-etriye-kollari-gocmaksan-1.webp"
+          "/images/gocmaksan/gms-etriye-kollari-gocmaksan_1.webp"
         ]
-      },
-      "bg": {
-        "name": "Ръчна огъвачка за стремена",
-        "description": "RL 2000 is a light-construction double-drum roller designed to deliver maximum efficiency in compaction work. With its powerful motor, hydrostatic drive system, and compact portable construction, it offers easy and ergonomic operation on site.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Капацитет: Ø8 — Ø16"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": "Capacity: Ø8 — Ø16"
-    },
-    "category": "Hand Tools"
+    }
   },
   {
     "slug": "gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -896,61 +610,44 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36c65df364b8e30360e63_gms-H-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "H 36S",
       "H 55",
       "H 38S",
       "H 45S"
     ],
-    "diller": {
-      "en": {
-        "name": "H 26",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "H 26",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "54x100x78",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "2,2",
-            "Тегло kg": "95",
-            "Капацитет на хидр. масло l": "7"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлична система",
-            "Регулируема опора на ножа",
-            "Ниски разходи за поддръжка",
-            "Дълъг експлоатационен живот",
-            "Подсилен стоманен корпус",
-            "Тиха, безопасна и екологична"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "54x100x78",
-        "Voltage V": "380",
-        "Engine Power kW": "2,2",
-        "Weight kg": "95",
-        "Hid. Oil. Cap. lt": "7"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Hydraulic System",
         "Adjustable blade support",
         "Low maintenance costs",
         "Long-lasting use",
         "Reinforced steel body",
         "Quiet, safe and environmentally friendly"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "54x100x78",
+        "Voltage V": "380",
+        "Engine Power kW": "2.2",
+        "Weight kg": "95",
+        "Hid. Oil. Cap. lt": "7"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø26x1, Ø16x2",
+        "65 kg/mm2: Ø22x1, Ø12x2",
+        "85 kg/mm2: Ø20x1, Ø10x2"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "H 26",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -961,61 +658,44 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/69d37a59537239833ee34cf7_gms-H-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "H 26",
       "H 55",
       "H 38S",
       "H 45S"
     ],
-    "diller": {
-      "en": {
-        "name": "H 36S",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi-1.png"
-        ]
-      },
-      "bg": {
-        "name": "H 36S",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "53x105x80",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "2,2",
-            "Тегло kg": "160",
-            "Капацитет на хидр. масло l": "13"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлична система",
-            "Регулируема опора на ножа",
-            "Ниски разходи за поддръжка",
-            "Дълъг експлоатационен живот",
-            "Подсилен стоманен корпус",
-            "Тиха, безопасна и екологична"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "53x105x80",
-        "Voltage V": "380",
-        "Engine Power kW": "2,2",
-        "Weight kg": "160",
-        "Hid. Oil. Cap. lt": "13"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Hidrolik Sistem",
         "Ayarlanabilir bıçak desteği",
         "Düşük bakım maliyetleri",
         "Uzun ömürlü kullanım",
         "Güçlendirilmiş çelik gövde",
         "Sessiz, güvenli ve çevre dostu"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "53x105x80",
+        "Voltage V": "380",
+        "Engine Power kW": "2.2",
+        "Weight kg": "160",
+        "Hid. Oil. Cap. lt": "13"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 30x1, Ø 22x2",
+        "65 kg/mm2: Ø 29x1, Ø 19x2",
+        "85 kg/mm2: Ø 22x1, Ø 16x2"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "H 36S",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi_1.png"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1026,61 +706,44 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36c65df364b8e30360e63_gms-H-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "H 36S",
       "H 26",
       "H 55",
       "H 45S"
     ],
-    "diller": {
-      "en": {
-        "name": "H 38S",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "H 38S",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "61x123x80",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "3",
-            "Тегло kg": "273",
-            "Капацитет на хидр. масло l": "17,5"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлична система",
-            "Регулируема опора на ножа",
-            "Ниски разходи за поддръжка",
-            "Дълъг експлоатационен живот",
-            "Подсилен стоманен корпус",
-            "Тиха, безопасна и екологична"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "61x123x80",
-        "Voltage V": "380",
-        "Engine Power kW": "3",
-        "Weight kg": "273",
-        "Hid. Oil. Cap. lt": "17,5"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Hydraulic System",
         "Adjustable blade support",
         "Low maintenance costs",
         "Long-lasting use",
         "Reinforced steel body",
         "Quiet, safe and environmentally friendly"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "61x123x80",
+        "Voltage V": "380",
+        "Engine Power kW": "3",
+        "Weight kg": "273",
+        "Hid. Oil. Cap. lt": "17.5"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø38x1, Ø26x2",
+        "65 kg/mm2: Ø36x2, Ø22x2",
+        "85 kg/mm2: Ø32x1, Ø20x2"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "H 38S",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1091,61 +754,44 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36c65df364b8e30360e63_gms-H-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "H 36S",
       "H 26",
       "H 55",
       "H 38S"
     ],
-    "diller": {
-      "en": {
-        "name": "H 45S",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "H 45S",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "65x136x79",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "4",
-            "Тегло kg": "321",
-            "Капацитет на хидр. масло l": "17,5"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлична система",
-            "Регулируема опора на ножа",
-            "Ниски разходи за поддръжка",
-            "Дълъг експлоатационен живот",
-            "Подсилен стоманен корпус",
-            "Тиха, безопасна и екологична"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "65x136x79",
-        "Voltage V": "380",
-        "Engine Power kW": "4",
-        "Weight kg": "321",
-        "Hid. Oil. Cap. lt": "17,5"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Hydraulic System",
         "Adjustable blade support",
         "Low maintenance costs",
         "Long-lasting use",
         "Reinforced steel body",
         "Quiet, safe and environmentally friendly"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "65x136x79",
+        "Voltage V": "380",
+        "Engine Power kW": "4",
+        "Weight kg": "321",
+        "Hid. Oil. Cap. lt": "17.5"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø45x1, Ø26x3",
+        "65 kg/mm2: Ø42x1, Ø30x2",
+        "85 kg/mm2: Ø34x1, Ø26x2"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "H 45S",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1156,161 +802,100 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36c65df364b8e30360e63_gms-H-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "H 36S",
       "H 26",
       "H 38S",
       "H 45S"
     ],
-    "diller": {
-      "en": {
-        "name": "H 55",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "H 55",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "76x154x102",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "7,5",
-            "Тегло kg": "482",
-            "Капацитет на хидр. масло l": "35"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлична система",
-            "Регулируема опора на ножа",
-            "Ниски разходи за поддръжка",
-            "Дълъг експлоатационен живот",
-            "Подсилен стоманен корпус",
-            "Тиха, безопасна и екологична"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "76x154x102",
-        "Voltage V": "380",
-        "Engine Power kW": "7,5",
-        "Weight kg": "482",
-        "Hid. Oil. Cap. lt": "35"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Hydraulic System",
         "Adjustable blade support",
         "Low maintenance costs",
         "Long-lasting use",
         "Reinforced steel body",
         "Quiet, safe and environmentally friendly"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "76x154x102",
+        "Voltage V": "380",
+        "Engine Power kW": "7.5",
+        "Weight kg": "482",
+        "Hid. Oil. Cap. lt": "35"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø55x1, Ø30x3",
+        "65 kg/mm2: Ø50x2, Ø28x3",
+        "85 kg/mm2: Ø42x1, Ø26x3"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "H 55",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi",
     "brand": "gocmaksan",
     "categories": [
-      "Bending Machines",
-      "Steel Factory Solutions"
+      "Steel Factory Solutions",
+      "Bending Machines"
     ],
     "subcategory": [
       "Standard",
       "Steel Factory"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a3755129539ad735819e12_gms-mesh-cutting-bending-machines.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi.pdf",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "HB 12x3",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi-1.webp"
+          "/images/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "HB 12x3",
-        "description": "Предлага капацитет за спирално огъване до Ø50 mm диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлично задвижване с двойно действие",
-            "Система за автоматично и ръчно управление",
-            "Прецизно огъване до 135°",
-            "Лесна поддръжка и удобно използване",
-            "Едновременна настройка на 3 различни ъгъла",
-            "380 V"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": [
-        "Double Acting Hydraulic Drive",
-        "Automatic & Manual Control System",
-        "Precision Twisting Up To 135°",
-        "Easy Maintenance & Comfortable Use",
-        "3 Different Angle Settings Simultaneously",
-        "380 V"
-      ]
-    },
-    "category": "Steel Factory"
+    }
   },
   {
     "slug": "gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi",
     "brand": "gocmaksan",
     "categories": [
-      "Bending Machines",
-      "Steel Factory Solutions"
+      "Steel Factory Solutions",
+      "Bending Machines"
     ],
     "subcategory": [
       "Standard",
       "Steel Factory"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a3755129539ad735819e12_gms-mesh-cutting-bending-machines.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi.pdf",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "HB 12x6",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi-1.webp"
+          "/images/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "HB 12x6",
-        "description": "Предлага капацитет за спирално огъване до Ø50 mm диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлично задвижване с двойно действие",
-            "Система за автоматично и ръчно управление",
-            "Прецизно огъване до 135°",
-            "Лесна поддръжка и удобно използване",
-            "Едновременна настройка на 3 различни ъгъла",
-            "380 V"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": [
-        "Double Acting Hydraulic Drive",
-        "Automatic & Manual Control System",
-        "Precision Twisting Up To 135°",
-        "Easy Maintenance & Comfortable Use",
-        "3 Different Angle Settings Simultaneously",
-        "380 V"
-      ]
-    },
-    "category": "Steel Factory"
+    }
   },
   {
     "slug": "gms-kalip-sokmeler-gocmaksan",
@@ -1323,28 +908,20 @@
     ],
     "pdf_catalog": "",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "Lever",
-        "description": "Lever is a robust hand tool designed to support formwork removal and general site operations. Its simple, durable construction makes it a dependable choice for demanding day-to-day construction use.",
-        "images": [
-          "/images/gocmaksan/gms-kalip-sokmeler-gocmaksan-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "Кози крак",
         "description": "",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": []
-        }
+        "images": [
+          "/images/gocmaksan/gms-kalip-sokmeler-gocmaksan_1.webp"
+        ]
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": []
-    },
-    "category": "Hand Tools"
+    }
   },
   {
     "slug": "gms-kompaktor",
@@ -1362,117 +939,25 @@
       "BCZ 600",
       "RL 2000"
     ],
-    "diller": {
-      "en": {
-        "name": "Compactor",
-        "description": "Compactor is a light-construction machine engineered for effective floor compaction and consistent surface preparation. It combines a durable compression table, a foldable handle, and safe, ergonomic operation for efficient jobsite use.",
-        "images": [
-          "/images/gocmaksan/gms-kompaktor-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "Трамбовка",
-        "description": "",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Мощност @3600": "7.5",
-            "Обем на цилиндъра (cm³)": "30",
-            "Обороти (rpm)": "3600",
-            "Разход на гориво (l/h)": "16",
-            "Акумулатор (V)": "12",
-            "Капацитет за гориво (l)": "90",
-            "Капацитет на маслото (l)": "130",
-            "Диаметър на барабана (mm)": "400",
-            "Ширина на барабана (mm)": "600",
-            "Резервоар за вода (l)": "25",
-            "Капацитет на резервоара за хидравлично масло (l)": "50",
-            "Центробежна сила (Предна - Задна) (kN)": "20",
-            "Статично линейно натоварване (kg/cm)": "5.6",
-            "Площ на уплътняване (m²/h)": "2700",
-            "Скорост (Напред – Назад) (km/h)": "4.5",
-            "Преодоляване на наклон (%)": "1.7",
-            "Размери (Ш x Д x В) (cm)": "Weight (kg)",
-            "Размер на триона (“Z” Брой зъби на триона) (mm)": "605",
-            "Тегло (kg)": "50 x 99 x 85",
-            "Мощност на двигателя (kW)": "71 x 130 x 125",
-            "Обороти на двигателя (rpm)": "Dimensions (Closed Arm) (WxLxH) (cm)",
-            "Работно напрежение (V)": "71x240x101",
-            "Честота на двигателя (Hz)": "85 x 157 x 153",
-            "Диаметър (mm)": "Ø600 x 4.4 x 30 Z:30&72",
-            "Диаметър на диска (mm)": "180",
-            "Количество дискове": "3",
-            "Ъгъл на наклона на диска": "1450",
-            "Тегло на плочата (kg)": "50",
-            "Размери (Затворено рамо) (Ш x Д x В)": "Honda GX 200",
-            "Размери (Отворено рамо) (Ш x Д x В)": "7.5 HP Бензин",
-            "Двигател": "4",
-            "Мощност @3600 rpm": "50 x 70",
-            "Обем на валяка (cm³)": "100",
-            "Тава (Ширина x Дължина) (cm)": "196",
-            "Центробежна сила (kN)": "3.6",
-            "Честота на вибрациите (Hz)": "0.6",
-            "Двигател ": "50 x 157 x 95",
-            "Разход на гориво  (l/h)": "30"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Ефективно уплътняване на настилката",
-            "Издръжлива уплътняваща плоча",
-            "Сгъваема дръжка, лесна за пренасяне",
-            "Удобна и безопасна употреба"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "Power @3600": "7.5",
-        "Cylinder Volume (cm3)": "30",
-        "Rotation (rpm)": "3600",
-        "Fuel Consumption (lt/sa)": "16",
-        "Battery (V)": "12",
-        "Fuel Capacity (lt)": "90",
-        "Oil Capacity (lt)": "130",
-        "Drum Diameter (mm)": "400",
-        "Drum Width (mm)": "600",
-        "Water Tank (lt)": "25",
-        "Hidrolik Yağ Tankı Kapasitesi(lt)": "50",
-        "Vibration Frequency(Hz)": "60",
-        "Centrifugal Force (Front - Back)  (kN)": "20",
-        "Static Linear Load (kg/cm)": "5.6",
-        "Compaction Area (m2/sa)": "2700",
-        "Speed (Forward – Reverse) (km/sa)": "4.5",
-        "Gradeability (%)": "1.7",
-        "Dimensions (W x H x H) (cm)": "Weight (kg)",
-        "Saw Size (“Z” Number of Saw Teeth) (mm)3": "605",
-        "Weight (kg)": "50 x 99 x 85",
-        "Engine Power (kW)": "71 x 130 x 125",
-        "Engine Speed(rpm)": "Dimensions (Closed Arm) (WxLxH) (cm)",
-        "Operating Voltage  (V)": "71x240x101",
-        "Motor Frequency (Hz)": "85 x 157 x 153",
-        "Power Diameter (mm)": "Ø600 x 4.4 x 30 Z:30&72",
-        "Blade Diameter (mm)": "180",
-        "Blade Qty": "3",
-        "Blade Pitch Angle": "1450",
-        "Plate Weight (kg)": "50",
-        "Dimensions (Closed Arm) (W x L x H)": "Honda GX 200",
-        "Dimensions (Open Arm) (W x L x H)": "7.5 HP Benzin",
-        "Motor": "4",
-        "Power @3600 rpm": "50 x 70",
-        "Roller Volume (cm³)": "100",
-        "Tray (Width x Length) (cm)": "196",
-        "Centrifugal Force (kN)": "3.6",
-        "Vibration Freguency (Hz)": "0.6",
-        "Engine": "50 x 157 x 95",
-        "Fuel Consumption (l/sa)": "30"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Effective floor compaction",
         "Durable compression table",
         "Foldable handle, easy to carry",
         "Comfortable and safe use"
-      ]
+      ],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
     },
-    "category": "Light Construction"
+    "diller": {
+      "en": {
+        "name": "Compactor",
+        "description": "",
+        "images": [
+          "/images/gocmaksan/gms-kompaktor_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1483,59 +968,42 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/69d37c56110395214d24a110_gms-M-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "M 45",
       "M 55"
     ],
-    "diller": {
-      "en": {
-        "name": "M 36",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "M 36",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "54x101x79",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "3",
-            "Тегло kg": "325",
-            "Капацитет на хидр. масло l": "-"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Механична система",
-            "Рязане за 0.8 секунди",
-            "Висока производителност на рязане",
-            "Възможност за ръчно и крачно управление",
-            "Ниска консумация на енергия",
-            "Мобилен и преносим дизайн"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "54x101x79",
-        "Voltage V": "380",
-        "Engine Power kW": "3",
-        "Weight kg": "325",
-        "Hid. Oil. Cap. lt": "-"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Mechanical system",
         "Cut in 0.8 seconds",
         "High cutting performance",
         "Ability to control with hand and foot",
         "Low Energy Consumption",
         "Mobile and portable design"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "54x101x79",
+        "Voltage V": "380",
+        "Engine Power kW": "3",
+        "Weight kg": "325",
+        "Hid. Oil. Cap. lt": "-"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø36x1, Ø26x2",
+        "65 kg/mm2: Ø32x1, Ø22x2",
+        "85 kg/mm2: Ø28x1, Ø20x2"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "M 36",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1546,59 +1014,42 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36cbcd044563fa49a7f24_gms-M-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "M 36",
       "M 55"
     ],
-    "diller": {
-      "en": {
-        "name": "M 45",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "M 45",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "61x123x80",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "3",
-            "Тегло kg": "435",
-            "Капацитет на хидр. масло l": "-"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Механична система",
-            "Рязане за 0.8 секунди",
-            "Висока производителност на рязане",
-            "Възможност за ръчно и крачно управление",
-            "Ниска консумация на енергия",
-            "Мобилен и преносим дизайн"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "61x123x80",
-        "Voltage V": "380",
-        "Engine Power kW": "3",
-        "Weight kg": "435",
-        "Hid. Oil. Cap. lt": "-"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Mechanical system",
         "Cut in 0.8 seconds",
         "High cutting performance",
         "Ability to control with hand and foot",
         "Low Energy Consumption",
         "Mobile and portable design"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "61x123x80",
+        "Voltage V": "380",
+        "Engine Power kW": "3",
+        "Weight kg": "435",
+        "Hid. Oil. Cap. lt": "-"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø45x1, Ø36x2",
+        "65 kg/mm2: Ø42x1, Ø30x2",
+        "85 kg/mm2: Ø30x1, Ø24x2"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "M 45",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -1609,219 +1060,143 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/69d37c56110395214d24a110_gms-M-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "M 36",
       "M 45"
     ],
-    "diller": {
-      "en": {
-        "name": "M 55",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "M 55",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "65x136x79",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "4",
-            "Тегло kg": "321",
-            "Капацитет на хидр. масло l": "-"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Механична система",
-            "Рязане за 0.8 секунди",
-            "Висока производителност на рязане",
-            "Възможност за ръчно и крачно управление",
-            "Ниска консумация на енергия",
-            "Мобилен и преносим дизайн"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "65x136x79",
-        "Voltage V": "380",
-        "Engine Power kW": "4",
-        "Weight kg": "321",
-        "Hid. Oil. Cap. lt": "-"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Mechanical system",
         "Cut in 0.8 seconds",
         "High cutting performance",
         "Ability to control with hand and foot",
         "Low Energy Consumption",
         "Mobile and portable design"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "65x136x79",
+        "Voltage V": "380",
+        "Engine Power kW": "4",
+        "Weight kg": "321",
+        "Hid. Oil. Cap. lt": "-"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø55x1, Ø32x2",
+        "65 kg/mm2: Ø52x1, Ø28x3",
+        "85 kg/mm2: Ø45x1, Ø24x3"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "M 55",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-matrix-55-gocmaksan-demir-demir-kesme-hatti",
     "brand": "gocmaksan",
     "categories": [
-      "Cutting Machines",
-      "Steel Factory Solutions"
+      "Steel Factory Solutions",
+      "Cutting Machines"
     ],
     "subcategory": [
       "Standard",
       "Steel Factory"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a3750e2be685c554a09faf_matrix-55-gms-shearline.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti.pdf",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "MATRIX 55",
-        "description": "MATRIX 55 is an automatic rebar cutting line designed for high-volume steel factory production.",
+        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti-1.webp"
+          "/images/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti_1.webp"
         ]
-      },
-      "bg": {
-        "name": "MATRIX 55",
-        "description": "Предлага капацитет за спирално огъване до Ø50 mm диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Система за автоматично подаване и разтоварване",
-            "±3 mm прецизност на рязане",
-            "Лесно програмиране чрез сензорен контролен панел",
-            "Регулируем бункер и събирателен блок",
-            "Здраво шаси и издръжлива конструкция",
-            "Интелигентна софтуерна интеграция и CE сертифицирана безопасност"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": [
-        "Automatic feeding and unloading system",
-        "±3mm cutting precision",
-        "Easy programming with touch control panel",
-        "Adjustable hopper and collection unit",
-        "Strong chassis and durable construction",
-        "Intelligent software integration and CE certified security"
-      ]
-    },
-    "category": "Steel Factory"
+    }
   },
   {
     "slug": "gms-matrix-55s-gocmaksan-demir-kesme-hatti",
     "brand": "gocmaksan",
     "categories": [
-      "Cutting Machines",
-      "Steel Factory Solutions"
+      "Steel Factory Solutions",
+      "Cutting Machines"
     ],
     "subcategory": [
       "Standard",
       "Steel Factory"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a3753ffc7f93349c475795_matrix-55-s-gms-shearline.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti.pdf",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "MATIX 55S",
-        "description": "MATRIX 55S is an automatic rebar cutting and processing line for steel factory environments.",
+        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti-1.webp"
+          "/images/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti_1.webp"
         ]
-      },
-      "bg": {
-        "name": "MATIX 55S",
-        "description": "Предлага капацитет за спирално огъване до Ø50 mm диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Автоматично подаване и разтоварване",
-            "±3 mm точност на рязане",
-            "10.1” сензорен контролен панел",
-            "Висока скорост, по-малко работна ръка",
-            "Регулируеми събирателни бункери",
-            "Интелигентна софтуерна интеграция и CE сертифицирана безопасност"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": [
-        "Automatic Feeding & Discharging",
-        "±3 mm Cutting Accuracy",
-        "10.1” Touch Control Panel",
-        "High Speed, Low Workforce",
-        "Adjustable Collection Hoppers",
-        "Intelligent software integration and CE certified security"
-      ]
-    },
-    "category": "Steel Factory"
+    }
   },
   {
     "slug": "gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi",
     "brand": "gocmaksan",
     "categories": [
-      "Cutting Machines",
+      "Bending Machines",
       "Combined Machines",
-      "Bending Machines"
+      "Cutting Machines"
     ],
     "subcategory": [
       "Combined"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36df91ff2e9090ffefec5_gms-kombine-kesme-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi.pdf",
     "related_products": [
       "MAX 40"
     ],
-    "diller": {
-      "en": {
-        "name": "MAX 40",
-        "description": "Combining iron cutting and bending in one machine saves time and space on your construction site.",
-        "images": [
-          "https://cdn.prod.website-files.com/68778501607ca5288753b49e/689c46789a3eb9a943567121_max40_gms_kombine_demir_kesme_bukme_makinasi.webp"
-        ]
-      },
-      "bg": {
-        "name": "MAX 40",
-        "description": "Комбинирането на рязане и огъване на арматура в една машина спестява време и пространство на вашия строителен обект.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "110x98x110",
-            "Напрежение V": "380",
-            "Мощност на двигателя (Огъване) rpm": "3",
-            "Мощност на двигателя (Рязане) rpm": "2,2",
-            "Тегло kg": "430"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Комбинирано рязане и огъване",
-            "Хидромеханична система",
-            "Многофункционална",
-            "Безопасна употреба",
-            "Ниски разходи за поддръжка"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "E-B-Y cm": "110x98x110",
-        "Voltaj V": "380",
-        "Motor Gücü (Bükme) rpm": "3",
-        "Motor Gücü (Kesme) rpm": "2,2",
-        "Ağırlık kg": "430"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Combined Cutting & Bending",
         "Hydromechanical System",
         "Multi-Purpose",
         "Safe Use",
         "Low Maintenance Cost"
+      ],
+      "TECHNICAL DATA": {
+        "E-B-Y cm": "110x98x110",
+        "Voltaj V": "380",
+        "Motor Gücü (Bükme) rpm": "3",
+        "Motor Gücü (Kesme) rpm": "2.2",
+        "Ağırlık kg": "430"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 36x1, Ø 24x2",
+        "65 kg/mm2: Ø 32x2, Ø 20x2",
+        "85 kg/mm2: Ø 28x1, Ø 18x2"
       ]
+    },
+    "diller": {
+      "en": {
+        "name": "MAX 40",
+        "description": "Combining iron cutting and bending in one machine saves time and space on your construction site.",
+        "images": [
+          "/images/gocmaksan/gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi_1.webp"
+        ]
+      }
     }
   },
   {
@@ -1833,58 +1208,42 @@
     "subcategory": [
       "Portable"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/69d374467d64075a06bc2aea_gms%20katalog_2026%20TR_ENG.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi.pdf",
     "related_products": [
       "MG 26 Junior",
       "BT 26",
       "BT 24x5"
     ],
-    "diller": {
-      "en": {
-        "name": "MG 20B",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
-        "images": [
-          "/images/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi-1.png"
-        ]
-      },
-      "bg": {
-        "name": "MG 20B",
-        "description": "Със своя лек и ергономичен дизайн, тя предлага максимална ефективност на строителните обекти.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "49 x 60 x 32",
-            "Напрежение V": "380-220",
-            "Мощност на двигателя kW": "1,5",
-            "Тегло kg": "95"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Лесно транспортиране",
-            "Фиксиран централен щифт",
-            "Опции за напрежение 220 V и 380 V",
-            "Опция за цифров контролен панел",
-            "Възможност за огъване на стремена",
-            "Програмируема функция за огъване"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "49 x 60 x 32",
-        "Voltage V": "380-220",
-        "Engine Power kW": "1,5",
-        "Weight kg": "95"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Easy transportation",
         "Fixed center pin",
         "220 V & 380 V voltage options",
         "Digital control panel option",
         "Stirrup bending ability",
         "Programmable bending function"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "49 x 60 x 32",
+        "Voltage V": "380-220",
+        "Engine Power kW": "1.5",
+        "Weight kg": "95"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø20x1, Ø16x2",
+        "65 kg/mm2: Ø18x1, Ø12x3",
+        "85 kg/mm2: Ø16x1, Ø10x4"
       ]
     },
-    "category": "Portable Bending"
+    "diller": {
+      "en": {
+        "name": "MG 20B",
+        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.png"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-mg-26-junior-portatif-bukme-makinasi",
@@ -1895,108 +1254,70 @@
     "subcategory": [
       "Portable"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/69d374467d64075a06bc2aea_gms%20katalog_2026%20TR_ENG.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-mg-26-junior-portatif-bukme-makinasi.pdf",
     "related_products": [
       "BT 26",
       "MG 20B",
       "BT 24x5"
     ],
-    "diller": {
-      "en": {
-        "name": "MG 26 Junior",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
-        "images": [
-          "/images/gocmaksan/gms-mg-26-junior-portatif-bukme-makinasi-1.png"
-        ]
-      },
-      "bg": {
-        "name": "MG 26 Junior",
-        "description": "Със своя лек и ергономичен дизайн, тя предлага максимална ефективност на строителните обекти.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "56x58x 65",
-            "Напрежение V": "380/220",
-            "Мощност на двигателя kW": "1,8",
-            "Тегло kg": "115"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Лесно транспортиране",
-            "Фиксиран централен щифт",
-            "Опция за 220 V и 380 V",
-            "Опция за цифров контролен панел",
-            "Възможност за огъване на стремена",
-            "Възможност за създаване на програма за огъване"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "56x58x 65",
-        "Voltage V": "380/220",
-        "Engine Power kW": "1,8",
-        "Weight kg": "115"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Ease of transportation",
         "Fixed center pin",
         "220V & 380V option",
         "Digital control panel option",
         "Stirrup bending ability",
         "To be able to make a twisting program"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "56x58x 65",
+        "Voltage V": "380/220",
+        "Engine Power kW": "1.8",
+        "Weight kg": "115"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 26x1, Ø 16x2",
+        "65 kg/mm2: Ø 22x1, Ø 14x2",
+        "85 kg/mm2: Ø 20x1, Ø 12x3"
       ]
     },
-    "category": "Portable Bending"
+    "diller": {
+      "en": {
+        "name": "MG 26 Junior",
+        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-mg-26-junior-portatif-bukme-makinasi_1.png"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-mh-8c-gocmaksan-hasir-kesme-makinasi",
     "brand": "gocmaksan",
     "categories": [
-      "Cutting Machines",
-      "Steel Factory Solutions"
+      "Steel Factory Solutions",
+      "Cutting Machines"
     ],
     "subcategory": [
       "Standard",
       "Steel Factory"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a3755129539ad735819e12_gms-mesh-cutting-bending-machines.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi.pdf",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "MH 8C",
-        "description": "MH 8C is a portable wire mesh cutting machine designed for fast and precise on-site cutting operations.",
+        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi-1.webp"
+          "/images/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "MH 8C",
-        "description": "Предлага капацитет за спирално огъване до Ø50 mm диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Бързо рязане с механична автоматизация",
-            "Рязане на 3 метра за 7 секунди",
-            "Преносима плъзгаща се маса за арматурна мрежа",
-            "CE сертифицирана безопасност от висок клас",
-            "380 V",
-            "Удобен за потребителя и ергономичен дизайн"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": [
-        "Quick Cutting with Mechanical Automation",
-        "3-Meters Cut in 7 Seconds",
-        "Portable Wire Mesh Sliding Table",
-        "CE Certificated High-End Security",
-        "380 V",
-        "User-friendly and Ergonomic Design"
-      ]
-    },
-    "category": "Steel Factory"
+    }
   },
   {
     "slug": "gms-oturak-makaslari-gocmaksan",
@@ -2009,30 +1330,20 @@
     ],
     "pdf_catalog": "",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "Low Stool ScIssors",
-        "description": "Low Stool Scissors are durable hand tools built for practical cutting operations in reinforcement work. With a capacity of Ø8 to Ø32, they provide stable performance for daily site and workshop applications.",
-        "images": [
-          "/images/gocmaksan/gms-oturak-makaslari-gocmaksan-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "Ножица тип столче",
         "description": "",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Капацитет: Ø8 — Ø32"
-          ]
-        }
+        "images": [
+          "/images/gocmaksan/gms-oturak-makaslari-gocmaksan_1.webp"
+        ]
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": "Capacity: Ø8 — Ø32"
-    },
-    "category": "Hand Tools"
+    }
   },
   {
     "slug": "gms-perdah-makinasi",
@@ -2043,124 +1354,32 @@
     "subcategory": [
       "Light Construction"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36d53783d67324a2cf35a_gms-kompaktor-perdah.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-perdah-makinasi.pdf",
     "related_products": [
       "Compactor",
       "Power Trowel",
       "BCZ 600",
       "RL 2000"
     ],
-    "diller": {
-      "en": {
-        "name": "Power Trowel",
-        "description": "Power Trowel is a light-construction finishing machine designed to deliver excellent results on concrete surfaces. Its ergonomic, low-fuel-consumption design and easy blade adjustment support fast, efficient operation on site.",
-        "images": [
-          "/images/gocmaksan/gms-perdah-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "Пердашка за бетон",
-        "description": "",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Мощност @3600": "7.5",
-            "Обем на цилиндъра (cm³)": "30",
-            "Обороти (rpm)": "3600",
-            "Разход на гориво (l/h)": "16",
-            "Акумулатор (V)": "12",
-            "Капацитет за гориво (l)": "90",
-            "Капацитет на маслото (l)": "130",
-            "Диаметър на барабана (mm)": "400",
-            "Ширина на барабана (mm)": "600",
-            "Резервоар за вода (l)": "25",
-            "Капацитет на резервоара за хидравлично масло (l)": "50",
-            "Центробежна сила (Предна - Задна) (kN)": "20",
-            "Статично линейно натоварване (kg/cm)": "5.6",
-            "Площ на уплътняване (m²/h)": "2700",
-            "Скорост (Напред – Назад) (km/h)": "4.5",
-            "Преодоляване на наклон (%)": "1.7",
-            "Размери (Ш x Д x В) (cm)": "Weight (kg)",
-            "Размер на триона (“Z” Брой зъби на триона) (mm)": "605",
-            "Тегло (kg)": "50 x 99 x 85",
-            "Мощност на двигателя (kW)": "71 x 130 x 125",
-            "Обороти на двигателя (rpm)": "Dimensions (Closed Arm) (WxLxH) (cm)",
-            "Работно напрежение (V)": "71x240x101",
-            "Честота на двигателя (Hz)": "85 x 157 x 153",
-            "Диаметър (mm)": "Ø600 x 4.4 x 30 Z:30&72",
-            "Диаметър на диска (mm)": "180",
-            "Количество дискове": "3",
-            "Ъгъл на наклона на диска": "1450",
-            "Тегло на плочата (kg)": "50",
-            "Размери (Затворено рамо) (Ш x Д x В)": "Honda GX 200",
-            "Размери (Отворено рамо) (Ш x Д x В)": "7.5 HP Бензин",
-            "Двигател": "4",
-            "Мощност @3600 rpm": "50 x 70",
-            "Обем на валяка (cm³)": "100",
-            "Тава (Ширина x Дължина) (cm)": "196",
-            "Центробежна сила (kN)": "3.6",
-            "Честота на вибрациите (Hz)": "0.6",
-            "Двигател ": "50 x 157 x 95",
-            "Разход на гориво  (l/h)": "30"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Отличен резултат върху бетонни повърхности",
-            "Икономична с нисък разход на гориво",
-            "Ергономичен и безопасен дизайн",
-            "Бърза работа с лесно регулиране на лопатките"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "Power @3600": "7.5",
-        "Cylinder Volume (cm3)": "30",
-        "Rotation (rpm)": "3600",
-        "Fuel Consumption (lt/sa)": "16",
-        "Battery (V)": "12",
-        "Fuel Capacity (lt)": "90",
-        "Oil Capacity (lt)": "130",
-        "Drum Diameter (mm)": "400",
-        "Drum Width (mm)": "600",
-        "Water Tank (lt)": "25",
-        "Hidrolik Yağ Tankı Kapasitesi(lt)": "50",
-        "Vibration Frequency(Hz)": "60",
-        "Centrifugal Force (Front - Back)  (kN)": "20",
-        "Static Linear Load (kg/cm)": "5.6",
-        "Compaction Area (m2/sa)": "2700",
-        "Speed (Forward – Reverse) (km/sa)": "4.5",
-        "Gradeability (%)": "1.7",
-        "Dimensions (W x H x H) (cm)": "Weight (kg)",
-        "Saw Size (“Z” Number of Saw Teeth) (mm)3": "605",
-        "Weight (kg)": "50 x 99 x 85",
-        "Engine Power (kW)": "71 x 130 x 125",
-        "Engine Speed(rpm)": "Dimensions (Closed Arm) (WxLxH) (cm)",
-        "Operating Voltage  (V)": "71x240x101",
-        "Motor Frequency (Hz)": "85 x 157 x 153",
-        "Power Diameter (mm)": "Ø600 x 4.4 x 30 Z:30&72",
-        "Blade Diameter (mm)": "180",
-        "Blade Qty": "3",
-        "Blade Pitch Angle": "1450",
-        "Plate Weight (kg)": "50",
-        "Dimensions (Closed Arm) (W x L x H)": "Honda GX 200",
-        "Dimensions (Open Arm) (W x L x H)": "7.5 HP Benzin",
-        "Motor": "4",
-        "Power @3600 rpm": "50 x 70",
-        "Roller Volume (cm³)": "100",
-        "Tray (Width x Length) (cm)": "196",
-        "Centrifugal Force (kN)": "3.6",
-        "Vibration Freguency (Hz)": "0.6",
-        "Engine": "50 x 157 x 95",
-        "Fuel Consumption (l/sa)": "30"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Excellent result on concrete surfaces",
         "Economical with low fuel consumption",
         "Ergonomic and safe design",
         "Quick operation with easy blade adjustment"
-      ]
+      ],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
     },
-    "category": "Light Construction"
+    "diller": {
+      "en": {
+        "name": "Power Trowel",
+        "description": "",
+        "images": [
+          "/images/gocmaksan/gms-perdah-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi",
@@ -2171,54 +1390,38 @@
     "subcategory": [
       "Portable"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36db6669070e362933876_gms-portatif-kesme-bukme.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [],
-    "diller": {
-      "en": {
-        "name": "Power 24",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
-        "images": [
-          "/images/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "Power 24",
-        "description": "Със своя лек и ергономичен дизайн, тя предлага максимална ефективност на строителните обекти.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "53x79x73",
-            "Напрежение V": "380 / 220",
-            "Мощност на двигателя kW": "2,2",
-            "Тегло kg": "90",
-            "Капацитет на хидр. масло l": "7"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Лесно транспортиране",
-            "Практична употреба",
-            "Хидравлична система",
-            "Опция за 220 V и 380 V",
-            "Бърза поддръжка и резервни части"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "53x79x73",
-        "Voltage V": "380 / 220",
-        "Engine Power kW": "2,2",
-        "Weight kg": "90",
-        "Hid. Oil. Cape kg": "7"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Ease of transportation",
         "Practical Use",
         "hydraulics",
         "220V & 380V option",
         "Quick Maintenance & Spare Parts"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "53x79x73",
+        "Voltage V": "380 / 220",
+        "Engine Power kW": "2.2",
+        "Weight kg": "90",
+        "Hid. Oil. Cape kg": "7"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 24x1, Ø 12x4",
+        "65 kg/mm2: Ø 20x1, Ø 10x3",
+        "85 kg/mm2: Ø 16x1, Ø 8x4"
       ]
     },
-    "category": "Portable Cutting"
+    "diller": {
+      "en": {
+        "name": "Power 24",
+        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "images": [
+          "/images/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-rl-2000-gocmaksan-cift-tamburlu-silindir",
@@ -2236,117 +1439,25 @@
       "BCZ 600",
       "RL 2000"
     ],
-    "diller": {
-      "en": {
-        "name": "RL 2000",
-        "description": "RL 2000 is a light-construction double-drum roller designed to deliver maximum efficiency in compaction work. With its powerful motor, hydrostatic drive system, and compact portable construction, it offers easy and ergonomic operation on site.",
-        "images": [
-          "/images/gocmaksan/gms-rl-2000-gocmaksan-cift-tamburlu-silindir-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "RL 2000",
-        "description": "",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Мощност @3600": "7.5",
-            "Обем на цилиндъра (cm³)": "30",
-            "Обороти (rpm)": "3600",
-            "Разход на гориво (l/h)": "16",
-            "Акумулатор (V)": "12",
-            "Капацитет за гориво (l)": "90",
-            "Капацитет на маслото (l)": "130",
-            "Диаметър на барабана (mm)": "400",
-            "Ширина на барабана (mm)": "600",
-            "Резервоар за вода (l)": "25",
-            "Капацитет на резервоара за хидравлично масло (l)": "50",
-            "Центробежна сила (Предна - Задна) (kN)": "20",
-            "Статично линейно натоварване (kg/cm)": "5.6",
-            "Площ на уплътняване (m²/h)": "2700",
-            "Скорост (Напред – Назад) (km/h)": "4.5",
-            "Преодоляване на наклон (%)": "1.7",
-            "Размери (Ш x Д x В) (cm)": "Weight (kg)",
-            "Размер на триона (“Z” Брой зъби на триона) (mm)": "605",
-            "Тегло (kg)": "50 x 99 x 85",
-            "Мощност на двигателя (kW)": "71 x 130 x 125",
-            "Обороти на двигателя (rpm)": "Dimensions (Closed Arm) (WxLxH) (cm)",
-            "Работно напрежение (V)": "71x240x101",
-            "Честота на двигателя (Hz)": "85 x 157 x 153",
-            "Диаметър (mm)": "Ø600 x 4.4 x 30 Z:30&72",
-            "Диаметър на диска (mm)": "180",
-            "Количество дискове": "3",
-            "Ъгъл на наклона на диска": "1450",
-            "Тегло на плочата (kg)": "50",
-            "Размери (Затворено рамо) (Ш x Д x В)": "Honda GX 200",
-            "Размери (Отворено рамо) (Ш x Д x В)": "7.5 HP Бензин",
-            "Двигател": "4",
-            "Мощност @3600 rpm": "50 x 70",
-            "Обем на валяка (cm³)": "100",
-            "Тава (Ширина x Дължина) (cm)": "196",
-            "Центробежна сила (kN)": "3.6",
-            "Честота на вибрациите (Hz)": "0.6",
-            "Двигател ": "50 x 157 x 95",
-            "Разход на гориво  (l/h)": "30"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Максимална ефективност с мощен двигател",
-            "Лесна и ергономична работа",
-            "Хидростатична задвижваща система",
-            "Компактна, преносима конструкция"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "Power @3600": "7.5",
-        "Cylinder Volume (cm3)": "30",
-        "Rotation (rpm)": "3600",
-        "Fuel Consumption (lt/sa)": "16",
-        "Battery (V)": "12",
-        "Fuel Capacity (lt)": "90",
-        "Oil Capacity (lt)": "130",
-        "Drum Diameter (mm)": "400",
-        "Drum Width (mm)": "600",
-        "Water Tank (lt)": "25",
-        "Hidrolik Yağ Tankı Kapasitesi(lt)": "50",
-        "Vibration Frequency(Hz)": "60",
-        "Centrifugal Force (Front - Back)  (kN)": "20",
-        "Static Linear Load (kg/cm)": "5.6",
-        "Compaction Area (m2/sa)": "2700",
-        "Speed (Forward – Reverse) (km/sa)": "4.5",
-        "Gradeability (%)": "1.7",
-        "Dimensions (W x H x H) (cm)": "Weight (kg)",
-        "Saw Size (“Z” Number of Saw Teeth) (mm)3": "605",
-        "Weight (kg)": "50 x 99 x 85",
-        "Engine Power (kW)": "71 x 130 x 125",
-        "Engine Speed(rpm)": "Dimensions (Closed Arm) (WxLxH) (cm)",
-        "Operating Voltage  (V)": "71x240x101",
-        "Motor Frequency (Hz)": "85 x 157 x 153",
-        "Power Diameter (mm)": "Ø600 x 4.4 x 30 Z:30&72",
-        "Blade Diameter (mm)": "180",
-        "Blade Qty": "3",
-        "Blade Pitch Angle": "1450",
-        "Plate Weight (kg)": "50",
-        "Dimensions (Closed Arm) (W x L x H)": "Honda GX 200",
-        "Dimensions (Open Arm) (W x L x H)": "7.5 HP Benzin",
-        "Motor": "4",
-        "Power @3600 rpm": "50 x 70",
-        "Roller Volume (cm³)": "100",
-        "Tray (Width x Length) (cm)": "196",
-        "Centrifugal Force (kN)": "3.6",
-        "Vibration Freguency (Hz)": "0.6",
-        "Engine": "50 x 157 x 95",
-        "Fuel Consumption (l/sa)": "30"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Maximum efficiency with powerful motor",
         "Easy and ergonomic operation",
         "Hydrostatic driving system",
         "Compact, portable construction"
-      ]
+      ],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
     },
-    "category": "Light Construction"
+    "diller": {
+      "en": {
+        "name": "RL 2000",
+        "description": "",
+        "images": [
+          "/images/gocmaksan/gms-rl-2000-gocmaksan-cift-tamburlu-silindir_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -2357,58 +1468,41 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36cdfe77eddf686c46832_gms-sh-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "SH 60"
     ],
-    "diller": {
-      "en": {
-        "name": "SH 45",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "SH 45",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "86x132x100",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "5,5",
-            "Тегло kg": "592",
-            "Капацитет на хидр. масло l": "105"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлична система с двойно действие",
-            "Висока производителност на рязане",
-            "Възможност за ръчно и автоматично управление",
-            "Възможност за ръчно и крачно управление",
-            "Ниска консумация на енергия",
-            "Издръжлив стоманен корпус"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "86x132x100",
-        "Voltage V": "380",
-        "Engine Power kW": "5,5",
-        "Weight kg": "592",
-        "Hid. Oil. Cap. lt": "105"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Double acting hydraulic system",
         "High cutting performance",
         "Ability to control manually and automatically",
         "Ability to control with hand and foot",
         "Low Energy Consumption",
         "Durable steel body"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "86x132x100",
+        "Voltage V": "380",
+        "Engine Power kW": "5.5",
+        "Weight kg": "592",
+        "Hid. Oil. Cap. lt": "105"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø42x1, Ø38x2",
+        "65 kg/mm2: Ø40x1, Ø32x2",
+        "85 kg/mm2: Ø32x1, Ø26x2"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "SH 45",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi",
@@ -2419,58 +1513,41 @@
     "subcategory": [
       "Standard"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36cbcd044563fa49a7f24_gms-M-serisi-kesme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
     "related_products": [
       "SH 45"
     ],
-    "diller": {
-      "en": {
-        "name": "SH 60",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
-        "images": [
-          "/images/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "SH 60",
-        "description": "Осигурява мощна, стабилна и непрекъсната производителност на рязане чрез хидравлично предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "70x172x114",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "11",
-            "Тегло kg": "960",
-            "Капацитет на хидр. масло l": "90"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Хидравлична система с двойно действие",
-            "Висока производителност на рязане",
-            "Възможност за ръчно и автоматично управление",
-            "Възможност за ръчно и крачно управление",
-            "Ниска консумация на енергия",
-            "Издръжлив стоманен корпус"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "70x172x114",
-        "Voltage V": "380",
-        "Engine Power kW": "11",
-        "Weight kg": "960",
-        "Hid. Oil. Cap. lt": "90"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Double acting hydraulic system",
         "High cutting performance",
         "Ability to control manually and automatically",
         "Ability to control with hand and foot",
         "Low Energy Consumption",
         "Durable steel body"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "70x172x114",
+        "Voltage V": "380",
+        "Engine Power kW": "11",
+        "Weight kg": "960",
+        "Hid. Oil. Cap. lt": "90"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø60x1, Ø42x2",
+        "65 kg/mm2: Ø55x1, Ø30x3",
+        "85 kg/mm2: Ø45x1, Ø26x3"
       ]
     },
-    "category": "Cutting Machines"
+    "diller": {
+      "en": {
+        "name": "SH 60",
+        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "images": [
+          "/images/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-sl-30-gocmaksan-etriye-bukme-makinasi",
@@ -2481,56 +1558,40 @@
     "subcategory": [
       "Stirrup"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e0f4ca58f735318af5e_gms-etriye-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi.pdf",
     "related_products": [
       "SL 36"
     ],
-    "diller": {
-      "en": {
-        "name": "SL 30",
-        "description": "GMS stirrup bending machines, developed with advanced engineering, combine speed, precision, durability, and safety.",
-        "images": [
-          "/images/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "SL 30",
-        "description": "Машините за огъване на стремена GMS, разработени с напреднало инженерство, съчетават скорост, прецизност, издръжливост и безопасност.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "75 x 76 x 88",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "3",
-            "Тегло kg": "275"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Автоматично повторение без промяна на ъгъла",
-            "Фиксирана главина",
-            "Лесно фиксиране",
-            "Мощна и бърза скорост на редуктора",
-            "Международно патентован централен отвор тип маргаритка",
-            "Възможност за създаване на програма за огъване"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "75 x 76 x 88",
-        "Voltage V": "380",
-        "Engine Power kW": "3",
-        "Weight kg": "275"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Automatic repeat without changing angle",
         "Fixed hub",
         "Easy fixing",
         "Powerful and fast reducer speed",
         "International Patented Daisy Pattern Center Hole",
         "To be able to make a twisting program"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "75 x 76 x 88",
+        "Voltage V": "380",
+        "Engine Power kW": "3",
+        "Weight kg": "275"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø30x1, Ø16x2",
+        "65 kg/mm2: Ø26x1, Ø14x2",
+        "85 kg/mm2: Ø22x1, Ø12x2"
       ]
     },
-    "category": "Stirrup Bending"
+    "diller": {
+      "en": {
+        "name": "SL 30",
+        "description": "GMS stirrup bending machines, developed with advanced engineering, combine speed, precision, durability, and safety.",
+        "images": [
+          "/images/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-sl-36-gocmaksan-etriye-bukme-makinasi",
@@ -2541,106 +1602,68 @@
     "subcategory": [
       "Stirrup"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e0f4ca58f735318af5e_gms-etriye-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi.pdf",
     "related_products": [
       "SL 30"
     ],
-    "diller": {
-      "en": {
-        "name": "SL 36",
-        "description": "GMS stirrup bending machines, developed with advanced engineering, combine speed, precision, durability, and safety.",
-        "images": [
-          "/images/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "SL 36",
-        "description": "Машините за огъване на стремена GMS, разработени с напреднало инженерство, съчетават скорост, прецизност, издръжливост и безопасност.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш - Д - В cm": "78 x 87 x 89",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "3",
-            "Тегло kg": "340"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Автоматично повторение без промяна на ъгъла",
-            "Фиксирана главина",
-            "Лесно фиксиране",
-            "Мощна и бърза скорост на редуктора",
-            "Международно патентован централен отвор тип маргаритка",
-            "Възможност за създаване на програма за огъване"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
-        "W - L - H cm": "78 x 87 x 89",
-        "Voltage V": "380",
-        "Engine Power kW": "3",
-        "Weight kg": "340"
-      },
-      "GENEL OZELLIKLER": [
+      "FEATURED FEATURES": [
         "Automatic repeat without changing angle",
         "Fixed hub",
         "Easy fixing",
         "Powerful and fast reducer speed",
         "International Patented Daisy Pattern Belly",
         "To be able to make a twisting program"
+      ],
+      "TECHNICAL DATA": {
+        "W - L - H cm": "78 x 87 x 89",
+        "Voltage V": "380",
+        "Engine Power kW": "3",
+        "Weight kg": "340"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø36x1, Ø20x2",
+        "65 kg/mm2: Ø32x1, Ø16x2",
+        "85 kg/mm2: Ø24x1, Ø12x2"
       ]
     },
-    "category": "Stirrup Bending"
+    "diller": {
+      "en": {
+        "name": "SL 36",
+        "description": "GMS stirrup bending machines, developed with advanced engineering, combine speed, precision, durability, and safety.",
+        "images": [
+          "/images/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi",
     "brand": "gocmaksan",
     "categories": [
-      "Bending Machines",
-      "Steel Factory Solutions"
+      "Steel Factory Solutions",
+      "Bending Machines"
     ],
     "subcategory": [
-      "Steel Factory",
-      "Stirrup"
+      "Stirrup",
+      "Steel Factory"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a375203bf8aad1d014a4b0_sls-12-gms-automatic-stirrup-benders.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi.pdf",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "SLS 12",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi-1.webp"
+          "/images/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "SLS 12",
-        "description": "Предлага капацитет за спирално огъване до Ø50 mm диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Възможност за огъване на стремена в стотици различни форми",
-            "Високоскоростни и безшумни сервомотори",
-            "Пневматична мощност",
-            "Сензорен контролен панел",
-            "Опция за робот",
-            "Максимално производство с двойна арматура на кангал"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": [
-        "Ability to bend stirrups in hundreds of different shapes",
-        "High speed and silent servo motors",
-        "Pneumatic power",
-        "Touch control panel",
-        "Robot opzione",
-        "Maximum Production med Double Coil Iron"
-      ]
-    },
-    "category": "Steel Factory"
+    }
   },
   {
     "slug": "gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi",
@@ -2651,53 +1674,40 @@
     "subcategory": [
       "Spiral"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e391bd188c929ff52c1_gms-spiral-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi.pdf",
     "related_products": [
       "SX 36",
       "SX 40"
     ],
+    "specs": {
+      "FEATURED FEATURES": [
+        "Mechanical Power Transmission System",
+        "Adjustable Spiral Range",
+        "Suitable for Bore Pile and Tunnel Construction",
+        "Precise and Fast Twisting Performance"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "194",
+        "Voltage V": "380",
+        "Engine Power kW": "1.5",
+        "Weight kg": "194"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 22x1",
+        "65 kg/mm2: Ø 20x1",
+        "85 kg/mm2: Ø 18x1",
+        "Min. Sip. Bend. Diameter: 210"
+      ]
+    },
     "diller": {
       "en": {
         "name": "SX 26",
         "description": "GMS spiral rebar bending machines quickly and accurately realize all kinds of coil, spiral, circle and semicircle bending with mechanical power transmission system.",
         "images": [
-          "/images/gocmaksan/gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
+          "/images/gocmaksan/gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "SX 26",
-        "description": "Машините за спирално огъване на арматура GMS бързо и прецизно осъществяват всякакви видове огъване на кангал, спирала, кръг и полукръг чрез механична система за предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "194",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "1,5",
-            "Тегло kg": "194"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Механична система за предаване на мощността",
-            "Регулируем диапазон на спиралата",
-            "Подходяща за пилоти и тунелно строителство",
-            "Прецизна и бърза производителност на огъване"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "194",
-        "Voltage V": "380",
-        "Engine Power kW": "1,5",
-        "Weight kg": "194"
-      },
-      "GENEL OZELLIKLER": [
-        "Mechanical Power Transmission System",
-        "Adjustable Spiral Range",
-        "Suitable for Bore Pile and Tunnel Construction",
-        "Precise and Fast Twisting Performance"
-      ]
-    },
-    "category": "Spiral Bending"
+    }
   },
   {
     "slug": "gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi",
@@ -2708,53 +1718,40 @@
     "subcategory": [
       "Spiral"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e391bd188c929ff52c1_gms-spiral-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi.pdf",
     "related_products": [
       "SX 26",
       "SX 40"
     ],
+    "specs": {
+      "FEATURED FEATURES": [
+        "Mechanical Power Transmission System",
+        "Adjustable Spiral Range",
+        "Suitable for Bore Pile and Tunnel Construction",
+        "Precise and Fast Twisting Performance"
+      ],
+      "TECHNICAL DATA": {
+        "W-L-H cm": "300",
+        "Voltage V": "1387",
+        "Engine Power kW": "2.2",
+        "Weight kg": "300"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 28x1",
+        "65 kg/mm2: Ø 24x1",
+        "85 kg/mm2: Ø 20x1",
+        "Min. Sip. Bend. Diameter: 200"
+      ]
+    },
     "diller": {
       "en": {
         "name": "SX 36",
         "description": "GMS spiral rebar bending machines quickly and accurately realize all kinds of coil, spiral, circle and semicircle bending with mechanical power transmission system.",
         "images": [
-          "/images/gocmaksan/gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
+          "/images/gocmaksan/gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
         ]
-      },
-      "bg": {
-        "name": "SX 36",
-        "description": "Машините за спирално огъване на арматура GMS бързо и прецизно осъществяват всякакви видове огъване на кангал, спирала, кръг и полукръг чрез механична система за предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "300",
-            "Напрежение V": "1387",
-            "Мощност на двигателя kW": "2,2",
-            "Тегло kg": "300"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Механична система за предаване на мощността",
-            "Регулируем диапазон на спиралата",
-            "Подходяща за пилоти и тунелно строителство",
-            "Прецизна и бърза производителност на огъване"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {
-        "W-L-H cm": "300",
-        "Voltage V": "1387",
-        "Engine Power kW": "2,2",
-        "Weight kg": "300"
-      },
-      "GENEL OZELLIKLER": [
-        "Mechanical Power Transmission System",
-        "Adjustable Spiral Range",
-        "Suitable for Bore Pile and Tunnel Construction",
-        "Precise and Fast Twisting Performance"
-      ]
-    },
-    "category": "Spiral Bending"
+    }
   },
   {
     "slug": "gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi",
@@ -2765,102 +1762,67 @@
     "subcategory": [
       "Spiral"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a36e391bd188c929ff52c1_gms-spiral-bukme-makinalari.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi.pdf",
     "related_products": [
       "SX 26",
       "SX 36"
     ],
-    "diller": {
-      "en": {
-        "name": "SX 40",
-        "description": "GMS spiral rebar bending machines quickly and accurately realize all kinds of coil, spiral, circle and semicircle bending with mechanical power transmission system.",
-        "images": [
-          "/images/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi-1.webp"
-        ]
-      },
-      "bg": {
-        "name": "SX 40",
-        "description": "Машините за спирално огъване на арматура GMS бързо и прецизно осъществяват всякакви видове огъване на кангал, спирала, кръг и полукръг чрез механична система за предаване на мощността.",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {
-            "Ш-Д-В cm": "477",
-            "Напрежение V": "380",
-            "Мощност на двигателя kW": "3",
-            "Тегло kg": "477"
-          },
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Механична система за предаване на мощността",
-            "Регулируем диапазон на спиралата",
-            "Подходяща за пилоти и тунелно строителство",
-            "Прецизна и бърза производителност на огъване"
-          ]
-        }
-      }
-    },
     "specs": {
-      "TEKNIK_TABLO": {
+      "FEATURED FEATURES": [
+        "Mechanical Power Transmission System",
+        "Adjustable Spiral Range",
+        "Suitable for Bore Pile and Tunnel Construction",
+        "Precise and Fast Twisting Performance"
+      ],
+      "TECHNICAL DATA": {
         "W-L-H cm": "477",
         "Voltage V": "380",
         "Engine Power kW": "3",
         "Weight kg": "477"
       },
-      "GENEL OZELLIKLER": [
-        "Mechanical Power Transmission System",
-        "Adjustable Spiral Range",
-        "Suitable for Bore Pile and Tunnel Construction",
-        "Precise and Fast Twisting Performance"
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 36x1",
+        "65 kg/mm2: Ø 32x1",
+        "85 kg/mm2: Ø 28x1",
+        "Min. Sip. Bend. Diameter: 270"
       ]
     },
-    "category": "Spiral Bending"
+    "diller": {
+      "en": {
+        "name": "SX 40",
+        "description": "GMS spiral rebar bending machines quickly and accurately realize all kinds of coil, spiral, circle and semicircle bending with mechanical power transmission system.",
+        "images": [
+          "/images/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
+        ]
+      }
+    }
   },
   {
     "slug": "gms-synclone-45s-gocmaksan-demir-bukme-hatti",
     "brand": "gocmaksan",
     "categories": [
-      "Bending Machines",
-      "Steel Factory Solutions"
+      "Steel Factory Solutions",
+      "Bending Machines"
     ],
     "subcategory": [
       "Standard",
       "Steel Factory"
     ],
-    "pdf_catalog": "https://cdn.prod.website-files.com/68778501607ca5288753b49e/68a3746e28fa8c7bfb12ca4b_synclone-45s-gms-double-bender.pdf",
+    "pdf_catalog": "/catalogs/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti.pdf",
     "related_products": [],
+    "specs": {
+      "FEATURED FEATURES": [],
+      "TECHNICAL DATA": {},
+      "CAPACITIES": []
+    },
     "diller": {
       "en": {
         "name": "SYNCLONE 45S",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti-1.webp"
+          "/images/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti_1.webp"
         ]
-      },
-      "bg": {
-        "name": "SYNCLONE 45S",
-        "description": "Предлага капацитет за спирално огъване до Ø50 mm диаметър при високоякостни стомани. Възможно е и огъване на плоска стомана (100x10, 80x20, 60x15).",
-        "specs": {
-          "ТЕХНИЧЕСКИ ДАННИ": {},
-          "ОБЩИ ХАРАКТЕРИСТИКИ": [
-            "Автоматично огъване с двойно рамо",
-            "Дължина на линията 12 метра",
-            "Огъване на арматура до Ø42 mm",
-            "Висока прецизност, подкрепена от сервомотор",
-            "Фиксирани и подвижни рамена за огъване",
-            "Автоматично позициониране и регулиране на скоростта"
-          ]
-        }
       }
-    },
-    "specs": {
-      "TEKNIK_TABLO": {},
-      "GENEL OZELLIKLER": [
-        "Double Arm Automatic Bending",
-        "12 Meters Line Length",
-        "Iron Bending Up to Ø42 mm",
-        "Servo Motor Supported High Precision",
-        "Fixed and Movable Bending Handles",
-        "Automatic Positioning and Speed Adjustment"
-      ]
-    },
-    "category": "Steel Factory"
+    }
   }
 ]
