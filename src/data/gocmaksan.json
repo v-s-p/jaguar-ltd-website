@@ -13,9 +13,25 @@
     "pdf_catalog": "/catalogs/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi.pdf",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "TECHNICAL DATA": {
+        "Bending Motor": "5.5 KW",
+        "Roller Motor": "3KW",
+        "Supporting Roller Motor": "1.5KW",
+        "Machine Dimensions Supporting Bending Conveyor - Closed": "92 x 160 x 160 cm",
+        "Machine Dimensions   supporting Bending Conveyor - Open": "163 x 280 x 160 cm",
+        "Weight": "1140 kg"
+      },
+      "CAPACITIES": [
+        "Diameter: (45kg/mm²)",
+        "Ø 50: 1",
+        "Ø 40: 1",
+        "Ø 32: 1",
+        "Ø 26: 2",
+        "Ø 20: 3",
+        "80 x 20 (quadrangle): 1",
+        "100 x 10 (quadrangle): 1",
+        "60 x 15 (quadrangle): 1"
+      ]
     },
     "diller": {
       "en": {
@@ -39,9 +55,9 @@
     "pdf_catalog": "",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "CAPACITY": [
+        "Ø 8 - Ø 26"
+      ]
     },
     "diller": {
       "en": {
@@ -535,9 +551,9 @@
     "pdf_catalog": "",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "CAPACITY": [
+        "Ø8 — Ø36"
+      ]
     },
     "diller": {
       "en": {
@@ -561,9 +577,9 @@
     "pdf_catalog": "",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "CAPACITY": [
+        "Ø8 – Ø16"
+      ]
     },
     "diller": {
       "en": {
@@ -587,9 +603,9 @@
     "pdf_catalog": "",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "CAPACITY": [
+        "Ø8 — Ø16"
+      ]
     },
     "diller": {
       "en": {
@@ -855,9 +871,16 @@
     "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi.pdf",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "FEATURED FEATURES": [
+        "Double Acting Hydraulic Drive",
+        "Automatic & Manual Control System",
+        "Precision Twisting Up To 135°",
+        "Easy Maintenance & Comfortable Use",
+        "3 Different Angle Settings Simultaneously"
+      ],
+      "TECHNICAL DATA": {
+        "Voltage V": "380"
+      }
     },
     "diller": {
       "en": {
@@ -883,9 +906,16 @@
     "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi.pdf",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "FEATURED FEATURES": [
+        "Double Acting Hydraulic Drive",
+        "Automatic & Manual Control System",
+        "Precision Twisting Up To 135°",
+        "Easy Maintenance & Comfortable Use",
+        "3 Different Angle Settings Simultaneously"
+      ],
+      "TECHNICAL DATA": {
+        "Voltage V": "380"
+      }
     },
     "diller": {
       "en": {
@@ -908,11 +938,7 @@
     ],
     "pdf_catalog": "",
     "related_products": [],
-    "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
-    },
+    "specs": {},
     "diller": {
       "en": {
         "name": "Lever",
@@ -1111,9 +1137,50 @@
     "pdf_catalog": "/catalogs/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti.pdf",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "TECHNICAL DATA": {
+        "Hydraulic Motor (KW/HP)": "7.5KW / 9,38 HP",
+        "Loading rollers motor": "1X0.75KW",
+        "Discharging roller motor": "3X1.1KW",
+        "Remote control": "Available",
+        "Moving stopper control motor (KW / HP)": "0,75 KW Servo control / 2 HP",
+        "Cutting system": "Hydraulic System",
+        "Electrical working system": "PLC Control",
+        "Control panel": "10.1&quot; inch Digital Display",
+        "Collecting bins": "Available/manual",
+        "Discharging": "Tek taraf",
+        "Discharging system": "Hydraulic system",
+        "Total power (KW / HP)": "15,85 KW / 21,2 HP",
+        "Energy consumption (KWh)": "14.65 KWh",
+        "Total weight (KG / LBS)": "5200 KG / 11,46 LBS",
+        "Cutting senstivity": "± 3 mm",
+        "Hydraulic sytem pressure": "250 (bar) / 3625 PSI"
+      },
+      "CAPACITIES": [
+        "Ø 55 / #14: 1",
+        "1: 1",
+        "Ø 40 / #14: 5",
+        "4: 4",
+        "Ø 36 / #11: 6",
+        "5: 5",
+        "Ø 32 / #10: 7",
+        "6: 6",
+        "Ø 28 / #9: 8",
+        "7: 7",
+        "Ø 26 / #8: 11",
+        "10: 10",
+        "Ø 22 / #7: 13",
+        "12: 12",
+        "Ø 20 / #6: 14",
+        "13: 13",
+        "Ø 16 / #5: 18",
+        "18: 18",
+        "Ø 12 / #4: 24",
+        "24: 24",
+        "Ø 10 / #3: 30",
+        "30: 30",
+        "Ø 8 / #3: 35",
+        "35: 35"
+      ]
     },
     "diller": {
       "en": {
@@ -1139,9 +1206,11 @@
     "pdf_catalog": "/catalogs/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti.pdf",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "TECHNICAL DATA": {
+        "Hydraulic Motor (KW/HP)": "7.5KW/9.38HP",
+        "Loading rollers motor": "1 X 0.75KW",
+        "Discharging roller motor": "3X1.1KW"
+      }
     },
     "diller": {
       "en": {
@@ -1305,9 +1374,16 @@
     "pdf_catalog": "/catalogs/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi.pdf",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "FEATURED FEATURES": [
+        "Quick Cutting with Mechanical Automation",
+        "3-Meters Cut in 7 Seconds",
+        "Portable Wire Mesh Sliding Table",
+        "CE Certificated High-End Security",
+        "User-friendly and Ergonomic Design"
+      ],
+      "TECHNICAL DATA": {
+        "Voltage V": "380"
+      }
     },
     "diller": {
       "en": {
@@ -1331,9 +1407,9 @@
     "pdf_catalog": "",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "CAPACITY": [
+        "Ø8 — Ø32"
+      ]
     },
     "diller": {
       "en": {
@@ -1651,9 +1727,46 @@
     "pdf_catalog": "/catalogs/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi.pdf",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "TECHNICAL DATA": {
+        "Single Strand Processing Wire Diameter": "6-12mm/#2 - #3 - #4",
+        "Double Strand Processing Wire Diameter": "6-10mm/#2 - #3",
+        "Bending Type": "2d",
+        "Bending Capacity": "2x6mm 2x8mm 2x10mm 1x12mm",
+        "Driving System": "Pneumatic",
+        "Bending Motor Power": "SERVO MOTOR 4kw /5.5 HP",
+        "Drive Speed": "120 meters/min 394 ft/Min",
+        "Bending Speed": "1250° /segundo",
+        "Cutting Motor Power": "AC~ MOTOR 3kw/4.02 HP",
+        "Length Tolerance": "± 1-2mm/ 0.039 - 0.078 inches",
+        "Bending Tolerance": "±1°",
+        "Compressor Requirement": "yes",
+        "Working Pressure (Bar)": "8-10 Bar/116 -145 PSI",
+        "voltage": "380V 3 phase/50-60Hz (optional)",
+        "Driving Gearbox": "Industry type",
+        "Control Panel Type": "HMI display 15 inch",
+        "Machine Dimensions": "1710 x 5000 x 2340 mm/67.32 x 197 x 93 inches",
+        "Basket Dimensions": "2120 x 2150 x 2300 mm/84 x 84.64 x 91 inches",
+        "Machine Weight": "3000 kg/6613 lbs",
+        "Basket Weight": "1000kg/2204 lbs",
+        "Language": "Available in English and multiple other language options",
+        "HS Code": "846229000000"
+      },
+      "SUPPLIED EQUIPMENT": [
+        "Stirrup Head: 6-8-10-12mm",
+        "2 Knives For Each Measure: 6-8-10-12mm",
+        "Bending Pin: 1 Pcs Standard Type",
+        "Bending Pin: 1 Piece Spiral Type",
+        "Allen Key Set: From 2.5 to 10 mm",
+        "Key Set: From 6 to 30 mm",
+        "screwdriver: 1 Team",
+        "Grease Pump: 1 Piece",
+        "Protective Gloves: 1 Piece",
+        "Work Vest: 1 Piece",
+        "Steel Dowel: 16M 16x150mm",
+        "Tote: 2 Piece",
+        "Control Panel: 1 Piece",
+        "Foot Pedal: 1 Piece"
+      ]
     },
     "diller": {
       "en": {
@@ -1811,9 +1924,34 @@
     "pdf_catalog": "/catalogs/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti.pdf",
     "related_products": [],
     "specs": {
-      "FEATURED FEATURES": [],
-      "TECHNICAL DATA": {},
-      "CAPACITIES": []
+      "TECHNICAL DATA": {
+        "Stationery bender motor power": "7.5KW SERVO MOTOR / 9,38 HP",
+        "Moving bender motor power": "7.5KW SERVO MOTOR / 9,38 HP",
+        "Moving motor power (KW/HP)": "2 KW SERVO MOTOR / 2,9 HP",
+        "Hydraulic motor power (KW/HP)": "4 KW   ~ AC MOTOR / 4,02 HP",
+        "Roller motor power ( KW / HP )": "3 KW   ~ AC MOTOR / 5,36 HP",
+        "Total power (KW/HP)": "25,2 KW / 33,80 HP",
+        "Energy consumption (kWh)": "17,3 KWh",
+        "Total weight (KG/LBS)": "7000 KG / 15,432 lbs",
+        "Bending sensitivity": "± 5 mm",
+        "Hydraulic system (BAR/PSI)": "180 BAR / 2610 PSI",
+        "Remote control": "Available",
+        "Collecting Bins": "available (3 pieces)",
+        "Pneumatic system air pressure (BAR/PSI)": "8-10 BAR / 116-145 PSI",
+        "Barcode reader": "Optional"
+      },
+      "CAPACITIES": [
+        "Ø 42 / #14: 1",
+        "1: -",
+        "Ø 36 / #11: 1",
+        "1: 1",
+        "Ø 30 / #10: 2",
+        "1: 1",
+        "Ø 24 / #8: 3",
+        "3: 2",
+        "Ø 20 / #6: 4",
+        "4: 3"
+      ]
     },
     "diller": {
       "en": {
