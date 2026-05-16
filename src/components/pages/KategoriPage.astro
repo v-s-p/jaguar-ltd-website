@@ -20,6 +20,9 @@ const t = useTranslations(lang);
 const l = (path: string) => getRelativeLocaleUrl(lang, path);
 
 const accentColor = brand === 'gocmaksan' ? '#f59e0b' : '#00A8B5';
+const yilmaz = (await import('../../data/yilmaz.json')).default;
+const gocmaksan = (await import('../../data/gocmaksan.json')).default;
+const uniqSorted = (arr: string[]) => [...new Set(arr.filter(Boolean))].sort();
 
 const catKeyMap: Record<string, string> = {
   "Aluminium": "cat.al",
@@ -41,10 +44,11 @@ const subTranslationKeys: Record<string, string> = {
   "Corner Crimping": "cat.sub.crimping",
   "End Milling": "cat.sub.endmilling",
   "Pressing": "cat.sub.press",
-  "Transferring": "cat.sub.handling",
+  "Transferring": "cat.sub.transferring",
   "Conveying": "cat.sub.conveyor",
-  "Swarf Extraction": "cat.sub.vacuum",
-  "Assembling": "cat.sub.assembly",
+  "Swarf Extraction": "cat.sub.swarfextract",
+  "Vacuum Swarf Extractor": "cat.sub.swarfextract",
+  "Assembling": "cat.sub.assembling",
   "Welding": "cat.sub.welding",
   "Corner Cleaning": "cat.sub.cleaning",
   "Cleaning": "cat.sub.cleaning",
@@ -63,21 +67,22 @@ const subTranslationKeys: Record<string, string> = {
   "Hand Tools": "cat.sub.handtools"
 };
 
+const yilmazAluSubs = uniqSorted(
+  yilmaz
+    .filter((m: any) => (m.categories || []).includes('Aluminium'))
+    .map((m: any) => m.subcategory)
+);
+const yilmazPvcSubs = uniqSorted(
+  yilmaz
+    .filter((m: any) => (m.categories || []).includes('PVC'))
+    .map((m: any) => m.subcategory)
+);
+const gocCats = uniqSorted(gocmaksan.flatMap((m: any) => m.categories || []));
+
 const subcategoryMap: Record<string, string[]> = {
-  "Aluminium": [
-    "Processing Centers", "Saw Cutting", "Milling", "Corner Crimping",
-    "End Milling", "Pressing", "Transferring", "Conveying",
-    "Swarf Extraction", "Assembling"
-  ],
-  "PVC": [
-    "Processing Center", "Cleaning", "Cutting", "Milling",
-    "End Milling", "Screwdriving", "Welding", "Transferring",
-    "Swarf Extraction", "Conveying", "Assembling"
-  ],
-  "Gocmaksan": [
-    "Bending Machines", "Cutting Machines", "Combined Machines",
-    "Steel Factory Solutions", "Light Construction", "Hand Tools"
-  ]
+  "Aluminium": yilmazAluSubs,
+  "PVC": yilmazPvcSubs,
+  "Gocmaksan": gocCats
 };
 const allowedSubcats = subcategoryMap[catName] || [];
 
@@ -87,7 +92,7 @@ const filteredMachines = allMachines.filter((m: any) => {
   return cats.some((c: string) => c.toLowerCase() === catName.toLowerCase());
 }).map((m: any) => {
   const subcat = m.brand === 'gocmaksan'
-    ? (m.category || '')
+    ? (m.categories || []).join(',')
     : (m.subcategory || '');
   return { ...m, finalSubcats: subcat };
 });
