@@ -206,7 +206,7 @@ export const ui = {
     'nav.about': 'О нас',
     'nav.contact': 'Контакты',
     'nav.machines': 'Машины',
-    'nav.cookie': 'Политика использования файлов cookie',
+    'nav.cookie': 'Файлы cookie',
     'hero.partner': 'Официальный партнер',
     'hero.partner.since': 'Болгария с 2002 года',
     'hero.distributor': 'Дистрибьютор',
