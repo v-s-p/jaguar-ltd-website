@@ -404,6 +404,24 @@ def download_image(session, img_url, en_slug, index):
 
 _KIRLI_RE = re.compile(r'svg|PRODUCT\s+INFO|×|%3E', re.IGNORECASE)
 
+TR_LABEL_MAP = {
+    "elektrik": "Power",
+    "matkap_donus_hizi": "Drill Rotation Speed",
+    "donus_hizi": "Saw Rotation Speed",
+    "cap": "Saw Diameter",
+    "debi": "Flow Rate",
+    "basinc": "Pressure",
+    "boyutlar": "Dimensions (cm)",
+    "urun_agirligi": "Weight",
+    "motor_gucu": "Motor Power",
+    "hava_tuketimi": "Air Consumption",
+}
+
+TEST_TARGET_SLUGS = {
+    "dc-421-pbs-double-head-mitre-saw-machine-full-automatic",
+    "ack-550-up-cutting-saw-machine",
+}
+
 def _kirli_td(key, val):
     return bool(_KIRLI_RE.search(key) or _KIRLI_RE.search(str(val)))
 
@@ -507,30 +525,31 @@ def parse_page(session, en_slug, urls, download_images):
 
     # TEKNİK TABLO
     teknik_tablo = {}
-    for table in soup.find_all('table'):
-        for row in table.find_all('tr'):
-            cells = row.find_all(['td', 'th'])
-            if len(cells) >= 2:
-                key = cells[0].get_text(strip=True)
-                val = cells[1].get_text(strip=True)
-                if key and val and len(key) < 50 and not _kirli_td(key, val):
-                    teknik_tablo[key] = val
-    for div in soup.find_all('div', class_=re.compile(r'technical|spec|data|table', re.I)):
-        items_d = div.find_all(['dt', 'dd', 'li', 'span'])
-        for i in range(0, len(items_d)-1, 2):
-            key = items_d[i].get_text(strip=True)
-            val = items_d[i+1].get_text(strip=True) if i+1 < len(items_d) else ''
-            if key and val and len(key) < 50 and len(val) < 100 and not _kirli_td(key, val):
-                teknik_tablo[key] = val
-    for container in soup.find_all('div'):
-        img_t = container.find('img')
-        spans = container.find_all(['span', 'p', 'div'], recursive=False)
-        if img_t and len(spans) >= 2:
-            deger = spans[0].get_text(strip=True)
-            birim = spans[1].get_text(strip=True) if len(spans) > 1 else ''
-            alt = img_t.get('alt','') or img_t.get('title','') or img_t.get('src','').split('/')[-1].split('.')[0]
-            if deger and alt and len(deger) < 30:
-                teknik_tablo[alt] = f"{deger} {birim}".strip()
+    tech_specs = soup.select_one('div.tech-specs')
+    if tech_specs:
+        cells = tech_specs.select('div.col.custom-col')
+        for cell in cells:
+            cell_classes = cell.get('class', [])
+            label_key = None
+            for cls in cell_classes:
+                if cls.startswith('table-row-'):
+                    label_key = cls.replace('table-row-', '')
+                    break
+
+            if not label_key:
+                continue
+
+            text_row = cell.select_one('div.text-row')
+            if not text_row:
+                continue
+
+            value = ' / '.join(s.strip() for s in text_row.stripped_strings)
+
+            if not value or _kirli_td(label_key, value):
+                continue
+
+            label_en = TR_LABEL_MAP.get(label_key, label_key.replace('_', ' ').title())
+            teknik_tablo[label_en] = value
 
     # PDF KATALOG
     katalog_url = None
@@ -605,7 +624,11 @@ def main():
         sys.exit(1)
 
     items = list(tum_urls.items())
-    if test_mode: items = items[:5]
+    if test_mode:
+        items = [(slug, urls) for slug, urls in items if slug in TEST_TARGET_SLUGS]
+        if not items:
+            log("Test hedefleri bulunamadi!", "ERR")
+            sys.exit(1)
 
     log(f"=== {len(items)} MAKINE ISLENIYOR ===", "SCAN")
     makineler, hatali = [], 0
@@ -621,6 +644,9 @@ def main():
             m["subcategory"] = urls["subcategory"]
             m["type"] = urls["type"]
             m["diller"]["en"].pop("catalog", None)
+            if test_mode and en_slug in TEST_TARGET_SLUGS:
+                print(f"\n  TEST technical_data | {en_slug}")
+                print(json.dumps(m["diller"]["en"]["technical_data"], ensure_ascii=False, indent=2))
             if m["diller"]["en"]["specs"]["STANDARD ACCESSORIES"]:
                 standart_dolu += 1
             makineler.append(m)
@@ -629,6 +655,10 @@ def main():
             hata_satirlari.append(f"DETAIL_PARSE_ERROR\t{en_slug}\t{urls['en_url']}")
 
     makineler.sort(key=lambda m: m["slug"])
+
+    if test_mode:
+        print(f"\n  TEST TAMAMLANDI. Toplam: {len(makineler)} | Hatali: {hatali}\n")
+        return
 
     if JSON_OUTPUT.exists(): shutil.copy2(JSON_OUTPUT, JSON_BACKUP)
 
