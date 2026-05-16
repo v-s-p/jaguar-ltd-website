@@ -27,7 +27,7 @@ PROJECT_ROOT  = SCRIPT_DIR.parent
 JSON_OUTPUT   = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
 JSON_BACKUP   = PROJECT_ROOT / "src" / "data" / f"machines_backup_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 ERROR_OUTPUT  = PROJECT_ROOT / "src" / "data" / "machines_errors.txt"
-IMG_DIR       = PROJECT_ROOT / "public" / "images" / "machines"
+IMG_DIR       = PROJECT_ROOT / "public" / "images" / "yilmaz"
 BLACKLIST_DIR = SCRIPT_DIR / "blacklist"
 
 DELAY     = 1.5
@@ -377,7 +377,7 @@ def download_image(session, img_url, en_slug, index):
     IMG_DIR.mkdir(parents=True, exist_ok=True)
     ext = Path(urlparse(img_url).path).suffix.lower()
     if ext not in ('.jpg', '.jpeg', '.png', '.webp', '.gif'): ext = '.jpg'
-    filename  = f"{en_slug}-{index}{ext}"
+    filename  = f"{en_slug}_{index}{ext}"
     save_path = IMG_DIR / filename
     web_path  = f"/images/yilmaz/{filename}"
 
@@ -600,7 +600,11 @@ def _mevcut_resim_bul(en_slug):
             break
     model_k = "-".join(kod).lower()
     return [f"/images/yilmaz/{f.name}" for f in sorted(IMG_DIR.iterdir()) 
-            if f.is_file() and f.stat().st_size > 1000 and (f.name.lower().startswith(model_k + "-") or f.name.lower().startswith(model_k + "."))]
+            if f.is_file() and f.stat().st_size > 1000 and (
+                f.name.lower().startswith(model_k + "_") or
+                f.name.lower().startswith(model_k + "-") or
+                f.name.lower().startswith(model_k + ".")
+            )]
 
 # ===================================================
 # ANA AKIS
