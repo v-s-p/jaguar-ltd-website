@@ -1,10 +1,44 @@
 ---
 import LanguagePicker from './LanguagePicker.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../i18n/utils';
+const yilmaz = (await import('../data/yilmaz.json')).default;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const l = (path) => getRelativeLocaleUrl(lang, path);
+
+const uniqSorted = (arr: string[]) => [...new Set(arr.filter(Boolean))].sort();
+const aluminiumSubcategories = uniqSorted(
+  yilmaz
+    .filter((m: any) => (m.categories || []).includes('Aluminium'))
+    .map((m: any) => m.subcategory)
+);
+const pvcSubcategories = uniqSorted(
+  yilmaz
+    .filter((m: any) => (m.categories || []).includes('PVC'))
+    .map((m: any) => m.subcategory)
+);
+
+const navSubTranslationKeys: Record<string, string> = {
+  'Processing Centers': 'cat.sub.centers',
+  'Processing Center': 'cat.sub.centers',
+  'Saw Cutting': 'cat.sub.sawcutting',
+  'Milling': 'cat.sub.milling',
+  'Corner Crimping': 'cat.sub.crimping',
+  'End Milling': 'cat.sub.endmilling',
+  'Transferring': 'cat.sub.transferring',
+  'Assembling': 'cat.sub.assembling',
+  'Swarf Extraction': 'cat.sub.swarfextract',
+  'Cleaning': 'cat.sub.cleaning',
+  'Cutting': 'cat.sub.cutting',
+  'Screwdriving': 'cat.sub.screwdriving',
+  'Welding': 'cat.sub.welding',
+  'Conveying': 'cat.sub.conveyor',
+  'Pressing': 'cat.sub.press',
+};
+
+const navSubLabel = (subcategory: string) =>
+  t(navSubTranslationKeys[subcategory] || subcategory);
 ---
 <header class="bg-brand-accent text-white sticky top-0 z-50 shadow-lg border-b-4 border-brand-hover">
   <div class="container mx-auto px-4 max-w-7xl">
@@ -42,14 +76,16 @@ const l = (path) => getRelativeLocaleUrl(lang, path);
             <div class="flex-1">
               <a href={l("/kategori/aluminyum")} class="text-lg font-black text-brand-accent mb-3 block border-b border-gray-100 pb-2 hover:text-brand-hover transition-colors">{t('cat.al')}</a>
               <ul class="space-y-2">
-                <li><a href={l("/kategori/aluminyum?filter=Processing%20Centers")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.centers')}</a></li>
-                <li><a href={l("/kategori/aluminyum?filter=Saw%20Cutting")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.sawcutting')}</a></li>
-                <li><a href={l("/kategori/aluminyum?filter=Milling")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.milling')}</a></li>
-                <li><a href={l("/kategori/aluminyum?filter=Corner%20Crimping")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.crimping')}</a></li>
-                <li><a href={l("/kategori/aluminyum?filter=End%20Milling")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.endmilling')}</a></li>
-                <li><a href={l("/kategori/aluminyum?filter=Transferring")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.transferring')}</a></li>
-                <li><a href={l("/kategori/aluminyum?filter=Assembling")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.assembling')}</a></li>
-                <li><a href={l("/kategori/aluminyum?filter=Swarf%20Extraction")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.swarfextract')}</a></li>
+                {aluminiumSubcategories.map((subcategory) => (
+                  <li>
+                    <a
+                      href={l(`/kategori/aluminyum?filter=${encodeURIComponent(subcategory)}`)}
+                      class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block"
+                    >
+                      {navSubLabel(subcategory)}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -57,12 +93,16 @@ const l = (path) => getRelativeLocaleUrl(lang, path);
             <div class="flex-1">
               <a href={l("/kategori/pvc")} class="text-lg font-black text-brand-accent mb-3 block border-b border-gray-100 pb-2 hover:text-brand-hover transition-colors">{t('cat.pvc')}</a>
               <ul class="space-y-2">
-                <li><a href={l("/kategori/pvc?filter=Processing%20Center")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.centers')}</a></li>
-                <li><a href={l("/kategori/pvc?filter=Welding")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.welding')}</a></li>
-                <li><a href={l("/kategori/pvc?filter=Cleaning")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.cleaning')}</a></li>
-                <li><a href={l("/kategori/pvc?filter=Cutting")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.cutting')}</a></li>
-                <li><a href={l("/kategori/pvc?filter=Screwdriving")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.screwdriving')}</a></li>
-                <li><a href={l("/kategori/pvc?filter=Transferring")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.transferring')}</a></li>
+                {pvcSubcategories.map((subcategory) => (
+                  <li>
+                    <a
+                      href={l(`/kategori/pvc?filter=${encodeURIComponent(subcategory)}`)}
+                      class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block"
+                    >
+                      {navSubLabel(subcategory)}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
 
