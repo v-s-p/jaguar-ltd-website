@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 JAGUAR LTD - GOCMAKSAN GUNCELLEYICI v1.0
 https://www.gocmaksan.com/eng -> gocmaksan.json
 
-Format: machines.json ile ayni (brand: "gocmaksan")
+Format: yilmaz.json ile ayni (brand: "gocmaksan")
 
 Kullanim:
   python gocmaksan_guncelleyici.py          # Tum veriyi cek

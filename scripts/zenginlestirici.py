@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 JAGUAR LTD - KATEGORI ZENGINLESTIRICI v3.1
@@ -20,7 +20,7 @@ from datetime import datetime
 
 SCRIPT_DIR   = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-JSON_PATH    = PROJECT_ROOT / "src" / "data" / "machines.json"
+JSON_PATH    = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
 YEDEK_PATH   = PROJECT_ROOT / "src" / "data" / f"machines_zengin_yedek_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
 # ===================================================
@@ -227,7 +227,7 @@ def main():
     if dry_run:
         print("\n  [DRY RUN] - Dosya degistirilmedi")
     else:
-        print(f"\n  [+] machines.json guncellendi")
+        print(f"\n  [+] yilmaz.json guncellendi")
         print("  Sonraki adim: npx astro dev")
     print()
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 JAGUAR LTD - ISIM + RESIM DUZELTICI v1.0
@@ -22,7 +22,7 @@ from datetime import datetime
 
 SCRIPT_DIR   = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-JSON_PATH    = PROJECT_ROOT / "src" / "data" / "machines.json"
+JSON_PATH    = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
 IMG_DIR      = PROJECT_ROOT / "public" / "images" / "machines"
 YEDEK_PATH   = PROJECT_ROOT / "src" / "data" / f"machines_duzelt_yedek_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
@@ -234,7 +234,7 @@ def lokal_resim_bul(slug, img_dir):
             continue
         fname = f.name.lower()
         if fname.startswith(model_k + "-") or fname.startswith(model_k + "."):
-            bulunanlar.append(f"/images/machines/{f.name}")
+            bulunanlar.append(f"/images/yilmaz/{f.name}")
 
     return bulunanlar
 
@@ -297,7 +297,7 @@ def main():
     if dry_run:
         print("\n  [DRY RUN]")
     else:
-        print("\n  [+] machines.json guncellendi")
+        print("\n  [+] yilmaz.json guncellendi")
         print("  Sonraki: npx astro dev")
     print()
 

@@ -1,9 +1,9 @@
-import os
+﻿import os
 import json
 import time
 
 STATUS_FILE = "translation_status.json"
-DATA_FILES = ["src/data/machines.json", "src/data/gocmaksan.json"]
+DATA_FILES = ["src/data/yilmaz.json", "src/data/gocmaksan.json"]
 LANGUAGES = ["en", "tr", "ru", "es", "ro", "bcs"] # bg is default
 
 def load_status():

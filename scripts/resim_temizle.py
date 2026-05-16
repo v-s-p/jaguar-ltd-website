@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 JAGUAR LTD - RESIM TEMIZLEYICI v1.0
@@ -20,7 +20,7 @@ if sys.platform == "win32":
 
 SCRIPT_DIR   = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-JSON_PATH    = PROJECT_ROOT / "src" / "data" / "machines.json"
+JSON_PATH    = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
 IMG_DIR      = PROJECT_ROOT / "public" / "images" / "machines"
 YEDEK_PATH   = PROJECT_ROOT / "src" / "data" / f"machines_temiz_yedek_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
@@ -32,7 +32,7 @@ def is_broken(img_path_str):
     if '%' in img_path_str:
         return True, "url-encoded"
     # Disk'te 57B sahte mi?
-    fname = img_path_str.lstrip("/images/machines/")
+    fname = img_path_str.lstrip("/images/yilmaz/")
     fpath = IMG_DIR / fname
     if fpath.exists() and fpath.stat().st_size < MIN_BOYUT:
         return True, f"sahte ({fpath.stat().st_size}B)"
@@ -97,7 +97,7 @@ def main():
     if dry:
         print("\n  [DRY RUN] - Dosya degistirilmedi")
     else:
-        print("\n  [+] machines.json guncellendi")
+        print("\n  [+] yilmaz.json guncellendi")
     print()
 
     # 57B sahte dosyalar hakkinda bilgi

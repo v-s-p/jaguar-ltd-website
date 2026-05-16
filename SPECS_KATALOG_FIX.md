@@ -2,7 +2,7 @@
 # Claude Code'a ver: "Bu dosyayı oku ve uygula"
 
 ## SORUN
-machines.json'da iki eksiklik:
+yilmaz.json'da iki eksiklik:
 1. Teknik spesifikasyon tablosu (boyut, voltaj, motor, ağırlık) — hiç çekilmemiş
 2. PDF katalog linki — hiç çekilmemiş
 
@@ -99,7 +99,7 @@ return {
 
 ## ADIM 2 — Sadece eksik verileri geri doldur (--enrich modu)
 
-Mevcut machines.json'daki her makine için Yılmaz sayfasını aç,
+Mevcut yilmaz.json'daki her makine için Yılmaz sayfasını aç,
 sadece teknik tablo ve PDF linkini çek, ekle.
 
 ```python
@@ -111,7 +111,7 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 BASE = "https://www.yilmazmachine.com.tr"
-JSON = Path("src/data/machines.json")
+JSON = Path("src/data/yilmaz.json")
 
 def fetch_page(session, slug):
     url = f"{BASE}/en/products/{slug}/"
@@ -228,7 +228,7 @@ python enrich_machines.py
 # 2. Sonucu kontrol et
 python -c "
 import json
-m = json.load(open('../src/data/machines.json'))
+m = json.load(open('../src/data/yilmaz.json'))
 has_tech = sum(1 for x in m if x.get('diller',{}).get('en',{}).get('technical_data'))
 has_cat = sum(1 for x in m if x.get('diller',{}).get('en',{}).get('catalog'))
 print(f'Teknik tablo: {has_tech}/{len(m)}')

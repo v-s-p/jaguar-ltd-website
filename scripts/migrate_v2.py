@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 JAGUAR LTD - VERİ MİGRASYONU v1.0
-Mevcut machines.json'u yeni mimari formatina donusturur:
+Mevcut yilmaz.json'u yeni mimari formatina donusturur:
   - brand: "yilmaz" eklenir
   - kategoriler: ["Aluminyum"] -> category: "Aluminium"
   - alt_kategoriler: ["KESIM"] -> subcategory: "Cutting"
@@ -21,8 +21,8 @@ if sys.platform == "win32":
 
 SCRIPT_DIR   = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-JSON_IN      = PROJECT_ROOT / "src" / "data" / "machines.json"
-JSON_OUT     = PROJECT_ROOT / "src" / "data" / "machines.json"
+JSON_IN      = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
+JSON_OUT     = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
 YEDEK        = PROJECT_ROOT / "src" / "data" / f"machines_v1_yedek_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 IMG_DIR      = PROJECT_ROOT / "public" / "images" / "machines"
 
@@ -52,7 +52,7 @@ ALT_KAT_EN = {
 }
 
 def get_local_images(slug):
-    """Slug'a ait yerel resimleri bul, /images/machines/ yollarını döndür."""
+    """Slug'a ait yerel resimleri bul, /images/yilmaz/ yollarını döndür."""
     if not IMG_DIR.exists():
         return []
     matches = []
@@ -63,7 +63,7 @@ def get_local_images(slug):
         m = re.search(r'-(\d+)$', f.stem)
         return int(m.group(1)) if m else 0
     matches.sort(key=sort_key)
-    return [f'/images/machines/{f.name}' for f in matches]
+    return [f'/images/yilmaz/{f.name}' for f in matches]
 
 
 def duzelt_isim(isim):
@@ -128,7 +128,7 @@ def migrate(m):
 def main():
     print()
     print("=" * 56)
-    print("  VERİ MİGRASYONU v1.0  (machines.json -> yeni format)")
+    print("  VERİ MİGRASYONU v1.0  (yilmaz.json -> yeni format)")
     print("=" * 56)
     print()
 
@@ -169,7 +169,7 @@ def main():
     for k, v in sorted(subkats.items(), key=lambda x: -x[1]):
         print(f"    {k:<25} {v}")
 
-    print(f"\n  [+] machines.json guncellendi (yeni format)")
+    print(f"\n  [+] yilmaz.json guncellendi (yeni format)")
     print(f"  Sonraki: Astro sayfalarini guncelle")
     print()
 

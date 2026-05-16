@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
-# ACK 550 ve ACK 700 resim fix - mevcut machines.json'u geri yukler ve duzeltir
+﻿#!/usr/bin/env python3
+# ACK 550 ve ACK 700 resim fix - mevcut yilmaz.json'u geri yukler ve duzeltir
 import json, shutil
 from pathlib import Path
 
-JSON = Path(r"C:\Users\Kenan\Desktop\AI\Jaguar-ltd\src\data\machines.json")
+JSON = Path(r"C:\Users\Kenan\Desktop\AI\Jaguar-ltd\src\data\yilmaz.json")
 YEDEK = Path(r"C:\Users\Kenan\Desktop\AI\Jaguar-ltd\src\data\machines_duzelt_yedek_20260419_1755.json")
 
 # Yedeği geri yükle (tam 89 makine)
@@ -17,11 +17,11 @@ with open(YEDEK, 'r', encoding='utf-8') as f:
 # ACK 550 ve 700 resimlerini düzelt
 fixes = {
     "ack-550-up-cutting-saw-machine": [
-        "/images/machines/ack-550-alttan-cikma-kesme-makinesi-1.jpg",
-        "/images/machines/ack-550-alttan-cikma-kesme-makinesi-2.png"
+        "/images/yilmaz/ack-550-alttan-cikma-kesme-makinesi-1.jpg",
+        "/images/yilmaz/ack-550-alttan-cikma-kesme-makinesi-2.png"
     ],
     "ack-700-up-cutting-saw-machine": [
-        "/images/machines/ack-700-alttan-cikma-kesme-makinesi-1.jpg"
+        "/images/yilmaz/ack-700-alttan-cikma-kesme-makinesi-1.jpg"
     ]
 }
 
@@ -38,4 +38,4 @@ with open(JSON, 'w', encoding='utf-8') as f:
 # Dogrula
 bozuk = sum(1 for m in data if "logo.sv" in (m["diller"]["tr"]["resimler"] or [""])[0])
 print(f"\nSonuc: {len(data)} makine, {bozuk} bozuk resim")
-print("machines.json guncellendi!")
+print("yilmaz.json guncellendi!")

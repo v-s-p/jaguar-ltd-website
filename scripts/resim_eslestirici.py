@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 JAGUAR LTD - LOKAL RESIM ESLESTIRICI v1.0
-machines.json'daki bozuk CDN logo.svg resimlerini
-public/images/machines/ klasoründeki lokal dosyalarla degistirir.
+yilmaz.json'daki bozuk CDN logo.svg resimlerini
+public/images/yilmaz/ klasoründeki lokal dosyalarla degistirir.
 
 Kullanim:
   python resim_eslestirici.py          # Gercek calistir
@@ -21,7 +21,7 @@ from datetime import datetime
 
 SCRIPT_DIR   = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-JSON_PATH    = PROJECT_ROOT / "src" / "data" / "machines.json"
+JSON_PATH    = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
 IMG_DIR      = PROJECT_ROOT / "public" / "images" / "machines"
 YEDEK_PATH   = PROJECT_ROOT / "src" / "data" / f"machines_resim_yedek_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 
@@ -50,7 +50,7 @@ def lokal_resim_bul(model_k, img_dir):
     """
     model_k ornegi: ack-420-s
     img_dir iceriginde: ack-420-s-alttan-cikma-kesme-makinesi-1.png gibi dosyalar arar
-    Sirali liste doner: ['/images/machines/ack-420-s-...-1.png', ...]
+    Sirali liste doner: ['/images/yilmaz/ack-420-s-...-1.png', ...]
     """
     if not img_dir.exists():
         return []
@@ -62,7 +62,7 @@ def lokal_resim_bul(model_k, img_dir):
         fname = f.name.lower()
         # Dosya adi model koduyla basliyor mu?
         if fname.startswith(model_k + "-") or fname.startswith(model_k + "."):
-            bulunanlar.append(f"/images/machines/{f.name}")
+            bulunanlar.append(f"/images/yilmaz/{f.name}")
     
     return bulunanlar
 
@@ -150,7 +150,7 @@ def main():
     if dry_run:
         print("\n  [DRY RUN] - Dosya degistirilmedi")
     else:
-        print(f"\n  [+] machines.json guncellendi")
+        print(f"\n  [+] yilmaz.json guncellendi")
         print("  Sonraki adim: npx astro dev")
     print()
 

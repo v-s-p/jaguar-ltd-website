@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-JAGUAR LTD - machines.json ZENGİNLEŞTİRİCİ
+JAGUAR LTD - yilmaz.json ZENGİNLEŞTİRİCİ
 Her Yılmaz makinesi için teknik tablo + PDF katalog linkini çeker.
 Sadece eksik olanları günceller (zaten doluysa atlar).
 
@@ -23,7 +23,7 @@ from urllib.parse import urljoin
 from datetime import datetime
 
 BASE    = "https://www.yilmazmachine.com.tr"
-JSON    = Path(__file__).parent.parent / "src" / "data" / "machines.json"
+JSON    = Path(__file__).parent.parent / "src" / "data" / "yilmaz.json"
 DELAY   = 1.8
 RETRIES = 3
 
@@ -194,7 +194,7 @@ def main():
 
     print()
     print("=" * 60)
-    print("  JAGUAR LTD — machines.json ZENGİNLEŞTİRİCİ")
+    print("  JAGUAR LTD — yilmaz.json ZENGİNLEŞTİRİCİ")
     print("=" * 60)
 
     with open(JSON, 'r', encoding='utf-8') as f:
@@ -248,7 +248,7 @@ def main():
     print(f"  Güncellenen  : {updated} makine")
     print(f"  Teknik tablo : {has_t}/{len(machines)}")
     print(f"  Katalog      : {has_c}/{len(machines)}")
-    print(f"  [+] machines.json kaydedildi")
+    print(f"  [+] yilmaz.json kaydedildi")
     print()
 
 

@@ -3,7 +3,7 @@
 
 ## SORUN 1 — Yılmaz PDF'leri online URL, lokal olmalı
 
-Mevcut durum: machines.json'da catalog field'ı CDN URL'e işaret ediyor
+Mevcut durum: yilmaz.json'da catalog field'ı CDN URL'e işaret ediyor
 Hedef: public/catalogs/yilmaz/ klasörüne indirilip lokal path kullanılmalı
 Örnek: "catalog": "https://...yilmaz.../kd-350.pdf" → "catalog": "/catalogs/yilmaz/kd-350.pdf"
 
@@ -13,7 +13,7 @@ Hedef: public/catalogs/yilmaz/ klasörüne indirilip lokal path kullanılmalı
 import requests, json, time, re
 from pathlib import Path
 
-JSON    = Path("src/data/machines.json")
+JSON    = Path("src/data/yilmaz.json")
 PDF_DIR = Path("public/catalogs/yilmaz")
 PDF_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -217,7 +217,7 @@ python scripts/gocmaksan_pdf_enrich.py
 # 3. Sonucu kontrol et
 python -c "
 import json
-m = json.load(open('src/data/machines.json'))
+m = json.load(open('src/data/yilmaz.json'))
 g = json.load(open('src/data/gocmaksan.json'))
 ym_pdf = sum(1 for x in m if x.get('diller',{}).get('en',{}).get('catalog','').startswith('/'))
 gm_pdf = sum(1 for x in g if x.get('diller',{}).get('en',{}).get('catalog','').startswith('/'))

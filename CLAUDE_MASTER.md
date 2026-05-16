@@ -3,7 +3,7 @@
 
 ## SORUNUN TAMAMI
 
-machines.json hala ESKİ formatta:
+yilmaz.json hala ESKİ formatta:
 - diller.TR (en yerine tr)
 - kategoriler: ["Aluminyum"] (categories yerine)
 - alt_kategoriler: ["KESIM"] (subcategory yerine)
@@ -17,7 +17,7 @@ KategoriPage ve MachinePage bu iki farklı yapıyı karıştırıyor → PVC'de 
 
 ---
 
-## ADIM 1 — machines.json'ı migrate et
+## ADIM 1 — yilmaz.json'ı migrate et
 
 ```bash
 cd C:\Users\Kenan\Desktop\AI\Jaguar-ltd\scripts
@@ -96,7 +96,7 @@ export async function getStaticPaths() {
 ### 2b. Veri import — getStaticPaths'te async import kullan:
 ```typescript
 export async function getStaticPaths() {
-  const yilmaz = (await import('../../data/machines.json')).default;
+  const yilmaz = (await import('../../data/yilmaz.json')).default;
   const gocmaksan = (await import('../../data/gocmaksan.json')).default;
   // ... paths
 }
@@ -180,7 +180,7 @@ Kontrol edilecekler:
     "en": {
       "name": "ACK 420 S",
       "description": "ACK 420 S is designed...",
-      "images": ["/images/machines/ack-420-s-up-cutting-saw-machine-4.png"],
+      "images": ["/images/yilmaz/ack-420-s-up-cutting-saw-machine-4.png"],
       "specs": { "STANDARD FEATURES": [...], "OPTIONAL FEATURES": [...] }
     }
   }

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 YILMAZ MAKINE - JAGUAR LTD ENVANTER GUNCELLEYICI v4.1
@@ -36,7 +36,7 @@ SITEMAPS = [f"{BASE}/urunler-sitemap{i}.xml" for i in range(1, 6)]
 
 SCRIPT_DIR   = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-JSON_OUTPUT  = PROJECT_ROOT / "src" / "data" / "machines.json"
+JSON_OUTPUT  = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
 JSON_BACKUP  = PROJECT_ROOT / "src" / "data" / f"machines_backup_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
 IMG_DIR      = PROJECT_ROOT / "public" / "images" / "machines"
 
@@ -292,7 +292,7 @@ def download_image(session, img_url, en_slug, index):
 
     filename  = f"{en_slug}-{index}{ext}"
     save_path = IMG_DIR / filename
-    web_path  = f"/images/machines/{filename}"
+    web_path  = f"/images/yilmaz/{filename}"
 
     if save_path.exists() and save_path.stat().st_size > 1000:
         vlog(f"    Zaten mevcut: {filename}")
@@ -456,7 +456,7 @@ def _mevcut_resim_bul(en_slug):
     model_k = "-".join(kod).lower()
 
     return [
-        f"/images/machines/{f.name}"
+        f"/images/yilmaz/{f.name}"
         for f in sorted(IMG_DIR.iterdir())
         if f.is_file() and f.stat().st_size > 1000
         and (f.name.lower().startswith(model_k + "-")

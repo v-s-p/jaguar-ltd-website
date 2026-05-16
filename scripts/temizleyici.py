@@ -1,4 +1,4 @@
-import sys, io, json, hashlib
+﻿import sys, io, json, hashlib
 from pathlib import Path
 
 if sys.platform == "win32":
@@ -6,7 +6,7 @@ if sys.platform == "win32":
 
 SCRIPT_DIR   = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-JSON_PATH    = PROJECT_ROOT / "src" / "data" / "machines.json"
+JSON_PATH    = PROJECT_ROOT / "src" / "data" / "yilmaz.json"
 IMG_DIR      = PROJECT_ROOT / "public" / "images" / "machines"
 BLACKLIST_DIR = SCRIPT_DIR / "blacklist"
 
@@ -59,7 +59,7 @@ def main():
     with open(JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump(machines, f, ensure_ascii=False, indent=2)
 
-    print("[+] machines.json guncellendi!")
+    print("[+] yilmaz.json guncellendi!")
 
 if __name__ == "__main__":
     main()

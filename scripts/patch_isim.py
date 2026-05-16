@@ -1,4 +1,4 @@
-"""
+﻿"""
 Bu scripti bir kere calistir, guncelleyici'deki isim parse'ini duzeltir.
   python patch_isim.py
 """
@@ -33,11 +33,11 @@ YENI = '''    title_tag = soup.find('title')
 
 print("Patch atlanıyor - kullan: duzeltici.py ile sonradan isim duzelt")
 print()
-print("VEYA dogrudan machines.json'daki isimleri duzeltmek icin:")
+print("VEYA dogrudan yilmaz.json'daki isimleri duzeltmek icin:")
 print("  from scriptin sonuc JSON'u:")
 
 import json
-JSON = Path(__file__).parent.parent / "src" / "data" / "machines.json"
+JSON = Path(__file__).parent.parent / "src" / "data" / "yilmaz.json"
 if JSON.exists():
     data = json.loads(JSON.read_text(encoding='utf-8'))
     duzeltilen = 0
@@ -55,6 +55,6 @@ if JSON.exists():
     
     if duzeltilen:
         JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
-        print(f"\n[+] {duzeltilen} isim duzeltildi -> machines.json guncellendi")
+        print(f"\n[+] {duzeltilen} isim duzeltildi -> yilmaz.json guncellendi")
     else:
         print("  Duzeltilecek isim bulunamadi (zaten temiz)")
