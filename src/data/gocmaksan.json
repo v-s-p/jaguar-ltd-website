@@ -14,31 +14,38 @@
     "related_products": [],
     "specs": {
       "TECHNICAL DATA": {
-        "Bending Motor": "5.5 KW",
-        "Roller Motor": "3KW",
-        "Supporting Roller Motor": "1.5KW",
-        "Machine Dimensions Supporting Bending Conveyor - Closed": "92 x 160 x 160 cm",
-        "Machine Dimensions   supporting Bending Conveyor - Open": "163 x 280 x 160 cm",
-        "Weight": "1140 kg"
+        "Bending motor": "5.5 KW",
+        "Roller Motor": "3 KW",
+        "Supporting Roller Motor": "1,5 KW",
+        "Weight": "1140kg",
+        "Machine Dimensions": "92x160x160 cm"
       },
       "CAPACITIES": [
-        "Diameter: (45kg/mm²)",
         "Ø 50: 1",
         "Ø 40: 1",
         "Ø 32: 1",
         "Ø 26: 2",
         "Ø 20: 3",
-        "80 x 20 (quadrangle): 1",
-        "100 x 10 (quadrangle): 1",
-        "60 x 15 (quadrangle): 1"
+        "80 x 20: 1",
+        "100x10: 1",
+        "60 x 15: 1"
       ]
     },
     "diller": {
       "en": {
         "name": "Axis 50S",
-        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "description": "Axis 50S is a spiral bending machine with model-specific PDF data for spiral rebar production, technical specifications, and bending capacities.",
         "images": [
-          "/images/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi_1.webp",
+          "/images/gocmaksan/axis-50s_2.png",
+          "/images/gocmaksan/axis-50s_3.png",
+          "/images/gocmaksan/axis-50s_4.png",
+          "/images/gocmaksan/axis-50s_5.png",
+          "/images/gocmaksan/axis-50s_6.png",
+          "/images/gocmaksan/axis-50s_7.png",
+          "/images/gocmaksan/axis-50s_8.png",
+          "/images/gocmaksan/axis-50s_9.png",
+          "/images/gocmaksan/axis-50s_10.png"
         ]
       }
     }
@@ -86,31 +93,38 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Bending to the right and left",
-        "Mechanical and electrical automation",
-        "Bending at any desired angle",
-        "Planetary gearbox",
-        "Save up to 9 different bending programs",
-        "Optional digital display"
+        "Planetary reducer system",
+        "Program Saving Option (9 Different bending",
+        "Manual and automatic control option",
+        "Manual and automatic control"
       ],
       "TECHNICAL DATA": {
         "W-L-H cm": "72 x 77 x 87",
-        "Voltage V": "380",
         "Engine Power kW": "2.2",
-        "Weight kg": "175"
+        "Voltage V": "380",
+        "Weight kg": "218"
       },
       "CAPACITIES": [
         "45 kg/mm2: Ø 26x1, Ø 16x2",
         "65 kg/mm2: Ø 24x1, Ø 14x3",
-        "85 kg/mm2: Ø 20x1, Ø 12x5"
+        "85 kg/mm2: Ø 22x1, Ø 12x5"
       ]
     },
     "diller": {
       "en": {
         "name": "B 26",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "description": "B 26 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including planetary reducer system.",
         "images": [
-          "/images/gocmaksan/gms-b-26-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-b-26-gocmaksan-insaat-demiri-bukme-makinasi_1.webp",
+          "/images/gocmaksan/b-26_2.png",
+          "/images/gocmaksan/b-26_3.png",
+          "/images/gocmaksan/b-26_4.png",
+          "/images/gocmaksan/b-26_5.png",
+          "/images/gocmaksan/b-26_6.png",
+          "/images/gocmaksan/b-26_7.png",
+          "/images/gocmaksan/b-26_8.png",
+          "/images/gocmaksan/b-26_9.png",
+          "/images/gocmaksan/b-26_10.png"
         ]
       }
     }
@@ -132,17 +146,15 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Bending to the right and left",
-        "Mechanical and electrical automation",
-        "Bending at any desired angle",
-        "Planetary gearbox",
-        "Save up to 9 different bending programs",
-        "Optional digital display"
+        "Planetary reducer system",
+        "Program Saving Option (9 Different bending",
+        "Manual and automatic control option",
+        "Manual and automatic control"
       ],
       "TECHNICAL DATA": {
         "W-L-H cm": "78 x 87 x 89",
-        "Voltage V": "380",
         "Engine Power kW": "3",
+        "Voltage V": "380",
         "Weight kg": "285"
       },
       "CAPACITIES": [
@@ -154,7 +166,7 @@
     "diller": {
       "en": {
         "name": "B 36",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "description": "B 36 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including planetary reducer system.",
         "images": [
           "/images/gocmaksan/gms-b-36-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
         ]
@@ -178,18 +190,16 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Bending to the right and left",
-        "Mechanical and electrical automation",
-        "Bending at any desired angle",
-        "Planetary gearbox",
-        "Save up to 9 different bending programs",
-        "Optional digital display"
+        "Planetary reducer system",
+        "Program Saving Option (9 Different bending",
+        "Manual and automatic control option",
+        "Manual and automatic control"
       ],
       "TECHNICAL DATA": {
         "W-L-H cm": "83 x 111 x 89",
-        "Voltage V": "380",
         "Engine Power kW": "4",
-        "Weight kg": "390"
+        "Voltage V": "380",
+        "Weight kg": "392"
       },
       "CAPACITIES": [
         "45 kg/mm2: Ø 45x1, Ø 30x2",
@@ -200,7 +210,7 @@
     "diller": {
       "en": {
         "name": "B 45x1",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "description": "B 45x1 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including planetary reducer system.",
         "images": [
           "/images/gocmaksan/gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
         ]
@@ -224,21 +234,19 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Bending to the right and left",
-        "Mechanical and electrical automation",
-        "Bending at any desired angle",
-        "Planetary gearbox",
-        "Save up to 9 different bending programs",
-        "Optional digital display"
+        "Planetary reducer system",
+        "Program Saving Option (9 Different bending",
+        "Manual and automatic control option",
+        "Manual and automatic control"
       ],
       "TECHNICAL DATA": {
         "W-L-H cm": "86 x 119 x 89",
-        "Voltage V": "380",
         "Engine Power kW": "5.5",
+        "Voltage V": "380",
         "Weight kg": "457"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø 45x1, Ø 30x2",
+        "45 kg/mm2: Ø 50x1, Ø 32x2",
         "65 kg/mm2: Ø 45x1, Ø 30x2",
         "85 kg/mm2: Ø 36x1, Ø 28x2"
       ]
@@ -246,7 +254,7 @@
     "diller": {
       "en": {
         "name": "B 50",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "description": "B 50 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including planetary reducer system.",
         "images": [
           "/images/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
         ]
@@ -278,7 +286,9 @@
         "Easy to carry with foldable feet",
         "Saves labor and materials"
       ],
-      "TECHNICAL DATA": {},
+      "TECHNICAL DATA": {
+        "W-L-H cm": "85 x 157 x 153"
+      },
       "CAPACITIES": []
     },
     "diller": {
@@ -286,7 +296,10 @@
         "name": "BCZ 600",
         "description": "",
         "images": [
-          "/images/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi_1.webp"
+          "/images/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi_1.webp",
+          "/images/gocmaksan/bcz-600_2.png",
+          "/images/gocmaksan/bcz-600_3.png",
+          "/images/gocmaksan/bcz-600_4.png"
         ]
       }
     }
@@ -307,11 +320,16 @@
       "BS 50"
     ],
     "specs": {
-      "FEATURED FEATURES": [],
+      "FEATURED FEATURES": [
+        "Fast bending with 2 bending sleeve",
+        "Turning Left & Right",
+        "Uzun Tabla",
+        "Long Table"
+      ],
       "TECHNICAL DATA": {
-        "W-L-H cm": "83 x 111 x 89",
-        "Voltage V": "380",
+        "W-L-H cm": "83 x 111 x 90",
         "Engine Power kW": "3",
+        "Voltage V": "380",
         "Weight kg": "350"
       },
       "CAPACITIES": [
@@ -323,9 +341,17 @@
     "diller": {
       "en": {
         "name": "BS 36",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "description": "BS 36 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including fast bending with 2 bending sleeve.",
         "images": [
-          "/images/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi_1.webp",
+          "/images/gocmaksan/bs-36_2.png",
+          "/images/gocmaksan/bs-36_3.png",
+          "/images/gocmaksan/bs-36_4.png",
+          "/images/gocmaksan/bs-36_5.png",
+          "/images/gocmaksan/bs-36_6.png",
+          "/images/gocmaksan/bs-36_7.png",
+          "/images/gocmaksan/bs-36_8.png",
+          "/images/gocmaksan/bs-36_9.png"
         ]
       }
     }
@@ -346,23 +372,28 @@
       "BS 50"
     ],
     "specs": {
-      "FEATURED FEATURES": [],
+      "FEATURED FEATURES": [
+        "Fast bending with 2 bending sleeve",
+        "Turning Left & Right",
+        "Uzun Tabla",
+        "Long Table"
+      ],
       "TECHNICAL DATA": {
-        "W-L-H cm": "83 x 122 x 89",
-        "Voltage V": "380",
+        "W-L-H cm": "83 x 122 x 90",
         "Engine Power kW": "4",
+        "Voltage V": "380",
         "Weight kg": "462"
       },
       "CAPACITIES": [
         "45 kg/mm2: Ø 45x1, Ø 30x2",
         "65 kg/mm2: Ø 40x1, Ø 26x2",
-        "85 kg/mm2: Ø 30x1, Ø 20x2"
+        "85 kg/mm2: Ø 32x1, Ø 20x2"
       ]
     },
     "diller": {
       "en": {
         "name": "BS 45",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "description": "BS 45 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including fast bending with 2 bending sleeve.",
         "images": [
           "/images/gocmaksan/gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu_1.webp"
         ]
@@ -385,11 +416,16 @@
       "BS 60"
     ],
     "specs": {
-      "FEATURED FEATURES": [],
+      "FEATURED FEATURES": [
+        "Fast bending with 2 bending sleeve",
+        "Turning Left & Right",
+        "Uzun Tabla",
+        "Long Table"
+      ],
       "TECHNICAL DATA": {
-        "W-L-H cm": "88 x 141 x 89",
-        "Voltage V": "380",
+        "W-L-H cm": "88 x 141 x 90",
         "Engine Power kW": "5.5",
+        "Voltage V": "380",
         "Weight kg": "700"
       },
       "CAPACITIES": [
@@ -401,7 +437,7 @@
     "diller": {
       "en": {
         "name": "BS 50",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "description": "BS 50 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including fast bending with 2 bending sleeve.",
         "images": [
           "/images/gocmaksan/gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
         ]
@@ -424,15 +460,20 @@
       "BS 50"
     ],
     "specs": {
-      "FEATURED FEATURES": [],
+      "FEATURED FEATURES": [
+        "Fast bending with 2 bending sleeve",
+        "Turning Left & Right",
+        "Uzun Tabla",
+        "Long Table"
+      ],
       "TECHNICAL DATA": {
-        "W-L-H cm": "98 x 154 x 91",
-        "Voltage V": "380",
+        "W-L-H cm": "98 x 154 x 90",
         "Engine Power kW": "7.5",
-        "Weight kg": "850"
+        "Voltage V": "380",
+        "Weight kg": "585"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø 60x1, Ø 40x2",
+        "45 kg/mm2: Ø 60x1, Ø 38x2",
         "65 kg/mm2: Ø 55x1, Ø 34x2",
         "85 kg/mm2: Ø 50x1, Ø 30x2"
       ]
@@ -440,7 +481,7 @@
     "diller": {
       "en": {
         "name": "BS 60",
-        "description": "Manufactured with half a century of experience from GMS, rebar bending machines offer maximum efficiency and durability on construction sites. It adds strength to any project with precise bending technology.",
+        "description": "BS 60 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including fast bending with 2 bending sleeve.",
         "images": [
           "/images/gocmaksan/gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
         ]
@@ -464,31 +505,57 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Easy transportation",
-        "Fixed center pin",
-        "220 V & 380 V voltage options",
+        "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES",
+        "Dijital kumanda",
+        "115 kg - 1,8 kW",
+        "Easy to carry",
+        "220 V / 380V opsiyonu",
         "Digital control panel option",
-        "Stirrup bending ability",
-        "Programmable bending function"
+        "220 V / 380 V options",
+        "Special stirrup bending pin",
+        "Easy to handle",
+        "Portable solutions",
+        "Portable solution on POWER",
+        "Planetary reducer system",
+        "Program Saving Option (9 Different bending",
+        "Manual and automatic control option",
+        "Manual and automatic control"
       ],
       "TECHNICAL DATA": {
         "W-L-H cm": "63 x 70 x 62",
-        "Voltage V": "380-220",
         "Engine Power kW": "1.5",
-        "Weight kg": "130"
+        "Voltage V": "380 / 220",
+        "Weight kg": "145"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø24x1, Ø16x2",
-        "65 kg/mm2: Ø22x1, Ø14x2",
-        "85 kg/mm2: Ø20x1, Ø12x3"
+        "45 kg/mm2: Ø 24x1, Ø 16x2",
+        "65 kg/mm2: Ø 22x1, Ø 14x2",
+        "85 kg/mm2: Ø 20x1, Ø 12x3"
       ]
     },
     "diller": {
       "en": {
         "name": "BT 24x5",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "description": "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES PORTATİF KESME & BÜKME İNŞAAT DEMİRİ PORTARİF BÜKME & KESME MAKİNALARI",
         "images": [
-          "/images/gocmaksan/gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.webp",
+          "/images/gocmaksan/bt-24x5_2.png",
+          "/images/gocmaksan/bt-24x5_3.png",
+          "/images/gocmaksan/bt-24x5_4.png",
+          "/images/gocmaksan/bt-24x5_5.png",
+          "/images/gocmaksan/bt-24x5_6.png",
+          "/images/gocmaksan/bt-24x5_7.png",
+          "/images/gocmaksan/bt-24x5_8.png",
+          "/images/gocmaksan/bt-24x5_9.png",
+          "/images/gocmaksan/bt-24x5_10.png",
+          "/images/gocmaksan/bt-24x5_11.png",
+          "/images/gocmaksan/bt-24x5_12.png",
+          "/images/gocmaksan/bt-24x5_13.png",
+          "/images/gocmaksan/bt-24x5_14.png",
+          "/images/gocmaksan/bt-24x5_15.png",
+          "/images/gocmaksan/bt-24x5_16.png",
+          "/images/gocmaksan/bt-24x5_17.png",
+          "/images/gocmaksan/bt-24x5_18.png"
         ]
       }
     }
@@ -510,29 +577,38 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Ease of transportation",
-        "Fixed center pin",
-        "220V & 380V voltageopties",
+        "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES",
+        "Dijital kumanda",
+        "115 kg - 1,8 kW",
+        "Easy to carry",
+        "220 V / 380V opsiyonu",
         "Digital control panel option",
-        "Stirrup bending ability",
-        "Programmable bending function"
+        "220 V / 380 V options",
+        "Special stirrup bending pin",
+        "Easy to handle",
+        "Portable solutions",
+        "Portable solution on POWER",
+        "Planetary reducer system",
+        "Program Saving Option (9 Different bending",
+        "Manual and automatic control option",
+        "Manual and automatic control"
       ],
       "TECHNICAL DATA": {
         "W-L-H cm": "63 x 70 x 62",
-        "Voltage V": "380",
         "Engine Power kW": "2.2",
+        "Voltage V": "380",
         "Weight kg": "150"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø26x1, Ø16x2",
-        "65 kg/mm2: Ø22x1, Ø14x3",
-        "85 kg/mm2: Ø20x1, Ø12x3"
+        "45 kg/mm2: Ø 26x1, Ø 16x2",
+        "65 kg/mm2: Ø 22x1, Ø 14x2",
+        "85 kg/mm2: Ø 20x1, Ø 12x3"
       ]
     },
     "diller": {
       "en": {
         "name": "BT 26",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "description": "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES PORTATİF KESME & BÜKME İNŞAAT DEMİRİ PORTARİF BÜKME & KESME MAKİNALARI",
         "images": [
           "/images/gocmaksan/gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.webp"
         ]
@@ -635,32 +711,42 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Hydraulic System",
+        "Hydraulic system",
+        "Silent, safe and environment",
         "Adjustable blade support",
-        "Low maintenance costs",
+        "Easy maintenance",
         "Long-lasting use",
-        "Reinforced steel body",
-        "Quiet, safe and environmentally friendly"
+        "Reinforced steel body"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "54x100x78",
-        "Voltage V": "380",
+        "W-L-H cm": "54 x 100 x 78",
         "Engine Power kW": "2.2",
-        "Weight kg": "95",
-        "Hid. Oil. Cap. lt": "7"
+        "Frequency Hz": "50",
+        "Voltage V": "380",
+        "Weight kg": "120",
+        "Hydraulic Oil Tank Capacity lt": "7"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø26x1, Ø16x2",
-        "65 kg/mm2: Ø22x1, Ø12x2",
-        "85 kg/mm2: Ø20x1, Ø10x2"
+        "45 kg/mm2: Ø 36x1, Ø 22x2",
+        "65 kg/mm2: Ø 29x1, Ø 19x2",
+        "85 kg/mm2: Ø 22x1, Ø 16x2"
       ]
     },
     "diller": {
       "en": {
         "name": "H 26",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "H 26 is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including hydraulic system.",
         "images": [
-          "/images/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+          "/images/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi_1.webp",
+          "/images/gocmaksan/h-26_2.png",
+          "/images/gocmaksan/h-26_3.png",
+          "/images/gocmaksan/h-26_4.png",
+          "/images/gocmaksan/h-26_5.png",
+          "/images/gocmaksan/h-26_6.png",
+          "/images/gocmaksan/h-26_7.png",
+          "/images/gocmaksan/h-26_8.png",
+          "/images/gocmaksan/h-26_9.png",
+          "/images/gocmaksan/h-26_10.png"
         ]
       }
     }
@@ -683,32 +769,54 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Hidrolik Sistem",
-        "Ayarlanabilir bıçak desteği",
-        "Düşük bakım maliyetleri",
-        "Uzun ömürlü kullanım",
-        "Güçlendirilmiş çelik gövde",
-        "Sessiz, güvenli ve çevre dostu"
+        "Hydraulic system",
+        "Silent, safe and environment",
+        "Adjustable blade support",
+        "Easy maintenance",
+        "Long-lasting use",
+        "Reinforced steel body",
+        "Mechanical system",
+        "High cutting performance",
+        "0,8 saniyede",
+        "Foot pedal and arm control",
+        "0,8 sec cutting",
+        "Mechanical",
+        "0,8 sec cutting time",
+        "8-55 mm"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "53x105x80",
-        "Voltage V": "380",
+        "W-L-H cm": "53 x 105 x 80",
         "Engine Power kW": "2.2",
-        "Weight kg": "160",
-        "Hid. Oil. Cap. lt": "13"
+        "Voltage V": "50",
+        "Weight kg": "380",
+        "Hydraulic Oil Tank Capacity lt": "165"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø 30x1, Ø 22x2",
-        "65 kg/mm2: Ø 29x1, Ø 19x2",
-        "85 kg/mm2: Ø 22x1, Ø 16x2"
+        "Ø 20x1"
       ]
     },
     "diller": {
       "en": {
         "name": "H 36S",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "H 36S is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including hydraulic system.",
         "images": [
-          "/images/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi_1.png"
+          "/images/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi_1.png",
+          "/images/gocmaksan/h-36s_2.png",
+          "/images/gocmaksan/h-36s_3.png",
+          "/images/gocmaksan/h-36s_4.png",
+          "/images/gocmaksan/h-36s_5.png",
+          "/images/gocmaksan/h-36s_6.png",
+          "/images/gocmaksan/h-36s_7.png",
+          "/images/gocmaksan/h-36s_8.png",
+          "/images/gocmaksan/h-36s_9.png",
+          "/images/gocmaksan/h-36s_10.png",
+          "/images/gocmaksan/h-36s_11.png",
+          "/images/gocmaksan/h-36s_12.png",
+          "/images/gocmaksan/h-36s_13.png",
+          "/images/gocmaksan/h-36s_14.png",
+          "/images/gocmaksan/h-36s_15.png",
+          "/images/gocmaksan/h-36s_16.png",
+          "/images/gocmaksan/h-36s_17.png"
         ]
       }
     }
@@ -731,30 +839,28 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Hydraulic System",
+        "Hydraulic system",
+        "Silent, safe and environment",
         "Adjustable blade support",
-        "Low maintenance costs",
+        "Easy maintenance",
         "Long-lasting use",
-        "Reinforced steel body",
-        "Quiet, safe and environmentally friendly"
+        "Reinforced steel body"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "61x123x80",
-        "Voltage V": "380",
+        "W-L-H cm": "61 x 123 x 80",
         "Engine Power kW": "3",
-        "Weight kg": "273",
-        "Hid. Oil. Cap. lt": "17.5"
+        "Voltage V": "50",
+        "Weight kg": "380",
+        "Hydraulic Oil Tank Capacity lt": "273"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø38x1, Ø26x2",
-        "65 kg/mm2: Ø36x2, Ø22x2",
-        "85 kg/mm2: Ø32x1, Ø20x2"
+        "Ø 20x1"
       ]
     },
     "diller": {
       "en": {
         "name": "H 38S",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "H 38S is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including hydraulic system.",
         "images": [
           "/images/gocmaksan/gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
         ]
@@ -779,30 +885,30 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Hydraulic System",
+        "Hydraulic system",
+        "Silent, safe and environment",
         "Adjustable blade support",
-        "Low maintenance costs",
+        "Easy maintenance",
         "Long-lasting use",
-        "Reinforced steel body",
-        "Quiet, safe and environmentally friendly"
+        "Reinforced steel body"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "65x136x79",
-        "Voltage V": "380",
+        "W-L-H cm": "65 x 136 x 79",
         "Engine Power kW": "4",
-        "Weight kg": "321",
-        "Hid. Oil. Cap. lt": "17.5"
+        "Voltage V": "50",
+        "Weight kg": "380",
+        "Hydraulic Oil Tank Capacity lt": "321"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø45x1, Ø26x3",
-        "65 kg/mm2: Ø42x1, Ø30x2",
-        "85 kg/mm2: Ø34x1, Ø26x2"
+        "45 kg/mm2: Ø 55x1, Ø 32x2",
+        "65 kg/mm2: Ø 52x1, Ø 28x2",
+        "85 kg/mm2: Ø 42x1, Ø 26x2"
       ]
     },
     "diller": {
       "en": {
         "name": "H 45S",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "H 45S is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including hydraulic system.",
         "images": [
           "/images/gocmaksan/gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
         ]
@@ -827,19 +933,19 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Hydraulic System",
+        "Hydraulic system",
+        "Silent, safe and environment",
         "Adjustable blade support",
-        "Low maintenance costs",
+        "Easy maintenance",
         "Long-lasting use",
-        "Reinforced steel body",
-        "Quiet, safe and environmentally friendly"
+        "Reinforced steel body"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "76x154x102",
-        "Voltage V": "380",
+        "W-L-H cm": "75 x 154 x 102",
         "Engine Power kW": "7.5",
-        "Weight kg": "482",
-        "Hid. Oil. Cap. lt": "35"
+        "Voltage V": "50",
+        "Weight kg": "380",
+        "Hydraulic Oil Tank Capacity lt": "482"
       },
       "CAPACITIES": [
         "45 kg/mm2: Ø55x1, Ø30x3",
@@ -850,7 +956,7 @@
     "diller": {
       "en": {
         "name": "H 55",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "H 55 is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including hydraulic system.",
         "images": [
           "/images/gocmaksan/gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
         ]
@@ -872,22 +978,37 @@
     "related_products": [],
     "specs": {
       "FEATURED FEATURES": [
-        "Double Acting Hydraulic Drive",
-        "Automatic & Manual Control System",
-        "Precision Twisting Up To 135°",
-        "Easy Maintenance & Comfortable Use",
-        "3 Different Angle Settings Simultaneously"
+        "Hydraulic",
+        "3 meter",
+        "6 m optional",
+        "Bending angles 45-90-1350",
+        "Mechanical system",
+        "Cut in 7 seconds"
       ],
       "TECHNICAL DATA": {
-        "Voltage V": "380"
-      }
+        "W-L-H cm": "98 x 340 x 109",
+        "Engine Power kW": "5.5",
+        "Voltage V": "380",
+        "Weight kg": "710",
+        "Hydraulic Oil Tank Capacity lt": "36"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 12x1",
+        "65 kg/mm2: Ø 10x1",
+        "85 kg/mm2: Ø 8x1"
+      ]
     },
     "diller": {
       "en": {
         "name": "HB 12x3",
-        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "description": "HB 12x3 is a mesh bending and cutting machine with model-specific PDF data for steel factory use, hydraulic operation, and bending or cutting capacities, including hydraulic.",
         "images": [
-          "/images/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi_1.webp",
+          "/images/gocmaksan/hb-12x3_2.png",
+          "/images/gocmaksan/hb-12x3_3.png",
+          "/images/gocmaksan/hb-12x3_4.png",
+          "/images/gocmaksan/hb-12x3_5.png",
+          "/images/gocmaksan/hb-12x3_6.png"
         ]
       }
     }
@@ -907,20 +1028,30 @@
     "related_products": [],
     "specs": {
       "FEATURED FEATURES": [
-        "Double Acting Hydraulic Drive",
-        "Automatic & Manual Control System",
-        "Precision Twisting Up To 135°",
-        "Easy Maintenance & Comfortable Use",
-        "3 Different Angle Settings Simultaneously"
+        "Hydraulic",
+        "3 meter",
+        "6 m optional",
+        "Bending angles 45-90-1350",
+        "Mechanical system",
+        "Cut in 7 seconds"
       ],
       "TECHNICAL DATA": {
-        "Voltage V": "380"
-      }
+        "W-L-H cm": "100 x 640 x 109",
+        "Engine Power kW": "7.5",
+        "Voltage V": "380",
+        "Weight kg": "1250",
+        "Hydraulic Oil Tank Capacity lt": "36"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 12x1",
+        "65 kg/mm2: Ø 10x1",
+        "85 kg/mm2: Ø 8x1"
+      ]
     },
     "diller": {
       "en": {
         "name": "HB 12x6",
-        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "description": "HB 12x6 is a mesh bending and cutting machine with model-specific PDF data for steel factory use, hydraulic operation, and bending or cutting capacities, including hydraulic.",
         "images": [
           "/images/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi_1.webp"
         ]
@@ -1002,31 +1133,42 @@
     "specs": {
       "FEATURED FEATURES": [
         "Mechanical system",
-        "Cut in 0.8 seconds",
         "High cutting performance",
-        "Ability to control with hand and foot",
-        "Low Energy Consumption",
-        "Mobile and portable design"
+        "0,8 saniyede",
+        "Foot pedal and arm control",
+        "0,8 sec cutting",
+        "Mechanical",
+        "0,8 sec cutting time",
+        "8-55 mm",
+        "Dual-affect hydraulic system",
+        "S I N C E",
+        "Can be controlled both automatically",
+        "Manuel ve otomatik kontrol kabiliyeti"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "54x101x79",
-        "Voltage V": "380",
+        "W-L-H cm": "54 x 101 x 79",
         "Engine Power kW": "3",
-        "Weight kg": "325",
-        "Hid. Oil. Cap. lt": "-"
+        "Voltage V": "380",
+        "Weight kg": "325"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø36x1, Ø26x2",
-        "65 kg/mm2: Ø32x1, Ø22x2",
-        "85 kg/mm2: Ø28x1, Ø20x2"
+        "45 kg/mm2: Ø 36x1, Ø 24x2",
+        "65 kg/mm2: Ø 32x1, Ø 20x2",
+        "85 kg/mm2: Ø 28x1, Ø 18x2"
       ]
     },
     "diller": {
       "en": {
         "name": "M 36",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "M 36 is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including mechanical system.",
         "images": [
-          "/images/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+          "/images/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi_1.webp",
+          "/images/gocmaksan/m-36_2.png",
+          "/images/gocmaksan/m-36_3.png",
+          "/images/gocmaksan/m-36_4.png",
+          "/images/gocmaksan/m-36_5.png",
+          "/images/gocmaksan/m-36_6.png",
+          "/images/gocmaksan/m-36_7.png"
         ]
       }
     }
@@ -1048,31 +1190,36 @@
     "specs": {
       "FEATURED FEATURES": [
         "Mechanical system",
-        "Cut in 0.8 seconds",
         "High cutting performance",
-        "Ability to control with hand and foot",
-        "Low Energy Consumption",
-        "Mobile and portable design"
+        "0,8 saniyede",
+        "Foot pedal and arm control",
+        "0,8 sec cutting"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "61x123x80",
-        "Voltage V": "380",
+        "W-L-H cm": "51 x 110 x 85",
         "Engine Power kW": "3",
-        "Weight kg": "435",
-        "Hid. Oil. Cap. lt": "-"
+        "Voltage V": "380",
+        "Weight kg": "435"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø45x1, Ø36x2",
-        "65 kg/mm2: Ø42x1, Ø30x2",
-        "85 kg/mm2: Ø30x1, Ø24x2"
+        "45 kg/mm2: Ø 45x1, Ø 36x2",
+        "65 kg/mm2: Ø 42x1, Ø 30x2",
+        "85 kg/mm2: Ø 30x1, Ø 24x2"
       ]
     },
     "diller": {
       "en": {
         "name": "M 45",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "M 45 is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including mechanical system.",
         "images": [
-          "/images/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+          "/images/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi_1.webp",
+          "/images/gocmaksan/m-45_2.png",
+          "/images/gocmaksan/m-45_3.png",
+          "/images/gocmaksan/m-45_4.png",
+          "/images/gocmaksan/m-45_5.png",
+          "/images/gocmaksan/m-45_6.png",
+          "/images/gocmaksan/m-45_7.png",
+          "/images/gocmaksan/m-45_8.png"
         ]
       }
     }
@@ -1094,29 +1241,34 @@
     "specs": {
       "FEATURED FEATURES": [
         "Mechanical system",
-        "Cut in 0.8 seconds",
         "High cutting performance",
-        "Ability to control with hand and foot",
-        "Low Energy Consumption",
-        "Mobile and portable design"
+        "0,8 saniyede",
+        "Foot pedal and arm control",
+        "0,8 sec cutting",
+        "Mechanical",
+        "0,8 sec cutting time",
+        "8-55 mm",
+        "Dual-affect hydraulic system",
+        "S I N C E",
+        "Can be controlled both automatically",
+        "Manuel ve otomatik kontrol kabiliyeti"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "65x136x79",
+        "W-L-H cm": "66 x 136 x 94",
+        "Engine Power kW": "3",
         "Voltage V": "380",
-        "Engine Power kW": "4",
-        "Weight kg": "321",
-        "Hid. Oil. Cap. lt": "-"
+        "Weight kg": "675"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø55x1, Ø32x2",
-        "65 kg/mm2: Ø52x1, Ø28x3",
-        "85 kg/mm2: Ø45x1, Ø24x3"
+        "45 kg/mm2: Ø 55x1, Ø 32x2",
+        "65 kg/mm2: Ø 45x1, Ø 28x2",
+        "85 kg/mm2: Ø 36x1, Ø 24x2"
       ]
     },
     "diller": {
       "en": {
         "name": "M 55",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "M 55 is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including mechanical system.",
         "images": [
           "/images/gocmaksan/gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
         ]
@@ -1180,14 +1332,47 @@
         "30: 30",
         "Ø 8 / #3: 35",
         "35: 35"
+      ],
+      "FEATURED FEATURES": [
+        "FEATURES DIGITAL CONTROL PANEL",
+        "360 degrees movement ability",
+        "INFEED CONVEYOR & FEEDING PLATFORM",
+        "All measurements can be controlled by digital unit and user friendly solutions",
+        "Sensitive cutting ability with its functions",
+        "MAIN HYDRAULIC BODY & CUTTING UNIT",
+        "Produced by heat treated steel",
+        "Long lasting usage",
+        "Movement of rebars with the assistance of automatic sliding rollers on conveyors",
+        "Main hydraulic cutting body is steady and all sensitive measurements and cuttings can be made with this",
+        "Hydraulic motor (KW / HP) 7.5KW / 9,38 HP",
+        "Cutting system Hydraulic System",
+        "Discharging system Hydraulic System",
+        "Consist of 12 meters ( 40ft ) 2 pockets of collecting bins",
+        "All arms can open and close manual",
+        "Sheared rebars can be unloaded automatic to desired bin Cutting senstivity ± 3 mm",
+        "Modular base pockets, the length can be also arrangeable",
+        "Hydraulic sytem pressure (BAR / PSI) 250 (bar) / 3625 PSI"
       ]
     },
     "diller": {
       "en": {
         "name": "MATRIX 55",
-        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "description": "INFEED CONVEYOR & FEEDING PLATFORM • All measurements can be controlled by digital unit and user friendly solutions.",
         "images": [
-          "/images/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti_1.webp"
+          "/images/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti_1.webp",
+          "/images/gocmaksan/matrix-55_2.png",
+          "/images/gocmaksan/matrix-55_3.png",
+          "/images/gocmaksan/matrix-55_4.png",
+          "/images/gocmaksan/matrix-55_5.png",
+          "/images/gocmaksan/matrix-55_6.png",
+          "/images/gocmaksan/matrix-55_7.png",
+          "/images/gocmaksan/matrix-55_8.png",
+          "/images/gocmaksan/matrix-55_9.png",
+          "/images/gocmaksan/matrix-55_10.png",
+          "/images/gocmaksan/matrix-55_11.png",
+          "/images/gocmaksan/matrix-55_12.png",
+          "/images/gocmaksan/matrix-55_13.png",
+          "/images/gocmaksan/matrix-55_14.png"
         ]
       }
     }
@@ -1210,14 +1395,78 @@
         "Hydraulic Motor (KW/HP)": "7.5KW/9.38HP",
         "Loading rollers motor": "1 X 0.75KW",
         "Discharging roller motor": "3X1.1KW"
-      }
+      },
+      "FEATURED FEATURES": [
+        "All electrical panel and units exist in this bridge",
+        "GMS uses all branded models on electrical components and easy to get from local markets",
+        "DIGITAL CONTROL PANEL MAIN HYDRAULIC BODY & CUTTING UNIT",
+        "10.1 Touch Screen will be used in both machines digital panel",
+        "All required sizes of cuttings will be organized by hydraulic system and detailed shear requests organized",
+        "PLC screen Windows base systems is using in digital panel",
+        "Movement is hydraulic. Servo system is also using in Matrix55S",
+        "Remote controller is available to connect if something happens on machine",
+        "Sensitive measurement and cutting is enabled with this unit with the support of moveable main cutting",
+        "Cutting and pressure system mentality works with the assistance of hydraulic",
+        "Barcode System is also available on Matrix55S Shearline upon request. Instant Scanning is also available in",
+        "MAIN HYDRAULIC BODY & CUTTING UNIT OUTFEED CONVEYOR & COLLECTING BINS",
+        "Decoilers can open as automatic with the support of pneumatic system",
+        "Consist of 12 meters ( 40ft ) 4 pockets collecting bins",
+        "All arms can open as automatic",
+        "Sheared rebars can be unloaded automatic to desired bin",
+        "Modular base pockets, the length can be also arrangeable",
+        "Hydraulic motor ( KW / HP ) 7.5KW / 9,38 HP",
+        "Main hydraulic cutting unit movement motor ( KW / HP ) 1.5KW Servo motor / 2 HP",
+        "Cutting system Hydraulic System",
+        "Digital control panel 10.1\" inch digital screen 12 meters / 40 ft 18 meters / 60 ft 12 meters / 40 ft 18 meters / 60 ft",
+        "CUTTING SYSTEM hydraulic hydraulic",
+        "Hydraulic System Pressure ( BAR / PSI ) 250 BAR / 3625 PSI"
+      ],
+      "CAPACITIES": [
+        "/ INCH BAR SIZE 45 kg/mm² 65 kg/mm² 85 kg/mm² OPERATOR PLATFOM unavailable available",
+        "Ø 55 / #14 1 1 1 BARCODE SYSTEM unavailable available unavailable available",
+        "Ø 40 / #14 5 4 4",
+        "Ø 36 / #11 6 5 5",
+        "Ø 32 / #10 7 6 6",
+        "Ø 28 / #9 8 7 7",
+        "Ø 26 / #8 11 10 10",
+        "Ø 22 / #7 13 12 12",
+        "Ø 20 / #6 14 13 13",
+        "Ø 16 / #5 18 18 18",
+        "Ø 12 / #4 24 24 24",
+        "Ø 10 / #3 30 30 30",
+        "Ø 8 / #3 35 35 35"
+      ]
     },
     "diller": {
       "en": {
         "name": "MATIX 55S",
-        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "description": "MATRIX 55-S, enables to maximize customer productivity and saving time when cutting operations and eliminating 2-3 labor force with the assistance of",
         "images": [
-          "/images/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti_1.webp"
+          "/images/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti_1.webp",
+          "/images/gocmaksan/matix-55s_2.png",
+          "/images/gocmaksan/matix-55s_3.png",
+          "/images/gocmaksan/matix-55s_4.png",
+          "/images/gocmaksan/matix-55s_5.png",
+          "/images/gocmaksan/matix-55s_6.png",
+          "/images/gocmaksan/matix-55s_7.png",
+          "/images/gocmaksan/matix-55s_8.png",
+          "/images/gocmaksan/matix-55s_9.png",
+          "/images/gocmaksan/matix-55s_10.png",
+          "/images/gocmaksan/matix-55s_11.png",
+          "/images/gocmaksan/matix-55s_12.png",
+          "/images/gocmaksan/matix-55s_13.png",
+          "/images/gocmaksan/matix-55s_14.png",
+          "/images/gocmaksan/matix-55s_15.png",
+          "/images/gocmaksan/matix-55s_16.png",
+          "/images/gocmaksan/matix-55s_17.png",
+          "/images/gocmaksan/matix-55s_18.png",
+          "/images/gocmaksan/matix-55s_19.png",
+          "/images/gocmaksan/matix-55s_20.png",
+          "/images/gocmaksan/matix-55s_21.png",
+          "/images/gocmaksan/matix-55s_22.png",
+          "/images/gocmaksan/matix-55s_23.png",
+          "/images/gocmaksan/matix-55s_24.png",
+          "/images/gocmaksan/matix-55s_25.png"
         ]
       }
     }
@@ -1239,11 +1488,12 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Combined Cutting & Bending",
-        "Hydromechanical System",
-        "Multi-Purpose",
-        "Safe Use",
-        "Low Maintenance Cost"
+        "Hidromekanik",
+        "Max: 30 mm Kesim",
+        "Hydramechanical",
+        "Max: 30 mm Cutting",
+        "Max: 36 mm Bending",
+        "Low energy"
       ],
       "TECHNICAL DATA": {
         "E-B-Y cm": "110x98x110",
@@ -1263,7 +1513,11 @@
         "name": "MAX 40",
         "description": "Combining iron cutting and bending in one machine saves time and space on your construction site.",
         "images": [
-          "/images/gocmaksan/gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi_1.webp",
+          "/images/gocmaksan/max-40_2.png",
+          "/images/gocmaksan/max-40_3.png",
+          "/images/gocmaksan/max-40_4.png",
+          "/images/gocmaksan/max-40_5.png"
         ]
       }
     }
@@ -1285,29 +1539,38 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Easy transportation",
-        "Fixed center pin",
-        "220 V & 380 V voltage options",
+        "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES",
+        "Dijital kumanda",
+        "115 kg - 1,8 kW",
+        "Easy to carry",
+        "220 V / 380V opsiyonu",
         "Digital control panel option",
-        "Stirrup bending ability",
-        "Programmable bending function"
+        "220 V / 380 V options",
+        "Special stirrup bending pin",
+        "Easy to handle",
+        "Portable solutions",
+        "Portable solution on POWER",
+        "Planetary reducer system",
+        "Program Saving Option (9 Different bending",
+        "Manual and automatic control option",
+        "Manual and automatic control"
       ],
       "TECHNICAL DATA": {
         "W-L-H cm": "49 x 60 x 32",
-        "Voltage V": "380-220",
         "Engine Power kW": "1.5",
+        "Voltage V": "380 / 220",
         "Weight kg": "95"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø20x1, Ø16x2",
-        "65 kg/mm2: Ø18x1, Ø12x3",
-        "85 kg/mm2: Ø16x1, Ø10x4"
+        "45 kg/mm2: Ø 20x1, Ø 14x2",
+        "65 kg/mm2: Ø 18x1, Ø 12x3",
+        "85 kg/mm2: Ø 16x1, Ø 10x4"
       ]
     },
     "diller": {
       "en": {
         "name": "MG 20B",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "description": "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES PORTATİF KESME & BÜKME İNŞAAT DEMİRİ PORTARİF BÜKME & KESME MAKİNALARI",
         "images": [
           "/images/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.png"
         ]
@@ -1331,12 +1594,21 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Ease of transportation",
-        "Fixed center pin",
-        "220V & 380V option",
+        "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES",
+        "Dijital kumanda",
+        "115 kg - 1,8 kW",
+        "Easy to carry",
+        "220 V / 380V opsiyonu",
         "Digital control panel option",
-        "Stirrup bending ability",
-        "To be able to make a twisting program"
+        "220 V / 380 V options",
+        "Special stirrup bending pin",
+        "Easy to handle",
+        "Portable solutions",
+        "Portable solution on POWER",
+        "Planetary reducer system",
+        "Program Saving Option (9 Different bending",
+        "Manual and automatic control option",
+        "Manual and automatic control"
       ],
       "TECHNICAL DATA": {
         "W-L-H cm": "56x58x 65",
@@ -1353,7 +1625,7 @@
     "diller": {
       "en": {
         "name": "MG 26 Junior",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "description": "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES PORTATİF KESME & BÜKME İNŞAAT DEMİRİ PORTARİF BÜKME & KESME MAKİNALARI",
         "images": [
           "/images/gocmaksan/gms-mg-26-junior-portatif-bukme-makinasi_1.png"
         ]
@@ -1375,20 +1647,30 @@
     "related_products": [],
     "specs": {
       "FEATURED FEATURES": [
-        "Quick Cutting with Mechanical Automation",
-        "3-Meters Cut in 7 Seconds",
-        "Portable Wire Mesh Sliding Table",
-        "CE Certificated High-End Security",
-        "User-friendly and Ergonomic Design"
+        "Hydraulic",
+        "3 meter",
+        "6 m optional",
+        "Bending angles 45-90-1350",
+        "Mechanical system",
+        "Cut in 7 seconds"
       ],
       "TECHNICAL DATA": {
-        "Voltage V": "380"
-      }
+        "W-L-H cm": "100 x 640 x 109",
+        "Engine Power kW": "7.5",
+        "Voltage V": "380",
+        "Weight kg": "1250",
+        "Hydraulic Oil Tank Capacity lt": "36"
+      },
+      "CAPACITIES": [
+        "45 kg/mm2: Ø 12x1",
+        "65 kg/mm2: Ø 10x1",
+        "85 kg/mm2: Ø 8x1"
+      ]
     },
     "diller": {
       "en": {
         "name": "MH 8C",
-        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "description": "MH 8C is a mesh bending and cutting machine with model-specific PDF data for steel factory use, hydraulic operation, and bending or cutting capacities, including hydraulic.",
         "images": [
           "/images/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi_1.webp"
         ]
@@ -1450,9 +1732,13 @@
     "diller": {
       "en": {
         "name": "Power Trowel",
-        "description": "",
+        "description": "Silindir Hacmi Roller Volume (cm³) 196 196 Silindir Hacmi Cylinder Volume (cm3) 196 270 Yakıt Tüketimi Fuel Consumption (l/sa)",
         "images": [
-          "/images/gocmaksan/gms-perdah-makinasi_1.webp"
+          "/images/gocmaksan/gms-perdah-makinasi_1.webp",
+          "/images/gocmaksan/power-trowel_2.png",
+          "/images/gocmaksan/power-trowel_3.png",
+          "/images/gocmaksan/power-trowel_4.png",
+          "/images/gocmaksan/power-trowel_5.png"
         ]
       }
     }
@@ -1470,11 +1756,19 @@
     "related_products": [],
     "specs": {
       "FEATURED FEATURES": [
-        "Ease of transportation",
-        "Practical Use",
-        "hydraulics",
-        "220V & 380V option",
-        "Quick Maintenance & Spare Parts"
+        "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES",
+        "Dijital kumanda",
+        "Digital control panel option",
+        "Easy to handle",
+        "220 V / 380 V options",
+        "Portable solutions",
+        "Portable solution on",
+        "220 V / 380V opsiyonu",
+        "Easy to carry construction site",
+        "Easy to carry",
+        "Special stirrup bending pin",
+        "Special stirrup bending pin 53 / 79 / 73 2,2 380 / 220 90 7 Ø 24 x 1 Ø 14 x 2 Ø 20 x 1 Ø 10 x 3 Ø 16 x 1 Ø 8 x 4",
+        "S I N C E"
       ],
       "TECHNICAL DATA": {
         "W - L - H cm": "53x79x73",
@@ -1492,9 +1786,16 @@
     "diller": {
       "en": {
         "name": "Power 24",
-        "description": "With its lightweight and ergonomic design, it offers maximum efficiency on construction sites.",
+        "description": "PORTABLE CUTTING & BENDING PORTABLE REBAR BENDING & CUTTING MACHINES PORTATİF KESME & BÜKME İNŞAAT DEMİRİ PORTARİF BÜKME & KESME MAKİNALARI",
         "images": [
-          "/images/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi_1.webp"
+          "/images/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi_1.webp",
+          "/images/gocmaksan/power-24_2.png",
+          "/images/gocmaksan/power-24_3.png",
+          "/images/gocmaksan/power-24_4.png",
+          "/images/gocmaksan/power-24_5.png",
+          "/images/gocmaksan/power-24_6.png",
+          "/images/gocmaksan/power-24_7.png",
+          "/images/gocmaksan/power-24_8.png"
         ]
       }
     }
@@ -1550,32 +1851,35 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Double acting hydraulic system",
+        "Dual-affect hydraulic system",
         "High cutting performance",
-        "Ability to control manually and automatically",
-        "Ability to control with hand and foot",
-        "Low Energy Consumption",
-        "Durable steel body"
+        "S I N C E",
+        "Can be controlled both automatically",
+        "Manuel ve otomatik kontrol kabiliyeti"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "86x132x100",
-        "Voltage V": "380",
+        "W-L-H cm": "86 x 132 x 100",
         "Engine Power kW": "5.5",
+        "Voltage V": "380",
         "Weight kg": "592",
-        "Hid. Oil. Cap. lt": "105"
+        "Hydraulic Oil Tank Capacity lt": "105"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø42x1, Ø38x2",
-        "65 kg/mm2: Ø40x1, Ø32x2",
-        "85 kg/mm2: Ø32x1, Ø26x2"
+        "Ø 42x1"
       ]
     },
     "diller": {
       "en": {
         "name": "SH 45",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "SH 45 is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including dual-affect hydraulic system.",
         "images": [
-          "/images/gocmaksan/gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
+          "/images/gocmaksan/gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi_1.webp",
+          "/images/gocmaksan/sh-45_2.png",
+          "/images/gocmaksan/sh-45_3.png",
+          "/images/gocmaksan/sh-45_4.png",
+          "/images/gocmaksan/sh-45_5.png",
+          "/images/gocmaksan/sh-45_6.png",
+          "/images/gocmaksan/sh-45_7.png"
         ]
       }
     }
@@ -1595,12 +1899,11 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Double acting hydraulic system",
+        "Mechanical system",
         "High cutting performance",
-        "Ability to control manually and automatically",
-        "Ability to control with hand and foot",
-        "Low Energy Consumption",
-        "Durable steel body"
+        "0,8 saniyede",
+        "Foot pedal and arm control",
+        "0,8 sec cutting"
       ],
       "TECHNICAL DATA": {
         "W - L - H cm": "70x172x114",
@@ -1618,7 +1921,7 @@
     "diller": {
       "en": {
         "name": "SH 60",
-        "description": "Provides powerful, stable, and uninterrupted cutting performance through hydraulic power transmission.",
+        "description": "SH 60 is a rebar cutting machine with model-specific PDF data for technical specifications, cutting capacities, and construction-site steel processing, including mechanical system.",
         "images": [
           "/images/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
         ]
@@ -1640,31 +1943,34 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Automatic repeat without changing angle",
-        "Fixed hub",
-        "Easy fixing",
-        "Powerful and fast reducer speed",
-        "International Patented Daisy Pattern Center Hole",
-        "To be able to make a twisting program"
+        "Repeated",
+        "Kolay sabitleme without readjusting",
+        "Easy to fix",
+        "Reducer cycle is"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "75 x 76 x 88",
-        "Voltage V": "380",
+        "W-L-H cm": "75 x 76 x 88",
         "Engine Power kW": "3",
+        "Voltage V": "380",
         "Weight kg": "275"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø30x1, Ø16x2",
-        "65 kg/mm2: Ø26x1, Ø14x2",
-        "85 kg/mm2: Ø22x1, Ø12x2"
+        "45 kg/mm2: Ø 30x1, Ø 16x2",
+        "65 kg/mm2: Ø 24x1, Ø 14x2",
+        "85 kg/mm2: Ø 22x1, Ø 12x2"
       ]
     },
     "diller": {
       "en": {
         "name": "SL 30",
-        "description": "GMS stirrup bending machines, developed with advanced engineering, combine speed, precision, durability, and safety.",
+        "description": "SL 30 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including repeated.",
         "images": [
-          "/images/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi_1.webp",
+          "/images/gocmaksan/sl-30_2.png",
+          "/images/gocmaksan/sl-30_3.png",
+          "/images/gocmaksan/sl-30_4.png",
+          "/images/gocmaksan/sl-30_5.png",
+          "/images/gocmaksan/sl-30_6.png"
         ]
       }
     }
@@ -1684,29 +1990,27 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Automatic repeat without changing angle",
-        "Fixed hub",
-        "Easy fixing",
-        "Powerful and fast reducer speed",
-        "International Patented Daisy Pattern Belly",
-        "To be able to make a twisting program"
+        "Repeated",
+        "Kolay sabitleme without readjusting",
+        "Easy to fix",
+        "Reducer cycle is"
       ],
       "TECHNICAL DATA": {
-        "W - L - H cm": "78 x 87 x 89",
-        "Voltage V": "380",
+        "W-L-H cm": "78 x 87 x 89",
         "Engine Power kW": "3",
+        "Voltage V": "380",
         "Weight kg": "340"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø36x1, Ø20x2",
-        "65 kg/mm2: Ø32x1, Ø16x2",
-        "85 kg/mm2: Ø24x1, Ø12x2"
+        "45 kg/mm2: Ø 36x1, Ø 18x2",
+        "65 kg/mm2: Ø 30x1, Ø 14x2",
+        "85 kg/mm2: Ø 24x1, Ø 12x2"
       ]
     },
     "diller": {
       "en": {
         "name": "SL 36",
-        "description": "GMS stirrup bending machines, developed with advanced engineering, combine speed, precision, durability, and safety.",
+        "description": "SL 36 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including repeated.",
         "images": [
           "/images/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi_1.webp"
         ]
@@ -1728,28 +2032,27 @@
     "related_products": [],
     "specs": {
       "TECHNICAL DATA": {
-        "Single Strand Processing Wire Diameter": "6-12mm/#2 - #3 - #4",
-        "Double Strand Processing Wire Diameter": "6-10mm/#2 - #3",
+        "Double Strand Processing Wire Diameter": "6-8-10-12mm / #2 - #3 - #4",
         "Bending Type": "2d",
-        "Bending Capacity": "2x6mm 2x8mm 2x10mm 1x12mm",
-        "Driving System": "Pneumatic",
-        "Bending Motor Power": "SERVO MOTOR 4kw /5.5 HP",
-        "Drive Speed": "120 meters/min 394 ft/Min",
-        "Bending Speed": "1250° /segundo",
-        "Cutting Motor Power": "AC~ MOTOR 3kw/4.02 HP",
-        "Length Tolerance": "± 1-2mm/ 0.039 - 0.078 inches",
-        "Bending Tolerance": "±1°",
-        "Compressor Requirement": "yes",
-        "Working Pressure (Bar)": "8-10 Bar/116 -145 PSI",
-        "voltage": "380V 3 phase/50-60Hz (optional)",
-        "Driving Gearbox": "Industry type",
-        "Control Panel Type": "HMI display 15 inch",
-        "Machine Dimensions": "1710 x 5000 x 2340 mm/67.32 x 197 x 93 inches",
-        "Basket Dimensions": "2120 x 2150 x 2300 mm/84 x 84.64 x 91 inches",
-        "Machine Weight": "3000 kg/6613 lbs",
-        "Basket Weight": "1000kg/2204 lbs",
-        "Language": "Available in English and multiple other language options",
-        "HS Code": "846229000000"
+        "Driving System": "PNEUMATIC",
+        "Driving Motor Power": "SERVO MOTOR 11 kw / 15 HP",
+        "Driving Speed": "120 meter/min 394 ft / Min",
+        "Bending Motor Power": "SERVO MOTOR 4 kw / 5.5 HP",
+        "Bending Speed": "1250° /second",
+        "Cutting Motor Power": "AC~ MOTOR 3 kw / 4.02 HP",
+        "Length Tolerance": "± 1-2 mm / 0.039 - 0.078 inch",
+        "Bending Tolerance": "± 1°",
+        "Compressor Needed": "YES Each Size",
+        "Working Pressure (Bar)": "8-10 Bar / 116 -145 PSI",
+        "Voltage": "380 V 3 phase / 50- 60 hz (optional)",
+        "Driving Gearbox": "Industrial type Set",
+        "Control Panel Type": "HMI screen 15 inch",
+        "Machine Dimensions": "1710 x 5000 x 2340 mm / 67.32 x 197 x 93 inch",
+        "Machine Weight": "3000 kg / 6613 lbs",
+        "Decoiler Weight": "1000 kg / 2204 lbs Steel",
+        "Language": "English (Different languages are available upon request)",
+        "HS Code": "846229000000 Control Panel 1",
+        "Bending Capacity": "2x6mm 2x8mm 2x10mm 2x12mm"
       },
       "SUPPLIED EQUIPMENT": [
         "Stirrup Head: 6-8-10-12mm",
@@ -1766,14 +2069,66 @@
         "Tote: 2 Piece",
         "Control Panel: 1 Piece",
         "Foot Pedal: 1 Piece"
+      ],
+      "FEATURED FEATURES": [
+        "Pneumatic door design",
+        "User-Friendly touch panel and intelligent software Touch screen console is easy to operate,",
+        "Quick action for safety with 3 emergency stop",
+        "Foot pedal assistance",
+        "Very ergonomic design and"
+      ],
+      "CAPACITIES": [
+        "2x6mm",
+        "2x8mm",
+        "2x10mm",
+        "2x12mm"
       ]
     },
     "diller": {
       "en": {
         "name": "SLS 12",
-        "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
+        "description": "Decoiler will be supplied with the machine and store the coils easily, decoiler has also break system and swivel arms, coils can process to main shaping unit",
         "images": [
-          "/images/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi_1.webp",
+          "/images/gocmaksan/sls-12_2.png",
+          "/images/gocmaksan/sls-12_3.png",
+          "/images/gocmaksan/sls-12_4.png",
+          "/images/gocmaksan/sls-12_5.png",
+          "/images/gocmaksan/sls-12_6.png",
+          "/images/gocmaksan/sls-12_7.png",
+          "/images/gocmaksan/sls-12_8.png",
+          "/images/gocmaksan/sls-12_9.png",
+          "/images/gocmaksan/sls-12_10.png",
+          "/images/gocmaksan/sls-12_11.png",
+          "/images/gocmaksan/sls-12_12.png",
+          "/images/gocmaksan/sls-12_13.png",
+          "/images/gocmaksan/sls-12_14.png",
+          "/images/gocmaksan/sls-12_15.png",
+          "/images/gocmaksan/sls-12_16.png",
+          "/images/gocmaksan/sls-12_17.png",
+          "/images/gocmaksan/sls-12_18.png",
+          "/images/gocmaksan/sls-12_19.png",
+          "/images/gocmaksan/sls-12_20.png",
+          "/images/gocmaksan/sls-12_21.png",
+          "/images/gocmaksan/sls-12_22.png",
+          "/images/gocmaksan/sls-12_23.png",
+          "/images/gocmaksan/sls-12_24.png",
+          "/images/gocmaksan/sls-12_25.png",
+          "/images/gocmaksan/sls-12_26.png",
+          "/images/gocmaksan/sls-12_27.png",
+          "/images/gocmaksan/sls-12_28.png",
+          "/images/gocmaksan/sls-12_29.png",
+          "/images/gocmaksan/sls-12_30.png",
+          "/images/gocmaksan/sls-12_31.png",
+          "/images/gocmaksan/sls-12_32.png",
+          "/images/gocmaksan/sls-12_33.png",
+          "/images/gocmaksan/sls-12_34.png",
+          "/images/gocmaksan/sls-12_35.png",
+          "/images/gocmaksan/sls-12_36.png",
+          "/images/gocmaksan/sls-12_37.png",
+          "/images/gocmaksan/sls-12_38.png",
+          "/images/gocmaksan/sls-12_39.png",
+          "/images/gocmaksan/sls-12_40.png"
         ]
       }
     }
@@ -1794,30 +2149,35 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Mechanical Power Transmission System",
-        "Adjustable Spiral Range",
-        "Suitable for Bore Pile and Tunnel Construction",
-        "Precise and Fast Twisting Performance"
+        "Spiral bending feature from min 170 mm to desired"
       ],
       "TECHNICAL DATA": {
-        "W-L-H cm": "194",
-        "Voltage V": "380",
+        "W-L-H cm": "56 x 77 x 101",
         "Engine Power kW": "1.5",
-        "Weight kg": "194"
+        "Voltage V": "1450",
+        "Weight kg": "380",
+        "Hydraulic Oil Tank Capacity lt": "194"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø 22x1",
-        "65 kg/mm2: Ø 20x1",
-        "85 kg/mm2: Ø 18x1",
-        "Min. Sip. Bend. Diameter: 210"
+        "45 kg/mm2: Ø 22x1, Ø 18x1",
+        "65 kg/mm2: Ø 18x1, Ø 28x1",
+        "85 kg/mm2: Ø 24x1, Ø 20x1"
       ]
     },
     "diller": {
       "en": {
         "name": "SX 26",
-        "description": "GMS spiral rebar bending machines quickly and accurately realize all kinds of coil, spiral, circle and semicircle bending with mechanical power transmission system.",
+        "description": "SX 26 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including spiral bending feature from min 170 mm to desired.",
         "images": [
-          "/images/gocmaksan/gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
+          "/images/gocmaksan/gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi_1.webp",
+          "/images/gocmaksan/sx-26_2.png",
+          "/images/gocmaksan/sx-26_3.png",
+          "/images/gocmaksan/sx-26_4.png",
+          "/images/gocmaksan/sx-26_5.png",
+          "/images/gocmaksan/sx-26_6.png",
+          "/images/gocmaksan/sx-26_7.png",
+          "/images/gocmaksan/sx-26_8.png",
+          "/images/gocmaksan/sx-26_9.png"
         ]
       }
     }
@@ -1838,28 +2198,25 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Mechanical Power Transmission System",
-        "Adjustable Spiral Range",
-        "Suitable for Bore Pile and Tunnel Construction",
-        "Precise and Fast Twisting Performance"
+        "Spiral bending feature from min 170 mm to desired"
       ],
       "TECHNICAL DATA": {
-        "W-L-H cm": "300",
-        "Voltage V": "1387",
+        "W-L-H cm": "76 x 105 x 98",
         "Engine Power kW": "2.2",
-        "Weight kg": "300"
+        "Voltage V": "1387",
+        "Weight kg": "380",
+        "Hydraulic Oil Tank Capacity lt": "300"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø 28x1",
-        "65 kg/mm2: Ø 24x1",
-        "85 kg/mm2: Ø 20x1",
-        "Min. Sip. Bend. Diameter: 200"
+        "45 kg/mm2: Ø 28x1, Ø 24x1",
+        "65 kg/mm2: Ø 20x1, Ø 32x1",
+        "85 kg/mm2: Ø 28x1, Ø 26x1"
       ]
     },
     "diller": {
       "en": {
         "name": "SX 36",
-        "description": "GMS spiral rebar bending machines quickly and accurately realize all kinds of coil, spiral, circle and semicircle bending with mechanical power transmission system.",
+        "description": "SX 36 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including spiral bending feature from min 170 mm to desired.",
         "images": [
           "/images/gocmaksan/gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
         ]
@@ -1882,28 +2239,25 @@
     ],
     "specs": {
       "FEATURED FEATURES": [
-        "Mechanical Power Transmission System",
-        "Adjustable Spiral Range",
-        "Suitable for Bore Pile and Tunnel Construction",
-        "Precise and Fast Twisting Performance"
+        "Spiral bending feature from min 170 mm to desired"
       ],
       "TECHNICAL DATA": {
-        "W-L-H cm": "477",
-        "Voltage V": "380",
+        "W-L-H cm": "87 x 119 x 86",
         "Engine Power kW": "3",
-        "Weight kg": "477"
+        "Voltage V": "1387",
+        "Weight kg": "380",
+        "Hydraulic Oil Tank Capacity lt": "477"
       },
       "CAPACITIES": [
-        "45 kg/mm2: Ø 36x1",
-        "65 kg/mm2: Ø 32x1",
-        "85 kg/mm2: Ø 28x1",
-        "Min. Sip. Bend. Diameter: 270"
+        "45 kg/mm2: Ø 32x1, Ø 28x1",
+        "65 kg/mm2: Ø 26x1, Ø 42x1",
+        "85 kg/mm2: Ø 36x1, Ø 30x1"
       ]
     },
     "diller": {
       "en": {
         "name": "SX 40",
-        "description": "GMS spiral rebar bending machines quickly and accurately realize all kinds of coil, spiral, circle and semicircle bending with mechanical power transmission system.",
+        "description": "SX 40 is a rebar bending machine with model-specific PDF data for technical specifications, bending capacities, and site-oriented rebar processing, including spiral bending feature from min 170 mm to desired.",
         "images": [
           "/images/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
         ]
@@ -1941,16 +2295,25 @@
         "Barcode reader": "Optional"
       },
       "CAPACITIES": [
-        "Ø 42 / #14: 1",
-        "1: -",
-        "Ø 36 / #11: 1",
-        "1: 1",
-        "Ø 30 / #10: 2",
-        "1: 1",
-        "Ø 24 / #8: 3",
-        "3: 2",
-        "Ø 20 / #6: 4",
-        "4: 3"
+        "• MANDRELS supplied with machine - Ø 70 , Ø 80 , Ø 100 , Ø 110, Ø 125, Ø 145, Ø 160, Ø 180, Ø 215",
+        "/ INCH BAR SIZE 45 kg/mm² 65 kg/mm² 85 kg/mm²",
+        "Ø 42 / #14 1 1 -",
+        "Ø 36 / #11 1 1 1",
+        "Ø 30 / #10 2 2 1",
+        "Ø 24 / #8 3 3 2",
+        "Ø 20 / #6 4 4 3"
+      ],
+      "FEATURED FEATURES": [
+        "12 meter ( 40ft ) feeding conveyor unit",
+        "Servo engines are using in Synclone45S",
+        "Pneumatic kick off system, automatic",
+        "Feeding to bending is manual",
+        "For bending angles and tooling choosing",
+        "Easy to operate, user friendly setup & control",
+        "Adjustable speed option of rollers for conveyors is available",
+        "Full automatic digital control panel enables to work fast and get bending results fast",
+        "Minimum distance between two bending machine is 1 meter but with the assistance of bending",
+        "Hydraulic system power ( BAR / PSI ) 180 BAR / 2610 PSI"
       ]
     },
     "diller": {
@@ -1958,7 +2321,17 @@
         "name": "SYNCLONE 45S",
         "description": "It offers spiral bending capacity up to Ø50 mm diameter in high-strength steels.Bends of flat steel (100x10, 80x20, 60x15) are also possible.",
         "images": [
-          "/images/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti_1.webp"
+          "/images/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti_1.webp",
+          "/images/gocmaksan/synclone-45s_2.png",
+          "/images/gocmaksan/synclone-45s_3.png",
+          "/images/gocmaksan/synclone-45s_4.png",
+          "/images/gocmaksan/synclone-45s_5.png",
+          "/images/gocmaksan/synclone-45s_6.png",
+          "/images/gocmaksan/synclone-45s_7.png",
+          "/images/gocmaksan/synclone-45s_8.png",
+          "/images/gocmaksan/synclone-45s_9.png",
+          "/images/gocmaksan/synclone-45s_10.png",
+          "/images/gocmaksan/synclone-45s_11.png"
         ]
       }
     }
