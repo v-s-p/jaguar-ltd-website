@@ -37,6 +37,13 @@ collections:
               - { name: name, label: Name, widget: string }
               - { name: description, label: Description, widget: text }
               - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+              - name: images
+                label: Görseller
+                widget: list
+                field:
+                  name: image
+                  label: Görsel URL
+                  widget: image
           - name: bg
             label: "Български"
             widget: object
@@ -77,6 +84,13 @@ collections:
               - { name: name, label: Name, widget: string }
               - { name: description, label: Description, widget: text }
               - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+              - name: images
+                label: Görseller
+                widget: list
+                field:
+                  name: image
+                  label: Görsel URL
+                  widget: image
           - name: bg
             label: "Български"
             widget: object
@@ -95,12 +109,14 @@ collections:
     delete: false
     create: false
     files:
-      - file: "src/data/siteMetadata.ts"
+      - file: "src/data/settings.json"
         label: "Site Ayarları"
         name: "site_settings"
         fields:
-          - { name: contact_email, label: Email, widget: string }
-          - { name: contact_phone, label: Telefon, widget: string }
+          - { name: email, label: "E-posta", widget: string }
+          - { name: phone, label: "Telefon", widget: string }
+          - { name: address, label: "Adres", widget: string }
+          - { name: warehouse, label: "Depo / Ambar", widget: string }
 
   - name: "pages"
     label: "Страници / Sayfalar"
