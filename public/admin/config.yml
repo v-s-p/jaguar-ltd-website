@@ -169,14 +169,25 @@ collections:
           - { name: hero_title_bg, label: "Hero Başlık (BG)", widget: string }
           - { name: hero_title_en, label: "Hero Başlık (EN)", widget: string }
           - { name: hero_title_ru, label: "Hero Başlık (RU)", widget: string }
-          - { name: hero_subtitle_bg, label: "Alt Başlık (BG)", widget: string, required: false }
-          - { name: hero_subtitle_en, label: "Alt Başlık (EN)", widget: string, required: false }
-          - { name: hero_subtitle_ru, label: "Alt Başlık (RU)", widget: string, required: false }
-          - name: featured_machine_slugs
-            label: "🌟 Öne Çıkan Makineler (Hero)"
+          - name: featured_yilmaz_slugs
+            label: "🔵 Öne Çıkan Yılmaz Makineleri"
             widget: list
-            hint: "Ana sayfada hero bölümünde gösterilecek makine slug'larını gir"
             field:
               name: slug
-              label: Makine Slug
-              widget: string
+              label: Makine
+              widget: relation
+              collection: yilmaz
+              search_fields: ["slug", "diller.en.name"]
+              value_field: slug
+              display_fields: ["diller.en.name"]
+          - name: featured_gocmaksan_slugs
+            label: "🟠 Öne Çıkan Gocmaksan Makineleri"
+            widget: list
+            field:
+              name: slug
+              label: Makine
+              widget: relation
+              collection: gocmaksan
+              search_fields: ["slug", "diller.en.name"]
+              value_field: slug
+              display_fields: ["diller.en.name"]

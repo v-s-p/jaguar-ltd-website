@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import yilmazMachines from '../../data/yilmaz.json';
 import gocmaksanMachines from '../../data/gocmaksan.json';
+import homepageData from '../../data/homepage.json';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
 
 const allMachines = [...yilmazMachines, ...gocmaksanMachines];
@@ -9,10 +10,13 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const l = (path) => getRelativeLocaleUrl(lang, path);
 
-// Hero: model kodu ile ara (slug degisse de bulur)
-const heroModeller = ["aim-7420", "ccl-1661", "cdc-600", "dk-540", "gms-sls-12"];
-const heroMakineler = heroModeller
-  .map(kod => allMachines.find((m: any) => m.slug.startsWith(kod)))
+// Hero: CMS'ten gelen slug listesi (featured_yilmaz_slugs + featured_gocmaksan_slugs)
+const heroSlugs = [
+  ...homepageData.featured_yilmaz_slugs,
+  ...homepageData.featured_gocmaksan_slugs,
+];
+const heroMakineler = heroSlugs
+  .map(slug => allMachines.find((m: any) => m.slug === slug))
   .filter(Boolean);
 ---
 

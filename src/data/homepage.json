@@ -2,12 +2,11 @@
   "hero_title_bg": "Официален дистрибутор на YILMAZ",
   "hero_title_en": "Official YILMAZ Distributor",
   "hero_title_ru": "Официальный дистрибьютор YILMAZ",
-  "hero_subtitle_bg": "",
-  "hero_subtitle_en": "",
-  "hero_subtitle_ru": "",
-  "featured_machine_slugs": [
+  "featured_yilmaz_slugs": [
     "ack-550-up-cutting-saw-machine",
-    "dc-421-pbs-double-head-mitre-saw-machine-full-automatic",
+    "dc-421-pbs-double-head-mitre-saw-machine-full-automatic"
+  ],
+  "featured_gocmaksan_slugs": [
     "gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi"
   ]
 }
