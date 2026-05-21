@@ -26,8 +26,8 @@ collections:
       - name: categories
         label: Kategoriler
         widget: list
-        field: { name: cat, label: Kategori, widget: string }
-      - { name: subcategory, label: Alt Kategori, widget: string }
+        field: { name: item, widget: string }
+      - { name: subcategory, label: "Alt Kategori", widget: string }
       - name: diller
         label: Diller
         widget: object
@@ -75,8 +75,11 @@ collections:
       - name: categories
         label: Kategoriler
         widget: list
-        field: { name: cat, label: Kategori, widget: string }
-      - { name: subcategory, label: Alt Kategori, widget: string }
+        field: { name: item, widget: string }
+      - name: subcategory
+        label: "Alt Kategoriler"
+        widget: list
+        field: { name: item, widget: string }
       - name: diller
         label: Diller
         widget: object

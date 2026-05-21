@@ -1,60 +1,62 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { siteMetadata } from '../../data/siteMetadata';
+import { getLangFromUrl } from '../../i18n/utils';
+import gdprData from '../../data/pages/gdpr.json';
+
+const lang = getLangFromUrl(Astro.url);
+
+const title = lang === 'ru' ? gdprData.title_ru
+  : lang === 'en' ? gdprData.title_en
+  : gdprData.title_bg;
+
+const body = lang === 'ru' ? gdprData.body_ru
+  : lang === 'en' ? gdprData.body_en
+  : gdprData.body_bg;
+
+function mdToHtml(md: string): string {
+  const lines = md.split('\n');
+  const out: string[] = [];
+  let inList = false;
+
+  const inline = (s: string) =>
+    s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+     .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+
+  for (const raw of lines) {
+    const l = inline(raw);
+    if (l.startsWith('## ')) {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<h2 class="text-xl font-black text-gray-900 mt-8 mb-3">${l.slice(3)}</h2>`);
+    } else if (l.startsWith('> ')) {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<blockquote class="border-l-4 border-brand-accent pl-4 italic text-gray-700 my-4">${l.slice(2)}</blockquote>`);
+    } else if (l.startsWith('- ')) {
+      if (!inList) { out.push('<ul class="list-disc ml-5 space-y-2 my-3">'); inList = true; }
+      out.push(`<li>${l.slice(2)}</li>`);
+    } else if (l === '---') {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push('<hr class="my-6 border-gray-200">');
+    } else if (l.trim() === '') {
+      if (inList) { out.push('</ul>'); inList = false; }
+    } else {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<p class="text-gray-600 mb-3">${l}</p>`);
+    }
+  }
+  if (inList) out.push('</ul>');
+  return out.join('\n');
+}
 ---
 
-<BaseLayout title="Политика за поверителност | Jaguar LTD">
+<BaseLayout title={`${title} | Jaguar LTD`}>
   <section class="container mx-auto px-4 py-16 max-w-4xl">
     <div class="mb-10">
-      <h1 class="text-3xl font-black text-gray-900 tracking-tight uppercase">Политика за използване на „бисквитки"</h1>
-      <p class="text-gray-400 font-bold text-sm mt-1 uppercase tracking-widest">Cookie & Privacy Policy</p>
+      <h1 class="text-3xl font-black text-gray-900 tracking-tight uppercase">{title}</h1>
+      <p class="text-gray-400 font-bold text-sm mt-1 uppercase tracking-widest">Cookie &amp; Privacy Policy</p>
     </div>
 
-    <div class="prose max-w-none text-gray-600 space-y-8">
-      <div>
-        <h2 class="text-xl font-black text-gray-900">1. Какво представляват „бисквитките"?</h2>
-        <p>„Бисквитките" (cookies) са малки текстови файлове, които се изтеглят и съхраняват на вашето устройство при посещение на уебсайт. Те помагат на сайта да запомни информация за вашето посещение, като предпочитан език и други настройки.</p>
-      </div>
-
-      <div>
-        <h2 class="text-xl font-black text-gray-900">2. Видове „бисквитки", които използваме</h2>
-        <div class="overflow-x-auto my-4">
-          <table class="w-full border-collapse text-sm">
-            <thead>
-              <tr class="bg-gray-50">
-                <th class="border border-gray-200 p-3 text-left font-black text-gray-900 text-xs uppercase tracking-wider">Категория</th>
-                <th class="border border-gray-200 p-3 text-left font-black text-gray-900 text-xs uppercase tracking-wider">Описание</th>
-                <th class="border border-gray-200 p-3 text-left font-black text-gray-900 text-xs uppercase tracking-wider">Необходимост</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td class="border border-gray-200 p-3 font-bold">Строго необходими</td><td class="border border-gray-200 p-3">Задължителни за основната функционалност на сайта.</td><td class="border border-gray-200 p-3 text-brand-accent font-black">Задължителни</td></tr>
-              <tr><td class="border border-gray-200 p-3 font-bold">Функционални</td><td class="border border-gray-200 p-3">Запомнят вашите предпочитания (напр. език).</td><td class="border border-gray-200 p-3">Опционални</td></tr>
-              <tr><td class="border border-gray-200 p-3 font-bold">Аналитични</td><td class="border border-gray-200 p-3">Анонимна информация за подобряване на сайта (Google Analytics).</td><td class="border border-gray-200 p-3">Опционални</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div>
-        <h2 class="text-xl font-black text-gray-900">3. Как да управлявате „бисквитките"?</h2>
-        <p>Можете да контролирате и/или да изтриете „бисквитки" чрез настройките на вашия браузър. Повечето браузъри ви позволяват да откажете или приемете „бисквитки", да ви уведомят, когато получите „бисквитка", или да ги изтриете периодично.</p>
-      </div>
-
-      <div>
-        <h2 class="text-xl font-black text-gray-900">4. Вашите права (GDPR)</h2>
-        <p>В съответствие с Регламент (ЕС) 2016/679 (GDPR) имате право на достъп, коригиране, изтриване и ограничаване обработването на вашите лични данни. За упражняване на тези права се свържете с нас на: <a href={`mailto:${siteMetadata.contact.email}`} class="text-brand-accent font-bold hover:underline">{siteMetadata.contact.email}</a></p>
-      </div>
-
-      <div class="bg-brand-warm p-6 rounded-xl border border-brand-accent/20">
-        <h2 class="text-lg font-black text-gray-900 mb-2">5. Сигурност и поверителност</h2>
-        <p>Информацията, събирана чрез „бисквитки", се обработва при стриктно спазване на нашата Политика за поверителност. Ние не продаваме вашите данни на трети страни.</p>
-      </div>
-
-      <div class="text-xs text-gray-400 font-bold mt-8 pt-4 border-t border-gray-200">
-        <p>Последна актуализация: Април 2026 г.</p>
-        <p>Jaguar LTD — гр. Шумен, България</p>
-      </div>
+    <div class="prose max-w-none text-gray-600 space-y-2">
+      <Fragment set:html={mdToHtml(body)} />
     </div>
   </section>
 </BaseLayout>

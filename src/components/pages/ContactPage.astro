@@ -1,22 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
-import { siteMetadata } from '../../data/siteMetadata';
+import contactData from '../../data/pages/contact.json';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const l = (path) => getRelativeLocaleUrl(lang, path);
+const l = (path: string) => getRelativeLocaleUrl(lang, path);
+
+const address = lang === 'ru' ? contactData.address_ru
+  : lang === 'en' ? contactData.address_en
+  : contactData.address_bg;
 ---
 
 <BaseLayout title="Контакти | Jaguar LTD">
   <section class="container mx-auto px-4 py-16 max-w-6xl">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
-      
+
       <!-- İletişim Bilgileri -->
       <div>
         <h1 class="text-4xl font-black text-brand-accent uppercase mb-2">{t('contact.title')}</h1>
         <p class="text-gray-400 mb-10 text-sm font-bold uppercase tracking-widest">{t('contact.subtitle')}</p>
-        
+
         <div class="space-y-8">
           <div class="flex items-center gap-5">
             <div class="bg-brand-accent p-4 rounded-2xl text-white shadow-md flex-shrink-0">
@@ -24,7 +28,7 @@ const l = (path) => getRelativeLocaleUrl(lang, path);
             </div>
             <div>
               <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest">{t('contact.form.phone')}</p>
-              <a href="tel:+359887973739" class="text-xl text-gray-800 font-black hover:text-brand-accent transition-colors">+359 (887) 973 739</a>
+              <a href={`tel:${contactData.phone.replace(/\s|\(|\)/g, '')}`} class="text-xl text-gray-800 font-black hover:text-brand-accent transition-colors">{contactData.phone}</a>
             </div>
           </div>
 
@@ -34,7 +38,7 @@ const l = (path) => getRelativeLocaleUrl(lang, path);
             </div>
             <div>
               <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest">{t('contact.form.email')}</p>
-              <a href={`mailto:${siteMetadata.contact.email}`} class="text-xl text-gray-800 font-black hover:text-brand-accent transition-colors">{siteMetadata.contact.email}</a>
+              <a href={`mailto:${contactData.email}`} class="text-xl text-gray-800 font-black hover:text-brand-accent transition-colors">{contactData.email}</a>
             </div>
           </div>
 
@@ -44,7 +48,7 @@ const l = (path) => getRelativeLocaleUrl(lang, path);
             </div>
             <div>
               <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest">{t('nav.contact')}</p>
-              <p class="text-sm text-gray-700 font-bold">{t('contact.address')}</p>
+              <p class="text-sm text-gray-700 font-bold">{address}</p>
               <p class="text-xs text-gray-400 font-bold">{t('contact.warehouse')}</p>
             </div>
           </div>

@@ -1,40 +1,63 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import aboutData from '../../data/pages/about.json';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+
+const title = lang === 'ru' ? aboutData.title_ru
+  : lang === 'en' ? aboutData.title_en
+  : aboutData.title_bg;
+
+const body = lang === 'ru' ? aboutData.body_ru
+  : lang === 'en' ? aboutData.body_en
+  : aboutData.body_bg;
+
+function mdToHtml(md: string): string {
+  const lines = md.split('\n');
+  const out: string[] = [];
+  let inList = false;
+
+  const inline = (s: string) =>
+    s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+     .replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+
+  for (const raw of lines) {
+    const l = inline(raw);
+    if (l.startsWith('## ')) {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<h2 class="text-xl font-black text-gray-900 mt-6 mb-2">${l.slice(3)}</h2>`);
+    } else if (l.startsWith('> ')) {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<div class="bg-brand-warm p-8 rounded-2xl border-l-8 border-brand-accent my-8"><p class="italic font-bold text-gray-700">${l.slice(2)}</p></div>`);
+    } else if (l.startsWith('- ')) {
+      if (!inList) { out.push('<ul class="list-disc ml-5 space-y-2 my-3">'); inList = true; }
+      out.push(`<li>${l.slice(2)}</li>`);
+    } else if (l === '---') {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push('<hr class="my-6 border-gray-200">');
+    } else if (l.trim() === '') {
+      if (inList) { out.push('</ul>'); inList = false; }
+    } else {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<p class="mb-4">${l}</p>`);
+    }
+  }
+  if (inList) out.push('</ul>');
+  return out.join('\n');
+}
 ---
 
-<BaseLayout title={`${t('nav.about')} | Jaguar LTD`}>
+<BaseLayout title={`${title} | Jaguar LTD`}>
   <section class="container mx-auto px-4 py-16 max-w-4xl">
     <div class="mb-10">
-      <h1 class="text-4xl font-black text-gray-900 tracking-tight uppercase">{t('nav.about')}</h1>
+      <h1 class="text-4xl font-black text-gray-900 tracking-tight uppercase">{title}</h1>
       <p class="text-gray-400 font-bold text-sm mt-1 uppercase tracking-widest">{t('about.since')}</p>
     </div>
-    
-    <div class="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-6">
-      <p class="font-black text-xl text-gray-900">
-        {t('about.p1')}
-      </p>
-      
-      <p>
-        {t('about.p2')}
-      </p>
 
-      <div class="bg-brand-warm p-8 rounded-2xl border-l-8 border-brand-accent my-8">
-        <p class="italic font-bold text-gray-700">
-          {t('about.quote')}
-        </p>
-      </div>
-
-      <p>
-        {t('about.p3')}
-      </p>
-
-      <p>
-        {t('about.p4')}
-      </p>
+    <div class="prose prose-lg max-w-none text-gray-600 leading-relaxed">
+      <Fragment set:html={mdToHtml(body)} />
 
       <!-- Partner Logolar -->
       <div class="flex flex-wrap items-center gap-12 mt-12 pt-8 border-t border-gray-200">
