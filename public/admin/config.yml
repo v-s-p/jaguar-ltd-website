@@ -71,3 +71,28 @@ collections:
         fields:
           - { name: contact_email, label: Email, widget: string }
           - { name: contact_phone, label: Telefon, widget: string }
+
+  - name: "pages"
+    label: "Страници / Sayfalar"
+    delete: false
+    create: false
+    files:
+      - file: "src/data/pages/about.json"
+        label: "Hakkımızda / За нас"
+        name: "about"
+        fields:
+          - { name: title_bg, label: "Başlık (BG)", widget: string }
+          - { name: title_en, label: "Başlık (EN)", widget: string }
+          - { name: title_ru, label: "Başlık (RU)", widget: string }
+          - { name: body_bg, label: "İçerik (BG)", widget: markdown }
+          - { name: body_en, label: "İçerik (EN)", widget: markdown }
+          - { name: body_ru, label: "İçerik (RU)", widget: markdown }
+      - file: "src/data/pages/contact.json"
+        label: "İletişim / Контакти"
+        name: "contact"
+        fields:
+          - { name: phone, label: Telefon, widget: string }
+          - { name: email, label: Email, widget: string }
+          - { name: address_bg, label: "Adres (BG)", widget: string }
+          - { name: address_en, label: "Adres (EN)", widget: string }
+          - { name: address_ru, label: "Adres (RU)", widget: string }
