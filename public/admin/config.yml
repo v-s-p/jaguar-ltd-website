@@ -146,3 +146,37 @@ collections:
           - { name: address_bg, label: "Adres (BG)", widget: string }
           - { name: address_en, label: "Adres (EN)", widget: string }
           - { name: address_ru, label: "Adres (RU)", widget: string }
+      - file: "src/data/pages/gdpr.json"
+        label: "Cookie Policy / GDPR"
+        name: "gdpr"
+        fields:
+          - { name: title_bg, label: "Başlık (BG)", widget: string }
+          - { name: title_en, label: "Başlık (EN)", widget: string }
+          - { name: title_ru, label: "Başlık (RU)", widget: string }
+          - { name: body_bg, label: "İçerik (BG)", widget: markdown }
+          - { name: body_en, label: "İçerik (EN)", widget: markdown }
+          - { name: body_ru, label: "İçerik (RU)", widget: markdown }
+
+  - name: "homepage"
+    label: "🏠 Ana Sayfa / Начало"
+    delete: false
+    create: false
+    files:
+      - file: "src/data/homepage.json"
+        label: "Ana Sayfa Ayarları"
+        name: "homepage"
+        fields:
+          - { name: hero_title_bg, label: "Hero Başlık (BG)", widget: string }
+          - { name: hero_title_en, label: "Hero Başlık (EN)", widget: string }
+          - { name: hero_title_ru, label: "Hero Başlık (RU)", widget: string }
+          - { name: hero_subtitle_bg, label: "Alt Başlık (BG)", widget: string, required: false }
+          - { name: hero_subtitle_en, label: "Alt Başlık (EN)", widget: string, required: false }
+          - { name: hero_subtitle_ru, label: "Alt Başlık (RU)", widget: string, required: false }
+          - name: featured_machine_slugs
+            label: "🌟 Öne Çıkan Makineler (Hero)"
+            widget: list
+            hint: "Ana sayfada hero bölümünde gösterilecek makine slug'larını gir"
+            field:
+              name: slug
+              label: Makine Slug
+              widget: string
