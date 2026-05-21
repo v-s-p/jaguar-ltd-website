@@ -6,13 +6,15 @@ backend:
   auth_endpoint: api/auth
 
 locale: bg
-media_folder: public/images/uploads
-public_folder: /images/uploads
+media_folder: public/images
+public_folder: /images
 
 collections:
   - name: "yilmaz"
     label: "Yılmaz Машини"
     folder: "src/data/machines/yilmaz"
+    media_folder: "public/images/yilmaz"
+    public_folder: "/images/yilmaz"
     create: true
     delete: false
     identifier_field: slug
@@ -60,6 +62,8 @@ collections:
   - name: "gocmaksan"
     label: "Gocmaksan Машини"
     folder: "src/data/machines/gocmaksan"
+    media_folder: "public/images/gocmaksan"
+    public_folder: "/images/gocmaksan"
     create: true
     delete: false
     identifier_field: slug
