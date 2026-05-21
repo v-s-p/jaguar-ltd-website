@@ -2,6 +2,8 @@ backend:
   name: github
   repo: v-s-p/jaguar-ltd-website
   branch: main
+  base_url: https://jaguar.ataerk.com
+  auth_endpoint: api/auth
 
 locale: bg
 media_folder: public/images/uploads
