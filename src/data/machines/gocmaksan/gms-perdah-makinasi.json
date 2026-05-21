@@ -1,0 +1,41 @@
+{
+  "slug": "gms-perdah-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Light Construction"
+  ],
+  "subcategory": [
+    "Light Construction"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-perdah-makinasi.pdf",
+  "related_products": [
+    "Compactor",
+    "Power Trowel",
+    "BCZ 600",
+    "RL 2000"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Excellent results on concrete surfaces",
+      "Economical low-fuel operation",
+      "Ergonomic and safe design",
+      "Quick blade adjustment"
+    ],
+    "TECHNICAL DATA": {},
+    "CAPACITIES": []
+  },
+  "diller": {
+    "en": {
+      "name": "Power Trowel",
+      "description": "Power Trowel is a power trowel for finishing concrete surfaces.",
+      "images": [
+        "/images/gocmaksan/gms-perdah-makinasi_1.webp",
+        "/images/gocmaksan/power-trowel_2.png",
+        "/images/gocmaksan/power-trowel_3.png",
+        "/images/gocmaksan/power-trowel_4.png",
+        "/images/gocmaksan/power-trowel_5.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-perdah-makinasi.pdf"
+    }
+  }
+}

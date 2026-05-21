@@ -1,0 +1,44 @@
+{
+  "slug": "dkn-300-450-600-302-452-602-roller-conveyor-with-manual-stop-display-unit",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Conveying",
+  "diller": {
+    "en": {
+      "name": "DKN 302-602 - Roller Conveyor with Manual Stop & Display Unit",
+      "description": "Manual positioning conveyor having digital screen which helps to cut the profiles precisely in the required measurements",
+      "images": [
+        "/images/yilmaz/dkn-300-450-600-302-452-602-roller-conveyor-with-manual-stop-display-unit_1.jpg",
+        "/images/yilmaz/dkn-300-450-600-302-452-602-roller-conveyor-with-manual-stop-display-unit_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [
+          "EXAM"
+        ],
+        "GENERAL FEATURES": [
+          "Manually adjusting to required measurement and positioning by means of the pneumatic brake system",
+          "Digital display indicating the length of the profiles to be cut",
+          "Easy assembly on sawing and copy router machine without conveyor",
+          "Precise and easy positioning of the stop thanks to the hand wheel",
+          "Possibility of working with tree different offset"
+        ]
+      },
+      "technical_data": {
+        "Power": "--- /  ---",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "---",
+        "Flow Rate": "---",
+        "Pressure": "---",
+        "Dimensions (cm)": "51x312x30 cm",
+        "Weight": "124 Kg / 81 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Conveyors"
+}

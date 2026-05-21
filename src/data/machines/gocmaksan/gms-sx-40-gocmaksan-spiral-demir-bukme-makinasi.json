@@ -1,0 +1,45 @@
+{
+  "slug": "gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Spiral"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi.pdf",
+  "related_products": [
+    "SX 26",
+    "SX 36"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Mechanical power transmission system",
+      "Adjustable spiral range",
+      "Suitable for bored pile and tunnel construction",
+      "Precise and fast spiral bending"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "87 x 119 x 86",
+      "Engine Power kW": "3",
+      "Voltage V": "1387",
+      "Weight kg": "380",
+      "Hydraulic Oil Tank Capacity lt": "477"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 32x1, Ø 28x1",
+      "65 kg/mm2: Ø 26x1, Ø 42x1",
+      "85 kg/mm2: Ø 36x1, Ø 30x1"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "SX 40",
+      "description": "SX 40 is a spiral rebar bending machine for construction-site steel processing.",
+      "images": [
+        "/images/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi.pdf"
+    }
+  }
+}

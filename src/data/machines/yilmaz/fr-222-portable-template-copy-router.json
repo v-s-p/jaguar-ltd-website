@@ -1,0 +1,48 @@
+{
+  "slug": "fr-222-portable-template-copy-router",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Milling",
+  "diller": {
+    "en": {
+      "name": "FR 222 - Portable Template Copy Router",
+      "description": "It is used for the processing of slots for locks, drilling handles, hinges, espagnolette and barrel holes and opening water drain slot on PVC and aluminium profiles up to 3 mm and 2 mm of thickness respectively",
+      "images": [
+        "/images/yilmaz/fr-222-portable-template-copy-router_1.jpg",
+        "/images/yilmaz/fr-222-portable-template-copy-router_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with Ø5xL60 mm router bit",
+          "2x left and right profile stops",
+          "2x horizontal clamps"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Spare router bit",
+          "Special copy template",
+          "MS type of machine stand"
+        ],
+        "GENERAL FEATURES": [
+          "Opening locks, drilling handles, hinges, espagnolette holes etc. on PVC and aluminium profiles",
+          "Cast aluminium structure",
+          "Corrosion proof bearing shaft",
+          "Electroplated copy template",
+          "Equipped with Ø 5 router bit"
+        ]
+      },
+      "technical_data": {
+        "Power": "1200 W / 230V AC 1P+N+PE / 50/60Hz.",
+        "Saw Rotation Speed": "ø5xL60 mm / 27.000 RPM",
+        "Saw Diameter": "ø5xL60 mm",
+        "Dimensions (cm)": "68x48.5x42",
+        "Weight": "30 Kg / 28 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Portable Copy Router"
+}

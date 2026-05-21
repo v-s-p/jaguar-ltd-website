@@ -1,0 +1,83 @@
+{
+  "slug": "aim-3410-aluminium-profile-machining-center",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Processing Centers",
+  "diller": {
+    "en": {
+      "name": "AIM 3410 - Aluminium Profile Machining Center",
+      "description": "AIM 3410 and AIM 3410 CBN are CNC controlled 4-axis machine designed specifically for machining all types of aluminium & PVC profiles available on the market. With the 4th. axis feature, it can perform the machining operations on 3 surfaces of profiles.\nQuick tool changing is provided by the movable and in-line type magazine unite with 8 pcs of tool capacity. The tool magazine is mounted on the movable machining head in order to minimize the tool change time.\nThe machine provides a flexible processing opportunity especially in facade applications with its 180 mm diameter saw.\nThe machine has automatic clamp recognition and positioning feature.\nThe movable cabin of the machine is equipped with a door having a transparent polycarbonate window to facilitate the monitoring of the workpiece processing by the operator. Thus, the safe operation of the operator is ensured.",
+      "images": [
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_1.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_2.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_3.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_4.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_5.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_6.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_7.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_8.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_9.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_10.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_11.jpg",
+        "/images/yilmaz/aim-3410-aluminium-profile-machining-center_12.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Keyboard & mouse set for programming",
+          "Safety fence around the machine",
+          "4 x profile clamps",
+          "1 x pneumatic rest on the left side",
+          "Chip pan in the machine frame"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Cutter tools, tool holders, collets and apparatus set 6 pc cutters (2 pc. Ø5, 1 pc. Ø6, 1 pc. Ø8, 1 pc. Ø10, 1 pc. Ø12) -8 pc. HSK F63 Tool holders -6 pc. collets (3 pc. Ø5-6, 1 pc, Ø7-8, 1 pc. Ø9-10, 1 pc. Ø11-12) -4 pc. mould height",
+          "Second reference profile rest on the right side of the machine",
+          "Automatic tool length measurement device",
+          "Special saw blade kit",
+          "Hand-held controller",
+          "CAMQUIX 4 Axis SW (CAMPROX) (AIM 3410)",
+          "UNILINK OnBoard 4 AXIS Interface SW (AIM 3410)",
+          "AIM 3410 Additional Clamping unit",
+          "Barcode reader",
+          "Airconditioning system for electrical cabinet",
+          "Cabinetized machine with AIM 3410 CBN model"
+        ],
+        "GENERAL FEATURES": [
+          "Automation system providing CNC motion at 4-axis",
+          "Tool magazine unit with the capacity of 7 pcs. of cutter tools and 1 pc. saw blade with 180 mm diameter",
+          "Automatic clamp recognition and positioning feature",
+          "PLC controlled spray tool cooling unit",
+          "4 pcs. of automatic clamps to catch the workpieces firmly.",
+          "1 x pneumatic rest used for resetting the workpiece in X direction (second is optional)",
+          "Cartridge lubrication system for X, Y and Z axis",
+          "Special CAM program developed by Yilmaz engineering team",
+          "Operator safety barrier",
+          "15’’ colour touch screen",
+          "Program import via USB flash memory stick",
+          "Standard ISO ‘G’ code programming language",
+          "Technical support capability via remote connection by computer",
+          "Multi-language support",
+          "Special sound insulation cabinet around the machining center",
+          "Solid steel construction of the body and dynamic performance gantry",
+          "LED lighting in the cabinet",
+          "Hand held controller allows you to prove the job before running at speed (optional)"
+        ]
+      },
+      "technical_data": {
+        "Power": "11,5 kW / 25A / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "3.000 RPM",
+        "Saw Rotation Speed": "24.000 RPM",
+        "Saw Diameter": "D: Ø180 mm / d: Ø30 mm",
+        "Flow Rate": "250 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "241x516x285",
+        "Weight": "1.850 Kg / 1.430 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Profile Machining and Cutting Center"
+}

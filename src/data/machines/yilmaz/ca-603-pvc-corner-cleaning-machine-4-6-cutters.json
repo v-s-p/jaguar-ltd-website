@@ -1,0 +1,56 @@
+{
+  "slug": "ca-603-pvc-corner-cleaning-machine-4-6-cutters",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cleaning",
+  "diller": {
+    "en": {
+      "name": "CA 603 - PVC Corner Cleaning Machine (4 - 6 cutters)",
+      "description": "CA 603 Single Corner Cleaning Machine is used for striping of bottom and top surfaces and cleaning outer corners of 90° PVC cleaning profiles",
+      "images": [
+        "/images/yilmaz/ca-603-pvc-corner-cleaning-machine-4-6-cutters_1.png",
+        "/images/yilmaz/ca-603-pvc-corner-cleaning-machine-4-6-cutters_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Air gun",
+          "Profile support table with brushed",
+          "Special corner cleaning cutter set"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Cleaning cutter for colored profiles",
+          "V type of cleaning cutter for white profiles"
+        ],
+        "GENERAL FEATURES": [
+          "High quality stripping and cleaning operations by means of the hydro-pneumatic system",
+          "Processing capability for max. profile dimension: W130-H180 mm",
+          "Processing capability for min. profile dimension: W30-H50 mm",
+          "Min. inner and outer frame sizes for width W:30 and W:60 mm of profiles: L:350 x L:350 and L:380 x L:380 mm",
+          "Pneumatically working serial blade changing function that makes working easier",
+          "Fixing the workpiece firmly by means of the vertical and horizontal clamps",
+          "Stops automatically after stripping and cleaning operation",
+          "PLC operation system",
+          "Centring system to fit the profiles properly on the setsquare",
+          "Robust machine stand",
+          "Stripping blade levels are adjustable according to laminated and unlaminated profiles",
+          "Processing capability of 4 different PVC profile",
+          "4 different cutter set can be mounted on both block"
+        ]
+      },
+      "technical_data": {
+        "Power": "2400 W / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "3000 RPM",
+        "Saw Diameter": "Dmax: Ø210 mm d: Ø32 mm",
+        "Flow Rate": "48 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "152.5x240.5x129.5",
+        "Weight": "273 Kg / 237 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Manual Corner Cleaning Machine"
+}

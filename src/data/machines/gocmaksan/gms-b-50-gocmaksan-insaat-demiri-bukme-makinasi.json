@@ -1,0 +1,47 @@
+{
+  "slug": "gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Standard"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi.pdf",
+  "related_products": [
+    "B 26",
+    "B 45x1",
+    "B 36"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Bending to the right and left",
+      "Mechanical and electrical automation",
+      "Bending at any angle",
+      "Planetary reducer system",
+      "Save up to 9 bending programs",
+      "Digital control panel option"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "86 x 119 x 89",
+      "Engine Power kW": "5.5",
+      "Voltage V": "380",
+      "Weight kg": "457"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 50x1, Ø 32x2",
+      "65 kg/mm2: Ø 45x1, Ø 30x2",
+      "85 kg/mm2: Ø 36x1, Ø 28x2"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "B 50",
+      "description": "B 50 is a rebar bending machine for construction-site steel processing.",
+      "images": [
+        "/images/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
+    }
+  }
+}

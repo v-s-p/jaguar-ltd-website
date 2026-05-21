@@ -1,0 +1,68 @@
+{
+  "slug": "gms-synclone-45s-gocmaksan-demir-bukme-hatti",
+  "brand": "gocmaksan",
+  "categories": [
+    "Steel Factory Solutions",
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Standard",
+    "Steel Factory"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti.pdf",
+  "related_products": [],
+  "specs": {
+    "TECHNICAL DATA": {
+      "Stationery bender motor power": "7.5KW SERVO MOTOR / 9,38 HP",
+      "Moving bender motor power": "7.5KW SERVO MOTOR / 9,38 HP",
+      "Moving motor power (KW/HP)": "2 KW SERVO MOTOR / 2,9 HP",
+      "Hydraulic motor power (KW/HP)": "4 KW   ~ AC MOTOR / 4,02 HP",
+      "Roller motor power ( KW / HP )": "3 KW   ~ AC MOTOR / 5,36 HP",
+      "Total power (KW/HP)": "25,2 KW / 33,80 HP",
+      "Energy consumption (kWh)": "17,3 KWh",
+      "Total weight (KG/LBS)": "7000 KG / 15,432 lbs",
+      "Bending sensitivity": "± 5 mm",
+      "Hydraulic system (BAR/PSI)": "180 BAR / 2610 PSI",
+      "Remote control": "Available",
+      "Collecting Bins": "available (3 pieces)",
+      "Pneumatic system air pressure (BAR/PSI)": "8-10 BAR / 116-145 PSI",
+      "Barcode reader": "Optional"
+    },
+    "CAPACITIES": [
+      "• MANDRELS supplied with machine - Ø 70 , Ø 80 , Ø 100 , Ø 110, Ø 125, Ø 145, Ø 160, Ø 180, Ø 215",
+      "/ INCH BAR SIZE 45 kg/mm² 65 kg/mm² 85 kg/mm²",
+      "Ø 42 / #14 1 1 -",
+      "Ø 36 / #11 1 1 1",
+      "Ø 30 / #10 2 2 1",
+      "Ø 24 / #8 3 3 2",
+      "Ø 20 / #6 4 4 3"
+    ],
+    "FEATURED FEATURES": [
+      "Servo-controlled bending line",
+      "Hydraulic and pneumatic systems",
+      "Remote control support",
+      "Collecting bins",
+      "Steel factory production workflow"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "Synclone 45S",
+      "description": "Synclone 45S is a rebar bending line for steel factory production workflows.",
+      "images": [
+        "/images/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti_1.webp",
+        "/images/gocmaksan/synclone-45s_2.png",
+        "/images/gocmaksan/synclone-45s_3.png",
+        "/images/gocmaksan/synclone-45s_4.png",
+        "/images/gocmaksan/synclone-45s_5.png",
+        "/images/gocmaksan/synclone-45s_6.png",
+        "/images/gocmaksan/synclone-45s_7.png",
+        "/images/gocmaksan/synclone-45s_8.png",
+        "/images/gocmaksan/synclone-45s_9.png",
+        "/images/gocmaksan/synclone-45s_10.png",
+        "/images/gocmaksan/synclone-45s_11.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti.pdf"
+    }
+  }
+}

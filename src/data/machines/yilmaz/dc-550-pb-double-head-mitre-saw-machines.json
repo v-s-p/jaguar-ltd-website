@@ -1,0 +1,80 @@
+{
+  "slug": "dc-550-pb-double-head-mitre-saw-machines",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "DC 550 PB - Double Head Mitre Saw Machines",
+      "description": "DC 550 PB is full automatic sawing machines that is designed for the strait or angular cutting operations of large size of profiles made of PVC and aluminium materials by means of double head sawing units equipped with Ø 550 mm of saw blades.",
+      "images": [
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_1.jpg",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_2.jpg",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_3.jpg",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_4.png",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_5.png",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_6.png",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_7.jpg",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_8.jpg",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_9.jpg",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_10.png",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_11.png",
+        "/images/yilmaz/dc-550-pb-double-head-mitre-saw-machines_12.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with saw blades 2x Ø 550 mm",
+          "Roller conveyor & 2x pneumatic profile supports",
+          "Spray saw blade lubrication system",
+          "Barcode printer",
+          "4x pneumatic horizontal clamps",
+          "2x pneumatic vertical clamps",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "DKN 70 short cut system (digital)",
+          "DKN 71 short cut system (with ruler)",
+          "Machine with the length of 5 m",
+          "Machine with the length of 6 m",
+          "VCE 1570 Chip vacuum extractor",
+          "Chip removal conveyor belt 4 m",
+          "DKN 80 arrow cut system for mullion profiles",
+          "Spare saw blade, Ø 550mm",
+          "Mould heights for special profiles",
+          "RS 1000 Profile support foot",
+          "Chip removal conveyor belt 5 m",
+          "Chip removal conveyor belt 6 m"
+        ],
+        "GENERAL FEATURES": [
+          "Two-hand safety operation",
+          "The saw heads tilt automatically for 45° and 90° cutting and ensure easy manual fixation for intermediate angles",
+          "Hydro-pneumatic saw feed",
+          "Cutting accuracy +/- 0.2 mm",
+          "2 x pneumatic profile supports",
+          "Automatic slicing feature at 90° or 45° with fixed head",
+          "Obtains profile cutting dimensions and angles from the cut list while working in automatic mode",
+          "Remote connection via internet and providing technical support",
+          "Barcode printer",
+          "The power of sawing motors: 2 pcs. X 3 kW",
+          "Windows based industrial PC and 15'' LCD touch screen colour monitor",
+          "Facility to transfer the cutting list at ''mdb'' and ''csv'' formats via USB and network."
+        ]
+      },
+      "technical_data": {
+        "Power": "6.9 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "2.400 RPM",
+        "Saw Rotation Speed": "2400 RPM",
+        "Saw Diameter": "D: Ø550 mm / d: Ø30-32 mm",
+        "Flow Rate": "200 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "185x509x172",
+        "Weight": "1.444 Kg / 1.280 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Double Head Cutting"
+}

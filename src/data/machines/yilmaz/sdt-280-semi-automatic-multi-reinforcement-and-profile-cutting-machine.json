@@ -1,0 +1,55 @@
+{
+  "slug": "sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cutting",
+  "diller": {
+    "en": {
+      "name": "SDT 280 - Semi-Automatic Multi Reinforcement and Profile Cutting Machine",
+      "description": "Semi-automatic, linear way band saw machine which is constructed of heavy gauge steel frame and grinded pillars provide a high degree of accuracy when cutting.  It makes the cutting hydraulically. For the next cut, the bundled material is fed manually until it touches the length stop and the cutting is repeated. Ideal for the cutting operations of multi-cutting backing sheets mounted on solid bars, profiles and reinforcements for PVC windows",
+      "images": [
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_1.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_2.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_3.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_4.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_5.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_6.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_7.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_8.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_9.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_10.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_11.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_12.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_13.jpg",
+        "/images/yilmaz/sdt-280-semi-automatic-multi-reinforcement-and-profile-cutting-machine_14.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "3 meters of infeed roller table placed on the entrance of the machine",
+          "Chip conveyor unit that removes the cutting chips from the environment",
+          "2° inclined bimetal band saw fitted on the machine bow"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Hydraulic top clamping unit holding the bundled materials firmly",
+          "Hydraulically operated band saw tension mechanism",
+          "2 x adjustable micro spray cooling units",
+          "Band saw frame that can move up and down hydraulicly",
+          "Speed control unit that adjusts the band saw speed according to the material",
+          "Speed control valve that adjusts the band saw downward speed according to the material",
+          "Band saw frame made of hard steel and chrome coated and grinded two pillars providing a high degree of accuracy",
+          "Chip brush that cleans the band saw during the cutting operation"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "200x411x160",
+        "Weight": "1.000 Kg / 900 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Reinforcement Sheet Band Saw"
+}

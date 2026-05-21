@@ -1,0 +1,68 @@
+{
+  "slug": "cnc-611",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cleaning",
+  "diller": {
+    "en": {
+      "name": "CNC 611",
+      "description": "Corner Cleaning Machines are designed for the cleaning of welding chips of PVC profiles that is welded at angle of 90° CNC 609: 2 x servo drive motors, CNC 611: 4 x servo motor drives",
+      "images": [
+        "/images/yilmaz/cnc-611_1.webp",
+        "/images/yilmaz/cnc-611_2.webp",
+        "/images/yilmaz/cnc-611_3.webp",
+        "/images/yilmaz/cnc-611_4.webp",
+        "/images/yilmaz/cnc-611_5.webp",
+        "/images/yilmaz/cnc-611_6.webp",
+        "/images/yilmaz/cnc-611_7.webp",
+        "/images/yilmaz/cnc-611_8.webp",
+        "/images/yilmaz/cnc-611_9.webp",
+        "/images/yilmaz/cnc-611_10.webp",
+        "/images/yilmaz/cnc-611_11.webp",
+        "/images/yilmaz/cnc-611_12.webp"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Total of 11 tools, consisting of a cleaning saw, internal scraping blades and milling cutters",
+          "Brushed window support table",
+          "Line harmonization Package (CNC 608 R)"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "All unit parameters can be set independently according to the frames",
+          "Automatic frame and sash profile recognition system",
+          "Automatic line can be made by combining with Four Corner Welding Mach. (DK 540), Cooling Unit (SA 251) and Rotating Robot (SA 261) at a later date",
+          "The upper and lower surfaces are cleaned with two separate cleaning units operating independently of each other (CNC 611)",
+          "Profile width and height measurement system",
+          "11 set of automatic profile cleaning knives",
+          "Separate cleaning knives for color and white profiles",
+          "Memory capacity for 65.000 different profiles",
+          "Windows based industrial PC and 15’’ LCD touch screen colour monitor",
+          "Remote connection via internet and providing technical support",
+          "Manual adjustment of feed rates on the control panel",
+          "Transferring facility of the new programs via USB",
+          "Portable touch screen control panel",
+          "Low pressure control valve",
+          "Automatic cartridge lubrication system",
+          "Phase control equipment",
+          "Processing capacity with 200-210 window frames in 8 hours for CNC 609",
+          "Processing capacity with 240-250 window frames in 8 hours for CNC 611"
+        ]
+      },
+      "technical_data": {
+        "Power": "3.85 kW / 400V AC 3P PE 50/60 Hz.",
+        "Saw Rotation Speed": "18.000 RPM",
+        "Saw Diameter": "6.000 RPM D:Ø250- d:30/32 mm",
+        "Flow Rate": "180 L/min.",
+        "Pressure": "6-8 BAR",
+        "Dimensions (cm)": "231x240x177",
+        "Weight": "700.0"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "CNC Corner Cleaning Machine"
+}

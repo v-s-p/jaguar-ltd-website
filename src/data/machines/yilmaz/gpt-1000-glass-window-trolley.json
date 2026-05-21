@@ -1,0 +1,40 @@
+{
+  "slug": "gpt-1000-glass-window-trolley",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "GPT 1000 - Glass & Window Trolley",
+      "description": "It is used for the purpose of transporting and storing the assembled window frames and sashes",
+      "images": [
+        "/images/yilmaz/gpt-1000-glass-window-trolley_1.png",
+        "/images/yilmaz/gpt-1000-glass-window-trolley_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Used for carrying and storing of assembled window sashes and frames",
+          "4 pcs. of free moving wheel, 2 of which have brakes",
+          "Rolling pulleys making the motion of material carried over ground easy",
+          "Plastic covered surfaces to prevent scratches on work pieces",
+          "8 sections compatible with minimum and maximum profile size",
+          "Width (W) x Length (L) x Height (H): W 990 x L 1500 x H 1300 mm",
+          "Distance between sections: 140 mm",
+          "Loading capacity: 300 kg"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "990x1500x1300",
+        "Weight": "110 / 80"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

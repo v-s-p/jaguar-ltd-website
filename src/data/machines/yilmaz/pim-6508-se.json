@@ -1,0 +1,69 @@
+{
+  "slug": "pim-6508-se",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Processing Center",
+  "diller": {
+    "en": {
+      "name": "PIM 6508 SE",
+      "description": "PIM 6508 SE is 8-axis CNC controlled machining center which is specifically designed to process any kind of PVC profiles in the market. The machine can do all operations on four sides of PVC profiles such as milling, opening key holes, water slots, hinge holes, handle holes, marking, saw blade cutting etc. PIM 6508 SE has the programming feature which provides minimum waste and maximum amount of production.\r\n5 pieces of PVC profiles can be placed on the feeding conveyor of the machine and 3-axis pneumatic gripper moves them into the milling & cutting center for the milling and cutting operations. The cutting unit can serially cut profiles at the desired angle between 45°-135°.Operator attaches barcodes on the processed profiles to make them ready for welding operation.",
+      "images": [
+        "/images/yilmaz/pim-6508-se_1.jpg",
+        "/images/yilmaz/pim-6508-se_2.jpg",
+        "/images/yilmaz/pim-6508-se_3.jpg",
+        "/images/yilmaz/pim-6508-se_4.jpg",
+        "/images/yilmaz/pim-6508-se_5.jpg",
+        "/images/yilmaz/pim-6508-se_6.jpg",
+        "/images/yilmaz/pim-6508-se_7.jpg",
+        "/images/yilmaz/pim-6508-se_8.jpg",
+        "/images/yilmaz/pim-6508-se_9.jpg",
+        "/images/yilmaz/pim-6508-se_10.jpg",
+        "/images/yilmaz/pim-6508-se_11.jpg",
+        "/images/yilmaz/pim-6508-se_12.jpg",
+        "/images/yilmaz/pim-6508-se_13.jpg",
+        "/images/yilmaz/pim-6508-se_14.webp",
+        "/images/yilmaz/pim-6508-se_15.jpg",
+        "/images/yilmaz/pim-6508-se_16.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Totally 7pc. x Ø5 mm of tools for milling and drilling operations",
+          "Barcode printer",
+          "Safety fence around the machine",
+          "Keyboard & mouse"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Angled swarf conveyor",
+          "Profile rotating mechanism",
+          "VCE 3500 chip vacuum extractor",
+          "Workshop logistic equipment (see the tech. document)",
+          "Spare Ø 500 mm saw blade",
+          "Spare Ø5xL95 mm carbide cutter bit"
+        ],
+        "GENERAL FEATURES": [
+          "Fully automated feeding, carrying, positioning, cutting and transferring units",
+          "Performing operations on four sides of PVC profiles such as milling, opening key holes, water slots, hinge holes, handle holes, marking, saw blade cutting etc.",
+          "Servo controlled pneumatic gripper for accurate positioning of the profile",
+          "Horizontal and vertical clamping of workpiece during the sawing operation",
+          "Automatic in-feed conveyor with 5 pcs. of profile loading capacity",
+          "Servo controlled down-cutting saw blade with Ø 500 mm dia. that rotates between the range of 45⁰ and 135⁰",
+          "Windows based PC and 15.6’’ LCD touch screen monitor",
+          "Remote desktop connection and providing technical support",
+          "User friendly interface software that is compatible with CAD programs",
+          "Ability to perform milling and cutting operations at the same time",
+          "Easy integration with the CNC welding, corner cleaning and screwing machines",
+          "Automatic profile width and height dimension control system",
+          "Cartridge & manual lubrication system",
+          "Low pressure control for saw blade safety operations",
+          "LED interior lighting"
+        ]
+      },
+      "technical_data": {},
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Profile Cutting & Machining Center"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Cutting Machines"
+  ],
+  "subcategory": [
+    "Standard"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
+  "related_products": [
+    "M 36",
+    "M 55"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Mechanical system",
+      "High cutting performance",
+      "Fast cutting cycle",
+      "Foot pedal and arm control"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "51 x 110 x 85",
+      "Engine Power kW": "3",
+      "Voltage V": "380",
+      "Weight kg": "435"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 45x1, Ø 36x2",
+      "65 kg/mm2: Ø 42x1, Ø 30x2",
+      "85 kg/mm2: Ø 30x1, Ø 24x2"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "M 45",
+      "description": "M 45 is a mechanical rebar cutting machine for construction-site steel processing.",
+      "images": [
+        "/images/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi_1.webp",
+        "/images/gocmaksan/m-45_2.png",
+        "/images/gocmaksan/m-45_3.png",
+        "/images/gocmaksan/m-45_4.png",
+        "/images/gocmaksan/m-45_5.png",
+        "/images/gocmaksan/m-45_6.png",
+        "/images/gocmaksan/m-45_7.png",
+        "/images/gocmaksan/m-45_8.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
+    }
+  }
+}

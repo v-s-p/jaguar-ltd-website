@@ -1,0 +1,46 @@
+{
+  "slug": "sm-201-single-head-reinforcement-stell-screwdriver",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Screwdriving",
+  "diller": {
+    "en": {
+      "name": "SM 201 - Single Head Reinforcement Stell Screwdriver",
+      "description": "Used for screwing of reinforcement steel on the PVC door and window profiles fast and precisely\nThe PVC profile with the reinforcement steel inserted is manually driven into the screwing unit table and the screwing process is started with the pedal. Profile forward movement is done manually until the screwing process is completed.",
+      "images": [
+        "/images/yilmaz/sm-201-single-head-reinforcement-stell-screwdriver_1.png",
+        "/images/yilmaz/sm-201-single-head-reinforcement-stell-screwdriver_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Profile support arms on the left and right sides"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Automatic screw feeding unit",
+          "Foot pedal operation for screwing",
+          "Screwing force and point are adjustable for various kinds of profiles and their models",
+          "Long-lasting use and easy change of the bit",
+          "Automatic stop after finishing screwing",
+          "Safety key to prevent misuse",
+          "Special, adjustment key for the height of screw",
+          "Fixes the material firmly by automatic clamps to prevent movement during screwing",
+          "Adjustable resting distance for the supported type of profiles",
+          "Profile support arms on the left and right sides",
+          "Mechanical sensor on the head guarantees an optimum screwing process",
+          "Screw feed speed approx. 1.7 sec./pc.",
+          "Recommended reinforcement sheet thickness max. 3.0 mm"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "62x230x172",
+        "Weight": "132 Kg / 100 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Single Head Reinforcement Steel Screwdriver"
+}

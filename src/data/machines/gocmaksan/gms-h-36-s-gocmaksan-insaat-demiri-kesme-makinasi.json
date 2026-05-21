@@ -1,0 +1,63 @@
+{
+  "slug": "gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Cutting Machines"
+  ],
+  "subcategory": [
+    "Standard"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
+  "related_products": [
+    "H 26",
+    "H 55",
+    "H 38S",
+    "H 45S"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Hydraulic system",
+      "Adjustable blade support",
+      "Low maintenance costs",
+      "Long-lasting use",
+      "Reinforced steel body",
+      "Quiet, safe, and environmentally friendly operation"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "53 x 105 x 80",
+      "Engine Power kW": "2.2",
+      "Voltage V": "50",
+      "Weight kg": "380",
+      "Hydraulic Oil Tank Capacity lt": "165"
+    },
+    "CAPACITIES": [
+      "Ø 20x1"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "H 36S",
+      "description": "H 36S is a hydraulic rebar cutting machine for construction-site steel processing.",
+      "images": [
+        "/images/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi_1.png",
+        "/images/gocmaksan/h-36s_2.png",
+        "/images/gocmaksan/h-36s_3.png",
+        "/images/gocmaksan/h-36s_4.png",
+        "/images/gocmaksan/h-36s_5.png",
+        "/images/gocmaksan/h-36s_6.png",
+        "/images/gocmaksan/h-36s_7.png",
+        "/images/gocmaksan/h-36s_8.png",
+        "/images/gocmaksan/h-36s_9.png",
+        "/images/gocmaksan/h-36s_10.png",
+        "/images/gocmaksan/h-36s_11.png",
+        "/images/gocmaksan/h-36s_12.png",
+        "/images/gocmaksan/h-36s_13.png",
+        "/images/gocmaksan/h-36s_14.png",
+        "/images/gocmaksan/h-36s_15.png",
+        "/images/gocmaksan/h-36s_16.png",
+        "/images/gocmaksan/h-36s_17.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
+    }
+  }
+}

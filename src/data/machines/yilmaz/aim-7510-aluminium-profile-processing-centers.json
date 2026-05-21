@@ -1,0 +1,80 @@
+{
+  "slug": "aim-7510-aluminium-profile-processing-centers",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Processing Centers",
+  "diller": {
+    "en": {
+      "name": "AIM 7510 - Aluminium Profile Processing Centers",
+      "description": "",
+      "images": [
+        "/images/yilmaz/aim-7510-aluminium-profile-processing-centers_1.png",
+        "/images/yilmaz/aim-7510-aluminium-profile-processing-centers_2.jpg",
+        "/images/yilmaz/aim-7510-aluminium-profile-processing-centers_3.jpg",
+        "/images/yilmaz/aim-7510-aluminium-profile-processing-centers_4.jpg",
+        "/images/yilmaz/aim-7510-aluminium-profile-processing-centers_5.jpg",
+        "/images/yilmaz/aim-7510-aluminium-profile-processing-centers_6.jpg",
+        "/images/yilmaz/aim-7510-aluminium-profile-processing-centers_7.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "CAMPROX software program for CNC programming",
+          "Safety fence around the machine",
+          "8 x pneumatic profile clamps",
+          "2 x pneumatic rests",
+          "Chip pan in the machine frame"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Cutter tools, tool holders and collets set 6 pc cutters (2 pc. Ø5, 1 pc. Ø6, 1 pc. Ø8, 1 pc. Ø10, 1 pc. Ø12) – 12 pc. HSK F63 Tool holders – 6 pc. Collets ( 3 pc. Ø5-6, 1 pc. Ø7-8, 1 pc. Ø9-10, 1 pc. Ø11-12) – 12 pc. mold height",
+          "CAD-EXTRACT software program for working on IGES files",
+          "Special saw blade kit",
+          "Oil mist blower",
+          "Barcode reader",
+          "Barcode printer",
+          "Air conditioning system set",
+          "Adustable Clamp Pressure System",
+          "Individual Clamp Control Set (for 8 pcs. of clamps)",
+          "HSK F63 Gauge",
+          "ASİMETO Dial Gauge",
+          "Dial Gauge Mounting Apparatus",
+          "Chip conveyor belt in the machine frame"
+        ],
+        "GENERAL FEATURES": [
+          "CNC automation system providing motion control at 5-axis",
+          "Uninterrupted machining property by means of the tandem mode to prevent waste of time",
+          "Ability of effective CAM programming by means of user-friendly CAM PROX program",
+          "2 x separate magazine unit for 12 standard tools and 1 for saw blade with Ø350 mm",
+          "Solid steel construction of the body and dynamic performance gantry",
+          "Automatic clamp recognition and clamp positioning are available",
+          "Tapping feature from M5 to M8 for open holes and 1-4 mm of material thickness)(optional)",
+          "Special sound insulation cabinet around the machining center",
+          "High precision HSD spindle and internationally recognized components",
+          "CNC controlled spray tool lubrication system",
+          "8x automatic clamps used for grabbing the work piece firmly",
+          "2x pneumatic rests used for resetting the work piece in X direction",
+          "Hand held controller allows you to prove the job before running at speed",
+          "Optimum operational safety guaranteed by 3-zone field scanner system",
+          "10’’ colour touch screen",
+          "Program import via USB flash memory stick",
+          "Standard ISO ‘G’ code programming language and multi-language support",
+          "Automatic central guide lubrication system and LED lighting in the cabinet"
+        ]
+      },
+      "technical_data": {
+        "Power": "15 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "3.000 RPM",
+        "Saw Rotation Speed": "20.000 RPM",
+        "Saw Diameter": "D: Ø350 mm / d: Ø30 mm",
+        "Flow Rate": "250 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "201x972x220",
+        "Weight": "4.795 Kg / 4.490 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Profile Machining and Cutting Center"
+}

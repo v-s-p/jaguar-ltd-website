@@ -1,0 +1,27 @@
+name: CMS Sync
+
+on:
+  push:
+    paths:
+      - 'src/data/machines/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync per-machine files to monolithic JSON
+        run: python3 scripts/sync_machines_to_json.py
+
+      - name: Commit rebuilt JSON
+        run: |
+          git config user.name "cms-sync[bot]"
+          git config user.email "cms-sync@jaguar-ltd.com"
+          git add src/data/yilmaz.json src/data/gocmaksan.json
+          git diff --staged --quiet || git commit -m "chore: CMS sync → monolithic JSON rebuild"
+          git push

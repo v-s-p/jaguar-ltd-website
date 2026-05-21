@@ -1,0 +1,42 @@
+{
+  "slug": "pwb-4100",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Assembling",
+  "diller": {
+    "en": {
+      "name": "PWB 4100",
+      "description": "It is a pneumatic work bench used in the assembly of doors, windows, frames and sash profiles and glasses with two angled and width-adjustable work platforms",
+      "images": [
+        "/images/yilmaz/pwb-4100_1.png",
+        "/images/yilmaz/pwb-4100_2.png",
+        "/images/yilmaz/pwb-4100_3.png",
+        "/images/yilmaz/pwb-4100_4.png",
+        "/images/yilmaz/pwb-4100_5.png",
+        "/images/yilmaz/pwb-4100_6.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "It is designed to be used in the assembly of door, window frame and sash profiles and glasses",
+          "It can expand horizontally and vertically for big frames and sashes",
+          "The upper surface of the table can be tilted to 70° in order to carry out the mounting of the glasses",
+          "There is a pneumatic quick coupling and an electrical outlet on the side of the assembly table for pneumatic and electric tools that can be used in assembly",
+          "Width (W) X Length (L) X Height (H): Wmaks/ Wmin. 2560-1770 x Lmaks/Lmin.3760/1940 x H:865 mm",
+          "Maximum Frame Mounting Dimensions 3760 x 2560 mm",
+          "Loading capacity: 500 kg"
+        ]
+      },
+      "technical_data": {
+        "Pressure": "6-8 bar",
+        "Weight": "260 kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Work Bench"
+}

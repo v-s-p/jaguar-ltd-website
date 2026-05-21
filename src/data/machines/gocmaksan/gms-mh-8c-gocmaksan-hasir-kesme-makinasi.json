@@ -1,0 +1,44 @@
+{
+  "slug": "gms-mh-8c-gocmaksan-hasir-kesme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Steel Factory Solutions",
+    "Cutting Machines"
+  ],
+  "subcategory": [
+    "Standard",
+    "Steel Factory"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi.pdf",
+  "related_products": [],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Mechanical system",
+      "3 meter working length",
+      "Cut in 7 seconds",
+      "Portable wire mesh sliding table"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "100 x 640 x 109",
+      "Engine Power kW": "7.5",
+      "Voltage V": "380",
+      "Weight kg": "1250",
+      "Hydraulic Oil Tank Capacity lt": "36"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 12x1",
+      "65 kg/mm2: Ø 10x1",
+      "85 kg/mm2: Ø 8x1"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "MH 8C",
+      "description": "MH 8C is a mesh cutting machine for steel factory applications.",
+      "images": [
+        "/images/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi_1.webp"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi.pdf"
+    }
+  }
+}

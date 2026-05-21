@@ -1,0 +1,71 @@
+{
+  "slug": "vk-420-v-cutting-90-end-notching-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "VK 420 - V Cutting & 90° End Notching Machine",
+      "description": "VK 420 is designed for the precise V cutting, arrow cutting and 90° end notching operations with minimal off cut size on PVC and aluminium profiles",
+      "images": [
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_1.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_2.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_3.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_4.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_5.jpg",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_6.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_7.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_8.jpg",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_9.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_10.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_11.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_12.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_13.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_14.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_15.png",
+        "/images/yilmaz/vk-420-v-cutting-90-end-notching-machine_16.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "2 x Ø 420 mm of saw blades",
+          "2 x horizontal pneumatic clamps",
+          "Service spanner",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Manual MKN 150 length stop for V cut operations",
+          "Manuel MKN 300 length stop for V cut operations",
+          "Automatic SKN 300 length stop for V cut operations",
+          "Automatic SKN 600 length stops for V cut operations",
+          "Kit for 90° of notching operations (clamp set, back fence and 2x KP 120 rollers)",
+          "1 x pneumatic vertical clamp set",
+          "Spare saw blade, Ø 420 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Machine is constructed according to the minimum off-cut size",
+          "Fully protected of working area by means of safety cover.",
+          "Hydro-pneumatic V sawing head infinitely adjustable according to the profile",
+          "Manual adjustable of back fence working in T slot mechanism",
+          "Two-hand  safety operation",
+          "Adjustment of hydro-pneumatic saw blade feeding speed",
+          "Saw blade spray cooling system"
+        ]
+      },
+      "technical_data": {
+        "Power": "4.4 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "2.900 RPM",
+        "Saw Rotation Speed": "2.900RPM",
+        "Saw Diameter": "D: Ø420 mm / d: Ø30-32 mm",
+        "Flow Rate": "50 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "109x229x172",
+        "Weight": "412 Kg / 362 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "V Cutting"
+}

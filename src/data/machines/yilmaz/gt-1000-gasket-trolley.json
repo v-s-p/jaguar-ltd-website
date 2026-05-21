@@ -1,0 +1,38 @@
+{
+  "slug": "gt-1000-gasket-trolley",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "GT 1000 - Gasket Trolley",
+      "description": "It is used to keep the gasket rollers to be inserted to window sash profiles firmly",
+      "images": [
+        "/images/yilmaz/gt-1000-gasket-trolley_1.png",
+        "/images/yilmaz/gt-1000-gasket-trolley_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Opportunity to mount 4 piece of seal roller",
+          "Adjustable sections according to different seal roller diameters",
+          "Max. roller quantity: 4 pc. x Ø 550 mm",
+          "Max roller inside diameter: 300 mm",
+          "4 pcs. of free moving wheels, 2 of which have brakes",
+          "Height: 1500 mm",
+          "Loading capacity: 300 kg"
+        ]
+      },
+      "technical_data": {
+        "Weight": "0.0"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

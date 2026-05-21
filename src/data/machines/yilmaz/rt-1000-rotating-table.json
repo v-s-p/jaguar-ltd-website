@@ -1,0 +1,42 @@
+{
+  "slug": "rt-1000-rotating-table",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Assembling",
+  "diller": {
+    "en": {
+      "name": "RT 1000 - ROTATING TABLE",
+      "description": "",
+      "images": [
+        "/images/yilmaz/rt-1000-rotating-table_1.png",
+        "/images/yilmaz/rt-1000-rotating-table_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Stable steel construction",
+          "Rotating work table",
+          "Versatile mounting table for window assembly, gasket insertion etc.",
+          "Four pcs of adjustable pull-out arms",
+          "Support arms are rubber coated",
+          "Table surface can be rotated 360° and locked using brake pedal",
+          "With tool rack for pneumatic or electrical tools",
+          "Length of the arms: 700-1.000 mm",
+          "Height: 950 mm",
+          "Loading capacity: 110 kg",
+          "Weight (Brut/Net): 55 – 45 kg"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "1400x700x1400",
+        "Weight": "55 / 45"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Work Bench"
+}

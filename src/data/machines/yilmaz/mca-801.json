@@ -1,0 +1,54 @@
+{
+  "slug": "mca-801",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Screwdriving",
+  "diller": {
+    "en": {
+      "name": "MCA 801",
+      "description": "It positions the special metal wedge connectors used in PVC mullion profiles of different series and sizes and automatically screws on both surfaces at once, without requiring adjustment",
+      "images": [
+        "/images/yilmaz/mca-801_1.png",
+        "/images/yilmaz/mca-801_2.png",
+        "/images/yilmaz/mca-801_3.png",
+        "/images/yilmaz/mca-801_4.png",
+        "/images/yilmaz/mca-801_5.png",
+        "/images/yilmaz/mca-801_6.png",
+        "/images/yilmaz/mca-801_7.png",
+        "/images/yilmaz/mca-801_8.png",
+        "/images/yilmaz/mca-801_9.png",
+        "/images/yilmaz/mca-801_10.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "1x semi-finished connector mold",
+          "2 x apex screw bits",
+          "Hexagon-head bolts in different sizes for mechanical turret"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Special mold according to customer connector"
+        ],
+        "GENERAL FEATURES": [
+          "2 x automatic screw feeding unit",
+          "Foot pedal operation for screwing",
+          "Screwing force and point are adjustable for various kinds of profiles and their models",
+          "Long-lasting use and easy change of the bit",
+          "Automatic stop after finishing screwing",
+          "Safety key to prevent misuse",
+          "Special, adjustment key for the height of screw",
+          "Adjustable mechanical turret for 4 different wedge connectors",
+          "Automatic profile clamping and profile centering system during screwing",
+          "Mechanical sensor on the head guarantees an optimum screwing process",
+          "Screw feed speed approx. 1.7 sec./pc.",
+          "Recommended reinforcement sheet thickness max. 2.5 mm"
+        ]
+      },
+      "technical_data": {},
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Automatic Mullion Connector Assembly Machine"
+}

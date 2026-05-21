@@ -1,0 +1,62 @@
+{
+  "slug": "km-215-s-semi-automatic-end-milling-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "End Milling",
+  "diller": {
+    "en": {
+      "name": "KM 215 S - Semi-Automatic End Milling Machine",
+      "description": "Machine which works with hydro-pneumatic system, ideal for the end milling operations on PVC and aluminium profiles precisely",
+      "images": [
+        "/images/yilmaz/km-215-s-semi-automatic-end-milling-machine_1.jpg",
+        "/images/yilmaz/km-215-s-semi-automatic-end-milling-machine_2.jpg",
+        "/images/yilmaz/km-215-s-semi-automatic-end-milling-machine_3.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Spray tool lubrication system",
+          "1 x pneumatic vertical clamp",
+          "1 x pneumatic horizontal clamp",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Milling cutter sets according to the customer profiles",
+          "RS 1000 Profile support",
+          "Spare Mandrel&shim set for d: Ø30 mm cutters",
+          "Extention kit for d: Ø30 cutters to increas the end-milling capacity to H:180 (special)",
+          "Spare mandrel&shim set for d: Ø32 mm cutters",
+          "Extention kit for d: Ø32 cutters to increas the end-milling capacity to H:180 (special)"
+        ],
+        "GENERAL FEATURES": [
+          "High quality end-milling operations thanks to the hydro-pneumatic system",
+          "Quick tool change system",
+          "Adjustable support system to four different profiles",
+          "Safety operations with safety guard",
+          "End milling of PVC mullions between 45° and 90°",
+          "Storage place for spare tools",
+          "Fixing the workpiece firmly thanks to the vertical and horizontal clamps",
+          "Practical cutter adjustment by means of the spacer parts",
+          "Robust machine stand",
+          "Profile clamping capacity: H:160 x W:225 mm",
+          "Maximum end-milling capacity : H:90 x W:65 mm",
+          "Maximum cutter diameter (D x d): Ø160 x Ø30 mm"
+        ]
+      },
+      "technical_data": {
+        "Power": "1200 W / 2A / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "3.000 RPM",
+        "Saw Rotation Speed": "3000 RPM",
+        "Saw Diameter": "Dmax: Ø160mm / d: Ø30mm",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "42x83.5x120",
+        "Weight": "120 Kg / 95 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "End Milling Machine"
+}

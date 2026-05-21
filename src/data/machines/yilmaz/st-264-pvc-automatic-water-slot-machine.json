@@ -1,0 +1,55 @@
+{
+  "slug": "st-264-pvc-automatic-water-slot-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Milling",
+  "diller": {
+    "en": {
+      "name": "ST 264 - PVC Automatic Water Slot Machine",
+      "description": "It is an ideal milling machine used to open water drain channels on PVC profiles in two or three axes, at different angles and heights",
+      "images": [
+        "/images/yilmaz/st-264-pvc-automatic-water-slot-machine_1.png",
+        "/images/yilmaz/st-264-pvc-automatic-water-slot-machine_2.png",
+        "/images/yilmaz/st-264-pvc-automatic-water-slot-machine_3.png",
+        "/images/yilmaz/st-264-pvc-automatic-water-slot-machine_4.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Service keys",
+          "Equipped with milling cutters, ø5xL80 and ø5xL60 mm",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Spare cutter bits ø5xL80 mm",
+          "Spare cutter bits ø5xL60 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Water slot opening process on PVC profiles is completed pneumatically",
+          "Driller motors work separately in tree axis or two motors positioned in different axis work at the same time",
+          "Practical adjustment of water slot length and depth by means of the stoppers",
+          "Speed-adjustable pneumatically controlled motor movement",
+          "2 x pneumatic clamps ensure precise machining of the profile",
+          "Drilling starts automatically with the push of a button",
+          "Axis misalignments in profiles are adjusted pneumatically with the movable table",
+          "Motor selection through the switches",
+          "PLC control system",
+          "Maximum profile dimension: H115 x W100 mm"
+        ]
+      },
+      "technical_data": {
+        "Power": "230V AC 1P+N+PE / 50Hz.",
+        "Saw Rotation Speed": "ø5xL80 / ø5xL60 / 18.000 RPM",
+        "Saw Diameter": "ø5xL80 / ø5xL60",
+        "Flow Rate": "19 L/min",
+        "Pressure": "6-8 BAR",
+        "Dimensions (cm)": "73x61x130",
+        "Weight": "116 Kg / 78 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Template Copy Router"
+}

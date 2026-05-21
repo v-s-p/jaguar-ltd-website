@@ -1,0 +1,56 @@
+{
+  "slug": "fr-226-s-automatic-copy-router-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Milling",
+  "diller": {
+    "en": {
+      "name": "FR 226 S - Automatic Copy Router Machine",
+      "description": "It is used for the processing of slots for locks, drilling handles, hinges, espagnolette an barrel holes and opening water drain slot on PVC and aluminium profiles up to 3 mm of thickness.",
+      "images": [
+        "/images/yilmaz/fr-226-s-automatic-copy-router-machine_1.png",
+        "/images/yilmaz/fr-226-s-automatic-copy-router-machine_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Spray saw blade lubrication system",
+          "Equipped with Ø5xL80 mm cutter bit for router mechanism",
+          "Equipped with tools for triple drilling mechanism (2ad.x Ø10mm + 1ad. x Ø13mm)",
+          "2 x left and right profile stops",
+          "2 x pneumatic horizontal clamps",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Spare Ø5xL80 mm router bit",
+          "Spare Ø10 mm cutter bit (for triple hole drill)",
+          "Spare Ø13 mm cutter bit (for triple hole drill)",
+          "Special copy templates",
+          "MA 240 centring apparatus",
+          "MKN 150 length stop"
+        ],
+        "GENERAL FEATURES": [
+          "Opening locks, drilling handles, hinges, espagnolette and barrel holes etc. on PVC and aluminium profiles",
+          "Hydro-pneumatic triple hole drilling mechanism",
+          "Cast aluminium structure",
+          "Corrosion proof bearing shaft",
+          "Robust machine stand constructed from steel sheet",
+          "Equipped with the cutter tools"
+        ]
+      },
+      "technical_data": {
+        "Power": "2 x 750 Watt / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "14.000 / 900 RPM",
+        "Saw Diameter": "Ø5xL80 mm",
+        "Flow Rate": "5 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "85x56x147",
+        "Weight": "107.0"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Template Copy Router"
+}

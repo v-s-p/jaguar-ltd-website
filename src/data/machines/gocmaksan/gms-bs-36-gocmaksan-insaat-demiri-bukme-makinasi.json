@@ -1,0 +1,55 @@
+{
+  "slug": "gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Standard"
+  ],
+  "pdf_catalog": "",
+  "related_products": [
+    "BS 45",
+    "BS 60",
+    "BS 50"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Bending to the right and left",
+      "Mechanical and electrical automation",
+      "Bending at any angle",
+      "Planetary reducer system",
+      "Save up to 9 bending programs",
+      "Digital control panel option"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "83 x 111 x 90",
+      "Engine Power kW": "3",
+      "Voltage V": "380",
+      "Weight kg": "350"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 36x1, Ø 22x2",
+      "65 kg/mm2: Ø 32x1, Ø 20x2",
+      "85 kg/mm2: Ø 28x1, Ø 16x2"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "BS 36",
+      "description": "BS 36 is a rebar bending machine for construction-site steel processing.",
+      "images": [
+        "/images/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi_1.webp",
+        "/images/gocmaksan/bs-36_2.png",
+        "/images/gocmaksan/bs-36_3.png",
+        "/images/gocmaksan/bs-36_4.png",
+        "/images/gocmaksan/bs-36_5.png",
+        "/images/gocmaksan/bs-36_6.png",
+        "/images/gocmaksan/bs-36_7.png",
+        "/images/gocmaksan/bs-36_8.png",
+        "/images/gocmaksan/bs-36_9.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
+    }
+  }
+}

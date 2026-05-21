@@ -1,0 +1,74 @@
+{
+  "slug": "cdc-600-compound-angle-double-head-saw-cutting-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "CDC 600 - Compound Angle Double Head Saw Cutting Machine",
+      "description": "CDC 600 is a fully automatic machine designed to cut large size of PVC and aluminium profiles, straight or at an angle with a double-head Ø 600 mm saw. \nIt offers optimum cutting capacity in different cutting variations thanks to the large diameter saw and the pivoting & tilting mechanism cutting from underneath. Left cutting unit is fixed and mobile right cutting unit goes to measure automatically. It provides a great advantage to the user by making cuts at special angles without making calculations in cutting to point to point operations.",
+      "images": [
+        "/images/yilmaz/cdc-600-compound-angle-double-head-saw-cutting-machine_1.png",
+        "/images/yilmaz/cdc-600-compound-angle-double-head-saw-cutting-machine_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with 2x Ø 600 mm saw blades",
+          "Barcode printer",
+          "Profile support conveyor",
+          "2 x pneumatic pop-up supports",
+          "Spray saw blade cooling system",
+          "4 x pneumatic vertical clamps",
+          "2 x pneumatic horizontal clamps",
+          "Keyboard & mouse set"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Machine with the length of 7 m",
+          "VCE 1570 Vacuum chip extraction system",
+          "Chip conveyor belt (5m)",
+          "Chip conveyor belt (7m)",
+          "Profile loading ramp (H:180 mm)",
+          "RS 1000 Profile support foot",
+          "Spare saw blade Ø 600 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Two-hand safety operation",
+          "Possibility of cutting at different angles with 2 x Ø600 mm diameter saws",
+          "Automatic servo control hardware for all angle and linear movements",
+          "Automatic precise angle adjustment at all angles",
+          "Pivoting of heads from 22,5° inwards and 140° outwards",
+          "Tilting of both saws to 45° inward",
+          "Compound cuts (45° x 45°) pivoting and tilting on both heads",
+          "Saw movement controlled by electrical cylinder",
+          "Profile support conveyor",
+          "2 x pneumatic profile pop-up supports",
+          "Profile lifting system to prevent the profile surface from being scratched",
+          "Windows based industrial PC and 15” colored touch screen control unit",
+          "Facility to transfer the cutting lists in 'mdb' and 'csv' formats via USB memory and network",
+          "Provide technical support via remote connection",
+          "Short length cuts by automatic slicing feature",
+          "User-friendly graphical software",
+          "Arrow cutting feature for mullion profiles",
+          "Retractable workpiece stop for short-cut (up to 200 mm) feature at movable head",
+          "Barcode printer",
+          "Saw blade motor power: 2 pcs. x 4 kW"
+        ]
+      },
+      "technical_data": {
+        "Power": "12,5 kW / 25A / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "2.300 RPM",
+        "Saw Rotation Speed": "2300 RPM",
+        "Saw Diameter": "D: Ø600 mm / d: Ø30 mm",
+        "Flow Rate": "60 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "251x156x116",
+        "Weight": "2.350 Kg / 2.350 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Double Head Cutting"
+}

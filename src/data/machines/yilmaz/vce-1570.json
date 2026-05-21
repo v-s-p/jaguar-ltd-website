@@ -1,0 +1,42 @@
+{
+  "slug": "vce-1570",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Swarf Extraction",
+  "diller": {
+    "en": {
+      "name": "VCE 1570",
+      "description": "It is an industrial product that enables the steel, aluminium and plastic shavings arise from the cutting process in cutting machines to be collected in the storage unit by vacuuming from the working environment.",
+      "images": [
+        "/images/yilmaz/vce-1570_1.png",
+        "/images/yilmaz/vce-1570_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Pneumatic filter cleaner with base",
+          "1pc.xØ100/Ø50 adaptor (VCE 1360)"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "2pc.xØ160/Ø100 adaptor and 2x5m Ø100 hose & clamps"
+        ],
+        "GENERAL FEATURES": [
+          "High working performance with heavy duty cycle",
+          "Structure completely made in steel and painted with powder coating",
+          "Robust and ergonomic handle",
+          "Centrifugal fan system",
+          "It is also used to clean the metal chips inside the machines and at working environment",
+          "VCE 1570 is ideal for double head mitre saw cutting machines",
+          "Quick release chips container",
+          "Easily transported to the chip storage area thanks to the wheeled chip collection",
+          "Thanks to the air filter cleaning system, there is no need to disassemble the filter unit"
+        ]
+      },
+      "technical_data": {},
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Vacuum Swarf Extractor"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "skn-300-450-600-digital-roller-conveyor-with-automatic-length-stop",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Conveying",
+  "diller": {
+    "en": {
+      "name": "SKN 300-301-600 - Digital Roller Conveyor with Automatic Length Stop",
+      "description": "It is computerized length stop which helps to cut the glazing bead profiles specially in the required measurements precisely",
+      "images": [
+        "/images/yilmaz/skn-300-450-600-digital-roller-conveyor-with-automatic-length-stop_1.jpg",
+        "/images/yilmaz/skn-300-450-600-digital-roller-conveyor-with-automatic-length-stop_2.jpg",
+        "/images/yilmaz/skn-300-450-600-digital-roller-conveyor-with-automatic-length-stop_3.jpg",
+        "/images/yilmaz/skn-300-450-600-digital-roller-conveyor-with-automatic-length-stop_4.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Extendible digital measuring rod 3.0 m"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Barcode printer"
+        ],
+        "GENERAL FEATURES": [
+          "Self- positioning of the conveyor stop according to the values entered on the digital screen",
+          "It is ideal for cutting glazing bead profiles precisely",
+          "5.5'' touch screen control panel",
+          "Preparation of cutting lists on the control panel",
+          "Possibility of manual or automatic operation",
+          "Easy assembly on sawing and copy router machine without conveyor",
+          "Optain measurement data from wireless measuring apparatus",
+          "Pieces are cut in the order according to the measurement data from the wireless measuring apparatus",
+          "Digital measuring apparatus with 3.0 m of measurement capacity is standard"
+        ]
+      },
+      "technical_data": {
+        "Power": "300 W / 230V AC 1P+N+PE / 50/60Hz.",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "---",
+        "Flow Rate": "---",
+        "Pressure": "---",
+        "Dimensions (cm)": "W:54cm. L:305cm. H:50cm",
+        "Weight": "193 Kg / 130 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Conveyors"
+}

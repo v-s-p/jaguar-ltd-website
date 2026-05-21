@@ -1,0 +1,49 @@
+{
+  "slug": "wgm-202",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cleaning",
+  "diller": {
+    "en": {
+      "name": "WGM 202",
+      "description": "After the welding process, protrusions occur at the gasket joints at the corners of the PVC frame, sash and door profiles. This causes various problems in glass installation. With this machine, the end surfaces of the gaskets are milled before welding and by ensuring a smooth connection at the corners, protruding gasket joining problems are eliminated",
+      "images": [
+        "/images/yilmaz/wgm-202_1.jpg",
+        "/images/yilmaz/wgm-202_2.jpg",
+        "/images/yilmaz/wgm-202_3.jpg",
+        "/images/yilmaz/wgm-202_4.jpg",
+        "/images/yilmaz/wgm-202_5.jpg",
+        "/images/yilmaz/wgm-202_6.png",
+        "/images/yilmaz/wgm-202_7.jpg",
+        "/images/yilmaz/wgm-202_8.png",
+        "/images/yilmaz/wgm-202_9.jpg",
+        "/images/yilmaz/wgm-202_10.png",
+        "/images/yilmaz/wgm-202_11.png",
+        "/images/yilmaz/wgm-202_12.png",
+        "/images/yilmaz/wgm-202_13.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "4 x milling cutters installed",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Machine prevents the protrusion issue of gaskets by milling gasket & profile set before the welding process",
+          "Have 4 milling blades",
+          "It has manual revolver with 6 station for different profile systems",
+          "Can mill single or double profile at the same time",
+          "Can mill 2 pcs of gaskets in the sash profile and 2 pcs gaskets in the base profile",
+          "Ability to mill the middle gasket in frames with this type of gasket",
+          "7” touch screen panel"
+        ]
+      },
+      "technical_data": {},
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Window Gasket Milling Machine"
+}

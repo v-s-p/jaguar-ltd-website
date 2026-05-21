@@ -1,0 +1,48 @@
+{
+  "slug": "ky-305-portable-miter-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Cutting",
+  "diller": {
+    "en": {
+      "name": "KY 305 - Portable Miter Saw Machine",
+      "description": "KY 305 portable miter saw machine is designed for straight and angular cutting of PVC, aluminum and wooden profiles.",
+      "images": [
+        "/images/yilmaz/ky-305-portable-miter-saw-machine_1.png",
+        "/images/yilmaz/ky-305-portable-miter-saw-machine_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Profile support",
+          "1x horizontal clamp"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "MS type of machine stand",
+          "MKN 300 roller conveyor",
+          "MKN 150 roller conveyors",
+          "Ø 300 mm saw blade"
+        ],
+        "GENERAL FEATURES": [
+          "Location points at 45°- 30°- 22.5° -15°- 0° both left and right",
+          "Pivoting range from 45° left to 45° right infinitely adjustable",
+          "Tilting range from 90° to 45° left",
+          "Lateral and longitudinal cutting feature on the upper table",
+          "Strong spring system and protective shield"
+        ]
+      },
+      "technical_data": {
+        "Power": "750 W / 230V AC 1P+N+PE / 50Hz.",
+        "Saw Rotation Speed": "3000 RPM",
+        "Saw Diameter": "D: Ø300 mm / d: Ø30/32mm",
+        "Dimensions (cm)": "70x84x61",
+        "Weight": "29 Kg / 26 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Portable Cutting"
+}

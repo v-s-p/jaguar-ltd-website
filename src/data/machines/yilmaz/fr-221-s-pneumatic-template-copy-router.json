@@ -1,0 +1,55 @@
+{
+  "slug": "fr-221-s-pneumatic-template-copy-router",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Milling",
+  "diller": {
+    "en": {
+      "name": "FR 221 S -Pneumatic Template Copy Router",
+      "description": "It is used for the processing of slots for locks, drilling handles, hinges, espagnolette holes and opening water drain slot on aluminium profiles up to 3 mm of thickness.",
+      "images": [
+        "/images/yilmaz/fr-221-s-pneumatic-template-copy-router_1.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Spray tool lubrication system",
+          "Ø5xL60 mm of router bit",
+          "Air gun",
+          "2x left and right profile stops",
+          "2x pneumatic horizontal clamps"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Spare Ø5xL60 mm router bit",
+          "Special copy templates",
+          "MA 240 centring apparatus",
+          "MKN 150 roller conveyor",
+          "MKN 300 roller conveyor"
+        ],
+        "GENERAL FEATURES": [
+          "Opening locks, drilling handles, hinges, espagnolette holes etc. on PVC and aluminum profiles",
+          "Cast aluminium structure",
+          "Corrosion proof bearing shaft",
+          "Robust machine stand constructed from steel sheet",
+          "Electroplated copy template",
+          "2x tracer pins",
+          "Ø5xL60 router bit included",
+          "Clamping capacity : W max.:130, W min.:10, H max:130, H min.: 20 mm"
+        ]
+      },
+      "technical_data": {
+        "Power": "750 W / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "Ø5 x L60 mm / 14.000 RPM",
+        "Saw Diameter": "Ø5xL60 mm",
+        "Flow Rate": "5 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "55x58x133.5",
+        "Weight": "103 Kg / 77 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Template Copy Router"
+}

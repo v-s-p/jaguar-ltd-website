@@ -1,0 +1,79 @@
+{
+  "slug": "vce-4000",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Swarf Extraction",
+  "diller": {
+    "bg": {
+      "name": "",
+      "description": "",
+      "images": [],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": []
+      },
+      "technical_data": {}
+    },
+    "en": {
+      "name": "VCE 4000",
+      "description": "VCE 4000 is an industrial product that enables the aluminium and plastic shavings arise from the cutting process in cutting machines to be collected in the storage unit by vacuuming from the working environment.",
+      "images": [
+        "/images/yilmaz/vce-4000_1.jpg",
+        "/images/yilmaz/vce-4000_2.jpg",
+        "/images/yilmaz/vce-4000_3.jpg",
+        "/images/yilmaz/vce-4000_4.jpg",
+        "/images/yilmaz/vce-4000_5.jpg",
+        "/images/yilmaz/vce-4000_6.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "3 pc. x 5m x Ø120 mm flexible hose & 6 pc. x clips"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "High working performance with heavy duty cycle",
+          "Structure completely made in steel and painted with powder coating",
+          "Robust and ergonomic handle",
+          "Centrifugal fan system",
+          "It is also used to clean the metal chips inside the machines and at working environment",
+          "It is ideal for aluminium and PVC machining and cutting centres",
+          "Quick release chips container",
+          "Easily transported to the chip storage area thanks to the wheeled chip collection"
+        ]
+      },
+      "technical_data": {},
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    },
+    "ru": {
+      "name": "VCE 4000",
+      "description": "VCE 4000 - это промышленный продукт, который позволяет собирать алюминиевую и пластиковую стружку, образующуюся в процессе резки на режущих станках, в накопитель путем вакуумирования рабочей среды.",
+      "images": [
+        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/10/28172152/0075328102025162156IMG.jpg",
+        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/10/28172158/0075228102025162155IMG.jpg",
+        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/10/28172155/0075428102025162157IMG.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "3 шт. x 5 м x Ø120 мм гибкий шланг и 6 шт. x зажимы"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Высокая производительность при интенсивном режиме работы",
+          "Конструкция полностью выполнена из стали и окрашена порошковой краской",
+          "Прочная и эргономичная рукоятка",
+          "Система центробежных вентиляторов",
+          "Он также используется для очистки металлической стружки внутри машин и на рабочих местах.",
+          "Он идеально подходит для центров обработки и резки алюминия и ПВХ.",
+          "Быстросъемный контейнер для чипсов",
+          "Легко транспортируется к месту хранения стружки благодаря колесному сборнику стружки"
+        ]
+      },
+      "technical_data": {}
+    }
+  },
+  "category": "PVC",
+  "type": "Vacuum Swarf Extractor"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "was-1000-window-assembly-station",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "WAS 1000 - Window Assembly Station",
+      "description": "It is used to transport glass-fitted frames to assembly stations",
+      "images": [
+        "/images/yilmaz/was-1000-window-assembly-station_1.png",
+        "/images/yilmaz/was-1000-window-assembly-station_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Used to transport frames to assembly stations",
+          "Frames can be slid easily thanks to rollers on the horizontal surface",
+          "There is a roller system to prevent the material from being scratched on the vertical surface.",
+          "The plastic roller width: 200mm",
+          "Width(W) x Length(L) x Height (H): 650 x 3000 x 1700 mm",
+          "Carrying and mounting surface: 5.1 m²"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "650x3000x1700",
+        "Weight": "119 / 81"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "gms-bcz-600-gocmaksan-tugla-kesme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Light Construction",
+    "Cutting Machines"
+  ],
+  "subcategory": [
+    "Standard",
+    "Light Construction"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi.pdf",
+  "related_products": [
+    "Compactor",
+    "Power Trowel",
+    "BCZ 600",
+    "RL 2000"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Precise and fast cutting",
+      "Wet and dry cutting modes",
+      "Foldable legs for easy transport",
+      "Labor and material savings"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "85 x 157 x 153"
+    },
+    "CAPACITIES": []
+  },
+  "diller": {
+    "en": {
+      "name": "BCZ 600",
+      "description": "BCZ 600 is a brick and block cutting machine for light construction work.",
+      "images": [
+        "/images/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi_1.webp",
+        "/images/gocmaksan/bcz-600_2.png",
+        "/images/gocmaksan/bcz-600_3.png",
+        "/images/gocmaksan/bcz-600_4.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi.pdf"
+    }
+  }
+}

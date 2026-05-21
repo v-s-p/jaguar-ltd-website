@@ -1,0 +1,50 @@
+{
+  "slug": "gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Bending Machines",
+    "Combined Machines",
+    "Cutting Machines"
+  ],
+  "subcategory": [
+    "Combined"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi.pdf",
+  "related_products": [
+    "MAX 40"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Combined cutting and bending operation",
+      "Compact construction-site design",
+      "Easy operation",
+      "Practical maintenance access"
+    ],
+    "TECHNICAL DATA": {
+      "E-B-Y cm": "110x98x110",
+      "Voltaj V": "380",
+      "Motor Gücü (Bükme) rpm": "3",
+      "Motor Gücü (Kesme) rpm": "2.2",
+      "Ağırlık kg": "430"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 36x1, Ø 24x2",
+      "65 kg/mm2: Ø 32x2, Ø 20x2",
+      "85 kg/mm2: Ø 28x1, Ø 18x2"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "Max 40",
+      "description": "Max 40 is a combined rebar cutting and bending machine for construction-site use.",
+      "images": [
+        "/images/gocmaksan/gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi_1.webp",
+        "/images/gocmaksan/max-40_2.png",
+        "/images/gocmaksan/max-40_3.png",
+        "/images/gocmaksan/max-40_4.png",
+        "/images/gocmaksan/max-40_5.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi.pdf"
+    }
+  }
+}

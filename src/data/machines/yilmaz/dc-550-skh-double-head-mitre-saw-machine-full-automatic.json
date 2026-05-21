@@ -1,0 +1,90 @@
+{
+  "slug": "dc-550-skh-double-head-mitre-saw-machine-full-automatic",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "DC 550 SKH - Double Head Mitre Saw Machine (Full Automatic)",
+      "description": "DC 550 SKH is full automatic sawing machines that is designed for the straight or angular cutting operations of large size of profiles made of PVC and aluminium materials by means of double head sawing units equipped with Ø 550 mm of saw blades.",
+      "images": [
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_1.png",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_2.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_3.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_4.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_5.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_6.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_7.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_8.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_9.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_10.png",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_11.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_12.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_13.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_14.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_15.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_16.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_17.jpg",
+        "/images/yilmaz/dc-550-skh-double-head-mitre-saw-machine-full-automatic_18.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with saw blades 2 X Ø 550 mm",
+          "Roller conveyor & 2 x pneumatic profile supports",
+          "Spray saw blade lubrication system",
+          "Profile height measuring systems",
+          "Barcode printer",
+          "4 x pneumatic horizontal clamps",
+          "2 x pneumatic vertical clamps",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "DKN 70 short cut system (digital)",
+          "DKN 71 short cut system (with ruler)",
+          "Machine with the length of 5 m",
+          "Machine with the length of 6 m",
+          "VCE 1570 Chip vacuum extractor",
+          "Chip removal conveyor belt 5 m",
+          "Chip removal conveyor belt 6 m",
+          "DKN 80 arrow cut system for mullion profiles",
+          "Spare saw blade, Ø 550 mm",
+          "Mould heights for special profiles",
+          "Chip removal conveyor belt 4 m",
+          "RS 1000 Profile support foot"
+        ],
+        "GENERAL FEATURES": [
+          "Two-hand safety operation",
+          "Equipped with CNC control system for precise angular adjustment",
+          "Tilting range inwards 45° and outwards 22.5°",
+          "Hydro-pneumatic saw feed",
+          "Cutting accuracy +/- 0.2 mm",
+          "2 x pneumatic profile supports",
+          "Windows based industrial PC and 15’’ LCD touch screen colour monitor",
+          "Facility to transfer the cutting list at ‘mdb’ and ‘csv’ formats via USB and network",
+          "Remote connection via internet and providing technical support",
+          "Barcode printer",
+          "Automatic slicing feature at 90° or 45° with fixed head",
+          "Profile height measuring systems",
+          "The angle setting of the cutting heads is ensured with servo control system",
+          "The position setting of the moving head is ensured with servo control system",
+          "The power of sawing motors: 2 pcs. X 3 kW"
+        ]
+      },
+      "technical_data": {
+        "Power": "8.5 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "2.400 RPM",
+        "Saw Rotation Speed": "2400 RPM",
+        "Saw Diameter": "D: Ø550 mm / d: Ø30-32 mm",
+        "Flow Rate": "160 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "185x509x172",
+        "Weight": "1.420 Kg / 1.202 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Double Head Cutting"
+}

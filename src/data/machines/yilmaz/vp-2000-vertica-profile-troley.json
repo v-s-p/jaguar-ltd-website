@@ -1,0 +1,46 @@
+{
+  "slug": "vp-2000-vertica-profile-troley",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "VP 2000 - Vertica Profile Troley",
+      "description": "It is a two-sided trolley which is used to transport and store cut door and window profiles between workstations",
+      "images": [
+        "/images/yilmaz/vp-2000-vertica-profile-troley_1.png",
+        "/images/yilmaz/vp-2000-vertica-profile-troley_2.png",
+        "/images/yilmaz/vp-2000-vertica-profile-troley_3.png",
+        "/images/yilmaz/vp-2000-vertica-profile-troley_4.png",
+        "/images/yilmaz/vp-2000-vertica-profile-troley_5.png",
+        "/images/yilmaz/vp-2000-vertica-profile-troley_6.png",
+        "/images/yilmaz/vp-2000-vertica-profile-troley_7.png",
+        "/images/yilmaz/vp-2000-vertica-profile-troley_8.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Used for carrying and storing vertical profiles",
+          "4 pcs. of free moving wheel, 2 of which have brakes",
+          "2 x 10 section",
+          "Plastic covered surfaces to prevent scratches on work pieces",
+          "Width (W) x Length (L) x Height (H): 1440 x 1540 x 2000 mm",
+          "Distance between sections: 113 mm",
+          "Length of holding bars: 500 mm",
+          "Loading capacity: 600 kg"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "1980x1500x1500",
+        "Weight": "160 / 120"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

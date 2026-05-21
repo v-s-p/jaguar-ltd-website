@@ -1,0 +1,54 @@
+{
+  "slug": "kd-350-m-miter-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cutting",
+  "diller": {
+    "en": {
+      "name": "KD 350 M - Miter Saw Machine",
+      "description": "KD 350 M Miter saw cutting machines are designed for straight and angular cutting of PVC, aluminium and wooden profiles.",
+      "images": [
+        "/images/yilmaz/kd-350-m-miter-saw-machine_1.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_2.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_3.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_4.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_5.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_6.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_7.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_8.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_9.jpg",
+        "/images/yilmaz/kd-350-m-miter-saw-machine_10.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Ø 350 mm saw blade",
+          "2 x manual horizontal clamps"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Machine stand",
+          "MKN 300 roller conveyor (3m)",
+          "Spare saw blade, Ø 350 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Location points at 45°-30°-22.5°-15°-0° both left and right",
+          "Pivoting range from 45° left to 45° right infinitely adjustable",
+          "Aluminium construction of the body that is strong and lasting",
+          "Robust mechanical construction enables the ease of adjustment for the requested cutting angles",
+          "Strong spring system and protective shield"
+        ]
+      },
+      "technical_data": {
+        "Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "2900 RPM",
+        "Saw Diameter": "D: Ø350 mm / d: Ø30/32 mm",
+        "Dimensions (cm)": "82x76x78.5",
+        "Weight": "86 Kg / 71 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Single Head Cutting"
+}

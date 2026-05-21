@@ -12,53 +12,83 @@ public_folder: /images/uploads
 collections:
   - name: "yilmaz"
     label: "Yılmaz Машини"
-    files:
-      - file: "src/data/yilmaz.json"
-        label: "Yılmaz Makine Listesi"
-        name: "yilmaz_machines"
+    folder: "src/data/machines/yilmaz"
+    create: true
+    delete: false
+    identifier_field: slug
+    extension: json
+    format: json
+    fields:
+      - { name: slug, label: Slug, widget: string }
+      - { name: brand, label: Brand, widget: hidden, default: yilmaz }
+      - name: categories
+        label: Kategoriler
+        widget: list
+        field: { name: cat, label: Kategori, widget: string }
+      - { name: subcategory, label: Alt Kategori, widget: string }
+      - name: diller
+        label: Diller
+        widget: object
         fields:
-          - name: machines
-            label: Makineler
-            widget: list
+          - name: en
+            label: English
+            widget: object
             fields:
-              - { name: slug, label: Slug, widget: string }
-              - { name: brand, label: Marka, widget: hidden, default: yilmaz }
-              - name: diller
-                label: Diller
-                widget: object
-                fields:
-                  - name: en
-                    label: English
-                    widget: object
-                    fields:
-                      - { name: name, label: Name, widget: string }
-                      - { name: description, label: Description, widget: text }
-                      - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+              - { name: name, label: Name, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+          - name: bg
+            label: "Български"
+            widget: object
+            fields:
+              - { name: name, label: "Наименование", widget: string }
+              - { name: description, label: "Описание", widget: text }
+          - name: ru
+            label: "Русский"
+            widget: object
+            fields:
+              - { name: name, label: "Название", widget: string }
+              - { name: description, label: "Описание", widget: text }
 
   - name: "gocmaksan"
     label: "Gocmaksan Машини"
-    files:
-      - file: "src/data/gocmaksan.json"
-        label: "Gocmaksan Makine Listesi"
-        name: "gocmaksan_machines"
+    folder: "src/data/machines/gocmaksan"
+    create: true
+    delete: false
+    identifier_field: slug
+    extension: json
+    format: json
+    fields:
+      - { name: slug, label: Slug, widget: string }
+      - { name: brand, label: Brand, widget: hidden, default: gocmaksan }
+      - name: categories
+        label: Kategoriler
+        widget: list
+        field: { name: cat, label: Kategori, widget: string }
+      - { name: subcategory, label: Alt Kategori, widget: string }
+      - name: diller
+        label: Diller
+        widget: object
         fields:
-          - name: machines
-            label: Makineler
-            widget: list
+          - name: en
+            label: English
+            widget: object
             fields:
-              - { name: slug, label: Slug, widget: string }
-              - { name: brand, label: Marka, widget: hidden, default: gocmaksan }
-              - name: diller
-                label: Diller
-                widget: object
-                fields:
-                  - name: en
-                    label: English
-                    widget: object
-                    fields:
-                      - { name: name, label: Name, widget: string }
-                      - { name: description, label: Description, widget: text }
-                      - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+              - { name: name, label: Name, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+          - name: bg
+            label: "Български"
+            widget: object
+            fields:
+              - { name: name, label: "Наименование", widget: string }
+              - { name: description, label: "Описание", widget: text }
+          - name: ru
+            label: "Русский"
+            widget: object
+            fields:
+              - { name: name, label: "Название", widget: string }
+              - { name: description, label: "Описание", widget: text }
 
   - name: "settings"
     label: "Настройки / Ayarlar"

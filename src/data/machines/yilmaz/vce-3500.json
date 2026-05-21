@@ -1,0 +1,61 @@
+{
+  "slug": "vce-3500",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Swarf Extraction",
+  "diller": {
+    "bg": {
+      "name": "",
+      "description": "",
+      "images": [],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": []
+      },
+      "technical_data": {}
+    },
+    "en": {
+      "name": "VCE 3500",
+      "description": "VCE 3500 is an industrial product that enables the PVC shavings arise from the cutting process in cutting machines to be collected in the storage unit by vacuuming from the working environment.",
+      "images": [
+        "/images/yilmaz/vce-3500_1.jpg",
+        "/images/yilmaz/vce-3500_2.jpg",
+        "/images/yilmaz/vce-3500_3.jpg",
+        "/images/yilmaz/vce-3500_4.jpg",
+        "/images/yilmaz/vce-3500_5.jpg",
+        "/images/yilmaz/vce-3500_6.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "2 pc. x 5m x  Ø120 mm flexible hose & 4 pc. x clips"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": []
+      },
+      "technical_data": {},
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    },
+    "ru": {
+      "name": "VCE 3500",
+      "description": "VCE 3500 - это промышленный продукт, который позволяет собирать в накопитель ПВХ-стружку, образующуюся в процессе резки в резательных машинах, путем вакуумирования рабочей среды.",
+      "images": [
+        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/11/03113656/0075528102025162343IMG.jpg",
+        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/11/03113659/0075628102025162344IMG.jpg",
+        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/11/03113702/0075728102025162346IMG.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "2 шт. x 5 м x Ø120 мм гибкого шланга и 4 шт. x зажимов"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": []
+      },
+      "technical_data": {}
+    }
+  },
+  "category": "PVC",
+  "type": "Vacuum Swarf Extractor"
+}

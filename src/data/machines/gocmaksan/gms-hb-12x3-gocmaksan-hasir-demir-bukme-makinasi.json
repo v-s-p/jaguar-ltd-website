@@ -1,0 +1,51 @@
+{
+  "slug": "gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Steel Factory Solutions",
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Standard",
+    "Steel Factory"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi.pdf",
+  "related_products": [],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Hydraulic system",
+      "Mechanical system",
+      "3 meter working length",
+      "6 meter option",
+      "45, 90, and 135 degree bending angles",
+      "Cut in 7 seconds"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "98 x 340 x 109",
+      "Engine Power kW": "5.5",
+      "Voltage V": "380",
+      "Weight kg": "710",
+      "Hydraulic Oil Tank Capacity lt": "36"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 12x1",
+      "65 kg/mm2: Ø 10x1",
+      "85 kg/mm2: Ø 8x1"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "HB 12x3",
+      "description": "HB 12x3 is a mesh bending and cutting machine for steel factory applications.",
+      "images": [
+        "/images/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi_1.webp",
+        "/images/gocmaksan/hb-12x3_2.png",
+        "/images/gocmaksan/hb-12x3_3.png",
+        "/images/gocmaksan/hb-12x3_4.png",
+        "/images/gocmaksan/hb-12x3_5.png",
+        "/images/gocmaksan/hb-12x3_6.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi.pdf"
+    }
+  }
+}

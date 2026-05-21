@@ -1,0 +1,45 @@
+{
+  "slug": "gas-301",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Assembling",
+  "diller": {
+    "en": {
+      "name": "GAS 301",
+      "description": "",
+      "images": [
+        "/images/yilmaz/gas-301_1.webp",
+        "/images/yilmaz/gas-301_2.webp",
+        "/images/yilmaz/gas-301_3.webp"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "It is designed for the fast installation of glass on the windows and doors",
+          "Glazed joinery transferring to package on rollers",
+          "Parallel block clamps allow you to set an appropriate balance",
+          "Raising the workpiece 500 mm up for easier installation",
+          "Max./Min. Frame Mounting Dimensions with clamps: Wmax.2375, Wmin: 300 mm / Hmax.3000, Hmin.300 mm",
+          "Max./Min. Frame Mounting Dimensions without clamps: Wmax.2700, Wmin.300 mm / Hmax.3000, Hmin.300 mm",
+          "The angle of upper surface of the table is at 70° in order to carry out the mounting of the glasses easy",
+          "Width (W) x Length (L) x Height (H): 900 x 3050 x 2400 mm",
+          "Loading capacity: 450 kg"
+        ]
+      },
+      "technical_data": {
+        "Power": "--- /  --",
+        "Saw Rotation Speed": "--",
+        "Saw Diameter": "--",
+        "Pressure": "6 bar",
+        "Dimensions (cm)": "900x3050x2400",
+        "Weight": "615 / 610"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Work Bench"
+}

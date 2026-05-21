@@ -1,0 +1,37 @@
+{
+  "slug": "pt-2000-product-transportation-trolley-two-sided",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "PT 2000 - Product Transportation Trolley Two Sided",
+      "description": "It is a two-sided trolley which is used for the purpose of transporting and storing the assembled window frames and sashes",
+      "images": [
+        "/images/yilmaz/pt-2000-product-transportation-trolley-two-sided_1.png",
+        "/images/yilmaz/pt-2000-product-transportation-trolley-two-sided_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Used for carrying and storing completed window assembly",
+          "4 pcs. of free moving wheel, 2 of which have brakes",
+          "Loading surfaces are covered with rubber to prevent scratches on work piece",
+          "Width (W) x Length (L) x Height (H): 1740x 1540 x 1950 mm",
+          "Loading capacity: 500 kg"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "1740x1540x1950",
+        "Weight": "180 / 140"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

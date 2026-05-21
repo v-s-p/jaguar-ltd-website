@@ -1,0 +1,39 @@
+{
+  "slug": "pc-4000-profile-carry-cart",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "PC 4000 -Profile Carry Cart",
+      "description": "",
+      "images": [
+        "/images/yilmaz/pc-4000-profile-carry-cart_1.png",
+        "/images/yilmaz/pc-4000-profile-carry-cart_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Used for carrying and storing profile of packets",
+          "4 piece of free moving wheel which have brakes",
+          "Plastic covered surfaces to prevent scratches on work pieces",
+          "Width (W) x Length (L) x Height (H): 855 x 4000 x 1000 mm",
+          "Distance between sections: 765 mm",
+          "Length of holding bars: 275 mm",
+          "Loading capacity: 1000 kg"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "855x4000x1000",
+        "Weight": "244 / 201.5"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

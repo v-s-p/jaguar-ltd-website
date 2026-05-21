@@ -1,0 +1,40 @@
+{
+  "slug": "nsm-352-nsm-353-kanat-isleme-merkezi",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Assembling",
+  "diller": {
+    "en": {
+      "name": "NSM 352-NSM 353 -Sash Assembly Station",
+      "description": "Ideal for serial, qualified and standard installation of all single and double opening accessories used on different series with various size of  sash profiles without needing meter, pencil, fixture and template\n-NSM 352 - NSM 353 - NSM 353U only for PVC Sash Assembly\n-NSM 352A only for Aluminyum Sash Assembly\n-NSM 353A for both Aluminium and PVC Sash Assembly",
+      "images": [
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_1.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_2.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_3.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_4.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_5.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_6.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_7.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_8.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_9.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_10.png",
+        "/images/yilmaz/nsm-352-nsm-353-kanat-isleme-merkezi_11.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "See the Technical Table"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "See the Technical Table"
+        ]
+      },
+      "technical_data": {},
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Sash Assembly Station"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "SCM 420 L4-SCM 420 L7 - Servo Controlled Serial Cutting Machine",
+      "description": "SCM 420 L4 and SCM 420 L7 are servo controlled serial cutting machines designed for the strait or angular cutting operations of the large size of PVC or aluminium materials in manual or automatic modes by means of Ø 420 mm of saw blade.",
+      "images": [
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_1.png",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_2.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_3.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_4.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_5.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_6.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_7.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_8.png",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_9.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_10.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_11.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_12.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_13.jpg",
+        "/images/yilmaz/scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine_14.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with saw blade Ø 420 mm",
+          "2 x vertical clamps and 1 x horizontal roller clamp",
+          "Spray saw blade lubrication system",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Laser marker set indicating the cutting line",
+          "Barcode printer",
+          "Extendible digital measuring rod, 3.0 m",
+          "Spare saw blade Ø 420 mm",
+          "VCE 1570 chip vacuum extractor"
+        ],
+        "GENERAL FEATURES": [
+          "3.6 m (SCM 420 L4) and 6.6 m (SCM 420 L7 ) pushing strokes with 300 of conveyor width",
+          "Automatic and manual operation features",
+          "Automatic serial cutting at 90°",
+          "Manual cutting with location points at 75°,60°,45°,30°,22.5°,15°,90°, both left and right",
+          "Two-hand run safety operation",
+          "Hydro-pneumatic saw feed",
+          "Adjustable saw blade feeding speed",
+          "Turkish, English, Spanish and Russian",
+          "Metric and imperial",
+          "Store up to 50 different lengths",
+          "Easy cutting lists transfer in CSV format with USB or ethernet connection with FTP server",
+          "Preparing cutting lists manually",
+          "Ability to change the cutting list on screen",
+          "Problem solving with remote connection feature",
+          "Units can be converted from Left to Right Hand operation",
+          "Rack and pinion drive mechanism and rigid steel of construction body provide a repeatable cutting accuracy of +/- 0.2 mm providing superior pushing force for heaviest jobs",
+          "Pieces are cut in the order according to the measurement data that is sent from the 3.0 m of digital measuring rod (optional)",
+          "7″ HMI colored touch screen monitor"
+        ]
+      },
+      "technical_data": {
+        "Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "D: Ø420 mm / d: Ø30/32 mm",
+        "Flow Rate": "130 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "113x825x136",
+        "Weight": "450 Kg / 385 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Slicing Machine"
+}

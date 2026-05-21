@@ -1,0 +1,72 @@
+{
+  "slug": "ncr-300-4-axis-nc-controlled-router-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Milling",
+  "diller": {
+    "en": {
+      "name": "NCR 300 - 4 axis NC Controlled Router Machine",
+      "description": "The new concept in numerical controlled (NC) copy routers, this single head copy router has the ability to program X, Y, Z and C coordinates with 4 axis servo - controlled motors. It is used for the processing of slots for locks, drilling handles, hinges, espagnolette holes and opening water drain slot on PVC and aluminium profiles, this means no more template.",
+      "images": [
+        "/images/yilmaz/ncr-300-4-axis-nc-controlled-router-machine_1.jpg",
+        "/images/yilmaz/ncr-300-4-axis-nc-controlled-router-machine_2.jpg",
+        "/images/yilmaz/ncr-300-4-axis-nc-controlled-router-machine_3.jpg",
+        "/images/yilmaz/ncr-300-4-axis-nc-controlled-router-machine_4.jpg",
+        "/images/yilmaz/ncr-300-4-axis-nc-controlled-router-machine_5.jpg",
+        "/images/yilmaz/ncr-300-4-axis-nc-controlled-router-machine_6.jpg",
+        "/images/yilmaz/ncr-300-4-axis-nc-controlled-router-machine_7.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with Ø8 x L120 mm cutter bit",
+          "2 x horizontal and 2 x vertical pneumatic clamps",
+          "Spray tool lubrication system",
+          "Multiple left and right profile stops",
+          "Service spanners (22 mm)",
+          "Collet wrench",
+          "LED lighting equipment",
+          "Extending parts for clamps",
+          "Profile centring apparatus",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Machine having windows based industrial PC and 15’’ LCD touch screen colour monitor",
+          "Barcode reader",
+          "Spare Ø8xL120 carbide, double lip cutter bits",
+          "Spare Ø8xL120 carbide, single lip cutter bits",
+          "Spare Ø8xL63 carbide, single lip cutter bits",
+          "Spare ER16 collets for Ø8 mm of cutter bits"
+        ],
+        "GENERAL FEATURES": [
+          "Designed for the daily operations on PVC, aluminium and low alloy materials to machine four surfaces of them at the same time",
+          "Equipped with servo-controlled table mechanism to stop the turning table and machining the profiles in angles among the 0°/90°/180/270°",
+          "Machinability of profiles up to 2750 mm of length by multi pop-up length stops",
+          "Machining capacity: X: 300 mm, Y: 120 mm, Z: 115 mm",
+          "Profile clamping width (Wmax. / Wmin): 120 X 30 mm",
+          "Profile clamping height (Hmax. / Hmin.): 115 X 30 mm",
+          "Profile clamping length: (Lmax. / L min.): 2750 X 400 mm",
+          "Electronic and pneumatic braking system for detaining falls of head and table",
+          "ER 16 tool collet",
+          "2.2 kW, 3P, 400V Spindle (12.000 RPM)",
+          "PLC control system",
+          "7’’ touch screen colour monitor"
+        ]
+      },
+      "technical_data": {
+        "Power": "5.5 kW/20A / 400V AC 3P+PE / 50/60 Hz.",
+        "Freze Alani": "X: 300 / Y: 120 / Z: 115",
+        "Saw Rotation Speed": "12.000 RPM Ø8 x L120 mm",
+        "Saw Diameter": "---",
+        "Flow Rate": "110 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "163.5x281x218",
+        "Weight": "600 Kg / 520 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Numerical Controlled NC Router"
+}

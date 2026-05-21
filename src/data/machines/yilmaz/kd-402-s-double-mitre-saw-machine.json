@@ -1,0 +1,65 @@
+{
+  "slug": "kd-402-s-double-mitre-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cutting",
+  "diller": {
+    "en": {
+      "name": "KD 402 S-Double Mitre Saw machine",
+      "description": "KD 402 S is designed for the flat or angular cutting operations of large size of profiles made of PVC, aluminium and wooden materials by means of double head sawing units equipped with Ø 400 mm of saw blades.",
+      "images": [
+        "/images/yilmaz/kd-402-s-double-mitre-saw-machine_1.jpg",
+        "/images/yilmaz/kd-402-s-double-mitre-saw-machine_2.jpg",
+        "/images/yilmaz/kd-402-s-double-mitre-saw-machine_3.jpg",
+        "/images/yilmaz/kd-402-s-double-mitre-saw-machine_4.jpg",
+        "/images/yilmaz/kd-402-s-double-mitre-saw-machine_5.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with 2 x Ø 400 mm of saw blades",
+          "Profile support mechanism",
+          "3 x pneumatic horizontal clamps",
+          "2 x pneumatic vertical clamps",
+          "Digital display indicating the cutting length",
+          "Pneumatic spray mist lubrication system",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "VCE 1570 Chip vacuum extractor, reduction & accessories",
+          "Two-step head speed control system (patented)",
+          "Spare saw blade Ø 400 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Two-hand safety operation",
+          "Semi-automatic miter saw with two circular saws designed for flat or angled cutting of PVC, aluminium and wooden materials",
+          "Location points at 0°, 15°, 22.5°, 30° and 45 both left and right",
+          "Pivoting range +45°- 45° inwards and outwards infinitely adjustable",
+          "The left cutting unit is fixed and the right cutting unit is moved manually to its position",
+          "Hydro-pneumatic saw feed",
+          "Manual positioning of sawing heads",
+          "On/off switch for horizontal clamp",
+          "Pressure control valves on the clamps for the adjustment of the profile fixing",
+          "Pneumatic head fixing feature",
+          "The distance between the cutting heads can be adjusted accurately by a digital display",
+          "Max cut length: 3455 mm ,Min cut length: 530 mm",
+          "Power of sawing motors: 2 pcs. x 2.2 kW"
+        ]
+      },
+      "technical_data": {
+        "Power": "4440 W / 400V AC 3P  PE",
+        "Drill Rotation Speed": "2.900 RPM",
+        "Saw Rotation Speed": "2900 RPM",
+        "Saw Diameter": "D: Ø400 mm / d: Ø30-32 mm",
+        "Flow Rate": "46 Lt/min",
+        "Pressure": "6-8 BAR",
+        "Dimensions (cm)": "129x556x144",
+        "Weight": "593 Kg / 482 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Double Head Cutting"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Portable"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi.pdf",
+  "related_products": [
+    "MG 26 Junior",
+    "BT 26",
+    "BT 24x5"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Easy to carry",
+      "Fixed center pin",
+      "220 V / 380 V voltage options",
+      "Digital control panel option",
+      "Stirrup bending capability",
+      "Programmable bending function"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "49 x 60 x 32",
+      "Engine Power kW": "1.5",
+      "Voltage V": "380 / 220",
+      "Weight kg": "95"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 20x1, Ø 14x2",
+      "65 kg/mm2: Ø 18x1, Ø 12x3",
+      "85 kg/mm2: Ø 16x1, Ø 10x4"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "MG 20B",
+      "description": "MG 20B is a portable rebar bending machine for construction-site steel processing.",
+      "images": [
+        "/images/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi.pdf"
+    }
+  }
+}

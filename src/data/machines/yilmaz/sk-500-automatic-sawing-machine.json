@@ -1,0 +1,70 @@
+{
+  "slug": "sk-500-automatic-sawing-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "SK 500 - Automatic Sawing Machine",
+      "description": "SK 500 is designed for the strait cutting operations of the large size of profiles made of PVC and aluminium by means of Ø500 mm of saw blade at 90°. It is ideal for the serial and precise slicing and vertical drilling operations",
+      "images": [
+        "/images/yilmaz/sk-500-automatic-sawing-machine_1.jpg",
+        "/images/yilmaz/sk-500-automatic-sawing-machine_2.png",
+        "/images/yilmaz/sk-500-automatic-sawing-machine_3.jpg",
+        "/images/yilmaz/sk-500-automatic-sawing-machine_4.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "L:2.5 / W:0.5 meter of infeed roller conveyor",
+          "Equipped with saw blade Ø 500 mm",
+          "Spray saw blade lubrication system",
+          "Air gun",
+          "3 x horizontal clamps",
+          "3 x vertical clamps",
+          "Swarf collection tray"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Spare saw blade, Ø 500 mm",
+          "VCE 1570 chip vacuum extractor",
+          "Additional 2.5 meter of outfeed or infeed conveyor",
+          "Connection part for additional 2.5m of conveyor"
+        ],
+        "GENERAL FEATURES": [
+          "Suitable for high-volume slicing of aluminium profiles for window manufacturing and industrial applications",
+          "High precision servo / synchronous motors and internationally recognized components",
+          "Saving of time by means of servo-controlled workpiece infeed speed",
+          "Horizontal and vertical clamping of the workpiece during the sawing operation",
+          "Automatic table retraction feature protects the surface of the workpiece against the scratches that may occur during the downward motion of the saw",
+          "High cutting accuracy by means of the robust mechanical structure",
+          "Single or multi-bar (bundle) cutting features",
+          "Spray saw blade lubrication system",
+          "Large memory capacity for the cutting programs",
+          "The machine shut down automatically after reaching the requested quantity",
+          "Pneumatically opening safety guard",
+          "Remote connection via internet and providing technical support",
+          "Feeding distance per cycle min. 5 – max. 1000 mm",
+          "Min. / max. clamping capacity: Height, H 5mm – H 160mm / Width W 5mm – W 370mm",
+          "Servo controlled drilling unit is possible with SK 500 D model",
+          "Min. cutting lenght: 5 mm",
+          "Power of sawing motor: 4 kW",
+          "Windows based industrial PC and 7″ LCD color touch screen"
+        ]
+      },
+      "technical_data": {
+        "Power": "5.0 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "2.500 RPM",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "D: Ø500 mm / d: Ø30-32 mm",
+        "Flow Rate": "150 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "134x472x138",
+        "Weight": "600 Kg / 540 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Slicing Machine"
+}

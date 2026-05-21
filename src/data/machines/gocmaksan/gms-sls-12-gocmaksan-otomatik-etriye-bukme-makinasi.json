@@ -1,0 +1,119 @@
+{
+  "slug": "gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Steel Factory Solutions",
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Stirrup",
+    "Steel Factory"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi.pdf",
+  "related_products": [],
+  "specs": {
+    "TECHNICAL DATA": {
+      "Double Strand Processing Wire Diameter": "6-8-10-12mm / #2 - #3 - #4",
+      "Bending Type": "2d",
+      "Driving System": "PNEUMATIC",
+      "Driving Motor Power": "SERVO MOTOR 11 kw / 15 HP",
+      "Driving Speed": "120 meter/min 394 ft / Min",
+      "Bending Motor Power": "SERVO MOTOR 4 kw / 5.5 HP",
+      "Bending Speed": "1250° /second",
+      "Cutting Motor Power": "AC~ MOTOR 3 kw / 4.02 HP",
+      "Length Tolerance": "± 1-2 mm / 0.039 - 0.078 inch",
+      "Bending Tolerance": "± 1°",
+      "Compressor Needed": "YES Each Size",
+      "Working Pressure (Bar)": "8-10 Bar / 116 -145 PSI",
+      "Voltage": "380 V 3 phase / 50- 60 hz (optional)",
+      "Driving Gearbox": "Industrial type Set",
+      "Control Panel Type": "HMI screen 15 inch",
+      "Machine Dimensions": "1710 x 5000 x 2340 mm / 67.32 x 197 x 93 inch",
+      "Machine Weight": "3000 kg / 6613 lbs",
+      "Decoiler Weight": "1000 kg / 2204 lbs Steel",
+      "Language": "English (Different languages are available upon request)",
+      "HS Code": "846229000000 Control Panel 1",
+      "Bending Capacity": "2x6mm 2x8mm 2x10mm 2x12mm"
+    },
+    "SUPPLIED EQUIPMENT": [
+      "Stirrup Head: 6-8-10-12mm",
+      "2 Knives For Each Measure: 6-8-10-12mm",
+      "Bending Pin: 1 Pcs Standard Type",
+      "Bending Pin: 1 Piece Spiral Type",
+      "Allen Key Set: From 2.5 to 10 mm",
+      "Key Set: From 6 to 30 mm",
+      "screwdriver: 1 Team",
+      "Grease Pump: 1 Piece",
+      "Protective Gloves: 1 Piece",
+      "Work Vest: 1 Piece",
+      "Steel Dowel: 16M 16x150mm",
+      "Tote: 2 Piece",
+      "Control Panel: 1 Piece",
+      "Foot Pedal: 1 Piece"
+    ],
+    "FEATURED FEATURES": [
+      "Touchscreen control panel",
+      "Intelligent software",
+      "Pneumatic safety door",
+      "Emergency stop system",
+      "Foot pedal assistance",
+      "Ergonomic machine access",
+      "Decoiler supplied with the machine"
+    ],
+    "CAPACITIES": [
+      "2x6mm",
+      "2x8mm",
+      "2x10mm",
+      "2x12mm"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "SLS 12",
+      "description": "SLS 12 is an automatic stirrup bending machine for steel factory production.",
+      "images": [
+        "/images/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi_1.webp",
+        "/images/gocmaksan/sls-12_2.png",
+        "/images/gocmaksan/sls-12_3.png",
+        "/images/gocmaksan/sls-12_4.png",
+        "/images/gocmaksan/sls-12_5.png",
+        "/images/gocmaksan/sls-12_6.png",
+        "/images/gocmaksan/sls-12_7.png",
+        "/images/gocmaksan/sls-12_8.png",
+        "/images/gocmaksan/sls-12_9.png",
+        "/images/gocmaksan/sls-12_10.png",
+        "/images/gocmaksan/sls-12_11.png",
+        "/images/gocmaksan/sls-12_12.png",
+        "/images/gocmaksan/sls-12_13.png",
+        "/images/gocmaksan/sls-12_14.png",
+        "/images/gocmaksan/sls-12_15.png",
+        "/images/gocmaksan/sls-12_16.png",
+        "/images/gocmaksan/sls-12_17.png",
+        "/images/gocmaksan/sls-12_18.png",
+        "/images/gocmaksan/sls-12_19.png",
+        "/images/gocmaksan/sls-12_20.png",
+        "/images/gocmaksan/sls-12_21.png",
+        "/images/gocmaksan/sls-12_22.png",
+        "/images/gocmaksan/sls-12_23.png",
+        "/images/gocmaksan/sls-12_24.png",
+        "/images/gocmaksan/sls-12_25.png",
+        "/images/gocmaksan/sls-12_26.png",
+        "/images/gocmaksan/sls-12_27.png",
+        "/images/gocmaksan/sls-12_28.png",
+        "/images/gocmaksan/sls-12_29.png",
+        "/images/gocmaksan/sls-12_30.png",
+        "/images/gocmaksan/sls-12_31.png",
+        "/images/gocmaksan/sls-12_32.png",
+        "/images/gocmaksan/sls-12_33.png",
+        "/images/gocmaksan/sls-12_34.png",
+        "/images/gocmaksan/sls-12_35.png",
+        "/images/gocmaksan/sls-12_36.png",
+        "/images/gocmaksan/sls-12_37.png",
+        "/images/gocmaksan/sls-12_38.png",
+        "/images/gocmaksan/sls-12_39.png",
+        "/images/gocmaksan/sls-12_40.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi.pdf"
+    }
+  }
+}

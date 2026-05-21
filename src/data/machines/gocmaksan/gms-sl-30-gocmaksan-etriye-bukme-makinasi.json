@@ -1,0 +1,50 @@
+{
+  "slug": "gms-sl-30-gocmaksan-etriye-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Stirrup"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi.pdf",
+  "related_products": [
+    "SL 36"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Automatic repeat without changing angle",
+      "Fixed hub",
+      "Easy fixing",
+      "Powerful reducer speed",
+      "Patented daisy-pattern center hole",
+      "Programmable bending function"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "75 x 76 x 88",
+      "Engine Power kW": "3",
+      "Voltage V": "380",
+      "Weight kg": "275"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 30x1, Ø 16x2",
+      "65 kg/mm2: Ø 24x1, Ø 14x2",
+      "85 kg/mm2: Ø 22x1, Ø 12x2"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "SL 30",
+      "description": "SL 30 is a stirrup bending machine for fast and repeatable rebar shaping.",
+      "images": [
+        "/images/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi_1.webp",
+        "/images/gocmaksan/sl-30_2.png",
+        "/images/gocmaksan/sl-30_3.png",
+        "/images/gocmaksan/sl-30_4.png",
+        "/images/gocmaksan/sl-30_5.png",
+        "/images/gocmaksan/sl-30_6.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi.pdf"
+    }
+  }
+}

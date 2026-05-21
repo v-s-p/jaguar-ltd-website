@@ -1,0 +1,58 @@
+{
+  "slug": "gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Steel Factory Solutions",
+    "Bending Machines"
+  ],
+  "subcategory": [
+    "Spiral",
+    "Steel Factory"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi.pdf",
+  "related_products": [],
+  "specs": {
+    "TECHNICAL DATA": {
+      "Bending motor": "5.5 KW",
+      "Roller Motor": "3 KW",
+      "Supporting Roller Motor": "1,5 KW",
+      "Weight": "1140kg",
+      "Machine Dimensions": "92x160x160 cm"
+    },
+    "CAPACITIES": [
+      "Ø 50: 1",
+      "Ø 40: 1",
+      "Ø 32: 1",
+      "Ø 26: 2",
+      "Ø 20: 3",
+      "80 x 20: 1",
+      "100x10: 1",
+      "60 x 15: 1"
+    ],
+    "FEATURED FEATURES": [
+      "Spiral bending up to 50 mm",
+      "Flat steel bending support",
+      "Powered bending rollers",
+      "Supporting bending conveyor"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "Axis 50S",
+      "description": "Axis 50S is a spiral bending machine for steel factory and heavy rebar applications.",
+      "images": [
+        "/images/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi_1.webp",
+        "/images/gocmaksan/axis-50s_2.png",
+        "/images/gocmaksan/axis-50s_3.png",
+        "/images/gocmaksan/axis-50s_4.png",
+        "/images/gocmaksan/axis-50s_5.png",
+        "/images/gocmaksan/axis-50s_6.png",
+        "/images/gocmaksan/axis-50s_7.png",
+        "/images/gocmaksan/axis-50s_8.png",
+        "/images/gocmaksan/axis-50s_9.png",
+        "/images/gocmaksan/axis-50s_10.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi.pdf"
+    }
+  }
+}

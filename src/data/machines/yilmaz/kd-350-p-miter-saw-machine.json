@@ -1,0 +1,54 @@
+{
+  "slug": "kd-350-p-miter-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cutting",
+  "diller": {
+    "en": {
+      "name": "KD 350 PS - Miter Saw Machine",
+      "description": "KD 350D and KD 350PS Miter saw cutting machines are designed for straight and angular cutting of PVC, aluminium and wooden profiles",
+      "images": [
+        "/images/yilmaz/kd-350-p-miter-saw-machine_1.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Ø 350 mm saw blade",
+          "2 x manual horizontal clamps (KD 350 D)",
+          "2 x pneumatic horizontal clamps (KD 350 PS)",
+          "Air gun (KD 350 PS)",
+          "Saw blade cooling system (KD 350 PS)"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Additional saw blade, Ø 350 mm",
+          "2 x pneumatic vertical clamps (KD 350 PS)",
+          "MKN 300 length stop-right (3m)",
+          "MKN 300 length stop-left (3m)",
+          "DKN 302 length stop-right (3m)",
+          "DKN 602 length stop-left (6m)",
+          "Spare saw blade, Ø 350 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Location points at 45°-30°-22.5°-15°-0° both left and right",
+          "Pivoting range from 45° left to 45° right infinitely adjustable",
+          "Aluminium construction of body and machine stand made of steel sheet",
+          "Robust mechanical construction enables the ease of adjustment for the requested cutting angles",
+          "Strong spring system and protective shield"
+        ]
+      },
+      "technical_data": {
+        "Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "D: Ø350 mm / d: Ø30-32 mm",
+        "Flow Rate": "7 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "72x76x157",
+        "Weight": "134 Kg / 123 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Single Head Cutting"
+}

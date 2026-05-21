@@ -1,0 +1,71 @@
+{
+  "slug": "aim-4420",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Processing Centers",
+  "diller": {
+    "en": {
+      "name": "AIM 4420",
+      "description": "",
+      "images": [
+        "/images/yilmaz/aim-4420_1.jpg",
+        "/images/yilmaz/aim-4420_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "CAMPROX software program for CNC programming",
+          "Keyboard & mouse set for programming",
+          "Safety fence around the machine",
+          "4 x pneumatic profile clamps",
+          "2 x pneumatic rests",
+          "Chip pan in the machine frame"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Cutter tools, tool holders and collets set",
+          "CAD-EXTRACT software program for working on IGES files",
+          "Automatic tool length measurement device",
+          "Chip removal conveyor belt",
+          "Special saw blade kit",
+          "Hand-held controller",
+          "2 x additional clamps",
+          "Barcode reader"
+        ],
+        "GENERAL FEATURES": [
+          "It is designed to make operations on three surfaces of the profiles such as hole, slot, corner relieve, saw cutting, tapping, flow drilling etc.",
+          "With its dual station operation feature, it can process two workpieces with one program without interruption. (AIM 7420 or AIM 7420T models)",
+          "Automation system providing CNC motion at 4-axis",
+          "11 set magazine unit including cutter sets and saw blade with 180 mm diameter",
+          "Flow drilling and rigid tapping feature from M4 to M10 with encoder spindle (AIM 4720T model)",
+          "Automatic clamp recognition and positioning fature is available",
+          "Special sound insulation cabinet around the machining unit",
+          "PLC controlled 2-output tool cooling unit",
+          "4 pc of automatic clamps for AIM 4420 and 8 pc. for AIM 7420 are used to catch the workpieces. (the number of clamps can be increased optionally)",
+          "2 x pneumatic rests used for resetting the workpiece in X direction",
+          "21’’ colour touch screen",
+          "Program import via USB flash memory stick",
+          "Technical support via remote connection capability (via computer)",
+          "Standard ISO ‘G’ code programming language",
+          "Optimum operational safety guaranteed by 3-zone field scanner system",
+          "Cartridge lubrication system for X, Y and Z axes",
+          "Multi-language support",
+          "LED lighting in the cabinet"
+        ]
+      },
+      "technical_data": {
+        "Power": "18 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "3.000 RPM",
+        "Saw Rotation Speed": "20.000 RPM",
+        "Saw Diameter": "D: Ø180 mm / d: Ø30-32 mm",
+        "Flow Rate": "250 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "180x590x275",
+        "Weight": "3.050 Kg / 2.850 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Profile Machining and Cutting Center"
+}

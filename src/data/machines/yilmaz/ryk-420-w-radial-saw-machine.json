@@ -1,0 +1,57 @@
+{
+  "slug": "ryk-420-w-radial-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "RYK 420 W - Radial Saw Machine",
+      "description": "RYK 420 W Radial Saw Machine is designed for the strait or angular cutting operations of the large size of materials made of PVC, teflon, bakelite or wood.\r\nRYK 420 W allows straight and angular cuttings by means of the pivoting and tilting head",
+      "images": [
+        "/images/yilmaz/ryk-420-w-radial-saw-machine_1.png",
+        "/images/yilmaz/ryk-420-w-radial-saw-machine_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with Ø 420 mm saw blade for wood and PVC cutting operations",
+          "Air gun",
+          "2 x pneumatic vertical clamp",
+          "Laser marking indicating the cutting line",
+          "Brake unit working with motor stop button",
+          "Digital display for ease adjustment of pivoting angle"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Hydraulic control unit for saw head feed rate",
+          "Special miter for longitudinal cutting operations",
+          "DKN 602 length stop",
+          "Connection kit for DKN and MKN length stops",
+          "Spare saw blade for PVC and wood cutting, Ø 420 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Performing of different cutting operations are possible by means of the pivoting and tilting features",
+          "Powerful cutting operations by means of the 2.2 kW 3000 RPM motor",
+          "Smooth movement, high precision and great sensitivity provided with gas spring, linear bearings and ergonomic handle",
+          "Cast iron construction of the body that is strong and lasting",
+          "Robust mechanical construction enables the ease of adjustment for the requested cutting angles",
+          "Location points at 15°-22,5°-30°-45°-60°-90° both left and right",
+          "Pivoting range from 45° right to 60° left infinitely adjustable",
+          "Tilting range from 90° to 45° left"
+        ]
+      },
+      "technical_data": {
+        "Power": "2.2 kW /4.7A / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "D: Ø420 mm / d: Ø30/32 mm",
+        "Flow Rate": "24 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "184x76x159",
+        "Weight": "255 Kg / 202 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Radial Cutting"
+}

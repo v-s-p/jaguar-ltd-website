@@ -1,0 +1,66 @@
+{
+  "slug": "ack-700-up-cutting-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "ACK 700 - Up-Cutting Saw Machine",
+      "description": "ACK 700 is designed for the strait or angular cutting operations of the large size of profiles made of PVC and aluminium materials by means of Ø 700 mm of saw blade.",
+      "images": [
+        "/images/yilmaz/ack-700-up-cutting-saw-machine_1.jpg",
+        "/images/yilmaz/ack-700-up-cutting-saw-machine_2.jpg",
+        "/images/yilmaz/ack-700-up-cutting-saw-machine_3.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with saw blade Ø 700 mm and 4 Kw motor",
+          "Spray saw blade lubrication system",
+          "MKN 301 roller conveyor (3 m)",
+          "2 x vertical and 2 x horizontal clamps",
+          "Air gun",
+          "2 x in-feed & out-feed tunnels for operator safety",
+          "Swarf Manifold-Top and Bottom",
+          "Safety PLC in the electrical cabinet for the emergency stop, top & bottom covers locking switch, air pressure, saw blade home position and phase monitoring."
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Laser marker indicating the cutting line",
+          "Spare saw blade, Ø 700 mm",
+          "VCE 1570 chip vacuum extractor",
+          "DKN 302 length stop",
+          "DKN 602 length stop",
+          "SKN 300 length stop",
+          "SKN 600 length stop",
+          "HDL 400 length stop",
+          "HDL 700 length stop"
+        ],
+        "GENERAL FEATURES": [
+          "Two-hand run safety operation",
+          "Location points at 75°,60°,45°,30°,22.5°,15°,0° both left and right",
+          "Pivoting range from -75° left to +75° right infinitely adjustable",
+          "Hydro-pneumatic saw feed",
+          "Adjustable saw blade feeding speed",
+          "Interior LED lighting",
+          "Pneumatically opening safety guard",
+          "Safety locking switches on top guard and front doors",
+          "Double acting clamps for operator safety"
+        ]
+      },
+      "technical_data": {
+        "Power": "4.0 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "1.950 RPM",
+        "Saw Rotation Speed": "1950 RPM",
+        "Saw Diameter": "Ø700/Ø38 mm",
+        "Flow Rate": "180 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "152x459x160",
+        "Weight": "560 Kg / 500 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Single Head Cutting"
+}

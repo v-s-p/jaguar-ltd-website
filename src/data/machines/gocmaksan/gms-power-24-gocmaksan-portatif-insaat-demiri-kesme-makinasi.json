@@ -1,0 +1,51 @@
+{
+  "slug": "gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Cutting Machines"
+  ],
+  "subcategory": [
+    "Portable"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi.pdf",
+  "related_products": [],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Portable construction-site design",
+      "Easy to carry",
+      "Hydraulic cutting system",
+      "220 V / 380 V voltage options",
+      "Digital control panel option",
+      "Quick maintenance and spare parts access"
+    ],
+    "TECHNICAL DATA": {
+      "W - L - H cm": "53x79x73",
+      "Voltage V": "380 / 220",
+      "Engine Power kW": "2.2",
+      "Weight kg": "90",
+      "Hid. Oil. Cape kg": "7"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 24x1, Ø 12x4",
+      "65 kg/mm2: Ø 20x1, Ø 10x3",
+      "85 kg/mm2: Ø 16x1, Ø 8x4"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "Power 24",
+      "description": "Power 24 is a portable hydraulic rebar cutting machine for construction-site use.",
+      "images": [
+        "/images/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi_1.webp",
+        "/images/gocmaksan/power-24_2.png",
+        "/images/gocmaksan/power-24_3.png",
+        "/images/gocmaksan/power-24_4.png",
+        "/images/gocmaksan/power-24_5.png",
+        "/images/gocmaksan/power-24_6.png",
+        "/images/gocmaksan/power-24_7.png",
+        "/images/gocmaksan/power-24_8.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi.pdf"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "kd-400-p-miter-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "KD 400 PS - Miter Saw Machine",
+      "description": "KD 400 PS Miter saw cutting machines are designed for straight and angular cutting of PVC, aluminium and wooden profiles.",
+      "images": [
+        "/images/yilmaz/kd-400-p-miter-saw-machine_1.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Ø 400 mm saw blade",
+          "2 x manual horizontal clamps (KD 400 D)",
+          "2 x pneumatic horizontal clamps (KD 400 PS)",
+          "Air gun (KD 400 PS)",
+          "Spray saw blade lubrication system (KD 400 PS)"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "2 x pneumatic vertical clamps (KD 400 PS)",
+          "MKN 300 length stop-right (3m)",
+          "MKN 300 length stop-left (3m)",
+          "DKN 302 length stop-right (3m)",
+          "DKN 602 length stop-left (6m)",
+          "Spare saw blade, Ø 400 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Location points at 45°-30°-22.5°-15°-0° both left and right",
+          "Pivoting range from 45° left to 45° right infinitely adjustable",
+          "Aluminium construction of the body and machine stand made of steel sheet",
+          "Robust mechanical construction enables the ease of adjustment for the requested cutting angles",
+          "Strong spring system and protective shield"
+        ]
+      },
+      "technical_data": {
+        "Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "2900 RPM D",
+        "Saw Diameter": "D:Ø400 mm / d: Ø30/32 mm",
+        "Flow Rate": "7 L/min",
+        "Pressure": "6-8 BAR",
+        "Dimensions (cm)": "86x76x160",
+        "Weight": "137 Kg / 115 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Single Head Cutting"
+}

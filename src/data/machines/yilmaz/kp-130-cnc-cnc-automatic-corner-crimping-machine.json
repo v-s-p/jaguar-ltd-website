@@ -1,0 +1,61 @@
+{
+  "slug": "kp-130-cnc-cnc-automatic-corner-crimping-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Corner Crimping",
+  "diller": {
+    "en": {
+      "name": "KP 130 CNC - CNC Automatic Corner Crimping Machine",
+      "description": "KP 130 CNC machine is designed and constructed for the crimping and correct assembly of aluminum profiles to each other. It is a fully CNC-controlled machine. The machine is controlled by an electronic system that can memorize the pressing data for any profile (the points at which the profile will be crimped)",
+      "images": [
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_1.png",
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_2.png",
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_3.png",
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_4.jpg",
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_5.jpg",
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_6.png",
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_7.jpg",
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_8.png",
+        "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_9.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "1 set of 3 mm, 1 set of 5 mm and 1 set of 7 mm crimping knives",
+          "2x pneumatic vertical clamps",
+          "2x profil support arms",
+          "2x allen key (4 and 5 mm)",
+          "Bracing clamps with 20 mm and 30 mm of thickness"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Special crimping knives",
+          "Uninterrupted Power Suply (UPS) ARMY-800VA"
+        ],
+        "GENERAL FEATURES": [
+          "It is designed through the CNC crimping system",
+          "Cast iron construction of the body that is strong and lasting",
+          "Magnetic tool gripping system that is adjustable according to the shape and height of the profiles",
+          "CNC control system ensuring the automatic positioning of reference fork of the profile and of the crimping tools",
+          "Special millimeter of scale that allows reading of the positioning value of the knives",
+          "Simultaneous stroke of crimping heads",
+          "Double-acting stroke of bracing clamp appears from the table",
+          "Support arms on the left and right of the machine",
+          "The machine is equiped with the foot pedals for the operation control during the machining cycle",
+          "Hydraulically working 90° of bracing clamp for inner corner",
+          "Operator safety guard",
+          "Maximum crimping height: 120 mm",
+          "Maximum profile clamping height H 140 mm"
+        ]
+      },
+      "technical_data": {
+        "Power": "150 W 2 Amp / 220-230V 50 Hz",
+        "Dimensions (cm)": "160X234X160",
+        "Weight": "630 / 580"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "CNC Automatic Corner Crimping"
+}

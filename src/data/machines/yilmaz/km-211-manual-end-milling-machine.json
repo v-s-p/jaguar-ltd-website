@@ -1,0 +1,55 @@
+{
+  "slug": "km-211-manual-end-milling-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "End Milling",
+  "diller": {
+    "en": {
+      "name": "KM 211 S - Manual End Milling Machine",
+      "description": "Machine which works manually, ideal for end milling operations on aluminium profiles precisely",
+      "images": [
+        "/images/yilmaz/km-211-manual-end-milling-machine_1.jpg",
+        "/images/yilmaz/km-211-manual-end-milling-machine_2.jpg",
+        "/images/yilmaz/km-211-manual-end-milling-machine_3.jpg",
+        "/images/yilmaz/km-211-manual-end-milling-machine_4.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "1 x pneumatic vertical clamp",
+          "1 x pneumatic horizontal clamp",
+          "Spray tool lubrication system",
+          "Air gun"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Milling cutter set",
+          "RS 1000 Profile support"
+        ],
+        "GENERAL FEATURES": [
+          "High quality end-milling operations by the manual operation",
+          "Safety operations with top guard",
+          "Practical cutter adjustment thanks to the gap parts",
+          "Fixing the workpiece firmly thanks to the pneumatic vertical and horizontal clamps",
+          "Robust machine stand",
+          "Profile clamping capacity: H:160 x W:150 mm",
+          "Max. end-milling capacity: H:90 x W:70 mm",
+          "Maximum cutter diameter (D x d): Ø170 x Ø30 mm"
+        ]
+      },
+      "technical_data": {
+        "Power": "1200 W / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "3.000 RPM",
+        "Saw Rotation Speed": "3000 RPM",
+        "Saw Diameter": "DMax: Ø170 mm / d: Ø30 mm",
+        "Flow Rate": "14 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "44x74x116",
+        "Weight": "66 Kg / 61 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Semi Automatic End Milling"
+}

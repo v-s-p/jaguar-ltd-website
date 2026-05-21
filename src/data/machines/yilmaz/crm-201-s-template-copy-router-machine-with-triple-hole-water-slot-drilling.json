@@ -1,0 +1,65 @@
+{
+  "slug": "crm-201-s-template-copy-router-machine-with-triple-hole-water-slot-drilling",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Milling",
+  "diller": {
+    "en": {
+      "name": "CRM 201 S - Template Copy Router Machine with Triple Hole & Water Slot Drilling",
+      "description": "It is used for the processing of slots for locks, drilling handles, triple, hinges, espagnolette holes and opening water drain slot on PVC and aluminium profiles CRM 201S Template copy router with triple holes and water slot drilling features.",
+      "images": [
+        "/images/yilmaz/crm-201-s-template-copy-router-machine-with-triple-hole-water-slot-drilling_1.jpg",
+        "/images/yilmaz/crm-201-s-template-copy-router-machine-with-triple-hole-water-slot-drilling_2.jpg",
+        "/images/yilmaz/crm-201-s-template-copy-router-machine-with-triple-hole-water-slot-drilling_3.jpg",
+        "/images/yilmaz/crm-201-s-template-copy-router-machine-with-triple-hole-water-slot-drilling_4.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with tools for copy routing and water drain operations (1 pc. x Ø5xL80 mm and 1 pc. x Ø5xL60 mm)",
+          "•Equipped with tools for triple drilling mechanism (2pc.X ø10 mm, 1pc. X ø13 mm)",
+          "Air gun",
+          "2 x profile stops both left and right",
+          "Spray tool lubrication system",
+          "2x horizontal clamps",
+          "2x vertical clamps"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Spare Ø5xL80 mm cutter bit (for copy routing operations)",
+          "Spare Ø5xL60 mm cutter bit (for water drain operations)",
+          "Spare collets for Ø5 mm of cutter bit",
+          "Spare Ø10 mm cutter bit (for triple drilling operations)",
+          "Spare Ø13 mm cutter bit (for triple drilling operations)",
+          "Special copy templates"
+        ],
+        "GENERAL FEATURES": [
+          "Copy mechanism operates manually and the figures on the template are machined at 1:1 ratio",
+          "The aluminium profiles up to 3 mm of wall thickness can be machined with a strong spindle motor",
+          "The cutting fluid controlled with a joystick is sprayed to the milling spot",
+          "Slots in varied lengths and widths can be opened without using the copy milling template",
+          "The length of the water drain slot is adjustable on the template",
+          "Copy milling motor is directly controlled via joystick",
+          "Reference stops at 2 sides of the milling machine",
+          "Standard equipped with inlet-outlet profile supports",
+          "Ergonomic hand control unit",
+          "On the horizontal axis there is triple hole drilling mechanism",
+          "Pneumatically working water slot opening system",
+          "Equipped with whole cutter bits"
+        ]
+      },
+      "technical_data": {
+        "Power": "2.2 kW / 230V AC 1P+N+PE / 50/60Hz.",
+        "Saw Rotation Speed": "Ø5xL60 / 5xL80 / 900 RPM",
+        "Saw Diameter": "Ø5xL60 / Ø5xL80",
+        "Flow Rate": "24 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "70.5x254x156.5",
+        "Weight": "170 Kg / 130 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Template Copy Router"
+}

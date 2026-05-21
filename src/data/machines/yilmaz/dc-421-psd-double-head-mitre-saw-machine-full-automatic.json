@@ -1,0 +1,66 @@
+{
+  "slug": "dc-421-psd-double-head-mitre-saw-machine-full-automatic",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cutting",
+  "diller": {
+    "en": {
+      "name": "DC 421 PSD - Double Head Mitre Saw Machine (Full Automatic)",
+      "description": "DC 421 PSD is a fully automatic sawing machine that is designed for the strait or angular cutting operations of large size of profiles made of PVC and aluminium materials by means of double head sawing units equipped with Ø 420 mm of saw blades",
+      "images": [
+        "/images/yilmaz/dc-421-psd-double-head-mitre-saw-machine-full-automatic_1.png",
+        "/images/yilmaz/dc-421-psd-double-head-mitre-saw-machine-full-automatic_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "2 x Ø 420 mm of saw blades",
+          "Roller conveyor & 2 x pneumatic profile supports",
+          "Spray saw blade lubrication system",
+          "4 x horizontal clamps",
+          "Air gun",
+          "2 x pneumatic vertical clamps"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "DKN 70 short cut system (digital)",
+          "DKN 71 short cut system (with ruler)",
+          "VCE 1570 Chip vacuum extractor",
+          "Barcode printer",
+          "DKN 80 Arrow Cut System for mullion profiles",
+          "Spare saw blade, Ø 420",
+          "Mould heights for special profiles",
+          "RS 1000 Profile support foot",
+          "Machine with the length of 5 m",
+          "Machine with the length of 6 m"
+        ],
+        "GENERAL FEATURES": [
+          "Two-hand safety operation",
+          "Tilting automatically to 90° and 45° inwards for both angles and manual adjustment of other intermediate angles from 90° to 45° inwards",
+          "Automatic slicing feature at 90° and 45° inward",
+          "Hydro-pneumatic saw blade feed",
+          "Cutting accuracy +/- 0.2 mm",
+          "Solid steel construction of the body",
+          "Automatically closing safety guards",
+          "9'' touch screen operator panel",
+          "Cutting list transfer with 'csv' format via USB",
+          "Obtains profile cutting dimensions and angles from the cut list while working in automatic mode",
+          "The power of sawing motors: 2 pcs. X 2.2 kW"
+        ]
+      },
+      "technical_data": {
+        "Power": "5 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Drill Rotation Speed": "2.900 RPM",
+        "Saw Rotation Speed": "2900 RPM",
+        "Saw Diameter": "D: Ø420 mm / d: Ø30-32 mm",
+        "Flow Rate": "160 L/min",
+        "Pressure": "---",
+        "Dimensions (cm)": "145x451x167",
+        "Weight": "949 Kg / 830 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Double Head Cutting"
+}

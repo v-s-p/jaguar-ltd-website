@@ -1,0 +1,67 @@
+{
+  "slug": "pim-6509-pvc-profile-processing-center",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Processing Center",
+  "diller": {
+    "en": {
+      "name": "PIM 6509 - PVC Profile Processing Center",
+      "description": "PIM 6509 is 8-axis CNC controlled machining center which is specifically designed to process any kind of PVC profiles in the market. The machine can do all operations on four sides of PVC profiles such as milling, opening key holes, water slots, hinge holes, handle holes, marking, saw blade cutting etc. PIM 6509 has the programming feature which provides minimum waste and maximum amount of production. 7 pieces of PVC profiles can be placed on the feeding conveyor of the machine and 3-axis pneumatic gripper moves them into the milling & cutting center for the milling and cutting operations. Operator attaches barcodes on the processed profiles to make them ready for welding operation.",
+      "images": [
+        "/images/yilmaz/pim-6509-pvc-profile-processing-center_1.jpg",
+        "/images/yilmaz/pim-6509-pvc-profile-processing-center_2.jpg",
+        "/images/yilmaz/pim-6509-pvc-profile-processing-center_3.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Total of 11 tools, consisting of milling and drilling cutters",
+          "Barcode printer",
+          "Safety fence around the machine",
+          "Keyboard & mouse"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Angled swarf conveyor",
+          "Workshop logistic equipment (see the tech. document)",
+          "Spare Ø 550 mm saw blade",
+          "Spare cutter bits  (see the tech. document)",
+          "VCE 4000 Chip vacuum extractor"
+        ],
+        "GENERAL FEATURES": [
+          "Servo control system providing CNC motion at 8-axis",
+          "Fully automated feeding, carrying, positioning, cutting and transferring units",
+          "Performing operations on four sides of PVC profiles such as milling, opening key holes, water slots, hinge holes, handle holes, marking, saw blade cutting etc.",
+          "Pneumatic gripper for accurate positioning of the profile moving in three axes",
+          "Horizontal and vertical clamping of workpiece during the sawing operation",
+          "Profile processing capaticy with 2200 – 2400 running meter / 8 hours",
+          "Automatic conveyor unit with the loading capacity of 7 pcs of profiles",
+          "Servo controlled down-cutting saw blade with Ø 550 mm dia. that rotates between the range of 30° and 150°",
+          "Simultaneous optimization on the machine allows the machine to optimize itself on the waste profiles",
+          "Remote desktop connection and providing technical support",
+          "User friendly interface software that is compatible with CAD programs",
+          "Ability to perform milling and cutting operations at the same time",
+          "Easy integration with the CNC welding, corner cleaning and screwing machines",
+          "Automatic frame and sash profile recognition system",
+          "Automatic frame and sash profile recognition system that comes from database",
+          "Automatic lubrication system",
+          "Low pressure control for saw blade safety operations",
+          "Dynamic optimization program to minimize the profile waste rate",
+          "Windows based PC and 15.6'' LCD touch screen monitor",
+          "LED interior lighting"
+        ]
+      },
+      "technical_data": {
+        "Drill Rotation Speed": "2.440 RPM",
+        "Saw Rotation Speed": "18.000 RPM",
+        "Saw Diameter": "D: Ø550 mm / d: Ø30 mm",
+        "Flow Rate": "250 L/min.",
+        "Dimensions (cm)": "279x1.344x231",
+        "Weight": "3.650 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Profile Cutting & Machining Center"
+}

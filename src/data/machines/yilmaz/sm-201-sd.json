@@ -1,0 +1,56 @@
+{
+  "slug": "sm-201-sd",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Screwdriving",
+  "diller": {
+    "en": {
+      "name": "SM 201 SD",
+      "description": "Used for screwing of reinforcement steel and drilling montage drills on the PVC door and window profiles fast and precisely\nThe PVC profile with the reinforcement steel inserted is manually driven into the screwing unit table and the screwing and drilling processes are started with the pedal respectively. Profile forward movement is done manually until the screwing and drilling processes are completed",
+      "images": [
+        "/images/yilmaz/sm-201-sd_1.jpg",
+        "/images/yilmaz/sm-201-sd_2.png",
+        "/images/yilmaz/sm-201-sd_3.jpg",
+        "/images/yilmaz/sm-201-sd_4.png",
+        "/images/yilmaz/sm-201-sd_5.jpg",
+        "/images/yilmaz/sm-201-sd_6.jpg",
+        "/images/yilmaz/sm-201-sd_7.jpg",
+        "/images/yilmaz/sm-201-sd_8.jpg",
+        "/images/yilmaz/sm-201-sd_9.jpg",
+        "/images/yilmaz/sm-201-sd_10.jpg",
+        "/images/yilmaz/sm-201-sd_11.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Profile support arms on the left and right sides"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Ability of reinforcement steel screwing and opening montage drills on the PVC profiles",
+          "Foot pedal operation for both screwing and drilling processes",
+          "Automatic screw feeding unit",
+          "Screwing force and point are adjustable for various kinds of profiles and their models",
+          "Long-lasting use and easy change of the bit",
+          "Automatic stop after finishing screwing",
+          "Safety key to prevent misuse",
+          "Special, adjustment key for the height of screw",
+          "Fixes the material firmly by automatic clamps to prevent movement during screwing",
+          "Adjustable resting distance for the supported type of profiles",
+          "Profile support arms on the left and right sides",
+          "Mechanical sensor on the head guarantees an optimum screwing process",
+          "Screw feed speed approx. 1.7 sec./pc.",
+          "Recommended reinforcement sheet thickness max. 3.0 mm"
+        ]
+      },
+      "technical_data": {
+        "Profil": "Hmin:40mm / Hmax:160mm / Wmin:40mm / Wmax:165 mm",
+        "Weight": "132 Kg / 100 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Single Head Reinforcement Steel Screwdriver"
+}

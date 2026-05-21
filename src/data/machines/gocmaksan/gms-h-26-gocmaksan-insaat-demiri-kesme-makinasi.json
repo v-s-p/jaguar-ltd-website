@@ -1,0 +1,59 @@
+{
+  "slug": "gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Cutting Machines"
+  ],
+  "subcategory": [
+    "Standard"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
+  "related_products": [
+    "H 36S",
+    "H 55",
+    "H 38S",
+    "H 45S"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Hydraulic system",
+      "Adjustable blade support",
+      "Low maintenance costs",
+      "Long-lasting use",
+      "Reinforced steel body",
+      "Quiet, safe, and environmentally friendly operation"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "54 x 100 x 78",
+      "Engine Power kW": "2.2",
+      "Frequency Hz": "50",
+      "Voltage V": "380",
+      "Weight kg": "120",
+      "Hydraulic Oil Tank Capacity lt": "7"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 36x1, Ø 22x2",
+      "65 kg/mm2: Ø 29x1, Ø 19x2",
+      "85 kg/mm2: Ø 22x1, Ø 16x2"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "H 26",
+      "description": "H 26 is a hydraulic rebar cutting machine for construction-site steel processing.",
+      "images": [
+        "/images/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi_1.webp",
+        "/images/gocmaksan/h-26_2.png",
+        "/images/gocmaksan/h-26_3.png",
+        "/images/gocmaksan/h-26_4.png",
+        "/images/gocmaksan/h-26_5.png",
+        "/images/gocmaksan/h-26_6.png",
+        "/images/gocmaksan/h-26_7.png",
+        "/images/gocmaksan/h-26_8.png",
+        "/images/gocmaksan/h-26_9.png",
+        "/images/gocmaksan/h-26_10.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
+    }
+  }
+}

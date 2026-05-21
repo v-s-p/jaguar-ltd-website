@@ -1,0 +1,77 @@
+{
+  "slug": "ack-420-s-up-cutting-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "ACK 420 S - Up-Cutting Saw Machine",
+      "description": "ACK 420 S is designed for the strait or angular cutting operations of the large size of profiles made of PVC and aluminium materials by means of Ø 420 mm of saw blade.",
+      "images": [
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_1.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_2.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_3.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_4.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_5.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_6.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_7.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_8.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_9.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_10.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_11.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_12.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_13.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_14.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_15.png",
+        "/images/yilmaz/ack-420-s-up-cutting-saw-machine_16.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with saw blade Ø 420 mm",
+          "Manuel MKN 300 length stop (3m)",
+          "2 x pneumatic vertical clamps",
+          "Spray saw blade lubrication system",
+          "Air gun",
+          "2 x in-feed & out-feed tunnels for operator safety",
+          "Swarf manifold-Top",
+          "Safety PLC in the electrical cabinet for the emergency stop, top & bottom covers locking switch, air pressure, saw blade home position and phase monitoring. (ACK 420 CE)",
+          "Swarf Manifold Bottom (ACK 420 CE)"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Laser marker indicating the cutting line",
+          "Spare saw blade Ø 420 mm",
+          "VCE 1570 chip vacuum extractor",
+          "DKN 302 length stop",
+          "DKN 602 length stop",
+          "SKN 300 length stop",
+          "SKN 600 length stop",
+          "Swarf Manifold-Bottom"
+        ],
+        "GENERAL FEATURES": [
+          "Two-hand safety operation",
+          "Location points at 75°,60°,45°,30°,22.5°,15°,0° both left and right",
+          "Pivoting range from -75° left to +75° right infinitely adjustable",
+          "Hydro-pneumatic saw feed",
+          "Adjustable back fence for most effective use of the saw blade",
+          "Adjustable saw blade feeding speed",
+          "Manually opening safety guard",
+          "Interior LED lighting"
+        ]
+      },
+      "technical_data": {
+        "Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "2900 RPM",
+        "Saw Diameter": "Ø:420- d:Ø30/32 mm",
+        "Flow Rate": "130 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "113x426x131",
+        "Weight": "250 Kg / 205 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Single Head Cutting"
+}

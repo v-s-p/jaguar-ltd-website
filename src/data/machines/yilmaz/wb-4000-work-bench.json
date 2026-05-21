@@ -1,0 +1,41 @@
+{
+  "slug": "wb-4000-work-bench",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Assembling",
+  "diller": {
+    "en": {
+      "name": "WB 4000 - Work Bench",
+      "description": "Height and width adjustable work bench for workshops and general purpose use",
+      "images": [
+        "/images/yilmaz/wb-4000-work-bench_1.jpg",
+        "/images/yilmaz/wb-4000-work-bench_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Work bench for window assembly and general purposes use",
+          "Adjustable height, fixed on ground and non- slide feet",
+          "Plate to hold the tool set for mount accessories",
+          "Opportunity to adjust working area according to profile size in two directions",
+          "Easy mounting air connection coupling",
+          "Working surfaces are covered with rubber material which prevents scratches on work piece and also provides non-sliding",
+          "Standard with 6 pcs. of stacking bin",
+          "Working place length: 2000 – 4000 mm",
+          "Working place width: 1000 – 2000 mm",
+          "Working height: 820 mm",
+          "Loading capacity: 350 kg"
+        ]
+      },
+      "technical_data": {
+        "Weight": "113.0"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Work Bench"
+}

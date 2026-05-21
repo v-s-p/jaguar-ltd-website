@@ -1,0 +1,61 @@
+{
+  "slug": "sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Screwdriving",
+  "diller": {
+    "en": {
+      "name": "SM 206 - Fully Automatic Double Head Reinforcement Steel Screwdriver",
+      "description": "This machine is used to screw reinforcement steel sheet to PVC door and window profiles precisely and fast. PVC profiles are fed manually into the screwing unit. Double head screwing units automatically complete the screwing process according to the dimensions entered on the operator panel. After the screwing process, the PVC profiles are automatically taken to the outfeed stand and arranged one after the other",
+      "images": [
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_1.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_2.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_3.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_4.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_5.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_6.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_7.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_8.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_9.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_10.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_11.png",
+        "/images/yilmaz/sm-206-fully-automatic-double-head-reinforcement-steel-screwdriver_12.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "In-feed table on the right and out-feed table on the left"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Pneumatic and automatic screw feeding",
+          "Automatic stop after screwing process finishes",
+          "Selection of screw distance in the desired intervals from the screen",
+          "Automatic screw distance measurement with sensor",
+          "Ability to screw in 4 different profile widths",
+          "Simultaneous dual screwing ability",
+          "Protective sensors to prevent misuse",
+          "Height adjustment sensor for special screws",
+          "Automatic clamping of profile during screwing",
+          "Pneumatic range stop for supporting profile",
+          "Automatic screw discharge",
+          "Long-lasting use and easy change of the bit",
+          "Manual screw feeding from the screen",
+          "Exit conveyor for automatic discharge of the product after process ends",
+          "Average screwing speed 1.7 sec /pc.",
+          "Recommended reinforcement sheet thickness: 3.0 mm",
+          "Capable of double line screwing",
+          "Mechanical structure suitable for screwing thin profiles"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "150x522x190",
+        "Weight": "475 Kg / 415 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Double Head Reinforcement Steel Screwdriver"
+}

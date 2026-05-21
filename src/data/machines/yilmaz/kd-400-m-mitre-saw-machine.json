@@ -1,0 +1,46 @@
+{
+  "slug": "kd-400-m-mitre-saw-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Saw Cutting",
+  "diller": {
+    "en": {
+      "name": "KD 400 M - Mitre Saw Machine",
+      "description": "KD 400 M Mitre saw cutting machine is designed for straight and angular cutting of PVC, aluminium and wooden profiles.",
+      "images": [
+        "/images/yilmaz/kd-400-m-mitre-saw-machine_1.jpg",
+        "/images/yilmaz/kd-400-m-mitre-saw-machine_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with saw blade Ø 400 mm",
+          "2 x manual horizontal clamps"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "MKN 300 length stop (3m)",
+          "Machine stand",
+          "Spare saw blade, Ø 400 mm"
+        ],
+        "GENERAL FEATURES": [
+          "Location points at 45°- 30°- 22.5° -15°- 0° both left and right",
+          "Pivoting range from 45° left to 45° right infinitely adjustable",
+          "Aluminium construction of the body that is strong and lasting",
+          "Robust mechanical construction enables the ease of adjustment for the requested cutting angles",
+          "Strong spring system and protective shield"
+        ]
+      },
+      "technical_data": {
+        "Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "2900 RPM",
+        "Saw Diameter": "D: Ø400 mm / d: Ø30/32 mm",
+        "Dimensions (cm)": "86x76x83",
+        "Weight": "88 Kg / 71 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Single Head Cutting"
+}

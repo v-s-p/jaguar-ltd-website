@@ -1,0 +1,39 @@
+{
+  "slug": "hp-1000-horizontal-profile-troley",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "HP 1000 - Horizontal Profile Troley",
+      "description": "It is used to transport and store cut door and window profiles between workstations",
+      "images": [
+        "/images/yilmaz/hp-1000-horizontal-profile-troley_1.png",
+        "/images/yilmaz/hp-1000-horizontal-profile-troley_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Used for carrying and storing horizontal profiles",
+          "4 pcs. of free moving wheels, 2 of which have brakes",
+          "Surfaces are covered with rubber to prevent scratches on work piece",
+          "Width (W) x Length (L) x Height (H): 990 x 1600 x 1600 mm",
+          "Length of holding bars: 430 mm x 2",
+          "Loading capacity: 350 kg",
+          "Loading capacity (heavy duty): 500 kg"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "990x1600x1600",
+        "Weight": "95 / 60"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

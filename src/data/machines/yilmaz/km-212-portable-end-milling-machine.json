@@ -1,0 +1,47 @@
+{
+  "slug": "km-212-portable-end-milling-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "End Milling",
+  "diller": {
+    "en": {
+      "name": "KM 212 - Portable End Milling Machine",
+      "description": "Portable machine which works manually, ideal for end milling operations on PVC and aluminium profiles precisely.",
+      "images": [
+        "/images/yilmaz/km-212-portable-end-milling-machine_1.jpg",
+        "/images/yilmaz/km-212-portable-end-milling-machine_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "1x manual vertical clamp",
+          "1x manual horizontal clamp"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Machine stand",
+          "Milling cutter set"
+        ],
+        "GENERAL FEATURES": [
+          "High quality end-milling operations by the manual operations",
+          "Practical cutter adjustment thanks to the spacers",
+          "Fixing the workpiece firmly thanks to the manual vertical and horizontal clamps",
+          "Profile clamping capacity : H:80x W:160 mm",
+          "Max. end-milling capacity : H: 80 x W: 45 mm",
+          "Maximum cutter diameter (D x d): Ø 120 x d Ø 30 mm"
+        ]
+      },
+      "technical_data": {
+        "Power": "800 W / 230V AC 1P+N+PE / 50Hz.",
+        "Saw Rotation Speed": "3000 RPM",
+        "Saw Diameter": "DMax: Ø120 mm / d: Ø30mm",
+        "Dimensions (cm)": "57x51x42",
+        "Weight": "26.0 / 26 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Portable End Milling"
+}

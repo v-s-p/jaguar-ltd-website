@@ -1,0 +1,41 @@
+{
+  "slug": "sdt-275",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cutting",
+  "diller": {
+    "en": {
+      "name": "SDT 275",
+      "description": "Ideal for the cutting operations of bars, profiles and steel reinforcements for PVC windows",
+      "images": [
+        "/images/yilmaz/sdt-275_1.png",
+        "/images/yilmaz/sdt-275_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with saw blade Ø275 mm",
+          "Manual material clamping system",
+          "Saw blade lubrication system"
+        ],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Pivoting range 45° to the right and 45° to the left",
+          "Double-speed motor (45/90 RPM)",
+          "Possibility to select the motor speed according to the material",
+          "Ideal for the cutting of reinforcements steels used for PVC Windows",
+          "Cutting capacity: 70 x 70 mm square profile"
+        ]
+      },
+      "technical_data": {
+        "Saw Diameter": "Dmax:Ø275 / d:Ø32 mm",
+        "Dimensions (cm)": "90x80x120",
+        "Weight": "258 Kg / 225 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Reinforcement Sheet Circular Saw"
+}

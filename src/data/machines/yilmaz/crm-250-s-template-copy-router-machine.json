@@ -1,0 +1,59 @@
+{
+  "slug": "crm-250-s-template-copy-router-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Milling",
+  "diller": {
+    "en": {
+      "name": "CRM 250 S - Template Copy Router Machine",
+      "description": "It is designed to operate quickly and precisely lock’s holes on aluminium and PVC profiles, without releasing the workpiece in one cycle. It is also used for the drilling handles, hinges, espagnolette holes and opening water drain slot on PVC and aluminium profiles",
+      "images": [
+        "/images/yilmaz/crm-250-s-template-copy-router-machine_1.jpg",
+        "/images/yilmaz/crm-250-s-template-copy-router-machine_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with 1pc. x Ø5 x L100 and 2pc.x Ø10x L100 mm cutter bits",
+          "Air gun",
+          "2 x profile stops both left and right",
+          "Spray tool lubrication system",
+          "2x pneumatic horizontal clamps",
+          "2x pneumatic vertical clamps"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Spare cutter bits with Ø5xL100 mm (for copy routing operations)",
+          "Spare cutter bits with Ø10xL100 mm (for copy routing operations)",
+          "Spare collets for Ø5 mm cutter bit",
+          "Spare collets for Ø10 mm cutter bit",
+          "Special templates"
+        ],
+        "GENERAL FEATURES": [
+          "Copy router with 1 vertical and 2 horizontal spindle motors",
+          "Designed to perform the operations quickly and precisely on 3 sides of the aluminium profile without releasing",
+          "Pneumatic 2 x horizontal and 2x vertical clamps",
+          "Horizontal and vertical pneumatic tracers with 3 different diameters Ø5, Ø8, Ø10 mm",
+          "Horizontal and vertical templates including standart figures for PVC and aluminium profiles",
+          "High precision bearing mechanism, gas shock absorbers and ergonomic arm design that facilitate operations",
+          "1 m of roller tables positioned at the right and left sides",
+          "Manually adjustable profile stops placed on the right and left, allows the work piece to be positioned properly in the machine",
+          "Spray tool cooling system",
+          "Max. clamping capacity W:200 mm H:150 mm"
+        ]
+      },
+      "technical_data": {
+        "Power": "3.3 kW  / 230V AC 1P+N+PE / 50/60Hz.",
+        "Saw Rotation Speed": "2x Ø10xL100 / Ø5xL100 / 12.000 RPM",
+        "Saw Diameter": "Ø10xL100 / 2 xØ5xL100",
+        "Flow Rate": "24 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "126x290x187",
+        "Weight": "373 Kg / 328 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Template Copy Router"
+}

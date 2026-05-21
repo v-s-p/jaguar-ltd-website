@@ -1,0 +1,53 @@
+{
+  "slug": "tk-503-pvc-tek-kose-kaynak-makinesi",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Welding",
+  "diller": {
+    "en": {
+      "name": "TK 503 - Single Corner PVC Welding Machine",
+      "description": "This machine is ideal for the single corner welding of PVC profiles between 30°- 180°.",
+      "images": [
+        "/images/yilmaz/tk-503-pvc-tek-kose-kaynak-makinesi_1.jpg",
+        "/images/yilmaz/tk-503-pvc-tek-kose-kaynak-makinesi_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Profile support arms",
+          "Electrical foot pedal"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Special welding molds"
+        ],
+        "GENERAL FEATURES": [
+          "Enable the welding of all angles between 30°-180°infinitely adjustable",
+          "Practical adjustment of standard (2.0 mm) or seamless (0.2 mm) welding options manually",
+          "Welding possibility of profiles up to H165 mm of high",
+          "All parameters such as melting and welding time, welding pressure are set independently",
+          "Automatically start and finish the welding cycle",
+          "Adjusting the heat between 0-300°C by means of the electronic thermostat",
+          "Thanks to the profile support arms, long profiles can be easily welded",
+          "User friendly with the features of cleaning the plates and replacing teflon very easily and quickly",
+          "Profile support arms are supplied as standard in both directions",
+          "Clamping the profiles separately via foot pedal",
+          "Saving of time thanks to the practical mold change feature",
+          "Portable machine stand"
+        ]
+      },
+      "technical_data": {
+        "Power": "1.5 kW / 230V AC 1P+N+PE / 50/60Hz.",
+        "Saw Rotation Speed": "--",
+        "Saw Diameter": "--",
+        "Flow Rate": "20 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "60x191.5x140",
+        "Weight": "128 Kg / 113 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Single Corner Welding"
+}

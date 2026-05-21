@@ -1,0 +1,57 @@
+{
+  "slug": "dk-540-four-corner-pvc-welding-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Welding",
+  "diller": {
+    "en": {
+      "name": "DK 540 - Four Corner PVC Welding Machine",
+      "description": "Machine is ideal for welding process of PVC plastic profiles at four corners.",
+      "images": [
+        "/images/yilmaz/dk-540-four-corner-pvc-welding-machine_1.jpg",
+        "/images/yilmaz/dk-540-four-corner-pvc-welding-machine_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Manual greasing pump",
+          "1 set of sash welding mould according to 70 mm of profile height",
+          "1 set of adaptor for frame profile"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "SA 250 cooling unite",
+          "CS 240 gasket pressing system",
+          "Welding fixture set for lame sash",
+          "Special welding moulds on demand"
+        ],
+        "GENERAL FEATURES": [
+          "Fully automatic four corner welding of PVC window profiles at 90°",
+          "Welding of a complete window frame or sash in one cycle",
+          "All profile related welding parameters are individually programmable",
+          "Automatic line can be set by combining with Cooling Unite (SA 251), Corner Cleaning Machine (CNC 609-611) and Rotating Robot (SA 261)",
+          "Automatically setting the standard (2 mm) or seamless (0.2 mm) welding options",
+          "Long-period of teflon usage thanks to the teflon roller system",
+          "Automatically discharging of the frames after welding operation",
+          "Saving of time by means of practical mould change system",
+          "Barcode scanner",
+          "Operator safety barrier",
+          "Adjusting the heat between 0-300°C via electronic thermocouple",
+          "Minimum welding measurement: 400 x 400 mm (see below sketch and tech. schema)",
+          "Maximum welding measurement: 3100 x 2700 mm (see below sketch and tech. schema)",
+          "Memory capacity to save up programs of 900 different profiles",
+          "Parameters are set easily by means of 8'' LCD colour touch screen"
+        ]
+      },
+      "technical_data": {
+        "Profil": "Hmax: 180 mm / Hmin: 30 mm / Wmax: 130 mm / Wmin: 30 mm",
+        "Saw Rotation Speed": "---",
+        "Flow Rate": "55 L/min",
+        "Weight": "1.690 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Four Corner Welding"
+}

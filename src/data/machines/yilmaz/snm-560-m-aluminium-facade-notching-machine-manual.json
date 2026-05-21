@@ -1,0 +1,59 @@
+{
+  "slug": "snm-560-m-aluminium-facade-notching-machine-manual",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "End Milling",
+  "diller": {
+    "en": {
+      "name": "SNM 560 M - Aluminium Facade Notching Machine Manual",
+      "description": "SNM 560 M and SNM 560 SRV Saw Notching Machines are designed and constructed for variable notching possibilities on the sash, frame, mullion and transom profile combinations for curtain-walls, winter gardens, skylights, and special design processing with the special angles at the profile and surface. The workpiece remains fixed on the working table and only the hydro-pneumatic sawing unit having 2 saw blades slides on the linear guides automatically to perform the notching operation.",
+      "images": [
+        "/images/yilmaz/snm-560-m-aluminium-facade-notching-machine-manual_1.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with 1 x Ø 500 and 1 x Ø 550 mm saw blades",
+          "2 x spray saw blade lubrication system",
+          "3 x digital screens indicating the both saw blade angle and table miter angle",
+          "1 x numerical display indicating the depth position of the profile",
+          "2 x pneumatic horizontal clamps",
+          "2 x pneumatic vertical clamps",
+          "Swarf pan"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Laser marker indicating the vertical line of the profile",
+          "Profile support arm RS 1000",
+          "Spare saw blade, Ø 500 mm",
+          "Spare saw blade, Ø 550 mm"
+        ],
+        "GENERAL FEATURES": [
+          "1 x saw unit lower (vertical) with Ø 550 mm dia. and 1 x saw unit upper (horizontal) with Ø 500 mm dia.",
+          "Semi-Automatic sawing unit with adjustable feeding speed by hydro-check cylinder",
+          "Angle adjustment of the sawing units and miter adjustment of the profile table by hand wheel with digital displays",
+          "Height adjustment of the profile support table by hand wheel with band ruler",
+          "Depth stop adjustment by hand wheel by numerical display",
+          "4 x pneumatic clamps that allow the profile to be credibly attached at any angle",
+          "Cast iron and steel construction of the body that is strong and lasting",
+          "Pneumatically operated safety cover",
+          "Two-hand safety module",
+          "Very easy saw wear adjustment",
+          "Interior LED lighting"
+        ]
+      },
+      "technical_data": {
+        "Power": "3 kW / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "D1: Ø550/ / D2: Ø500 / d: 30 mm",
+        "Flow Rate": "160 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "160x300x190",
+        "Weight": "1.350 Kg / 1.180 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Facade Notching Saw"
+}

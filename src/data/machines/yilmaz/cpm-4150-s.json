@@ -1,0 +1,66 @@
+{
+  "slug": "cpm-4150-s",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Processing Centers",
+  "diller": {
+    "en": {
+      "name": "CPM 4150 S",
+      "description": "CPM 4150 is a CNC controlled machine which is specifically designed to machine any kind of composite panels, aluminium panels up to 4 mm of thickness, PVC panels, vs. commercially available. The machine is able to process the joint grooves on composite panels that are required for bending, drilling any type of holes, dimensioning the panels according to required sizes, etc.",
+      "images": [
+        "/images/yilmaz/cpm-4150-s_1.webp",
+        "/images/yilmaz/cpm-4150-s_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "External chip removal system",
+          "Air gun",
+          "Compensation system that adjusts the Z axis tool position",
+          "Spray tool cooling system",
+          "Safety fence around the machine"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Special CAM programs via basic model of AlphaCAM software",
+          "Spare cutters",
+          "Spare ISO 30 tool holders",
+          "Spare collets"
+        ],
+        "GENERAL FEATURES": [
+          "Equipped with the automatic vacuum system concentrating the suction on the machining area",
+          "3 axis CNC automation system",
+          "Solid steel construction of the body and dynamic performance gantry",
+          "Application of special cutting operations with minimum scrap by YILMAZ CAM software",
+          "Z axis heat compensation system that adjusts the Z position of the cutter bit automatically considering to elongation on the spindle because of the thermal changes. (Patented)",
+          "High precision HSD spindle and internationally recognized components",
+          "Minimum tool change time with 6 station of tool magazine unit fixed on the gantry",
+          "4 pcs. of pneumatic pop-up stops enable you to locate the work plate accurately",
+          "Specially designed work table and powerful vacuum system to hold down the small pieces firmly",
+          "Air cushioning system to move the big size of the plate on the table easily",
+          "Integrated tool length sensor ensures precise tool length measurements in Z axis",
+          "Optimum dust extraction performance with specially designed vortex head and vacuum extractor",
+          "Multi language support (Turkish and English)",
+          "PLC controlled tool cooling system",
+          "Specially designed control panel with colour display for CNC control",
+          "Hand held controller allow you to prove the job before running at speed",
+          "Easy program transfer with USB memory stick",
+          "Low maintenance cost with automatic central lubrication system",
+          "Operator safety barrier"
+        ]
+      },
+      "technical_data": {
+        "Power": "400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "24.000 RPM",
+        "Saw Diameter": "---",
+        "Flow Rate": "80 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "334x555x188",
+        "Weight": "2.010 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Sheet Plate Machining Center"
+}

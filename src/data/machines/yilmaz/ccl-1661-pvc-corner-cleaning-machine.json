@@ -1,0 +1,77 @@
+{
+  "slug": "ccl-1661-pvc-corner-cleaning-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Processing Center",
+  "diller": {
+    "en": {
+      "name": "CCL 1661 - PVC Welding & Corner Cleaning Line",
+      "description": "CNC controlled four corner PVC welding and cleaning line that provides movement in 2 and 4 axes. After welding process at DK 540, the frame goes to the Cooling Unit (SA 251) automatically. Then the Robot Unit (SA 261) automatically takes the frames from the Cooling Unit (SA 251) where the cleaning process starts and carries it by turning to the CNC 609 or 611 Cleaning Machine",
+      "images": [
+        "/images/yilmaz/ccl-1661-pvc-corner-cleaning-machine_1.jpg",
+        "/images/yilmaz/ccl-1661-pvc-corner-cleaning-machine_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "DK 540 Four Head Welding Machine",
+          "SA 251 Coolin Unit",
+          "SA 261 Robot Mechanism",
+          "CNC 609 Corner Cleaning Machine",
+          "CNC 611 Corner Cleaning Machine",
+          "Total of 11 tools, consisting of a cleaning saw, internal scraping blades and milling cutters",
+          "Brushed window support table"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "CS 240 Gasket pressing system",
+          "DK 540 Welding fixture set for lame sash",
+          "DK 540 Welding fixture set"
+        ],
+        "GENERAL FEATURES": [
+          "Yılmaz custom profiles cleaning program",
+          "Manuel and automatic operating modes",
+          "Automatic sash and frame profile recognition system",
+          "Profile width and height measurement system",
+          "11 set of automatic profile cleaning knives",
+          "Separate cleaning knives for color and white profiles",
+          "Automatic central lubrication system",
+          "Window based touch screen",
+          "Profile program transfer via USB flash memory",
+          "Remote connection and technical support capability",
+          "Movable control panel",
+          "Speed change during the process",
+          "220 frames / 8 hours (609 CNC) and 270 frames / 8 hours (CNC 611) machining capacity",
+          "Visible of screen alarms and warnings",
+          "Phase control system",
+          "Low pressure control system",
+          "Ability of cleaning all four corners and end-of line transfer with automatic profile rotation robot system",
+          "Automatic system allowing movement in 2 or 4 axes",
+          "Automatic transition feature between 0.2 and 2.0 mm welding range, specific to Yılmaz machine",
+          "Automatic operation mode integrated with barcode reader or manual operation as per entered dimensions",
+          "Lame sash door welding",
+          "Capable of entering the welding parameters on the screen and storing them",
+          "Fast and easy teflon replacement feature",
+          "Ability of creating 1000 pieces of profile recipes",
+          "Monitoring of processing times during the operation",
+          "Easy placement of long size profiles on the welding unit",
+          "Milimeter or inch operation system modes",
+          "Max square dimension that SA 261 machine can be rotated is 2200 x 2200 mm. The squares that are having larger dimensions are rotated manually during the welding operation"
+        ]
+      },
+      "technical_data": {
+        "Power": "12 kW / 400V AC 3P PE 50/60 Hz.",
+        "Drill Rotation Speed": "6000 RPM",
+        "Saw Rotation Speed": "18.000 RPM",
+        "Saw Diameter": "D:Ø250- d:30/32 mm",
+        "Flow Rate": "150 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "2472x11725x207",
+        "Weight": "3931 / 3776 kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Four Head Corner Welding & Cleaning Line"
+}

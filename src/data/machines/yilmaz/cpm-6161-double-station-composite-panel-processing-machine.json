@@ -1,0 +1,68 @@
+{
+  "slug": "cpm-6161-double-station-composite-panel-processing-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium"
+  ],
+  "subcategory": "Processing Centers",
+  "diller": {
+    "en": {
+      "name": "CPM 6161 - Double Station Composite Panel Processing Machine",
+      "description": "3-axis CNC controlled CPM 6161 machine featured with double station table (2 pc. x 3200 mm) is ideal for machining any kind of aluminium composite panel, aluminium sheets up to 4 mm of thickness, flexy panels, laminate plates etc. commercially available. The machine is equipped with a series of valves that turn on/off automatically in order to concentrate the suction on the machining area. The machine is able to process joint grooves on the composite panels that are required for bending, drilling holes, opening the slots, interpolated milling operations such as writing & drawing, cutting the panels according to required sizes, etc. Enjoy the profits of perfect CPM 6161 machine that provides user-friendly software and mechanical features.",
+      "images": [
+        "/images/yilmaz/cpm-6161-double-station-composite-panel-processing-machine_1.jpg",
+        "/images/yilmaz/cpm-6161-double-station-composite-panel-processing-machine_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "External chip removal system",
+          "2 x Air gun",
+          "Compensation system that adjusts the Z axis tool position",
+          "Spray tool cooling system",
+          "Safety fence around the machine"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Special CAM programs via basic model of Alpha CAM software",
+          "Spare cutters",
+          "Spare ISO 30 tool holders",
+          "Spare collets"
+        ],
+        "GENERAL FEATURES": [
+          "Equipped with the automatic vacuum system concentrating the suction on the required area",
+          "Minimal waste of time with the feature of uninterrupted operation with double station table",
+          "CNC automation system providing movement in 3 axes",
+          "With a processing area of 1600 x 6650 mm or 2 pc. of 1600 x 3200 mm",
+          "Application of special cutting operations with minimum scrap by YILMAZ CAM software",
+          "High precision HSD spindle and internationally recognized components",
+          "Z axis heat compensation system that adjusts the Z position of the cutter bit automatically considering to elongation on the spindle because of the thermal changes. (Patented)",
+          "Solid steel construction of the body and dynamic performance gantry",
+          "Minimum tool change time with 6 station automatic tool changer fixed on the gantry",
+          "Vortex chip removal head & extractor that cleans all the chips from the work plate",
+          "Pneumatic pop-up stops enable you to locate the work plate accurately",
+          "Air cushioning system to move the big size of the plate on the table easily",
+          "Specially designed work table and powerful vacuum system to hold down the small pieces firmly",
+          "Integrated tool length sensor ensures precise tool length measurements",
+          "Optimum operational safety guaranteed by 3-zone field scanner system",
+          "Multi language support (Turkish and English)",
+          "PLC controlled tool cooling system",
+          "Control panel with color display for CNC control",
+          "Hand held controller allow you to prove the job before running at speed",
+          "Easy program transfer with USB memory stick",
+          "Low maintenance cost with automatic central lubrication system"
+        ]
+      },
+      "technical_data": {
+        "Power": "400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "24.000 RPM",
+        "Saw Diameter": "---",
+        "Flow Rate": "280 L/min.",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "267x807x192",
+        "Weight": "2.965 Kg / 2.661 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "Aluminium",
+  "type": "Sheet Plate Machining Center"
+}

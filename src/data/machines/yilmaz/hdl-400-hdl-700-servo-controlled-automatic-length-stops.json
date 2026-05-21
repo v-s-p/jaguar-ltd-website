@@ -1,0 +1,57 @@
+{
+  "slug": "hdl-400-hdl-700-servo-controlled-automatic-length-stops",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Conveying",
+  "diller": {
+    "en": {
+      "name": "HDL 400-700 - Servo Controlled Automatic Length Stops",
+      "description": "It is a servo-controlled length stops which helps to cut the profiles precisely in the required measurements. It easily attaches to your existing saw, drill, punch unites or more. Free your operator from tape measures and manual works.",
+      "images": [
+        "/images/yilmaz/hdl-400-hdl-700-servo-controlled-automatic-length-stops_1.png",
+        "/images/yilmaz/hdl-400-hdl-700-servo-controlled-automatic-length-stops_2.png",
+        "/images/yilmaz/hdl-400-hdl-700-servo-controlled-automatic-length-stops_3.png",
+        "/images/yilmaz/hdl-400-hdl-700-servo-controlled-automatic-length-stops_4.png",
+        "/images/yilmaz/hdl-400-hdl-700-servo-controlled-automatic-length-stops_5.png",
+        "/images/yilmaz/hdl-400-hdl-700-servo-controlled-automatic-length-stops_6.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [
+          "Barcode printer",
+          "Extendible digital measuring rod, (1.55/2.955 m)"
+        ],
+        "GENERAL FEATURES": [
+          "Turkish, English, Spanish, Russian and  French",
+          "Metric and imperial",
+          "Store up to 50 different lengths",
+          "Manual or automatic operation features",
+          "Easy cutting lists transfer in CSV format with USB or ethernet connection with FTP server",
+          "7’’ HMI colored touch screen monitor",
+          "Preparing cutting lists manually",
+          "Making changes on the cutting lists by the screen",
+          "Technical support with remote access connection via laptop",
+          "Thank to the demount structure, it needs the min. stocking area",
+          "Rack and pinion drive mechanism and rigid steel of construction body provide a repeatable cutting accuracy of +/- .008” (0.2 mm) providing superior pushing force for heaviest jobs",
+          "Adapts to handsaw, double or single miter saws, drills, ironworkers, chop saws and more",
+          "Pieces are cut in the order according to the measurement data that is sent from the digital measuring rod (1.5 m –  3.0 m) (optional)"
+        ]
+      },
+      "technical_data": {
+        "Power": "1,6 KW / 230V AC 1P+N+PE / 50/60Hz.",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "---",
+        "Flow Rate": "---",
+        "Pressure": "---",
+        "Dimensions (cm)": "85x415x70",
+        "Weight": "216 Kg / 185 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Conveyors"
+}

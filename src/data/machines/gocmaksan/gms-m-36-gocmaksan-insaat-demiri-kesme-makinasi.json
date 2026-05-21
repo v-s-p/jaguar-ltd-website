@@ -1,0 +1,50 @@
+{
+  "slug": "gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi",
+  "brand": "gocmaksan",
+  "categories": [
+    "Cutting Machines"
+  ],
+  "subcategory": [
+    "Standard"
+  ],
+  "pdf_catalog": "/catalogs/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi.pdf",
+  "related_products": [
+    "M 45",
+    "M 55"
+  ],
+  "specs": {
+    "FEATURED FEATURES": [
+      "Mechanical system",
+      "High cutting performance",
+      "Fast cutting cycle",
+      "Foot pedal and arm control"
+    ],
+    "TECHNICAL DATA": {
+      "W-L-H cm": "54 x 101 x 79",
+      "Engine Power kW": "3",
+      "Voltage V": "380",
+      "Weight kg": "325"
+    },
+    "CAPACITIES": [
+      "45 kg/mm2: Ø 36x1, Ø 24x2",
+      "65 kg/mm2: Ø 32x1, Ø 20x2",
+      "85 kg/mm2: Ø 28x1, Ø 18x2"
+    ]
+  },
+  "diller": {
+    "en": {
+      "name": "M 36",
+      "description": "M 36 is a mechanical rebar cutting machine for construction-site steel processing.",
+      "images": [
+        "/images/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi_1.webp",
+        "/images/gocmaksan/m-36_2.png",
+        "/images/gocmaksan/m-36_3.png",
+        "/images/gocmaksan/m-36_4.png",
+        "/images/gocmaksan/m-36_5.png",
+        "/images/gocmaksan/m-36_6.png",
+        "/images/gocmaksan/m-36_7.png"
+      ],
+      "pdf_catalog": "/catalogs/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
+    }
+  }
+}

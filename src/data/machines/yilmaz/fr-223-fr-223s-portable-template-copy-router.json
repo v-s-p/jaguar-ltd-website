@@ -1,0 +1,62 @@
+{
+  "slug": "fr-223-fr-223s-portable-template-copy-router",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Milling",
+  "diller": {
+    "en": {
+      "name": "FR 223 - FR 223S Portable Template Copy Router",
+      "description": "It is used for the processing of slots for locks, drilling handles, hinges, espagnolette and barrel holes and opening water drain slot on PVC and aluminum profiles up to 3 mm of thickness.",
+      "images": [
+        "/images/yilmaz/fr-223-fr-223s-portable-template-copy-router_1.jpg",
+        "/images/yilmaz/fr-223-fr-223s-portable-template-copy-router_2.jpg",
+        "/images/yilmaz/fr-223-fr-223s-portable-template-copy-router_3.jpg",
+        "/images/yilmaz/fr-223-fr-223s-portable-template-copy-router_4.jpg",
+        "/images/yilmaz/fr-223-fr-223s-portable-template-copy-router_5.jpg",
+        "/images/yilmaz/fr-223-fr-223s-portable-template-copy-router_6.jpg",
+        "/images/yilmaz/fr-223-fr-223s-portable-template-copy-router_7.jpg",
+        "/images/yilmaz/fr-223-fr-223s-portable-template-copy-router_8.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Ø5X L60 mm router bit",
+          "2x left and right profile stops",
+          "2x manual horizontal clamps",
+          "Copy template"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Elektrically working spray cooling systems (FR 223 S)",
+          "MS machine stand kit",
+          "Spare Ø5xL60 mm router bit",
+          "Special copy template",
+          "MKN 150 roller conveyor"
+        ],
+        "GENERAL FEATURES": [
+          "Opening locks, drilling handles, hinges, espagnolette and barrel holes etc. on PVC and aluminum profiles",
+          "Ergonomic handle for ease of operation",
+          "Cast aluminum structure",
+          "Corrosion proof bearing shaft",
+          "Machining capacity: Z:270, Y:110, Z:110 mm",
+          "Clamping capacity: W:140",
+          "Chrome electroplated copy template",
+          "Two pcs. of tracer pins",
+          "Equipped with Ø 5 router bit"
+        ]
+      },
+      "technical_data": {
+        "Power": "750 W / 230V AC 1P+N+PE / 50Hz.",
+        "Freze Alani": "x=270 mm / y=110 mm / z=110 mm",
+        "Saw Rotation Speed": "Ø5xL60 mm / 14.000 RPM",
+        "Saw Diameter": "Ø5xL60 mm",
+        "Dimensions (cm)": "59x52x64.5",
+        "Weight": "48 Kg / 46 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Portable Copy Router"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "ca-601-semi-automatic-pvc-single-corner-cleaning-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Cleaning",
+  "diller": {
+    "en": {
+      "name": "CA 601 - Semi-automatic PVC Single Corner Cleaning Machine",
+      "description": "CA 601 Single Corner Cleaning Machine used to clean lower and upper surfaces and outer corners of PVC profiles welded at 90° angle",
+      "images": [
+        "/images/yilmaz/ca-601-semi-automatic-pvc-single-corner-cleaning-machine_1.png",
+        "/images/yilmaz/ca-601-semi-automatic-pvc-single-corner-cleaning-machine_2.png",
+        "/images/yilmaz/ca-601-semi-automatic-pvc-single-corner-cleaning-machine_3.webp",
+        "/images/yilmaz/ca-601-semi-automatic-pvc-single-corner-cleaning-machine_4.webp",
+        "/images/yilmaz/ca-601-semi-automatic-pvc-single-corner-cleaning-machine_5.webp",
+        "/images/yilmaz/ca-601-semi-automatic-pvc-single-corner-cleaning-machine_6.webp",
+        "/images/yilmaz/ca-601-semi-automatic-pvc-single-corner-cleaning-machine_7.webp"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Air gun",
+          "Profile support table with brushed",
+          "2 x cleaning cutters for white profiles"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Special corner cleaning cutter set",
+          "Cleaning cutter for colored profiles",
+          "V type of cleaning cutter for white profiles"
+        ],
+        "GENERAL FEATURES": [
+          "High quality stripping and cleaning operations by means of the hydro-pneumatic system",
+          "Processing capability for maximum profile dimension: W130-H180 mm",
+          "Processing capability for minimum profile dimension: W30-H30 mm",
+          "Min. inner and outer square size according to W30 and W60 mm of profile width: L350 x L350 and L380 x L380 mm",
+          "Pneumatically working serial blade changing function that makes working easier",
+          "Fixing the workpiece firmly by means of the vertical and horizontal clamps",
+          "PLC control system",
+          "Centring system to fit the profiles properly on the setsquare",
+          "Robust machine stand",
+          "Stripping blade levels are adjustable according to laminated and unlaminated profiles",
+          "Single or multi cleaning operations can be processed",
+          "Automatic start up feature when profile placed on the table",
+          "Stops automatically after stripping and cleaning operation"
+        ]
+      },
+      "technical_data": {
+        "Power": "1200 W / 400V AC 3P+PE / 50/60 Hz.",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "Dmax:Ø215 mm / d:Ø32 mm",
+        "Flow Rate": "36 L/min",
+        "Pressure": "6-8 bar",
+        "Dimensions (cm)": "137.5x240.5x125.5",
+        "Weight": "210 Kg / 176 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Manual Corner Cleaning Machine"
+}

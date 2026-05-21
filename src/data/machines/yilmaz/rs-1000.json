@@ -1,0 +1,38 @@
+{
+  "slug": "rs-1000",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "RS 1000",
+      "description": "It is designed to support the profiles processed in the machines",
+      "images": [
+        "/images/yilmaz/rs-1000_1.png",
+        "/images/yilmaz/rs-1000_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Stable painted steel construction",
+          "Plastic support rollers",
+          "Adjustable height (900-1200 mm)",
+          "Support roller diameter: 50 mm",
+          "Support roller length: 500 mm",
+          "Loading capacity: 50 kg",
+          "Weight: 7kg"
+        ]
+      },
+      "technical_data": {
+        "Weight": "0.0"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "pt-1000-product-transportation-troley",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "PT 1000 - Product Transportation Troley",
+      "description": "It is used for the purpose of transporting and storing the assembled window frames and sashes",
+      "images": [
+        "/images/yilmaz/pt-1000-product-transportation-troley_1.jpg",
+        "/images/yilmaz/pt-1000-product-transportation-troley_2.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Used for carrying and storing completed window assembly",
+          "4 pcs. of free moving wheel, 2 of which have brakes",
+          "Surfaces are covered with rubber to prevent scratches on work piece",
+          "Width (W) x Length (L) x Height (H): 990 x 1500 x 1580 mm",
+          "Loading capacity: 350 kg",
+          "Loading capacity (heavy duty): 500 kg"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "990x1500x1580",
+        "Weight": "79 / 50"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

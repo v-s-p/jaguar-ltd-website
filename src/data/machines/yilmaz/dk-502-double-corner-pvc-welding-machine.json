@@ -1,0 +1,64 @@
+{
+  "slug": "dk-502-double-corner-pvc-welding-machine",
+  "brand": "yilmaz",
+  "categories": [
+    "PVC"
+  ],
+  "subcategory": "Welding",
+  "diller": {
+    "en": {
+      "name": "DK 502 - Double Corner PVC Welding Machine",
+      "description": "Machine is ideal for welding process of PVC plastic profiles at two corners.",
+      "images": [
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_1.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_2.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_3.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_4.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_5.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_6.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_7.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_8.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_9.jpg",
+        "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_10.jpg"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [
+          "Equipped with two pcs.of support arms"
+        ],
+        "OPTIONAL ACCESSORIES": [
+          "Special welding molds on demand"
+        ],
+        "GENERAL FEATURES": [
+          "Fully automatic two corner welding of PVC window profiles at an angle of 90°",
+          "Single head welding possibility",
+          "Possibility of precise welding of profiles between 30°-180° on the left head",
+          "All parameters such as melting and welding time, welding pressure are set on the control panel independently",
+          "Continuous precision of welding quality by means of linear rails",
+          "Welding of two corners of window frames or sash profiles are carried out in one cycle",
+          "User friendly with practical teflon change feature by means of the roller system",
+          "Saving of time by means of most practical mold change system in the market",
+          "Capable of adjusting the clamp and welding pressure according to the profile type",
+          "Adjusting the heat between 0-300°C via electronic thermostat",
+          "Practical setting of standard (2 mm) or seamless (0.2 mm for free of flashes) welding options",
+          "The movable right unit moves manually",
+          "After clamping the profiles, the welding is carried out automatically",
+          "The moveable right welding unit is equipped with a brake system",
+          "For safety reasons, the clamp pistons operate with low pressure control system"
+        ]
+      },
+      "technical_data": {
+        "Power": "3.0 kW / 230V AC 1P+N+PE / 50/60Hz.",
+        "Profil": "Hmax: 180 mm / Hmin: 30 mm / Wmax: 140 mm / Wmin: 30 mm / ?: 30° - 180°",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "---",
+        "Flow Rate": "180 L/min",
+        "Pressure": "6-8 BAR",
+        "Dimensions (cm)": "410x170x80",
+        "Weight": "700 Kg / 611 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Double Corner Welding"
+}

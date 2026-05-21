@@ -1,0 +1,40 @@
+{
+  "slug": "vp-1000-vertica-profile-troley",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Transferring",
+  "diller": {
+    "en": {
+      "name": "VP 1000 - Vertica Profile Troley",
+      "description": "It is used to transport and store cut door and window profiles between workstations",
+      "images": [
+        "/images/yilmaz/vp-1000-vertica-profile-troley_1.png",
+        "/images/yilmaz/vp-1000-vertica-profile-troley_2.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Used for carrying and storing vertical profiles",
+          "4 pcs. of free moving wheel, 2 of which have brakes",
+          "2 x 10 section is available",
+          "Plastic covered surfaces to prevent scratches on work pieces",
+          "Width (W) x Length (L) x Height (H) : 990 x 1500 x 1500 mm",
+          "Distance between sections: 105 mm",
+          "Length of holding bars: 595 mm",
+          "Loading capacity: 500 kg"
+        ]
+      },
+      "technical_data": {
+        "Dimensions (cm)": "990x1500x1500",
+        "Weight": "74 / 60"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Trolley"
+}

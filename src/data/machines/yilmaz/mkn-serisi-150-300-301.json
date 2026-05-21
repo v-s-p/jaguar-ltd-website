@@ -1,0 +1,44 @@
+{
+  "slug": "mkn-serisi-150-300-301",
+  "brand": "yilmaz",
+  "categories": [
+    "Aluminium",
+    "PVC"
+  ],
+  "subcategory": "Conveying",
+  "diller": {
+    "en": {
+      "name": "MKN Serisi ( 150-300-301)",
+      "description": "It is manual positioning conveyors which help to cut the profiles in required measurements. There are different size of models named MKN 150-300-301-302",
+      "images": [
+        "/images/yilmaz/mkn-serisi-150-300-301_1.png",
+        "/images/yilmaz/mkn-serisi-150-300-301_2.png",
+        "/images/yilmaz/mkn-serisi-150-300-301_3.png",
+        "/images/yilmaz/mkn-serisi-150-300-301_4.png",
+        "/images/yilmaz/mkn-serisi-150-300-301_5.png"
+      ],
+      "specs": {
+        "STANDARD ACCESSORIES": [],
+        "OPTIONAL ACCESSORIES": [],
+        "GENERAL FEATURES": [
+          "Manually adjusting of the stop to the required measurement and fixing by means of the mechanical brake system",
+          "Ruler for indicating the length of the profiles to be cut",
+          "Cutting profiles up to 6 m long",
+          "Easy assembly on sawing and copy router machine without conveyor"
+        ]
+      },
+      "technical_data": {
+        "Power": "--- /  ---",
+        "Saw Rotation Speed": "---",
+        "Saw Diameter": "---",
+        "Flow Rate": "---",
+        "Pressure": "---",
+        "Dimensions (cm)": "27X304X9",
+        "Weight": "19 Kg / 18 Kg"
+      },
+      "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf"
+    }
+  },
+  "category": "PVC",
+  "type": "Conveyors"
+}
