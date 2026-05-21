@@ -52,7 +52,8 @@
           "/images/gocmaksan/axis-50s_8.png",
           "/images/gocmaksan/axis-50s_9.png",
           "/images/gocmaksan/axis-50s_10.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi.pdf"
       }
     }
   },
@@ -133,7 +134,8 @@
           "/images/gocmaksan/b-26_8.png",
           "/images/gocmaksan/b-26_9.png",
           "/images/gocmaksan/b-26_10.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-b-26-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -179,7 +181,8 @@
         "description": "B 36 is a rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-b-36-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-b-36-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -225,7 +228,8 @@
         "description": "B 45x1 is a rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-b-45x1-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -271,7 +275,8 @@
         "description": "B 50 is a rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -314,7 +319,8 @@
           "/images/gocmaksan/bcz-600_2.png",
           "/images/gocmaksan/bcz-600_3.png",
           "/images/gocmaksan/bcz-600_4.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-bcz-600-gocmaksan-tugla-kesme-makinasi.pdf"
       }
     }
   },
@@ -368,7 +374,8 @@
           "/images/gocmaksan/bs-36_7.png",
           "/images/gocmaksan/bs-36_8.png",
           "/images/gocmaksan/bs-36_9.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-bs-36-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -414,7 +421,8 @@
         "description": "BS 45 is a rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-bs-45-gocmaksan-insaat-demiri-bukme-makinasi-sy0wu.pdf"
       }
     }
   },
@@ -460,7 +468,8 @@
         "description": "BS 50 is a rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-bs-50-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -506,7 +515,8 @@
         "description": "BS 60 is a rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-bs-60-gocmaksan-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -569,7 +579,8 @@
           "/images/gocmaksan/bt-24x5_16.png",
           "/images/gocmaksan/bt-24x5_17.png",
           "/images/gocmaksan/bt-24x5_18.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-bt-24x5-gocmaksan-portatif-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -615,7 +626,8 @@
         "description": "BT 26 is a portable rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-bt-26-gocmaksan-portatif-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -751,7 +763,8 @@
           "/images/gocmaksan/h-26_8.png",
           "/images/gocmaksan/h-26_9.png",
           "/images/gocmaksan/h-26_10.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-h-26-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -813,7 +826,8 @@
           "/images/gocmaksan/h-36s_15.png",
           "/images/gocmaksan/h-36s_16.png",
           "/images/gocmaksan/h-36s_17.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-h-36-s-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -859,7 +873,8 @@
         "description": "H 38S is a hydraulic rebar cutting machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-h-38-s-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -907,7 +922,8 @@
         "description": "H 45S is a hydraulic rebar cutting machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-h-45-s-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -955,7 +971,8 @@
         "description": "H 55 is a hydraulic rebar cutting machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-h-55-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -1005,7 +1022,8 @@
           "/images/gocmaksan/hb-12x3_4.png",
           "/images/gocmaksan/hb-12x3_5.png",
           "/images/gocmaksan/hb-12x3_6.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi.pdf"
       }
     }
   },
@@ -1050,7 +1068,8 @@
         "description": "HB 12x6 is a mesh bending and cutting machine for steel factory applications.",
         "images": [
           "/images/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi.pdf"
       }
     }
   },
@@ -1157,7 +1176,8 @@
           "/images/gocmaksan/m-36_5.png",
           "/images/gocmaksan/m-36_6.png",
           "/images/gocmaksan/m-36_7.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-m-36-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -1207,7 +1227,8 @@
           "/images/gocmaksan/m-45_6.png",
           "/images/gocmaksan/m-45_7.png",
           "/images/gocmaksan/m-45_8.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-m-45-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -1250,7 +1271,8 @@
         "description": "M 55 is a mechanical rebar cutting machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-m-55-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -1339,7 +1361,8 @@
           "/images/gocmaksan/matrix-55_12.png",
           "/images/gocmaksan/matrix-55_13.png",
           "/images/gocmaksan/matrix-55_14.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-matrix-55-gocmaksan-demir-demir-kesme-hatti.pdf"
       }
     }
   },
@@ -1415,7 +1438,8 @@
           "/images/gocmaksan/matix-55s_23.png",
           "/images/gocmaksan/matix-55s_24.png",
           "/images/gocmaksan/matix-55s_25.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-matrix-55s-gocmaksan-demir-kesme-hatti.pdf"
       }
     }
   },
@@ -1464,7 +1488,8 @@
           "/images/gocmaksan/max-40_3.png",
           "/images/gocmaksan/max-40_4.png",
           "/images/gocmaksan/max-40_5.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi.pdf"
       }
     }
   },
@@ -1510,7 +1535,8 @@
         "description": "MG 20B is a portable rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi_1.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-mg-20b-gocmaksan-portatif-insaat-demiri-bukme-makinasi.pdf"
       }
     }
   },
@@ -1556,7 +1582,8 @@
         "description": "MG 26 Junior is a portable rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-mg-26-junior-portatif-bukme-makinasi_1.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-mg-26-junior-portatif-bukme-makinasi.pdf"
       }
     }
   },
@@ -1599,7 +1626,8 @@
         "description": "MH 8C is a mesh cutting machine for steel factory applications.",
         "images": [
           "/images/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi.pdf"
       }
     }
   },
@@ -1665,7 +1693,8 @@
           "/images/gocmaksan/power-trowel_3.png",
           "/images/gocmaksan/power-trowel_4.png",
           "/images/gocmaksan/power-trowel_5.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-perdah-makinasi.pdf"
       }
     }
   },
@@ -1715,7 +1744,8 @@
           "/images/gocmaksan/power-24_6.png",
           "/images/gocmaksan/power-24_7.png",
           "/images/gocmaksan/power-24_8.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-power-24-gocmaksan-portatif-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -1800,7 +1830,8 @@
           "/images/gocmaksan/sh-45_5.png",
           "/images/gocmaksan/sh-45_6.png",
           "/images/gocmaksan/sh-45_7.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-sh-45-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -1845,7 +1876,8 @@
         "description": "SH 60 is a hydraulic rebar cutting machine for high-capacity construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-sh-60-gocmaksan-insaat-demiri-kesme-makinasi.pdf"
       }
     }
   },
@@ -1894,7 +1926,8 @@
           "/images/gocmaksan/sl-30_4.png",
           "/images/gocmaksan/sl-30_5.png",
           "/images/gocmaksan/sl-30_6.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-sl-30-gocmaksan-etriye-bukme-makinasi.pdf"
       }
     }
   },
@@ -1938,7 +1971,8 @@
         "description": "SL 36 is a stirrup bending machine for fast and repeatable rebar shaping.",
         "images": [
           "/images/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-sl-36-gocmaksan-etriye-bukme-makinasi.pdf"
       }
     }
   },
@@ -2056,7 +2090,8 @@
           "/images/gocmaksan/sls-12_38.png",
           "/images/gocmaksan/sls-12_39.png",
           "/images/gocmaksan/sls-12_40.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi.pdf"
       }
     }
   },
@@ -2108,7 +2143,8 @@
           "/images/gocmaksan/sx-26_7.png",
           "/images/gocmaksan/sx-26_8.png",
           "/images/gocmaksan/sx-26_9.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-sx-26-gocmaksan-spiral-demir-bukme-makinasi.pdf"
       }
     }
   },
@@ -2152,7 +2188,8 @@
         "description": "SX 36 is a spiral rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-sx-36-gocmaksan-spiral-demir-bukme-makinasi.pdf"
       }
     }
   },
@@ -2196,7 +2233,8 @@
         "description": "SX 40 is a spiral rebar bending machine for construction-site steel processing.",
         "images": [
           "/images/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi_1.webp"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-sx-40-gocmaksan-spiral-demir-bukme-makinasi.pdf"
       }
     }
   },
@@ -2263,7 +2301,8 @@
           "/images/gocmaksan/synclone-45s_9.png",
           "/images/gocmaksan/synclone-45s_10.png",
           "/images/gocmaksan/synclone-45s_11.png"
-        ]
+        ],
+        "pdf_catalog": "/catalogs/gocmaksan/gms-synclone-45s-gocmaksan-demir-bukme-hatti.pdf"
       }
     }
   }
