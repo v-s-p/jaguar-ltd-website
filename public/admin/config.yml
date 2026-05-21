@@ -1,0 +1,71 @@
+backend:
+  name: github
+  repo: v-s-p/jaguar-ltd-website
+  branch: main
+
+locale: bg
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: "yilmaz"
+    label: "Yılmaz Машини"
+    files:
+      - file: "src/data/yilmaz.json"
+        label: "Yılmaz Makine Listesi"
+        name: "yilmaz_machines"
+        fields:
+          - name: machines
+            label: Makineler
+            widget: list
+            fields:
+              - { name: slug, label: Slug, widget: string }
+              - { name: brand, label: Marka, widget: hidden, default: yilmaz }
+              - name: diller
+                label: Diller
+                widget: object
+                fields:
+                  - name: en
+                    label: English
+                    widget: object
+                    fields:
+                      - { name: name, label: Name, widget: string }
+                      - { name: description, label: Description, widget: text }
+                      - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+
+  - name: "gocmaksan"
+    label: "Gocmaksan Машини"
+    files:
+      - file: "src/data/gocmaksan.json"
+        label: "Gocmaksan Makine Listesi"
+        name: "gocmaksan_machines"
+        fields:
+          - name: machines
+            label: Makineler
+            widget: list
+            fields:
+              - { name: slug, label: Slug, widget: string }
+              - { name: brand, label: Marka, widget: hidden, default: gocmaksan }
+              - name: diller
+                label: Diller
+                widget: object
+                fields:
+                  - name: en
+                    label: English
+                    widget: object
+                    fields:
+                      - { name: name, label: Name, widget: string }
+                      - { name: description, label: Description, widget: text }
+                      - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+
+  - name: "settings"
+    label: "Настройки / Ayarlar"
+    delete: false
+    create: false
+    files:
+      - file: "src/data/siteMetadata.ts"
+        label: "Site Ayarları"
+        name: "site_settings"
+        fields:
+          - { name: contact_email, label: Email, widget: string }
+          - { name: contact_phone, label: Telefon, widget: string }
