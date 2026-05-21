@@ -35,7 +35,7 @@ const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
 const ozellikGruplari = activeLang.specs || (machine as any).specs || activeLang.ozellik_gruplari || {};
 const teknikTablo     = activeLang.technical_data || {};
 const piktogramlar    = activeLang.piktogramlar      || activeLang.specifications || {};
-const katalog         = activeLang.catalog || activeLang.katalog || null;
+const katalog         = activeLang.catalog || activeLang.katalog || activeLang.pdf_catalog || null;
 const video           = activeLang.video   || null;
 ---
 
@@ -105,7 +105,7 @@ const video           = activeLang.video   || null;
                   target="_blank"
                   rel="noopener noreferrer"
                   class="inline-flex items-center px-6 py-3 text-base font-bold rounded-xl shadow-sm text-white transition-all duration-300"
-                  style="background:#00A8B5"
+                  style={`background:${machine.brand === 'gocmaksan' ? '#E8751A' : '#00A8B5'}`}
                 >
                   <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
