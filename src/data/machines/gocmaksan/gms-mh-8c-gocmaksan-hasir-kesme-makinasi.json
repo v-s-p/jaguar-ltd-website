@@ -34,7 +34,7 @@
   "diller": {
     "en": {
       "name": "MH 8C",
-      "description": "MH 8C is a mesh cutting machine for steel factory applications.",
+      "description": "## Overview\nThis document presents a series of machines engineered for the precise bending and cutting of mesh, serving as a fundamental tool in the processing of reinforcement materials. These machines are designed to efficiently shape and size metal mesh, making them indispensable for various construction and industrial applications where custom mesh fabrication is required.\n\n## Operational Capabilities and Design\nThe product line features distinct operational systems, including both hydraulic and mechanical configurations, to meet diverse production demands. The hydraulic models are built for controlled and accurate bending, capable of forming mesh at multiple precise angles. Complementing this, the mechanical systems are optimized for rapid processing, ensuring quick and efficient cutting operations. Both machine types are designed to handle substantial material lengths, offering flexibility and high productivity for a wide range of projects.",
       "images": [
         "/images/gocmaksan/gms-mh-8c-gocmaksan-hasir-kesme-makinasi_1.webp"
       ],

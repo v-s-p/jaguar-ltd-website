@@ -2,13 +2,16 @@
 """
 Enrich gocmaksan machine descriptions from PDF catalogs using Gemini.
 
+Uses REST API + inline base64 PDF (same pattern as tercume_merkezi.py).
+No google-genai SDK needed — just requests.
+
 Usage:
     py tools/enrich_gocmaksan_descriptions.py --slug gms-sls-12-... --dry-run
     py tools/enrich_gocmaksan_descriptions.py --slug gms-sls-12-...
     py tools/enrich_gocmaksan_descriptions.py                           # mass run 47 machines
 
 Requirements:
-    pip install google-genai python-dotenv
+    pip install requests
     Add GEMINI_API_KEY=your_key to .env at repo root (or export as env var)
 
 Safety:
@@ -19,18 +22,31 @@ Safety:
 """
 
 import argparse
+import base64
 import json
 import os
 import shutil
 import sys
 import time
+import urllib3
 from datetime import datetime
 from pathlib import Path
 
-from dotenv import load_dotenv
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+import requests
 
-# ── Resolve project root (two levels up from tools/) ─────────────────────────
+# Suppress SSL warnings (consistent with tercume_merkezi.py environment)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# ── .env loader (DIY, same as tercume_merkezi.py) ────────────────────────────
+# Script lives in tools/, .env is at repo root (one level up)
+_env_path = Path(__file__).resolve().parent.parent / ".env"
+if _env_path.exists():
+    with open(_env_path, "r", encoding="utf-8") as _f:
+        for _line in _f:
+            if _line.startswith("GEMINI_API_KEY="):
+                os.environ["GEMINI_API_KEY"] = _line.strip().split("=", 1)[1]
+
+# ── Paths ─────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent.parent
 JSON_DIR = ROOT / "src" / "data" / "machines" / "gocmaksan"
 PDF_DIR = ROOT / "public" / "catalogs" / "gocmaksan"
@@ -38,10 +54,13 @@ BACKUP_ROOT = ROOT / "_backup"
 LOG_PATH = ROOT / "_enrichment_log.json"
 
 RATE_LIMIT_SECS = 5          # free tier: 15 RPM ≈ 4 sec; 5 is safe
-MODEL = "gemini-2.0-flash"
+GEMINI_URL = (
+    "https://generativelanguage.googleapis.com"
+    "/v1beta/models/gemini-2.5-flash:generateContent?key={key}"
+)
 
-# ── Gemini prompt ─────────────────────────────────────────────────────────────
-SYSTEM_PROMPT = """You are a technical copywriter reading a PDF product catalog for an industrial machine.
+# ── Extraction prompt ─────────────────────────────────────────────────────────
+EXTRACTION_PROMPT = """You are a technical copywriter reading a PDF product catalog for an industrial machine.
 
 Your task: extract and write ONLY narrative/prose that describes:
 - What the machine does and its core purpose
@@ -71,20 +90,16 @@ inventing or repeating any specific numeric values.
 Begin your response directly with the first ## heading. No preamble."""
 
 
-def get_client():
-    """Initialize Gemini client from env variable."""
-    try:
-        from google import genai
-    except ImportError:
-        print("ERROR: google-genai not installed. Run: pip install google-genai", file=sys.stderr)
-        sys.exit(1)
-
+def get_api_key() -> str:
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
-        print("ERROR: GEMINI_API_KEY not set. Add it to .env at repo root, or export as env var.", file=sys.stderr)
+        print(
+            "ERROR: GEMINI_API_KEY not set. "
+            "Add it to .env at repo root, or export as env var.",
+            file=sys.stderr,
+        )
         sys.exit(1)
-
-    return genai.Client(api_key=key)
+    return key
 
 
 def get_all_slugs() -> list[str]:
@@ -112,55 +127,35 @@ def load_log() -> dict:
 def save_log(log: dict) -> None:
     LOG_PATH.write_text(
         json.dumps(log, indent=2, ensure_ascii=False),
-        encoding="utf-8"
+        encoding="utf-8",
     )
 
 
-def call_gemini(client, pdf_path: Path, slug: str) -> str:
-    """Upload PDF to Gemini Files API and extract prose description."""
-    from google.genai import types
+def call_gemini(pdf_path: Path, api_key: str) -> str:
+    """Send PDF as inline base64 to Gemini REST API, return extracted prose."""
+    pdf_b64 = base64.b64encode(pdf_path.read_bytes()).decode("utf-8")
 
-    # Upload PDF
-    with open(pdf_path, "rb") as f:
-        uploaded = client.files.upload(
-            file=f,
-            config=types.UploadFileConfig(
-                mime_type="application/pdf",
-                display_name=slug,
-            ),
-        )
+    url = GEMINI_URL.format(key=api_key)
+    payload = {
+        "contents": [{
+            "parts": [
+                {"inline_data": {"mime_type": "application/pdf", "data": pdf_b64}},
+                {"text": EXTRACTION_PROMPT},
+            ]
+        }],
+        "generationConfig": {"temperature": 0.2},
+    }
 
-    # Wait until file is ACTIVE (usually instant, but be safe)
-    for _ in range(15):
-        info = client.files.get(name=uploaded.name)
-        state = getattr(info.state, "name", str(info.state))
-        if state == "ACTIVE":
-            break
-        time.sleep(2)
-    else:
-        raise RuntimeError(f"File {uploaded.name} never became ACTIVE (state={state})")
+    res = requests.post(url, json=payload, timeout=60, verify=False)
+    resp_json = res.json()
 
-    try:
-        response = client.models.generate_content(
-            model=MODEL,
-            contents=[
-                types.Part.from_uri(
-                    file_uri=uploaded.uri,
-                    mime_type="application/pdf",
-                ),
-                SYSTEM_PROMPT,
-            ],
-        )
-        return response.text.strip()
-    finally:
-        # Clean up uploaded file to avoid quota accumulation
-        try:
-            client.files.delete(name=uploaded.name)
-        except Exception:
-            pass
+    if "error" in resp_json:
+        raise RuntimeError(resp_json["error"]["message"])
+
+    return resp_json["candidates"][0]["content"]["parts"][0]["text"].strip()
 
 
-def process_slug(slug: str, client, dry_run: bool, timestamp: str) -> dict:
+def process_slug(slug: str, api_key: str, dry_run: bool, timestamp: str) -> dict:
     """Process one machine slug. Returns a log-ready result dict."""
     json_path = JSON_DIR / f"{slug}.json"
     pdf_path = PDF_DIR / f"{slug}.pdf"
@@ -169,20 +164,15 @@ def process_slug(slug: str, client, dry_run: bool, timestamp: str) -> dict:
         return {"slug": slug, "status": "json_missing"}
 
     if not pdf_path.exists():
-        return {
-            "slug": slug,
-            "status": "pdf_missing",
-            "old_length": len(
-                json.loads(json_path.read_text(encoding="utf-8"))
-                .get("diller", {}).get("en", {}).get("description", "")
-            ),
-        }
+        data = json.loads(json_path.read_text(encoding="utf-8"))
+        old_desc = data.get("diller", {}).get("en", {}).get("description", "")
+        return {"slug": slug, "status": "pdf_missing", "old_length": len(old_desc)}
 
     data = json.loads(json_path.read_text(encoding="utf-8"))
     old_desc = data.get("diller", {}).get("en", {}).get("description", "")
 
     try:
-        new_desc = call_gemini(client, pdf_path, slug)
+        new_desc = call_gemini(pdf_path, api_key)
     except Exception as e:
         return {
             "slug": slug,
@@ -191,7 +181,7 @@ def process_slug(slug: str, client, dry_run: bool, timestamp: str) -> dict:
             "old_length": len(old_desc),
         }
 
-    result = {
+    result: dict = {
         "slug": slug,
         "status": "dry_run_ok" if dry_run else "ok",
         "old_length": len(old_desc),
@@ -202,11 +192,10 @@ def process_slug(slug: str, client, dry_run: bool, timestamp: str) -> dict:
     if dry_run:
         result["full_output"] = new_desc
     else:
-        # Backup first, then write
         backup_path = backup_json(slug, timestamp)
         result["backup"] = str(backup_path)
 
-        # Replace only the description field
+        # Replace only description — everything else untouched
         if "diller" not in data:
             data["diller"] = {}
         if "en" not in data["diller"]:
@@ -221,9 +210,9 @@ def process_slug(slug: str, client, dry_run: bool, timestamp: str) -> dict:
     return result
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Enrich gocmaksan descriptions from PDF catalogs via Gemini."
+        description="Enrich gocmaksan descriptions from PDF catalogs via Gemini REST API."
     )
     parser.add_argument(
         "--slug", default=None,
@@ -235,16 +224,16 @@ def main():
     )
     args = parser.parse_args()
 
-    client = get_client()
-
+    api_key = get_api_key()
     slugs = [args.slug] if args.slug else get_all_slugs()
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    print(f"Mode: {'DRY RUN' if args.dry_run else 'WRITE'} | "
-          f"Machines: {len(slugs)} | Timestamp: {timestamp}")
+    print(
+        f"Mode: {'DRY RUN' if args.dry_run else 'WRITE'} | "
+        f"Machines: {len(slugs)} | Timestamp: {timestamp}"
+    )
     if not args.dry_run and len(slugs) > 1:
-        backup_dir = BACKUP_ROOT / f"pre_enrichment_gocmaksan_{timestamp}"
-        print(f"Backup dir: {backup_dir}")
+        print(f"Backup dir: {BACKUP_ROOT / f'pre_enrichment_gocmaksan_{timestamp}'}")
     print()
 
     log = load_log()
@@ -254,35 +243,28 @@ def main():
         "slugs": slugs if len(slugs) <= 5 else f"{len(slugs)} machines",
         "results": [],
     }
-
     counts: dict[str, int] = {}
-
-    api_calls = 0  # track actual API calls for rate limiting
 
     for i, slug in enumerate(slugs):
         print(f"[{i + 1}/{len(slugs)}] {slug} ...", end=" ", flush=True)
 
-        result = process_slug(slug, client, args.dry_run, timestamp)
+        result = process_slug(slug, api_key, args.dry_run, timestamp)
         run_entry["results"].append(result)
 
         status = result["status"]
         counts[status] = counts.get(status, 0) + 1
 
-        # Human-readable line
         if status in ("ok", "dry_run_ok"):
-            print(f"{status} | {result['old_length']} → {result['new_length']} chars")
+            print(f"{status} | {result['old_length']} -> {result['new_length']} chars")
         elif status == "pdf_missing":
-            print(f"SKIP (no PDF)")
+            print("SKIP (no PDF)")
         elif status == "gemini_error":
-            print(f"ERROR: {result.get('error', '?')}")
+            print(f"ERROR: {result.get('error', '?')[:120]}")
         else:
             print(status)
 
-        # Rate limit: only between actual Gemini calls
-        needs_api = status in ("ok", "dry_run_ok")
-        if needs_api:
-            api_calls += 1
-        if needs_api and i < len(slugs) - 1:
+        # Rate limit only after successful API calls
+        if status in ("ok", "dry_run_ok") and i < len(slugs) - 1:
             time.sleep(RATE_LIMIT_SECS)
 
     # ── Summary ───────────────────────────────────────────────────────────────
@@ -297,12 +279,12 @@ def main():
             print(f"  {k}: {v}")
     print(f"\nLog written to: {LOG_PATH.relative_to(ROOT)}")
 
-    if args.dry_run and run_entry["results"]:
+    if args.dry_run:
         first_ok = next(
             (r for r in run_entry["results"] if r["status"] == "dry_run_ok"), None
         )
         if first_ok:
-            print(f"\n--- DRY RUN full_output preview ({first_ok['slug']}) ---")
+            print(f"\n--- DRY RUN preview ({first_ok['slug']}) ---")
             print(first_ok.get("full_output", "")[:800])
             print("--- (see _enrichment_log.json for complete output) ---")
 

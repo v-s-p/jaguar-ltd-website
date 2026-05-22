@@ -1,3 +1,54 @@
+## 2026-05-22 [09:30] — gms-b-45x1 Retry + MachinePage Markdown Render
+
+**Retry:** `gms-b-45x1` — status: ok, 990 chars, `## Overview` confirmed. Re-sync: `scripts/sync_machines_to_json.py` aggregate güncellendi. Effective coverage: 39/47 (8 pdf_missing beklenen).
+
+**Markdown render:** `MachinePage.astro` `set:html` + `marked` v18 (`breaks: true, gfm: true`).
+Etkilenen:
+- `src/components/pages/MachinePage.astro` — `descriptionHtml = marked.parse(aciklama)`, `<div set:html>`, scoped `<style>` `.machine-description :global(h2/h3/p/ul/li/strong)`, `seoDescription` strip → BaseLayout meta
+- `src/components/pages/KategoriPage.astro` — `makeExcerpt()` helper, kart `{aciklama}` → `{makeExcerpt(aciklama)}` (EK: gocmaksan.astro da dahil edildi — aynı issue, `line-clamp-2` kartı)
+- `src/pages/kategori/gocmaksan.astro` — aynı `makeExcerpt()`, kart strip uygulandı
+- `package.json` — `marked ^18.0.4` eklendi
+- CSS notu: Tailwind Typography plugin yüklü değil (`plugins: []`), `prose` sınıfı çalışmıyor. Scoped style bloğu MachinePage.astro içine eklendi.
+
+**Smoke test:**
+- Göçmaksan-zengin (sls-12): h2=3 ✓, ham ##=0 ✓ → OK
+- Göçmaksan-stub (oturak-makaslari): h2=0 (beklenen) ✓, ham ##=0 ✓ → OK
+- Yılmaz (ack-420-s): h2=0 ✓, ham ##=0 ✓, br=1 ✓ (paragraf korundu) → OK, regression yok
+
+**Bekleyen — DEPLOY ETME:**
+1. `py scripts/tercume_merkezi.py` — BG/RU çeviriler zengin EN prose'a tazelensin
+2. `git add` + commit + push (Ken; CI sync push'ta tetiklenir)
+3. Cloudflare cache purge
+4. `_meta/data-architecture.md` wiki notu (Ken)
+
+---
+
+## 2026-05-22 — Göçmaksan Prose Enrichment Mass Run
+
+**Yapılan:** 47 Göçmaksan makinesi için `diller.en.description` PDF kataloglarından zenginleştirildi.
+Pipeline: `tools/enrich_gocmaksan_descriptions.py` (Gemini 2.5 Flash + PDF inline base64, REST API).
+Yürütme: Hermes (ön koşul + sample real-write) → Claude Code (arch teşhis + mass run + sync + DEVLOG).
+
+**Sonuç:**
+- ok: 38 (## Overview / ## Key Benefits / ## Engineering Highlights başlıklı zengin prose)
+- pdf_missing: 8 (Hand Tools 6 + Light Construction 2 — beklenen)
+- gemini_error: 1 (gms-b-45x1, transient "high demand" — yeniden çalıştırılabilir)
+
+**Backup:** `_backup/pre_enrichment_gocmaksan_20260522_084416/`
+**Etkilenen dosyalar:** `src/data/machines/gocmaksan/*.json` (38 dosya) + `src/data/gocmaksan.json` (aggregate)
+**Data architecture confirmed:** Individual files canonical (`src/data/machines/gocmaksan/<slug>.json`),
+aggregate `src/data/gocmaksan.json` derived — sync: `scripts/sync_machines_to_json.py` lokal çalıştırıldı
+(GitHub Action `.github/workflows/cms-sync.yml` aynı işi push'ta yapardı; lokalde mirror için yapıldı).
+
+**Bekleyen — DEPLOY ETME:**
+1. `MachinePage.astro` markdown render PR — yoksa "## Overview" string basar
+2. `tercume_merkezi.py` re-run — BG/RU çeviriler zengin prose'a tazelensin
+3. `git add` + commit + push + Cloudflare cache purge
+4. (Sonra) `_meta/data-architecture.md` wiki notu ekle
+5. gms-b-45x1 retry (1 gemini_error, `--slug gms-b-45x1-... ` ile)
+
+---
+
 - [2026-05-15 23:00:00] | Claude+Codex | Bug Fix Sprint | 1) machines.json→yilmaz.json HomePage.astro referans fix (b394b06) 2) teknikTablo svg/PRODUCT INFO kirli data filtresi + type separator (72f038f) 3) Gocmaksan specs root-level fallback: machine.specs (a526f9a) Site CANLI, build OK, 1152 sayfa. Sonraki: Gocmaksan technical_data scraper fix, BG/RU çeviri, Desktop→GIT_KASASI birleştirme.
 - [2026-05-15 22:00:00] | Claude+Code | Gocmaksan Specs Tamamlandı | 47/47 makine specs dolu. Steel Factory 8/8 (Axis50S, Matrix55, Matrix55S, SLS12, Synclone45S, HB12x3, HB12x6, MH8C). Hand Tools 6/6. Tüm specs İngilizce. missing_specs=0. | Sonraki: BG/RU çeviri, UI branding, route conflict fix.
 - [2026-05-15 21:00:00] | Claude+Code+Codex | Gocmaksan Sprint | gocmaksan_guncelleyici.py specs parser düzeltildi (FEATURED FEATURES + TECHNICAL DATA + CAPACITIES). 47 makine işlendi, 29/47 specs dolu. Resimler {slug}_{index} formatına rename edildi. 14 Steel Factory/Hand Tools makinesi specs boş — sayfa yapısı farklı, sonraki sprint. Build cache EPERM sorunu ortam kaynaklı. | Sonraki: 14 makine specs, BG/RU çeviri, UI branding, route conflict fix.

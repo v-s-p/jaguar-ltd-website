@@ -37,7 +37,7 @@
   "diller": {
     "en": {
       "name": "B 50",
-      "description": "B 50 is a rebar bending machine for construction-site steel processing.",
+      "description": "## Overview\nThese machines are purpose-built for the precise bending of rebar, serving as indispensable equipment within the construction industry. They are designed to shape steel reinforcement bars to the specific angles and forms required for various structural applications, ensuring the integrity and strength of concrete structures.\n\n## Key Benefits and Operational Advantages\nOperators benefit from advanced control features, including a program saving option that allows for the storage of up to nine distinct bending angles. This capability significantly enhances efficiency and ensures consistency across repetitive tasks, reducing the potential for errors. Furthermore, the machines offer versatile control options, allowing for both manual and automatic operation, which provides the flexibility to adapt to diverse project demands and operator preferences.\n\n## Engineering and Design Highlights\nA notable engineering feature incorporated into these machines is the planetary reducer system, which contributes to their robust performance and reliability under demanding conditions. The design also includes a digital display control panel, which streamlines operation and provides a clear interface for managing the bending processes.",
       "images": [
         "/images/gocmaksan/gms-b-50-gocmaksan-insaat-demiri-bukme-makinasi_1.webp"
       ],

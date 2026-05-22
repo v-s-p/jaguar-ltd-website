@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
+import { marked } from 'marked';
+marked.use({ breaks: true, gfm: true });
 
 export async function getStaticPaths() {
   // getStaticPaths izole scope'da calisiyor - import'lar burada olmali
@@ -28,6 +30,13 @@ const activeLang = machine.diller?.en || machine.diller?.tr || {};
 
 const isim        = activeLang.name        || activeLang.isim        || machine.slug;
 const aciklama    = activeLang.description || activeLang.aciklama    || '';
+const descriptionHtml = aciklama ? String(marked.parse(aciklama)) : '';
+const seoDescription  = aciklama
+  .replace(/^#+\s+/gm, '')
+  .replace(/\*\*(.+?)\*\*/g, '$1')
+  .replace(/\n+/g, ' ')
+  .trim()
+  .slice(0, 160);
 const resimler    = activeLang.images      || activeLang.resimler    || [];
 const anaResim    = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
@@ -41,7 +50,7 @@ const video           = activeLang.video   || null;
 
 <BaseLayout
   title={`${isim} | Jaguar LTD`}
-  description={aciklama.slice(0, 160) || `${isim} - Jaguar LTD`}
+  description={seoDescription || `${isim} - Jaguar LTD`}
   image={anaResim}
 >
   <div class="bg-gray-50 py-12 min-h-screen">
@@ -83,7 +92,7 @@ const video           = activeLang.video   || null;
                 )}
               </div>
             )}
-            <p class="text-base text-gray-600 leading-relaxed mb-8">{aciklama}</p>
+            <div class="machine-description text-base text-gray-600 leading-relaxed mb-8" set:html={descriptionHtml} />
 
             {Object.keys(piktogramlar).length > 0 && (
               <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -192,3 +201,32 @@ const video           = activeLang.video   || null;
     </div>
   </div>
 </BaseLayout>
+
+<style>
+  .machine-description :global(h2) {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 1.25rem 0 0.4rem;
+    color: #1f2937;
+  }
+  .machine-description :global(h3) {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0 0.3rem;
+    color: #374151;
+  }
+  .machine-description :global(p) {
+    margin-bottom: 0.75rem;
+    line-height: 1.65;
+  }
+  .machine-description :global(ul),
+  .machine-description :global(ol) {
+    margin: 0.4rem 0 0.75rem 1.25rem;
+  }
+  .machine-description :global(li) {
+    margin-bottom: 0.2rem;
+  }
+  .machine-description :global(strong) {
+    font-weight: 600;
+  }
+</style>

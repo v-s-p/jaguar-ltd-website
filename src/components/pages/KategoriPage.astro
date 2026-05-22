@@ -2,6 +2,17 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
 
+function makeExcerpt(md: string, maxLen = 200): string {
+  if (!md) return '';
+  return md
+    .replace(/^#+\s+.*$/gm, '')
+    .replace(/\*\*(.+?)\*\*/g, '$1')
+    .replace(/\n+/g, ' ')
+    .trim()
+    .slice(0, maxLen)
+    .replace(/\s+\S*$/, '') + (md.length > maxLen ? '…' : '');
+}
+
 export async function getStaticPaths() {
   const yilmaz = (await import('../../data/yilmaz.json')).default;
   const gocmaksan = (await import('../../data/gocmaksan.json')).default;
@@ -148,7 +159,7 @@ const filteredMachines = allMachines.filter((m: any) => {
                       {Array.isArray(m.subcategory) ? m.subcategory.join(' • ') : m.subcategory}
                     </div>
                   )}
-                  <p class="text-sm text-gray-600 line-clamp-3 mb-6 leading-relaxed">{aciklama}</p>
+                  <p class="text-sm text-gray-600 line-clamp-3 mb-6 leading-relaxed">{makeExcerpt(aciklama)}</p>
                   <div class="mt-auto flex justify-end items-center text-sm font-extrabold text-brand-light tracking-wide">
                     {t('btn.viewall')} <span class="ml-2 text-xl font-normal transition-transform duration-200 group-hover:translate-x-1 group-hover:text-brand-accent">〉</span>
                   </div>
