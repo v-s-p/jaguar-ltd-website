@@ -1,3 +1,58 @@
+## 2026-05-22 [14:00] — Faz C: Dil temizligi (stage)
+
+7 dil -> 3 dil (BG/EN/RU). TR/ES/RO/BCS kaldirildi.
+
+**Degistirilen:** `src/i18n/ui.ts` — `languages` + `ui` objesinden 4 dil blogu silindi (145 satir)
+**Silinen locale dosyalari:** Yok — tum ceviriler ui.ts icinde
+**Lokal smoke (npm run build):** 568 sayfa, 0 hata. BG/EN/RU dist/ uretildi, TR/ES/RO/BCS yok. Selector dropdown 3 dil.
+
+**Staged (commit bekleniyor — Ken'in karari):** `src/i18n/ui.ts`
+
+**Onerilen commit mesaji:**
+```
+chore: trim languages to BG/EN/RU (remove TR/ES/RO/BCS)
+
+- src/i18n/ui.ts: languages + ui objects trimmed to bg/en/ru
+- /tr/, /es/, /ro/, /bcs/ routes no longer generated (404)
+- No redirects needed (pages were never live/indexed)
+- LanguagePicker + getLanguagePaths() auto-updated (dynamic from ui.ts)
+```
+
+**Wiki note (yeni):** `docs/wiki/jaguar/_meta/language-cleanup.md`
+
+**Bekleyen (Ken):**
+- `git diff --stat` ile inceleme
+- `git commit + push` (commit mesaji onerisi yukarida)
+- Push sonrasi Cloudflare cache purge (onceki sprint'ten henuz yapilmadiysa birlikte)
+
+---
+
+## 2026-05-22 [11:00] — Sprint Kapanis: Deploy + Wiki
+
+**Commit:** `acc8305` — `feat: gocmaksan prose enrichment + markdown render` (47 dosya, 285 insertion)
+**Push:** `origin/main` — success (CMS rebase sonrasi: `git stash` + `git pull --rebase` + `git push`)
+**GitHub Action `cms-sync`:** completed failure — pre-existing `github-actions[bot]` 403 push permission. Non-blocking (aggregate commit'e dahil edildi). Ken duzeltmeli: repo Settings -> Actions -> General -> "Read and write permissions".
+**Cloudflare Pages deploy:** Push'ta otomatik tetiklendi (~1-2 dk build ETA).
+**Cache purge:** Ken'e flag — wrangler auth/proje adi bilinmiyor, manuel purge: Cloudflare dashboard -> jaguar.ataerk.com zone -> Caching -> Purge Everything.
+
+**Canli smoke (curl, nocache param ile):**
+- Gocmaksan zengin (gms-sls-12): h2=3, ham ##=0 -> OK
+- Gocmaksan stub (gms-oturak-makaslari): h2=0, ham ##=0 -> OK
+- Yilmaz (ack-420-s): h2=0, ham ##=0, br=1 (paragraf korundu) -> OK, regression yok
+
+**Wiki notes (yeni):**
+- `docs/wiki/jaguar/_meta/data-architecture.md`
+- `docs/wiki/jaguar/_meta/tailwind-prose-dead-css.md`
+
+**Bekleyen (Ken):**
+- `tercume_merkezi.py` BG/RU re-run (rate-limited, planli)
+- `@tailwindcss/typography` plugin (AboutPage dead prose CSS)
+- `.gitignore` cleanup: `_backup/`, `_enrichment_log.json`, `pdf_extraction/`, eski backup JSON'lari
+- GitHub Actions write permission fix (yukarida)
+- Cloudflare cache purge (yukarida)
+
+---
+
 ## 2026-05-22 [09:30] — gms-b-45x1 Retry + MachinePage Markdown Render
 
 **Retry:** `gms-b-45x1` — status: ok, 990 chars, `## Overview` confirmed. Re-sync: `scripts/sync_machines_to_json.py` aggregate güncellendi. Effective coverage: 39/47 (8 pdf_missing beklenen).
