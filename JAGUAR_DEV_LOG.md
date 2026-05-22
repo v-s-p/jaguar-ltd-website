@@ -1,3 +1,30 @@
+## 2026-05-22 [15:00] — Filter pill case + RU light construction duzeltme (stage)
+
+- gocmaksan.astro filter butonlarindan `uppercase` kaldirildi — artik "Огъване" degil "Огъване" (title case)
+- ui.ts RU `cat.sub.light`: 'Лека техника' (Bulgarca!) -> 'Лёгкая техника' duzeltildi
+- Build 568 sayfa OK. BG dist: Огъване/Рязане... RU dist: Гибка/Комбинированные/Лёгкая техника dogrulandi.
+
+---
+
+## 2026-05-22 [14:45] — Kategori filter pills i18n fix (stage)
+
+- `gocmaksan.astro` filter pill label'lari hard-coded EN'den `t('cat.sub.*')` cagrilarina gecirildi
+- BG default URL `/kategori/gocmaksan` artik Bulgarca pill gosteriyor (Огъване, Рязане, Комбинирани...)
+- `data-filter` attribute canonical EN key'leri korundu (JS filter logic bozulmadi)
+- Yilmaz etkilenmedi — aluminyum/pvc KategoriPage.astro'dan geciyor (zaten t() kullaniyor)
+- Build 568 sayfa OK. Smoke: 6 BG label dogrulandi dist HTML'de.
+
+---
+
+## 2026-05-22 [14:30] — Navbar polish (stage)
+
+- Machines dropdown button'a `pb-1` eklendi — chevron diğer nav link'lerle hizalandı
+- Jaguar logo: `brightness-0 invert` eklendi (PNG → saf beyaz, Tailwind filter; Yilmaz logo ile aynı pattern)
+- Etkilenen: `src/components/Navbar.astro` (2 satır), sadece navbar context — Footer dokunulmadı
+- Build: 568 sayfa OK. Gorsel doğrulama Ken yapacak (`npm run dev` → localhost:4321)
+
+---
+
 ## 2026-05-22 [14:00] — Faz C: Dil temizligi (stage)
 
 7 dil -> 3 dil (BG/EN/RU). TR/ES/RO/BCS kaldirildi.

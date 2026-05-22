@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import gocmaksanMachines from '../../data/gocmaksan.json';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 function makeExcerpt(md: string, maxLen = 160): string {
   if (!md) return '';
@@ -13,16 +14,19 @@ function makeExcerpt(md: string, maxLen = 160): string {
     .replace(/\s+\S*$/, '') + (md.length > maxLen ? '…' : '');
 }
 
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
 const catName = 'Gocmaksan';
 const catLabel = 'Göçmaksan';
 
 const subcategoryMap = [
-  {id: "Bending Machines", label: "BENDING"},
-  {id: "Cutting Machines", label: "CUTTING"},
-  {id: "Combined Machines", label: "COMBINED"},
-  {id: "Light Construction", label: "LIGHT CONSTRUCTION"},
-  {id: "Steel Factory Solutions", label: "STEEL FACTORY"},
-  {id: "Hand Tools", label: "HAND TOOLS"}
+  {id: "Bending Machines",      label: t('cat.sub.bending')},
+  {id: "Cutting Machines",      label: t('cat.sub.cutting')},
+  {id: "Combined Machines",     label: t('cat.sub.combined')},
+  {id: "Light Construction",    label: t('cat.sub.light')},
+  {id: "Steel Factory Solutions", label: t('cat.sub.factory')},
+  {id: "Hand Tools",            label: t('cat.sub.handtools')}
 ];
 
 // categories array olarak geliyor
@@ -50,14 +54,14 @@ const filteredMachines = gocmaksanMachines.map((m: any) => {
     <!-- Filtre Butonlari -->
     <div class="flex flex-wrap gap-2 mb-10" id="filter-container">
       <button
-        class="filter-btn active font-black px-5 py-2 rounded-full shadow-sm text-xs uppercase tracking-wider"
+        class="filter-btn active font-black px-5 py-2 rounded-full shadow-sm text-xs tracking-wider"
         style="background:#f59e0b; color:white;"
         data-filter="all">
         Всички
       </button>
       {subcategoryMap.map((sub) => (
         <button
-          class="filter-btn bg-white text-gray-500 border border-gray-200 font-bold px-4 py-2 rounded-full shadow-sm hover:shadow-md transition-all text-xs uppercase tracking-wider"
+          class="filter-btn bg-white text-gray-500 border border-gray-200 font-bold px-4 py-2 rounded-full shadow-sm hover:shadow-md transition-all text-xs tracking-wider"
           data-filter={sub.id}>
           {sub.label}
         </button>

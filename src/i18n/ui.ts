@@ -172,7 +172,7 @@ export const ui = {
     'cat.sub.bending': 'Гибка',
     'cat.sub.combined': 'Комбинированные',
     'cat.sub.factory': 'Для арматурного цеха',
-    'cat.sub.light': 'Лека техника',
+    'cat.sub.light': 'Лёгкая техника',
     'cat.sub.handtools': 'Ручной инструмент',
     'machine.technical_data': 'Технические данные'
   },
