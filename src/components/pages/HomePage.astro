@@ -23,7 +23,7 @@ const heroMakineler = heroSlugs
 <BaseLayout title={`Jaguar LTD | YILMAZ ${t('nav.title.home')}`}>
   
   <!-- Hero Slider -->
-  <section class="relative h-[300px] md:h-[450px] overflow-hidden bg-gray-50 border-b border-gray-200">
+  <section class="relative h-[320px] md:h-[520px] overflow-hidden bg-gray-50 border-b border-gray-200">
     {heroMakineler.length > 0 ? (
       <>
         <div id="hero-slider" class="h-full flex transition-transform duration-1000 ease-in-out">
@@ -35,7 +35,7 @@ const heroMakineler = heroSlugs
             const resimYolu = m.diller?.[lang]?.images?.[0] || m.diller?.en?.images?.[0] || m.diller?.[lang]?.resimler?.[0] || m.diller?.en?.resimler?.[0] || '/placeholder.png';
 
             return (
-            <a href={l(`/machines/${m.slug}`)} class="min-w-full h-full relative flex items-center justify-center p-8 md:p-16 group cursor-pointer">
+            <a href={l(`/machines/${m.slug}`)} class="min-w-full h-full relative flex items-center justify-center p-3 md:p-5 group cursor-pointer">
               <img
                 src={resimYolu}
                 class="max-h-full max-w-full object-contain drop-shadow-2xl transition-transform duration-500 group-hover:scale-105"
