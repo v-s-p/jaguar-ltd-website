@@ -136,10 +136,11 @@ const filteredMachines = allMachines.filter((m: any) => {
     {filteredMachines.length > 0 ? (
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-16" id="machines-grid">
         {filteredMachines.map((m: any) => {
-          const en = m.diller?.en || {};
-          const makineIsmi = en.name || en.isim || m.slug;
-          const resimYolu = en.images?.[0] || en.resimler?.[0] || '/placeholder.png';
-          const aciklama = en.description || en.aciklama || '';
+          const activeLang = m.diller?.[lang] || {};
+          const enLang     = m.diller?.en     || {};
+          const makineIsmi = activeLang.name || activeLang.isim || enLang.name || enLang.isim || m.slug;
+          const resimYolu  = activeLang.images?.[0] || activeLang.resimler?.[0] || enLang.images?.[0] || enLang.resimler?.[0] || '/placeholder.png';
+          const aciklama   = activeLang.description || activeLang.aciklama || enLang.description || enLang.aciklama || '';
 
           return (
             <a href={l(`/machines/${m.slug}`)} class="machine-card block group h-full cursor-pointer" data-subcategories={m.finalSubcats}>

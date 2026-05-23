@@ -26,10 +26,11 @@ const backUrl = machine.brand === 'gocmaksan'
     ? l('/kategori/aluminyum')
     : l('/kategori/pvc');
 
-const activeLang = machine.diller?.en || machine.diller?.tr || {};
+const activeLang = machine.diller?.[lang] || {};
+const enLang     = machine.diller?.en     || {};
 
-const isim        = activeLang.name        || activeLang.isim        || machine.slug;
-const aciklama    = activeLang.description || activeLang.aciklama    || '';
+const isim        = activeLang.name        || activeLang.isim        || enLang.name    || enLang.isim    || machine.slug;
+const aciklama    = activeLang.description || activeLang.aciklama    || enLang.description || enLang.aciklama || '';
 const descriptionHtml = aciklama ? String(marked.parse(aciklama)) : '';
 const seoDescription  = aciklama
   .replace(/^#+\s+/gm, '')
@@ -37,7 +38,7 @@ const seoDescription  = aciklama
   .replace(/\n+/g, ' ')
   .trim()
   .slice(0, 160);
-const resimler    = activeLang.images      || activeLang.resimler    || [];
+const resimler    = activeLang.images      || activeLang.resimler    || enLang.images  || enLang.resimler || [];
 const anaResim    = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
 

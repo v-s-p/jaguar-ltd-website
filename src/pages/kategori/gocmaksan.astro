@@ -71,13 +71,12 @@ const filteredMachines = gocmaksanMachines.map((m: any) => {
     {filteredMachines.length > 0 ? (
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="machines-grid">
         {filteredMachines.map((m: any) => {
-          const en = m.diller?.en || {};
-          const bg = m.diller?.bg || {};
-          const activeLang = bg.name ? bg : en;
-          
-          const makineIsmi = activeLang.name || m.slug?.toUpperCase() || "—";
-          const resimYolu = (activeLang.images && activeLang.images.length > 0) ? activeLang.images[0] : '/placeholder.png';
-          const aciklama = activeLang.description || '';
+          const activeLang = m.diller?.[lang] || {};
+          const enLang     = m.diller?.en     || {};
+
+          const makineIsmi = activeLang.name || activeLang.isim || enLang.name || enLang.isim || m.slug?.toUpperCase() || "—";
+          const resimYolu  = activeLang.images?.[0] || enLang.images?.[0] || '/placeholder.png';
+          const aciklama   = activeLang.description || enLang.description || '';
 
           return (
             <a href={`/machines/${m.slug}`} class="machine-card block group h-full" data-subcategories={m.finalSubcats}>
