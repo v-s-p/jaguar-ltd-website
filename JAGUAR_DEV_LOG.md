@@ -1,3 +1,40 @@
+## 2026-05-23 [~13:00] — i18n hotfix: field-level EN fallback (specs + teknikTablo + katalog)
+
+**Sorun:** Önceki fix (697dce9) sadece `name/description/images` için EN fallback ekledi. `MachinePage.astro`'da 3 field kör nokta kaldı: `ozellikGruplari` (specs), `teknikTablo` (technical_data), `katalog` (pdf_catalog).
+
+**Semptomlar:**
+- Yılmaz BG/RU: teknik veri kartları + spec grupları tamamen kayboluyor (tablolar "uçtu")
+- Göçmaksan BG/RU: katalog PDF butonu görünmüyor (sessiz regresyon)
+
+**FAZ 1 — Data audit (inspect only):**
+- Yılmaz: 86/88 makine `diller.en` only — BG/RU key yok. 2 exception (vce-3500, vce-4000): ghost skeleton var (name="", images=[], specs={STANDARD:[]}), değerler boş.
+- Göçmaksan: 39/47 `diller.bg.description` + `diller.ru.description` — name/specs/technical_data BG/RU çevirisi YOK. Top-level `specs` her zaman EN.
+- Render audit → 3 kırık satır: L45 `specs`, L46 `technical_data`, L48 `katalog`.
+
+**FAZ 2 — Fix (`MachinePage.astro:45-48`, 3 satır):**
+```js
+// L45
+const ozellikGruplari = activeLang.specs || enLang.specs || (machine as any).specs || ...
+// L46
+const teknikTablo     = activeLang.technical_data || enLang.technical_data || {};
+// L48
+const katalog         = activeLang.pdf_catalog || enLang.pdf_catalog || (machine as any).pdf_catalog || null;
+```
+
+**FAZ 3 — Verify (localhost:4321, 5 test case):**
+- BG/RU Yılmaz (ack-420-s): teknik veri kartları (Power/RPM/Weight) ✅, STANDARD/OPTIONAL/GENERAL specs ✅, katalog butonu ✅
+- BG/RU Göçmaksan (gms-axis-50s): description BG/RU ✅, CAPACITIES/FEATURED FEATURES ✅, katalog butonu ✅
+- EN regresyon: yok ✅
+
+**Commit:** `3886fe2`
+
+**Bekleyen (ayrı sprint):**
+- Yılmaz 88 makine BG+RU çevirisi — description, specs, technical_data hiç yok
+- Göçmaksan 47 makine BG+RU — name, specs, teknikTablo çevirisi yok
+- Ghost data cleanup: vce-3500, vce-4000 boş BG/RU skeleton
+
+---
+
 ## 2026-05-23 [~10:45] — i18n render bug fix (MachinePage + KategoriPage + gocmaksan + hero)
 
 **Sorun:** `MachinePage.astro:29` `activeLang` hardcoded `en` — tüm BG/RU machine detail sayfaları EN içerik render ediyordu. Aynı pattern `KategoriPage` ve `gocmaksan.astro`'da da mevcuttu.
