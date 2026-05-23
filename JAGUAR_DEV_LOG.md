@@ -1,3 +1,29 @@
+## 2026-05-23 [07:30] — Gocmaksan BG+RU retranslation + aggregate sync
+
+**Yapılan:** `tools/retranslate_bgru.py` ile 47 Göçmaksan makinesinin BG ve RU açıklamaları zengin EN prose'dan yeniden çevrildi.
+
+**Sonuç:**
+- ok: 37 (ilk geçiş) + 2 retry (gms-bs-50, gms-bt-24x5 — BG timeout) = **39 toplam**
+- stub_skip: 8 (Hand Tools 6 + Light Construction 2 — PDF yok, beklenen)
+- Backup: `_backup/pre_retranslate_20260523_071236/`
+
+**FAZ 3 spot check (individual files):** 3/3 OK — EN≥500, BG≥800, RU≥800, `## Overview` header ✓
+
+**CMS sync:** `scripts/sync_machines_to_json.py` lokal çalıştırıldı, `src/data/gocmaksan.json` aggregate regenerate edildi (39 individual files canonical, aggregate derived — GitHub Action `.github/workflows/cms-sync.yml` aynı işi push'ta yapardı; lokalde mirror için yapıldı). 40 files changed, 468 insertions.
+
+**FAZ 3.5 spot check (aggregate):** 3/3 OK — BG+RU zengin, header ✓
+
+**Architecture note:** `_meta/data-architecture.md` wiki nodu Ken ekleyecek.
+
+**Bekleyen:**
+- `git add src/data/machines/gocmaksan/ src/data/gocmaksan.json` + commit + push
+- Cloudflare cache purge
+- `@tailwindcss/typography` plugin (AboutPage dead prose CSS)
+- GitHub Actions write permission fix (Settings → Actions → General → Read+Write)
+- `.gitignore` cleanup: `_backup/`, `_enrichment_log.json`, `_retranslate_log.json`, `pdf_extraction/`, eski backup JSON'ları
+
+---
+
 ## 2026-05-22 [15:00] — Filter pill case + RU light construction duzeltme (stage)
 
 - gocmaksan.astro filter butonlarindan `uppercase` kaldirildi — artik "Огъване" degil "Огъване" (title case)
