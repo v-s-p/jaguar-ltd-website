@@ -1,3 +1,31 @@
+## 2026-05-23 [~10:45] — i18n render bug fix (MachinePage + KategoriPage + gocmaksan + hero)
+
+**Sorun:** `MachinePage.astro:29` `activeLang` hardcoded `en` — tüm BG/RU machine detail sayfaları EN içerik render ediyordu. Aynı pattern `KategoriPage` ve `gocmaksan.astro`'da da mevcuttu.
+
+**Root cause:** `activeLang = diller?.en || diller?.tr` — `lang` URL'den çekiliyordu ama hiç kullanılmıyordu.
+
+**Fix pattern (4 dosya):**
+```js
+const activeLang = machine.diller?.[lang] || {};
+const enLang     = machine.diller?.en     || {};
+const isim       = activeLang.name || enLang.name || machine.slug;
+const aciklama   = activeLang.description || enLang.description || '';
+```
+Field-level EN fallback: `bg.description` dolu ama `bg.name` null olan Gocmaksan makineleri için isim EN'den, açıklama BG'den gelir.
+
+**isim data check:** Yılmaz `bg.isim`/`ru.isim` tamamı null — legacy field, kullanılmıyor. `en.name` canonical.
+
+**Verify (3×2 matris):**
+- BG gocmaksan: h1=Axis 50S (EN fallback) ✅, h2=Общ преглед (BG) ✅
+- RU gocmaksan: h1=Axis 50S ✅, h2=Обзор (RU) ✅
+- EN regress: Overview ✅
+- BG/RU/EN Yılmaz: doğru EN isim ✅
+- BG hero: "ACK 550 - UP-CUTTING SAW MACHINE" (artık Türkçe değil) ✅
+
+**Commit:** `697dce9`
+
+---
+
 ## 2026-05-23 [~10:00] — Navbar logo cleanup + Hero carousel görsel büyütme
 
 **Yapılan:**
