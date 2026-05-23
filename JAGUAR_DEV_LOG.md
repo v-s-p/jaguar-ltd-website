@@ -1,3 +1,16 @@
+## 2026-05-23 [~10:00] — Navbar logo cleanup + Hero carousel görsel büyütme
+
+**Yapılan:**
+- `Navbar.astro`: Yılmaz + Göçmaksan logoları header'dan kaldırıldı, sadece Jaguar kaldı (alt section'larda zaten var) — `refactor(navbar)`
+- `HomePage.astro`: Hero carousel container yüksekliği `h-[300/450px]` → `h-[320/520px]`, slide padding `p-8 md:p-16` → `p-3 md:p-5` — makine görselleri ~%60 büyüdü, `object-contain` korundu, kırpma yok — `feat(hero)`
+- `.claude/launch.json` oluşturuldu (Astro dev server preview konfigürasyonu)
+
+**FAZ 3 verify:** EN/BG/RU 3 dilde local preview — ✅ tüm dillerde hero büyük, navbar temiz
+
+**Commits:** `4541058` (navbar), `f104acf` (hero)
+
+---
+
 ## 2026-05-23 [07:30] — Gocmaksan BG+RU retranslation + aggregate sync
 
 **Yapılan:** `tools/retranslate_bgru.py` ile 47 Göçmaksan makinesinin BG ve RU açıklamaları zengin EN prose'dan yeniden çevrildi.
