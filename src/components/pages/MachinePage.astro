@@ -42,10 +42,10 @@ const resimler    = activeLang.images      || activeLang.resimler    || enLang.i
 const anaResim    = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
 
-const ozellikGruplari = activeLang.specs || (machine as any).specs || activeLang.ozellik_gruplari || {};
-const teknikTablo     = activeLang.technical_data || {};
+const ozellikGruplari = activeLang.specs || enLang.specs || (machine as any).specs || activeLang.ozellik_gruplari || {};
+const teknikTablo     = activeLang.technical_data || enLang.technical_data || {};
 const piktogramlar    = activeLang.piktogramlar      || activeLang.specifications || {};
-const katalog         = activeLang.catalog || activeLang.katalog || activeLang.pdf_catalog || null;
+const katalog         = activeLang.catalog || activeLang.katalog || activeLang.pdf_catalog || enLang.catalog || enLang.katalog || enLang.pdf_catalog || (machine as any).pdf_catalog || null;
 const video           = activeLang.video   || null;
 ---
 
