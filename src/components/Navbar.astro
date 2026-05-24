@@ -47,18 +47,18 @@ const navSubLabel = (subcategory: string) =>
       <!-- Logo -->
       <div class="flex items-center gap-6">
         <a href={l("/about")} class="flex items-center group" title={t('nav.about')}>
-          <img src="/images/logo.png" alt="Jaguar Ltd Logo" class="h-10 md:h-12 w-auto brightness-0 invert transition-transform group-hover:scale-105"/>
+          <img src="/images/logo.png" alt="Jaguar Ltd Logo" class="h-10 md:h-12 w-auto brightness-0 transition-transform group-hover:scale-105"/>
         </a>
       </div>
       
       <!-- Desktop Menü -->
       <nav class="hidden lg:flex space-x-8 items-center font-black text-sm tracking-widest uppercase">
-        <a href={l("/")} class="hover:text-black transition-colors border-b-2 border-transparent hover:border-black pb-1">{t('nav.home')}</a>
-        <a href={l("/about")} class="hover:text-black transition-colors border-b-2 border-transparent hover:border-black pb-1">{t('nav.about')}</a>
+        <a href={l("/")} class="text-slate-900 hover:opacity-70 transition-all border-b-2 border-transparent hover:border-slate-900 pb-1">{t('nav.home')}</a>
+        <a href={l("/about")} class="text-slate-900 hover:opacity-70 transition-all border-b-2 border-transparent hover:border-slate-900 pb-1">{t('nav.about')}</a>
         
         <!-- Машини Dropdown -->
         <div class="relative group py-6">
-          <button class="hover:text-black transition-colors flex items-center focus:outline-none uppercase font-black pb-1">
+          <button class="text-slate-900 hover:opacity-70 transition-all flex items-center focus:outline-none uppercase font-black pb-1">
             {t('nav.machines')}
             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path></svg>
           </button>
@@ -113,14 +113,14 @@ const navSubLabel = (subcategory: string) =>
           </div>
         </div>
 
-        <a href={l("/gdpr")} class="hover:text-black transition-colors border-b-2 border-transparent hover:border-black pb-1">{t('nav.cookie')}</a>
-        <a href={l("/contact")} class="hover:text-black transition-colors border-b-2 border-transparent hover:border-black pb-1">{t('nav.contact')}</a>
+        <a href={l("/gdpr")} class="text-slate-900 hover:opacity-70 transition-all border-b-2 border-transparent hover:border-slate-900 pb-1">{t('nav.cookie')}</a>
+        <a href={l("/contact")} class="text-slate-900 hover:opacity-70 transition-all border-b-2 border-transparent hover:border-slate-900 pb-1">{t('nav.contact')}</a>
         
         <LanguagePicker />
       </nav>
 
       <!-- Hamburger (Mobil) -->
-      <button id="mobile-toggle" class="lg:hidden p-2 rounded-lg hover:bg-brand-hover transition-colors" aria-label="Меню">
+      <button id="mobile-toggle" class="lg:hidden p-2 rounded-lg text-slate-900 hover:bg-brand-hover transition-colors" aria-label="Меню">
         <svg id="hamburger-icon" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         <svg id="close-icon" class="w-8 h-8 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
       </button>
@@ -131,18 +131,18 @@ const navSubLabel = (subcategory: string) =>
   <div id="mobile-menu" class="hidden lg:hidden bg-brand-hover border-t border-white/20">
     <div class="container mx-auto px-4 py-6 space-y-4">
       <div class="pb-4 border-b border-white/10 flex justify-between items-center">
-        <span class="font-bold text-white/50 text-xs">MENU</span>
+        <span class="font-bold text-slate-900/50 text-xs">MENU</span>
         <LanguagePicker />
       </div>
-      <a href={l("/")} class="block font-black text-sm uppercase tracking-widest py-2 border-b border-white/10 hover:text-black transition-colors">{t('nav.home')}</a>
-      <a href={l("/about")} class="block font-black text-sm uppercase tracking-widest py-2 border-b border-white/10 hover:text-black transition-colors">{t('nav.about')}</a>
+      <a href={l("/")} class="block font-black text-sm text-slate-900 uppercase tracking-widest py-2 border-b border-white/10 hover:opacity-70 transition-all">{t('nav.home')}</a>
+      <a href={l("/about")} class="block font-black text-sm text-slate-900 uppercase tracking-widest py-2 border-b border-white/10 hover:opacity-70 transition-all">{t('nav.about')}</a>
       <div class="py-2 border-b border-white/10">
-        <span class="block font-black text-sm uppercase tracking-widest text-white/60 mb-2">{t('nav.machines')}</span>
-        <a href={l("/kategori/aluminyum")} class="block pl-4 py-1.5 font-bold text-sm hover:text-black transition-colors">› {t('cat.al')}</a>
-        <a href={l("/kategori/pvc")} class="block pl-4 py-1.5 font-bold text-sm hover:text-black transition-colors">› {t('cat.pvc')}</a>
-        <a href={l("/kategori/gocmaksan")} class="block pl-4 py-1.5 font-bold text-sm hover:text-black transition-colors">› {t('cat.rebar')}</a>
+        <span class="block font-black text-sm uppercase tracking-widest text-slate-900/60 mb-2">{t('nav.machines')}</span>
+        <a href={l("/kategori/aluminyum")} class="block pl-4 py-1.5 font-bold text-sm text-slate-900 hover:opacity-70 transition-all">› {t('cat.al')}</a>
+        <a href={l("/kategori/pvc")} class="block pl-4 py-1.5 font-bold text-sm text-slate-900 hover:opacity-70 transition-all">› {t('cat.pvc')}</a>
+        <a href={l("/kategori/gocmaksan")} class="block pl-4 py-1.5 font-bold text-sm text-slate-900 hover:opacity-70 transition-all">› {t('cat.rebar')}</a>
       </div>
-      <a href={l("/contact")} class="block font-black text-sm uppercase tracking-widest py-2 hover:text-black transition-colors">{t('nav.contact')}</a>
+      <a href={l("/contact")} class="block font-black text-sm text-slate-900 uppercase tracking-widest py-2 hover:opacity-70 transition-all">{t('nav.contact')}</a>
     </div>
   </div>
 </header>
