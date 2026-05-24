@@ -1,3 +1,44 @@
+## 2026-05-24 [~2h] — Yılmaz RU name translation sprint (88/88 + BG tooling commit)
+
+**Branch:** main
+
+### Done
+- **Spot-check (88 files):** `inject_yilmaz_from_yedek.py --apply` sonucu 88/88 ✅ — RU mevcut, BG intact, CDN image yok, Cyrillic spec anahtarları doğru, aim-4420/aim-7420 EN desc 887 karakter
+- **Sync hotfix:** `src/data/yilmaz.json` aggregate stale'di (inject sonrası sync çalıştırılmamıştı) → `scripts/sync_machines_to_json.py` çalıştırıldı, template artık fresh data okuyor
+- **Local render QC:** `localhost:4321` — ack-420-s, aim-4420, sm-201-sd, vce-4000 4 makine BG/RU/EN doğrulandı (`744d839` push)
+- **`tools/translate_yilmaz_ru.py` yazıldı (~360 satır):**
+  - Gemini 2.5-flash REST, temperature=0.2, `response_mime_type: application/json`
+  - Description-as-context strateji: `diller.ru.description` prompt'a context olarak verildi
+  - Few-shot (3 örnek) + 12 terimli TR→RU glossary
+  - `_is_garbage_name()`: HTML/CDN URL içeren name → skip, sonraki dile düş
+  - EN name hint: bare model code'larda (`AIM 4420`) Gemini Rusça makine tipi türetebiliyor
+  - Latin model kodu guard: prefix'te `[А-ЯЁ]{2,}` regex → FLAG
+  - Atomik apply: Phase 1 tüm Gemini call'lar → Phase 2 backup → Phase 3 batch write → Phase 4 sync hook
+  - İdempotent retry: `classify_name()` Cyrillic'i skip eder, sadece kalan TR adlar yeniden işlenir
+  - `--dry-run` (5 sample) / `--apply` modları
+- **Dry-run × 2 iterasyon:** aim-3410 HTML garbage fix + AIM 4420 bare code → EN hint fix
+- **`--apply` çalıştırıldı:** 86/88 ilk geçiş → 2 API timeout (mkn-serisi, sm-206) → retry → **88/88 ✅**
+- **0 model kodu flag:** ACK/AIM/DC/KD/VCE vs. tümü Latin kaldı
+- **`TRANSLATE_YILMAZ_RU_NAME_REPORT_2026-05-23.md` oluşturuldu** (88 satır TR→RU tablo)
+- **Commit + push:** `6e48827` (91 file, 1102 ins)
+- **BG tooling commit:** `tools/translate_yilmaz_bg.py`, `tools/recover_yilmaz_bg.py`, `tools/retranslate_bgru.py` + 4 audit/recovery report → `8883ba5`
+- **`.gitignore` temizlik:** `_backup/`, `pdf_extraction/`, `*_enrichment_log.json`, `src/data/*_backup_*.json` eklendi
+
+### Blockers
+- None
+
+### Next
+1. 13 partial machine — `diller.bg.description = ""` (EN source < 100 chars, Yılmaz scraper gerekli)
+2. Frontend conditional render — BG description boşsa EN'e fallback
+3. Ghost data cleanup — vce-3500, vce-4000 diller.ru CDN URL temizliği
+4. `tercume_merkezi.py` path fix — hâlâ `machines.json` target ediyor (renamed → `yilmaz.json`)
+5. Göçmaksan schema migration — top-level specs → `diller.en.specs`
+
+### Commit
+`chore: devlog 2026-05-24 RU name translation sprint (88/88)`
+
+---
+
 ## 2026-05-23 [~13:00] — i18n hotfix: field-level EN fallback (specs + teknikTablo + katalog)
 
 **Sorun:** Önceki fix (697dce9) sadece `name/description/images` için EN fallback ekledi. `MachinePage.astro`'da 3 field kör nokta kaldı: `ozellikGruplari` (specs), `teknikTablo` (technical_data), `katalog` (pdf_catalog).
