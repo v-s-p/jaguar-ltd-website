@@ -44,11 +44,8 @@ const filteredMachines = gocmaksanMachines.map((m: any) => {
 <BaseLayout title={`${catLabel} Машини | Jaguar LTD`}>
   <section class="container mx-auto px-4 py-12 max-w-7xl">
     
-    <div class="mb-10">
-      <h1 class="text-4xl font-black text-gray-900 tracking-tight uppercase">{catLabel}</h1>
-      <p class="text-gray-400 font-bold text-sm mt-1 uppercase tracking-widest">
-        Машини за строителна арматура &mdash; {filteredMachines.length} модела
-      </p>
+    <div class="mb-10 border-b-4 inline-block pb-2" style="border-color: #f59e0b">
+      <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight">{t('cat.rebar.desc')}</h1>
     </div>
 
     <!-- Filtre Butonlari -->
