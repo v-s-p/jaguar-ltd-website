@@ -47,3 +47,11 @@ src/data/*_needed*.json
 src/data/*_done.json
 src/data/*_missing*.json
 src/data/*_extract*.json
+src/data/*_backup_*.json
+src/data/*backup*.json
+
+# Local working artifacts (script logs, backup dirs, PDF extracts)
+_backup/
+pdf_extraction/
+_enrichment_log.json
+_retranslate_log.json
