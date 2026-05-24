@@ -7,15 +7,17 @@
   "subcategory": "Swarf Extraction",
   "diller": {
     "bg": {
-      "name": "",
-      "description": "",
-      "images": [],
+      "name": "VCE 3500",
+      "description": "VCE 3500 е промишлен продукт, който позволява PVC стружките, възникващи от процеса на рязане в отрезните машини, да бъдат събрани в контейнера за съхранение чрез изсмукване от работната среда.",
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": []
-      },
-      "technical_data": {}
+        "СТАНДАРТНИ АКСЕСОАРИ": [
+          "2 бр. x 5m x Ø120 mm гъвкав маркуч и 4 бр. x скоби"
+        ],
+        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
+        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+          "Висока работна производителност при тежък работен цикъл"
+        ]
+      }
     },
     "en": {
       "name": "VCE 3500",
@@ -41,19 +43,13 @@
     "ru": {
       "name": "VCE 3500",
       "description": "VCE 3500 - это промышленный продукт, который позволяет собирать в накопитель ПВХ-стружку, образующуюся в процессе резки в резательных машинах, путем вакуумирования рабочей среды.",
-      "images": [
-        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/11/03113656/0075528102025162343IMG.jpg",
-        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/11/03113659/0075628102025162344IMG.jpg",
-        "https://di33l1fv68t4r.cloudfront.net/wp-content/uploads/2025/11/03113702/0075728102025162346IMG.jpg"
-      ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
           "2 шт. x 5 м x Ø120 мм гибкого шланга и 4 шт. x зажимов"
         ],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": []
-      },
-      "technical_data": {}
+        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
+        "ОБЩИЕ ХАРАКТЕРИСТИКИ": []
+      }
     }
   },
   "category": "PVC",

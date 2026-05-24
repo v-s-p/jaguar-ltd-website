@@ -34,6 +34,10 @@ pnpm-debug.log*
 __pycache__/
 *.pyc
 *.pyo
+
+# Backup files (created by inject scripts)
+*.bak
+*.bak.*
 .venv/
 venv/
 .pytest_cache/
