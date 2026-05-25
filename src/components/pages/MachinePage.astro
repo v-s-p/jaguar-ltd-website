@@ -93,7 +93,10 @@ const video           = activeLang.video   || null;
                 )}
               </div>
             )}
-            <div class="machine-description text-base text-gray-600 leading-relaxed mb-8" set:html={descriptionHtml} />
+            {aciklama && (
+              <div class="machine-description text-base text-gray-600 leading-relaxed mb-8"
+                   set:html={descriptionHtml} />
+            )}
 
             {Object.keys(piktogramlar).length > 0 && (
               <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
