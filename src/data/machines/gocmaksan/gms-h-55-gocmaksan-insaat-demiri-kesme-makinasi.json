@@ -23,7 +23,7 @@
         "Hydraulic Oil Tank Capacity lt": "482"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Hydraulic system",
           "Adjustable blade support",
           "Low maintenance costs",
@@ -31,7 +31,7 @@
           "Reinforced steel body",
           "Quiet, safe, and environmentally friendly operation"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø55x1, Ø30x3",
           "65 kg/mm2: Ø50x2, Ø28x3",
           "85 kg/mm2: Ø42x1, Ø26x3"

@@ -15,9 +15,9 @@
         "/images/yilmaz/rs-1000_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Stable painted steel construction",
           "Plastic support rollers",
           "Adjustable height (900-1200 mm)",
@@ -36,9 +36,9 @@
       "name": "RS 1000 Стол поддержки профилей",
       "description": "Он предназначен для поддержки профилей, обрабатываемых в машинах",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Прочная окрашенная стальная конструкция",
           "Пластиковые опорные ролики",
           "Регулируемая высота (900-1200 мм)",
@@ -56,9 +56,9 @@
       "name": "RS 1000",
       "description": "Проектирана е да поддържа профилите, обработвани в машините.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Стабилна боядисана стоманена конструкция",
           "Пластмасови опорни ролки",
           "Регулируема височина (900-1200 mm)",

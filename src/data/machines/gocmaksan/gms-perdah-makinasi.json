@@ -20,13 +20,13 @@
       ],
       "pdf_catalog": "/catalogs/gocmaksan/gms-perdah-makinasi.pdf",
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Excellent results on concrete surfaces",
           "Economical low-fuel operation",
           "Ergonomic and safe design",
           "Quick blade adjustment"
         ],
-        "CAPACITIES": []
+        "capacities": []
       }
     },
     "bg": {

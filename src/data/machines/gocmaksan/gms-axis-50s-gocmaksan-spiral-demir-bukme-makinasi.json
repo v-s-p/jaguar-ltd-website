@@ -34,13 +34,13 @@
         "Machine Dimensions": "92x160x160 cm"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Spiral bending up to 50 mm",
           "Flat steel bending support",
           "Powered bending rollers",
           "Supporting bending conveyor"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "Ø 50: 1",
           "Ø 40: 1",
           "Ø 32: 1",

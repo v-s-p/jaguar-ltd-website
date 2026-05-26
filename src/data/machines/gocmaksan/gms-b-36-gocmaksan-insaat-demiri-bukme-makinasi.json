@@ -22,7 +22,7 @@
         "Weight kg": "285"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Bending to the right and left",
           "Mechanical and electrical automation",
           "Bending at any angle",
@@ -30,7 +30,7 @@
           "Save up to 9 bending programs",
           "Digital control panel option"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø 36x1, Ø 22x2",
           "65 kg/mm2: Ø 32x1, Ø 20x2",
           "85 kg/mm2: Ø 28x1, Ø 16x2"

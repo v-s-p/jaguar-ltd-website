@@ -19,17 +19,17 @@
         "/images/yilmaz/ca-601-semi-automatic-pvc-single-corner-cleaning-machine_7.webp"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Air gun",
           "Profile support table with brushed",
           "2 x cleaning cutters for white profiles"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Special corner cleaning cutter set",
           "Cleaning cutter for colored profiles",
           "V type of cleaning cutter for white profiles"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "High quality stripping and cleaning operations by means of the hydro-pneumatic system",
           "Processing capability for maximum profile dimension: W130-H180 mm",
           "Processing capability for minimum profile dimension: W30-H30 mm",
@@ -60,17 +60,17 @@
       "name": "CA 601 Полуавтоматическая машина для очистки одного угла ПВХ",
       "description": "CA 601 Машина для очистки одного угла используется для очистки нижних и верхних поверхностей и внешних углов ПВХ-профилей, сваренных под углом 90°",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Пневматический пистолет",
           "Профильный опорный стол с матовой поверхностью",
           "2 х очистительные фрезы для белых профилей"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Специальный набор фрез для очистки углов",
           "Фреза для очистки цветных профилей",
           "V-образный очистительный резак для белых профилей"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Высококачественные операции зачистки и очистки с помощью гидропневматической системы",
           "Возможность обработки профиля максимального размера: W130-H180 мм",
           "Возможность обработки минимального размера профиля: W30-H30 мм",
@@ -100,17 +100,17 @@
       "name": "CA 601 ПОЛУАВТОМАТИЧНА МАШИНА ЗА ПОЧИСТВАНЕ НА ЪГЛИ ЗА PVC",
       "description": "CA 601 МАШИНА ЗА ПОЧИСТВАНЕ НА ЪГЛИ, използвана за почистване на долни и горни повърхности и външни ъгли на PVC профили, заварени под ъгъл 90°",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Пистолет за въздух",
           "Маса за поддържане на профили с четки",
           "2 x почистващи ножа за бели профили"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Специален комплект почистващи ножове за ъгли",
           "Почистващ нож за цветни профили",
           "V-образен почистващ нож за бели профили"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Висококачествени операции по отстраняване и почистване посредством хидро-пневматична система",
           "Възможност за обработка на максимален размер на профила: Ш130-В180 mm",
           "Възможност за обработка на минимален размер на профила: Ш30-В30 mm",

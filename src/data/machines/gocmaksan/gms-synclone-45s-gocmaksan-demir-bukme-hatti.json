@@ -44,14 +44,14 @@
         "Barcode reader": "Optional"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Servo-controlled bending line",
           "Hydraulic and pneumatic systems",
           "Remote control support",
           "Collecting bins",
           "Steel factory production workflow"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "• MANDRELS supplied with machine - Ø 70 , Ø 80 , Ø 100 , Ø 110, Ø 125, Ø 145, Ø 160, Ø 180, Ø 215",
           "/ INCH BAR SIZE 45 kg/mm² 65 kg/mm² 85 kg/mm²",
           "Ø 42 / #14 1 1 -",

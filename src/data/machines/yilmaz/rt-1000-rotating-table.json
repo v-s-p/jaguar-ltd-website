@@ -14,9 +14,9 @@
         "/images/yilmaz/rt-1000-rotating-table_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Stable steel construction",
           "Rotating work table",
           "Versatile mounting table for window assembly, gasket insertion etc.",
@@ -40,9 +40,9 @@
       "name": "RT 1000 Поворотный стол",
       "description": "Поворотный стол для всех операций с рамами и створками",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Стабильная стальная конструкция",
           "Вращающийся рабочий стол",
           "Универсальный монтажный стол для сборки окон, установки уплотнителей и т.д.",
@@ -65,9 +65,9 @@
       "name": "RT 1000 - ВЪРТЯЩА СЕ МАСА",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Стабилна стоманена конструкция",
           "Въртяща се работна маса",
           "Универсална монтажна маса за сглобяване на прозорци, поставяне на уплътнения и др.",

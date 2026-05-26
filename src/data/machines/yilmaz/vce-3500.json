@@ -10,11 +10,11 @@
       "name": "VCE 3500",
       "description": "VCE 3500 е промишлен продукт, който позволява PVC стружките, възникващи от процеса на рязане в отрезните машини, да бъдат събрани в контейнера за съхранение чрез изсмукване от работната среда.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "2 бр. x 5m x Ø120 mm гъвкав маркуч и 4 бр. x скоби"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "optional_accessories": [],
+        "general_features": [
           "Висока работна производителност при тежък работен цикъл"
         ]
       }
@@ -31,11 +31,11 @@
         "/images/yilmaz/vce-3500_6.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "2 pc. x 5m x  Ø120 mm flexible hose & 4 pc. x clips"
         ],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": []
+        "optional_accessories": [],
+        "general_features": []
       },
       "technical_data": {},
       "pdf_catalog": "/catalogs/yilmaz/PVC-KATALOG.pdf"
@@ -44,11 +44,11 @@
       "name": "VCE 3500 Стружкоотсос",
       "description": "VCE 3500 - это промышленный продукт, который позволяет собирать в накопитель ПВХ-стружку, образующуюся в процессе резки в резательных машинах, путем вакуумирования рабочей среды.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "2 шт. x 5 м x Ø120 мм гибкого шланга и 4 шт. x зажимов"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": []
+        "optional_accessories": [],
+        "general_features": []
       }
     }
   },

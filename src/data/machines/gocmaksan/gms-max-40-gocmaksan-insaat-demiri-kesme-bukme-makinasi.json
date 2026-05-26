@@ -29,13 +29,13 @@
         "Ağırlık kg": "430"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Combined cutting and bending operation",
           "Compact construction-site design",
           "Easy operation",
           "Practical maintenance access"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø 36x1, Ø 24x2",
           "65 kg/mm2: Ø 32x2, Ø 20x2",
           "85 kg/mm2: Ø 28x1, Ø 18x2"

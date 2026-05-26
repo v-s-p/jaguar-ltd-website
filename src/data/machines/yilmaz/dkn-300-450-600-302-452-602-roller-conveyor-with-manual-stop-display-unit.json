@@ -15,11 +15,11 @@
         "/images/yilmaz/dkn-300-450-600-302-452-602-roller-conveyor-with-manual-stop-display-unit_2.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [
+        "standard_accessories": [],
+        "optional_accessories": [
           "EXAM"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "Manually adjusting to required measurement and positioning by means of the pneumatic brake system",
           "Digital display indicating the length of the profiles to be cut",
           "Easy assembly on sawing and copy router machine without conveyor",
@@ -42,11 +42,11 @@
       "name": "DKN 300 450 600 302 452 602 Ручной позиционирующий конвейер с цифровым экраном",
       "description": "Ручной позиционирующий конвейер с цифровым экраном, который помогает точно отрезать профили по требуемым размерам",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [],
+        "optional_accessories": [
           "ЭКЗАМЕН"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Ручная настройка на требуемое измерение и позиционирование с помощью пневматической тормозной системы",
           "Цифровой дисплей с указанием длины разрезаемых профилей",
           "Простой монтаж на пильном и копировально-фрезерном станке без конвейера",
@@ -68,11 +68,11 @@
       "name": "DKN 300 450 600 302 452 602 РЪЧЕН КОНВЕЙЕР С ЦИФРОВ ЧЕТЕЦ НА РАЗМЕРИ",
       "description": "Конвейер за ръчно позициониране с цифров екран, който помага за прецизно рязане на профилите в необходимите размери.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "standard_accessories": [],
+        "optional_accessories": [
           "EXAM"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Ръчно настройване до необходимия размер и позициониране чрез пневматичната спирачна система",
           "Цифров дисплей, показващ дължината на профилите, които ще се режат",
           "Лесен монтаж на отрезни машини и копирни фрези без конвейер",

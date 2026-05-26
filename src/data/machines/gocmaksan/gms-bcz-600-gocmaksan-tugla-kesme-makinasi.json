@@ -24,13 +24,13 @@
         "W-L-H cm": "85 x 157 x 153"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Precise and fast cutting",
           "Wet and dry cutting modes",
           "Foldable legs for easy transport",
           "Labor and material savings"
         ],
-        "CAPACITIES": []
+        "capacities": []
       }
     },
     "bg": {

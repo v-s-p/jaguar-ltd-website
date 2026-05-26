@@ -24,14 +24,14 @@
         "/images/yilmaz/aim-3410-aluminium-profile-machining-center_12.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Keyboard & mouse set for programming",
           "Safety fence around the machine",
           "4 x profile clamps",
           "1 x pneumatic rest on the left side",
           "Chip pan in the machine frame"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Cutter tools, tool holders, collets and apparatus set 6 pc cutters (2 pc. Ø5, 1 pc. Ø6, 1 pc. Ø8, 1 pc. Ø10, 1 pc. Ø12) -8 pc. HSK F63 Tool holders -6 pc. collets (3 pc. Ø5-6, 1 pc, Ø7-8, 1 pc. Ø9-10, 1 pc. Ø11-12) -4 pc. mould height",
           "Second reference profile rest on the right side of the machine",
           "Automatic tool length measurement device",
@@ -44,7 +44,7 @@
           "Airconditioning system for electrical cabinet",
           "Cabinetized machine with AIM 3410 CBN model"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "Automation system providing CNC motion at 4-axis",
           "Tool magazine unit with the capacity of 7 pcs. of cutter tools and 1 pc. saw blade with 180 mm diameter",
           "Automatic clamp recognition and positioning feature",
@@ -86,14 +86,14 @@
       "name": "AIM 3410 - ЦЕНТЪР ЗА ОБРАБОТКА НА АЛУМИНИЕВИ ПРОФИЛИ",
       "description": "AIM 3410 и AIM 3410 CBN са CNC контролирани 4-осни машини, проектирани специално за обработка на всички видове алуминиеви и PVC профили, налични на пазара. С функцията за 4-та ос, тя може да извършва операции по обработка на 3 повърхности на профили. Бързата смяна на инструменти се осигурява от подвижния и вграден тип магазин с капацитет за 8 броя инструменти. Магазинът за инструменти е монтиран на подвижната обработваща глава, за да се минимизира времето за смяна на инструменти. Машината осигурява гъвкава възможност за обработка, особено при фасадни приложения, със своя циркулярен диск с диаметър 180 mm. Машината разполага с функция за автоматично разпознаване и позициониране на скобите. Подвижната кабина на машината е оборудвана с врата с прозрачен поликарбонатен прозорец, за да улесни наблюдението на обработката на детайла от оператора. По този начин се осигурява безопасната работа на оператора.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Комплект клавиатура и мишка за програмиране",
           "Предпазна ограда около машината",
           "4 x скоби за профили",
           "1 x пневматична опора от лявата страна",
           "Тава за стружки в рамката на машината"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Комплект фрезови инструменти, държачи за инструменти, цанги и апаратура: 6 бр. фрези (2 бр. Ø5, 1 бр. Ø6, 1 бр. Ø8, 1 бр. Ø10, 1 бр. Ø12) - 8 бр. държачи за инструменти HSK F63 - 6 бр. цанги (3 бр. Ø5-6, 1 бр. Ø7-8, 1 бр. Ø9-10, 1 бр. Ø11-12) - 4 бр. височина на матрицата",
           "Втора референтна опора за профили от дясната страна на машината",
           "Устройство за автоматично измерване на дължината на инструмента",
@@ -106,7 +106,7 @@
           "Климатична система за електрическия шкаф",
           "Машина в кабинет с модел AIM 3410 CBN"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Система за автоматизация, осигуряваща CNC движение по 4 оси",
           "Модул за магазин за инструменти с капацитет от 7 бр. фрезови инструменти и 1 бр. циркулярен диск с диаметър 180 mm",
           "Функция за автоматично разпознаване и позициониране на скобите",

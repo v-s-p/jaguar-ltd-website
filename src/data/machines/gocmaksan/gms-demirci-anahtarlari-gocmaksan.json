@@ -16,7 +16,7 @@
         "/images/gocmaksan/gms-demirci-anahtarlari-gocmaksan_1.webp"
       ],
       "specs": {
-        "CAPACITIES": [
+        "capacities": [
           "Ø8 — Ø36"
         ]
       }

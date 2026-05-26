@@ -15,9 +15,9 @@
         "/images/yilmaz/was-1000-window-assembly-station_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Used to transport frames to assembly stations",
           "Frames can be slid easily thanks to rollers on the horizontal surface",
           "There is a roller system to prevent the material from being scratched on the vertical surface.",
@@ -36,9 +36,9 @@
       "name": "WAS 1000 Станция сборки окон",
       "description": "Используется для транспортировки рам со стеклом на сборочные станции.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Используется для транспортировки рам на сборочные станции",
           "Рамы легко сдвигаются благодаря роликам на горизонтальной поверхности",
           "Для предотвращения царапания материала на вертикальной поверхности предусмотрена система роликов.",
@@ -56,9 +56,9 @@
       "name": "WAS 1000 - ПРОЗОРЕЧНА МОНТАЖНА СТАНЦИЯ",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Използва се за транспортиране на рамки до монтажни станции",
           "Рамките могат лесно да се плъзгат благодарение на ролките върху хоризонталната повърхност",
           "Има ролкова система за предотвратяване на надраскване на материала върху вертикалната повърхност.",

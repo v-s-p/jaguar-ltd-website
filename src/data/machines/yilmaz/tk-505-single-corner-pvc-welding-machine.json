@@ -14,14 +14,14 @@
         "/images/yilmaz/tk-505-single-corner-pvc-welding-machine_2.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Profile support arms",
           "Electrical foot pedal"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Special welding molds"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "Enable the welding of all angles between 30°-180°infinitely adjustable",
           "Practical adjustment of standard (2.0 mm) or seamless (0.2 mm) welding options manually",
           "Maximum H:180 mm welding capability",
@@ -50,14 +50,14 @@
       "name": "TK 505 Одноугловая ПВХ сварочная машина",
       "description": "Эта машина идеально подходит для сварки одного угла ПВХ-профилей в диапазоне от 30° до 180°.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Профильные опорные кронштейны",
           "Электрическая ножная педаль"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Специальные формы для сварки"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Возможность сварки под любыми углами в диапазоне 30°-180° с плавной регулировкой",
           "Практическая настройка стандартных (2,0 мм) или бесшовных (0,2 мм) вариантов сварки вручную",
           "Максимальная сварочная способность H:180 мм",
@@ -85,14 +85,14 @@
       "name": "TK 505 - ЕДНОГЛАВА МАШИНА ЗА ЗАВАРЯВАНЕ НА PVC",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Поддържащи рамена за профили",
           "Електрически крачен педал"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Специални заваръчни форми"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Позволява заваряване на всички ъгли между 30°-180° с безкрайно регулиране",
           "Практическо ръчно регулиране на стандартни (2.0 mm) или безшевни (0.2 mm) опции за заваряване",
           "Максимална височина на заваряване H:180 mm",

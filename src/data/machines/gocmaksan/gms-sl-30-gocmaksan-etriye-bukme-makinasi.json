@@ -27,7 +27,7 @@
         "Weight kg": "275"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Automatic repeat without changing angle",
           "Fixed hub",
           "Easy fixing",
@@ -35,7 +35,7 @@
           "Patented daisy-pattern center hole",
           "Programmable bending function"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø 30x1, Ø 16x2",
           "65 kg/mm2: Ø 24x1, Ø 14x2",
           "85 kg/mm2: Ø 22x1, Ø 12x2"

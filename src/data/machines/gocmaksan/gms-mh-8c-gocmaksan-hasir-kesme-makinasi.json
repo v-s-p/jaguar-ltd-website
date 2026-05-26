@@ -25,13 +25,13 @@
         "Hydraulic Oil Tank Capacity lt": "36"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Mechanical system",
           "3 meter working length",
           "Cut in 7 seconds",
           "Portable wire mesh sliding table"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø 12x1",
           "65 kg/mm2: Ø 10x1",
           "85 kg/mm2: Ø 8x1"

@@ -35,13 +35,13 @@
           "Machine Dimensions": "92x160x160 cm"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Spiral bending up to 50 mm",
             "Flat steel bending support",
             "Powered bending rollers",
             "Supporting bending conveyor"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "Ø 50: 1",
             "Ø 40: 1",
             "Ø 32: 1",
@@ -80,7 +80,7 @@
           "/images/gocmaksan/gms-ayarli-kosebentler-gocmaksan_1.webp"
         ],
         "specs": {
-          "CAPACITIES": [
+          "capacities": [
             "Ø 8 - Ø 26"
           ]
         }
@@ -121,7 +121,7 @@
           "Weight kg": "218"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Bending to the right and left",
             "Mechanical and electrical automation",
             "Bending at any angle",
@@ -129,7 +129,7 @@
             "Save up to 9 bending programs",
             "Digital control panel option"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 26x1, Ø 16x2",
             "65 kg/mm2: Ø 24x1, Ø 14x3",
             "85 kg/mm2: Ø 22x1, Ø 12x5"
@@ -169,7 +169,7 @@
           "Weight kg": "285"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Bending to the right and left",
             "Mechanical and electrical automation",
             "Bending at any angle",
@@ -177,7 +177,7 @@
             "Save up to 9 bending programs",
             "Digital control panel option"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 36x1, Ø 22x2",
             "65 kg/mm2: Ø 32x1, Ø 20x2",
             "85 kg/mm2: Ø 28x1, Ø 16x2"
@@ -217,7 +217,7 @@
           "Weight kg": "392"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Bending to the right and left",
             "Mechanical and electrical automation",
             "Bending at any angle",
@@ -225,7 +225,7 @@
             "Save up to 9 bending programs",
             "Digital control panel option"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 45x1, Ø 30x2",
             "65 kg/mm2: Ø 40x1, Ø 26x2",
             "85 kg/mm2: Ø 32x1, Ø 20x2"
@@ -265,7 +265,7 @@
           "Weight kg": "457"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Bending to the right and left",
             "Mechanical and electrical automation",
             "Bending at any angle",
@@ -273,7 +273,7 @@
             "Save up to 9 bending programs",
             "Digital control panel option"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 50x1, Ø 32x2",
             "65 kg/mm2: Ø 45x1, Ø 30x2",
             "85 kg/mm2: Ø 36x1, Ø 28x2"
@@ -315,13 +315,13 @@
           "W-L-H cm": "85 x 157 x 153"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Precise and fast cutting",
             "Wet and dry cutting modes",
             "Foldable legs for easy transport",
             "Labor and material savings"
           ],
-          "CAPACITIES": []
+          "capacities": []
         }
       },
       "bg": {
@@ -366,7 +366,7 @@
           "Weight kg": "350"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Bending to the right and left",
             "Mechanical and electrical automation",
             "Bending at any angle",
@@ -374,7 +374,7 @@
             "Save up to 9 bending programs",
             "Digital control panel option"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 36x1, Ø 22x2",
             "65 kg/mm2: Ø 32x1, Ø 20x2",
             "85 kg/mm2: Ø 28x1, Ø 16x2"
@@ -415,7 +415,7 @@
           "Weight kg": "462"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Bending to the right and left",
             "Mechanical and electrical automation",
             "Bending at any angle",
@@ -423,7 +423,7 @@
             "Save up to 9 bending programs",
             "Digital control panel option"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 45x1, Ø 30x2",
             "65 kg/mm2: Ø 40x1, Ø 26x2",
             "85 kg/mm2: Ø 32x1, Ø 20x2"
@@ -464,7 +464,7 @@
           "Weight kg": "700"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Bending to the right and left",
             "Mechanical and electrical automation",
             "Bending at any angle",
@@ -472,7 +472,7 @@
             "Save up to 9 bending programs",
             "Digital control panel option"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 50x1, Ø 32x2",
             "65 kg/mm2: Ø 45x1, Ø 30x2",
             "85 kg/mm2: Ø 36x1, Ø 28x2"
@@ -513,7 +513,7 @@
           "Weight kg": "585"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Bending to the right and left",
             "Mechanical and electrical automation",
             "Bending at any angle",
@@ -521,7 +521,7 @@
             "Save up to 9 bending programs",
             "Digital control panel option"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 60x1, Ø 38x2",
             "65 kg/mm2: Ø 55x1, Ø 34x2",
             "85 kg/mm2: Ø 50x1, Ø 30x2"
@@ -578,7 +578,7 @@
           "Weight kg": "145"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Easy to carry",
             "Fixed center pin",
             "220 V / 380 V voltage options",
@@ -586,7 +586,7 @@
             "Stirrup bending capability",
             "Programmable bending function"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 24x1, Ø 16x2",
             "65 kg/mm2: Ø 22x1, Ø 14x2",
             "85 kg/mm2: Ø 20x1, Ø 12x3"
@@ -626,7 +626,7 @@
           "Weight kg": "150"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Easy to carry",
             "Fixed center pin",
             "220 V / 380 V voltage options",
@@ -634,7 +634,7 @@
             "Stirrup bending capability",
             "Programmable bending function"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 26x1, Ø 16x2",
             "65 kg/mm2: Ø 22x1, Ø 14x2",
             "85 kg/mm2: Ø 20x1, Ø 12x3"
@@ -668,7 +668,7 @@
           "/images/gocmaksan/gms-demirci-anahtarlari-gocmaksan_1.webp"
         ],
         "specs": {
-          "CAPACITIES": [
+          "capacities": [
             "Ø8 — Ø36"
           ]
         }
@@ -694,7 +694,7 @@
           "/images/gocmaksan/gms-el-makaslari-gocmaksan_1.webp"
         ],
         "specs": {
-          "CAPACITIES": [
+          "capacities": [
             "Ø8 – Ø16"
           ]
         }
@@ -720,7 +720,7 @@
           "/images/gocmaksan/gms-etriye-kollari-gocmaksan_1.webp"
         ],
         "specs": {
-          "CAPACITIES": [
+          "capacities": [
             "Ø8 — Ø16"
           ]
         }
@@ -763,7 +763,7 @@
           "Hydraulic Oil Tank Capacity lt": "7"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Hydraulic system",
             "Adjustable blade support",
             "Low maintenance costs",
@@ -771,7 +771,7 @@
             "Reinforced steel body",
             "Quiet, safe, and environmentally friendly operation"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 36x1, Ø 22x2",
             "65 kg/mm2: Ø 29x1, Ø 19x2",
             "85 kg/mm2: Ø 22x1, Ø 16x2"
@@ -828,7 +828,7 @@
           "Hydraulic Oil Tank Capacity lt": "165"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Hydraulic system",
             "Adjustable blade support",
             "Low maintenance costs",
@@ -836,7 +836,7 @@
             "Reinforced steel body",
             "Quiet, safe, and environmentally friendly operation"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "Ø 20x1"
           ]
         }
@@ -875,7 +875,7 @@
           "Hydraulic Oil Tank Capacity lt": "273"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Hydraulic system",
             "Adjustable blade support",
             "Low maintenance costs",
@@ -883,7 +883,7 @@
             "Reinforced steel body",
             "Quiet, safe, and environmentally friendly operation"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "Ø 20x1"
           ]
         }
@@ -922,7 +922,7 @@
           "Hydraulic Oil Tank Capacity lt": "321"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Hydraulic system",
             "Adjustable blade support",
             "Low maintenance costs",
@@ -930,7 +930,7 @@
             "Reinforced steel body",
             "Quiet, safe, and environmentally friendly operation"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 55x1, Ø 32x2",
             "65 kg/mm2: Ø 52x1, Ø 28x2",
             "85 kg/mm2: Ø 42x1, Ø 26x2"
@@ -971,7 +971,7 @@
           "Hydraulic Oil Tank Capacity lt": "482"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Hydraulic system",
             "Adjustable blade support",
             "Low maintenance costs",
@@ -979,7 +979,7 @@
             "Reinforced steel body",
             "Quiet, safe, and environmentally friendly operation"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø55x1, Ø30x3",
             "65 kg/mm2: Ø50x2, Ø28x3",
             "85 kg/mm2: Ø42x1, Ø26x3"
@@ -1027,7 +1027,7 @@
           "Hydraulic Oil Tank Capacity lt": "36"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Hydraulic system",
             "Mechanical system",
             "3 meter working length",
@@ -1035,7 +1035,7 @@
             "45, 90, and 135 degree bending angles",
             "Cut in 7 seconds"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 12x1",
             "65 kg/mm2: Ø 10x1",
             "85 kg/mm2: Ø 8x1"
@@ -1078,7 +1078,7 @@
           "Hydraulic Oil Tank Capacity lt": "36"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Hydraulic system",
             "Mechanical system",
             "3 meter working length",
@@ -1086,7 +1086,7 @@
             "45, 90, and 135 degree bending angles",
             "Cut in 7 seconds"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 12x1",
             "65 kg/mm2: Ø 10x1",
             "85 kg/mm2: Ø 8x1"
@@ -1141,13 +1141,13 @@
           "/images/gocmaksan/gms-kompaktor_1.webp"
         ],
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Compact light-construction design",
             "Easy operation",
             "Durable compaction plate",
             "Suitable for site preparation work"
           ],
-          "CAPACITIES": []
+          "capacities": []
         }
       }
     },
@@ -1183,13 +1183,13 @@
           "Weight kg": "325"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Mechanical system",
             "High cutting performance",
             "Fast cutting cycle",
             "Foot pedal and arm control"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 36x1, Ø 24x2",
             "65 kg/mm2: Ø 32x1, Ø 20x2",
             "85 kg/mm2: Ø 28x1, Ø 18x2"
@@ -1236,13 +1236,13 @@
           "Weight kg": "435"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Mechanical system",
             "High cutting performance",
             "Fast cutting cycle",
             "Foot pedal and arm control"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 45x1, Ø 36x2",
             "65 kg/mm2: Ø 42x1, Ø 30x2",
             "85 kg/mm2: Ø 30x1, Ø 24x2"
@@ -1282,13 +1282,13 @@
           "Weight kg": "675"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Mechanical system",
             "High cutting performance",
             "Fast cutting cycle",
             "Foot pedal and arm control"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 55x1, Ø 32x2",
             "65 kg/mm2: Ø 45x1, Ø 28x2",
             "85 kg/mm2: Ø 36x1, Ø 24x2"
@@ -1355,14 +1355,14 @@
           "Hydraulic sytem pressure": "250 (bar) / 3625 PSI"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Servo-controlled cutting line",
             "Barcode reader option",
             "Remote control support",
             "Collecting bins",
             "Steel factory production workflow"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "Ø 55 / #14: 1",
             "1: 1",
             "Ø 40 / #14: 5",
@@ -1448,14 +1448,14 @@
           "Discharging roller motor": "3X1.1KW"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Servo-controlled cutting line",
             "Barcode reader option",
             "Remote control support",
             "Collecting bins",
             "Steel factory production workflow"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "/ INCH BAR SIZE 45 kg/mm² 65 kg/mm² 85 kg/mm² OPERATOR PLATFOM unavailable available",
             "Ø 55 / #14 1 1 1 BARCODE SYSTEM unavailable available unavailable available",
             "Ø 40 / #14 5 4 4",
@@ -1512,13 +1512,13 @@
           "Ağırlık kg": "430"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Combined cutting and bending operation",
             "Compact construction-site design",
             "Easy operation",
             "Practical maintenance access"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 36x1, Ø 24x2",
             "65 kg/mm2: Ø 32x2, Ø 20x2",
             "85 kg/mm2: Ø 28x1, Ø 18x2"
@@ -1558,7 +1558,7 @@
           "Weight kg": "95"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Easy to carry",
             "Fixed center pin",
             "220 V / 380 V voltage options",
@@ -1566,7 +1566,7 @@
             "Stirrup bending capability",
             "Programmable bending function"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 20x1, Ø 14x2",
             "65 kg/mm2: Ø 18x1, Ø 12x3",
             "85 kg/mm2: Ø 16x1, Ø 10x4"
@@ -1606,7 +1606,7 @@
           "Weight kg": "115"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Easy to carry",
             "Fixed center pin",
             "220 V / 380 V voltage options",
@@ -1614,7 +1614,7 @@
             "Stirrup bending capability",
             "Programmable bending function"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 26x1, Ø 16x2",
             "65 kg/mm2: Ø 22x1, Ø 14x2",
             "85 kg/mm2: Ø 20x1, Ø 12x3"
@@ -1657,13 +1657,13 @@
           "Hydraulic Oil Tank Capacity lt": "36"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Mechanical system",
             "3 meter working length",
             "Cut in 7 seconds",
             "Portable wire mesh sliding table"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 12x1",
             "65 kg/mm2: Ø 10x1",
             "85 kg/mm2: Ø 8x1"
@@ -1697,7 +1697,7 @@
           "/images/gocmaksan/gms-oturak-makaslari-gocmaksan_1.webp"
         ],
         "specs": {
-          "CAPACITIES": [
+          "capacities": [
             "Ø8 — Ø32"
           ]
         }
@@ -1727,13 +1727,13 @@
         ],
         "pdf_catalog": "/catalogs/gocmaksan/gms-perdah-makinasi.pdf",
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Excellent results on concrete surfaces",
             "Economical low-fuel operation",
             "Ergonomic and safe design",
             "Quick blade adjustment"
           ],
-          "CAPACITIES": []
+          "capacities": []
         }
       },
       "bg": {
@@ -1777,7 +1777,7 @@
           "Hid. Oil. Cape kg": "7"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Portable construction-site design",
             "Easy to carry",
             "Hydraulic cutting system",
@@ -1785,7 +1785,7 @@
             "Digital control panel option",
             "Quick maintenance and spare parts access"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 24x1, Ø 12x4",
             "65 kg/mm2: Ø 20x1, Ø 10x3",
             "85 kg/mm2: Ø 16x1, Ø 8x4"
@@ -1819,13 +1819,13 @@
           "/images/gocmaksan/gms-rl-2000-gocmaksan-cift-tamburlu-silindir_1.webp"
         ],
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Hydrostatic drive system",
             "Compact and portable construction",
             "Easy ergonomic operation",
             "Efficient surface compaction"
           ],
-          "CAPACITIES": []
+          "capacities": []
         }
       }
     },
@@ -1862,7 +1862,7 @@
           "Hydraulic Oil Tank Capacity lt": "105"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Double-acting hydraulic system",
             "High cutting performance",
             "Manual and automatic control",
@@ -1870,7 +1870,7 @@
             "Low energy consumption",
             "Durable steel body"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "Ø 42x1"
           ]
         }
@@ -1909,7 +1909,7 @@
           "Hid. Oil. Cap. lt": "90"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Double-acting hydraulic system",
             "High cutting performance",
             "Manual and automatic control",
@@ -1917,7 +1917,7 @@
             "Low energy consumption",
             "Durable steel body"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø60x1, Ø42x2",
             "65 kg/mm2: Ø55x1, Ø30x3",
             "85 kg/mm2: Ø45x1, Ø26x3"
@@ -1962,7 +1962,7 @@
           "Weight kg": "275"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Automatic repeat without changing angle",
             "Fixed hub",
             "Easy fixing",
@@ -1970,7 +1970,7 @@
             "Patented daisy-pattern center hole",
             "Programmable bending function"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 30x1, Ø 16x2",
             "65 kg/mm2: Ø 24x1, Ø 14x2",
             "85 kg/mm2: Ø 22x1, Ø 12x2"
@@ -2010,7 +2010,7 @@
           "Weight kg": "340"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Automatic repeat without changing angle",
             "Fixed hub",
             "Easy fixing",
@@ -2018,7 +2018,7 @@
             "Patented daisy-pattern center hole",
             "Programmable bending function"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 36x1, Ø 18x2",
             "65 kg/mm2: Ø 30x1, Ø 14x2",
             "85 kg/mm2: Ø 24x1, Ø 12x2"
@@ -2116,7 +2116,7 @@
           "Bending Capacity": "2x6mm 2x8mm 2x10mm 2x12mm"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Touchscreen control panel",
             "Intelligent software",
             "Pneumatic safety door",
@@ -2125,13 +2125,13 @@
             "Ergonomic machine access",
             "Decoiler supplied with the machine"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "2x6mm",
             "2x8mm",
             "2x10mm",
             "2x12mm"
           ],
-          "SUPPLIED EQUIPMENT": [
+          "supplied_equipment": [
             "Stirrup Head: 6-8-10-12mm",
             "2 Knives For Each Measure: 6-8-10-12mm",
             "Bending Pin: 1 Pcs Standard Type",
@@ -2191,13 +2191,13 @@
           "Hydraulic Oil Tank Capacity lt": "194"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Mechanical power transmission system",
             "Adjustable spiral range",
             "Suitable for bored pile and tunnel construction",
             "Precise and fast spiral bending"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 22x1, Ø 18x1",
             "65 kg/mm2: Ø 18x1, Ø 28x1",
             "85 kg/mm2: Ø 24x1, Ø 20x1"
@@ -2238,13 +2238,13 @@
           "Hydraulic Oil Tank Capacity lt": "300"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Mechanical power transmission system",
             "Adjustable spiral range",
             "Suitable for bored pile and tunnel construction",
             "Precise and fast spiral bending"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 28x1, Ø 24x1",
             "65 kg/mm2: Ø 20x1, Ø 32x1",
             "85 kg/mm2: Ø 28x1, Ø 26x1"
@@ -2285,13 +2285,13 @@
           "Hydraulic Oil Tank Capacity lt": "477"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Mechanical power transmission system",
             "Adjustable spiral range",
             "Suitable for bored pile and tunnel construction",
             "Precise and fast spiral bending"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "45 kg/mm2: Ø 32x1, Ø 28x1",
             "65 kg/mm2: Ø 26x1, Ø 42x1",
             "85 kg/mm2: Ø 36x1, Ø 30x1"
@@ -2353,14 +2353,14 @@
           "Barcode reader": "Optional"
         },
         "specs": {
-          "GENERAL FEATURES": [
+          "general_features": [
             "Servo-controlled bending line",
             "Hydraulic and pneumatic systems",
             "Remote control support",
             "Collecting bins",
             "Steel factory production workflow"
           ],
-          "CAPACITIES": [
+          "capacities": [
             "• MANDRELS supplied with machine - Ø 70 , Ø 80 , Ø 100 , Ø 110, Ø 125, Ø 145, Ø 160, Ø 180, Ø 215",
             "/ INCH BAR SIZE 45 kg/mm² 65 kg/mm² 85 kg/mm²",
             "Ø 42 / #14 1 1 -",

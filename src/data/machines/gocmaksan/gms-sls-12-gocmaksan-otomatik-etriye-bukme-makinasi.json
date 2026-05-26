@@ -80,7 +80,7 @@
         "Bending Capacity": "2x6mm 2x8mm 2x10mm 2x12mm"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Touchscreen control panel",
           "Intelligent software",
           "Pneumatic safety door",
@@ -89,13 +89,13 @@
           "Ergonomic machine access",
           "Decoiler supplied with the machine"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "2x6mm",
           "2x8mm",
           "2x10mm",
           "2x12mm"
         ],
-        "SUPPLIED EQUIPMENT": [
+        "supplied_equipment": [
           "Stirrup Head: 6-8-10-12mm",
           "2 Knives For Each Measure: 6-8-10-12mm",
           "Bending Pin: 1 Pcs Standard Type",

@@ -15,9 +15,9 @@
         "/images/yilmaz/hp-1000-horizontal-profile-troley_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Used for carrying and storing horizontal profiles",
           "4 pcs. of free moving wheels, 2 of which have brakes",
           "Surfaces are covered with rubber to prevent scratches on work piece",
@@ -37,9 +37,9 @@
       "name": "HP 1000 Горизонтальная тележка для профилей",
       "description": "Используется для транспортировки и хранения нарезанных дверных и оконных профилей между рабочими местами",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Используется для переноски и хранения горизонтальных профилей",
           "4 шт. свободно перемещающихся колес, 2 из которых с тормозами",
           "Поверхности покрыты резиной для предотвращения царапин на изделии",
@@ -58,9 +58,9 @@
       "name": "HP 1000 - ХОРИЗОНТАЛНА КОЛИЧКА ЗА ПРОФИЛИ",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Използва се за пренасяне и съхранение на хоризонтални профили",
           "4 бр. свободно движещи се колела, 2 от които със спирачки",
           "Повърхностите са покрити с гума за предотвратяване на надраскване на детайла",

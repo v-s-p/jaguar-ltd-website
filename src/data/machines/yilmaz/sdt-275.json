@@ -14,13 +14,13 @@
         "/images/yilmaz/sdt-275_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Equipped with saw blade Ø275 mm",
           "Manual material clamping system",
           "Saw blade lubrication system"
         ],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "optional_accessories": [],
+        "general_features": [
           "Pivoting range 45° to the right and 45° to the left",
           "Double-speed motor (45/90 RPM)",
           "Possibility to select the motor speed according to the material",
@@ -39,13 +39,13 @@
       "name": "SDT 275 Отрезная машина",
       "description": "Идеально подходит для резки прутков, профилей и стальных армирующих элементов для окон из ПВХ",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Оснащен пильным диском Ø275 мм",
           "Ручная система зажима материала",
           "Система смазки пильного диска"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "optional_accessories": [],
+        "general_features": [
           "Диапазон поворота 45° вправо и 45° влево",
           "Двухскоростной двигатель (45/90 об/мин)",
           "Возможность выбора скорости вращения двигателя в зависимости от материала",
@@ -63,13 +63,13 @@
       "name": "SDT 275",
       "description": "Идеална за операции по рязане на пръти, профили и стоманени армировки за PVC прозорци.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Оборудвана с циркулярен диск Ø275 mm",
           "Система за ръчно затягане на материала",
           "Система за смазване на циркулярния диск"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "optional_accessories": [],
+        "general_features": [
           "Диапазон на завъртане 45° надясно и 45° наляво",
           "Двускоростен двигател (45/90 RPM)",
           "Възможност за избор на скоростта на двигателя според материала",

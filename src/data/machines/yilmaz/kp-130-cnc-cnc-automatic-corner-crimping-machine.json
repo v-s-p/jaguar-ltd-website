@@ -21,18 +21,18 @@
         "/images/yilmaz/kp-130-cnc-cnc-automatic-corner-crimping-machine_9.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "1 set of 3 mm, 1 set of 5 mm and 1 set of 7 mm crimping knives",
           "2x pneumatic vertical clamps",
           "2x profil support arms",
           "2x allen key (4 and 5 mm)",
           "Bracing clamps with 20 mm and 30 mm of thickness"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Special crimping knives",
           "Uninterrupted Power Suply (UPS) ARMY-800VA"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "It is designed through the CNC crimping system",
           "Cast iron construction of the body that is strong and lasting",
           "Magnetic tool gripping system that is adjustable according to the shape and height of the profiles",
@@ -64,18 +64,18 @@
       "name": "KP 130 CNC - АВТОМАТИЧНА МАШИНА ЗА ЗАГЛАЖДАНЕ НА АГЛИ",
       "description": "Машината KP 130 CNC е проектирана и конструирана за заглаждане и правилно сглобяване на алуминиеви профили един към друг. Тя е напълно CNC-управляема машина. Машината се управлява от електронна система, която може да запаметява данните за пресоване за всеки профил (точките, в които профилът ще бъде загладен).",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "1 комплект 3 мм, 1 комплект 5 мм и 1 комплект 7 мм ножове за заглаждане",
           "2х пневматични вертикални скоби",
           "2х опорни рамена за профили",
           "2х шестограмни ключа (4 и 5 мм)",
           "Укрепващи скоби с дебелина 20 мм и 30 мм"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Специални ножове за заглаждане",
           "Непрекъсваемо захранване (UPS) ARMY-800VA"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Проектирана е чрез CNC система за заглаждане",
           "Чугунена конструкция на корпуса, която е здрава и издръжлива",
           "Магнитна система за захващане на инструменти, която се регулира според формата и височината на профилите",

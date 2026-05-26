@@ -22,16 +22,16 @@
         "/images/yilmaz/kd-350-m-miter-saw-machine_10.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Ø 350 mm saw blade",
           "2 x manual horizontal clamps"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Machine stand",
           "MKN 300 roller conveyor (3m)",
           "Spare saw blade, Ø 350 mm"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "Location points at 45°-30°-22.5°-15°-0° both left and right",
           "Pivoting range from 45° left to 45° right infinitely adjustable",
           "Aluminium construction of the body that is strong and lasting",
@@ -52,16 +52,16 @@
       "name": "KD 350 M Торцовочная машина",
       "description": "Торцовочные станки KD 350 M предназначены для прямой и угловой резки ПВХ, алюминиевых и деревянных профилей.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Пильный диск Ø 350 мм",
           "2 x ручные горизонтальные зажимы"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Подставка для станка",
           "Роликовый конвейер MKN 300 (3 м)",
           "Запасной пильный диск, Ø 350 мм"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Точки расположения под углом 45°-30°-22,5°-15°-0° слева и справа",
           "Диапазон поворота от 45° влево до 45° вправо плавно регулируется",
           "Алюминиевая конструкция корпуса, прочная и долговечная",
@@ -81,16 +81,16 @@
       "name": "KD 350 M ОТРЕЗНА МАШИНА С ЪГЛОВА НАСТРОЙКА",
       "description": "Отрезните машини с ъглова настройка KD 350 M са проектирани за право и ъглово рязане на PVC, алуминиеви и дървени профили.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Циркулярен диск Ø 350 mm",
           "2 x ръчни хоризонтални стяги"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Стойка на машината",
           "Ролков конвейер MKN 300 (3m)",
           "Резервен циркулярен диск, Ø 350 mm"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Точки на фиксиране на 45°-30°-22.5°-15°-0° наляво и надясно",
           "Диапазон на завъртане от 45° наляво до 45° надясно, безстепенно регулируем",
           "Алуминиева конструкция на корпуса, която е здрава и издръжлива",

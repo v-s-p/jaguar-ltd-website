@@ -23,14 +23,14 @@
         "/images/yilmaz/cnc-609_11.webp"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Total of 11 tools, consisting of a cleaning saw, internal scraping blades and milling cutters",
           "Brushed window support table"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Line harmonization Package YASKAWA (SIGMA 7)"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "All unit parameters can be set independently according to the frames",
           "Automatic frame and sash profile recognition system",
           "Automatic line can be made by combining with Four Corner Welding Mach. (DK 540), Cooling Unit (SA 251) and Rotating Robot (SA 261) at a later date",
@@ -66,14 +66,14 @@
       "name": "CNC 609 Углозачистная машина",
       "description": "Углозачистные машины предназначены для очистки от сварочной крошки ПВХ-профилей, свариваемых под углом 90° CNC 609: 2 x сервоприводных двигателя, CNC 611: 4 x сервоприводных двигателя",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Всего 11 инструментов, состоящих из пилы для очистки, внутренних зачистных ножей и фрез",
           "Матовый опорный столик для окон"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Пакет согласования линий YASKAWA (SIGMA 7)"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Возможность обработки любого профиля",
           "Автоматическая система распознавания профиля рамы и створки",
           "Автоматическая линия может быть дооснащенна  сварочным станком с четырьмя углами (DK 540). (DK 540), охлаждающим столом (SA 251) и вращающимся роботом (SA 261)",
@@ -108,14 +108,14 @@
       "name": "CNC 609",
       "description": "Машините за почистване на ъгли са проектирани за почистване на заваръчните мустаци на PVC профили, заварени под ъгъл от 90°. CNC 609: 2 x серво мотора, CNC 611: 4 x серво мотора.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Общо 11 инструмента, състоящи се от почистващ циркуляр, ножове за вътрешно застъргване и фрезери",
           "Опорна маса за прозорци с четки"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Пакет за хармонизиране на линията YASKAWA (SIGMA 7)"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Всички параметри на модула могат да се настройват независимо според касите",
           "Система за автоматично разпознаване на профила на касата и крилото",
           "Може да се изгради автоматична линия чрез комбиниране с Четириглава заваръчна машина (DK 540), Охлаждащ модул (SA 251) и Въртящ се робот (SA 261) на по-късен етап",

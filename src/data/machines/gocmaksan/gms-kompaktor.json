@@ -16,13 +16,13 @@
         "/images/gocmaksan/gms-kompaktor_1.webp"
       ],
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Compact light-construction design",
           "Easy operation",
           "Durable compaction plate",
           "Suitable for site preparation work"
         ],
-        "CAPACITIES": []
+        "capacities": []
       }
     }
   },

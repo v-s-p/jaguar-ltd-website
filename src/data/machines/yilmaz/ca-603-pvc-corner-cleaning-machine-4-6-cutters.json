@@ -14,16 +14,16 @@
         "/images/yilmaz/ca-603-pvc-corner-cleaning-machine-4-6-cutters_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Air gun",
           "Profile support table with brushed",
           "Special corner cleaning cutter set"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Cleaning cutter for colored profiles",
           "V type of cleaning cutter for white profiles"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "High quality stripping and cleaning operations by means of the hydro-pneumatic system",
           "Processing capability for max. profile dimension: W130-H180 mm",
           "Processing capability for min. profile dimension: W30-H50 mm",
@@ -54,16 +54,16 @@
       "name": "CA 603 Машина для зачистки углов ПВХ",
       "description": "CA 603 Машина для очистки одного угла используется для зачистки нижних и верхних поверхностей и очистки внешних углов 90° профилей из ПВХ",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Пневматический пистолет",
           "Профильный опорный стол с матовой поверхностью",
           "Специальный набор фрез для очистки углов"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Фреза для очистки цветных профилей",
           "V-образный очистительный резак для белых профилей"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Высококачественные операции зачистки и очистки с помощью гидропневматической системы",
           "Возможность обработки профиля макс. размера: W130-H180 мм",
           "Возможность обработки профиля минимального размера: W30-H50 мм",
@@ -93,16 +93,16 @@
       "name": "CA 603 МАШИНА ЗА ПОЧИСТВАНЕ НА ЪГЛИ ЗА PVC С 4 6 НОЖА",
       "description": "Машината за почистване на единичен ъгъл CA 603 се използва за зачистване на долните и горните повърхности и почистване на външните ъгли на PVC профили, заварени на 90°.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Въздушен пистолет",
           "Опорна маса за профили с четки",
           "Специален комплект фрезери за почистване на ъгли"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Почистващ фрезер за цветни профили",
           "V-образен почистващ фрезер за бели профили"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Висококачествени операции по зачистване и почистване чрез хидропневматичната система",
           "Възможност за обработка на макс. размер на профила: W130-H180 mm",
           "Възможност за обработка на мин. размер на профила: W30-H50 mm",

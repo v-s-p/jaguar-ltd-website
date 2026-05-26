@@ -29,7 +29,7 @@
         "Hydraulic Oil Tank Capacity lt": "105"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Double-acting hydraulic system",
           "High cutting performance",
           "Manual and automatic control",
@@ -37,7 +37,7 @@
           "Low energy consumption",
           "Durable steel body"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "Ø 42x1"
         ]
       }

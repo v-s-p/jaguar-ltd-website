@@ -14,18 +14,18 @@
         "/images/yilmaz/dk-540-four-corner-pvc-welding-machine_2.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Manual greasing pump",
           "1 set of sash welding mould according to 70 mm of profile height",
           "1 set of adaptor for frame profile"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "SA 250 cooling unite",
           "CS 240 gasket pressing system",
           "Welding fixture set for lame sash",
           "Special welding moulds on demand"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "Fully automatic four corner welding of PVC window profiles at 90°",
           "Welding of a complete window frame or sash in one cycle",
           "All profile related welding parameters are individually programmable",
@@ -55,18 +55,18 @@
       "name": "DK 540 Четырехугловая сварочная машина ПВХ",
       "description": "Машина идеально подходит для процесса сварки пластиковых профилей из ПВХ на четырех углах.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Ручной смазочный насос",
           "1 комплект формы для сварки створок в соответствии с высотой профиля 70 мм",
           "1 комплект адаптеров для рамного профиля"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "SA 250 объединение охлаждения",
           "Система прессования прокладок CS 240",
           "Комплект сварочных приспособлений для отстойной створки",
           "Специальные сварочные формы по запросу"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Полностью автоматическая сварка четырех углов оконных профилей из ПВХ под углом 90°",
           "Сварка всей оконной рамы или створки за один цикл",
           "Все параметры сварки, связанные с профилем, программируются индивидуально",
@@ -95,18 +95,18 @@
       "name": "DK 540 - ЧЕТИРИЪГЛОВА МАШИНА ЗА ЗАВАРЯВАНЕ ЗА PVC",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Ръчна помпа за гресиране",
           "1 комплект матрица за заваряване на крила според височината на профила от 70 mm",
           "1 комплект адаптор за профил на рамка"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "SA 250 охлаждащ модул",
           "CS 240 система за пресоване на уплътнения",
           "Комплект заваръчни приспособления за ламелни крила",
           "Специални заваръчни матрици по заявка"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Напълно автоматично четириъглово заваряване на PVC прозоречни профили под 90°",
           "Заваряване на цяла прозоречна рамка или крило в един цикъл",
           "Всички параметри за заваряване, свързани с профила, са индивидуално програмируеми",

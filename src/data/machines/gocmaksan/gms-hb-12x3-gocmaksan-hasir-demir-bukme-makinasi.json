@@ -30,7 +30,7 @@
         "Hydraulic Oil Tank Capacity lt": "36"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Hydraulic system",
           "Mechanical system",
           "3 meter working length",
@@ -38,7 +38,7 @@
           "45, 90, and 135 degree bending angles",
           "Cut in 7 seconds"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø 12x1",
           "65 kg/mm2: Ø 10x1",
           "85 kg/mm2: Ø 8x1"

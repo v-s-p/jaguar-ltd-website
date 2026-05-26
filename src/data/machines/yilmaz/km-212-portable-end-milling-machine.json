@@ -15,15 +15,15 @@
         "/images/yilmaz/km-212-portable-end-milling-machine_2.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "1x manual vertical clamp",
           "1x manual horizontal clamp"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Machine stand",
           "Milling cutter set"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "High quality end-milling operations by the manual operations",
           "Practical cutter adjustment thanks to the spacers",
           "Fixing the workpiece firmly thanks to the manual vertical and horizontal clamps",
@@ -45,15 +45,15 @@
       "name": "KM 212 Портативный торцефрезерный станок",
       "description": "Портативный станок, работающий вручную, идеально подходит для точного фрезерования торцов ПВХ и алюминиевых профилей.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "1x ручной вертикальный зажим",
           "1x ручной горизонтальный зажим"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Подставка для станка",
           "Набор фрез"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Высококачественное фрезерование торцов при помощи ручных операций",
           "Практичная регулировка фрезы благодаря распоркам",
           "Надежная фиксация заготовки благодаря ручным вертикальным и горизонтальным зажимам",
@@ -74,15 +74,15 @@
       "name": "KM 212 - РЪЧНА МАШИНА ЗА ТОРЦОВО ФРЕЗОВАНЕ",
       "description": "Ръчна машина, идеална за прецизни операции по торцово фрезоване на PVC и алуминиеви профили.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "1x ръчна вертикална скоба",
           "1x ръчна хоризонтална скоба"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Стойка за машина",
           "Комплект фрези"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Висококачествени операции по торцово фрезоване чрез ръчно управление",
           "Практично регулиране на фрезата благодарение на дистанционните елементи",
           "Здраво фиксиране на детайла благодарение на ръчните вертикални и хоризонтални скоби",

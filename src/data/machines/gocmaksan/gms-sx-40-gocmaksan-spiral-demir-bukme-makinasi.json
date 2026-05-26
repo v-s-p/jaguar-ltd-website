@@ -23,13 +23,13 @@
         "Hydraulic Oil Tank Capacity lt": "477"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Mechanical power transmission system",
           "Adjustable spiral range",
           "Suitable for bored pile and tunnel construction",
           "Precise and fast spiral bending"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø 32x1, Ø 28x1",
           "65 kg/mm2: Ø 26x1, Ø 42x1",
           "85 kg/mm2: Ø 36x1, Ø 30x1"

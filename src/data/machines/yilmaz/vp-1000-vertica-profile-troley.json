@@ -15,9 +15,9 @@
         "/images/yilmaz/vp-1000-vertica-profile-troley_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Used for carrying and storing vertical profiles",
           "4 pcs. of free moving wheel, 2 of which have brakes",
           "2 x 10 section is available",
@@ -38,9 +38,9 @@
       "name": "VP 1000 Вертикальная профильная тележка",
       "description": "Используется для транспортировки и хранения нарезанных дверных и оконных профилей между рабочими местами",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Используется для переноски и хранения вертикальных профилей",
           "4 шт. свободно перемещающихся колеса, 2 из которых с тормозами",
           "Доступна секция 2 x 10",
@@ -60,9 +60,9 @@
       "name": "VP 1000 - ТРОЛЕЙ ЗА ВЕРТИКАЛНИ ПРОФИЛИ",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Използва се за пренасяне и съхранение на вертикални профили",
           "4 бр. свободно движещи се колела, 2 от които със спирачки",
           "Налични са 2 x 10 секции",

@@ -16,17 +16,17 @@
         "/images/yilmaz/km-211-manual-end-milling-machine_4.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "1 x pneumatic vertical clamp",
           "1 x pneumatic horizontal clamp",
           "Spray tool lubrication system",
           "Air gun"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Milling cutter set",
           "RS 1000 Profile support"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "High quality end-milling operations by the manual operation",
           "Safety operations with top guard",
           "Practical cutter adjustment thanks to the gap parts",
@@ -53,17 +53,17 @@
       "name": "KM 211 Ручной торцефрезерный станок",
       "description": "Станок, работающий вручную, идеально подходит для точного фрезерования алюминиевых профилей.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "1 x пневматический вертикальный зажим",
           "1 x пневматический горизонтальный зажим",
           "Система смазки спрей-инструмента",
           "Пневматический пистолет"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Набор фрез",
           "Ограничитель длины MKN 100 (1 м)"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Высококачественное торцевое фрезерование с помощью ручного управления",
           "Безопасные операции с верхней защитой",
           "Практичная регулировка фрезы благодаря зазорным частям",
@@ -88,17 +88,17 @@
       "name": "KM 211 S РЪЧНА МАШИНА ЗА ТОРЦОВО ФРЕЗОВАНЕ",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "1 x пневматична вертикална скоба",
           "1 x пневматична хоризонтална скоба",
           "Система за смазване на инструмента със спрей",
           "Въздушен пистолет"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Комплект фрези",
           "RS 1000 Подпора за профили"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Висококачествени операции по торцово фрезоване чрез ръчно управление",
           "Безопасни операции с горен предпазител",
           "Практично регулиране на фрезата благодарение на дистанционните елементи",

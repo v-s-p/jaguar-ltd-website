@@ -16,13 +16,13 @@
         "/images/gocmaksan/gms-rl-2000-gocmaksan-cift-tamburlu-silindir_1.webp"
       ],
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Hydrostatic drive system",
           "Compact and portable construction",
           "Easy ergonomic operation",
           "Efficient surface compaction"
         ],
-        "CAPACITIES": []
+        "capacities": []
       }
     }
   },

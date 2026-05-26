@@ -15,9 +15,9 @@
         "/images/yilmaz/pc-4000-profile-carry-cart_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Used for carrying and storing profile of packets",
           "4 piece of free moving wheel which have brakes",
           "Plastic covered surfaces to prevent scratches on work pieces",
@@ -37,9 +37,9 @@
       "name": "PC 4000 Тележка для перевозки профильных пакетов",
       "description": "Тележка для перевозки профильных пакетов",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Используется для переноса и хранения профиля пакетов",
           "4 свободно движущихся колеса с тормозами",
           "Поверхности с пластиковым покрытием для предотвращения царапин на заготовках",
@@ -58,9 +58,9 @@
       "name": "PC 4000 - КОЛИЧКА ЗА ТРАНСПОРТИРАНЕ НА ПРОФИЛИ",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Използва се за транспортиране и съхранение на пакети профили",
           "4 броя свободно движещи се колела със спирачки",
           "Пластмасово покрити повърхности за предотвратяване на драскотини по детайлите",

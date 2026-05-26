@@ -15,9 +15,9 @@
         "/images/yilmaz/gt-1000-gasket-trolley_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Opportunity to mount 4 piece of seal roller",
           "Adjustable sections according to different seal roller diameters",
           "Max. roller quantity: 4 pc. x Ø 550 mm",
@@ -36,9 +36,9 @@
       "name": "GT 1000 Транспортировочная тележка для уплотнителя",
       "description": "Используется для плотного прилегания уплотнительных роликов к профилю оконной створки.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Возможность установки 4 частей уплотнительного ролика",
           "Регулируемые секции в соответствии с различными диаметрами уплотнительных роликов",
           "Макс. количество роликов: 4 шт. x Ø 550 мм",
@@ -56,9 +56,9 @@
       "name": "GT 1000 - УПЛЪТНИТЕЛНА КОЛИЧКА",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Възможност за монтиране на 4 броя ролки за уплътнение",
           "Регулируеми секции според различни диаметри на ролките за уплътнение",
           "Макс. количество ролки: 4 бр. x Ø 550 mm",

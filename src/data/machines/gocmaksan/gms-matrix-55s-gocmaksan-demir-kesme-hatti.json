@@ -47,14 +47,14 @@
         "Discharging roller motor": "3X1.1KW"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Servo-controlled cutting line",
           "Barcode reader option",
           "Remote control support",
           "Collecting bins",
           "Steel factory production workflow"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "/ INCH BAR SIZE 45 kg/mm² 65 kg/mm² 85 kg/mm² OPERATOR PLATFOM unavailable available",
           "Ø 55 / #14 1 1 1 BARCODE SYSTEM unavailable available unavailable available",
           "Ø 40 / #14 5 4 4",

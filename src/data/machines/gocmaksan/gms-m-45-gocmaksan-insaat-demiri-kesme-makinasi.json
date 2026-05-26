@@ -29,13 +29,13 @@
         "Weight kg": "435"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Mechanical system",
           "High cutting performance",
           "Fast cutting cycle",
           "Foot pedal and arm control"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø 45x1, Ø 36x2",
           "65 kg/mm2: Ø 42x1, Ø 30x2",
           "85 kg/mm2: Ø 30x1, Ø 24x2"

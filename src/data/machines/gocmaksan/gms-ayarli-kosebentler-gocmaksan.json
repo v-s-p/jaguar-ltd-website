@@ -16,7 +16,7 @@
         "/images/gocmaksan/gms-ayarli-kosebentler-gocmaksan_1.webp"
       ],
       "specs": {
-        "CAPACITIES": [
+        "capacities": [
           "Ø 8 - Ø 26"
         ]
       }

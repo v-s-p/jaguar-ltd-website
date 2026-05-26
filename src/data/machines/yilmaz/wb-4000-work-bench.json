@@ -14,9 +14,9 @@
         "/images/yilmaz/wb-4000-work-bench_2.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Work bench for window assembly and general purposes use",
           "Adjustable height, fixed on ground and non- slide feet",
           "Plate to hold the tool set for mount accessories",
@@ -39,9 +39,9 @@
       "name": "WB 4000 Рабочий стол",
       "description": "Регулируемый по высоте и ширине рабочий стол для мастерских и общего назначения",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Рабочий стол для сборки окон и использования в общих целях",
           "Регулируемая высота, фиксация на земле и нескользящие ножки",
           "Пластина для хранения набора инструментов для крепления аксессуаров",
@@ -63,9 +63,9 @@
       "name": "WB 4000 РАБОТНА МАСА",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Работна маса за сглобяване на прозорци и общо предназначение",
           "Регулируема височина, фиксирана към земята и неплъзгащи се крачета",
           "Плоча за държане на комплекта инструменти за монтажни аксесоари",

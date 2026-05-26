@@ -22,13 +22,13 @@
         "/images/yilmaz/dk-502-double-corner-pvc-welding-machine_10.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Equipped with two pcs.of support arms"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Special welding molds on demand"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "Fully automatic two corner welding of PVC window profiles at an angle of 90°",
           "Single head welding possibility",
           "Possibility of precise welding of profiles between 30°-180° on the left head",
@@ -62,13 +62,13 @@
       "name": "DK 502 Двухугловая сварочная машина ПВХ профилей",
       "description": "Станок идеально подходит для процесса сварки пластиковых профилей из ПВХ под двумя углами.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Оснащен двумя опорными рычагами"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Специальные сварочные формы по запросу"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Полностью автоматическая сварка двух углов оконных профилей из ПВХ под углом 90°",
           "Возможность сварки одной головкой",
           "Возможность точной сварки профилей в диапазоне 30°-180° на левой головке",
@@ -101,13 +101,13 @@
       "name": "DK 502 - МАШИНА ЗА ЗАВАРЯВАНЕ НА ДВА ЪГЪЛА ЗА PVC",
       "description": "",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Оборудвана с две поддържащи рамена"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Специални заваръчни форми по заявка"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Напълно автоматично заваряване на два ъгъла на PVC прозоречни профили под ъгъл от 90°",
           "Възможност за едноглаво заваряване",
           "Възможност за прецизно заваряване на профили между 30°-180° на лявата глава",

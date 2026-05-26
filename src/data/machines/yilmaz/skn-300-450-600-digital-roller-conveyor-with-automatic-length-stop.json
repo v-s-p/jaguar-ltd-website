@@ -17,13 +17,13 @@
         "/images/yilmaz/skn-300-450-600-digital-roller-conveyor-with-automatic-length-stop_4.jpg"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Extendible digital measuring rod 3.0 m"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Barcode printer"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "Self- positioning of the conveyor stop according to the values entered on the digital screen",
           "It is ideal for cutting glazing bead profiles precisely",
           "5.5'' touch screen control panel",
@@ -50,13 +50,13 @@
       "name": "SKN 300 450 600 Цифровой конвейер с автоматическим ограничителем длины",
       "description": "Это компьютеризированный ограничитель длины, который помогает точно отрезать профили стеклопакетов по требуемым размерам.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Выдвижная цифровая измерительная штанга 3,0 м"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Принтер штрих-кодов"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Самостоятельное позиционирование остановки конвейера в соответствии со значениями, введенными на цифровом экране",
           "Он идеально подходит для точной резки профилей стеклопакетов.",
           "Сенсорная панель управления с диагональю 5,5''",
@@ -82,13 +82,13 @@
       "name": "SKN 300 450 600 ЦИФРОВ КОНВЕЙЕР С АВТОМАТИЧЕН ОГРАНИЧИТЕЛ",
       "description": "Това е компютризиран ограничител на дължината, който помага за прецизно рязане на стъклодържачи специално в необходимите размери.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Разтегателен цифров измервателен прът 3.0 m"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Баркод принтер"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Самопозициониране на ограничителя на конвейера според стойностите, въведени на цифровия екран",
           "Идеален е за прецизно рязане на профили за стъклодържачи",
           "5.5'' сензорен контролен панел",

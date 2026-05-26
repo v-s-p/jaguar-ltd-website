@@ -49,14 +49,14 @@
         "Hydraulic sytem pressure": "250 (bar) / 3625 PSI"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Servo-controlled cutting line",
           "Barcode reader option",
           "Remote control support",
           "Collecting bins",
           "Steel factory production workflow"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "Ø 55 / #14: 1",
           "1: 1",
           "Ø 40 / #14: 5",

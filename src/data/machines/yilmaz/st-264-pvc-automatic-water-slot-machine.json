@@ -16,16 +16,16 @@
         "/images/yilmaz/st-264-pvc-automatic-water-slot-machine_4.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [
+        "standard_accessories": [
           "Service keys",
           "Equipped with milling cutters, ø5xL80 and ø5xL60 mm",
           "Air gun"
         ],
-        "OPTIONAL ACCESSORIES": [
+        "optional_accessories": [
           "Spare cutter bits ø5xL80 mm",
           "Spare cutter bits ø5xL60 mm"
         ],
-        "GENERAL FEATURES": [
+        "general_features": [
           "Water slot opening process on PVC profiles is completed pneumatically",
           "Driller motors work separately in tree axis or two motors positioned in different axis work at the same time",
           "Practical adjustment of water slot length and depth by means of the stoppers",
@@ -53,16 +53,16 @@
       "name": "ST 264 PVC Фрезерная машина для водосточных каналов",
       "description": "Это идеальная фрезерная машина, используемая для создания водосточных каналов на ПВХ-профилях по двум или трем осям, под разными углами и на разной высоте.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [
+        "standard_accessories": [
           "Сервисные ключи",
           "Оснащен фрезами, ø5xL80 и ø5xL60 мм",
           "Пневматический пистолет"
         ],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [
+        "optional_accessories": [
           "Запасные фрезы ø5xL80 мм",
           "Запасные фрезы ø5xL60 мм"
         ],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Процесс открытия водяной щели на ПВХ-профилях осуществляется пневматически",
           "Двигатели бурильщика работают отдельно по оси дерева или два двигателя, расположенные по разным осям, работают одновременно",
           "Практичная регулировка длины и глубины водяной щели с помощью заглушек",
@@ -89,16 +89,16 @@
       "name": "ST 264 АВТОМАТИЧНА МАШИНА ЗА ОТВОДНИТЕЛНИ КАНАЛИ НА PVC",
       "description": "Това е идеална фреза, използвана за отваряне на канали за отводняване на PVC профили по две или три оси, под различни ъгли и височини.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [
+        "standard_accessories": [
           "Сервизни ключове",
           "Оборудвана с фрезери, ø5xL80 и ø5xL60 mm",
           "Въздушен пистолет"
         ],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [
+        "optional_accessories": [
           "Резервни фрезери ø5xL80 mm",
           "Резервни фрезери ø5xL60 mm"
         ],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "general_features": [
           "Процесът на отваряне на отводнителни канали върху PVC профили се извършва пневматично",
           "Пробивните двигатели работят отделно по три оси или два двигателя, разположени на различни оси, работят едновременно",
           "Практично регулиране на дължината и дълбочината на отводнителния канал чрез стопери",

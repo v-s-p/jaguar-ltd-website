@@ -18,9 +18,9 @@
         "/images/yilmaz/pwb-4100_6.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "It is designed to be used in the assembly of door, window frame and sash profiles and glasses",
           "It can expand horizontally and vertically for big frames and sashes",
           "The upper surface of the table can be tilted to 70° in order to carry out the mounting of the glasses",
@@ -40,9 +40,9 @@
       "name": "PWB 4100 Пневматический рабочий стол",
       "description": "Это пневматический рабочий стол, используемый для сборки дверей, окон, рам и профилей створок, с двумя рабочими платформами, регулируемыми по углу наклона и ширине.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Предназначен для сборки профилей и стекол дверных, оконных рам и створок.",
           "Он может расширяться по горизонтали и вертикали для больших рам и створок",
           "Верхняя поверхность стола может быть наклонена на 70° для установки очков",
@@ -61,9 +61,9 @@
       "name": "PWB 4100",
       "description": "Това е пневматична работна маса, използвана при сглобяването на врати, прозорци, профили на каси и крила, както и стъкла, с две работни платформи с регулируем ъгъл и ширина.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Проектирана за използване при сглобяването на профили за врати, каси и крила на прозорци, както и стъкла",
           "Може да се разширява хоризонтално и вертикално за големи каси и крила",
           "Горната повърхност на масата може да се накланя до 70° с цел улесняване на монтажа на стъклата",

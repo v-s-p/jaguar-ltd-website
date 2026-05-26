@@ -15,9 +15,9 @@
         "/images/yilmaz/gas-301_3.webp"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "It is designed for the fast installation of glass on the windows and doors",
           "Glazed joinery transferring to package on rollers",
           "Parallel block clamps allow you to set an appropriate balance",
@@ -43,9 +43,9 @@
       "name": "GAS 301 Машина для крепления стекла",
       "description": "Используется для последовательного крепления стекла к дверям и окнам.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Предназначен для быстрой установки стекла на окна и двери",
           "Остекленные столярные изделия, перемещаемые в упаковке на роликах",
           "Зажимы для параллельных блоков позволяют установить необходимый баланс",
@@ -70,9 +70,9 @@
       "name": "GAS 301",
       "description": "Използва се за серийно поставяне (остъкляване) на стъкла на врати и прозорци.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Проектирана за бърз монтаж на стъкла върху прозорци и врати",
           "Трансфериране на остъклената дограма към опаковане чрез ролки",
           "Паралелните блокови стяги позволяват задаване на подходящ баланс",

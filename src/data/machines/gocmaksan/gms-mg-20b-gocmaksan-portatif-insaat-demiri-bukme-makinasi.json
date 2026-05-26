@@ -22,7 +22,7 @@
         "Weight kg": "95"
       },
       "specs": {
-        "GENERAL FEATURES": [
+        "general_features": [
           "Easy to carry",
           "Fixed center pin",
           "220 V / 380 V voltage options",
@@ -30,7 +30,7 @@
           "Stirrup bending capability",
           "Programmable bending function"
         ],
-        "CAPACITIES": [
+        "capacities": [
           "45 kg/mm2: Ø 20x1, Ø 14x2",
           "65 kg/mm2: Ø 18x1, Ø 12x3",
           "85 kg/mm2: Ø 16x1, Ø 10x4"

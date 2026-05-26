@@ -15,9 +15,9 @@
         "/images/yilmaz/pt-2000-product-transportation-trolley-two-sided_2.png"
       ],
       "specs": {
-        "STANDARD ACCESSORIES": [],
-        "OPTIONAL ACCESSORIES": [],
-        "GENERAL FEATURES": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Used for carrying and storing completed window assembly",
           "4 pcs. of free moving wheel, 2 of which have brakes",
           "Loading surfaces are covered with rubber to prevent scratches on work piece",
@@ -35,9 +35,9 @@
       "name": "PT 2000 Двухсторонняя тележка для транспортировки окон",
       "description": "Это двухсторонняя тележка, которая используется для транспортировки и хранения собранных оконных рам и створок.",
       "specs": {
-        "СТАНДАРТНЫЕ АКСЕССУАРЫ": [],
-        "ДОПОЛНИТЕЛЬНЫЕ АКСЕССУАРЫ": [],
-        "ОБЩИЕ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Используется для переноски и хранения готовых оконных блоков",
           "4 шт. свободно перемещающихся колеса, 2 из которых с тормозами",
           "Загрузочные поверхности покрыты резиной для предотвращения царапин на заготовке",
@@ -54,9 +54,9 @@
       "name": "PT 2000 ТРАНСПОРТНА КОЛИЧКА ЗА ПРОДУКТИ ДВУСТРАННА",
       "description": "Това е двустранна количка, която се използва за целите на транспортиране и съхранение на сглобените прозоречни рамки и крила.",
       "specs": {
-        "СТАНДАРТНИ АКСЕСОАРИ": [],
-        "ОПЦИОНАЛНИ АКСЕСОАРИ": [],
-        "ОБЩИ ХАРАКТЕРИСТИКИ": [
+        "standard_accessories": [],
+        "optional_accessories": [],
+        "general_features": [
           "Използва се за пренасяне и съхранение на завършени прозоречни конструкции",
           "4 бр. свободно движещи се колела, 2 от които със спирачки",
           "Товарните повърхности са покрити с гума за предотвратяване на надраскване на детайла",
