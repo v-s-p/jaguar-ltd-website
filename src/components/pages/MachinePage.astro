@@ -43,6 +43,12 @@ const anaResim    = resimler.length > 0 ? resimler[0] : '/placeholder.png';
 const galeri      = resimler.length > 1 ? resimler.slice(1) : [];
 
 const ozellikGruplari = activeLang.specs || enLang.specs || (machine as any).specs || activeLang.ozellik_gruplari || {};
+const renderableSpecCount = Object.entries(ozellikGruplari)
+  .filter(([, v]: [string, any]) => Array.isArray(v) && v.length > 0)
+  .length;
+const specGridClass = renderableSpecCount === 1 ? 'grid-cols-1'
+                    : renderableSpecCount === 2 ? 'grid-cols-1 md:grid-cols-2'
+                    : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
 const teknikTablo     = activeLang.technical_data || enLang.technical_data || {};
 const piktogramlar    = activeLang.piktogramlar      || activeLang.specifications || {};
 const katalog         = activeLang.catalog || activeLang.katalog || activeLang.pdf_catalog || enLang.catalog || enLang.katalog || enLang.pdf_catalog || (machine as any).pdf_catalog || null;
@@ -152,8 +158,8 @@ const video           = activeLang.video   || null;
       )}
 
       <!-- Ozellik Gruplari -->
-      {Object.keys(ozellikGruplari).length > 0 && (
-        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {renderableSpecCount > 0 && (
+        <div class={`mt-12 grid gap-8 ${specGridClass}`}>
           {Object.entries(ozellikGruplari).map(([baslik, maddeler]: [string, any]) => (
             maddeler && maddeler.length > 0 && (
               <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 hover:border-[#00A8B5] transition-colors duration-300">
