@@ -8,29 +8,23 @@
     "Light Construction"
   ],
   "pdf_catalog": "",
-  "related_products": [
-    "Compactor",
-    "Power Trowel",
-    "BCZ 600",
-    "RL 2000"
-  ],
-  "specs": {
-    "FEATURED FEATURES": [
-      "Compact light-construction design",
-      "Easy operation",
-      "Durable compaction plate",
-      "Suitable for site preparation work"
-    ],
-    "TECHNICAL DATA": {},
-    "CAPACITIES": []
-  },
   "diller": {
     "en": {
       "name": "Compactor",
       "description": "Compactor is a compactor for light construction site preparation.",
       "images": [
         "/images/gocmaksan/gms-kompaktor_1.webp"
-      ]
+      ],
+      "specs": {
+        "GENERAL FEATURES": [
+          "Compact light-construction design",
+          "Easy operation",
+          "Durable compaction plate",
+          "Suitable for site preparation work"
+        ],
+        "CAPACITIES": []
+      }
     }
-  }
+  },
+  "type": "machine"
 }

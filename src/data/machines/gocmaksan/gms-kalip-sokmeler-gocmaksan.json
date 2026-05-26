@@ -8,8 +8,6 @@
     "Hand Tools"
   ],
   "pdf_catalog": "",
-  "related_products": [],
-  "specs": {},
   "diller": {
     "en": {
       "name": "Lever",
@@ -18,5 +16,6 @@
         "/images/gocmaksan/gms-kalip-sokmeler-gocmaksan_1.webp"
       ]
     }
-  }
+  },
+  "type": "machine"
 }

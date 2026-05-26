@@ -50,7 +50,7 @@ from pathlib import Path
 REPO_ROOT    = Path(__file__).parent.parent
 MACHINES_DIR = REPO_ROOT / "src" / "data" / "machines" / "gocmaksan"
 AGGREGATE    = REPO_ROOT / "src" / "data" / "gocmaksan.json"
-SYNC_SCRIPT  = REPO_ROOT / "tools" / "sync_machines_to_json.py"
+SYNC_SCRIPT  = REPO_ROOT / "scripts" / "sync_machines_to_json.py"
 
 # Anomaly accumulator (populated during migration, printed in dry-run report)
 _anomalies: list[dict] = []
