@@ -1,3 +1,62 @@
+## 2026-05-26 — D7 Sprint: Spec Block UI + Data Normalize + CMS Genişletme
+
+**Branch:** main  
+**Commits:** `2b229bb` → `02983d1` → `e79764d` → `adfdf10` → `ce0d6eb` → `57fb567` → `14f7fd7`
+
+### Done
+
+**D7 Faz 2D — Dynamic Spec Column Grid** (`2b229bb`)
+- `MachinePage.astro`: `renderableSpecCount` (non-empty array guard) → ternary class chain
+- 1 spec → `grid-cols-1`, 2 → `grid-cols-1 md:grid-cols-2`, 3+ → `grid-cols-1 md:grid-cols-2 lg:grid-cols-3`
+- Tailwind purge-safe: tüm class literal'leri source'da explicit yazıldı
+
+**D7 Faz 2C — Spec Header i18n** (`02983d1`)
+- `src/i18n/ui.ts`: BG+RU 5 spec label eklendi (`spec.general_features` … `spec.optional_accessories`)
+- `MachinePage.astro`: `specLabels: Record<string, string>` lookup, `{specLabels[baslik] || baslik}` template
+
+**D7 Faz 2B.1 — Spec Key Normalize** (`e79764d` + `adfdf10`)
+- `tools/normalize_spec_keys.py`: Strategy B (snake_case) — KEY_MAP 5×3 (tüm dil/format varyantları)
+- 135 dosya tarandı, 134 değiştirildi, 0 anomali — `_audit/NORMALIZE_DRYRUN_REPORT.md` üretildi
+- Backup: `_pre_normalize_backup_<ts>/` (yilmaz + gocmaksan), git-ignored
+- Post-apply sync: `scripts/sync_machines_to_json.py` çalıştırıldı
+
+**Adım 7 — Fill Missing RU Specs** (`ce0d6eb`)
+- `tools/fill_missing_yilmaz_ru_specs.py`: Gemini 2.5 Flash EN→RU spec çevirisi
+- İşlenen: `aim-3410` (34 item / 3 grup) + `kp-130-cnc` (20 item / 3 grup)
+- Validation: item count eşleşmesi + Cyrillic model code guard (`\b[А-ЯЁ]{2,}\b`)
+- **Düzeltme notu:** aim-3410 ve kp-130 BG specs her zaman mevcuttu. Bu adım SADECE eksik olan RU specs'i ekledi.
+
+**specLabels Title Case** (`57fb567`)
+- 15 label (BG×5, EN×5, RU×5) → strict Title Case — global tutarlılık
+
+**D7 Faz 2B.2 — Sveltia CMS Config Genişletme** (`14f7fd7`)
+- `public/admin/config.yml`: 124 satır eklendi
+- Yılmaz collection: EN/BG/RU her birine `specs` object widget (`standard_accessories`, `optional_accessories`, `general_features`)
+- Yılmaz BG+RU: `pdf_catalog` string field eklendi
+- GMS collection: EN/BG/RU her birine `specs` object widget (`general_features`, `capacities`, `supplied_equipment`)
+- GMS BG+RU: `pdf_catalog` string field eklendi
+- Tüm label'lar lokalize edildi (BG "Спецификации", RU "Характеристики" vb.)
+
+### Validasyon
+
+**JSON path doğrulama (statik):**
+- `pim-6508-se` (yılmaz): EN/BG/RU × 3 spec field — 9/9 ✓, EN `pdf_catalog` mevcut ✓
+- `aim-3410`: EN/BG/RU specs — 9/9 ✓ (3 dil specs her zaman mevcuttu)
+- `kp-130-cnc`: EN/BG/RU specs — 9/9 ✓
+- `gms-sls-12`: EN specs 3/3 ✓; BG/RU null → CMS'de boş ama düzenlenebilir ✓
+- TEST_ITEM_X inject/remove: `diller.bg.specs.general_features` path doğrulandı ✓
+- YAML lint: `config.yml` valid (node JSON parse ile konfirme edildi)
+
+**CMS UI testi:** `https://jaguar.ataerk.com/admin/` GitHub OAuth gerektiriyor → manuel doğrulama gerekli (Ken'in tarayıcısında açılmalı)
+
+### Bekleyen
+
+- **8 GMS makinesi:** BG/RU description eksik (kapsam dışı bu sprint'te)
+- **CMS live UI testi:** aim-3410 / kp-130 3-dil specs görünürlüğü — Ken manuel kontrol
+- Cloudflare cache purge (gerekirse)
+
+---
+
 ## 2026-05-24 [~2h] — Yılmaz RU name translation sprint (88/88 + BG tooling commit)
 
 **Branch:** main
