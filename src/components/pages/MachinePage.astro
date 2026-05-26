@@ -54,12 +54,14 @@ const piktogramlar    = activeLang.piktogramlar      || activeLang.specification
 const katalog         = activeLang.catalog || activeLang.katalog || activeLang.pdf_catalog || enLang.catalog || enLang.katalog || enLang.pdf_catalog || (machine as any).pdf_catalog || null;
 const video           = activeLang.video   || null;
 
+// Keys are now snake_case after normalization; t() resolves to correct locale label.
+// EN labels restore the display-caps form; BG/RU return Cyrillic translations.
 const specLabels: Record<string, string> = {
-  'GENERAL FEATURES':    t('spec.general_features' as any),
-  'CAPACITIES':          t('spec.capacities' as any),
-  'SUPPLIED EQUIPMENT':  t('spec.supplied_equipment' as any),
-  'STANDARD ACCESSORIES': t('spec.standard_accessories' as any),
-  'OPTIONAL ACCESSORIES': t('spec.optional_accessories' as any),
+  general_features:    t('spec.general_features' as any),
+  capacities:          t('spec.capacities' as any),
+  supplied_equipment:  t('spec.supplied_equipment' as any),
+  standard_accessories: t('spec.standard_accessories' as any),
+  optional_accessories: t('spec.optional_accessories' as any),
 };
 ---
 
