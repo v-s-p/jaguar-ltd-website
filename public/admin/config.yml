@@ -46,18 +46,80 @@ collections:
                   name: image
                   label: Görsel URL
                   widget: image
+              - name: specs
+                label: "Specs"
+                widget: object
+                required: false
+                fields:
+                  - name: standard_accessories
+                    label: "Standard Accessories"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: optional_accessories
+                    label: "Optional Accessories"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: general_features
+                    label: "General Features"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
           - name: bg
             label: "Български"
             widget: object
             fields:
               - { name: name, label: "Наименование", widget: string }
               - { name: description, label: "Описание", widget: text }
+              - { name: pdf_catalog, label: "PDF Каталог", widget: string, required: false }
+              - name: specs
+                label: "Спецификации"
+                widget: object
+                required: false
+                fields:
+                  - name: standard_accessories
+                    label: "Стандартни Аксесоари"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: optional_accessories
+                    label: "Опционални Аксесоари"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: general_features
+                    label: "Общи Характеристики"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
           - name: ru
             label: "Русский"
             widget: object
             fields:
               - { name: name, label: "Название", widget: string }
               - { name: description, label: "Описание", widget: text }
+              - { name: pdf_catalog, label: "PDF Каталог", widget: string, required: false }
+              - name: specs
+                label: "Характеристики"
+                widget: object
+                required: false
+                fields:
+                  - name: standard_accessories
+                    label: "Стандартные Аксессуары"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: optional_accessories
+                    label: "Дополнительные Аксессуары"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: general_features
+                    label: "Общие Характеристики"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
 
   - name: "gocmaksan"
     label: "Gocmaksan Машини"
@@ -98,18 +160,80 @@ collections:
                   name: image
                   label: Görsel URL
                   widget: image
+              - name: specs
+                label: "Specs"
+                widget: object
+                required: false
+                fields:
+                  - name: general_features
+                    label: "General Features"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: capacities
+                    label: "Capacities"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: supplied_equipment
+                    label: "Supplied Equipment"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
           - name: bg
             label: "Български"
             widget: object
             fields:
               - { name: name, label: "Наименование", widget: string }
               - { name: description, label: "Описание", widget: text }
+              - { name: pdf_catalog, label: "PDF Каталог", widget: string, required: false }
+              - name: specs
+                label: "Спецификации"
+                widget: object
+                required: false
+                fields:
+                  - name: general_features
+                    label: "Общи Характеристики"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: capacities
+                    label: "Капацитет"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: supplied_equipment
+                    label: "Оборудване В Комплекта"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
           - name: ru
             label: "Русский"
             widget: object
             fields:
               - { name: name, label: "Название", widget: string }
               - { name: description, label: "Описание", widget: text }
+              - { name: pdf_catalog, label: "PDF Каталог", widget: string, required: false }
+              - name: specs
+                label: "Характеристики"
+                widget: object
+                required: false
+                fields:
+                  - name: general_features
+                    label: "Общие Характеристики"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: capacities
+                    label: "Производительность"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
+                  - name: supplied_equipment
+                    label: "Поставляемое Оборудование"
+                    widget: list
+                    required: false
+                    field: { name: item, widget: string }
 
   - name: "settings"
     label: "Настройки / Ayarlar"
