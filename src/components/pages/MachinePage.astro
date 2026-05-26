@@ -53,6 +53,14 @@ const teknikTablo     = activeLang.technical_data || enLang.technical_data || {}
 const piktogramlar    = activeLang.piktogramlar      || activeLang.specifications || {};
 const katalog         = activeLang.catalog || activeLang.katalog || activeLang.pdf_catalog || enLang.catalog || enLang.katalog || enLang.pdf_catalog || (machine as any).pdf_catalog || null;
 const video           = activeLang.video   || null;
+
+const specLabels: Record<string, string> = {
+  'GENERAL FEATURES':    t('spec.general_features' as any),
+  'CAPACITIES':          t('spec.capacities' as any),
+  'SUPPLIED EQUIPMENT':  t('spec.supplied_equipment' as any),
+  'STANDARD ACCESSORIES': t('spec.standard_accessories' as any),
+  'OPTIONAL ACCESSORIES': t('spec.optional_accessories' as any),
+};
 ---
 
 <BaseLayout
@@ -163,7 +171,7 @@ const video           = activeLang.video   || null;
           {Object.entries(ozellikGruplari).map(([baslik, maddeler]: [string, any]) => (
             maddeler && maddeler.length > 0 && (
               <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 hover:border-[#00A8B5] transition-colors duration-300">
-                <h3 class="text-xl font-extrabold text-gray-900 mb-6 border-b border-gray-100 pb-3">{baslik}</h3>
+                <h3 class="text-xl font-extrabold text-gray-900 mb-6 border-b border-gray-100 pb-3">{specLabels[baslik] || baslik}</h3>
                 <ul class="space-y-3">
                   {maddeler.map((madde: string) => (
                     <li class="flex items-start text-gray-700">

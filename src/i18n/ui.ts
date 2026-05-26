@@ -70,7 +70,12 @@ export const ui = {
     'machine.media': 'Медия и Галерия',
     'machine.video': 'Видео',
     'machine.gallery': 'Снимки',
-    'machine.technical_data': 'Технически данни'
+    'machine.technical_data': 'Технически данни',
+    'spec.general_features': 'Общи характеристики',
+    'spec.capacities': 'Капацитет',
+    'spec.supplied_equipment': 'Оборудване в комплекта',
+    'spec.standard_accessories': 'Стандартни аксесоари',
+    'spec.optional_accessories': 'Опционални аксесоари',
   },
   en: {
     'nav.home': 'Home',
@@ -135,7 +140,12 @@ export const ui = {
     'machine.media': 'Media & Gallery',
     'machine.video': 'Product Video',
     'machine.gallery': 'Images',
-    'machine.technical_data': 'Technical Data'
+    'machine.technical_data': 'Technical Data',
+    'spec.general_features': 'General Features',
+    'spec.capacities': 'Capacities',
+    'spec.supplied_equipment': 'Supplied Equipment',
+    'spec.standard_accessories': 'Standard Accessories',
+    'spec.optional_accessories': 'Optional Accessories',
   },
   ru: {
     'nav.home': 'Главная',
@@ -174,6 +184,11 @@ export const ui = {
     'cat.sub.factory': 'Для арматурного цеха',
     'cat.sub.light': 'Лёгкая техника',
     'cat.sub.handtools': 'Ручной инструмент',
-    'machine.technical_data': 'Технические данные'
+    'machine.technical_data': 'Технические данные',
+    'spec.general_features': 'Общие характеристики',
+    'spec.capacities': 'Производительность',
+    'spec.supplied_equipment': 'Поставляемое оборудование',
+    'spec.standard_accessories': 'Стандартные аксессуары',
+    'spec.optional_accessories': 'Опциональные аксессуары',
   },
 } as const;
