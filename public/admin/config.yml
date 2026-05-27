@@ -46,6 +46,10 @@ collections:
                   name: image
                   label: Görsel URL
                   widget: image
+              - name: technical_data
+                label: "Technical Data"
+                widget: keyvalue
+                required: false
               - name: specs
                 label: "Specs"
                 widget: object
@@ -160,6 +164,10 @@ collections:
                   name: image
                   label: Görsel URL
                   widget: image
+              - name: technical_data
+                label: "Technical Data"
+                widget: keyvalue
+                required: false
               - name: specs
                 label: "Specs"
                 widget: object
