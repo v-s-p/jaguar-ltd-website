@@ -1,3 +1,32 @@
+## 2026-05-27 — D7 Faz 2E.1: EN technical_data CMS edit alanı (Sveltia keyvalue)
+
+**Branch:** main
+**Commit:** `b3560ef` — feat(cms): add technical_data keyvalue widget to en collections
+
+### Done
+
+**Audit (Faz 2E, Adım 1):**
+- 135 makinede `diller.en.technical_data` tarandı: 118 dolu, 17 yok
+- 78 unique key bulundu (top: Weight×81, Dimensions×74, Saw Rotation Speed×59 …)
+- 3 seçenek değerlendirildi: A (keyvalue native), B (array refactor), C (78 static field)
+
+**Apply (Faz 2E.1, Adım 2):**
+- Sveltia-native `widget: keyvalue` keşfedildi — Decap CMS'te yok, Sveltia exclusive
+- `public/admin/config.yml`: yilmaz + gocmaksan `diller.en` altına eklendi (images sonrası, specs öncesi)
+- **Sıfır data migrasyonu, sıfır Astro kod değişikliği** — JSON format aynı kaldı
+
+**CMS aktivitesi (Ken, paralel):**
+- Ken `gms-sls-12` ve `aim-3410` makinelerini CMS'ten güncelledi → GitHub'a yazıldı
+- Rebase ile conflict-free merge sağlandı
+
+### Açık Kalan
+
+- **BG/RU technical_data**: Şu an EN-only. Teknik ölçüler dil-bağımsız (kW, mm, kg) → ihtiyaç doğarsa 4 satırla genişletilir
+- **GMS CMS specs sorusu**: BG/RU `diller.bg.specs` hâlâ null — Sveltia empty-object davranışı Ken'in manuel testi ile netleşecek
+- **Sprint F**: Biraderi CMS davet (GitHub username + email + repo access gerekli)
+
+---
+
 ## 2026-05-26 — D7 Sprint: Spec Block UI + Data Normalize + CMS Genişletme
 
 **Branch:** main  
