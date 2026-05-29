@@ -1,3 +1,12 @@
+## 2026-05-27 — Sprint F: İlhan CMS Davet
+
+**İlhan (biraderi) Sveltia CMS'e davet edildi, girişi sağlandı.**
+- GitHub repo collaborator olarak eklendi
+- CMS erişimi aktif: `https://jaguar.ataerk.com/admin/`
+- Sonraki adım: 47 GMS makine içerik girişi (Ken + İlhan manuel sprint)
+
+---
+
 ## 2026-05-27 — Video Hybrid Feature (Step 1.5)
 
 **Branch:** main
