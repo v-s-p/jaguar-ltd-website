@@ -1,0 +1,150 @@
+---
+/**
+ * VideoModal.astro
+ * Renders a YouTube thumbnail with play-button overlay.
+ * Clicking opens a modal with lazy-loaded iframe (autoplay).
+ * No video URL → nothing rendered (B4 discipline).
+ */
+interface Props {
+  videoUrl: string;
+  machineTitle?: string;
+}
+
+const { videoUrl, machineTitle = '' } = Astro.props;
+
+/** Extract YouTube video ID from any common URL format or bare 11-char ID. */
+function extractYouTubeId(url: string): string | null {
+  const match = url.match(
+    /(?:youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})|^([a-zA-Z0-9_-]{11})$/
+  );
+  return match ? (match[1] ?? match[2]) : null;
+}
+
+const ytId    = extractYouTubeId(videoUrl);
+const thumbHi = ytId ? `https://img.youtube.com/vi/${ytId}/maxresdefault.jpg` : null;
+const thumbFb = ytId ? `https://img.youtube.com/vi/${ytId}/hqdefault.jpg`     : null;
+const embedUrl = ytId ? `https://www.youtube.com/embed/${ytId}?autoplay=1&rel=0` : null;
+const modalId  = ytId ? `ytModal-${ytId}` : null;
+---
+
+{ytId && thumbHi && thumbFb && embedUrl && modalId && (
+  <>
+    <!-- ── Thumbnail card ──────────────────────────────────── -->
+    <div
+      id="video-section"
+      class="relative w-full aspect-video rounded-xl overflow-hidden shadow-md
+             cursor-pointer group border-2 border-transparent
+             hover:border-[#00A8B5] transition-all duration-300"
+      role="button"
+      tabindex="0"
+      aria-label={`Play: ${machineTitle}`}
+      data-modal={modalId}
+    >
+      <!-- Thumbnail (hi-res → hq fallback) -->
+      <img
+        src={thumbHi}
+        alt={machineTitle}
+        onerror={`this.onerror=null;this.src='${thumbFb}'`}
+        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        loading="lazy"
+      />
+      <!-- Dim overlay -->
+      <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30
+                  transition-colors duration-300 pointer-events-none" />
+      <!-- Play button -->
+      <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center
+                    shadow-lg group-hover:scale-110 group-hover:bg-white transition-all duration-300">
+          <svg class="w-7 h-7 ml-1 text-red-600" fill="currentColor" viewBox="0 0 24 24"
+               aria-hidden="true">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Modal overlay ──────────────────────────────────── -->
+    <div
+      id={modalId}
+      class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm
+             items-center justify-center p-4 hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-label={`Video: ${machineTitle}`}
+    >
+      <div class="relative w-full max-w-4xl mx-auto">
+        <!-- Close button (top-right, outside iframe area) -->
+        <button
+          class="yt-modal-close absolute -top-11 right-0 text-white hover:text-gray-300
+                 transition-colors p-1 rounded-full"
+          aria-label="Close video"
+          type="button"
+        >
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+               aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+        <!-- iframe container — src set lazily on open -->
+        <div class="aspect-video w-full rounded-xl overflow-hidden shadow-2xl bg-black">
+          <iframe
+            class="yt-iframe w-full h-full"
+            data-src={embedUrl}
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            title={machineTitle}
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Interaction script (instance-isolated via define:vars) ── -->
+    <script is:inline define:vars={{ modalId }}>
+    (function () {
+      var thumb = document.querySelector('[data-modal="' + modalId + '"]');
+      var modal = document.getElementById(modalId);
+      if (!thumb || !modal) return;
+
+      var iframe = modal.querySelector('.yt-iframe');
+
+      function openModal() {
+        if (iframe && !iframe.getAttribute('src')) {
+          iframe.setAttribute('src', iframe.dataset.src || '');
+        }
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        if (iframe) iframe.removeAttribute('src');
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+
+      // Thumbnail: click + keyboard
+      thumb.addEventListener('click', openModal);
+      thumb.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(); }
+      });
+
+      // Overlay backdrop click (not inner content)
+      modal.addEventListener('click', function (e) {
+        if (e.target === modal) closeModal();
+      });
+
+      // Close button
+      var closeBtn = modal.querySelector('.yt-modal-close');
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+
+      // ESC key
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
+      });
+    })();
+    </script>
+  </>
+)}

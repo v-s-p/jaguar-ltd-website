@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoModal from '../VideoModal.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
 import { marked } from 'marked';
 marked.use({ breaks: true, gfm: true });
@@ -52,7 +53,7 @@ const specGridClass = renderableSpecCount === 1 ? 'grid-cols-1'
 const teknikTablo     = activeLang.technical_data || enLang.technical_data || {};
 const piktogramlar    = activeLang.piktogramlar      || activeLang.specifications || {};
 const katalog         = activeLang.catalog || activeLang.katalog || activeLang.pdf_catalog || enLang.catalog || enLang.katalog || enLang.pdf_catalog || (machine as any).pdf_catalog || null;
-const video           = activeLang.video   || null;
+const video           = activeLang.video   || enLang.video   || null;
 
 // Keys are now snake_case after normalization; t() resolves to correct locale label.
 // EN labels restore the display-caps form; BG/RU return Cyrillic translations.
@@ -127,21 +128,36 @@ const specLabels: Record<string, string> = {
               </div>
             )}
 
-            {katalog && (
-              <div class="mt-8">
-                <a
-                  href={katalog}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center px-6 py-3 text-base font-bold rounded-xl shadow-sm text-white transition-all duration-300"
-                  style={`background:${machine.brand === 'gocmaksan' ? '#E8751A' : '#00A8B5'}`}
-                >
-                  <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                  </svg>
-                  {t('machine.catalog')}
-                </a>
+            {(katalog || video) && (
+              <div class="mt-8 flex flex-wrap gap-3">
+                {katalog && (
+                  <a
+                    href={katalog}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center px-6 py-3 text-base font-bold rounded-xl shadow-sm text-white transition-all duration-300"
+                    style={`background:${machine.brand === 'gocmaksan' ? '#E8751A' : '#00A8B5'}`}
+                  >
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                    </svg>
+                    {t('machine.catalog')}
+                  </a>
+                )}
+                {video && (
+                  <button
+                    type="button"
+                    class="inline-flex items-center px-6 py-3 text-base font-bold rounded-xl shadow-sm text-white transition-all duration-300"
+                    style={`background:${machine.brand === 'gocmaksan' ? '#E8751A' : '#00A8B5'}`}
+                    onclick="document.getElementById('video-section')?.scrollIntoView({behavior:'smooth',block:'center'})"
+                  >
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    {t('machine.video_btn' as any)}
+                  </button>
+                )}
               </div>
             )}
           </div>
@@ -188,7 +204,7 @@ const specLabels: Record<string, string> = {
         </div>
       )}
 
-      <!-- Galeri -->
+      <!-- Galeri + Video -->
       {(video || galeri.length > 0) && (
         <div class="mt-12 bg-white p-8 lg:p-12 rounded-2xl shadow-sm border border-gray-100">
           <h3 class="text-2xl font-extrabold text-gray-900 mb-8">{t('machine.media')}</h3>
@@ -196,9 +212,7 @@ const specLabels: Record<string, string> = {
             {video && (
               <div class="flex flex-col">
                 <span class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">{t('machine.video')}</span>
-                <div class="aspect-video w-full rounded-xl shadow-md overflow-hidden bg-gray-100">
-                  <iframe src={video} class="w-full h-full" frameborder="0" allowfullscreen></iframe>
-                </div>
+                <VideoModal videoUrl={video} machineTitle={isim} />
               </div>
             )}
             {galeri.length > 0 && (

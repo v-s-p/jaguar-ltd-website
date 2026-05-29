@@ -39,6 +39,7 @@ collections:
               - { name: name, label: Name, widget: string }
               - { name: description, label: Description, widget: text }
               - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+              - { name: video, label: "Video URL", widget: string, required: false }
               - name: images
                 label: Görseller
                 widget: list
@@ -157,6 +158,7 @@ collections:
               - { name: name, label: Name, widget: string }
               - { name: description, label: Description, widget: text }
               - { name: pdf_catalog, label: PDF Catalog, widget: string, required: false }
+              - { name: video, label: "Video URL", widget: string, required: false }
               - name: images
                 label: Görseller
                 widget: list
