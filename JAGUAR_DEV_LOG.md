@@ -1,3 +1,54 @@
+## 2026-05-27 — Video Hybrid Feature (Step 1.5)
+
+**Branch:** main
+**Commit:** `144ead5` — feat(machine-page): hybrid youtube video thumbnail + modal popup
+
+### Done
+
+**VideoModal.astro** (yeni component, `src/components/VideoModal.astro`):
+- YouTube ID regex: watch?v=, youtu.be/, embed/, shorts/, bare ID — tüm formatlar
+- Thumbnail: `maxresdefault.jpg` → `hqdefault.jpg` onerror fallback
+- Play overlay: beyaz daire + kırmızı üçgen, hover scale + teal border
+- Modal: `fixed inset-0 z-50`, dark backdrop, lazy iframe (`data-src` → `src` sadece açılışta)
+- ESC + backdrop click + X butonu kapatır; `removeAttribute('src')` = video stop
+- Script: `is:inline define:vars={{ modalId }}` ile instance-isolated IIFE
+
+**MachinePage.astro**:
+- `import VideoModal` eklendi
+- `video = activeLang.video || enLang.video || null` (EN fallback)
+- PDF + Video buton bölümü: `flex flex-wrap gap-3`, her ikisi brand color, B4 (her biri ayrı conditional)
+- Media bölümü: eski `<iframe>` → `<VideoModal videoUrl={video} machineTitle={isim} />`
+- Galeri layout etkilenmedi
+
+**ui.ts**:
+- `machine.video_btn` eklendi: EN "Video" / BG "Видео" / RU "Видео"
+- RU eksik anahtarlar tamamlandı: `machine.catalog`, `machine.media`, `machine.video`, `machine.gallery`
+
+**public/admin/config.yml**:
+- `{ name: video, label: "Video URL", widget: string, required: false }` — yilmaz + gocmaksan EN (pdf_catalog sonrası)
+
+### Test Sonuçları
+
+| Test | Sonuç |
+|------|-------|
+| Видео butonu (BG) | ✅ |
+| "Video" / "Видео" butonu (EN / RU) | ✅ |
+| Thumbnail click → modal açılır | ✅ |
+| `body.overflow = hidden` (scroll lock) | ✅ |
+| ESC → modal kapanır, iframe src temizlenir | ✅ |
+| Backdrop click → modal kapanır | ✅ |
+| B4: video yok → buton yok, section yok, DOM'da sıfır element | ✅ |
+| GMS sls-12 regression | ✅ |
+| Build: 568 sayfa, 0 hata | ✅ |
+
+### Açık Kalan
+
+- **Video URL girişi**: Ken/İlhan CMS'ten (`Video URL` field) veya JSON'dan manuel ekleyecek
+- **Sveltia `video` field lazy-load notu**: iframe `src` sadece modal açılınca set → YT JS API yüklenmez (performans ✓)
+- Video URL formatı: tam URL, youtu.be, embed — hepsi destekleniyor
+
+---
+
 ## 2026-05-27 — D7 Faz 2E.1: EN technical_data CMS edit alanı (Sveltia keyvalue)
 
 **Branch:** main
