@@ -16,5 +16,8 @@
     "astro": "^5.0.0",
     "marked": "^18.0.4",
     "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@imgly/background-removal-node": "^1.4.5"
   }
 }
