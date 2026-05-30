@@ -1,5 +1,9 @@
 {
-  "header_dropdown": ["Aluminium", "PVC", "Rebar"],
+  "header_dropdown": [
+    "Aluminium",
+    "PVC",
+    "Rebar"
+  ],
   "subcategories_per_material": [
     {
       "material": "Aluminium",
@@ -37,10 +41,10 @@
     {
       "material": "Rebar",
       "subcategories": [
+        "Steel Factory Solutions",
         "Bending Machines",
         "Cutting Machines",
         "Combined Machines",
-        "Steel Factory Solutions",
         "Light Construction",
         "Hand Tools"
       ]
@@ -340,13 +344,6 @@
     },
     {
       "material": "Rebar",
-      "subcategory": "Combined Machines",
-      "machines": [
-        "gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi"
-      ]
-    },
-    {
-      "material": "Rebar",
       "subcategory": "Steel Factory Solutions",
       "machines": [
         "gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi",
@@ -357,6 +354,13 @@
         "gms-matrix-55-gocmaksan-demir-demir-kesme-hatti",
         "gms-matrix-55s-gocmaksan-demir-kesme-hatti",
         "gms-mh-8c-gocmaksan-hasir-kesme-makinasi"
+      ]
+    },
+    {
+      "material": "Rebar",
+      "subcategory": "Combined Machines",
+      "machines": [
+        "gms-max-40-gocmaksan-insaat-demiri-kesme-bukme-makinasi"
       ]
     },
     {
