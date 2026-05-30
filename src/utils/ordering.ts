@@ -1,8 +1,26 @@
-import orderingData from '../data/ordering.json';
+import orderingRaw from '../data/ordering.json';
 
-type OrderingData = typeof orderingData;
+interface MaterialSubcategoryEntry {
+  material: string;
+  subcategories: string[];
+}
 
-function getOrdering(): OrderingData {
+interface MachineOrderEntry {
+  material: string;
+  subcategory: string;
+  machines: string[];
+}
+
+interface OrderingConfig {
+  header_dropdown: string[];
+  subcategories_per_material: MaterialSubcategoryEntry[];
+  machines_per_subcategory: MachineOrderEntry[];
+  header_subcategory_override?: MaterialSubcategoryEntry[];
+}
+
+const orderingData = orderingRaw as unknown as OrderingConfig;
+
+function getOrdering(): OrderingConfig {
   return orderingData;
 }
 
@@ -38,4 +56,18 @@ export function getMachineOrder(material: string, subcategory: string): string[]
     (e) => e.material === material && e.subcategory === subcategory
   );
   return entry?.machines ?? [];
+}
+
+/**
+ * Returns the subcategory order for the header mega-menu.
+ * If header_subcategory_override has an entry for this material, uses that.
+ * Otherwise falls back to subcategories_per_material (same as category page).
+ */
+export function getHeaderSubcategoryOrder(material: string): string[] {
+  const overrides = getOrdering().header_subcategory_override;
+  if (overrides) {
+    const override = overrides.find((o) => o.material === material);
+    if (override?.subcategories?.length) return override.subcategories;
+  }
+  return getSubcategoryOrder(material);
 }

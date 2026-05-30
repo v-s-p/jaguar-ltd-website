@@ -1,8 +1,9 @@
 ---
 import LanguagePicker from './LanguagePicker.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../i18n/utils';
-import { sortByOrder, getSubcategoryOrder } from '../utils/ordering';
+import { sortByOrder, getHeaderSubcategoryOrder } from '../utils/ordering';
 const yilmaz = (await import('../data/yilmaz.json')).default;
+const gocmaksan = (await import('../data/gocmaksan.json')).default;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -11,16 +12,22 @@ const l = (path) => getRelativeLocaleUrl(lang, path);
 const uniq = (arr: string[]) => [...new Set(arr.filter(Boolean))];
 const aluminiumSubcategories = sortByOrder(
   uniq(yilmaz.filter((m: any) => (m.categories || []).includes('Aluminium')).map((m: any) => m.subcategory)),
-  getSubcategoryOrder('Aluminium'),
+  getHeaderSubcategoryOrder('Aluminium'),
   (s) => s
 );
 const pvcSubcategories = sortByOrder(
   uniq(yilmaz.filter((m: any) => (m.categories || []).includes('PVC')).map((m: any) => m.subcategory)),
-  getSubcategoryOrder('PVC'),
+  getHeaderSubcategoryOrder('PVC'),
+  (s) => s
+);
+const rebarSubcategories = sortByOrder(
+  uniq(gocmaksan.flatMap((m: any) => m.categories || [])),
+  getHeaderSubcategoryOrder('Rebar'),
   (s) => s
 );
 
 const navSubTranslationKeys: Record<string, string> = {
+  // Yılmaz (Aluminium + PVC)
   'Processing Centers': 'cat.sub.centers',
   'Processing Center': 'cat.sub.centers',
   'Saw Cutting': 'cat.sub.sawcutting',
@@ -36,6 +43,13 @@ const navSubTranslationKeys: Record<string, string> = {
   'Welding': 'cat.sub.welding',
   'Conveying': 'cat.sub.conveyor',
   'Pressing': 'cat.sub.press',
+  // Göçmaksan (Rebar)
+  'Bending Machines': 'cat.sub.bending',
+  'Cutting Machines': 'cat.sub.cutting',
+  'Combined Machines': 'cat.sub.combined',
+  'Steel Factory Solutions': 'cat.sub.factory',
+  'Light Construction': 'cat.sub.light',
+  'Hand Tools': 'cat.sub.handtools',
 };
 
 const navSubLabel = (subcategory: string) =>
@@ -99,16 +113,20 @@ const navSubLabel = (subcategory: string) =>
               </ul>
             </div>
 
-            <!-- Göçmaksan -->
+            <!-- Rebar (Göçmaksan) — dynamic from ordering.json -->
             <div class="flex-1">
               <a href={l("/kategori/rebar")} class="text-lg font-black text-brand-accent mb-3 block border-b border-gray-100 pb-2 hover:text-brand-hover transition-colors">{t('cat.rebar')}</a>
               <ul class="space-y-2">
-                <li><a href={l("/kategori/rebar?filter=Bending%20Machines")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.bending')}</a></li>
-                <li><a href={l("/kategori/rebar?filter=Cutting%20Machines")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.cutting')}</a></li>
-                <li><a href={l("/kategori/rebar?filter=Combined%20Machines")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.combined')}</a></li>
-                <li><a href={l("/kategori/rebar?filter=Steel%20Factory%20Solutions")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.factory')}</a></li>
-                <li><a href={l("/kategori/rebar?filter=Light%20Construction")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.light')}</a></li>
-                <li><a href={l("/kategori/rebar?filter=Hand%20Tools")} class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block">{t('cat.sub.handtools')}</a></li>
+                {rebarSubcategories.map((subcategory) => (
+                  <li>
+                    <a
+                      href={l(`/kategori/rebar?filter=${encodeURIComponent(subcategory)}`)}
+                      class="text-xs font-bold text-gray-500 hover:text-brand-accent hover:pl-1 transition-all block"
+                    >
+                      {navSubLabel(subcategory)}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
