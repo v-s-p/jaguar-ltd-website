@@ -5,6 +5,11 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
+  redirects: {
+    '/en/kategori/gocmaksan': '/en/kategori/rebar',
+    '/ru/kategori/gocmaksan': '/ru/kategori/rebar',
+    '/bg/kategori/gocmaksan': '/bg/kategori/rebar',
+  },
   vite: {
     server: {
       fs: {
