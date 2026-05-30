@@ -31,13 +31,17 @@
 - Build: 569 sayfa, 0 hata ✅
 - Aluminium + PVC regression yok ✅
 
+**Faz 5 — CMS Live Test (Ken, prod'da):**
+- `8d988bd` + `7b4c97e` — Ken ordering.json'u drag-drop ile iki kez güncelledi ✅
+- Site Ordering CMS flow sonuna kadar test edildi (prod ortamda, Sveltia)
+
 ### Blockers
 - None
 
 ### Next
-1. Prod deploy + CMS drag-drop live test (Step 1.7 + 1.7.1 birlikte)
-2. İlhan içerik sprint devam
-3. Yılmaz temizlenmiş WebP görselleri machine JSON'larına bağlama planı
+1. İlhan içerik sprint devam (GMS + Yılmaz makine verileri)
+2. Yılmaz temizlenmiş WebP görselleri machine JSON'larına bağlama planı
+3. Step 1.8 planlama
 
 ### Commit
 `docs(devlog): Step 1.7.1 header mega-menu ordering fix`
