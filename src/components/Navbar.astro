@@ -1,22 +1,23 @@
 ---
 import LanguagePicker from './LanguagePicker.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../i18n/utils';
+import { sortByOrder, getSubcategoryOrder } from '../utils/ordering';
 const yilmaz = (await import('../data/yilmaz.json')).default;
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const l = (path) => getRelativeLocaleUrl(lang, path);
 
-const uniqSorted = (arr: string[]) => [...new Set(arr.filter(Boolean))].sort();
-const aluminiumSubcategories = uniqSorted(
-  yilmaz
-    .filter((m: any) => (m.categories || []).includes('Aluminium'))
-    .map((m: any) => m.subcategory)
+const uniq = (arr: string[]) => [...new Set(arr.filter(Boolean))];
+const aluminiumSubcategories = sortByOrder(
+  uniq(yilmaz.filter((m: any) => (m.categories || []).includes('Aluminium')).map((m: any) => m.subcategory)),
+  getSubcategoryOrder('Aluminium'),
+  (s) => s
 );
-const pvcSubcategories = uniqSorted(
-  yilmaz
-    .filter((m: any) => (m.categories || []).includes('PVC'))
-    .map((m: any) => m.subcategory)
+const pvcSubcategories = sortByOrder(
+  uniq(yilmaz.filter((m: any) => (m.categories || []).includes('PVC')).map((m: any) => m.subcategory)),
+  getSubcategoryOrder('PVC'),
+  (s) => s
 );
 
 const navSubTranslationKeys: Record<string, string> = {
