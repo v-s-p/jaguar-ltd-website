@@ -363,3 +363,14 @@ collections:
                 label: Makineler
                 widget: list
                 field: { name: slug, label: Slug, widget: string }
+          - name: header_subcategory_override
+            label: "Header Alt Kategori Override (opsiyonel)"
+            hint: "Boş bırakırsan header dropdown kategori sayfası ile aynı sırayı kullanır. Sadece farklı sıra istediğin materyal için doldur."
+            widget: list
+            required: false
+            fields:
+              - { name: material, label: Materyal, widget: string }
+              - name: subcategories
+                label: "Header'da Gösterilecek Sıra"
+                widget: list
+                field: { name: subcategory, label: "Alt Kategori", widget: string }
