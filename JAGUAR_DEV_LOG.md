@@ -1,3 +1,91 @@
+## 2026-05-30 — Step 1.7: Site Hierarchy Audit + Material-Based Ordering
+
+**Duration:** ~2.5h  
+**Branch:** main  
+**Commits:** `7085765` → `d1c0bb8` → `104a9b9` → `493535b`
+
+### Done
+
+**Adım 0 — Critical Hierarchy Audit:**
+- Header/Navbar kaynak kodu okundu; aktif component'in `Navbar.astro` olduğu tespit edildi (`Header.astro` legacy/unused)
+- Routing yapısı haritalandı: `/kategori/aluminyum` + `/kategori/pvc` material-based ✅, `/kategori/gocmaksan` brand-based ❌
+- Machine data field audit: `material` field yok; Yılmaz `categories: ["Aluminium"/"PVC"]`, Göçmaksan `categories: ["Bending Machines", ...]` (operation type)
+- Brand→Material mapping doğrulandı: Göçmaksan 47 makine tümü Rebar, Yılmaz 57 Aluminium + 51 PVC + 20 her ikisi
+- **Verdict:** Hybrid (B-lite) — Navbar zaten `t('cat.rebar')` = "Арматура" label kullanıyor, sadece URL slug hâlâ brand-based
+- **Karar (Ken):** Seçenek A onaylandı — inline URL rename, sonra ordering normal akış
+
+**Adım A — Rebar Route Rename (Inline Fix):**
+- `KategoriPage.astro`: `gocmaksan` param → `rebar` param (brand mapping kod içinde: `brand: 'gocmaksan'`)
+- `Navbar.astro`: 6 URL güncellendi — desktop 5 link + mobile 1 link (`/kategori/gocmaksan` → `/kategori/rebar`)
+- `kategori/gocmaksan.astro`: 169 satır sayfa → meta-refresh redirect (`/kategori/rebar`)
+- `astro.config.mjs`: `redirects` eklendi — `/bg/`, `/en/`, `/ru/` lang variant'ları 301
+
+**Faz 1 — ordering.json Seed:**
+- `src/data/ordering.json` oluşturuldu (385 satır)
+- 3 materyal: Aluminium (11 subcat, 57 makine), PVC (12 subcat, 51 makine), Rebar (6 subcat, 47 makine)
+- Multi-subcat makineler (Rebar) her subcategory'de ayrı pozisyon
+- Başlangıç sırası: Processing Centers önce, Saw Cutting 2., vb. — CMS'ten override edilebilir
+
+**Faz 2 — Sveltia CMS Config:**
+- `public/admin/config.yml`: "🔢 Site Sıralaması" file collection eklendi
+- 3 iç içe list widget: header_dropdown → subcategories_per_material → machines_per_subcategory
+- `allow_add: false` (yapısal, yeni materyal CMS'ten eklenemez)
+- Drag-drop default aktif tüm list widget'larda
+
+**Faz 3 — Frontend Sort Logic:**
+- `src/utils/ordering.ts` (yeni dosya): `sortByOrder<T>()`, `getMaterialOrder()`, `getSubcategoryOrder()`, `getMachineOrder()`
+- Alphabetical fallback: ordering.json'da olmayan slug → liste sonuna
+- `Navbar.astro`: Al + PVC subcategory linkleri ordering'e göre sıralı
+- `KategoriPage.astro`: filter butonları + card grid compound sort (subcat sırası × makine sırası)
+- Rebar mapping: `catToMaterial["Gocmaksan"] = "Rebar"` — data dokunulmadı
+
+**Faz 4 — Build Verification (5/5 test):**
+- `/kategori/rebar` build edildi, 47 GMS makine var ✅
+- `/kategori/gocmaksan` meta-refresh redirect çalışıyor ✅
+- `/en/kategori/gocmaksan` astro config redirect çalışıyor ✅
+- Processing Centers filter butonu Saw Cutting'den önce ✅
+- 57/57 Aluminium makine sayfada — sıfır regression ✅
+
+### Blockers
+- Faz 5 (CMS drag-drop live test): prod deploy sonrası Ken yapacak
+
+### Next
+1. Prod deploy → CMS'te "Site Sıralaması" drag-drop test (3 katman)
+2. İlhan içerik sprint devam (GMS makine verileri)
+3. Step 1.8 planlama (homepage featured machine ordering?)
+
+### Commit
+`docs(devlog): Step 1.7 site hierarchy audit + material-based ordering`
+
+---
+
+## 2026-05-29 — Yılmaz Temizlenmiş WebP Görseller + BG Processor Script
+
+**Duration:** ~1h (solo — Ken)  
+**Branch:** main  
+**Commit:** `b6a0bae`
+
+### Done
+
+- 518 adet yüksek çözünürlüklü, temiz arka planlı Yılmaz makine WebP görsel yüklendi
+- Klasör: `public/images/yilmaz/Yilmaz_Temiz_Makineler/` (mevcut `/images/yilmaz/` ana klasörüne dokunulmadı)
+- Naming: `{slug}_{index}.webp` formatı (örn: `ack-420-s-up-cutting-saw-machine_1.webp`)
+- `scripts/yilmaz_bg_processor.py` eklendi — arka plan temizleme pipeline scripti (214 satır)
+- `package.json` + `package-lock.json`: sharp/jimp bağımlılıkları eklendi
+
+### Blockers
+- Görseller şu an makine sayfalarına bağlı değil — JSON'daki `images` field'ı hâlâ CDN URL'leri gösteriyor
+- Bağlama planı: İlhan sprint'te CMS'ten veya ayrı bir migration script ile
+
+### Next
+1. CMS'ten image field'larını `Yilmaz_Temiz_Makineler/` klasörüne yönlendir
+2. Migration script ile mevcut CDN URL'leri → lokal WebP path'leri toplu güncelle
+
+### Commit
+`docs(devlog): note Yilmaz cleaned WebP images upload (2026-05-29 solo session)`
+
+---
+
 ## 2026-05-27 — Sprint F: İlhan CMS Davet
 
 **İlhan (biraderi) Sveltia CMS'e davet edildi, girişi sağlandı.**
