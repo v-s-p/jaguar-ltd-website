@@ -328,3 +328,38 @@ collections:
               search_fields: ["slug", "diller.en.name"]
               value_field: slug
               display_fields: ["diller.en.name"]
+
+  - name: ordering
+    label: "🔢 Site Sıralaması"
+    files:
+      - name: site_ordering
+        label: "Sıralama (Sürükle & Bırak)"
+        file: "src/data/ordering.json"
+        format: json
+        fields:
+          - name: header_dropdown
+            label: "Header Materyal Sırası"
+            widget: list
+            allow_add: false
+            field: { name: material, label: Materyal, widget: string }
+          - name: subcategories_per_material
+            label: "Alt Kategori Sırası (Materyal Başına)"
+            widget: list
+            allow_add: false
+            fields:
+              - { name: material, label: Materyal, widget: string }
+              - name: subcategories
+                label: "Alt Kategoriler"
+                widget: list
+                field: { name: subcategory, label: "Alt Kategori", widget: string }
+          - name: machines_per_subcategory
+            label: "Makine Sırası (Alt Kategori Başına)"
+            widget: list
+            allow_add: false
+            fields:
+              - { name: material, label: Materyal, widget: string }
+              - { name: subcategory, label: "Alt Kategori", widget: string }
+              - name: machines
+                label: Makineler
+                widget: list
+                field: { name: slug, label: Slug, widget: string }
