@@ -2,13 +2,13 @@
   "labels": [
     {
       "key": "Processing Centers",
-      "bg": "Обработващи центри",
+      "bg": "Обработващи центрове",
       "en": "Machining Centers",
       "ru": "Обрабатывающие центры"
     },
     {
       "key": "Saw Cutting",
-      "bg": "Циркулярни триони",
+      "bg": "Циркуляри",
       "en": "Saw Cutting",
       "ru": "Пилы"
     },
@@ -20,13 +20,13 @@
     },
     {
       "key": "Milling",
-      "bg": "Фрезоване",
+      "bg": "Копир фрези",
       "en": "Routing & Milling",
       "ru": "Фрезерование"
     },
     {
       "key": "End Milling",
-      "bg": "Челно фрезоване",
+      "bg": "Челни фрези",
       "en": "End Milling",
       "ru": "Торцефрезерные"
     },
@@ -50,13 +50,13 @@
     },
     {
       "key": "Swarf Extraction",
-      "bg": "Изсмукване на талаш",
+      "bg": "Аспиратори",
       "en": "Swarf Extraction",
       "ru": "Удаление стружки"
     },
     {
       "key": "Conveying",
-      "bg": "Транспортни ленти",
+      "bg": "Конвейери",
       "en": "Conveyor",
       "ru": "Транспортировка"
     },
@@ -68,19 +68,19 @@
     },
     {
       "key": "Welding",
-      "bg": "Заваряване",
+      "bg": "Лепене",
       "en": "Welding",
       "ru": "Сварка"
     },
     {
       "key": "Cleaning",
-      "bg": "Почистване на ъгли",
+      "bg": "Зачистване",
       "en": "Corner Cleaning",
       "ru": "Зачистка углов"
     },
     {
       "key": "Screwdriving",
-      "bg": "Завинтване",
+      "bg": "Винтонавивни",
       "en": "Screwdriving",
       "ru": "Шуруповерты"
     },
