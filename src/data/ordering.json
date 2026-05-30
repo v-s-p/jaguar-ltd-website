@@ -293,6 +293,20 @@
     },
     {
       "material": "Rebar",
+      "subcategory": "Steel Factory Solutions",
+      "machines": [
+        "gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi",
+        "gms-synclone-45s-gocmaksan-demir-bukme-hatti",
+        "gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi",
+        "gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi",
+        "gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi",
+        "gms-matrix-55-gocmaksan-demir-demir-kesme-hatti",
+        "gms-matrix-55s-gocmaksan-demir-kesme-hatti",
+        "gms-mh-8c-gocmaksan-hasir-kesme-makinasi"
+      ]
+    },
+    {
+      "material": "Rebar",
       "subcategory": "Bending Machines",
       "machines": [
         "gms-sl-30-gocmaksan-etriye-bukme-makinasi",
@@ -340,20 +354,6 @@
         "gms-matrix-55s-gocmaksan-demir-kesme-hatti",
         "gms-mh-8c-gocmaksan-hasir-kesme-makinasi",
         "gms-bcz-600-gocmaksan-tugla-kesme-makinasi"
-      ]
-    },
-    {
-      "material": "Rebar",
-      "subcategory": "Steel Factory Solutions",
-      "machines": [
-        "gms-sls-12-gocmaksan-otomatik-etriye-bukme-makinasi",
-        "gms-synclone-45s-gocmaksan-demir-bukme-hatti",
-        "gms-axis-50s-gocmaksan-spiral-demir-bukme-makinasi",
-        "gms-hb-12x3-gocmaksan-hasir-demir-bukme-makinasi",
-        "gms-hb-12x6-gocmaksan-hasir-demir-bukme-makinasi",
-        "gms-matrix-55-gocmaksan-demir-demir-kesme-hatti",
-        "gms-matrix-55s-gocmaksan-demir-kesme-hatti",
-        "gms-mh-8c-gocmaksan-hasir-kesme-makinasi"
       ]
     },
     {
