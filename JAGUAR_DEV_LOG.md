@@ -1,3 +1,49 @@
+## 2026-05-30 — Step 1.7.1: Header Mega-Menu Ordering Fix
+
+**Duration:** ~30dk  
+**Branch:** main  
+**Commits:** `8d9dbc6` → `c6419be`
+
+### Done
+
+**Audit (Adım 1):**
+- Rebar mega-menu **hardcoded** 6 `<li>` bulundu — `gocmaksan.astro`'dan kopyalanmış, ordering.json'a bağlı değil
+- Aluminium + PVC zaten `getSubcategoryOrder()` kullanıyordu; Rebar kaçırılmıştı
+- Ken'in tespiti doğrulandı: header sırası ≠ kategori sayfası sırası (bağımsız kaynak)
+
+**Fix — Rebar Dynamic Binding (`8d9dbc6`):**
+- `src/utils/ordering.ts`: `getHeaderSubcategoryOrder(material)` eklendi — `header_subcategory_override` kontrol eder, boşsa `getSubcategoryOrder()` fallback
+- `Navbar.astro`: `gocmaksan.json` import, `rebarSubcategories = sortByOrder(..., getHeaderSubcategoryOrder('Rebar'), ...)`
+- `navSubTranslationKeys`: 6 Rebar key eklendi (Bending/Cutting/Combined/SteelFactory/Light/HandTools)
+- Hardcoded 6 `<li>` → dynamic `{rebarSubcategories.map(...)}` (Aluminium/PVC ile aynı pattern)
+- `ordering.json`: `header_subcategory_override: []` boş array eklendi
+
+**Override Feature (`c6419be`):**
+- Ken isterse materyal başına header'a bağımsız sıra verebilir — `header_subcategory_override` doldur
+- Boş = kategori sayfası ile aynı sıra (single source of truth)
+- CMS: "Header Alt Kategori Override" field + hint eklendi
+
+**Test (6/6):**
+- Built HTML'de Rebar sırası: `Bending → Cutting → Combined → Steel Factory → Light → Hand Tools` ✅
+- ordering.json ile tam eşleşme: `FULL MATCH: True` ✅
+- override boş array → fallback çalışıyor ✅
+- Kategori sayfası Rebar filter'ları etkilenmedi ✅
+- Build: 569 sayfa, 0 hata ✅
+- Aluminium + PVC regression yok ✅
+
+### Blockers
+- None
+
+### Next
+1. Prod deploy + CMS drag-drop live test (Step 1.7 + 1.7.1 birlikte)
+2. İlhan içerik sprint devam
+3. Yılmaz temizlenmiş WebP görselleri machine JSON'larına bağlama planı
+
+### Commit
+`docs(devlog): Step 1.7.1 header mega-menu ordering fix`
+
+---
+
 ## 2026-05-30 — Step 1.7: Site Hierarchy Audit + Material-Based Ordering
 
 **Duration:** ~2.5h  
