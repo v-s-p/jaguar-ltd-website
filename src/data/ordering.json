@@ -15,9 +15,9 @@
         "End Milling",
         "Corner Crimping",
         "Pressing",
-        "Assembling",
-        "Swarf Extraction",
         "Conveying",
+        "Swarf Extraction",
+        "Assembling",
         "Transferring"
       ]
     },
