@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../../i18n/utils';
 import { sortByOrder, getSubcategoryOrder, getMachineOrder } from '../../utils/ordering';
+import { getSubcategoryLabel } from '../../utils/subcategoryLabels';
 
 function makeExcerpt(md: string, maxLen = 200): string {
   if (!md) return '';
@@ -51,41 +52,7 @@ const catKeyMap: Record<string, string> = {
 };
 const displayCatName = t(catKeyMap[catName] as any) || catName;
 
-// Alt kategori çeviri anahtarları (JSON'daki İngilizce ID'leri i18n anahtarlarına eşler)
-const subTranslationKeys: Record<string, string> = {
-  // Yılmaz (JSON'daki değerler)
-  "Machining Centers": "cat.sub.centers",
-  "Processing Centers": "cat.sub.centers",
-  "Processing Center": "cat.sub.centers",
-  "Cutting": "cat.sub.cutting",
-  "Saw Cutting": "cat.sub.sawcutting",
-  "Routing & Milling": "cat.sub.milling",
-  "Milling": "cat.sub.milling",
-  "Corner Crimping": "cat.sub.crimping",
-  "End Milling": "cat.sub.endmilling",
-  "Pressing": "cat.sub.press",
-  "Transferring": "cat.sub.transferring",
-  "Conveying": "cat.sub.conveyor",
-  "Swarf Extraction": "cat.sub.swarfextract",
-  "Vacuum Swarf Extractor": "cat.sub.swarfextract",
-  "Assembling": "cat.sub.assembling",
-  "Welding": "cat.sub.welding",
-  "Corner Cleaning": "cat.sub.cleaning",
-  "Cleaning": "cat.sub.cleaning",
-  "Screwdriving": "cat.sub.screwdriving",
-  "Press": "cat.sub.press",
-  "Handling": "cat.sub.handling",
-  "Conveyor": "cat.sub.conveyor",
-  "Vacuum": "cat.sub.vacuum",
-  "Assembly": "cat.sub.assembly",
-  // Göçmaksan (JSON'daki değerler)
-  "Bending Machines": "cat.sub.bending",
-  "Cutting Machines": "cat.sub.cutting",
-  "Combined Machines": "cat.sub.combined",
-  "Steel Factory Solutions": "cat.sub.factory",
-  "Light Construction": "cat.sub.light",
-  "Hand Tools": "cat.sub.handtools"
-};
+// Subcategory display labels — read from subcategory_labels.json (CMS-editable by İlhan)
 
 const yilmazAluSubs = sortByOrder(
   uniq(yilmaz.filter((m: any) => (m.categories || []).includes('Aluminium')).map((m: any) => m.subcategory)),
@@ -162,7 +129,7 @@ const filteredMachines = [...rawFiltered].sort((a, b) => {
         <button 
           class="filter-btn bg-white text-gray-500 border border-gray-200 font-semibold px-4 py-2 rounded-full text-sm hover:border-brand-accent hover:text-brand-accent transition-all duration-200"
           data-filter={sub}>
-          {t(subTranslationKeys[sub] as any) || sub}
+          {getSubcategoryLabel(sub, lang)}
         </button>
       ))}
     </div>

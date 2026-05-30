@@ -2,6 +2,7 @@
 import LanguagePicker from './LanguagePicker.astro';
 import { getLangFromUrl, useTranslations, getRelativeLocaleUrl } from '../i18n/utils';
 import { sortByOrder, getHeaderSubcategoryOrder } from '../utils/ordering';
+import { getSubcategoryLabel } from '../utils/subcategoryLabels';
 const yilmaz = (await import('../data/yilmaz.json')).default;
 const gocmaksan = (await import('../data/gocmaksan.json')).default;
 
@@ -26,34 +27,7 @@ const rebarSubcategories = sortByOrder(
   (s) => s
 );
 
-const navSubTranslationKeys: Record<string, string> = {
-  // Yılmaz (Aluminium + PVC)
-  'Processing Centers': 'cat.sub.centers',
-  'Processing Center': 'cat.sub.centers',
-  'Saw Cutting': 'cat.sub.sawcutting',
-  'Milling': 'cat.sub.milling',
-  'Corner Crimping': 'cat.sub.crimping',
-  'End Milling': 'cat.sub.endmilling',
-  'Transferring': 'cat.sub.transferring',
-  'Assembling': 'cat.sub.assembling',
-  'Swarf Extraction': 'cat.sub.swarfextract',
-  'Cleaning': 'cat.sub.cleaning',
-  'Cutting': 'cat.sub.cutting',
-  'Screwdriving': 'cat.sub.screwdriving',
-  'Welding': 'cat.sub.welding',
-  'Conveying': 'cat.sub.conveyor',
-  'Pressing': 'cat.sub.press',
-  // Göçmaksan (Rebar)
-  'Bending Machines': 'cat.sub.bending',
-  'Cutting Machines': 'cat.sub.cutting',
-  'Combined Machines': 'cat.sub.combined',
-  'Steel Factory Solutions': 'cat.sub.factory',
-  'Light Construction': 'cat.sub.light',
-  'Hand Tools': 'cat.sub.handtools',
-};
-
-const navSubLabel = (subcategory: string) =>
-  t(navSubTranslationKeys[subcategory] || subcategory);
+const navSubLabel = (subcategory: string) => getSubcategoryLabel(subcategory, lang);
 ---
 <header class="bg-brand-accent text-white sticky top-0 z-50 shadow-lg border-b-4 border-brand-hover">
   <div class="container mx-auto px-4 max-w-7xl">

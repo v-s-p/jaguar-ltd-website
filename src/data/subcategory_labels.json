@@ -1,0 +1,124 @@
+{
+  "labels": [
+    {
+      "key": "Processing Centers",
+      "bg": "Обработващи центри",
+      "en": "Machining Centers",
+      "ru": "Обрабатывающие центры"
+    },
+    {
+      "key": "Saw Cutting",
+      "bg": "Циркулярни триони",
+      "en": "Saw Cutting",
+      "ru": "Пилы"
+    },
+    {
+      "key": "Cutting",
+      "bg": "Рязане",
+      "en": "Cutting",
+      "ru": "Резка"
+    },
+    {
+      "key": "Milling",
+      "bg": "Фрезоване",
+      "en": "Routing & Milling",
+      "ru": "Фрезерование"
+    },
+    {
+      "key": "End Milling",
+      "bg": "Челно фрезоване",
+      "en": "End Milling",
+      "ru": "Торцефрезерные"
+    },
+    {
+      "key": "Corner Crimping",
+      "bg": "Ъглонабивни",
+      "en": "Corner Crimping",
+      "ru": "Углообжимные"
+    },
+    {
+      "key": "Pressing",
+      "bg": "Преси",
+      "en": "Press",
+      "ru": "Прессы"
+    },
+    {
+      "key": "Assembling",
+      "bg": "Монтаж",
+      "en": "Assembling",
+      "ru": "Сборка"
+    },
+    {
+      "key": "Swarf Extraction",
+      "bg": "Изсмукване на талаш",
+      "en": "Swarf Extraction",
+      "ru": "Удаление стружки"
+    },
+    {
+      "key": "Conveying",
+      "bg": "Транспортни ленти",
+      "en": "Conveyor",
+      "ru": "Транспортировка"
+    },
+    {
+      "key": "Transferring",
+      "bg": "Транспортиране",
+      "en": "Transferring",
+      "ru": "Транспортировка"
+    },
+    {
+      "key": "Welding",
+      "bg": "Заваряване",
+      "en": "Welding",
+      "ru": "Сварка"
+    },
+    {
+      "key": "Cleaning",
+      "bg": "Почистване на ъгли",
+      "en": "Corner Cleaning",
+      "ru": "Зачистка углов"
+    },
+    {
+      "key": "Screwdriving",
+      "bg": "Завинтване",
+      "en": "Screwdriving",
+      "ru": "Шуруповерты"
+    },
+    {
+      "key": "Bending Machines",
+      "bg": "Огъване",
+      "en": "Bending Machines",
+      "ru": "Гибка"
+    },
+    {
+      "key": "Cutting Machines",
+      "bg": "Рязане",
+      "en": "Cutting Machines",
+      "ru": "Резка"
+    },
+    {
+      "key": "Combined Machines",
+      "bg": "Комбинирани",
+      "en": "Combined Machines",
+      "ru": "Комбинированные"
+    },
+    {
+      "key": "Steel Factory Solutions",
+      "bg": "За арматурен двор",
+      "en": "Steel Factory Solutions",
+      "ru": "Для арматурного цеха"
+    },
+    {
+      "key": "Light Construction",
+      "bg": "Лека техника",
+      "en": "Light Construction",
+      "ru": "Лёгкая техника"
+    },
+    {
+      "key": "Hand Tools",
+      "bg": "Ръчни инструменти",
+      "en": "Hand Tools",
+      "ru": "Ручной инструмент"
+    }
+  ]
+}

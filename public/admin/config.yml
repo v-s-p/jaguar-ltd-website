@@ -374,3 +374,30 @@ collections:
                 label: "Header'da Gösterilecek Sıra"
                 widget: list
                 field: { name: subcategory, label: "Alt Kategori", widget: string }
+
+  - name: subcategory_labels
+    label: "🏷️ Kategori Etiketleri"
+    files:
+      - name: subcategory_labels
+        label: "Alt Kategori İsimleri (BG / EN / RU)"
+        file: "src/data/subcategory_labels.json"
+        format: json
+        fields:
+          - name: labels
+            label: Etiketler
+            widget: list
+            allow_add: false
+            fields:
+              - name: key
+                label: "İç Anahtar (değiştirme!)"
+                widget: string
+                hint: "Bu alanı kesinlikle değiştirme — sistemin tanımlayıcısı"
+              - name: bg
+                label: "Bulgarca (BG) ✏️"
+                widget: string
+              - name: en
+                label: "İngilizce (EN) ✏️"
+                widget: string
+              - name: ru
+                label: "Rusça (RU) ✏️"
+                widget: string
