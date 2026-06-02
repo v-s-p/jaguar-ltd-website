@@ -31,7 +31,10 @@ const heroMakineler = heroSlugs
             const defaultLocale = m.diller?.bg || {};
             const activeLang = m.diller?.[lang] || m.diller?.en || defaultLocale;
             
-            const isim = activeLang.name || m.diller?.en?.name || m.slug;
+            const rawName = activeLang.name || m.diller?.en?.name || m.slug;
+            const isim = m.brand === 'yilmaz'
+              ? (m.diller?.en?.name || rawName).split(' - ')[0].trim()
+              : rawName;
             const resimYolu = m.diller?.[lang]?.images?.[0] || m.diller?.en?.images?.[0] || m.diller?.[lang]?.resimler?.[0] || m.diller?.en?.resimler?.[0] || '/placeholder.png';
 
             return (

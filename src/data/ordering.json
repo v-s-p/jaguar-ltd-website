@@ -9,7 +9,6 @@
       "material": "Aluminium",
       "subcategories": [
         "Processing Centers",
-        "Saw Cutting",
         "Cutting",
         "Milling",
         "End Milling",
@@ -65,7 +64,7 @@
     },
     {
       "material": "Aluminium",
-      "subcategory": "Saw Cutting",
+      "subcategory": "Cutting",
       "machines": [
         "mk-420-mk-420ps-mk-450-manual-up-cutting-saw-machine",
         "ack-420-s-up-cutting-saw-machine",
@@ -76,6 +75,8 @@
         "kd-400-m-mitre-saw-machine",
         "kd-400-p-miter-saw-machine",
         "kd-400-d-miter-saw-machine",
+        "kd-305-portable-miter-saw-machine",
+        "ky-305-portable-miter-saw-machine",
         "dc-550-pb-double-head-mitre-saw-machines",
         "dc-550-skh-double-head-mitre-saw-machine-full-automatic",
         "cdc-600-compound-angle-double-head-saw-cutting-machine",
@@ -83,14 +84,6 @@
         "sk-500-d-automatic-sawing-and-drilling-machine",
         "scm-420-l4-scm-420-l7-servo-controlled-serial-cutting-machine",
         "vk-420-v-cutting-90-end-notching-machine"
-      ]
-    },
-    {
-      "material": "Aluminium",
-      "subcategory": "Cutting",
-      "machines": [
-        "kd-305-portable-miter-saw-machine",
-        "ky-305-portable-miter-saw-machine"
       ]
     },
     {
