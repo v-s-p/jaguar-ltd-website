@@ -1,3 +1,52 @@
+## 2026-06-02 — UI Temizlik + CI Pipeline Yeniden Tasarım
+
+**Duration:** ~4h  
+**Branch:** main  
+**Commits:** `08f8749` → `0376819` → `9239f86` → `256ab8f` → `4cf6696`
+
+### Done
+
+**UI — 3 Display Değişikliği (`08f8749`):**
+- Hero slider: YILMAZ makine kartlarında tam isim yerine sadece model kodu gösteriliyor (split on ` - `, brand kontrolü ile — display-only, JSON'a dokunulmadı)
+- Alüminyum kategorisi: `Saw Cutting` subcategory, `Cutting` ile birleştirildi — 16 canonical JSON + `ordering.json` + `subcategory_labels.json` + `i18n/ui.ts` (3 dil) + `yilmaz.json` resync
+- Partner yazısı: `hero.partner.since`'tan "Bulgaria / България / Болгария" kaldırıldı (3 dil)
+
+**UI — Kart Tag Temizliği (`0376819`):**
+- `KategoriPage.astro` + `MachinePage.astro`: makine kartlarından `subcategory` ve `type` tag'leri kaldırıldı — sadece isim + açıklama + buton kalıyor
+- CDC 600 BG açıklaması: `AVTOMATICHNA` × 4 → `автоматична`, `DVUGLAVA` → `двуглава` (Latin transliterasyon hatası düzeltildi)
+
+**CI — Kırık Referans Fix (`9239f86`):**
+- `site_taxonomy_sync.py`: `MACHINES_JSON = "machines.json"` → `"yilmaz.json"` (per-brand migration sonrası güncellenmemişti)
+- `taxonomy-sync.yml` PR body + `translate.yml` `git add` satırı aynı şekilde güncellendi
+- Bu fix olmadan GitHub Actions `FileNotFoundError` ile crash ediyordu
+
+**CI — Node.js 24 Opt-in (`256ab8f`):**
+- 3 workflow'a `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true` eklendi
+- 16 Haziran 2026 deprecation deadline'ı için gerekli
+
+**CI — 3 Fazlı Güvenli Makine Ekleme Pipeline'ı (`4cf6696`):**
+- **Sorun:** Eski `taxonomy-sync` + `translate` workflow'ları doğrudan `yilmaz.json`'a yazıyordu; CMS editi sonrası `cms-sync` bunları overwrite edebilirdi
+- **Çözüm:** Siteye etkisi olmayan staging sistemi
+  - `scrape_discovery.py` → sadece YENİ makineleri `src/data/_staging/new_machines_YYYY-MM.json`'a yazar, mevcut makinelerdeki farkı rapor eder (uygulamaz)
+  - `translate_staging.py` → staging JSON'u Gemini ile BG+RU çevirir, siteye yazmaz
+  - `apply_staging.py` → admin onayı sonrası sadece YENİ individual JSON dosyaları oluşturur, mevcutlara DOKUNMAZ; yilmaz.json rebuild eder
+  - Her faz sonunda tüm adminlere detaylı email + adım adım talimat (GitHub Actions URL'leri dahil)
+  - Eski `taxonomy-sync.yml` + `translate.yml` disabled olarak arşivlendi
+- **Gerekli secrets:** `ADMIN_EMAILS`, `MAIL_SERVER`, `MAIL_USERNAME`, `MAIL_PASSWORD`
+
+### Blockers
+- Email secrets (`ADMIN_EMAILS` vb.) henüz GitHub'a eklenmedi — admin manuel ekleyecek
+
+### Next
+1. GitHub Secrets'a mail bilgilerini ekle (`Settings → Secrets → Actions`)
+2. `scrape-discovery.yml`'i manuel tetikleyerek pipeline'ı test et
+3. İlhan içerik sprint — GMS + Yılmaz makine verileri tamamlama
+
+### Commit
+`docs(devlog): 2026-06-02 UI cleanup + CI pipeline redesign`
+
+---
+
 ## 2026-05-30 — Step 1.7.1: Header Mega-Menu Ordering Fix
 
 **Duration:** ~30dk  
