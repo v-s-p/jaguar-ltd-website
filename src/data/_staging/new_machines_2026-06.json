@@ -1,0 +1,85 @@
+{
+  "scraped_at": "2026-06-02T11:24:20.497943+00:00",
+  "brand": "yilmaz",
+  "new_machines": [],
+  "taxonomy_diffs": [
+    {
+      "slug": "wb-4000-work-bench",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    },
+    {
+      "slug": "pwb-4100",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    },
+    {
+      "slug": "rt-1000-rotating-table",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    },
+    {
+      "slug": "gas-301",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    },
+    {
+      "slug": "vce-4000",
+      "field": "categories",
+      "current": [
+        "PVC"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['Aluminium']"
+    },
+    {
+      "slug": "ryk-420-w-radial-saw-machine",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    }
+  ],
+  "summary": {
+    "existing_count": 88,
+    "site_count": 88,
+    "new_count": 0,
+    "diff_count": 6
+  }
+}
