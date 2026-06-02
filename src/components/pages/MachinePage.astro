@@ -98,18 +98,6 @@ const specLabels: Record<string, string> = {
           <!-- Aciklama -->
           <div class="p-10 lg:p-14 flex flex-col justify-start bg-gray-50">
             <h1 class="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4 tracking-tight leading-tight">{isim}</h1>
-            {machine.subcategory && (
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span class="text-xs font-bold uppercase tracking-wider px-2 py-1 rounded border border-gray-200 text-gray-500">
-                  {Array.isArray(machine.subcategory) ? machine.subcategory.join(' • ') : machine.subcategory}
-                </span>
-                {machine.type && (
-                  <span class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest">
-                    {machine.type}
-                  </span>
-                )}
-              </div>
-            )}
             {aciklama && (
               <div class="machine-description text-base text-gray-600 leading-relaxed mb-8"
                    set:html={descriptionHtml} />

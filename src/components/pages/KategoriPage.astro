@@ -151,16 +151,6 @@ const filteredMachines = [...rawFiltered].sort((a, b) => {
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                   <h3 class="text-xl text-brand-light font-extrabold mb-3 leading-snug">{makineIsmi}</h3>
-                  {m.type && (
-                    <div class="text-[9px] font-semibold text-gray-400 mb-1 uppercase tracking-widest">
-                      {m.type}
-                    </div>
-                  )}
-                  {m.subcategory && (
-                    <div class="text-[10px] font-bold text-brand-accent mb-2 uppercase tracking-widest opacity-80">
-                      {Array.isArray(m.subcategory) ? m.subcategory.join(' • ') : m.subcategory}
-                    </div>
-                  )}
                   <p class="text-sm text-gray-600 line-clamp-3 mb-6 leading-relaxed">{makeExcerpt(aciklama)}</p>
                   <div class="mt-auto flex justify-end items-center text-sm font-extrabold text-brand-light tracking-wide">
                     {t('btn.viewall')} <span class="ml-2 text-xl font-normal transition-transform duration-200 group-hover:translate-x-1 group-hover:text-brand-accent">〉</span>
