@@ -47,7 +47,7 @@ jobs:
       - name: Commit and push translations
         if: steps.diff.outputs.changed == 'true'
         run: |
-          git add src/data/machines.json src/data/gocmaksan.json
+          git add src/data/yilmaz.json src/data/gocmaksan.json
           git commit -m "i18n(bg): translate batch $(date -u +%Y-%m-%d)"
           git push
 

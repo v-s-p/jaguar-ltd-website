@@ -32,7 +32,7 @@ jobs:
           body: |
             ## Otomatik Taxonomy Sync
 
-            Üretici sitelerinden çekilen kategori verisi ile machines.json ve gocmaksan.json güncellendi.
+            Üretici sitelerinden çekilen kategori verisi ile yilmaz.json ve gocmaksan.json güncellendi.
 
             **Kontrol edilecekler:**
             - [ ] Multi-cat eklenen makineler doğru mu?

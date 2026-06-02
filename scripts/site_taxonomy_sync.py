@@ -33,7 +33,7 @@ HEADERS = {
 SLEEP = 2.5  # saniye — server'ı yormayalım
 
 DATA_DIR         = Path("src/data")
-MACHINES_JSON    = DATA_DIR / "machines.json"
+MACHINES_JSON    = DATA_DIR / "yilmaz.json"
 GOCMAKSAN_JSON   = DATA_DIR / "gocmaksan.json"
 OVERRIDES_JSON   = DATA_DIR / "multi_category_overrides.json"
 
@@ -593,7 +593,7 @@ def print_yilmaz_report(site_tax: dict, jaguar_machines: list, changes: dict):
         for c in changes["added_sub_sub"][:5]:
             print(f"    {c['slug']}: {c['val']}")
 
-    mode = "DRY-RUN (dosyalara yazılmadı)" if DRY_RUN else "WRITE MODE — machines.json güncellendi"
+    mode = "DRY-RUN (dosyalara yazılmadı)" if DRY_RUN else "WRITE MODE — yilmaz.json güncellendi"
     print(f"\n  Mod: {mode}")
 
 
@@ -675,7 +675,7 @@ def main():
     print("\n" + "="*60)
     print("📋 DUR #3 — JSON MERGE DRY-RUN ÖZETİ")
     print("="*60)
-    print(f"  machines.json değişecekler:")
+    print(f"  yilmaz.json değişecekler:")
     print(f"    Multi-cat ekleme:         {len(yilmaz_changes['added_multi_cat'])} makine")
     print(f"    sub_subcategory ekleme:   {len(yilmaz_changes['added_sub_sub'])} makine")
     print(f"    subcategory güncelleme:   {len(yilmaz_changes['updated_subcategory'])} makine")
@@ -686,7 +686,7 @@ def main():
     print(f"    TOPLAM etkilenen kayıt:   {total_y}")
 
     # Diff örnekleri
-    print("\n  Diff örnekleri (machines.json):")
+    print("\n  Diff örnekleri (yilmaz.json):")
     shown = 0
     for m_new, m_old in zip(machines_work, machines):
         if m_new != m_old and shown < 5:
@@ -708,7 +708,7 @@ def main():
             json.dump(machines_work, f, ensure_ascii=False, indent=2)
         with open(GOCMAKSAN_JSON, "w", encoding="utf-8") as f:
             json.dump(gocmaksan_work, f, ensure_ascii=False, indent=2)
-        print(f"\n  ✅ machines.json ve gocmaksan.json güncellendi!")
+        print(f"\n  ✅ yilmaz.json ve gocmaksan.json güncellendi!")
 
     print("\n🎉 Taxonomy sync tamamlandı.")
 
