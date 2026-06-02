@@ -1,9 +1,13 @@
-name: Taxonomy Sync (monthly)
+name: "[DISABLED] Taxonomy Sync (replaced by scrape-discovery)"
+# Bu workflow scrape-discovery.yml ile replace edildi.
+# Referans olarak saklanıyor, tetiklenmez.
 
 on:
-  schedule:
-    - cron: '0 4 1 * *'   # Her ayın 1'inde, 04:00 UTC
-  workflow_dispatch:         # Manuel tetikleme
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "UYARI: Bu workflow devre dışı. scrape-discovery.yml kullan."
+        required: true
 
 jobs:
   sync:

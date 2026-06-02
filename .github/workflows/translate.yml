@@ -1,7 +1,14 @@
-name: Translate Bulgarian (Manual)
+name: "[DISABLED] Translate Bulgarian (replaced by translate-staging)"
+# Bu workflow translate-staging.yml ile replace edildi.
+# Doğrudan yilmaz.json'a yazdığı için güvenli değil.
+# Referans olarak saklanıyor.
 
 on:
   workflow_dispatch:
+    inputs:
+      confirm:
+        description: "UYARI: Bu workflow devre dışı. translate-staging.yml kullan."
+        required: true
 
 concurrency:
   group: translate-bg

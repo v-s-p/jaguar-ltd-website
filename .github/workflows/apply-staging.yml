@@ -1,0 +1,50 @@
+name: "3️⃣ Apply Staging (manual)"
+
+on:
+  workflow_dispatch:   # Sadece elle tetiklenir — admin onayı
+
+jobs:
+  apply:
+    name: Apply New Machines to Catalog
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Apply staging to individual machine files
+        id: apply
+        run: python scripts/apply_staging.py
+        # Yeni makine dosyalarını oluşturur + yilmaz.json rebuild eder
+        # Var olan dosyalara DOKUNMAZ
+
+      - name: Commit new machine files + rebuilt JSON
+        run: |
+          git config user.name  "cms-sync[bot]"
+          git config user.email "cms-sync@jaguar-ltd.com"
+          git add src/data/machines/yilmaz/
+          git add src/data/yilmaz.json
+          git add src/data/_staging/
+          git diff --staged --quiet || git commit -m "feat(machines): add new machines from staging $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Send email to admins
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: 587
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "[Jaguar LTD CI] 🚀 Siteye Eklendi — ${{ steps.apply.outputs.applied }} yeni makine"
+          to: ${{ secrets.ADMIN_EMAILS }}
+          from: "Jaguar CI <${{ secrets.MAIL_USERNAME }}>"
+          body: |
+            ${{ steps.apply.outputs.email_body }}

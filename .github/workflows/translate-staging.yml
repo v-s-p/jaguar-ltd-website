@@ -1,0 +1,51 @@
+name: "2️⃣ Translate Staging (manual)"
+
+on:
+  workflow_dispatch:   # Sadece elle tetiklenir — admin kararı
+
+jobs:
+  translate:
+    name: Translate New Machines (BG + RU)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run translation
+        id: translate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/translate_staging.py
+
+      - name: Commit updated staging file
+        run: |
+          git config user.name  "translate-bot[bot]"
+          git config user.email "translate-bot@jaguar-ltd.com"
+          git add src/data/_staging/
+          git diff --staged --quiet || git commit -m "chore(translate): staging BG+RU $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Send email to admins
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: 587
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "[Jaguar LTD CI] 🌐 Çeviri Tamamlandı — ${{ steps.translate.outputs.success }} makine"
+          to: ${{ secrets.ADMIN_EMAILS }}
+          from: "Jaguar CI <${{ secrets.MAIL_USERNAME }}>"
+          body: |
+            ${{ steps.translate.outputs.email_body }}
