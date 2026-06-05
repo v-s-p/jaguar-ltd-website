@@ -11,7 +11,7 @@
         "name": "ACK 420 S - Up-Cutting Saw Machine",
         "description": "ACK 420 S is designed for the strait or angular cutting operations of the large size of profiles made of PVC and aluminium materials by means of Ø 420 mm of saw blade.",
         "pdf_catalog": "/catalogs/yilmaz/ALUMINIUM-KATALOG.pdf",
-        "video": "https://www.youtube.com/watch?v=7LWb7h5pk7s",
+        "video": "https://www.youtube.com/watch?v=wo8fT3YyRKg&t=177s",
         "images": [
           "/images/yilmaz/ack-420-s-up-cutting-saw-machine_1.png",
           "/images/yilmaz/ack-420-s-up-cutting-saw-machine_2.png",
@@ -148,13 +148,13 @@
           ]
         },
         "technical_data": {
-          "Weight": "250 Kg / 205 Kg",
-          "Dimensions (cm)": "113x426x131",
-          "Pressure": "6-8 bar",
-          "Flow Rate": "130 L/min.",
-          "Saw Diameter": "Ø:420- d:Ø30/32 mm",
+          "Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz.",
           "Saw Rotation Speed": "2900 RPM",
-          "Power": "2.2 kW / 400V AC 3P+PE / 50/60 Hz."
+          "Saw Diameter": "Ø:420- d:Ø30/32 mm",
+          "Flow Rate": "130 L/min.",
+          "Pressure": "6-8 bar",
+          "Dimensions (cm)": "113x426x131",
+          "Weight": "250 Kg / 205 Kg"
         }
       }
     },
