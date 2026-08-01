@@ -1,0 +1,118 @@
+{
+  "scraped_at": "2026-08-01T05:59:38.548093+00:00",
+  "brand": "yilmaz",
+  "new_machines": [
+    {
+      "site_slug": "aim-3410-aim-3410-cbn-aluminium-profile-machining-center",
+      "categories": [
+        "Aluminium"
+      ],
+      "subcategory": "Processing Centers",
+      "sub_subcategory": "Profile Machining And Cutting Center",
+      "name_en": null,
+      "description_en": null,
+      "name_bg": null,
+      "description_bg": null,
+      "name_ru": null,
+      "description_ru": null,
+      "translated": false,
+      "applied": false
+    },
+    {
+      "site_slug": "alm-6510-aluminyum-profil-isleme-ve-kesme-merkezi",
+      "categories": [
+        "Aluminium"
+      ],
+      "subcategory": "Processing Centers",
+      "sub_subcategory": "Profile Machining And Cutting Center",
+      "name_en": null,
+      "description_en": null,
+      "name_bg": null,
+      "description_bg": null,
+      "name_ru": null,
+      "description_ru": null,
+      "translated": false,
+      "applied": false
+    }
+  ],
+  "taxonomy_diffs": [
+    {
+      "slug": "vce-4000",
+      "field": "categories",
+      "current": [
+        "PVC"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['Aluminium']"
+    },
+    {
+      "slug": "wb-4000-work-bench",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    },
+    {
+      "slug": "gas-301",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    },
+    {
+      "slug": "rt-1000-rotating-table",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    },
+    {
+      "slug": "pwb-4100",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    },
+    {
+      "slug": "ryk-420-w-radial-saw-machine",
+      "field": "categories",
+      "current": [
+        "Aluminium"
+      ],
+      "site_value": [
+        "Aluminium",
+        "PVC"
+      ],
+      "note": "Site'de ek kategori: ['PVC']"
+    }
+  ],
+  "summary": {
+    "existing_count": 88,
+    "site_count": 89,
+    "new_count": 2,
+    "diff_count": 6
+  }
+}
